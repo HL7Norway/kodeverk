@@ -9,7 +9,7 @@ I første omgang skal det støtte behovet i [NILAR](https://github.com/HL7Norway
 ## Plan
 
 - [ ] Utvikle faste mapping-regler som muliggjør scripting
-  - [ ] Legges inn som en del av doc/IG og forvaltes der (tas ut fra denne siden)
+  - [X] Legges inn som en del av doc/IG og forvaltes der (tas ut fra denne siden)
 - [ ] Utvikle en [mal](https://github.com/HL7Norway/kodeverk/blob/main/input/fsh/codesystems/no-kodeverk-volven-mal.fsh) som gjør det mulig å håndkode og generere CodeSystem ved hjelp av [Shorthand](http://hl7.org/fhir/uv/shorthand/). Alle eller deler av disse vil ikke inneholde kodeverdier fra start.
 - [ ] Generere en IG og/eller pakke for publisering
 
@@ -31,16 +31,7 @@ no-kodeverk-sysvak-varighet / no-kodeverk-vaksinesysvak-varighet / no-kodeverk-s
 
 ## Mapping
 
-TODO
-
-| Volven        | FHIR CodeSystem | FSH |
-| ------------- | ------------- | ---------|
-| Navn | CodeSysten.name (navneregel TODO) | |
-| Navn  | CodeSystem.title | * ^title |
-| OID  | CodeSystem.identifier.system  | * ^identifier.system = "oid" |
-| OID  | CodeSystem.identifier.value  | * ^identifier.value |
-| Ansvarlig organisasjon | CodeSystem.publisher | * ^publisher |
-| etc | etc | |
+TODO - [Utkast/kladd ligger nå her](input/pagecontent/mapping.md)
 
 ## Dokumentasjon og bakgrunnsinformasjon
 
