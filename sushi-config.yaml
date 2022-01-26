@@ -1,0 +1,35 @@
+# ╭──────────────────────────────────────ImplementationGuide───────────────────────────────────────╮
+# │  The properties below are used to create the ImplementationGuide resource. For a list of       │
+# │  supported properties, see: https://fshschool.org/docs/sushi/configuration/                    │
+# ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
+canonical: http://hl7.no/fhir
+name: NoKodeverk
+fhirVersion: 4.0.1
+FSHOnly: false
+applyExtensionMetadataToRoot: false
+id: hl7.fhir.no.kodeverk
+status: active
+version: 2.3.0
+releaseLabel: ci-build
+copyrightYear: 2021+
+jurisdiction: urn:iso:std:iso:3166#NO "Norway"
+
+# ╭────────────────────────────────────────────menu.xml────────────────────────────────────────────╮
+# │  To use a provided input/includes/menu.xml file, delete the "menu" property below.             │
+# ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
+menu:
+  Home: index.html
+#  Guidance:
+#     Data types: Datatypes.html
+#     Appointment and Encounter: Appointment-and-Encounter.html
+  Artifacts: 
+#    Search Parameters: artifacts.html#1
+#    Profiles: artifacts.html#2
+#    Extensions: artifacts.html#3
+    Value Sets: artifacts.html#4
+    Code Systems: artifacts.html#5
+    Naming Systems: artifacts.html#6
+    Examples: artifacts.html#7
+#  Changelog: 
+#    R4 Changelog: https://raw.githubusercontent.com/HL7Norway/basisprofiler-r4/master/Changelog-21.md
+#    STU3 Changelog: Changelog-STU3.html
