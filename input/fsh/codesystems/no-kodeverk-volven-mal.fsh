@@ -12,5 +12,6 @@ Description: "Beskrivelse av kodeverket"
 * ^date = "2022-01-26T08:00:00+00:00"
 * ^publisher = "Utgiver av kodeverket"
 * ^content = #complete
+// * ^content = #not-present
 * #kode-1 "Kode 1 kortnavn" "Beskrivelse av kode 1"
 * #kode-2 "Kode 2 kortnavn" "Beskrivelse av kode 2"
