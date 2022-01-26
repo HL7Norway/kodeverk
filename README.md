@@ -24,9 +24,10 @@ no-kodeverk-sysvak-varighet / no-kodeverk-vaksinesysvak-varighet / no-kodeverk-s
 
 TODO
 
-## Se også
+## Dokumentasjon og bakgrunnsinformasjon
 
 * [Code systems - HL7 FHIR](https://www.hl7.org/fhir/terminologies-systems.html)
 * [Known identifier systems - HL7 FHIR](https://www.hl7.org/fhir/identifier-registry.html)
 * [Best practice - Kodeverk - HL7 Norge](https://hl7norway.github.io/best-practice/docs/codesystem.html)
 * [Vocabulary Work Group - HL7](https://confluence.hl7.org/display/VOC/Vocabulary+Work+Group)
+* [Migrating OIDs to FHIR](https://confluence.hl7.org/display/FHIR/Migrating+OIDs+to+FHIR)
