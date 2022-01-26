@@ -13,6 +13,10 @@ I første omgang skal det støtte behovet i [NILAR](https://github.com/HL7Norway
 - [ ] Utvikle en [mal](https://github.com/HL7Norway/kodeverk/blob/main/input/fsh/codesystems/no-kodeverk-volven-mal.fsh) som gjør det mulig å håndkode og generere CodeSystem ved hjelp av [Shorthand](http://hl7.org/fhir/uv/shorthand/). Alle eller deler av disse vil ikke inneholde kodeverdier fra start.
 - [ ] Generere en IG og/eller pakke for publisering
 
+### Senere...
+
+- [ ] Vurdere å flytte NamingSystem og evt CodingSystem fra no-basis hit
+
 ## Naming convention, forslag
 
 no-kodeverk[-samling]-navn
