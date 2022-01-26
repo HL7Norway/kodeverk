@@ -23,3 +23,8 @@ no-kodeverk-sysvak-varighet / no-kodeverk-vaksinesysvak-varighet / no-kodeverk-s
 ## Mapping
 
 TODO
+
+## Se også
+
+* [Andre kodeverk med OID](https://www.hl7.org/fhir/terminologies-systems.html)
+* [Best practice - Kodeverk - HL7 Norge](https://hl7norway.github.io/best-practice/docs/codesystem.html)
