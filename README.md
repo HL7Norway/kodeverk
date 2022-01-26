@@ -15,3 +15,7 @@ no-kodeverk-npr-janei
 
 no-kodeverk-volven-1101
 ```
+
+## Mapping
+
+TODO
