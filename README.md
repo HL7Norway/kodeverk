@@ -2,6 +2,8 @@
 
 *Under arbeid*
 
+*Kodeverk? Små og administrative kodeverk? Må ikke glemme at flere er helsefaglige, men inngår kanskje i "små".* 
+
 Midlertidig landingsplass for små og administrative kodeverk fra [Volven](https://volven.no), i form av [CodeSystem](https://www.hl7.org/fhir/codesystem.html) for bruk sammen med HL7 FHIR. 
 
 I første omgang skal det støtte behovet i [NILAR](https://github.com/HL7Norway/NILAR).
@@ -11,7 +13,7 @@ I første omgang skal det støtte behovet i [NILAR](https://github.com/HL7Norway
 - [ ] Utvikle faste mapping-regler som muliggjør scripting
   - [X] Legges inn som en del av doc/IG og forvaltes der (tas ut fra denne siden)
 - [ ] Utvikle en [mal](https://github.com/HL7Norway/kodeverk/blob/main/input/fsh/codesystems/no-kodeverk-volven-mal.fsh) som gjør det mulig å håndkode og generere CodeSystem ved hjelp av [Shorthand](http://hl7.org/fhir/uv/shorthand/). Alle eller deler av disse vil ikke inneholde kodeverdier fra start.
-- [ ] Generere en IG og/eller pakke for publisering
+- [ ] Generere en IG og/eller pakke for publisering. En pakke gjør at alle som trenger det automagisk kan "installere" alle kodeverk lokalt som et bibliotek på linje med programvareoppdatering.  
 
 ### Senere...
 
@@ -19,7 +21,8 @@ I første omgang skal det støtte behovet i [NILAR](https://github.com/HL7Norway
 
 ## Naming convention, forslag
 
-no-kodeverk[-samling]-navn
+no-kodeverk[-samling]-navn<br/>
+no-sak[-samling]-navn, SAK = små og administrative kodeverk
 
 Eksempler, forslag til debatt
 
