@@ -1,8 +1,15 @@
-# kodeverk
+# Kodeverk
 
 *Under arbeid*
 
-Repoet skal i første omgang inneholde CodeSystem fra Volven til bruk i NILAR-prosjektet. 
+Midlertidig landingsplass for små og administrative kodeverk fra Volven, i form av CodeSystem for bruk sammen med HL7 FHIR. I første omgang skal det støtte behovet i NILAR-prosjektet.
+
+## Plan
+
+* Utvikle faste mapping-regler som muliggjør scripting
+  * Legges inn som en del av doc/IG og forvaltes der 
+* Utvikle en [mal](https://github.com/HL7Norway/kodeverk/blob/main/input/fsh/codesystems/no-kodeverk-volven-mal.fsh) som gjør det mulig å håndkode og generere CodeSystem ved hjelp av [Shorthand](http://hl7.org/fhir/uv/shorthand/). Alle eller deler av disse vil ikke inneholde kodeverdier fra start.
+* Generere en IG og/eller pakke for publisering
 
 ## Naming convention, forslag
 
@@ -23,6 +30,12 @@ no-kodeverk-sysvak-varighet / no-kodeverk-vaksinesysvak-varighet / no-kodeverk-s
 ## Mapping
 
 TODO
+
+| Volven        | FHIR CodeSystem |
+| ------------- | ------------- |
+| Navn  | Content Cell  |
+| OID  | identifier.value  |
+| etc | etc |
 
 ## Dokumentasjon og bakgrunnsinformasjon
 
