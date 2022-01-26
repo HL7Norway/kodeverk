@@ -33,11 +33,14 @@ no-kodeverk-sysvak-varighet / no-kodeverk-vaksinesysvak-varighet / no-kodeverk-s
 
 TODO
 
-| Volven        | FHIR CodeSystem |
-| ------------- | ------------- |
-| Navn  | Content Cell  |
-| OID  | identifier.value  |
-| etc | etc |
+| Volven        | FHIR CodeSystem | FSH |
+| ------------- | ------------- | ---------|
+| Navn | CodeSysten.name (navneregel TODO) | |
+| Navn  | CodeSystem.title | * ^title |
+| OID  | CodeSystem.identifier.system  | * ^identifier.system = "oid" |
+| OID  | CodeSystem.identifier.value  | * ^identifier.value |
+| Ansvarlig organisasjon | CodeSystem.publisher | * ^publisher |
+| etc | etc | |
 
 ## Dokumentasjon og bakgrunnsinformasjon
 
