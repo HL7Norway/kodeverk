@@ -11,6 +11,7 @@ Description: "Beskrivelse av kodeverket"
 * ^identifier.value = "2.16.578.1.12.4.1.1.XXXX"
 // Alternativt: * ^identifier.value = "urn:oid:2.16.578.1.12.4.1.1.XXXX"
 * ^version = "1.0.0"
+* ^title = "Navn på kodeverket"
 * ^status = #draft
 * ^date = "2022-01-26T19:28:00+00:00"
 * ^publisher = "Utgiver av kodeverket"
