@@ -15,6 +15,7 @@ Description: "Beskrivelse av kodeverket"
 * ^date = "2022-01-26T19:28:00+00:00"
 * ^publisher = "Utgiver av kodeverket"
 * ^content = #complete
+// #not-present i stedet for #complete hvis det ikke er noen koder med
 // * ^content = #not-present
-* #kode-1 "Kode 1 kortnavn" "Beskrivelse av kode 1"
-* #kode-2 "Kode 2 kortnavn" "Beskrivelse av kode 2"
+// En slik linje per kode. Beskrivelse trenger ikke være med. 
+* #KODE "Kodetekst/skjermtekst" "Beskrivelse av koden."
