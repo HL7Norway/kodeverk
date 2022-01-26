@@ -9,6 +9,7 @@ Description: "Beskrivelse av kodeverket"
 // Har ikke funnet noe annet enn "oid" under, leter etter offisiell URI
 * ^identifier.system = "oid"
 * ^identifier.value = "2.16.578.1.12.4.1.1.XXXX"
+// Alternativt: * ^identifier.value = "urn:oid:2.16.578.1.12.4.1.1.XXXX"
 * ^version = "1.0.0"
 * ^status = #draft
 * ^date = "2022-01-26T19:28:00+00:00"
