@@ -6,20 +6,20 @@ Beskrivelse av mapping av små og administrative kodeverk fra [Volven.no](https:
 
 ## Felles for kodeverket
 
-| Volven        | FHIR CodeSystem | FSH | Note |
-| ------------- | ------------- | ---------|---|
-| n/a | CodeSysten.name | CodeSystem | 1 |
-| Navn | CodeSystem.title | Title | |
-| n/a | CodeSystem.id | Id | 2 |
-| Beskrivelse | Codesystem.description | Description | |
-| OID | CodeSystem.identifier.system<br/>CodeSystem.identifier.value | * ^identifier.system = "oid"<br/>* ^identifier.value | |
-| n/a | CodeSystem.version | * ^version | 3 |
-| Status | CodeSystem.status | *^status | 4 |
-| Dato fra "Status" | CodeSystem.date | * ^date | 5 |
-| Ansvarlig organisasjon | CodeSystem.publisher | * ^publisher | |
-| n/a | CodeSystem.content | * ^content | 6 |
+| Volven        | FHIR CodeSystem | FSH | Note | Krav |
+| ------------- | ------------- | ---------|---|---|
+| | CodeSysten.name | CodeSystem | 1 | ✓ |
+| Navn | CodeSystem.title | Title | | ✓ |
+| | CodeSystem.id | Id | 2 | ✓ |
+| Beskrivelse | Codesystem.description | Description | | |
+| OID | CodeSystem.identifier.system<br/>CodeSystem.identifier.value | * ^identifier.system = "oid"<br/>* ^identifier.value | | ✓ |
+| | CodeSystem.version | * ^version | 3 | |
+| Status | CodeSystem.status | *^status | 4 | ✓ |
+| Dato fra "Status" | CodeSystem.date | * ^date | 5 | |
+| Ansvarlig organisasjon | CodeSystem.publisher | * ^publisher | | |
+| | CodeSystem.content | * ^content | 6 | ✓ |
 
-**DEBATT** Bygge obligatorisk/minstekrav inn i tabell?
+**DEBATT** Bygge obligatorisk/minstekrav inn i tabell? Tester ut med  ✓, men kan vurdere kardinalitet. Krav i forbindelse med denne IG, ikke FHIR generelt. 
 
 ### Noter
 
@@ -33,15 +33,17 @@ Beskrivelse av mapping av små og administrative kodeverk fra [Volven.no](https:
 
 ### Enkeltkoder
 
-| Volven        | FHIR CodeSystem | FSH |
-| ------------- | ------------- | ---------|
-| Kode | CodeSystem.concept.code | Se syntaks |
-| Kodetekst | CodeSystem.concept.display | Se syntaks |
+| Volven        | FHIR CodeSystem | FSH | Krav |
+| ------------- | ------------- | ---------|---|
+| Kode | CodeSystem.concept.code | Se syntaks | ✓ |
+| Kodetekst | CodeSystem.concept.display | Se syntaks | ✓ |
 | Beskrivelse | CodeSystem.concept.definition | Se syntaks |
 
 ### Syntaks for FSH
 
 <pre>* #{code} #{child code} "{display string}" "{definition}"</pre>
+
+*{definition}* er frivillig. 
 
 #### Eksempler på enkeltkoder
 
