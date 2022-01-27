@@ -44,7 +44,7 @@ Beskrivelse av mapping av små og administrative kodeverk fra [Volven.no](https:
 
 <pre>* #{code} #{child code} "{display string}" "{definition}"</pre>
 
-*{definition}* er frivillig. 
+*{definition}* er frivillig. *{child code}* benyttes ikke. 
 
 #### Eksempler på enkeltkoder
 
