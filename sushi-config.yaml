@@ -8,8 +8,8 @@ fhirVersion: 4.0.1
 FSHOnly: false
 applyExtensionMetadataToRoot: false
 id: hl7.fhir.no.kodeverk
-status: active
-version: 1.0.0
+status: draft
+version: 0.0.1
 releaseLabel: ci-build
 copyrightYear: 2021+
 jurisdiction: urn:iso:std:iso:3166#NO "Norway"
@@ -23,7 +23,7 @@ menu:
      Mapping: mapping.html
   Artifacts: 
 #    Value Sets: artifacts.html#4
-    Code Systems: artifacts.html#5
+    Code Systems: artifacts.html
 #    Naming Systems: artifacts.html#6
 #    Examples: artifacts.html#7
 #  Changelog: 
