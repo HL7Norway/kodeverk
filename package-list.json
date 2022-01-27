@@ -1,0 +1,16 @@
+{
+  "package-id": "hl7.fhir.no.kodeverk",
+  "title": "HL7 FHIR Kodeverk",
+  "canonical": "http://hl7.no/fhir/kodeverk/ImplementationGuide/hl7.fhir.no.kodeverk",
+  "introduction": "Intro text",
+  "category": null,
+  "list": [
+    {
+      "version": "current",
+      "desc": "Continuous Integration Build",
+      "path": "http://localhost/",
+      "status": "ci-build",
+      "current": true
+    }
+  ]
+}
