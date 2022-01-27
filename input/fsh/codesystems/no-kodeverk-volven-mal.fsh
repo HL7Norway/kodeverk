@@ -11,8 +11,8 @@ Description: "Beskrivelse av kodeverket"
 * ^status = #draft
 * ^date = "2022-01-26T19:28:00+00:00"
 * ^publisher = "Utgiver av kodeverket"
-* ^content = #complete
 // #not-present i stedet for #complete hvis det ikke er noen koder med
-// * ^content = #not-present
+* ^content = #not-present
+// * ^content = #complete
 // En slik linje per kode. Beskrivelse trenger ikke være med. 
-* #KODE "Kodetekst/skjermtekst" "Beskrivelse av koden."
+// * #KODE "Kodetekst/skjermtekst" "Beskrivelse av koden."
