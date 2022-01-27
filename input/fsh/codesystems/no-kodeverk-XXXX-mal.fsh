@@ -5,7 +5,7 @@ Id: no-kodeverk-XXXX.codesystem
 Title: "Kodeverkets navn" // CodeSystem.title, for mennesker
 Description: "Beskrivelse av kodeverket"
 * ^url = "http://ehelse.no/fhir/CodeSystem/no-kodeverk-XXXX"
-* ^identifier.system = "oid" // Har ikke funnet noe annet enn "oid" under, leter etter offisiell URI
+* ^identifier.system = "oid" // Har ikke funnet noe annet enn "oid" under, leter etter offisiell URI, returnerer ERROR i ig-publisher
 * ^identifier.value = "2.16.578.1.12.4.1.1.XXXX"
 * ^version = "1.0" // DEBATT Vurdere om vi trenger
 * ^status = #draft // Gjøres om fra draft til active etter QA
