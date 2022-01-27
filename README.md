@@ -1,9 +1,5 @@
 # Kodeverk
 
-*Under arbeid*
-
-*Kodeverk? Små og administrative kodeverk? Må ikke glemme at flere er helsefaglige, men inngår kanskje i "små".* 
-
 Midlertidig landingsplass for små og administrative kodeverk fra [Volven](https://volven.no), i form av [CodeSystem](https://www.hl7.org/fhir/codesystem.html) for bruk sammen med HL7 FHIR. 
 
 I første omgang skal det støtte behovet i [NILAR](https://github.com/HL7Norway/NILAR).
@@ -31,7 +27,7 @@ XXXX er de fire siste sifrene i OID, som i eksempel 2.16.578.1.12.4.1.1.**1101**
 
 ## Mapping
 
-TODO - [Utkast/kladd ligger nå her](input/pagecontent/mapping.md)
+[Utkast/kladd ligger her](input/pagecontent/mapping.md)
 
 ## Dokumentasjon og bakgrunnsinformasjon
 
