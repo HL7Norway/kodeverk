@@ -39,3 +39,6 @@ XXXX er de fire siste sifrene i OID, som i eksempel 2.16.578.1.12.4.1.1.**1101**
 * [Vocabulary Work Group - HL7](https://confluence.hl7.org/display/VOC/Vocabulary+Work+Group)
 * [Migrating OIDs to FHIR](https://confluence.hl7.org/display/FHIR/Migrating+OIDs+to+FHIR)
 
+# Tilbakemeldinger
+
+Alle tilbakemeldinger om feil, bugs, skrivefeil, ønsker etc. skal [legges inn som issues](https://github.com/HL7Norway/kodeverk/issues). 
