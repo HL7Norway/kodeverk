@@ -53,7 +53,7 @@ Beskrivelse av mapping av små og administrative kodeverk fra [Volven.no](https:
 
 ## Anbefalt filnavn
 
-```"no-kodeverk-XXXX.codesystem"```, der XXXX er fire siste sifre i OID.
+```no-kodeverk-XXXX.codesystem```, der XXXX er fire siste sifre i OID.
 
 ## Obligatorisk/minstekrav
 
