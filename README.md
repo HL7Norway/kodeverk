@@ -21,22 +21,13 @@ I første omgang skal det støtte behovet i [NILAR](https://github.com/HL7Norway
 
 - [ ] Vurdere å flytte NamingSystem og evt CodingSystem fra no-basis hit
 
-## Naming convention, forslag
+## Naming convention
 
-no-kodeverk[-samling]-navn<br/>
-no-sak[-samling]-navn, SAK = små og administrative kodeverk
+Anbefaling diskutert 2022-01-27 (Anette, Jostein, Thomas, Espen):
 
-Eksempler, forslag til debatt
+<pre>no-kodeverk-XXXX(.codesystem)</pre>
 
-```
-no-kodeverk-npr-janei / no-kodeverk-npr-1101
-
-no-kodeverk-volven-1101
-
-no-kodeverk-epjstd-9209 / no-kodeverk-epjstd-tilknytning-mappeinnhold ??
-
-no-kodeverk-sysvak-varighet / no-kodeverk-vaksinesysvak-varighet / no-kodeverk-sysvak-9552
-```
+XXXX er de fire siste sifrene i OID, som i eksempel 2.16.578.1.12.4.1.1.**1101**.
 
 ## Mapping
 
@@ -50,6 +41,3 @@ TODO - [Utkast/kladd ligger nå her](input/pagecontent/mapping.md)
 * [Vocabulary Work Group - HL7](https://confluence.hl7.org/display/VOC/Vocabulary+Work+Group)
 * [Migrating OIDs to FHIR](https://confluence.hl7.org/display/FHIR/Migrating+OIDs+to+FHIR)
 
-## Kontaktperson
-
-Espen
