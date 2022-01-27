@@ -1,10 +1,6 @@
 name: kodeverk-gh-pages
 
 on:
-  push:
-    branches: [main]
-    paths:
-      - input/**
   workflow_dispatch:
 
 env:
@@ -52,7 +48,7 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ${{ env.IG }}/output
-          destination_dir: ${{ env.IG }}/CurrentBuild
+          publish_dir: ./output
+          destination_dir: currentbuild
           exclude_assets: '**.zip,**.tgz,**.pack'
           commit_message: '${{ env.IG }}: ${{ github.event.head_commit.message }}'
