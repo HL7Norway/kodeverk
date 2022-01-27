@@ -1,9 +1,6 @@
 name: kodeverk-gh-pages
 
 on:
-  push:
-    branches: [main]
-    paths:
   workflow_dispatch:
 
 env:
