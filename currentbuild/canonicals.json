@@ -1,0 +1,23 @@
+[
+  {
+    "id": "no-kodeverk-1101.codesystem",
+    "type": "CodeSystem",
+    "url": "http://ehelse.no/fhir/CodeSystem/no-kodeverk-1101",
+    "version": "0.0.1",
+    "name": "NoKodeverk1101"
+  },
+  {
+    "id": "no-kodeverk-XXXX.codesystem",
+    "type": "CodeSystem",
+    "url": "http://ehelse.no/fhir/CodeSystem/no-kodeverk-XXXX",
+    "version": "0.0.1",
+    "name": "NoKodeverkXXXX"
+  },
+  {
+    "id": "hl7.fhir.no.kodeverk",
+    "type": "ImplementationGuide",
+    "url": "http://hl7.no/fhir/ImplementationGuide/hl7.fhir.no.kodeverk",
+    "version": "0.0.1",
+    "name": "NoKodeverk"
+  }
+]
