@@ -12,6 +12,8 @@ I første omgang skal det støtte behovet i [NILAR](https://github.com/HL7Norway
 - [ ] Skrive øvrig dokumentasjon
 - [ ] Generere en IG og/eller pakke for publisering. <br />En pakke gjør at alle som trenger det automagisk kan "installere" alle kodeverk lokalt som et bibliotek på linje med programvareoppdatering. 
   - [ ] Lage instruksjoner om hvordan generere IG og innhold (FSH, md -> JSON,HTML) 
+  - [ ] Hvordan brukes pakken i IG, ValueSets og profiler, sjekke at det validerer i en test-IG
+  - [ ] Hvordan brukes pakken i instanser, sjekke at det validerer i en test-IG
 
 ### Senere...
 
