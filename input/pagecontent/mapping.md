@@ -1,11 +1,12 @@
+
 *Placeholder / kladd / under arbeid*
 
 Beskrivelse av mapping av små og administrative kodeverk fra [Volven.no](https://volven.no) med tilhørende OID til [FHIR CodeSystem](https://www.hl7.org/fhir/codesystem.html) og [FHIR Shorthand](http://hl7.org/fhir/uv/shorthand/) (FSH). 
 
 ## Felles for kodeverket
 
-| Volven        | FHIR CodeSystem | FSH | Note | Krav |
-| ------------- | ------------- | ---------|---|---|
+| Volven | FHIR CodeSystem | FSH | Note | Krav |
+| ------ | --------------- | ----|------|------|
 | | CodeSysten.name | CodeSystem | 1 | ✓ |
 | Navn | CodeSystem.title | Title | | ✓ |
 | | CodeSystem.id | Id | 2 | ✓ |
@@ -21,8 +22,8 @@ Beskrivelse av mapping av små og administrative kodeverk fra [Volven.no](https:
 
 ### Noter
 
-1. Navneregel: ```NoKodeverkXXX```, der XXXX er fire site sifre i OID
-2. Navneregel: ```no-kodeverk-XXXX.codesystem```, der XXXX er fire siste sifre i OID
+1. Navneregel: `NoKodeverkXXX`, der XXXX er fire site sifre i OID
+2. Navneregel: `no-kodeverk-XXXX.codesystem`, der XXXX er fire siste sifre i OID
 3. Full OID i *value*
 4. Vurdere om vi trenger versjon - men hvis det er sant at det er vanlig å oppdatere er forslaget å ta den i bruk, og å sette version = "1.0"
 5. "Til utbredelse eller er i bruk" = *#active*, men under utvikling og før QA brukes *#draft*. 
@@ -56,4 +57,4 @@ Beskrivelse av mapping av små og administrative kodeverk fra [Volven.no](https:
 
 ## Anbefalt filnavn
 
-```no-kodeverk-XXXX.codesystem```, der XXXX er fire siste sifre i OID.
+`no-kodeverk-XXXX.codesystem`, der XXXX er fire siste sifre i OID.
