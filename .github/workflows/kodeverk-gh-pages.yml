@@ -50,5 +50,5 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./output
           destination_dir: currentbuild
-          exclude_assets: '**.zip,**.tgz,**.pack'
+          exclude_assets: '**.zip,**.pack'
           commit_message: '${{ env.IG }}: ${{ github.event.head_commit.message }}'
