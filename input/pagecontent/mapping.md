@@ -31,7 +31,7 @@ XXXX er de fire siste sifrene i OID, som i eksempel 2.16.578.1.12.4.1.1.**1101**
 1. Navneregel: `NoKodeverkXXX`, der XXXX er fire site sifre i OID
 2. Navneregel: `no-kodeverk-XXXX.codesystem`, der XXXX er fire siste sifre i OID
 3. Full OID i *value*
-4. Vurdere om vi trenger versjon - men hvis det er sant at det er vanlig å oppdatere er forslaget å ta den i bruk, og å sette version = "1.0"
+4. Vurdere om vi trenger versjon - men hvis det er sant at det er vanlig å oppdatere er forslaget å ta den i bruk, og å sette version = "1.0", se [issue #6](https://github.com/HL7Norway/kodeverk/issues/6)
 5. "Til utbredelse eller er i bruk" = *#active*, men under utvikling og før QA brukes *#draft*. 
 6. **DEBATT** Kan muligens ikke mappes lett med script, vurdere om nødvendig
 7. Hvis CodeSystem ikke inneholder koder: *#not-present*, ellers *#complete* eller annen -- [se verdisett](https://www.hl7.org/fhir/valueset-codesystem-content-mode.html).
