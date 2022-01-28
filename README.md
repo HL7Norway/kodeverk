@@ -15,14 +15,6 @@ I første omgang skal det støtte behovet i [NILAR](https://github.com/HL7Norway
   - [ ] Hvordan brukes pakken i IG, ValueSets og profiler, sjekke at det validerer i en test-IG
   - [ ] Hvordan brukes pakken i instanser, sjekke at det validerer i en test-IG
 
-## Naming convention
-
-Anbefaling diskutert 2022-01-27 (Anette, Jostein, Thomas, Espen):
-
-<pre>no-kodeverk-XXXX(.codesystem)</pre>
-
-XXXX er de fire siste sifrene i OID, som i eksempel 2.16.578.1.12.4.1.1.**1101**.
-
 ## Dokumentasjon implementasjonsguide
 
 * [Forside (index)](input/pagecontent/index.md)
