@@ -31,7 +31,12 @@ XXXX er de fire siste sifrene i OID, som i eksempel 2.16.578.1.12.4.1.1.**1101**
 
 [Utkast/kladd ligger her](input/pagecontent/mapping.md)
 
-## Dokumentasjon og bakgrunnsinformasjon
+## Intern dokumentasjon
+
+* [Mapping av kodeverk](input/pagecontent/mapping.md)
+* [Bruttoliste kodeverk NILAR](input/pagecontent/nilar.md)
+
+## Ekstern dokumentasjon
 
 * [Code systems - HL7 FHIR](https://www.hl7.org/fhir/terminologies-systems.html)
 * [Known identifier systems - HL7 FHIR](https://www.hl7.org/fhir/identifier-registry.html)
