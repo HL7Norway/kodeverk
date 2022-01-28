@@ -7,7 +7,7 @@ Description: "Beskrivelse av kodeverket"
 * ^url = "http://ehelse.no/fhir/CodeSystem/no-kodeverk-XXXX"
 * ^identifier.system = "oid" // Har ikke funnet noe annet enn "oid" under, leter etter offisiell URI, returnerer ERROR i ig-publisher
 * ^identifier.value = "2.16.578.1.12.4.1.1.XXXX"
-* ^version = "1.0" // DEBATT Vurdere om vi trenger
+* ^version = "1.0" // DEBATT Vurdere om vi trenger, se issue #6
 * ^status = #draft // Gjøres om fra draft til active etter QA
 * ^date = "2022-01-26T19:28:00+00:00" // Er vel ikke nødvendig med klokkeslett? Test. Thomas?
 * ^publisher = "Direktoratet for e-helse" // Endres om ønskelig
