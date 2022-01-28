@@ -4,15 +4,15 @@
 
 | Kode | OID/ID | Kommentar/lenke | Navn |
 |------|--------|-----------------|------|
-| HER | urn:oid:2.16.578.1.12.4.1.2 | NamingSystem |  |
-| FNR | urn:oid:2.16.578.1.12.4.1.4.1 | NamingSystem |  |
-| DNR | urn:oid:2.16.578.1.12.4.1.4.2 | NamingSystem |  |
-| FHN | urn:oid:2.16.578.1.12.4.1.4.3 | NamingSystem |  |
-| HPR | urn:oid:2.16.578.1.12.4.1.4.4 | NamingSystem |  |
-| DUF | urn:oid:2.16.578.1.12.4.1.4.5 | NamingSystem? |  |
-| ENH | urn:oid:2.16.578.1.12.4.1.4.101 | NamingSystem? |  |
-| RSH | urn:oid:2.16.578.1.12.4.1.4.102 | NamingSystem? |  |
-| AKO | urn:oid:2.16.578.1.12.4.1.4.107 | NamingSystem? |  |
+| HER | urn:oid:2.16.578.1.12.4.1.2 | NamingSystem. Finnes? |  |
+| FNR | urn:oid:2.16.578.1.12.4.1.4.1 | [NamingSystem](https://github.com/HL7Norway/basisprofiler-r4/blob/master/NamingSystem/no-basis-fodselsnummer.namingsystem.xml) |  |
+| DNR | urn:oid:2.16.578.1.12.4.1.4.2 | [NamingSystem](https://github.com/HL7Norway/basisprofiler-r4/blob/master/NamingSystem/no-basis-dnummer.namingsystem.xml) |  |
+| FHN | urn:oid:2.16.578.1.12.4.1.4.3 | [NamingSystem](https://github.com/HL7Norway/basisprofiler-r4/blob/master/NamingSystem/no-basis-felleshjelpenummer.namingsystem.xml) |  |
+| HPR | urn:oid:2.16.578.1.12.4.1.4.4 | [NamingSystem](https://github.com/HL7Norway/basisprofiler-r4/blob/master/NamingSystem/no-basis-helsepersonellnummer.namingsystem.xml) |  |
+| DUF | urn:oid:2.16.578.1.12.4.1.4.5 | [NamingSystem](https://github.com/HL7Norway/basisprofiler-r4/blob/master/NamingSystem/no-basis-dufnummer.namingsystem.xml) |  |
+| ENH | urn:oid:2.16.578.1.12.4.1.4.101 | NamingSystem? Ekstern? |  |
+| RSH | urn:oid:2.16.578.1.12.4.1.4.102 | NamingSystem nødvendig? |  |
+| AKO | urn:oid:2.16.578.1.12.4.1.4.107 | NamingSystem nødvendig. Finnes? |  |
 | 7010 | urn:oid:2.16.578.1.12.4.1.1.7010 | Tomt | Norsk patologikodeverk |
 | 7270 | urn:oid:2.16.578.1.12.4.1.1.7270 | Tomt | NCRP |
 | 7280 | urn:oid:2.16.578.1.12.4.1.1.7280 | Tomt | Norsk laboratoriekodeverk |
