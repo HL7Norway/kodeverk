@@ -1,0 +1,41 @@
+# Bruttoliste kodeverk NILAR
+
+*Under arbeid*
+
+| Kode | OID/ID | Kommentar/lenke | Navn |
+|------|--------|-----------------|------|
+| HER | urn:oid:2.16.578.1.12.4.1.2 | NamingSystem |  |
+| FNR | urn:oid:2.16.578.1.12.4.1.4.1 | NamingSystem |  |
+| DNR | urn:oid:2.16.578.1.12.4.1.4.2 | NamingSystem |  |
+| FHN | urn:oid:2.16.578.1.12.4.1.4.3 | NamingSystem |  |
+| HPR | urn:oid:2.16.578.1.12.4.1.4.4 | NamingSystem |  |
+| DUF | urn:oid:2.16.578.1.12.4.1.4.5 | NamingSystem? |  |
+| ENH | urn:oid:2.16.578.1.12.4.1.4.101 | NamingSystem? |  |
+| RSH | urn:oid:2.16.578.1.12.4.1.4.102 | NamingSystem? |  |
+| AKO | urn:oid:2.16.578.1.12.4.1.4.107 | NamingSystem? |  |
+| 7010 | urn:oid:2.16.578.1.12.4.1.1.7010 | Tomt | Norsk patologikodeverk |
+| 7270 | urn:oid:2.16.578.1.12.4.1.1.7270 | Tomt | NCRP |
+| 7280 | urn:oid:2.16.578.1.12.4.1.1.7280 | Tomt | Norsk laboratoriekodeverk |
+| 7305 | urn:oid:2.16.578.1.12.4.1.1.7305 | 6 koder | Moderator |
+| 8116 | urn:oid:2.16.578.1.12.4.1.1.8116 | 14 koder. Eksisterer? | ID-type for personer |
+| 8202 | urn:oid:2.16.578.1.12.4.1.1.8202 | 19 koder | Type laboratoriemelding |
+| 8216 | urn:oid:2.16.578.1.12.4.1.1.8216 | 19 koder | Kodeverk for cytologisk materiale |
+| 8219 | urn:oid:2.16.578.1.12.4.1.1.8219 | 33? koder | Kodeverk for patologisk-anatomiske undersøkelser |
+| 8231 | urn:oid:2.16.578.1.12.4.1.1.8231 | 19 koder | Type tekstsvar |
+| 8232 | urn:oid:2.16.578.1.12.4.1.1.8232 | 4 koder | Forbehandling |
+| 8239 | urn:oid:2.16.578.1.12.4.1.1.8239 | 8 koder | Forholdsoperatorer i svarrapportering av medisinske tjenester  |
+| 8243 | urn:oid:2.16.578.1.12.4.1.1.8243 | 10 koder | Type tekstsvar i tekstlig resultat i svarrapportering av medisinske tjenester |
+| 8244 | urn:oid:2.16.578.1.12.4.1.1.8244 | 3 koder | Avviksmarkør i svarrapportering av medisinske tjenester |
+| 8245 | urn:oid:2.16.578.1.12.4.1.1.8245 | 15 koder | Status for resultat i svarrapportering av medisinske tjenester |
+| 8264 | urn:oid:2.16.578.1.12.4.1.1.8264 | 27 koder | Tjenestekoder for timereservasjon |
+| 8268 | urn:oid:2.16.578.1.12.4.1.1.8268 | 25 koder. Finnes? | Type identifikator |
+| 8269 | urn:oid:2.16.578.1.12.4.1.1.8269 | 4 koder | Kommentar til svarrapport |
+| 8271 | urn:oid:2.16.578.1.12.4.1.1.8271 | 3 koder | Resistens |
+| 8272 | urn:oid:2.16.578.1.12.4.1.1.8272 | 3 koder | Anbefaling om ny undersøkelse |
+| 8273 | urn:oid:2.16.578.1.12.4.1.1.8273 | 6 koder | Hastegrad |
+| 8275 | urn:oid:2.16.578.1.12.4.1.1.8275 | 3 koder | Cytologisk materiale tatt med |
+| 8327 | urn:oid:2.16.578.1.12.4.1.1.8327 | 4 koder | Offisiell personidentifikasjon |
+| 8351 | urn:oid:2.16.578.1.12.4.1.1.8351 | Tomt | Prøvemateriale |
+| 9060 | urn:oid:2.16.578.1.12.4.1.1.9060 | 26 koder. Finnes? | Kategori helsepersonell |
+| icd-10 | http://hl7.org/fhir/sid/icd-10 | Sjekk | |
+| Expertise | http://http://ehelse.no/fhir/CodeSystem/Expertise | Opprett, sjekk| |
