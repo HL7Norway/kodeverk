@@ -3,6 +3,12 @@
 
 Beskrivelse av mapping av små og administrative kodeverk fra [Volven.no](https://volven.no) med tilhørende OID til [FHIR CodeSystem](https://www.hl7.org/fhir/codesystem.html) og [FHIR Shorthand](http://hl7.org/fhir/uv/shorthand/) (FSH). 
 
+## Navngivning
+
+<pre>no-kodeverk-XXXX(.codesystem)</pre>
+
+XXXX er de fire siste sifrene i OID, som i eksempel 2.16.578.1.12.4.1.1.**1101**.
+
 ## Felles for kodeverket
 
 | Volven | FHIR CodeSystem | FSH | Note | Krav |
