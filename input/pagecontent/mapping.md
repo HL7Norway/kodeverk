@@ -17,7 +17,7 @@ XXXX er de fire siste sifrene i OID, som i eksempel 2.16.578.1.12.4.1.1.**1101**
 | Navn | CodeSystem.title | Title | | ✓ |
 | | CodeSystem.id | Id | 2 | ✓ |
 | Beskrivelse | Codesystem.description | Description | | |
-| OID | CodeSystem.identifier.system<br/>CodeSystem.identifier.value | * ^identifier.system = "oid"<br/>* ^identifier.value | 3 | ✓ |
+| OID | CodeSystem.identifier.system<br/>CodeSystem.identifier.value | * ^identifier.system = "urn:ietf:rfc:3986"<br/>* ^identifier.value | 3 | ✓ |
 | | CodeSystem.version | * ^version | 4 | |
 | Status | CodeSystem.status | *^status | 5 | ✓ |
 | Dato fra "Status" | CodeSystem.date | * ^date | 6 | |
