@@ -9,7 +9,7 @@
   <version value="0.0.1"/>
   <name value="NoKodeverk"/>
   <status value="draft"/>
-  <date value="2022-01-27T19:42:14+00:00"/>
+  <date value="2022-01-28T15:45:12+00:00"/>
   <jurisdiction>
     <coding>
       <system value="urn:iso:std:iso:3166"/>
@@ -207,6 +207,11 @@
       <page>
         <nameUrl value="mapping.html"/>
         <title value="Mapping"/>
+        <generation value="markdown"/>
+      </page>
+      <page>
+        <nameUrl value="nilar.html"/>
+        <title value="Nilar"/>
         <generation value="markdown"/>
       </page>
     </page>

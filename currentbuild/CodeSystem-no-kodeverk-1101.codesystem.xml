@@ -7,8 +7,8 @@
   </text>
   <url value="http://ehelse.no/fhir/CodeSystem/no-kodeverk-1101"/>
   <identifier>
-    <system value="oid"/>
-    <value value="2.16.578.1.12.4.1.1.1101"/>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:oid:2.16.578.1.12.4.1.1.1101"/>
   </identifier>
   <version value="0.0.1"/>
   <name value="NoKodeverk1101"/>

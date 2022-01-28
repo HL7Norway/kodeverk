@@ -15,8 +15,8 @@
   fhir:CodeSystem.url [ fhir:value "http://ehelse.no/fhir/CodeSystem/no-kodeverk-XXXX"];
   fhir:CodeSystem.identifier [
      fhir:index 0;
-     fhir:Identifier.system [ fhir:value "oid" ];
-     fhir:Identifier.value [ fhir:value "2.16.578.1.12.4.1.1.XXXX" ]
+     fhir:Identifier.system [ fhir:value "urn:ietf:rfc:3986" ];
+     fhir:Identifier.value [ fhir:value "urn:oid:2.16.578.1.12.4.1.1.XXXX" ]
   ];
   fhir:CodeSystem.version [ fhir:value "0.0.1"];
   fhir:CodeSystem.name [ fhir:value "NoKodeverkXXXX"];

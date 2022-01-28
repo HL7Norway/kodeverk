@@ -97,6 +97,9 @@
       <li>
         <a href="mapping.html">Mapping</a>
       </li>
+      <li>
+        <a href="nilar.html">Kodeverk i NILAR</a>
+      </li>
     </ul>
   </li>
   <li class="dropdown">
@@ -156,24 +159,26 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
     <p>  <!-- white space is critical inside of capture --></p>
 <div class="markdown-toc">
 <ul id="markdown-toc">
-  <li><a href="#mapping" id="markdown-toc-mapping">Mapping</a>    <ul>
-      <li><a href="#felles-for-kodeverket" id="markdown-toc-felles-for-kodeverket">Felles for kodeverket</a>        <ul>
-          <li><a href="#noter" id="markdown-toc-noter">Noter</a></li>
-          <li><a href="#enkeltkoder" id="markdown-toc-enkeltkoder">Enkeltkoder</a></li>
-          <li><a href="#syntaks-for-fsh" id="markdown-toc-syntaks-for-fsh">Syntaks for FSH</a></li>
-        </ul>
-      </li>
-      <li><a href="#anbefalt-filnavn" id="markdown-toc-anbefalt-filnavn">Anbefalt filnavn</a></li>
+  <li><a href="#navngivning" id="markdown-toc-navngivning">Navngivning</a></li>
+  <li><a href="#felles-for-kodeverket" id="markdown-toc-felles-for-kodeverket">Felles for kodeverket</a>    <ul>
+      <li><a href="#noter" id="markdown-toc-noter">Noter</a></li>
+      <li><a href="#enkeltkoder" id="markdown-toc-enkeltkoder">Enkeltkoder</a></li>
     </ul>
   </li>
+  <li><a href="#anbefalt-filnavn" id="markdown-toc-anbefalt-filnavn">Anbefalt filnavn</a></li>
 </ul>
 
 </div>
-<h1 id="mapping">Mapping</h1>
 
 <p><em>Placeholder / kladd / under arbeid</em></p>
 
 <p>Beskrivelse av mapping av små og administrative kodeverk fra <a href="https://volven.no">Volven.no</a> med tilhørende OID til <a href="https://www.hl7.org/fhir/codesystem.html">FHIR CodeSystem</a> og <a href="http://hl7.org/fhir/uv/shorthand/">FHIR Shorthand</a> (FSH).</p>
+
+<h2 id="navngivning">Navngivning</h2>
+
+<pre>no-kodeverk-XXXX(.codesystem)</pre>
+
+<p>XXXX er de fire siste sifrene i OID, som i eksempel 2.16.578.1.12.4.1.1.<strong>1101</strong>.</p>
 
 <h2 id="felles-for-kodeverket">Felles for kodeverket</h2>
 
@@ -184,82 +189,94 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
       <th>FHIR CodeSystem</th>
       <th>FSH</th>
       <th>Note</th>
+      <th>Krav</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>n/a</td>
+      <td>&nbsp;</td>
       <td>CodeSysten.name</td>
       <td>CodeSystem</td>
       <td>1</td>
+      <td>✓</td>
     </tr>
     <tr>
       <td>Navn</td>
       <td>CodeSystem.title</td>
       <td>Title</td>
       <td>&nbsp;</td>
+      <td>✓</td>
     </tr>
     <tr>
-      <td>n/a</td>
+      <td>&nbsp;</td>
       <td>CodeSystem.id</td>
       <td>Id</td>
       <td>2</td>
+      <td>✓</td>
     </tr>
     <tr>
       <td>Beskrivelse</td>
       <td>Codesystem.description</td>
       <td>Description</td>
       <td>&nbsp;</td>
+      <td>&nbsp;</td>
     </tr>
     <tr>
       <td>OID</td>
       <td>CodeSystem.identifier.system<br/>CodeSystem.identifier.value</td>
-      <td>* ^identifier.system = “oid”<br/>* ^identifier.value</td>
-      <td>&nbsp;</td>
+      <td>* ^identifier.system = “urn:ietf:rfc:3986”<br/>* ^identifier.value</td>
+      <td>3</td>
+      <td>✓</td>
     </tr>
     <tr>
-      <td>n/a</td>
+      <td>&nbsp;</td>
       <td>CodeSystem.version</td>
       <td>* ^version</td>
-      <td>3</td>
+      <td>4</td>
+      <td>&nbsp;</td>
     </tr>
     <tr>
       <td>Status</td>
       <td>CodeSystem.status</td>
       <td>*^status</td>
-      <td>4</td>
+      <td>5</td>
+      <td>✓</td>
     </tr>
     <tr>
       <td>Dato fra “Status”</td>
       <td>CodeSystem.date</td>
       <td>* ^date</td>
-      <td>5</td>
+      <td>6</td>
+      <td>&nbsp;</td>
     </tr>
     <tr>
       <td>Ansvarlig organisasjon</td>
       <td>CodeSystem.publisher</td>
       <td>* ^publisher</td>
       <td>&nbsp;</td>
+      <td>&nbsp;</td>
     </tr>
     <tr>
-      <td>n/a</td>
+      <td>&nbsp;</td>
       <td>CodeSystem.content</td>
       <td>* ^content</td>
-      <td>6</td>
+      <td>7</td>
+      <td>✓</td>
     </tr>
   </tbody>
 </table>
 
-<p><strong>DEBATT</strong> Bygge obligatorisk/minstekrav inn i tabell?</p>
+<p><strong>DEBATT</strong> Bygge obligatorisk/minstekrav inn i tabell? Tester ut med  ✓, men kan vurdere kardinalitet. Krav i forbindelse med denne IG, ikke FHIR generelt.</p>
 
 <h3 id="noter">Noter</h3>
 
 <ol>
   <li>Navneregel: <code class="language-plaintext highlighter-rouge">NoKodeverkXXX</code>, der XXXX er fire site sifre i OID</li>
-  <li>Navneregel: <code class="language-plaintext highlighter-rouge">no-kodeverk-XXXX.codesystem</code>, der XXXX er fire siste sifre i OID</li>
-  <li>Vurdere om vi trenger versjon - men hvis det er sant at det er vanlig å oppdatere er forslaget å ta den i bruk, og å sette version = “1.0”</li>
+  <li>Navneregel: <code class="language-plaintext highlighter-rouge">no-kodeverk-XXXX.codesystem</code>, der XXXX er fire siste sifre i OID, se også <a href="https://github.com/HL7Norway/kodeverk/issues/5">issue #5</a></li>
+  <li>Full OID innledet av “urn:oid:” i <em>value</em>, se også <a href="https://github.com/HL7Norway/kodeverk/issues/1">issue #1</a></li>
+  <li>Vurdere om vi trenger versjon - men hvis det er sant at det er vanlig å oppdatere er forslaget å ta den i bruk, og å sette version = “1.0”, se <a href="https://github.com/HL7Norway/kodeverk/issues/6">issue #6</a></li>
   <li>“Til utbredelse eller er i bruk” = <em>#active</em>, men under utvikling og før QA brukes <em>#draft</em>.</li>
-  <li><strong>DEBATT</strong> Kan muligens ikke mappes lett med script, vurdere om nødvendig</li>
+  <li><strong>DEBATT</strong> Kan muligens ikke mappes lett med script, vurdere om nødvendig, se <a href="https://github.com/HL7Norway/kodeverk/issues/3">issue #3</a></li>
   <li>Hvis CodeSystem ikke inneholder koder: <em>#not-present</em>, ellers <em>#complete</em> eller annen – <a href="https://www.hl7.org/fhir/valueset-codesystem-content-mode.html">se verdisett</a>.</li>
 </ol>
 
@@ -271,6 +288,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
       <th>Volven</th>
       <th>FHIR CodeSystem</th>
       <th>FSH</th>
+      <th>Krav</th>
     </tr>
   </thead>
   <tbody>
@@ -278,23 +296,28 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
       <td>Kode</td>
       <td>CodeSystem.concept.code</td>
       <td>Se syntaks</td>
+      <td>✓</td>
     </tr>
     <tr>
       <td>Kodetekst</td>
       <td>CodeSystem.concept.display</td>
       <td>Se syntaks</td>
+      <td>✓</td>
     </tr>
     <tr>
       <td>Beskrivelse</td>
       <td>CodeSystem.concept.definition</td>
       <td>Se syntaks</td>
+      <td>&nbsp;</td>
     </tr>
   </tbody>
 </table>
 
-<h3 id="syntaks-for-fsh">Syntaks for FSH</h3>
+<h4 id="syntaks-for-fsh">Syntaks for FSH</h4>
 
 <pre>* #{code} #{child code} "{display string}" "{definition}"</pre>
+
+<p><em>{definition}</em> er frivillig. <em>{child code}</em> benyttes ikke.</p>
 
 <h4 id="eksempler-på-enkeltkoder">Eksempler på enkeltkoder</h4>
 
@@ -334,8 +357,8 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
     <div class="container">    <!-- container -->
 
       <div class="inner-wrapper">
-        <p><a name="l679">​</a>
-          IG &copy; 2021+ <a style="color:var(--footer-hyperlink-text-color)" href="null"></a>.  Package hl7.fhir.no.kodeverk#0.0.1 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Thu, Jan 27, 2022 19:42+0000">2022-01-27</span>
+        <p><a name="l753">​</a>
+          IG &copy; 2021+ <a style="color:var(--footer-hyperlink-text-color)" href="null"></a>.  Package hl7.fhir.no.kodeverk#0.0.1 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Fri, Jan 28, 2022 15:45+0000">2022-01-28</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)"></span>
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |

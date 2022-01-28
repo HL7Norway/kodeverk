@@ -4,14 +4,20 @@
     "type": "CodeSystem",
     "url": "http://ehelse.no/fhir/CodeSystem/no-kodeverk-1101",
     "version": "0.0.1",
-    "name": "NoKodeverk1101"
+    "name": "NoKodeverk1101",
+    "oids": [
+      "2.16.578.1.12.4.1.1.1101"
+    ]
   },
   {
     "id": "no-kodeverk-XXXX.codesystem",
     "type": "CodeSystem",
     "url": "http://ehelse.no/fhir/CodeSystem/no-kodeverk-XXXX",
     "version": "0.0.1",
-    "name": "NoKodeverkXXXX"
+    "name": "NoKodeverkXXXX",
+    "oids": [
+      "2.16.578.1.12.4.1.1.XXXX"
+    ]
   },
   {
     "id": "hl7.fhir.no.kodeverk",
