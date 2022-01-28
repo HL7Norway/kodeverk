@@ -27,10 +27,6 @@ Anbefaling diskutert 2022-01-27 (Anette, Jostein, Thomas, Espen):
 
 XXXX er de fire siste sifrene i OID, som i eksempel 2.16.578.1.12.4.1.1.**1101**.
 
-## Mapping
-
-[Utkast/kladd ligger her](input/pagecontent/mapping.md)
-
 ## Intern dokumentasjon
 
 * [Mapping av kodeverk](input/pagecontent/mapping.md)
