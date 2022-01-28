@@ -21,6 +21,7 @@ menu:
   Home: index.html
   Guidance:
      Mapping: mapping.html
+     Kodeverk i NILAR: nilar.html
   Artifacts: 
 #    Value Sets: artifacts.html#4
     Code Systems: artifacts.html
