@@ -34,8 +34,8 @@
 | 8272 | urn:oid:2.16.578.1.12.4.1.1.8272 | 3 koder | Anbefaling om ny undersøkelse |
 | 8273 | urn:oid:2.16.578.1.12.4.1.1.8273 | 6 koder | Hastegrad |
 | 8275 | urn:oid:2.16.578.1.12.4.1.1.8275 | 3 koder | Cytologisk materiale tatt med |
-| 8327 | urn:oid:2.16.578.1.12.4.1.1.8327 | 4 koder | Offisiell personidentifikasjon |
-| 8351 | urn:oid:2.16.578.1.12.4.1.1.8351 | Tomt | Prøvemateriale |
+| 8327 | urn:oid:2.16.578.1.12.4.1.1.8327 | [Utkast](https://github.com/HL7Norway/kodeverk/blob/main/input/fsh/codesystems/no-kodeverk-8327.fsh) | Offisiell personidentifikasjon |
+| 8351 | urn:oid:2.16.578.1.12.4.1.1.8351 | [Utkast](https://github.com/HL7Norway/kodeverk/blob/main/input/fsh/codesystems/no-kodeverk-8351.fsh) | Prøvemateriale |
 | 9060 | urn:oid:2.16.578.1.12.4.1.1.9060 | 26 koder. Finnes? | Kategori helsepersonell |
 | icd-10 | http://hl7.org/fhir/sid/icd-10 | Sjekk | |
 | Expertise | http://http://ehelse.no/fhir/CodeSystem/Expertise | Opprett, sjekk| |
