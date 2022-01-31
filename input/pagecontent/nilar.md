@@ -32,7 +32,7 @@
 | 8269 | urn:oid:2.16.578.1.12.4.1.1.8269 | 4 koder | Kommentar til svarrapport |
 | 8271 | urn:oid:2.16.578.1.12.4.1.1.8271 | 3 koder | Resistens |
 | 8272 | urn:oid:2.16.578.1.12.4.1.1.8272 | 3 koder | Anbefaling om ny undersøkelse |
-| 8273 | urn:oid:2.16.578.1.12.4.1.1.8273 | 6 koder | Hastegrad |
+| 8273 | urn:oid:2.16.578.1.12.4.1.1.8273 | [Utkast](https://github.com/HL7Norway/kodeverk/blob/main/input/fsh/codesystems/no-kodeverk-8273.fsh) | Hastegrad |
 | 8275 | urn:oid:2.16.578.1.12.4.1.1.8275 | [Utkast](https://github.com/HL7Norway/kodeverk/blob/main/input/fsh/codesystems/no-kodeverk-8275.fsh) | Cytologisk materiale tatt med |
 | 8327 | urn:oid:2.16.578.1.12.4.1.1.8327 | [Utkast](https://github.com/HL7Norway/kodeverk/blob/main/input/fsh/codesystems/no-kodeverk-8327.fsh) | Offisiell personidentifikasjon |
 | 8351 | urn:oid:2.16.578.1.12.4.1.1.8351 | [Utkast](https://github.com/HL7Norway/kodeverk/blob/main/input/fsh/codesystems/no-kodeverk-8351.fsh) | Prøvemateriale |
