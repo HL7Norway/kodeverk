@@ -6,7 +6,6 @@ Description: "Dette kodeverket inneholder koder som benyttes for å identifisere
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:2.16.578.1.12.4.1.1.8116"
 * ^status = #draft // Gjøres om fra draft til active etter QA
-* ^date = "2016-10-28"
 * ^publisher = "Direktoratet for e-helse"
 * ^content = #complete
 * #FNR "Fødselsnummer" "Norsk fødselsnummer"

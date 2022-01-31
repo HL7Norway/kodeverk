@@ -6,7 +6,6 @@ Description: "Dette kodeverket inneholder koder for å angi svar Ja eller Nei."
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:2.16.578.1.12.4.1.1.1101"
 * ^status = #draft
-* ^date = "2020-12-04T12:00:00+00:00"
 * ^publisher = "Direktoratet for e-helse"
 * ^content = #complete
 * #1 "Ja"
