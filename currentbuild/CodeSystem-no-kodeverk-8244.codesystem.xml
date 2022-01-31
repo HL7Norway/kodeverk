@@ -10,11 +10,11 @@
     <system value="urn:ietf:rfc:3986"/>
     <value value="urn:oid:2.16.578.1.12.4.1.1.8244"/>
   </identifier>
-  <version value="0.0.1"/>
+  <version value="0.2.0"/>
   <name value="NoKodeverk8244"/>
   <title value="8244 Avviksmarkør i svarrapportering av medisinske tjenester"/>
   <status value="draft"/>
-  <date value="2020-12-04"/>
+  <date value="2022-01-31T21:57:51+00:00"/>
   <publisher value="Direktoratet for e-helse"/>
   <jurisdiction>
     <coding>

@@ -3,7 +3,7 @@
 
 err = 1, warn = 8, info = 25
 IG Publisher Version: 1.1.97
-Generated Mon Jan 31 14:02:52 UTC 2022. FHIR version 4.0.1 for hl7.fhir.no.kodeverk#0.0.1 (canonical = http://hl7.no/fhir)
+Generated Mon Jan 31 21:58:06 UTC 2022. FHIR version 4.0.1 for hl7.fhir.no.kodeverk#0.2.0 (canonical = http://hl7.no/fhir)
  Build Errors : 132 / 8 / 0
  /github/workspace/fsh-generated/resources/CodeSystem-no-kodeverk-1101.codesystem : 0 / 0 / 2
  /github/workspace/fsh-generated/resources/CodeSystem-no-kodeverk-7010.codesystem : 0 / 0 / 2
@@ -124,9 +124,9 @@ ERROR: /github/workspace/output/CodeSystem-no-kodeverk-8264.codesystem.ttl.html#
 ERROR: /github/workspace/output/CodeSystem-no-kodeverk-8264.codesystem.xml.html#/html/body/div/div/div/p/a at Line 257, column 28: The link '' for "" cannot be resolved
 ERROR: /github/workspace/output/CodeSystem-no-kodeverk-8268.codesystem.change.history.html#/html/body/div/div/div/p/a at Line 241, column 28: The link '' for "" cannot be resolved
 ERROR: /github/workspace/output/CodeSystem-no-kodeverk-8268.codesystem.html#/html/body/div/div/div/p/a at Line 250, column 28: The link '' for "" cannot be resolved
-ERROR: /github/workspace/output/CodeSystem-no-kodeverk-8268.codesystem.json.html#/html/body/div/div/div/p/a at Line 262, column 28: The link '' for "" cannot be resolved
-ERROR: /github/workspace/output/CodeSystem-no-kodeverk-8268.codesystem.ttl.html#/html/body/div/div/div/p/a at Line 272, column 28: The link '' for "" cannot be resolved
-ERROR: /github/workspace/output/CodeSystem-no-kodeverk-8268.codesystem.xml.html#/html/body/div/div/div/p/a at Line 257, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-no-kodeverk-8268.codesystem.json.html#/html/body/div/div/div/p/a at Line 372, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-no-kodeverk-8268.codesystem.ttl.html#/html/body/div/div/div/p/a at Line 381, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-no-kodeverk-8268.codesystem.xml.html#/html/body/div/div/div/p/a at Line 368, column 28: The link '' for "" cannot be resolved
 ERROR: /github/workspace/output/CodeSystem-no-kodeverk-8269.codesystem.change.history.html#/html/body/div/div/div/p/a at Line 241, column 28: The link '' for "" cannot be resolved
 ERROR: /github/workspace/output/CodeSystem-no-kodeverk-8269.codesystem.html#/html/body/div/div/div/p/a at Line 248, column 28: The link '' for "" cannot be resolved
 ERROR: /github/workspace/output/CodeSystem-no-kodeverk-8269.codesystem.json.html#/html/body/div/div/div/p/a at Line 283, column 28: The link '' for "" cannot be resolved
@@ -169,8 +169,8 @@ ERROR: /github/workspace/output/CodeSystem-no-kodeverk-9060.codesystem.ttl.html#
 ERROR: /github/workspace/output/CodeSystem-no-kodeverk-9060.codesystem.xml.html#/html/body/div/div/div/p/a at Line 403, column 28: The link '' for "" cannot be resolved
 ERROR: /github/workspace/output/artifacts.html#/html/body/div/div/div/p/a at Line 430, column 28: The link '' for "" cannot be resolved
 ERROR: /github/workspace/output/download.html#/html/body/div/div/div/p/a at Line 208, column 28: The link '' for "" cannot be resolved
-ERROR: /github/workspace/output/index.html#/html/body/div/div/div/p/a at Line 202, column 28: The link '' for "" cannot be resolved
-ERROR: /github/workspace/output/mapping.html#/html/body/div/div/div/p/a at Line 366, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/output/index.html#/html/body/div/div/div/p/a at Line 205, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/output/mapping.html#/html/body/div/div/div/p/a at Line 349, column 28: The link '' for "" cannot be resolved
 ERROR: /github/workspace/output/nilar.html#/html/body/div/div/div/p/a at Line 418, column 28: The link '' for "" cannot be resolved
 ERROR: /github/workspace/output/toc.html#/html/body/div/div/div/p/a at Line 177, column 28: The link '' for "" cannot be resolved
 == fsh-generated/resources/CodeSystem-no-kodeverk-1101.codesystem.json ==

@@ -18,11 +18,11 @@
      fhir:Identifier.system [ fhir:value "urn:ietf:rfc:3986" ];
      fhir:Identifier.value [ fhir:value "urn:oid:2.16.578.1.12.4.1.1.1101" ]
   ];
-  fhir:CodeSystem.version [ fhir:value "0.0.1"];
+  fhir:CodeSystem.version [ fhir:value "0.2.0"];
   fhir:CodeSystem.name [ fhir:value "NoKodeverk1101"];
   fhir:CodeSystem.title [ fhir:value "1101 Ja, nei"];
   fhir:CodeSystem.status [ fhir:value "draft"];
-  fhir:CodeSystem.date [ fhir:value "2020-12-04T12:00:00+00:00"^^xsd:dateTime];
+  fhir:CodeSystem.date [ fhir:value "2022-01-31T21:57:51+00:00"^^xsd:dateTime];
   fhir:CodeSystem.publisher [ fhir:value "Direktoratet for e-helse"];
   fhir:CodeSystem.description [ fhir:value "Dette kodeverket inneholder koder for å angi svar Ja eller Nei."];
   fhir:CodeSystem.jurisdiction [

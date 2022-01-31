@@ -12,11 +12,11 @@
       "value": "urn:oid:2.16.578.1.12.4.1.1.8239"
     }
   ],
-  "version": "0.0.1",
+  "version": "0.2.0",
   "name": "NoKodeverk8239",
   "title": "8239 Forholdsoperatorer i svarrapportering av medisinske tjenester",
   "status": "draft",
-  "date": "2022-01-31T14:02:34+00:00",
+  "date": "2022-01-31T21:57:51+00:00",
   "publisher": "Direktoratet for e-helse",
   "jurisdiction": [
     {

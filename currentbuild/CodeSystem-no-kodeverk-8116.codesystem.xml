@@ -10,11 +10,11 @@
     <system value="urn:ietf:rfc:3986"/>
     <value value="urn:oid:2.16.578.1.12.4.1.1.8116"/>
   </identifier>
-  <version value="0.0.1"/>
+  <version value="0.2.0"/>
   <name value="NoKodeverk8116"/>
   <title value="8116 ID-type for personer"/>
   <status value="draft"/>
-  <date value="2016-10-28"/>
+  <date value="2022-01-31T21:57:51+00:00"/>
   <publisher value="Direktoratet for e-helse"/>
   <description value="Dette kodeverket inneholder koder som benyttes for å identifisere ulike typer identifikatorer for personer."/>
   <jurisdiction>

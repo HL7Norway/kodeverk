@@ -10,11 +10,11 @@
     <system value="urn:ietf:rfc:3986"/>
     <value value="urn:oid:2.16.578.1.12.4.1.1.8245"/>
   </identifier>
-  <version value="0.0.1"/>
+  <version value="0.2.0"/>
   <name value="NoKodeverk8245"/>
   <title value="8245 Status for resultat i svarrapportering av medisinske tjenester"/>
   <status value="draft"/>
-  <date value="2022-01-31T14:02:34+00:00"/>
+  <date value="2022-01-31T21:57:51+00:00"/>
   <publisher value="Direktoratet for e-helse"/>
   <description value="Benyttes for å angi status/steg i arbeidsflyt for en enkelt lab- /røntgenundersøkelse."/>
   <jurisdiction>
