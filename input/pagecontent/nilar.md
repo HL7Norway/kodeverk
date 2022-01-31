@@ -31,7 +31,7 @@
 | 8268 | urn:oid:2.16.578.1.12.4.1.1.8268 | 25 koder. Finnes? | Type identifikator |
 | 8269 | urn:oid:2.16.578.1.12.4.1.1.8269 | 4 koder | Kommentar til svarrapport |
 | 8271 | urn:oid:2.16.578.1.12.4.1.1.8271 | 3 koder | Resistens |
-| 8272 | urn:oid:2.16.578.1.12.4.1.1.8272 | 3 koder | Anbefaling om ny undersøkelse |
+| 8272 | urn:oid:2.16.578.1.12.4.1.1.8272 | [Utkast](https://github.com/HL7Norway/kodeverk/blob/main/input/fsh/codesystems/no-kodeverk-8272.fsh) | Anbefaling om ny undersøkelse |
 | 8273 | urn:oid:2.16.578.1.12.4.1.1.8273 | [Utkast](https://github.com/HL7Norway/kodeverk/blob/main/input/fsh/codesystems/no-kodeverk-8273.fsh) | Hastegrad |
 | 8275 | urn:oid:2.16.578.1.12.4.1.1.8275 | [Utkast](https://github.com/HL7Norway/kodeverk/blob/main/input/fsh/codesystems/no-kodeverk-8275.fsh) | Cytologisk materiale tatt med |
 | 8327 | urn:oid:2.16.578.1.12.4.1.1.8327 | [Utkast](https://github.com/HL7Norway/kodeverk/blob/main/input/fsh/codesystems/no-kodeverk-8327.fsh) | Offisiell personidentifikasjon |
