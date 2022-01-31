@@ -5,5 +5,8 @@ I første omgang skal det støtte behovet i [NILAR](https://github.com/HL7Norway
 Utvikling av denne dokumentasjonen skjer på [github.com/HL7Norway/kodeverk](https://github.com/HL7Norway/kodeverk).
 
 ---
+Tilbakemeldinger om denne implementasjonsguiden [legges inn som issues på GitHub](https://github.com/HL7Norway/kodeverk/issues). 
 
-Ansvarlig forvalter: [Direktoratet for e-helse](https://www.ehelse.no).
+For spørsmål om koding og det faglige inneholdet i kodeverkene, kontakt [Direktoratet for e-helse](https://www.ehelse.no/kodeverk/kontaktinformasjon)
+
+Ansvarlig forvalter: [Direktoratet for e-helse](https://www.ehelse.no)
