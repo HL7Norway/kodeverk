@@ -21,7 +21,7 @@
 | 8202 | urn:oid:2.16.578.1.12.4.1.1.8202 | 19 koder | Type laboratoriemelding |
 | 8216 | urn:oid:2.16.578.1.12.4.1.1.8216 | 19 koder | Kodeverk for cytologisk materiale |
 | 8219 | urn:oid:2.16.578.1.12.4.1.1.8219 | 33? koder | Kodeverk for patologisk-anatomiske undersøkelser |
-| 8231 | urn:oid:2.16.578.1.12.4.1.1.8231 | 19 koder | Type tekstsvar |
+| 8231 | urn:oid:2.16.578.1.12.4.1.1.8231 | [Utkast](https://github.com/HL7Norway/kodeverk/blob/main/input/fsh/codesystems/no-kodeverk-8231.fsh) | Type tekstsvar |
 | 8232 | urn:oid:2.16.578.1.12.4.1.1.8232 | [Utkast](https://github.com/HL7Norway/kodeverk/blob/main/input/fsh/codesystems/no-kodeverk-8232.fsh) | Forbehandling |
 | 8239 | urn:oid:2.16.578.1.12.4.1.1.8239 | [Utkast](https://github.com/HL7Norway/kodeverk/blob/main/input/fsh/codesystems/no-kodeverk-8239.fsh) | Forholdsoperatorer i svarrapportering av medisinske tjenester  |
 | 8243 | urn:oid:2.16.578.1.12.4.1.1.8243 | [Utkast](https://github.com/HL7Norway/kodeverk/blob/main/input/fsh/codesystems/no-kodeverk-8243.fsh) | Type tekstsvar i tekstlig resultat i svarrapportering av medisinske tjenester |
