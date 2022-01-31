@@ -28,7 +28,7 @@ Beskrivelse av mapping av små og administrative kodeverk fra [Volven.no](https:
 9.  Hvis CodeSystem ikke inneholder koder: *#not-present*, ellers *#complete* eller annen. [Se verdisett](https://www.hl7.org/fhir/valueset-codesystem-content-mode.html)
 
 
-#### Enkeltkoder
+### Enkeltkoder
 
 | Volven        | FHIR CodeSystem | FSH | Krav |
 | ------------- | ------------- | ---------|---|
@@ -36,13 +36,13 @@ Beskrivelse av mapping av små og administrative kodeverk fra [Volven.no](https:
 | Kodetekst | CodeSystem.concept.display | Se syntaks | ✓ |
 | Beskrivelse | CodeSystem.concept.definition | Se syntaks |
 
-##### Syntaks for FSH
+#### Syntaks for FSH
 
 <pre>* #{code} #{child code} "{display string}" "{definition}"</pre>
 
 *{definition}* er frivillig. *{child code}* benyttes ikke. 
 
-##### Eksempler på enkeltkoder
+#### Eksempler på enkeltkoder
 
 <pre>
 * #2B "Brusetablett, sitron"
