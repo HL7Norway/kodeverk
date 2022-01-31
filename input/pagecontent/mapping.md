@@ -18,7 +18,7 @@ XXXX er de fire siste sifrene i OID, som i eksempel 2.16.578.1.12.4.1.1.**1101**
 | | CodeSystem.id | Id | 2 | ✓ |
 | Beskrivelse | Codesystem.description | Description | | |
 | OID | CodeSystem.identifier.system<br/>CodeSystem.identifier.value | * ^identifier.system = "urn:ietf:rfc:3986"<br/>* ^identifier.value | 3 | ✓ |
-| | CodeSystem.version | * ^version | 4 | ? |
+| | CodeSystem.version | * ^version | 4 | |
 | Status | CodeSystem.status | *^status | 5 | ✓ |
 | Dato fra "Status" | CodeSystem.date | * ^date | 6 | ? |
 | Ansvarlig organisasjon | CodeSystem.publisher | * ^publisher | | |
@@ -31,7 +31,7 @@ XXXX er de fire siste sifrene i OID, som i eksempel 2.16.578.1.12.4.1.1.**1101**
 1. Navneregel: `NoKodeverkXXX`, der XXXX er fire site sifre i OID
 2. Navneregel: `no-kodeverk-XXXX.codesystem`, der XXXX er fire siste sifre i OID
 3. Full OID innledet av "urn:oid:" i *value*
-4. **DEBATT** Vurdere behov, se [issue #6](https://github.com/HL7Norway/kodeverk/issues/6)
+4. Frivillig. Blir overkjørt ved publisering. Se [issue #6](https://github.com/HL7Norway/kodeverk/issues/6)
 5. "Til utbredelse eller er i bruk" = *#active*, men under utvikling og før QA brukes *#draft*. 
 6. **DEBATT** Kan muligens ikke mappes lett med script, vurdere om nødvendig, se [issue #3](https://github.com/HL7Norway/kodeverk/issues/3)
 7. Hvis CodeSystem ikke inneholder koder: *#not-present*, ellers *#complete* eller annen -- [se verdisett](https://www.hl7.org/fhir/valueset-codesystem-content-mode.html)
