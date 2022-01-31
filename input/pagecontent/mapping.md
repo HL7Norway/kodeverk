@@ -5,28 +5,27 @@ Beskrivelse av mapping av små og administrative kodeverk fra [Volven.no](https:
 | Volven | FHIR CodeSystem | FSH | Note | Krav |
 | ------ | --------------- | ----|------|------|
 | | CodeSysten.name | CodeSystem | 1 | ✓ |
-| Navn | CodeSystem.title | Title | 8 | ✓ |
-| | CodeSystem.id | Id | 2 | ✓ |
-| Beskrivelse | Codesystem.description | Description | | |
-| OID | CodeSystem.identifier.system<br/>CodeSystem.identifier.value | * ^identifier.system = "urn:ietf:rfc:3986"<br/>* ^identifier.value | 3 | ✓ |
-| | CodeSystem.version | * ^version | 4 | |
-| Status | CodeSystem.status | *^status | 5 | ✓ |
-| Dato fra "Status" | CodeSystem.date | * ^date | 6 | |
+| Navn | CodeSystem.title | Title | 2 | ✓ |
+| | CodeSystem.id | Id | 3 | ✓ |
+| Beskrivelse | Codesystem.description | Description | 4 | |
+| OID | CodeSystem.identifier.system<br/>CodeSystem.identifier.value | * ^identifier.system = "urn:ietf:rfc:3986"<br/>* ^identifier.value | 5 | ✓ |
+| | CodeSystem.version | * ^version | 6 | |
+| Status | CodeSystem.status | *^status | 7 | ✓ |
+| Dato fra "Status" | CodeSystem.date | * ^date | 8 | |
 | Ansvarlig organisasjon | CodeSystem.publisher | * ^publisher | | |
-| | CodeSystem.content | * ^content | 7 | ✓ |
-
-**DEBATT** Bygge obligatorisk/minstekrav inn i tabell? Tester ut med  ✓, men kan vurdere kardinalitet. Krav i forbindelse med denne IG, ikke FHIR generelt. 
+| | CodeSystem.content | * ^content | 9 | ✓ | 
 
 #### Noter
 
 1. Navneregel: `NoKodeverkXXX`, der XXXX er fire site sifre i OID
-2. Navneregel: `no-kodeverk-XXXX.codesystem`, der XXXX er fire siste sifre i OID
-3. Full OID innledet av "urn:oid:" i *value*
-4. Frivillig. Blir overkjørt ved publisering. Se [issue #6](https://github.com/HL7Norway/kodeverk/issues/6)
-5. "Til utbredelse eller er i bruk" = *#active*, men under utvikling og før QA brukes *#draft*. 
-6. Frivillig. Se [issue #3](https://github.com/HL7Norway/kodeverk/issues/3)
-7. Hvis CodeSystem ikke inneholder koder: *#not-present*, ellers *#complete* eller annen -- [se verdisett](https://www.hl7.org/fhir/valueset-codesystem-content-mode.html)
-8. XXXX + Navn på kodeverk, eksempel `"1101 Ja, nei"`
+2. XXXX + Navn på kodeverk, eksempel `"1101 Ja, nei"`
+3. Navneregel: `no-kodeverk-XXXX.codesystem`, der XXXX er fire siste sifre i OID
+4. Anbefalt.
+5. Full OID innledet av "urn:oid:" i *value*
+6. Frivillig. Blir overkjørt ved publisering. Se [issue #6](https://github.com/HL7Norway/kodeverk/issues/6)
+7. "Til utbredelse eller er i bruk" = *#active*, men under utvikling og før QA brukes *#draft*. 
+8. Frivillig. Se [issue #3](https://github.com/HL7Norway/kodeverk/issues/3)
+9. Hvis CodeSystem ikke inneholder koder: *#not-present*, ellers *#complete* eller annen -- [se verdisett](https://www.hl7.org/fhir/valueset-codesystem-content-mode.html)
 
 
 #### Enkeltkoder
