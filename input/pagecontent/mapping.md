@@ -1,6 +1,3 @@
-
-*Placeholder / kladd / under arbeid*
-
 Beskrivelse av mapping av små og administrative kodeverk fra [Volven.no](https://volven.no) med tilhørende OID til [FHIR CodeSystem](https://www.hl7.org/fhir/codesystem.html) og [FHIR Shorthand](http://hl7.org/fhir/uv/shorthand/) (FSH). 
 
 ### Felles for kodeverket

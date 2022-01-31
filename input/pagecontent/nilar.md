@@ -1,6 +1,4 @@
-Bruttoliste kodeverk NILAR
-
-*Under arbeid!*
+Bruttoliste kodeverk NILAR. 
 
 Denne siden blir brukt som en arbeidsliste og vil flyttes ut av IG når den har utspilt sin funksjon. 
 
