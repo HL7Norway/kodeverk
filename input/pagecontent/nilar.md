@@ -24,7 +24,7 @@
 | 8231 | urn:oid:2.16.578.1.12.4.1.1.8231 | 19 koder | Type tekstsvar |
 | 8232 | urn:oid:2.16.578.1.12.4.1.1.8232 | 4 koder | Forbehandling |
 | 8239 | urn:oid:2.16.578.1.12.4.1.1.8239 | 8 koder | Forholdsoperatorer i svarrapportering av medisinske tjenester  |
-| 8243 | urn:oid:2.16.578.1.12.4.1.1.8243 | 10 koder | Type tekstsvar i tekstlig resultat i svarrapportering av medisinske tjenester |
+| 8243 | urn:oid:2.16.578.1.12.4.1.1.8243 | [Utkast](https://github.com/HL7Norway/kodeverk/blob/main/input/fsh/codesystems/no-kodeverk-8243.fsh) | Type tekstsvar i tekstlig resultat i svarrapportering av medisinske tjenester |
 | 8244 | urn:oid:2.16.578.1.12.4.1.1.8244 | [Utkast](https://github.com/HL7Norway/kodeverk/blob/main/input/fsh/codesystems/no-kodeverk-8244.fsh) | Avviksmarkør i svarrapportering av medisinske tjenester |
 | 8245 | urn:oid:2.16.578.1.12.4.1.1.8245 | 15 koder | Status for resultat i svarrapportering av medisinske tjenester |
 | 8264 | urn:oid:2.16.578.1.12.4.1.1.8264 | 27 koder | Tjenestekoder for timereservasjon |
