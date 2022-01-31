@@ -17,7 +17,7 @@
 | 7270 | urn:oid:2.16.578.1.12.4.1.1.7270 | Tomt | NCRP |
 | 7280 | urn:oid:2.16.578.1.12.4.1.1.7280 | Tomt | Norsk laboratoriekodeverk |
 | 7305 | urn:oid:2.16.578.1.12.4.1.1.7305 | 6 koder | Moderator |
-| 8116 | urn:oid:2.16.578.1.12.4.1.1.8116 | 14 koder. Eksisterer? | ID-type for personer |
+| 8116 | urn:oid:2.16.578.1.12.4.1.1.8116 | Eksisterer? [Utkast FSH](https://github.com/HL7Norway/kodeverk/blob/main/input/fsh/codesystems/no-kodeverk-8116.fsh) | ID-type for personer |
 | 8202 | urn:oid:2.16.578.1.12.4.1.1.8202 | [Utkast FSH](https://github.com/HL7Norway/kodeverk/blob/main/input/fsh/codesystems/no-kodeverk-8202.fsh) | Type laboratoriemelding |
 | 8216 | urn:oid:2.16.578.1.12.4.1.1.8216 | [Utkast FSH](https://github.com/HL7Norway/kodeverk/blob/main/input/fsh/codesystems/no-kodeverk-8216.fsh) | Kodeverk for cytologisk materiale |
 | 8219 | urn:oid:2.16.578.1.12.4.1.1.8219 | 33? koder | Kodeverk for patologisk-anatomiske undersøkelser |
