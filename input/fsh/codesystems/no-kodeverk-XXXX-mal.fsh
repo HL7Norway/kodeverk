@@ -2,7 +2,7 @@
 // Det vil opprettes en ren versjon uten kommentarer når vi er ferdige med malen og henvise til dokumentasjon for mapping
 CodeSystem: NoKodeverkXXXX // CodeSystem.name, maskinlesbart
 Id: no-kodeverk-XXXX.codesystem
-Title: "Kodeverkets navn" // CodeSystem.title, for mennesker
+Title: "XXXX Kodeverkets navn" // CodeSystem.title, for mennesker
 Description: "Beskrivelse av kodeverket"
 * ^url = "http://ehelse.no/fhir/CodeSystem/no-kodeverk-XXXX"
 * ^identifier.system = "urn:ietf:rfc:3986"
