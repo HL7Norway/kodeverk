@@ -233,7 +233,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
       <td>CodeSystem.version</td>
       <td>* ^version</td>
       <td>4</td>
-      <td>&nbsp;</td>
+      <td>?</td>
     </tr>
     <tr>
       <td>Status</td>
@@ -247,7 +247,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
       <td>CodeSystem.date</td>
       <td>* ^date</td>
       <td>6</td>
-      <td>&nbsp;</td>
+      <td>?</td>
     </tr>
     <tr>
       <td>Ansvarlig organisasjon</td>
@@ -272,12 +272,12 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
 <ol>
   <li>Navneregel: <code class="language-plaintext highlighter-rouge">NoKodeverkXXX</code>, der XXXX er fire site sifre i OID</li>
-  <li>Navneregel: <code class="language-plaintext highlighter-rouge">no-kodeverk-XXXX.codesystem</code>, der XXXX er fire siste sifre i OID, se også <a href="https://github.com/HL7Norway/kodeverk/issues/5">issue #5</a></li>
+  <li>Navneregel: <code class="language-plaintext highlighter-rouge">no-kodeverk-XXXX.codesystem</code>, der XXXX er fire siste sifre i OID</li>
   <li>Full OID innledet av “urn:oid:” i <em>value</em></li>
-  <li>Vurdere om vi trenger versjon - men hvis det er sant at det er vanlig å oppdatere er forslaget å ta den i bruk, og å sette version = “1.0”, se <a href="https://github.com/HL7Norway/kodeverk/issues/6">issue #6</a></li>
+  <li><strong>DEBATT</strong> Vurdere behov, se <a href="https://github.com/HL7Norway/kodeverk/issues/6">issue #6</a></li>
   <li>“Til utbredelse eller er i bruk” = <em>#active</em>, men under utvikling og før QA brukes <em>#draft</em>.</li>
   <li><strong>DEBATT</strong> Kan muligens ikke mappes lett med script, vurdere om nødvendig, se <a href="https://github.com/HL7Norway/kodeverk/issues/3">issue #3</a></li>
-  <li>Hvis CodeSystem ikke inneholder koder: <em>#not-present</em>, ellers <em>#complete</em> eller annen – <a href="https://www.hl7.org/fhir/valueset-codesystem-content-mode.html">se verdisett</a>.</li>
+  <li>Hvis CodeSystem ikke inneholder koder: <em>#not-present</em>, ellers <em>#complete</em> eller annen – <a href="https://www.hl7.org/fhir/valueset-codesystem-content-mode.html">se verdisett</a></li>
 </ol>
 
 <h3 id="enkeltkoder">Enkeltkoder</h3>
@@ -357,8 +357,8 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
     <div class="container">    <!-- container -->
 
       <div class="inner-wrapper">
-        <p><a name="l750">​</a>
-          IG &copy; 2021+ <a style="color:var(--footer-hyperlink-text-color)" href="null"></a>.  Package hl7.fhir.no.kodeverk#0.0.1 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Fri, Jan 28, 2022 16:42+0000">2022-01-28</span>
+        <p><a name="l749">​</a>
+          IG &copy; 2021+ <a style="color:var(--footer-hyperlink-text-color)" href="null"></a>.  Package hl7.fhir.no.kodeverk#0.0.1 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Mon, Jan 31, 2022 08:25+0000">2022-01-31</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)"></span>
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |

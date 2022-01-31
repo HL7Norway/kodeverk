@@ -3,7 +3,7 @@
 
 err = 1, warn = 0, info = 2
 IG Publisher Version: 1.1.97
-Generated Fri Jan 28 16:42:32 UTC 2022. FHIR version 4.0.1 for hl7.fhir.no.kodeverk#0.0.1 (canonical = http://hl7.no/fhir)
+Generated Mon Jan 31 08:25:37 UTC 2022. FHIR version 4.0.1 for hl7.fhir.no.kodeverk#0.0.1 (canonical = http://hl7.no/fhir)
  Build Errors : 16 / 0 / 0
  /github/workspace/fsh-generated/resources/CodeSystem-no-kodeverk-1101.codesystem : 0 / 0 / 2
  /github/workspace/fsh-generated/resources/CodeSystem-no-kodeverk-XXXX.codesystem : 0 / 0 / 2
@@ -22,7 +22,7 @@ ERROR: /github/workspace/output/CodeSystem-no-kodeverk-XXXX.codesystem.json.html
 ERROR: /github/workspace/output/CodeSystem-no-kodeverk-XXXX.codesystem.ttl.html#/html/body/div/div/div/p/a at Line 269, column 28: The link '' for "" cannot be resolved
 ERROR: /github/workspace/output/CodeSystem-no-kodeverk-XXXX.codesystem.xml.html#/html/body/div/div/div/p/a at Line 253, column 28: The link '' for "" cannot be resolved
 ERROR: /github/workspace/output/artifacts.html#/html/body/div/div/div/p/a at Line 220, column 28: The link '' for "" cannot be resolved
-ERROR: /github/workspace/output/index.html#/html/body/div/div/div/p/a at Line 198, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/output/index.html#/html/body/div/div/div/p/a at Line 201, column 28: The link '' for "" cannot be resolved
 ERROR: /github/workspace/output/mapping.html#/html/body/div/div/div/p/a at Line 362, column 28: The link '' for "" cannot be resolved
 ERROR: /github/workspace/output/nilar.html#/html/body/div/div/div/p/a at Line 415, column 28: The link '' for "" cannot be resolved
 ERROR: /github/workspace/output/toc.html#/html/body/div/div/div/p/a at Line 174, column 28: The link '' for "" cannot be resolved
