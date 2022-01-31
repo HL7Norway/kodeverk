@@ -1,6 +1,6 @@
 CodeSystem: NoKodeverkXXXX
 Id: no-kodeverk-XXXX.codesystem
-Title: "XXXX Kodeverkets navn"
+Title: "XXXX Navn"
 Description: ""
 * ^url = "http://ehelse.no/fhir/CodeSystem/no-kodeverk-XXXX"
 * ^identifier.system = "urn:ietf:rfc:3986"
