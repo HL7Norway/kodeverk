@@ -14,6 +14,7 @@ I første omgang skal det støtte behovet i [NILAR](https://github.com/HL7Norway
   - [ ] Lage instruksjoner om hvordan generere IG og innhold (FSH, md -> JSON,HTML) 
   - [ ] Hvordan brukes pakken i IG, ValueSets og profiler, sjekke at det validerer i en test-IG
   - [ ] Hvordan brukes pakken i instanser, sjekke at det validerer i en test-IG
+  - [ ] Lage IG-mal for Direktoratet for e-helse, [se issue #8](https://github.com/HL7Norway/kodeverk/issues/8)
 
 ## Dokumentasjon implementasjonsguide
 
