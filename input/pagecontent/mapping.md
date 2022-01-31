@@ -14,7 +14,7 @@ XXXX er de fire siste sifrene i OID, som i eksempel 2.16.578.1.12.4.1.1.**1101**
 | Volven | FHIR CodeSystem | FSH | Note | Krav |
 | ------ | --------------- | ----|------|------|
 | | CodeSysten.name | CodeSystem | 1 | ✓ |
-| Navn | CodeSystem.title | Title | | ✓ |
+| Navn | CodeSystem.title | Title | 8 | ✓ |
 | | CodeSystem.id | Id | 2 | ✓ |
 | Beskrivelse | Codesystem.description | Description | | |
 | OID | CodeSystem.identifier.system<br/>CodeSystem.identifier.value | * ^identifier.system = "urn:ietf:rfc:3986"<br/>* ^identifier.value | 3 | ✓ |
@@ -35,6 +35,7 @@ XXXX er de fire siste sifrene i OID, som i eksempel 2.16.578.1.12.4.1.1.**1101**
 5. "Til utbredelse eller er i bruk" = *#active*, men under utvikling og før QA brukes *#draft*. 
 6. Frivillig. Se [issue #3](https://github.com/HL7Norway/kodeverk/issues/3)
 7. Hvis CodeSystem ikke inneholder koder: *#not-present*, ellers *#complete* eller annen -- [se verdisett](https://www.hl7.org/fhir/valueset-codesystem-content-mode.html)
+8. XXXX + Navn på kodeverk, eksempel `"1101 Ja, nei"`
 
 
 ### Enkeltkoder
