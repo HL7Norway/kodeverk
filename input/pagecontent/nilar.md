@@ -17,7 +17,7 @@
 | 7270 | urn:oid:2.16.578.1.12.4.1.1.7270 | [Utkast FSH](https://github.com/HL7Norway/kodeverk/blob/main/input/fsh/codesystems/no-kodeverk-7270.fsh) | NCRP |
 | 7280 | urn:oid:2.16.578.1.12.4.1.1.7280 | [Utkast FSG](https://github.com/HL7Norway/kodeverk/blob/main/input/fsh/codesystems/no-kodeverk-7280.fsh) | Norsk laboratoriekodeverk |
 | 7305 | urn:oid:2.16.578.1.12.4.1.1.7305 | [Utkast FSH](https://github.com/HL7Norway/kodeverk/blob/main/input/fsh/codesystems/no-kodeverk-7305.fsh) | Moderator |
-| 8116 | urn:oid:2.16.578.1.12.4.1.1.8116 | Eksisterer? [Utkast FSH](https://github.com/HL7Norway/kodeverk/blob/main/input/fsh/codesystems/no-kodeverk-8116.fsh) | ID-type for personer |
+| 8116 | urn:oid:2.16.578.1.12.4.1.1.8116 | [Utkast FSH](https://github.com/HL7Norway/kodeverk/blob/main/input/fsh/codesystems/no-kodeverk-8116.fsh) | ID-type for personer |
 | 8202 | urn:oid:2.16.578.1.12.4.1.1.8202 | [Utkast FSH](https://github.com/HL7Norway/kodeverk/blob/main/input/fsh/codesystems/no-kodeverk-8202.fsh) | Type laboratoriemelding |
 | 8216 | urn:oid:2.16.578.1.12.4.1.1.8216 | [Utkast FSH](https://github.com/HL7Norway/kodeverk/blob/main/input/fsh/codesystems/no-kodeverk-8216.fsh) | Kodeverk for cytologisk materiale |
 | 8219 | urn:oid:2.16.578.1.12.4.1.1.8219 | [Utkast FSH](https://github.com/HL7Norway/kodeverk/blob/main/input/fsh/codesystems/no-kodeverk-8219.fsh) | Kodeverk for patologisk-anatomiske undersøkelser |
@@ -27,8 +27,8 @@
 | 8243 | urn:oid:2.16.578.1.12.4.1.1.8243 | [Utkast FSH](https://github.com/HL7Norway/kodeverk/blob/main/input/fsh/codesystems/no-kodeverk-8243.fsh) | Type tekstsvar i tekstlig resultat i svarrapportering av medisinske tjenester |
 | 8244 | urn:oid:2.16.578.1.12.4.1.1.8244 | [Utkast FSH](https://github.com/HL7Norway/kodeverk/blob/main/input/fsh/codesystems/no-kodeverk-8244.fsh) | Avviksmarkør i svarrapportering av medisinske tjenester |
 | 8245 | urn:oid:2.16.578.1.12.4.1.1.8245 | [Utkast FSH](https://github.com/HL7Norway/kodeverk/blob/main/input/fsh/codesystems/no-kodeverk-8245.fsh) | Status for resultat i svarrapportering av medisinske tjenester |
-| 8264 | urn:oid:2.16.578.1.12.4.1.1.8264 | Utgått. [Utkast FSH](https://github.com/HL7Norway/kodeverk/blob/main/input/fsh/codesystems/no-kodeverk-8264.fsh) | Tjenestekoder for timereservasjon |
-| 8268 | urn:oid:2.16.578.1.12.4.1.1.8268 | 25 koder. Finnes? [Utkast FSH](https://github.com/HL7Norway/kodeverk/blob/main/input/fsh/codesystems/no-kodeverk-8268.fsh) | Type identifikator |
+| 8264 | urn:oid:2.16.578.1.12.4.1.1.8264 | [Utkast FSH](https://github.com/HL7Norway/kodeverk/blob/main/input/fsh/codesystems/no-kodeverk-8264.fsh)<br/>Utgått.  | Tjenestekoder for timereservasjon |
+| 8268 | urn:oid:2.16.578.1.12.4.1.1.8268 | [Utkast FSH](https://github.com/HL7Norway/kodeverk/blob/main/input/fsh/codesystems/no-kodeverk-8268.fsh) | Type identifikator |
 | 8269 | urn:oid:2.16.578.1.12.4.1.1.8269 | [Utkast FSH](https://github.com/HL7Norway/kodeverk/blob/main/input/fsh/codesystems/no-kodeverk-8269.fsh) | Kommentar til svarrapport |
 | 8271 | urn:oid:2.16.578.1.12.4.1.1.8271 | [Utkast FSH](https://github.com/HL7Norway/kodeverk/blob/main/input/fsh/codesystems/no-kodeverk-8271.fsh) | Resistens |
 | 8272 | urn:oid:2.16.578.1.12.4.1.1.8272 | [Utkast FSH](https://github.com/HL7Norway/kodeverk/blob/main/input/fsh/codesystems/no-kodeverk-8272.fsh) | Anbefaling om ny undersøkelse |
