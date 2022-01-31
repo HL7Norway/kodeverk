@@ -29,7 +29,7 @@
 | 8245 | urn:oid:2.16.578.1.12.4.1.1.8245 | 15 koder | Status for resultat i svarrapportering av medisinske tjenester |
 | 8264 | urn:oid:2.16.578.1.12.4.1.1.8264 | 27 koder | Tjenestekoder for timereservasjon |
 | 8268 | urn:oid:2.16.578.1.12.4.1.1.8268 | 25 koder. Finnes? | Type identifikator |
-| 8269 | urn:oid:2.16.578.1.12.4.1.1.8269 | 4 koder | Kommentar til svarrapport |
+| 8269 | urn:oid:2.16.578.1.12.4.1.1.8269 | [Utkast](https://github.com/HL7Norway/kodeverk/blob/main/input/fsh/codesystems/no-kodeverk-8269.fsh) | Kommentar til svarrapport |
 | 8271 | urn:oid:2.16.578.1.12.4.1.1.8271 | [Utkast](https://github.com/HL7Norway/kodeverk/blob/main/input/fsh/codesystems/no-kodeverk-8271.fsh) | Resistens |
 | 8272 | urn:oid:2.16.578.1.12.4.1.1.8272 | [Utkast](https://github.com/HL7Norway/kodeverk/blob/main/input/fsh/codesystems/no-kodeverk-8272.fsh) | Anbefaling om ny undersøkelse |
 | 8273 | urn:oid:2.16.578.1.12.4.1.1.8273 | [Utkast](https://github.com/HL7Norway/kodeverk/blob/main/input/fsh/codesystems/no-kodeverk-8273.fsh) | Hastegrad |
