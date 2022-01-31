@@ -2,6 +2,8 @@ Bruttoliste kodeverk NILAR
 
 *Under arbeid!*
 
+Denne siden blir brukt som en arbeidsliste og vil flyttes ut av IG når den har utspilt sin funksjon. 
+
 | Kode | OID/ID | Kommentar/lenke | Navn |
 |------|--------|-----------------|------|
 | HER | urn:oid:2.16.578.1.12.4.1.2 | NamingSystem. Finnes? |  |
