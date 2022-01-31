@@ -7,9 +7,8 @@ Description: "Beskrivelse av kodeverket"
 * ^url = "http://ehelse.no/fhir/CodeSystem/no-kodeverk-XXXX"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:2.16.578.1.12.4.1.1.XXXX"
-// * ^version = "1.0" // Frivillig
+// * ^version = "1.0" // Blir overkjørt av SUSHI
 * ^status = #draft // Gjøres om fra draft til active etter QA
-* ^date = "2022-01-26T19:28:00+00:00" // Frivillig.
 * ^publisher = "Direktoratet for e-helse" // Endres om ønskelig
 * ^content = #not-present // #not-present hvis uten koder, #complete hvis med
 // * #KODE "Kodetekst/skjermtekst" "Beskrivelse av koden." // Eksempel på enkeltkode
