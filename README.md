@@ -8,7 +8,7 @@ I første omgang skal det støtte behovet i [NILAR](https://github.com/HL7Norway
 
 - [ ] Utvikle faste mapping-regler som muliggjør scripting
   - [X] Legges inn som en del av [pagecontent/IG og forvaltes der](input/pagecontent/mapping.md)
-- [ ] Utvikle en [mal](input/fsh/codesystems/no-kodeverk-XXXX-mal.fsh) som gjør det mulig å håndkode og generere CodeSystem ved hjelp av [Shorthand](http://hl7.org/fhir/uv/shorthand/). <br />Alle eller deler av disse vil ikke inneholde kodeverdier fra start.
+- [ ] Utvikle  [maler](tools/) som gjør det mulig å håndkode og generere CodeSystem ved hjelp av [Shorthand](http://hl7.org/fhir/uv/shorthand/). <br />Alle eller deler av disse vil ikke inneholde kodeverdier fra start.
 - [ ] Skrive øvrig dokumentasjon
 - [ ] Generere en IG og/eller pakke for publisering. <br />En pakke gjør at alle som trenger det automagisk kan "installere" alle kodeverk lokalt som et bibliotek på linje med programvareoppdatering. 
   - [ ] Lage instruksjoner om hvordan generere IG og innhold (FSH, md -> JSON,HTML) 
