@@ -15,7 +15,7 @@
 | AKO | urn:oid:2.16.578.1.12.4.1.4.107 | NamingSystem nødvendig. Finnes? |  |
 | 7010 | urn:oid:2.16.578.1.12.4.1.1.7010 | Tomt | Norsk patologikodeverk |
 | 7270 | urn:oid:2.16.578.1.12.4.1.1.7270 | Tomt | NCRP |
-| 7280 | urn:oid:2.16.578.1.12.4.1.1.7280 | Tomt | Norsk laboratoriekodeverk |
+| 7280 | urn:oid:2.16.578.1.12.4.1.1.7280 | [Utkast FSG](https://github.com/HL7Norway/kodeverk/blob/main/input/fsh/codesystems/no-kodeverk-7280.fsh) | Norsk laboratoriekodeverk |
 | 7305 | urn:oid:2.16.578.1.12.4.1.1.7305 | [Utkast FSH](https://github.com/HL7Norway/kodeverk/blob/main/input/fsh/codesystems/no-kodeverk-7305.fsh) | Moderator |
 | 8116 | urn:oid:2.16.578.1.12.4.1.1.8116 | Eksisterer? [Utkast FSH](https://github.com/HL7Norway/kodeverk/blob/main/input/fsh/codesystems/no-kodeverk-8116.fsh) | ID-type for personer |
 | 8202 | urn:oid:2.16.578.1.12.4.1.1.8202 | [Utkast FSH](https://github.com/HL7Norway/kodeverk/blob/main/input/fsh/codesystems/no-kodeverk-8202.fsh) | Type laboratoriemelding |
