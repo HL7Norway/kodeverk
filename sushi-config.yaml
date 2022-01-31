@@ -19,6 +19,7 @@ jurisdiction: urn:iso:std:iso:3166#NO "Norway"
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
 menu:
   Home: index.html
+
   Guidance:
      Mapping: mapping.html
      Kodeverk i NILAR: nilar.html
@@ -30,4 +31,4 @@ menu:
 #  Changelog: 
 #    R4 Changelog: https://raw.githubusercontent.com/HL7Norway/basisprofiler-r4/master/Changelog-21.md
 #    STU3 Changelog: Changelog-STU3.html
-   Download: download.html
+  Download: download.html
