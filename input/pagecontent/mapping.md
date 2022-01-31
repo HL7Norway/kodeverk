@@ -20,7 +20,7 @@ XXXX er de fire siste sifrene i OID, som i eksempel 2.16.578.1.12.4.1.1.**1101**
 | OID | CodeSystem.identifier.system<br/>CodeSystem.identifier.value | * ^identifier.system = "urn:ietf:rfc:3986"<br/>* ^identifier.value | 3 | ✓ |
 | | CodeSystem.version | * ^version | 4 | |
 | Status | CodeSystem.status | *^status | 5 | ✓ |
-| Dato fra "Status" | CodeSystem.date | * ^date | 6 | ? |
+| Dato fra "Status" | CodeSystem.date | * ^date | 6 | |
 | Ansvarlig organisasjon | CodeSystem.publisher | * ^publisher | | |
 | | CodeSystem.content | * ^content | 7 | ✓ |
 
@@ -33,7 +33,7 @@ XXXX er de fire siste sifrene i OID, som i eksempel 2.16.578.1.12.4.1.1.**1101**
 3. Full OID innledet av "urn:oid:" i *value*
 4. Frivillig. Blir overkjørt ved publisering. Se [issue #6](https://github.com/HL7Norway/kodeverk/issues/6)
 5. "Til utbredelse eller er i bruk" = *#active*, men under utvikling og før QA brukes *#draft*. 
-6. **DEBATT** Kan muligens ikke mappes lett med script, vurdere om nødvendig, se [issue #3](https://github.com/HL7Norway/kodeverk/issues/3)
+6. Frivillig. Se [issue #3](https://github.com/HL7Norway/kodeverk/issues/3)
 7. Hvis CodeSystem ikke inneholder koder: *#not-present*, ellers *#complete* eller annen -- [se verdisett](https://www.hl7.org/fhir/valueset-codesystem-content-mode.html)
 
 
