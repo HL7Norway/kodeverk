@@ -9,7 +9,7 @@
   <version value="0.0.1"/>
   <name value="NoKodeverk"/>
   <status value="draft"/>
-  <date value="2022-01-31T08:25:22+00:00"/>
+  <date value="2022-01-31T10:21:32+00:00"/>
   <jurisdiction>
     <coding>
       <system value="urn:iso:std:iso:3166"/>
@@ -180,7 +180,7 @@
       <reference>
         <reference value="CodeSystem/no-kodeverk-1101.codesystem"/>
       </reference>
-      <name value="Ja, nei"/>
+      <name value="1101 Ja, nei"/>
       <description value="Dette kodeverket inneholder koder for å angi svar Ja eller Nei."/>
       <exampleBoolean value="false"/>
     </resource>
@@ -202,6 +202,11 @@
       <page>
         <nameUrl value="index.html"/>
         <title value="Home"/>
+        <generation value="markdown"/>
+      </page>
+      <page>
+        <nameUrl value="download.html"/>
+        <title value="Download"/>
         <generation value="markdown"/>
       </page>
       <page>

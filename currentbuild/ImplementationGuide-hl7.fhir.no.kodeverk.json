@@ -9,7 +9,7 @@
   "version": "0.0.1",
   "name": "NoKodeverk",
   "status": "draft",
-  "date": "2022-01-31T08:25:22+00:00",
+  "date": "2022-01-31T10:21:32+00:00",
   "jurisdiction": [
     {
       "coding": [
@@ -287,7 +287,7 @@
         "reference": {
           "reference": "CodeSystem/no-kodeverk-1101.codesystem"
         },
-        "name": "Ja, nei",
+        "name": "1101 Ja, nei",
         "description": "Dette kodeverket inneholder koder for å angi svar Ja eller Nei.",
         "exampleBoolean": false
       },
@@ -314,6 +314,11 @@
         {
           "nameUrl": "index.html",
           "title": "Home",
+          "generation": "markdown"
+        },
+        {
+          "nameUrl": "download.html",
+          "title": "Download",
           "generation": "markdown"
         },
         {

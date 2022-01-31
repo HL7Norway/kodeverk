@@ -16,7 +16,7 @@
   fhir:ImplementationGuide.version [ fhir:value "0.0.1"];
   fhir:ImplementationGuide.name [ fhir:value "NoKodeverk"];
   fhir:ImplementationGuide.status [ fhir:value "draft"];
-  fhir:ImplementationGuide.date [ fhir:value "2022-01-31T08:25:22+00:00"^^xsd:dateTime];
+  fhir:ImplementationGuide.date [ fhir:value "2022-01-31T10:21:32+00:00"^^xsd:dateTime];
   fhir:ImplementationGuide.jurisdiction [
      fhir:index 0;
      fhir:CodeableConcept.coding [
@@ -273,7 +273,7 @@
          fhir:link <http://hl7.no/fhir/CodeSystem/no-kodeverk-1101.codesystem>;
          fhir:Reference.reference [ fhir:value "CodeSystem/no-kodeverk-1101.codesystem" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Ja, nei" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "1101 Ja, nei" ];
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Dette kodeverket inneholder koder for å angi svar Ja eller Nei." ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
@@ -302,11 +302,16 @@
          fhir:ImplementationGuide.definition.page.generation [ fhir:value "markdown" ]
        ], [
          fhir:index 1;
+         fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "download.html" ];
+         fhir:ImplementationGuide.definition.page.title [ fhir:value "Download" ];
+         fhir:ImplementationGuide.definition.page.generation [ fhir:value "markdown" ]
+       ], [
+         fhir:index 2;
          fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "mapping.html" ];
          fhir:ImplementationGuide.definition.page.title [ fhir:value "Mapping" ];
          fhir:ImplementationGuide.definition.page.generation [ fhir:value "markdown" ]
        ], [
-         fhir:index 2;
+         fhir:index 3;
          fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "nilar.html" ];
          fhir:ImplementationGuide.definition.page.title [ fhir:value "Nilar" ];
          fhir:ImplementationGuide.definition.page.generation [ fhir:value "markdown" ]

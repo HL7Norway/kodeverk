@@ -20,7 +20,7 @@
   ];
   fhir:CodeSystem.version [ fhir:value "0.0.1"];
   fhir:CodeSystem.name [ fhir:value "NoKodeverk1101"];
-  fhir:CodeSystem.title [ fhir:value "Ja, nei"];
+  fhir:CodeSystem.title [ fhir:value "1101 Ja, nei"];
   fhir:CodeSystem.status [ fhir:value "draft"];
   fhir:CodeSystem.date [ fhir:value "2020-12-04T12:00:00+00:00"^^xsd:dateTime];
   fhir:CodeSystem.publisher [ fhir:value "Direktoratet for e-helse"];
