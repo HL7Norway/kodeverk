@@ -19,7 +19,7 @@
 | 7305 | urn:oid:2.16.578.1.12.4.1.1.7305 | 6 koder | Moderator |
 | 8116 | urn:oid:2.16.578.1.12.4.1.1.8116 | 14 koder. Eksisterer? | ID-type for personer |
 | 8202 | urn:oid:2.16.578.1.12.4.1.1.8202 | 19 koder | Type laboratoriemelding |
-| 8216 | urn:oid:2.16.578.1.12.4.1.1.8216 | 19 koder | Kodeverk for cytologisk materiale |
+| 8216 | urn:oid:2.16.578.1.12.4.1.1.8216 | [Utkast](https://github.com/HL7Norway/kodeverk/blob/main/input/fsh/codesystems/no-kodeverk-8216.fsh) | Kodeverk for cytologisk materiale |
 | 8219 | urn:oid:2.16.578.1.12.4.1.1.8219 | 33? koder | Kodeverk for patologisk-anatomiske undersøkelser |
 | 8231 | urn:oid:2.16.578.1.12.4.1.1.8231 | [Utkast](https://github.com/HL7Norway/kodeverk/blob/main/input/fsh/codesystems/no-kodeverk-8231.fsh) | Type tekstsvar |
 | 8232 | urn:oid:2.16.578.1.12.4.1.1.8232 | [Utkast](https://github.com/HL7Norway/kodeverk/blob/main/input/fsh/codesystems/no-kodeverk-8232.fsh) | Forbehandling |
