@@ -17,15 +17,15 @@ Beskrivelse av mapping av små og administrative kodeverk fra [Volven.no](https:
 
 #### Noter
 
-1. Navneregel: `NoKodeverkXXX`, der XXXX er fire site sifre i OID
-2. XXXX + Navn på kodeverk, eksempel `"1101 Ja, nei"`
+1. Navneregel: `NoKodeverkXXX`, der XXXX er fire siste sifre i OID
+2. XXXX + Navn på kodeverk, der XXXX er fire siste sifre i OID<br />Eksempel `"1101 Ja, nei"`
 3. Navneregel: `no-kodeverk-XXXX.codesystem`, der XXXX er fire siste sifre i OID
-4. Anbefalt.
+4. Anbefalt
 5. Full OID innledet av "urn:oid:" i *value*
 6. Frivillig. Blir overkjørt ved publisering. Se [issue #6](https://github.com/HL7Norway/kodeverk/issues/6)
-7. "Til utbredelse eller er i bruk" = *#active*, men under utvikling og før QA brukes *#draft*. 
+7. "Til utbredelse eller er i bruk" = *#active*<br />Under utvikling og før kvalitessikring skal *#draft* brukes 
 8. Frivillig. Se [issue #3](https://github.com/HL7Norway/kodeverk/issues/3)
-9. Hvis CodeSystem ikke inneholder koder: *#not-present*, ellers *#complete* eller annen -- [se verdisett](https://www.hl7.org/fhir/valueset-codesystem-content-mode.html)
+9.  Hvis CodeSystem ikke inneholder koder: *#not-present*, ellers *#complete* eller annen. [Se verdisett](https://www.hl7.org/fhir/valueset-codesystem-content-mode.html)
 
 
 #### Enkeltkoder
@@ -49,8 +49,6 @@ Beskrivelse av mapping av små og administrative kodeverk fra [Volven.no](https:
 * #226528004 "Whiskey (substance)"
 * #21 "Originaldokument" "Spesifikk (EPJ) dokumenttype er angitt. Alle dokumenter av denne type skal automatisk inkluderes som "Originaldokument""
 </pre>
-
-**DEBATT** Definisjon er mulig å legge til, men kan kreve *escape'int* etc for å kunne skrives med FSH
 
 ### Anbefalt filnavn
 
