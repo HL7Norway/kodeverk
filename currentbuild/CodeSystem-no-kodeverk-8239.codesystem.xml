@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="no-kodeverk-8239.codesystem"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This code system http://ehelse.no/fhir/CodeSystem/no-kodeverk-8239 defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">EQ<a name="no-kodeverk-8239.codesystem-EQ"> </a></td><td>Lik</td></tr><tr><td style="white-space:nowrap">GE<a name="no-kodeverk-8239.codesystem-GE"> </a></td><td>Større eller lik</td></tr><tr><td style="white-space:nowrap">GT<a name="no-kodeverk-8239.codesystem-GT"> </a></td><td>Større enn</td></tr><tr><td style="white-space:nowrap">LE<a name="no-kodeverk-8239.codesystem-LE"> </a></td><td>Mindre eller lik</td></tr><tr><td style="white-space:nowrap">LT<a name="no-kodeverk-8239.codesystem-LT"> </a></td><td>Mindre enn</td></tr><tr><td style="white-space:nowrap">MG<a name="no-kodeverk-8239.codesystem-MG"> </a></td><td>Mye større enn</td></tr><tr><td style="white-space:nowrap">ML<a name="no-kodeverk-8239.codesystem-ML"> </a></td><td>Mye mindre enn</td></tr><tr><td style="white-space:nowrap">NE<a name="no-kodeverk-8239.codesystem-NE"> </a></td><td>Ikke lik</td></tr></table></div>
+  </text>
+  <url value="http://ehelse.no/fhir/CodeSystem/no-kodeverk-8239"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:oid:2.16.578.1.12.4.1.1.8239"/>
+  </identifier>
+  <version value="0.0.1"/>
+  <name value="NoKodeverk8239"/>
+  <title value="8239 Forholdsoperatorer i svarrapportering av medisinske tjenester"/>
+  <status value="draft"/>
+  <date value="2022-01-31T14:02:34+00:00"/>
+  <publisher value="Direktoratet for e-helse"/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="NO"/>
+      <display value="Norway"/>
+    </coding>
+  </jurisdiction>
+  <content value="complete"/>
+  <count value="8"/>
+  <concept>
+    <code value="EQ"/>
+    <display value="Lik"/>
+  </concept>
+  <concept>
+    <code value="GE"/>
+    <display value="Større eller lik"/>
+  </concept>
+  <concept>
+    <code value="GT"/>
+    <display value="Større enn"/>
+  </concept>
+  <concept>
+    <code value="LE"/>
+    <display value="Mindre eller lik"/>
+  </concept>
+  <concept>
+    <code value="LT"/>
+    <display value="Mindre enn"/>
+  </concept>
+  <concept>
+    <code value="MG"/>
+    <display value="Mye større enn"/>
+  </concept>
+  <concept>
+    <code value="ML"/>
+    <display value="Mye mindre enn"/>
+  </concept>
+  <concept>
+    <code value="NE"/>
+    <display value="Ikke lik"/>
+  </concept>
+</CodeSystem>

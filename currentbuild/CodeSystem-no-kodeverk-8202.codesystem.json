@@ -1,0 +1,114 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "no-kodeverk-8202.codesystem",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system http://ehelse.no/fhir/CodeSystem/no-kodeverk-8202 defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">CLIN<a name=\"no-kodeverk-8202.codesystem-CLIN\"> </a></td><td>Medisinsk biokjemi</td><td>Tidl. Klinisk kjemi</td></tr><tr><td style=\"white-space:nowrap\">CT<a name=\"no-kodeverk-8202.codesystem-CT\"> </a></td><td>Computertomografi</td><td/></tr><tr><td style=\"white-space:nowrap\">CYTO<a name=\"no-kodeverk-8202.codesystem-CYTO\"> </a></td><td>Cytologi</td><td/></tr><tr><td style=\"white-space:nowrap\">FARM<a name=\"no-kodeverk-8202.codesystem-FARM\"> </a></td><td>Klinisk farmakologi</td><td/></tr><tr><td style=\"white-space:nowrap\">HIST<a name=\"no-kodeverk-8202.codesystem-HIST\"> </a></td><td>Histologi</td><td/></tr><tr><td style=\"white-space:nowrap\">IMTR<a name=\"no-kodeverk-8202.codesystem-IMTR\"> </a></td><td>Immunologi og transfusjonsmedisin</td><td/></tr><tr><td style=\"white-space:nowrap\">LAB<a name=\"no-kodeverk-8202.codesystem-LAB\"> </a></td><td>Laboratoriemedisin</td><td/></tr><tr><td style=\"white-space:nowrap\">MA<a name=\"no-kodeverk-8202.codesystem-MA\"> </a></td><td>Mammografi</td><td/></tr><tr><td style=\"white-space:nowrap\">MBIO<a name=\"no-kodeverk-8202.codesystem-MBIO\"> </a></td><td>Medisinsk mikrobiologi</td><td/></tr><tr><td style=\"white-space:nowrap\">MGEN<a name=\"no-kodeverk-8202.codesystem-MGEN\"> </a></td><td>Medisinsk genetikk</td><td/></tr><tr><td style=\"white-space:nowrap\">MR<a name=\"no-kodeverk-8202.codesystem-MR\"> </a></td><td>Magnettomografi</td><td/></tr><tr><td style=\"white-space:nowrap\">NUK<a name=\"no-kodeverk-8202.codesystem-NUK\"> </a></td><td>Nukleærmedisin</td><td/></tr><tr><td style=\"white-space:nowrap\">OBD<a name=\"no-kodeverk-8202.codesystem-OBD\"> </a></td><td>Obduksjon</td><td/></tr><tr><td style=\"white-space:nowrap\">PAT<a name=\"no-kodeverk-8202.codesystem-PAT\"> </a></td><td>Patologi</td><td/></tr><tr><td style=\"white-space:nowrap\">RAD<a name=\"no-kodeverk-8202.codesystem-RAD\"> </a></td><td>Radiologi</td><td/></tr><tr><td style=\"white-space:nowrap\">RTG<a name=\"no-kodeverk-8202.codesystem-RTG\"> </a></td><td>Røntgen</td><td/></tr><tr><td style=\"white-space:nowrap\">SCI<a name=\"no-kodeverk-8202.codesystem-SCI\"> </a></td><td>Scintigrafi</td><td/></tr><tr><td style=\"white-space:nowrap\">UL<a name=\"no-kodeverk-8202.codesystem-UL\"> </a></td><td>Ultralyd</td><td/></tr><tr><td style=\"white-space:nowrap\">AN<a name=\"no-kodeverk-8202.codesystem-AN\"> </a></td><td>Annet</td><td/></tr></table></div>"
+  },
+  "url": "http://ehelse.no/fhir/CodeSystem/no-kodeverk-8202",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:2.16.578.1.12.4.1.1.8202"
+    }
+  ],
+  "version": "0.0.1",
+  "name": "NoKodeverk8202",
+  "title": "8202 Type laboratoriemelding",
+  "status": "draft",
+  "date": "2022-01-31T14:02:34+00:00",
+  "publisher": "Direktoratet for e-helse",
+  "description": "Dette kodeverket beskriver de ulike typene laboratoriemeldinger.",
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166",
+          "code": "NO",
+          "display": "Norway"
+        }
+      ]
+    }
+  ],
+  "content": "complete",
+  "count": 19,
+  "concept": [
+    {
+      "code": "CLIN",
+      "display": "Medisinsk biokjemi",
+      "definition": "Tidl. Klinisk kjemi"
+    },
+    {
+      "code": "CT",
+      "display": "Computertomografi"
+    },
+    {
+      "code": "CYTO",
+      "display": "Cytologi"
+    },
+    {
+      "code": "FARM",
+      "display": "Klinisk farmakologi"
+    },
+    {
+      "code": "HIST",
+      "display": "Histologi"
+    },
+    {
+      "code": "IMTR",
+      "display": "Immunologi og transfusjonsmedisin"
+    },
+    {
+      "code": "LAB",
+      "display": "Laboratoriemedisin"
+    },
+    {
+      "code": "MA",
+      "display": "Mammografi"
+    },
+    {
+      "code": "MBIO",
+      "display": "Medisinsk mikrobiologi"
+    },
+    {
+      "code": "MGEN",
+      "display": "Medisinsk genetikk"
+    },
+    {
+      "code": "MR",
+      "display": "Magnettomografi"
+    },
+    {
+      "code": "NUK",
+      "display": "Nukleærmedisin"
+    },
+    {
+      "code": "OBD",
+      "display": "Obduksjon"
+    },
+    {
+      "code": "PAT",
+      "display": "Patologi"
+    },
+    {
+      "code": "RAD",
+      "display": "Radiologi"
+    },
+    {
+      "code": "RTG",
+      "display": "Røntgen"
+    },
+    {
+      "code": "SCI",
+      "display": "Scintigrafi"
+    },
+    {
+      "code": "UL",
+      "display": "Ultralyd"
+    },
+    {
+      "code": "AN",
+      "display": "Annet"
+    }
+  ]
+}

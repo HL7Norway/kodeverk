@@ -1,0 +1,78 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.no/fhir/CodeSystem/no-kodeverk-8239.codesystem> a fhir:CodeSystem;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "no-kodeverk-8239.codesystem"];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system http://ehelse.no/fhir/CodeSystem/no-kodeverk-8239 defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">EQ<a name=\"no-kodeverk-8239.codesystem-EQ\"> </a></td><td>Lik</td></tr><tr><td style=\"white-space:nowrap\">GE<a name=\"no-kodeverk-8239.codesystem-GE\"> </a></td><td>Større eller lik</td></tr><tr><td style=\"white-space:nowrap\">GT<a name=\"no-kodeverk-8239.codesystem-GT\"> </a></td><td>Større enn</td></tr><tr><td style=\"white-space:nowrap\">LE<a name=\"no-kodeverk-8239.codesystem-LE\"> </a></td><td>Mindre eller lik</td></tr><tr><td style=\"white-space:nowrap\">LT<a name=\"no-kodeverk-8239.codesystem-LT\"> </a></td><td>Mindre enn</td></tr><tr><td style=\"white-space:nowrap\">MG<a name=\"no-kodeverk-8239.codesystem-MG\"> </a></td><td>Mye større enn</td></tr><tr><td style=\"white-space:nowrap\">ML<a name=\"no-kodeverk-8239.codesystem-ML\"> </a></td><td>Mye mindre enn</td></tr><tr><td style=\"white-space:nowrap\">NE<a name=\"no-kodeverk-8239.codesystem-NE\"> </a></td><td>Ikke lik</td></tr></table></div>"
+  ];
+  fhir:CodeSystem.url [ fhir:value "http://ehelse.no/fhir/CodeSystem/no-kodeverk-8239"];
+  fhir:CodeSystem.identifier [
+     fhir:index 0;
+     fhir:Identifier.system [ fhir:value "urn:ietf:rfc:3986" ];
+     fhir:Identifier.value [ fhir:value "urn:oid:2.16.578.1.12.4.1.1.8239" ]
+  ];
+  fhir:CodeSystem.version [ fhir:value "0.0.1"];
+  fhir:CodeSystem.name [ fhir:value "NoKodeverk8239"];
+  fhir:CodeSystem.title [ fhir:value "8239 Forholdsoperatorer i svarrapportering av medisinske tjenester"];
+  fhir:CodeSystem.status [ fhir:value "draft"];
+  fhir:CodeSystem.date [ fhir:value "2022-01-31T14:02:34+00:00"^^xsd:dateTime];
+  fhir:CodeSystem.publisher [ fhir:value "Direktoratet for e-helse"];
+  fhir:CodeSystem.jurisdiction [
+     fhir:index 0;
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       fhir:Coding.system [ fhir:value "urn:iso:std:iso:3166" ];
+       fhir:Coding.code [ fhir:value "NO" ];
+       fhir:Coding.display [ fhir:value "Norway" ]
+     ]
+  ];
+  fhir:CodeSystem.content [ fhir:value "complete"];
+  fhir:CodeSystem.count [ fhir:value "8"^^xsd:nonNegativeInteger];
+  fhir:CodeSystem.concept [
+     fhir:index 0;
+     fhir:CodeSystem.concept.code [ fhir:value "EQ" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Lik" ]
+  ], [
+     fhir:index 1;
+     fhir:CodeSystem.concept.code [ fhir:value "GE" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Større eller lik" ]
+  ], [
+     fhir:index 2;
+     fhir:CodeSystem.concept.code [ fhir:value "GT" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Større enn" ]
+  ], [
+     fhir:index 3;
+     fhir:CodeSystem.concept.code [ fhir:value "LE" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Mindre eller lik" ]
+  ], [
+     fhir:index 4;
+     fhir:CodeSystem.concept.code [ fhir:value "LT" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Mindre enn" ]
+  ], [
+     fhir:index 5;
+     fhir:CodeSystem.concept.code [ fhir:value "MG" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Mye større enn" ]
+  ], [
+     fhir:index 6;
+     fhir:CodeSystem.concept.code [ fhir:value "ML" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Mye mindre enn" ]
+  ], [
+     fhir:index 7;
+     fhir:CodeSystem.concept.code [ fhir:value "NE" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Ikke lik" ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<http://hl7.no/fhir/CodeSystem/no-kodeverk-8239.codesystem.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

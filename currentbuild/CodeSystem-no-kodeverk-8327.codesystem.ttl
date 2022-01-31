@@ -1,0 +1,63 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.no/fhir/CodeSystem/no-kodeverk-8327.codesystem> a fhir:CodeSystem;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "no-kodeverk-8327.codesystem"];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system http://ehelse.no/fhir/CodeSystem/no-kodeverk-8327 defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">DNR<a name=\"no-kodeverk-8327.codesystem-DNR\"> </a></td><td>D-nummer</td></tr><tr><td style=\"white-space:nowrap\">FHN<a name=\"no-kodeverk-8327.codesystem-FHN\"> </a></td><td>Felles hjelpenummer (FH-nummer)</td></tr><tr><td style=\"white-space:nowrap\">FNR<a name=\"no-kodeverk-8327.codesystem-FNR\"> </a></td><td>Fødselsnummer</td></tr><tr><td style=\"white-space:nowrap\">HNR<a name=\"no-kodeverk-8327.codesystem-HNR\"> </a></td><td>H-nummer</td></tr></table></div>"
+  ];
+  fhir:CodeSystem.url [ fhir:value "http://ehelse.no/fhir/CodeSystem/no-kodeverk-8327"];
+  fhir:CodeSystem.identifier [
+     fhir:index 0;
+     fhir:Identifier.system [ fhir:value "urn:ietf:rfc:3986" ];
+     fhir:Identifier.value [ fhir:value "urn:oid:2.16.578.1.12.4.1.1.8327" ]
+  ];
+  fhir:CodeSystem.version [ fhir:value "0.0.1"];
+  fhir:CodeSystem.name [ fhir:value "NoKodeverk8327"];
+  fhir:CodeSystem.title [ fhir:value "8327 Offisiell personidentifikasjon"];
+  fhir:CodeSystem.status [ fhir:value "draft"];
+  fhir:CodeSystem.date [ fhir:value "2022-01-31T14:02:34+00:00"^^xsd:dateTime];
+  fhir:CodeSystem.publisher [ fhir:value "Direktoratet for e-helse"];
+  fhir:CodeSystem.description [ fhir:value "Dette kodeverket inneholder koder som benyttes for å identifisere ulike typer identifikatorer for personer."];
+  fhir:CodeSystem.jurisdiction [
+     fhir:index 0;
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       fhir:Coding.system [ fhir:value "urn:iso:std:iso:3166" ];
+       fhir:Coding.code [ fhir:value "NO" ];
+       fhir:Coding.display [ fhir:value "Norway" ]
+     ]
+  ];
+  fhir:CodeSystem.content [ fhir:value "complete"];
+  fhir:CodeSystem.count [ fhir:value "4"^^xsd:nonNegativeInteger];
+  fhir:CodeSystem.concept [
+     fhir:index 0;
+     fhir:CodeSystem.concept.code [ fhir:value "DNR" ];
+     fhir:CodeSystem.concept.display [ fhir:value "D-nummer" ]
+  ], [
+     fhir:index 1;
+     fhir:CodeSystem.concept.code [ fhir:value "FHN" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Felles hjelpenummer (FH-nummer)" ]
+  ], [
+     fhir:index 2;
+     fhir:CodeSystem.concept.code [ fhir:value "FNR" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Fødselsnummer" ]
+  ], [
+     fhir:index 3;
+     fhir:CodeSystem.concept.code [ fhir:value "HNR" ];
+     fhir:CodeSystem.concept.display [ fhir:value "H-nummer" ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<http://hl7.no/fhir/CodeSystem/no-kodeverk-8327.codesystem.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

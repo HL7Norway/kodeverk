@@ -9,7 +9,7 @@
   <version value="0.0.1"/>
   <name value="NoKodeverk"/>
   <status value="draft"/>
-  <date value="2022-01-31T10:21:32+00:00"/>
+  <date value="2022-01-31T14:02:34+00:00"/>
   <jurisdiction>
     <coding>
       <system value="urn:iso:std:iso:3166"/>
@@ -189,10 +189,255 @@
         <valueString value="CodeSystem"/>
       </extension>
       <reference>
-        <reference value="CodeSystem/no-kodeverk-XXXX.codesystem"/>
+        <reference value="CodeSystem/no-kodeverk-7010.codesystem"/>
       </reference>
-      <name value="Kodeverkets navn"/>
-      <description value="Beskrivelse av kodeverket"/>
+      <name value="7010 Norsk patologikodeverk"/>
+      <description value="Norsk patologikodeverk er et kodeverk som benyttes ved norske patologiavdelinger. Kodeverket ble utarbeidet av Den norske patologforenings kode- og nomenklaturutvalg i samarbeid med KITH på grunnlag av The Systematized Nomenclature of Medicine (SNOMED, 1984). Endret navn fra Den norske SNOMED til Norsk patologikodeverk 3. november 2015."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/no-kodeverk-7270.codesystem"/>
+      </reference>
+      <name value="7270 NCRP"/>
+      <description value="Kodeverk for radiologi og nukleærmedisin. Kodeverket skal brukes for å dokumentere og skal kunne brukes for å bestille radiologiske tjenester. Det skal benyttes for både polikliniske og innlagte pasienter. Fra 1. januar 2012 har det vært obligatorisk å bruke dette kodeverket for å rapportere poliklinisk radiologisk aktivitet både for offentlige og private virksomheter."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/no-kodeverk-7280.codesystem"/>
+      </reference>
+      <name value="7280 Norsk laboratoriekodeverk"/>
+      <description value="Norsk laboratoriekodverk er et felles kodeverk for laboratorieanalyser utarbeidet i samarbeid med de laboratoriefaglige miljøene fordelt på 6 spesialiteter: Immunologi og transfusjonsmedisin, Klinisk farmakologi, Medisinsk biokjemi, Medisinsk genetikk, Medisinsk mikrobiologi og Patologi."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/no-kodeverk-7305.codesystem"/>
+      </reference>
+      <name value="7305 Moderator"/>
+      <description value="Kodeverket benyttes i epikrisemeldingen"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/no-kodeverk-8116.codesystem"/>
+      </reference>
+      <name value="8116 ID-type for personer"/>
+      <description value="Dette kodeverket inneholder koder som benyttes for å identifisere ulike typer identifikatorer for personer."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/no-kodeverk-8202.codesystem"/>
+      </reference>
+      <name value="8202 Type laboratoriemelding"/>
+      <description value="Dette kodeverket beskriver de ulike typene laboratoriemeldinger."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/no-kodeverk-8216.codesystem"/>
+      </reference>
+      <name value="8216 Kodeverk for cytologisk materiale"/>
+      <description value="Gynekologisk materiale eller annet cytologisk materiale som er tatt for cytologiske undersøkelser. Kodene dekker opp valgmuligheter fra standard rekvisisjonsskjema for cytologiske undersøkelser."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/no-kodeverk-8219.codesystem"/>
+      </reference>
+      <name value="8219 Kodeverk for patologisk-anatomiske undersøkelser"/>
+      <description value="Disse kodeverdiene dekker opp valgmuligheter fra standard rekvisisjonsskjema for cytologiske undersøkelser (elementet Identifikasjon av type undersøkelse (Id) i klassen Undersøkelse (Investigation)). Kodeverket er foreldet og erstattes av NLK (7280)."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/no-kodeverk-8231.codesystem"/>
+      </reference>
+      <name value="8231 Type tekstsvar"/>
+      <description value="Begrunnelse for rekvisisjon"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/no-kodeverk-8232.codesystem"/>
+      </reference>
+      <name value="8232 Forbehandling"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/no-kodeverk-8239.codesystem"/>
+      </reference>
+      <name value="8239 Forholdsoperatorer i svarrapportering av medisinske tjenester"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/no-kodeverk-8243.codesystem"/>
+      </reference>
+      <name value="8243 Type tekstsvar i tekstlig resultat i svarrapportering av medisinske tjenester"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/no-kodeverk-8244.codesystem"/>
+      </reference>
+      <name value="8244 Avviksmarkør i svarrapportering av medisinske tjenester"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/no-kodeverk-8245.codesystem"/>
+      </reference>
+      <name value="8245 Status for resultat i svarrapportering av medisinske tjenester"/>
+      <description value="Benyttes for å angi status/steg i arbeidsflyt for en enkelt lab- /røntgenundersøkelse."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/no-kodeverk-8264.codesystem"/>
+      </reference>
+      <name value="8264 Tjenestekoder for timereservasjon"/>
+      <description value="Foreløpig kodeverk basert på tilgjengelige tjenester. Anvendes til booking av time."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/no-kodeverk-8268.codesystem"/>
+      </reference>
+      <name value="8268 Type identifikator"/>
+      <description value="Dette kodeverket inneholder koder som benyttes for å identifisere ulike typer identifikatorer for personer og organisasjoner."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/no-kodeverk-8269.codesystem"/>
+      </reference>
+      <name value="8269 Kommentar til svarrapport"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/no-kodeverk-8271.codesystem"/>
+      </reference>
+      <name value="8271 Resistens"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/no-kodeverk-8272.codesystem"/>
+      </reference>
+      <name value="8272 Anbefaling om ny undersøkelse"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/no-kodeverk-8273.codesystem"/>
+      </reference>
+      <name value="8273 Hastegrad"/>
+      <description value="Anbefalt tidsperspektiv for tiltak."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/no-kodeverk-8275.codesystem"/>
+      </reference>
+      <name value="8275 Cytologisk materiale tatt med"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/no-kodeverk-8327.codesystem"/>
+      </reference>
+      <name value="8327 Offisiell personidentifikasjon"/>
+      <description value="Dette kodeverket inneholder koder som benyttes for å identifisere ulike typer identifikatorer for personer."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/no-kodeverk-8351.codesystem"/>
+      </reference>
+      <name value="8351 Prøvemateriale"/>
+      <description value="Kodeverk for prøvemateriale til bruk i rekvisisjon og svar av laboratorieundersøkelser."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/no-kodeverk-9060.codesystem"/>
+      </reference>
+      <name value="9060 Kategori helsepersonell"/>
+      <description value="Kodeverket inneholder koder som benyttes for å kategorisere helsepersonell med autorisasjon etter Helsepersonelloven § 48, og dyrehelsepersonell med autorisasjon etter Dyrehelsepersonelloven § 4."/>
       <exampleBoolean value="false"/>
     </resource>
     <page>

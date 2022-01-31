@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="no-kodeverk-8264.codesystem"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This code system http://ehelse.no/fhir/CodeSystem/no-kodeverk-8264 defines many codes, but they are not represented here</p></div>
+  </text>
+  <url value="http://ehelse.no/fhir/CodeSystem/no-kodeverk-8264"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:oid:2.16.578.1.12.4.1.1.8264"/>
+  </identifier>
+  <version value="0.0.1"/>
+  <name value="NoKodeverk8264"/>
+  <title value="8264 Tjenestekoder for timereservasjon"/>
+  <status value="draft"/>
+  <date value="2022-01-31T14:02:34+00:00"/>
+  <publisher value="Direktoratet for e-helse"/>
+  <description value="Foreløpig kodeverk basert på tilgjengelige tjenester. Anvendes til booking av time."/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="NO"/>
+      <display value="Norway"/>
+    </coding>
+  </jurisdiction>
+  <content value="not-present"/>
+</CodeSystem>

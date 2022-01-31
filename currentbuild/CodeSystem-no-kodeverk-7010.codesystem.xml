@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="no-kodeverk-7010.codesystem"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This code system http://ehelse.no/fhir/CodeSystem/no-kodeverk-7010 defines many codes, but they are not represented here</p></div>
+  </text>
+  <url value="http://ehelse.no/fhir/CodeSystem/no-kodeverk-7010"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:oid:2.16.578.1.12.4.1.1.7010"/>
+  </identifier>
+  <version value="0.0.1"/>
+  <name value="NoKodeverk7010"/>
+  <title value="7010 Norsk patologikodeverk"/>
+  <status value="draft"/>
+  <date value="2022-01-31T14:02:34+00:00"/>
+  <publisher value="Den norske patologiforening"/>
+  <description value="Norsk patologikodeverk er et kodeverk som benyttes ved norske patologiavdelinger. Kodeverket ble utarbeidet av Den norske patologforenings kode- og nomenklaturutvalg i samarbeid med KITH på grunnlag av The Systematized Nomenclature of Medicine (SNOMED, 1984). Endret navn fra Den norske SNOMED til Norsk patologikodeverk 3. november 2015."/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="NO"/>
+      <display value="Norway"/>
+    </coding>
+  </jurisdiction>
+  <content value="not-present"/>
+</CodeSystem>

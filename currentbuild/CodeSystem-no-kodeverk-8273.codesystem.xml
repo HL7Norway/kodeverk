@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="no-kodeverk-8273.codesystem"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This code system http://ehelse.no/fhir/CodeSystem/no-kodeverk-8273 defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">S<a name="no-kodeverk-8273.codesystem-S"> </a></td><td>Snarest</td></tr><tr><td style="white-space:nowrap">B<a name="no-kodeverk-8273.codesystem-B"> </a></td><td>Etter behandling</td></tr><tr><td style="white-space:nowrap">M01<a name="no-kodeverk-8273.codesystem-M01"> </a></td><td>Etter 1 måned</td></tr><tr><td style="white-space:nowrap">M03<a name="no-kodeverk-8273.codesystem-M03"> </a></td><td>Etter 3 måneder</td></tr><tr><td style="white-space:nowrap">M06<a name="no-kodeverk-8273.codesystem-M06"> </a></td><td>Etter 6 måneder</td></tr><tr><td style="white-space:nowrap">M12<a name="no-kodeverk-8273.codesystem-M12"> </a></td><td>Etter 12 måneder</td></tr></table></div>
+  </text>
+  <url value="http://ehelse.no/fhir/CodeSystem/no-kodeverk-8273"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:oid:2.16.578.1.12.4.1.1.8273"/>
+  </identifier>
+  <version value="0.0.1"/>
+  <name value="NoKodeverk8273"/>
+  <title value="8273 Hastegrad"/>
+  <status value="draft"/>
+  <date value="2022-01-31T14:02:34+00:00"/>
+  <publisher value="Direktoratet for e-helse"/>
+  <description value="Anbefalt tidsperspektiv for tiltak."/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="NO"/>
+      <display value="Norway"/>
+    </coding>
+  </jurisdiction>
+  <content value="complete"/>
+  <count value="6"/>
+  <concept>
+    <code value="S"/>
+    <display value="Snarest"/>
+  </concept>
+  <concept>
+    <code value="B"/>
+    <display value="Etter behandling"/>
+  </concept>
+  <concept>
+    <code value="M01"/>
+    <display value="Etter 1 måned"/>
+  </concept>
+  <concept>
+    <code value="M03"/>
+    <display value="Etter 3 måneder"/>
+  </concept>
+  <concept>
+    <code value="M06"/>
+    <display value="Etter 6 måneder"/>
+  </concept>
+  <concept>
+    <code value="M12"/>
+    <display value="Etter 12 måneder"/>
+  </concept>
+</CodeSystem>

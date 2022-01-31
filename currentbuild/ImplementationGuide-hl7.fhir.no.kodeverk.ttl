@@ -16,7 +16,7 @@
   fhir:ImplementationGuide.version [ fhir:value "0.0.1"];
   fhir:ImplementationGuide.name [ fhir:value "NoKodeverk"];
   fhir:ImplementationGuide.status [ fhir:value "draft"];
-  fhir:ImplementationGuide.date [ fhir:value "2022-01-31T10:21:32+00:00"^^xsd:dateTime];
+  fhir:ImplementationGuide.date [ fhir:value "2022-01-31T14:02:34+00:00"^^xsd:dateTime];
   fhir:ImplementationGuide.jurisdiction [
      fhir:index 0;
      fhir:CodeableConcept.coding [
@@ -284,11 +284,325 @@
          fhir:Extension.valueString [ fhir:value "CodeSystem" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://hl7.no/fhir/CodeSystem/no-kodeverk-XXXX.codesystem>;
-         fhir:Reference.reference [ fhir:value "CodeSystem/no-kodeverk-XXXX.codesystem" ]
+         fhir:link <http://hl7.no/fhir/CodeSystem/no-kodeverk-7010.codesystem>;
+         fhir:Reference.reference [ fhir:value "CodeSystem/no-kodeverk-7010.codesystem" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Kodeverkets navn" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Beskrivelse av kodeverket" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "7010 Norsk patologikodeverk" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Norsk patologikodeverk er et kodeverk som benyttes ved norske patologiavdelinger. Kodeverket ble utarbeidet av Den norske patologforenings kode- og nomenklaturutvalg i samarbeid med KITH på grunnlag av The Systematized Nomenclature of Medicine (SNOMED, 1984). Endret navn fra Den norske SNOMED til Norsk patologikodeverk 3. november 2015." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 2;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "CodeSystem" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.no/fhir/CodeSystem/no-kodeverk-7270.codesystem>;
+         fhir:Reference.reference [ fhir:value "CodeSystem/no-kodeverk-7270.codesystem" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "7270 NCRP" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Kodeverk for radiologi og nukleærmedisin. Kodeverket skal brukes for å dokumentere og skal kunne brukes for å bestille radiologiske tjenester. Det skal benyttes for både polikliniske og innlagte pasienter. Fra 1. januar 2012 har det vært obligatorisk å bruke dette kodeverket for å rapportere poliklinisk radiologisk aktivitet både for offentlige og private virksomheter." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 3;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "CodeSystem" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.no/fhir/CodeSystem/no-kodeverk-7280.codesystem>;
+         fhir:Reference.reference [ fhir:value "CodeSystem/no-kodeverk-7280.codesystem" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "7280 Norsk laboratoriekodeverk" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Norsk laboratoriekodverk er et felles kodeverk for laboratorieanalyser utarbeidet i samarbeid med de laboratoriefaglige miljøene fordelt på 6 spesialiteter: Immunologi og transfusjonsmedisin, Klinisk farmakologi, Medisinsk biokjemi, Medisinsk genetikk, Medisinsk mikrobiologi og Patologi." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 4;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "CodeSystem" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.no/fhir/CodeSystem/no-kodeverk-7305.codesystem>;
+         fhir:Reference.reference [ fhir:value "CodeSystem/no-kodeverk-7305.codesystem" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "7305 Moderator" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Kodeverket benyttes i epikrisemeldingen" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 5;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "CodeSystem" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.no/fhir/CodeSystem/no-kodeverk-8116.codesystem>;
+         fhir:Reference.reference [ fhir:value "CodeSystem/no-kodeverk-8116.codesystem" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "8116 ID-type for personer" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Dette kodeverket inneholder koder som benyttes for å identifisere ulike typer identifikatorer for personer." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 6;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "CodeSystem" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.no/fhir/CodeSystem/no-kodeverk-8202.codesystem>;
+         fhir:Reference.reference [ fhir:value "CodeSystem/no-kodeverk-8202.codesystem" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "8202 Type laboratoriemelding" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Dette kodeverket beskriver de ulike typene laboratoriemeldinger." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 7;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "CodeSystem" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.no/fhir/CodeSystem/no-kodeverk-8216.codesystem>;
+         fhir:Reference.reference [ fhir:value "CodeSystem/no-kodeverk-8216.codesystem" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "8216 Kodeverk for cytologisk materiale" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Gynekologisk materiale eller annet cytologisk materiale som er tatt for cytologiske undersøkelser. Kodene dekker opp valgmuligheter fra standard rekvisisjonsskjema for cytologiske undersøkelser." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 8;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "CodeSystem" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.no/fhir/CodeSystem/no-kodeverk-8219.codesystem>;
+         fhir:Reference.reference [ fhir:value "CodeSystem/no-kodeverk-8219.codesystem" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "8219 Kodeverk for patologisk-anatomiske undersøkelser" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Disse kodeverdiene dekker opp valgmuligheter fra standard rekvisisjonsskjema for cytologiske undersøkelser (elementet Identifikasjon av type undersøkelse (Id) i klassen Undersøkelse (Investigation)). Kodeverket er foreldet og erstattes av NLK (7280)." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 9;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "CodeSystem" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.no/fhir/CodeSystem/no-kodeverk-8231.codesystem>;
+         fhir:Reference.reference [ fhir:value "CodeSystem/no-kodeverk-8231.codesystem" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "8231 Type tekstsvar" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Begrunnelse for rekvisisjon" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 10;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "CodeSystem" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.no/fhir/CodeSystem/no-kodeverk-8232.codesystem>;
+         fhir:Reference.reference [ fhir:value "CodeSystem/no-kodeverk-8232.codesystem" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "8232 Forbehandling" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 11;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "CodeSystem" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.no/fhir/CodeSystem/no-kodeverk-8239.codesystem>;
+         fhir:Reference.reference [ fhir:value "CodeSystem/no-kodeverk-8239.codesystem" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "8239 Forholdsoperatorer i svarrapportering av medisinske tjenester" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 12;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "CodeSystem" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.no/fhir/CodeSystem/no-kodeverk-8243.codesystem>;
+         fhir:Reference.reference [ fhir:value "CodeSystem/no-kodeverk-8243.codesystem" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "8243 Type tekstsvar i tekstlig resultat i svarrapportering av medisinske tjenester" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 13;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "CodeSystem" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.no/fhir/CodeSystem/no-kodeverk-8244.codesystem>;
+         fhir:Reference.reference [ fhir:value "CodeSystem/no-kodeverk-8244.codesystem" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "8244 Avviksmarkør i svarrapportering av medisinske tjenester" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 14;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "CodeSystem" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.no/fhir/CodeSystem/no-kodeverk-8245.codesystem>;
+         fhir:Reference.reference [ fhir:value "CodeSystem/no-kodeverk-8245.codesystem" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "8245 Status for resultat i svarrapportering av medisinske tjenester" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Benyttes for å angi status/steg i arbeidsflyt for en enkelt lab- /røntgenundersøkelse." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 15;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "CodeSystem" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.no/fhir/CodeSystem/no-kodeverk-8264.codesystem>;
+         fhir:Reference.reference [ fhir:value "CodeSystem/no-kodeverk-8264.codesystem" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "8264 Tjenestekoder for timereservasjon" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Foreløpig kodeverk basert på tilgjengelige tjenester. Anvendes til booking av time." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 16;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "CodeSystem" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.no/fhir/CodeSystem/no-kodeverk-8268.codesystem>;
+         fhir:Reference.reference [ fhir:value "CodeSystem/no-kodeverk-8268.codesystem" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "8268 Type identifikator" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Dette kodeverket inneholder koder som benyttes for å identifisere ulike typer identifikatorer for personer og organisasjoner." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 17;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "CodeSystem" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.no/fhir/CodeSystem/no-kodeverk-8269.codesystem>;
+         fhir:Reference.reference [ fhir:value "CodeSystem/no-kodeverk-8269.codesystem" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "8269 Kommentar til svarrapport" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 18;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "CodeSystem" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.no/fhir/CodeSystem/no-kodeverk-8271.codesystem>;
+         fhir:Reference.reference [ fhir:value "CodeSystem/no-kodeverk-8271.codesystem" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "8271 Resistens" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 19;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "CodeSystem" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.no/fhir/CodeSystem/no-kodeverk-8272.codesystem>;
+         fhir:Reference.reference [ fhir:value "CodeSystem/no-kodeverk-8272.codesystem" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "8272 Anbefaling om ny undersøkelse" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 20;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "CodeSystem" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.no/fhir/CodeSystem/no-kodeverk-8273.codesystem>;
+         fhir:Reference.reference [ fhir:value "CodeSystem/no-kodeverk-8273.codesystem" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "8273 Hastegrad" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Anbefalt tidsperspektiv for tiltak." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 21;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "CodeSystem" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.no/fhir/CodeSystem/no-kodeverk-8275.codesystem>;
+         fhir:Reference.reference [ fhir:value "CodeSystem/no-kodeverk-8275.codesystem" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "8275 Cytologisk materiale tatt med" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 22;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "CodeSystem" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.no/fhir/CodeSystem/no-kodeverk-8327.codesystem>;
+         fhir:Reference.reference [ fhir:value "CodeSystem/no-kodeverk-8327.codesystem" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "8327 Offisiell personidentifikasjon" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Dette kodeverket inneholder koder som benyttes for å identifisere ulike typer identifikatorer for personer." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 23;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "CodeSystem" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.no/fhir/CodeSystem/no-kodeverk-8351.codesystem>;
+         fhir:Reference.reference [ fhir:value "CodeSystem/no-kodeverk-8351.codesystem" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "8351 Prøvemateriale" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Kodeverk for prøvemateriale til bruk i rekvisisjon og svar av laboratorieundersøkelser." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 24;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "CodeSystem" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.no/fhir/CodeSystem/no-kodeverk-9060.codesystem>;
+         fhir:Reference.reference [ fhir:value "CodeSystem/no-kodeverk-9060.codesystem" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "9060 Kategori helsepersonell" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Kodeverket inneholder koder som benyttes for å kategorisere helsepersonell med autorisasjon etter Helsepersonelloven § 48, og dyrehelsepersonell med autorisasjon etter Dyrehelsepersonelloven § 4." ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ];
      fhir:ImplementationGuide.definition.page [

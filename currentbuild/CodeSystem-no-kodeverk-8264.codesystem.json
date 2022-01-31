@@ -1,0 +1,34 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "no-kodeverk-8264.codesystem",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system http://ehelse.no/fhir/CodeSystem/no-kodeverk-8264 defines many codes, but they are not represented here</p></div>"
+  },
+  "url": "http://ehelse.no/fhir/CodeSystem/no-kodeverk-8264",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:2.16.578.1.12.4.1.1.8264"
+    }
+  ],
+  "version": "0.0.1",
+  "name": "NoKodeverk8264",
+  "title": "8264 Tjenestekoder for timereservasjon",
+  "status": "draft",
+  "date": "2022-01-31T14:02:34+00:00",
+  "publisher": "Direktoratet for e-helse",
+  "description": "Foreløpig kodeverk basert på tilgjengelige tjenester. Anvendes til booking av time.",
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166",
+          "code": "NO",
+          "display": "Norway"
+        }
+      ]
+    }
+  ],
+  "content": "not-present"
+}

@@ -1,0 +1,52 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "no-kodeverk-8232.codesystem",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system http://ehelse.no/fhir/CodeSystem/no-kodeverk-8232 defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">PFP<a name=\"no-kodeverk-8232.codesystem-PFP\"> </a></td><td>Profylaktisk prosedyre</td></tr><tr><td style=\"white-space:nowrap\">DI<a name=\"no-kodeverk-8232.codesystem-DI\"> </a></td><td>Diett</td></tr><tr><td style=\"white-space:nowrap\">FA<a name=\"no-kodeverk-8232.codesystem-FA\"> </a></td><td>Faste</td></tr><tr><td style=\"white-space:nowrap\">MEDB<a name=\"no-kodeverk-8232.codesystem-MEDB\"> </a></td><td>Medikamentell behandling</td></tr></table></div>"
+  },
+  "url": "http://ehelse.no/fhir/CodeSystem/no-kodeverk-8232",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:2.16.578.1.12.4.1.1.8232"
+    }
+  ],
+  "version": "0.0.1",
+  "name": "NoKodeverk8232",
+  "title": "8232 Forbehandling",
+  "status": "draft",
+  "date": "2022-01-31T14:02:34+00:00",
+  "publisher": "Direktoratet for e-helse",
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166",
+          "code": "NO",
+          "display": "Norway"
+        }
+      ]
+    }
+  ],
+  "content": "complete",
+  "count": 4,
+  "concept": [
+    {
+      "code": "PFP",
+      "display": "Profylaktisk prosedyre"
+    },
+    {
+      "code": "DI",
+      "display": "Diett"
+    },
+    {
+      "code": "FA",
+      "display": "Faste"
+    },
+    {
+      "code": "MEDB",
+      "display": "Medikamentell behandling"
+    }
+  ]
+}

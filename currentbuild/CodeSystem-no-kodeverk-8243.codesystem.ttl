@@ -1,0 +1,86 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.no/fhir/CodeSystem/no-kodeverk-8243.codesystem> a fhir:CodeSystem;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "no-kodeverk-8243.codesystem"];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system http://ehelse.no/fhir/CodeSystem/no-kodeverk-8243 defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">AN<a name=\"no-kodeverk-8243.codesystem-AN\"> </a></td><td>Analyse</td></tr><tr><td style=\"white-space:nowrap\">DIAG<a name=\"no-kodeverk-8243.codesystem-DIAG\"> </a></td><td>Diagnose</td></tr><tr><td style=\"white-space:nowrap\">FU<a name=\"no-kodeverk-8243.codesystem-FU\"> </a></td><td>Funn og undersøkelsesresultater</td></tr><tr><td style=\"white-space:nowrap\">GR<a name=\"no-kodeverk-8243.codesystem-GR\"> </a></td><td>Gruppe</td></tr><tr><td style=\"white-space:nowrap\">LR<a name=\"no-kodeverk-8243.codesystem-LR\"> </a></td><td>Laboratorieresultat</td></tr><tr><td style=\"white-space:nowrap\">RSB<a name=\"no-kodeverk-8243.codesystem-RSB\"> </a></td><td>Resistensbestemmelse</td></tr><tr><td style=\"white-space:nowrap\">SY<a name=\"no-kodeverk-8243.codesystem-SY\"> </a></td><td>Sykmelding</td></tr><tr><td style=\"white-space:nowrap\">UP<a name=\"no-kodeverk-8243.codesystem-UP\"> </a></td><td>Ubesvarte prøver</td></tr><tr><td style=\"white-space:nowrap\">VU<a name=\"no-kodeverk-8243.codesystem-VU\"> </a></td><td>Vurdering</td></tr><tr><td style=\"white-space:nowrap\">XX<a name=\"no-kodeverk-8243.codesystem-XX\"> </a></td><td>Uspesifisert</td></tr></table></div>"
+  ];
+  fhir:CodeSystem.url [ fhir:value "http://ehelse.no/fhir/CodeSystem/no-kodeverk-8243"];
+  fhir:CodeSystem.identifier [
+     fhir:index 0;
+     fhir:Identifier.system [ fhir:value "urn:ietf:rfc:3986" ];
+     fhir:Identifier.value [ fhir:value "urn:oid:2.16.578.1.12.4.1.1.8243" ]
+  ];
+  fhir:CodeSystem.version [ fhir:value "0.0.1"];
+  fhir:CodeSystem.name [ fhir:value "NoKodeverk8243"];
+  fhir:CodeSystem.title [ fhir:value "8243 Type tekstsvar i tekstlig resultat i svarrapportering av medisinske tjenester"];
+  fhir:CodeSystem.status [ fhir:value "draft"];
+  fhir:CodeSystem.date [ fhir:value "2022-01-31T14:02:34+00:00"^^xsd:dateTime];
+  fhir:CodeSystem.publisher [ fhir:value "Direktoratet for e-helse"];
+  fhir:CodeSystem.jurisdiction [
+     fhir:index 0;
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       fhir:Coding.system [ fhir:value "urn:iso:std:iso:3166" ];
+       fhir:Coding.code [ fhir:value "NO" ];
+       fhir:Coding.display [ fhir:value "Norway" ]
+     ]
+  ];
+  fhir:CodeSystem.content [ fhir:value "complete"];
+  fhir:CodeSystem.count [ fhir:value "10"^^xsd:nonNegativeInteger];
+  fhir:CodeSystem.concept [
+     fhir:index 0;
+     fhir:CodeSystem.concept.code [ fhir:value "AN" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Analyse" ]
+  ], [
+     fhir:index 1;
+     fhir:CodeSystem.concept.code [ fhir:value "DIAG" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Diagnose" ]
+  ], [
+     fhir:index 2;
+     fhir:CodeSystem.concept.code [ fhir:value "FU" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Funn og undersøkelsesresultater" ]
+  ], [
+     fhir:index 3;
+     fhir:CodeSystem.concept.code [ fhir:value "GR" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Gruppe" ]
+  ], [
+     fhir:index 4;
+     fhir:CodeSystem.concept.code [ fhir:value "LR" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Laboratorieresultat" ]
+  ], [
+     fhir:index 5;
+     fhir:CodeSystem.concept.code [ fhir:value "RSB" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Resistensbestemmelse" ]
+  ], [
+     fhir:index 6;
+     fhir:CodeSystem.concept.code [ fhir:value "SY" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Sykmelding" ]
+  ], [
+     fhir:index 7;
+     fhir:CodeSystem.concept.code [ fhir:value "UP" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Ubesvarte prøver" ]
+  ], [
+     fhir:index 8;
+     fhir:CodeSystem.concept.code [ fhir:value "VU" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Vurdering" ]
+  ], [
+     fhir:index 9;
+     fhir:CodeSystem.concept.code [ fhir:value "XX" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Uspesifisert" ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<http://hl7.no/fhir/CodeSystem/no-kodeverk-8243.codesystem.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

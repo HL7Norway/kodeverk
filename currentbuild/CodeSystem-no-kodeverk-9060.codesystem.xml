@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="no-kodeverk-9060.codesystem"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This code system http://ehelse.no/fhir/CodeSystem/no-kodeverk-9060 defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style="white-space:nowrap">AA<a name="no-kodeverk-9060.codesystem-AA"> </a></td><td>Ambulansearbeider</td><td/></tr><tr><td style="white-space:nowrap">AT<a name="no-kodeverk-9060.codesystem-AT"> </a></td><td>Apotektekniker</td><td/></tr><tr><td style="white-space:nowrap">AU<a name="no-kodeverk-9060.codesystem-AU"> </a></td><td>Audiograf</td><td/></tr><tr><td style="white-space:nowrap">BI<a name="no-kodeverk-9060.codesystem-BI"> </a></td><td>Bioingeniør</td><td/></tr><tr><td style="white-space:nowrap">ET<a name="no-kodeverk-9060.codesystem-ET"> </a></td><td>Ergoterapeut</td><td/></tr><tr><td style="white-space:nowrap">FA1<a name="no-kodeverk-9060.codesystem-FA1"> </a></td><td>Provisorfarmasøyt</td><td/></tr><tr><td style="white-space:nowrap">FA2<a name="no-kodeverk-9060.codesystem-FA2"> </a></td><td>Reseptarfarmasøyt</td><td/></tr><tr><td style="white-space:nowrap">FB<a name="no-kodeverk-9060.codesystem-FB"> </a></td><td>Fiskehelsebiolog</td><td/></tr><tr><td style="white-space:nowrap">FO<a name="no-kodeverk-9060.codesystem-FO"> </a></td><td>Fotterapeut</td><td/></tr><tr><td style="white-space:nowrap">FT<a name="no-kodeverk-9060.codesystem-FT"> </a></td><td>Fysioterapeut</td><td/></tr><tr><td style="white-space:nowrap">HE<a name="no-kodeverk-9060.codesystem-HE"> </a></td><td>Helsesekretær</td><td/></tr><tr><td style="white-space:nowrap">HF<a name="no-kodeverk-9060.codesystem-HF"> </a></td><td>Helsefagarbeider</td><td/></tr><tr><td style="white-space:nowrap">HP<a name="no-kodeverk-9060.codesystem-HP"> </a></td><td>Hjelpepleier</td><td/></tr><tr><td style="white-space:nowrap">JO<a name="no-kodeverk-9060.codesystem-JO"> </a></td><td>Jordmor</td><td/></tr><tr><td style="white-space:nowrap">KE<a name="no-kodeverk-9060.codesystem-KE"> </a></td><td>Klinisk ernæringsfysiolog</td><td/></tr><tr><td style="white-space:nowrap">KI<a name="no-kodeverk-9060.codesystem-KI"> </a></td><td>Kiropraktor</td><td/></tr><tr><td style="white-space:nowrap">LE<a name="no-kodeverk-9060.codesystem-LE"> </a></td><td>Lege</td><td/></tr><tr><td style="white-space:nowrap">NP<a name="no-kodeverk-9060.codesystem-NP"> </a></td><td>Naprapat</td><td/></tr><tr><td style="white-space:nowrap">OA<a name="no-kodeverk-9060.codesystem-OA"> </a></td><td>Omsorgsarbeider</td><td/></tr><tr><td style="white-space:nowrap">OI<a name="no-kodeverk-9060.codesystem-OI"> </a></td><td>Ortopediingeniør</td><td/></tr><tr><td style="white-space:nowrap">OP<a name="no-kodeverk-9060.codesystem-OP"> </a></td><td>Optiker</td><td/></tr><tr><td style="white-space:nowrap">OR<a name="no-kodeverk-9060.codesystem-OR"> </a></td><td>Ortoptist</td><td/></tr><tr><td style="white-space:nowrap">OS<a name="no-kodeverk-9060.codesystem-OS"> </a></td><td>Osteopat</td><td/></tr><tr><td style="white-space:nowrap">PE<a name="no-kodeverk-9060.codesystem-PE"> </a></td><td>Perfusjonist</td><td/></tr><tr><td style="white-space:nowrap">PM<a name="no-kodeverk-9060.codesystem-PM"> </a></td><td>Paramedisiner</td><td/></tr><tr><td style="white-space:nowrap">PS<a name="no-kodeverk-9060.codesystem-PS"> </a></td><td>Psykolog</td><td/></tr><tr><td style="white-space:nowrap">RA<a name="no-kodeverk-9060.codesystem-RA"> </a></td><td>Radiograf</td><td/></tr><tr><td style="white-space:nowrap">SP<a name="no-kodeverk-9060.codesystem-SP"> </a></td><td>Sykepleier</td><td/></tr><tr><td style="white-space:nowrap">TH<a name="no-kodeverk-9060.codesystem-TH"> </a></td><td>Tannhelsesekretær</td><td/></tr><tr><td style="white-space:nowrap">TL<a name="no-kodeverk-9060.codesystem-TL"> </a></td><td>Tannlege</td><td/></tr><tr><td style="white-space:nowrap">TP<a name="no-kodeverk-9060.codesystem-TP"> </a></td><td>Tannpleier</td><td/></tr><tr><td style="white-space:nowrap">TT<a name="no-kodeverk-9060.codesystem-TT"> </a></td><td>Tanntekniker</td><td/></tr><tr><td style="white-space:nowrap">VE<a name="no-kodeverk-9060.codesystem-VE"> </a></td><td>Veterinær</td><td/></tr><tr><td style="white-space:nowrap">VP<a name="no-kodeverk-9060.codesystem-VP"> </a></td><td>Vernepleier</td><td/></tr><tr><td style="white-space:nowrap">XX<a name="no-kodeverk-9060.codesystem-XX"> </a></td><td>Ukjent/uspesifisert</td><td/></tr><tr><td style="white-space:nowrap">MT<a name="no-kodeverk-9060.codesystem-MT"> </a></td><td>Manuellterapeut</td><td>Utgått</td></tr></table></div>
+  </text>
+  <url value="http://ehelse.no/fhir/CodeSystem/no-kodeverk-9060"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:oid:2.16.578.1.12.4.1.1.9060"/>
+  </identifier>
+  <version value="0.0.1"/>
+  <name value="NoKodeverk9060"/>
+  <title value="9060 Kategori helsepersonell"/>
+  <status value="draft"/>
+  <date value="2022-01-31T14:02:34+00:00"/>
+  <publisher value="Helsedirektoratet"/>
+  <description value="Kodeverket inneholder koder som benyttes for å kategorisere helsepersonell med autorisasjon etter Helsepersonelloven § 48, og dyrehelsepersonell med autorisasjon etter Dyrehelsepersonelloven § 4."/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="NO"/>
+      <display value="Norway"/>
+    </coding>
+  </jurisdiction>
+  <content value="complete"/>
+  <count value="36"/>
+  <concept>
+    <code value="AA"/>
+    <display value="Ambulansearbeider"/>
+  </concept>
+  <concept>
+    <code value="AT"/>
+    <display value="Apotektekniker"/>
+  </concept>
+  <concept>
+    <code value="AU"/>
+    <display value="Audiograf"/>
+  </concept>
+  <concept>
+    <code value="BI"/>
+    <display value="Bioingeniør"/>
+  </concept>
+  <concept>
+    <code value="ET"/>
+    <display value="Ergoterapeut"/>
+  </concept>
+  <concept>
+    <code value="FA1"/>
+    <display value="Provisorfarmasøyt"/>
+  </concept>
+  <concept>
+    <code value="FA2"/>
+    <display value="Reseptarfarmasøyt"/>
+  </concept>
+  <concept>
+    <code value="FB"/>
+    <display value="Fiskehelsebiolog"/>
+  </concept>
+  <concept>
+    <code value="FO"/>
+    <display value="Fotterapeut"/>
+  </concept>
+  <concept>
+    <code value="FT"/>
+    <display value="Fysioterapeut"/>
+  </concept>
+  <concept>
+    <code value="HE"/>
+    <display value="Helsesekretær"/>
+  </concept>
+  <concept>
+    <code value="HF"/>
+    <display value="Helsefagarbeider"/>
+  </concept>
+  <concept>
+    <code value="HP"/>
+    <display value="Hjelpepleier"/>
+  </concept>
+  <concept>
+    <code value="JO"/>
+    <display value="Jordmor"/>
+  </concept>
+  <concept>
+    <code value="KE"/>
+    <display value="Klinisk ernæringsfysiolog"/>
+  </concept>
+  <concept>
+    <code value="KI"/>
+    <display value="Kiropraktor"/>
+  </concept>
+  <concept>
+    <code value="LE"/>
+    <display value="Lege"/>
+  </concept>
+  <concept>
+    <code value="NP"/>
+    <display value="Naprapat"/>
+  </concept>
+  <concept>
+    <code value="OA"/>
+    <display value="Omsorgsarbeider"/>
+  </concept>
+  <concept>
+    <code value="OI"/>
+    <display value="Ortopediingeniør"/>
+  </concept>
+  <concept>
+    <code value="OP"/>
+    <display value="Optiker"/>
+  </concept>
+  <concept>
+    <code value="OR"/>
+    <display value="Ortoptist"/>
+  </concept>
+  <concept>
+    <code value="OS"/>
+    <display value="Osteopat"/>
+  </concept>
+  <concept>
+    <code value="PE"/>
+    <display value="Perfusjonist"/>
+  </concept>
+  <concept>
+    <code value="PM"/>
+    <display value="Paramedisiner"/>
+  </concept>
+  <concept>
+    <code value="PS"/>
+    <display value="Psykolog"/>
+  </concept>
+  <concept>
+    <code value="RA"/>
+    <display value="Radiograf"/>
+  </concept>
+  <concept>
+    <code value="SP"/>
+    <display value="Sykepleier"/>
+  </concept>
+  <concept>
+    <code value="TH"/>
+    <display value="Tannhelsesekretær"/>
+  </concept>
+  <concept>
+    <code value="TL"/>
+    <display value="Tannlege"/>
+  </concept>
+  <concept>
+    <code value="TP"/>
+    <display value="Tannpleier"/>
+  </concept>
+  <concept>
+    <code value="TT"/>
+    <display value="Tanntekniker"/>
+  </concept>
+  <concept>
+    <code value="VE"/>
+    <display value="Veterinær"/>
+  </concept>
+  <concept>
+    <code value="VP"/>
+    <display value="Vernepleier"/>
+  </concept>
+  <concept>
+    <code value="XX"/>
+    <display value="Ukjent/uspesifisert"/>
+  </concept>
+  <concept>
+    <code value="MT"/>
+    <display value="Manuellterapeut"/>
+    <definition value="Utgått"/>
+  </concept>
+</CodeSystem>

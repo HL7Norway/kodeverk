@@ -1,0 +1,123 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.no/fhir/CodeSystem/no-kodeverk-8216.codesystem> a fhir:CodeSystem;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "no-kodeverk-8216.codesystem"];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system http://ehelse.no/fhir/CodeSystem/no-kodeverk-8216 defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">VAG<a name=\"no-kodeverk-8216.codesystem-VAG\"> </a></td><td>Vagina</td></tr><tr><td style=\"white-space:nowrap\">VUL<a name=\"no-kodeverk-8216.codesystem-VUL\"> </a></td><td>Vulva</td></tr><tr><td style=\"white-space:nowrap\">ASC<a name=\"no-kodeverk-8216.codesystem-ASC\"> </a></td><td>Ascites</td></tr><tr><td style=\"white-space:nowrap\">CVX<a name=\"no-kodeverk-8216.codesystem-CVX\"> </a></td><td>Cervix</td></tr><tr><td style=\"white-space:nowrap\">ENDM<a name=\"no-kodeverk-8216.codesystem-ENDM\"> </a></td><td>Endometrium</td></tr><tr><td style=\"white-space:nowrap\">AN<a name=\"no-kodeverk-8216.codesystem-AN\"> </a></td><td>Annet materiale</td></tr><tr><td style=\"white-space:nowrap\">FIN<a name=\"no-kodeverk-8216.codesystem-FIN\"> </a></td><td>Finnålsaspirasjon</td></tr><tr><td style=\"white-space:nowrap\">BRO<a name=\"no-kodeverk-8216.codesystem-BRO\"> </a></td><td>Bronchialutstryk</td></tr><tr><td style=\"white-space:nowrap\">PLR<a name=\"no-kodeverk-8216.codesystem-PLR\"> </a></td><td>Plevravæske</td></tr><tr><td style=\"white-space:nowrap\">PLRH<a name=\"no-kodeverk-8216.codesystem-PLRH\"> </a></td><td>Plevravæske Høyre</td></tr><tr><td style=\"white-space:nowrap\">PLRV<a name=\"no-kodeverk-8216.codesystem-PLRV\"> </a></td><td>Plevravæske Venstre</td></tr><tr><td style=\"white-space:nowrap\">UR<a name=\"no-kodeverk-8216.codesystem-UR\"> </a></td><td>Urin (spontan)</td></tr><tr><td style=\"white-space:nowrap\">UR1<a name=\"no-kodeverk-8216.codesystem-UR1\"> </a></td><td>Urin Prøve 1</td></tr><tr><td style=\"white-space:nowrap\">UR2<a name=\"no-kodeverk-8216.codesystem-UR2\"> </a></td><td>Urin Prøve 2</td></tr><tr><td style=\"white-space:nowrap\">UR3<a name=\"no-kodeverk-8216.codesystem-UR3\"> </a></td><td>Urin Prøve 3</td></tr><tr><td style=\"white-space:nowrap\">EKSP<a name=\"no-kodeverk-8216.codesystem-EKSP\"> </a></td><td>Ekspektorat</td></tr><tr><td style=\"white-space:nowrap\">EKSP1<a name=\"no-kodeverk-8216.codesystem-EKSP1\"> </a></td><td>Ekspektorat Prøve 1</td></tr><tr><td style=\"white-space:nowrap\">EKSP2<a name=\"no-kodeverk-8216.codesystem-EKSP2\"> </a></td><td>Ekspektorat Prøve 2</td></tr><tr><td style=\"white-space:nowrap\">EKSP3<a name=\"no-kodeverk-8216.codesystem-EKSP3\"> </a></td><td>Ekspektorat Prøve 3</td></tr></table></div>"
+  ];
+  fhir:CodeSystem.url [ fhir:value "http://ehelse.no/fhir/CodeSystem/no-kodeverk-8216"];
+  fhir:CodeSystem.identifier [
+     fhir:index 0;
+     fhir:Identifier.system [ fhir:value "urn:ietf:rfc:3986" ];
+     fhir:Identifier.value [ fhir:value "urn:oid:2.16.578.1.12.4.1.1.8216" ]
+  ];
+  fhir:CodeSystem.version [ fhir:value "0.0.1"];
+  fhir:CodeSystem.name [ fhir:value "NoKodeverk8216"];
+  fhir:CodeSystem.title [ fhir:value "8216 Kodeverk for cytologisk materiale"];
+  fhir:CodeSystem.status [ fhir:value "draft"];
+  fhir:CodeSystem.date [ fhir:value "2022-01-31T14:02:34+00:00"^^xsd:dateTime];
+  fhir:CodeSystem.publisher [ fhir:value "Direktoratet for e-helse"];
+  fhir:CodeSystem.description [ fhir:value "Gynekologisk materiale eller annet cytologisk materiale som er tatt for cytologiske undersøkelser. Kodene dekker opp valgmuligheter fra standard rekvisisjonsskjema for cytologiske undersøkelser."];
+  fhir:CodeSystem.jurisdiction [
+     fhir:index 0;
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       fhir:Coding.system [ fhir:value "urn:iso:std:iso:3166" ];
+       fhir:Coding.code [ fhir:value "NO" ];
+       fhir:Coding.display [ fhir:value "Norway" ]
+     ]
+  ];
+  fhir:CodeSystem.content [ fhir:value "complete"];
+  fhir:CodeSystem.count [ fhir:value "19"^^xsd:nonNegativeInteger];
+  fhir:CodeSystem.concept [
+     fhir:index 0;
+     fhir:CodeSystem.concept.code [ fhir:value "VAG" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Vagina" ]
+  ], [
+     fhir:index 1;
+     fhir:CodeSystem.concept.code [ fhir:value "VUL" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Vulva" ]
+  ], [
+     fhir:index 2;
+     fhir:CodeSystem.concept.code [ fhir:value "ASC" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Ascites" ]
+  ], [
+     fhir:index 3;
+     fhir:CodeSystem.concept.code [ fhir:value "CVX" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Cervix" ]
+  ], [
+     fhir:index 4;
+     fhir:CodeSystem.concept.code [ fhir:value "ENDM" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Endometrium" ]
+  ], [
+     fhir:index 5;
+     fhir:CodeSystem.concept.code [ fhir:value "AN" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Annet materiale" ]
+  ], [
+     fhir:index 6;
+     fhir:CodeSystem.concept.code [ fhir:value "FIN" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Finnålsaspirasjon" ]
+  ], [
+     fhir:index 7;
+     fhir:CodeSystem.concept.code [ fhir:value "BRO" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Bronchialutstryk" ]
+  ], [
+     fhir:index 8;
+     fhir:CodeSystem.concept.code [ fhir:value "PLR" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Plevravæske" ]
+  ], [
+     fhir:index 9;
+     fhir:CodeSystem.concept.code [ fhir:value "PLRH" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Plevravæske Høyre" ]
+  ], [
+     fhir:index 10;
+     fhir:CodeSystem.concept.code [ fhir:value "PLRV" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Plevravæske Venstre" ]
+  ], [
+     fhir:index 11;
+     fhir:CodeSystem.concept.code [ fhir:value "UR" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Urin (spontan)" ]
+  ], [
+     fhir:index 12;
+     fhir:CodeSystem.concept.code [ fhir:value "UR1" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Urin Prøve 1" ]
+  ], [
+     fhir:index 13;
+     fhir:CodeSystem.concept.code [ fhir:value "UR2" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Urin Prøve 2" ]
+  ], [
+     fhir:index 14;
+     fhir:CodeSystem.concept.code [ fhir:value "UR3" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Urin Prøve 3" ]
+  ], [
+     fhir:index 15;
+     fhir:CodeSystem.concept.code [ fhir:value "EKSP" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Ekspektorat" ]
+  ], [
+     fhir:index 16;
+     fhir:CodeSystem.concept.code [ fhir:value "EKSP1" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Ekspektorat Prøve 1" ]
+  ], [
+     fhir:index 17;
+     fhir:CodeSystem.concept.code [ fhir:value "EKSP2" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Ekspektorat Prøve 2" ]
+  ], [
+     fhir:index 18;
+     fhir:CodeSystem.concept.code [ fhir:value "EKSP3" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Ekspektorat Prøve 3" ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<http://hl7.no/fhir/CodeSystem/no-kodeverk-8216.codesystem.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

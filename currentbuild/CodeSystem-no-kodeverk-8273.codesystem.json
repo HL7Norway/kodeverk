@@ -1,0 +1,61 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "no-kodeverk-8273.codesystem",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system http://ehelse.no/fhir/CodeSystem/no-kodeverk-8273 defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">S<a name=\"no-kodeverk-8273.codesystem-S\"> </a></td><td>Snarest</td></tr><tr><td style=\"white-space:nowrap\">B<a name=\"no-kodeverk-8273.codesystem-B\"> </a></td><td>Etter behandling</td></tr><tr><td style=\"white-space:nowrap\">M01<a name=\"no-kodeverk-8273.codesystem-M01\"> </a></td><td>Etter 1 måned</td></tr><tr><td style=\"white-space:nowrap\">M03<a name=\"no-kodeverk-8273.codesystem-M03\"> </a></td><td>Etter 3 måneder</td></tr><tr><td style=\"white-space:nowrap\">M06<a name=\"no-kodeverk-8273.codesystem-M06\"> </a></td><td>Etter 6 måneder</td></tr><tr><td style=\"white-space:nowrap\">M12<a name=\"no-kodeverk-8273.codesystem-M12\"> </a></td><td>Etter 12 måneder</td></tr></table></div>"
+  },
+  "url": "http://ehelse.no/fhir/CodeSystem/no-kodeverk-8273",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:2.16.578.1.12.4.1.1.8273"
+    }
+  ],
+  "version": "0.0.1",
+  "name": "NoKodeverk8273",
+  "title": "8273 Hastegrad",
+  "status": "draft",
+  "date": "2022-01-31T14:02:34+00:00",
+  "publisher": "Direktoratet for e-helse",
+  "description": "Anbefalt tidsperspektiv for tiltak.",
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166",
+          "code": "NO",
+          "display": "Norway"
+        }
+      ]
+    }
+  ],
+  "content": "complete",
+  "count": 6,
+  "concept": [
+    {
+      "code": "S",
+      "display": "Snarest"
+    },
+    {
+      "code": "B",
+      "display": "Etter behandling"
+    },
+    {
+      "code": "M01",
+      "display": "Etter 1 måned"
+    },
+    {
+      "code": "M03",
+      "display": "Etter 3 måneder"
+    },
+    {
+      "code": "M06",
+      "display": "Etter 6 måneder"
+    },
+    {
+      "code": "M12",
+      "display": "Etter 12 måneder"
+    }
+  ]
+}

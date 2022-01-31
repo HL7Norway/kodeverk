@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="no-kodeverk-8275.codesystem"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This code system http://ehelse.no/fhir/CodeSystem/no-kodeverk-8275 defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">BS<a name="no-kodeverk-8275.codesystem-BS"> </a></td><td>Børste og spatel</td></tr><tr><td style="white-space:nowrap">S<a name="no-kodeverk-8275.codesystem-S"> </a></td><td>Spatel</td></tr><tr><td style="white-space:nowrap">A<a name="no-kodeverk-8275.codesystem-A"> </a></td><td>Annet</td></tr></table></div>
+  </text>
+  <url value="http://ehelse.no/fhir/CodeSystem/no-kodeverk-8275"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:oid:2.16.578.1.12.4.1.1.8275"/>
+  </identifier>
+  <version value="0.0.1"/>
+  <name value="NoKodeverk8275"/>
+  <title value="8275 Cytologisk materiale tatt med"/>
+  <status value="draft"/>
+  <date value="2022-01-31T14:02:34+00:00"/>
+  <publisher value="Direktoratet for e-helse"/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="NO"/>
+      <display value="Norway"/>
+    </coding>
+  </jurisdiction>
+  <content value="complete"/>
+  <count value="3"/>
+  <concept>
+    <code value="BS"/>
+    <display value="Børste og spatel"/>
+  </concept>
+  <concept>
+    <code value="S"/>
+    <display value="Spatel"/>
+  </concept>
+  <concept>
+    <code value="A"/>
+    <display value="Annet"/>
+  </concept>
+</CodeSystem>

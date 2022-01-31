@@ -1,0 +1,107 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.no/fhir/CodeSystem/no-kodeverk-8245.codesystem> a fhir:CodeSystem;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "no-kodeverk-8245.codesystem"];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system http://ehelse.no/fhir/CodeSystem/no-kodeverk-8245 defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">1<a name=\"no-kodeverk-8245.codesystem-1\"> </a></td><td>Revidert</td></tr><tr><td style=\"white-space:nowrap\">2<a name=\"no-kodeverk-8245.codesystem-2\"> </a></td><td>Foreløpig</td></tr><tr><td style=\"white-space:nowrap\">3<a name=\"no-kodeverk-8245.codesystem-3\"> </a></td><td>Endelig</td></tr><tr><td style=\"white-space:nowrap\">4<a name=\"no-kodeverk-8245.codesystem-4\"> </a></td><td>Tillegg</td></tr><tr><td style=\"white-space:nowrap\">5<a name=\"no-kodeverk-8245.codesystem-5\"> </a></td><td>Henvisning registrert</td></tr><tr><td style=\"white-space:nowrap\">6<a name=\"no-kodeverk-8245.codesystem-6\"> </a></td><td>Prosedyrer registrert/planlagt</td></tr><tr><td style=\"white-space:nowrap\">7<a name=\"no-kodeverk-8245.codesystem-7\"> </a></td><td>Tildelt time</td></tr><tr><td style=\"white-space:nowrap\">8<a name=\"no-kodeverk-8245.codesystem-8\"> </a></td><td>Undersøkelse gjennomført</td></tr><tr><td style=\"white-space:nowrap\">9<a name=\"no-kodeverk-8245.codesystem-9\"> </a></td><td>Diktert</td></tr><tr><td style=\"white-space:nowrap\">10<a name=\"no-kodeverk-8245.codesystem-10\"> </a></td><td>Skrevet (usignert svar foreligger)</td></tr><tr><td style=\"white-space:nowrap\">11<a name=\"no-kodeverk-8245.codesystem-11\"> </a></td><td>Signert</td></tr><tr><td style=\"white-space:nowrap\">12<a name=\"no-kodeverk-8245.codesystem-12\"> </a></td><td>Korrigert (usignert tilleggsbeskrivelse foreligger)</td></tr><tr><td style=\"white-space:nowrap\">13<a name=\"no-kodeverk-8245.codesystem-13\"> </a></td><td>Signert korrigert/tilleggsbeskrivelse foreligger</td></tr><tr><td style=\"white-space:nowrap\">14<a name=\"no-kodeverk-8245.codesystem-14\"> </a></td><td>Undersøkelse slettet</td></tr><tr><td style=\"white-space:nowrap\">15<a name=\"no-kodeverk-8245.codesystem-15\"> </a></td><td>I prosess</td></tr></table></div>"
+  ];
+  fhir:CodeSystem.url [ fhir:value "http://ehelse.no/fhir/CodeSystem/no-kodeverk-8245"];
+  fhir:CodeSystem.identifier [
+     fhir:index 0;
+     fhir:Identifier.system [ fhir:value "urn:ietf:rfc:3986" ];
+     fhir:Identifier.value [ fhir:value "urn:oid:2.16.578.1.12.4.1.1.8245" ]
+  ];
+  fhir:CodeSystem.version [ fhir:value "0.0.1"];
+  fhir:CodeSystem.name [ fhir:value "NoKodeverk8245"];
+  fhir:CodeSystem.title [ fhir:value "8245 Status for resultat i svarrapportering av medisinske tjenester"];
+  fhir:CodeSystem.status [ fhir:value "draft"];
+  fhir:CodeSystem.date [ fhir:value "2022-01-31T14:02:34+00:00"^^xsd:dateTime];
+  fhir:CodeSystem.publisher [ fhir:value "Direktoratet for e-helse"];
+  fhir:CodeSystem.description [ fhir:value "Benyttes for å angi status/steg i arbeidsflyt for en enkelt lab- /røntgenundersøkelse."];
+  fhir:CodeSystem.jurisdiction [
+     fhir:index 0;
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       fhir:Coding.system [ fhir:value "urn:iso:std:iso:3166" ];
+       fhir:Coding.code [ fhir:value "NO" ];
+       fhir:Coding.display [ fhir:value "Norway" ]
+     ]
+  ];
+  fhir:CodeSystem.content [ fhir:value "complete"];
+  fhir:CodeSystem.count [ fhir:value "15"^^xsd:nonNegativeInteger];
+  fhir:CodeSystem.concept [
+     fhir:index 0;
+     fhir:CodeSystem.concept.code [ fhir:value "1" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Revidert" ]
+  ], [
+     fhir:index 1;
+     fhir:CodeSystem.concept.code [ fhir:value "2" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Foreløpig" ]
+  ], [
+     fhir:index 2;
+     fhir:CodeSystem.concept.code [ fhir:value "3" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Endelig" ]
+  ], [
+     fhir:index 3;
+     fhir:CodeSystem.concept.code [ fhir:value "4" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Tillegg" ]
+  ], [
+     fhir:index 4;
+     fhir:CodeSystem.concept.code [ fhir:value "5" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Henvisning registrert" ]
+  ], [
+     fhir:index 5;
+     fhir:CodeSystem.concept.code [ fhir:value "6" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Prosedyrer registrert/planlagt" ]
+  ], [
+     fhir:index 6;
+     fhir:CodeSystem.concept.code [ fhir:value "7" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Tildelt time" ]
+  ], [
+     fhir:index 7;
+     fhir:CodeSystem.concept.code [ fhir:value "8" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Undersøkelse gjennomført" ]
+  ], [
+     fhir:index 8;
+     fhir:CodeSystem.concept.code [ fhir:value "9" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Diktert" ]
+  ], [
+     fhir:index 9;
+     fhir:CodeSystem.concept.code [ fhir:value "10" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Skrevet (usignert svar foreligger)" ]
+  ], [
+     fhir:index 10;
+     fhir:CodeSystem.concept.code [ fhir:value "11" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Signert" ]
+  ], [
+     fhir:index 11;
+     fhir:CodeSystem.concept.code [ fhir:value "12" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Korrigert (usignert tilleggsbeskrivelse foreligger)" ]
+  ], [
+     fhir:index 12;
+     fhir:CodeSystem.concept.code [ fhir:value "13" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Signert korrigert/tilleggsbeskrivelse foreligger" ]
+  ], [
+     fhir:index 13;
+     fhir:CodeSystem.concept.code [ fhir:value "14" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Undersøkelse slettet" ]
+  ], [
+     fhir:index 14;
+     fhir:CodeSystem.concept.code [ fhir:value "15" ];
+     fhir:CodeSystem.concept.display [ fhir:value "I prosess" ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<http://hl7.no/fhir/CodeSystem/no-kodeverk-8245.codesystem.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

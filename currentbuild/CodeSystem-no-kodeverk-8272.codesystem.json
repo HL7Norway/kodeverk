@@ -1,0 +1,51 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "no-kodeverk-8272.codesystem",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system http://ehelse.no/fhir/CodeSystem/no-kodeverk-8272 defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">CYT<a name=\"no-kodeverk-8272.codesystem-CYT\"> </a></td><td>Cytologiprøve</td><td>Ny cytologiprøve anbefales</td></tr><tr><td style=\"white-space:nowrap\">HIST<a name=\"no-kodeverk-8272.codesystem-HIST\"> </a></td><td>Histologisk undersøkelse</td><td>Histologisk undersøkelse anbefales</td></tr><tr><td style=\"white-space:nowrap\">HPV<a name=\"no-kodeverk-8272.codesystem-HPV\"> </a></td><td>HPV-test</td><td>HPV-test anbefales</td></tr></table></div>"
+  },
+  "url": "http://ehelse.no/fhir/CodeSystem/no-kodeverk-8272",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:2.16.578.1.12.4.1.1.8272"
+    }
+  ],
+  "version": "0.0.1",
+  "name": "NoKodeverk8272",
+  "title": "8272 Anbefaling om ny undersøkelse",
+  "status": "draft",
+  "date": "2022-01-31T14:02:34+00:00",
+  "publisher": "Helsedirektoratet",
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166",
+          "code": "NO",
+          "display": "Norway"
+        }
+      ]
+    }
+  ],
+  "content": "complete",
+  "count": 3,
+  "concept": [
+    {
+      "code": "CYT",
+      "display": "Cytologiprøve",
+      "definition": "Ny cytologiprøve anbefales"
+    },
+    {
+      "code": "HIST",
+      "display": "Histologisk undersøkelse",
+      "definition": "Histologisk undersøkelse anbefales"
+    },
+    {
+      "code": "HPV",
+      "display": "HPV-test",
+      "definition": "HPV-test anbefales"
+    }
+  ]
+}

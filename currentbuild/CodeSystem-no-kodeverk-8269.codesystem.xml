@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="no-kodeverk-8269.codesystem"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This code system http://ehelse.no/fhir/CodeSystem/no-kodeverk-8269 defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style="white-space:nowrap">TA<a name="no-kodeverk-8269.codesystem-TA"> </a></td><td>Telefonsvar avgitt</td><td/></tr><tr><td style="white-space:nowrap">MSIS-N<a name="no-kodeverk-8269.codesystem-MSIS-N"> </a></td><td>Nominativ MSIS-melding</td><td>Dette svaret krever at nominativ rapport sendes til MSIS</td></tr><tr><td style="white-space:nowrap">MSIS-A<a name="no-kodeverk-8269.codesystem-MSIS-A"> </a></td><td>Anonym MSIS-melding</td><td>Dette svaret krever innrapportering til MSIS, men svaret skal sendes anonymt</td></tr><tr><td style="white-space:nowrap">VA<a name="no-kodeverk-8269.codesystem-VA"> </a></td><td>Vesentlig avvik fra tidligere svar</td><td>F.eks. ved vesentlig avvik fra preliminært svar til endelig svar</td></tr></table></div>
+  </text>
+  <url value="http://ehelse.no/fhir/CodeSystem/no-kodeverk-8269"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:oid:2.16.578.1.12.4.1.1.8269"/>
+  </identifier>
+  <version value="0.0.1"/>
+  <name value="NoKodeverk8269"/>
+  <title value="8269 Kommentar til svarrapport"/>
+  <status value="draft"/>
+  <date value="2022-01-31T14:02:34+00:00"/>
+  <publisher value="Direktoratet for e-helse"/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="NO"/>
+      <display value="Norway"/>
+    </coding>
+  </jurisdiction>
+  <content value="complete"/>
+  <count value="4"/>
+  <concept>
+    <code value="TA"/>
+    <display value="Telefonsvar avgitt"/>
+  </concept>
+  <concept>
+    <code value="MSIS-N"/>
+    <display value="Nominativ MSIS-melding"/>
+    <definition value="Dette svaret krever at nominativ rapport sendes til MSIS"/>
+  </concept>
+  <concept>
+    <code value="MSIS-A"/>
+    <display value="Anonym MSIS-melding"/>
+    <definition value="Dette svaret krever innrapportering til MSIS, men svaret skal sendes anonymt"/>
+  </concept>
+  <concept>
+    <code value="VA"/>
+    <display value="Vesentlig avvik fra tidligere svar"/>
+    <definition value="F.eks. ved vesentlig avvik fra preliminært svar til endelig svar"/>
+  </concept>
+</CodeSystem>

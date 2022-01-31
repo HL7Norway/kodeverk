@@ -1,0 +1,124 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.no/fhir/CodeSystem/no-kodeverk-8202.codesystem> a fhir:CodeSystem;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "no-kodeverk-8202.codesystem"];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system http://ehelse.no/fhir/CodeSystem/no-kodeverk-8202 defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">CLIN<a name=\"no-kodeverk-8202.codesystem-CLIN\"> </a></td><td>Medisinsk biokjemi</td><td>Tidl. Klinisk kjemi</td></tr><tr><td style=\"white-space:nowrap\">CT<a name=\"no-kodeverk-8202.codesystem-CT\"> </a></td><td>Computertomografi</td><td/></tr><tr><td style=\"white-space:nowrap\">CYTO<a name=\"no-kodeverk-8202.codesystem-CYTO\"> </a></td><td>Cytologi</td><td/></tr><tr><td style=\"white-space:nowrap\">FARM<a name=\"no-kodeverk-8202.codesystem-FARM\"> </a></td><td>Klinisk farmakologi</td><td/></tr><tr><td style=\"white-space:nowrap\">HIST<a name=\"no-kodeverk-8202.codesystem-HIST\"> </a></td><td>Histologi</td><td/></tr><tr><td style=\"white-space:nowrap\">IMTR<a name=\"no-kodeverk-8202.codesystem-IMTR\"> </a></td><td>Immunologi og transfusjonsmedisin</td><td/></tr><tr><td style=\"white-space:nowrap\">LAB<a name=\"no-kodeverk-8202.codesystem-LAB\"> </a></td><td>Laboratoriemedisin</td><td/></tr><tr><td style=\"white-space:nowrap\">MA<a name=\"no-kodeverk-8202.codesystem-MA\"> </a></td><td>Mammografi</td><td/></tr><tr><td style=\"white-space:nowrap\">MBIO<a name=\"no-kodeverk-8202.codesystem-MBIO\"> </a></td><td>Medisinsk mikrobiologi</td><td/></tr><tr><td style=\"white-space:nowrap\">MGEN<a name=\"no-kodeverk-8202.codesystem-MGEN\"> </a></td><td>Medisinsk genetikk</td><td/></tr><tr><td style=\"white-space:nowrap\">MR<a name=\"no-kodeverk-8202.codesystem-MR\"> </a></td><td>Magnettomografi</td><td/></tr><tr><td style=\"white-space:nowrap\">NUK<a name=\"no-kodeverk-8202.codesystem-NUK\"> </a></td><td>Nukleærmedisin</td><td/></tr><tr><td style=\"white-space:nowrap\">OBD<a name=\"no-kodeverk-8202.codesystem-OBD\"> </a></td><td>Obduksjon</td><td/></tr><tr><td style=\"white-space:nowrap\">PAT<a name=\"no-kodeverk-8202.codesystem-PAT\"> </a></td><td>Patologi</td><td/></tr><tr><td style=\"white-space:nowrap\">RAD<a name=\"no-kodeverk-8202.codesystem-RAD\"> </a></td><td>Radiologi</td><td/></tr><tr><td style=\"white-space:nowrap\">RTG<a name=\"no-kodeverk-8202.codesystem-RTG\"> </a></td><td>Røntgen</td><td/></tr><tr><td style=\"white-space:nowrap\">SCI<a name=\"no-kodeverk-8202.codesystem-SCI\"> </a></td><td>Scintigrafi</td><td/></tr><tr><td style=\"white-space:nowrap\">UL<a name=\"no-kodeverk-8202.codesystem-UL\"> </a></td><td>Ultralyd</td><td/></tr><tr><td style=\"white-space:nowrap\">AN<a name=\"no-kodeverk-8202.codesystem-AN\"> </a></td><td>Annet</td><td/></tr></table></div>"
+  ];
+  fhir:CodeSystem.url [ fhir:value "http://ehelse.no/fhir/CodeSystem/no-kodeverk-8202"];
+  fhir:CodeSystem.identifier [
+     fhir:index 0;
+     fhir:Identifier.system [ fhir:value "urn:ietf:rfc:3986" ];
+     fhir:Identifier.value [ fhir:value "urn:oid:2.16.578.1.12.4.1.1.8202" ]
+  ];
+  fhir:CodeSystem.version [ fhir:value "0.0.1"];
+  fhir:CodeSystem.name [ fhir:value "NoKodeverk8202"];
+  fhir:CodeSystem.title [ fhir:value "8202 Type laboratoriemelding"];
+  fhir:CodeSystem.status [ fhir:value "draft"];
+  fhir:CodeSystem.date [ fhir:value "2022-01-31T14:02:34+00:00"^^xsd:dateTime];
+  fhir:CodeSystem.publisher [ fhir:value "Direktoratet for e-helse"];
+  fhir:CodeSystem.description [ fhir:value "Dette kodeverket beskriver de ulike typene laboratoriemeldinger."];
+  fhir:CodeSystem.jurisdiction [
+     fhir:index 0;
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       fhir:Coding.system [ fhir:value "urn:iso:std:iso:3166" ];
+       fhir:Coding.code [ fhir:value "NO" ];
+       fhir:Coding.display [ fhir:value "Norway" ]
+     ]
+  ];
+  fhir:CodeSystem.content [ fhir:value "complete"];
+  fhir:CodeSystem.count [ fhir:value "19"^^xsd:nonNegativeInteger];
+  fhir:CodeSystem.concept [
+     fhir:index 0;
+     fhir:CodeSystem.concept.code [ fhir:value "CLIN" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Medisinsk biokjemi" ];
+     fhir:CodeSystem.concept.definition [ fhir:value "Tidl. Klinisk kjemi" ]
+  ], [
+     fhir:index 1;
+     fhir:CodeSystem.concept.code [ fhir:value "CT" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Computertomografi" ]
+  ], [
+     fhir:index 2;
+     fhir:CodeSystem.concept.code [ fhir:value "CYTO" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Cytologi" ]
+  ], [
+     fhir:index 3;
+     fhir:CodeSystem.concept.code [ fhir:value "FARM" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Klinisk farmakologi" ]
+  ], [
+     fhir:index 4;
+     fhir:CodeSystem.concept.code [ fhir:value "HIST" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Histologi" ]
+  ], [
+     fhir:index 5;
+     fhir:CodeSystem.concept.code [ fhir:value "IMTR" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Immunologi og transfusjonsmedisin" ]
+  ], [
+     fhir:index 6;
+     fhir:CodeSystem.concept.code [ fhir:value "LAB" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Laboratoriemedisin" ]
+  ], [
+     fhir:index 7;
+     fhir:CodeSystem.concept.code [ fhir:value "MA" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Mammografi" ]
+  ], [
+     fhir:index 8;
+     fhir:CodeSystem.concept.code [ fhir:value "MBIO" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Medisinsk mikrobiologi" ]
+  ], [
+     fhir:index 9;
+     fhir:CodeSystem.concept.code [ fhir:value "MGEN" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Medisinsk genetikk" ]
+  ], [
+     fhir:index 10;
+     fhir:CodeSystem.concept.code [ fhir:value "MR" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Magnettomografi" ]
+  ], [
+     fhir:index 11;
+     fhir:CodeSystem.concept.code [ fhir:value "NUK" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Nukleærmedisin" ]
+  ], [
+     fhir:index 12;
+     fhir:CodeSystem.concept.code [ fhir:value "OBD" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Obduksjon" ]
+  ], [
+     fhir:index 13;
+     fhir:CodeSystem.concept.code [ fhir:value "PAT" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Patologi" ]
+  ], [
+     fhir:index 14;
+     fhir:CodeSystem.concept.code [ fhir:value "RAD" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Radiologi" ]
+  ], [
+     fhir:index 15;
+     fhir:CodeSystem.concept.code [ fhir:value "RTG" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Røntgen" ]
+  ], [
+     fhir:index 16;
+     fhir:CodeSystem.concept.code [ fhir:value "SCI" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Scintigrafi" ]
+  ], [
+     fhir:index 17;
+     fhir:CodeSystem.concept.code [ fhir:value "UL" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Ultralyd" ]
+  ], [
+     fhir:index 18;
+     fhir:CodeSystem.concept.code [ fhir:value "AN" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Annet" ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<http://hl7.no/fhir/CodeSystem/no-kodeverk-8202.codesystem.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

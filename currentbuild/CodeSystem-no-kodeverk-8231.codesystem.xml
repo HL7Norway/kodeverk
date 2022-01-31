@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="no-kodeverk-8231.codesystem"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This code system http://ehelse.no/fhir/CodeSystem/no-kodeverk-8231 defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style="white-space:nowrap">BG<a name="no-kodeverk-8231.codesystem-BG"> </a></td><td>Begrunnelse</td><td>Uspesifisert</td></tr><tr><td style="white-space:nowrap">BUP-BM<a name="no-kodeverk-8231.codesystem-BUP-BM"> </a></td><td>Henvisningsgrunn barnets miljø</td><td/></tr><tr><td style="white-space:nowrap">BUP-HG<a name="no-kodeverk-8231.codesystem-BUP-HG"> </a></td><td>Henvisningsgrunn barnet</td><td/></tr><tr><td style="white-space:nowrap">DIAG<a name="no-kodeverk-8231.codesystem-DIAG"> </a></td><td>Diagnose</td><td>Når den ikke oppgis strukturert</td></tr><tr><td style="white-space:nowrap">FA<a name="no-kodeverk-8231.codesystem-FA"> </a></td><td>Familie/sosialt</td><td/></tr><tr><td style="white-space:nowrap">FO<a name="no-kodeverk-8231.codesystem-FO"> </a></td><td>Forløp og behandling</td><td/></tr><tr><td style="white-space:nowrap">FU<a name="no-kodeverk-8231.codesystem-FU"> </a></td><td>Funn og undersøkelsesresultater</td><td/></tr><tr><td style="white-space:nowrap">HJ<a name="no-kodeverk-8231.codesystem-HJ"> </a></td><td>Funksjonsnivå/hjelpetiltak</td><td/></tr><tr><td style="white-space:nowrap">IP<a name="no-kodeverk-8231.codesystem-IP"> </a></td><td>Informasjon til pasient/pårørende</td><td/></tr><tr><td style="white-space:nowrap">KF<a name="no-kodeverk-8231.codesystem-KF"> </a></td><td>Kontroll pga. tidligere funn</td><td/></tr><tr><td style="white-space:nowrap">MAAL<a name="no-kodeverk-8231.codesystem-MAAL"> </a></td><td>Mål for oppholdet</td><td/></tr><tr><td style="white-space:nowrap">MU<a name="no-kodeverk-8231.codesystem-MU"> </a></td><td>Innkalt til masseundersøkelse</td><td/></tr><tr><td style="white-space:nowrap">PROB<a name="no-kodeverk-8231.codesystem-PROB"> </a></td><td>Aktuell problemstilling</td><td/></tr><tr><td style="white-space:nowrap">RU<a name="no-kodeverk-8231.codesystem-RU"> </a></td><td>Rutineundersøkelse utenom masseundersøkelse</td><td/></tr><tr><td style="white-space:nowrap">SVU<a name="no-kodeverk-8231.codesystem-SVU"> </a></td><td>Spesialistvurdering</td><td>Dersom henvisningen har blitt vurdert av en spesialist skal det finnes en forekomst av ReasonAsText med SVU som kodeverdi. Relevant epikriseinformasjon kan legges i TectResultValue feltet.</td></tr><tr><td style="white-space:nowrap">UP<a name="no-kodeverk-8231.codesystem-UP"> </a></td><td>Ubesvarte prøver</td><td/></tr><tr><td style="white-space:nowrap">UTRED<a name="no-kodeverk-8231.codesystem-UTRED"> </a></td><td>Forventet utredning/behandling</td><td/></tr><tr><td style="white-space:nowrap">VU<a name="no-kodeverk-8231.codesystem-VU"> </a></td><td>Vurdering</td><td/></tr></table></div>
+  </text>
+  <url value="http://ehelse.no/fhir/CodeSystem/no-kodeverk-8231"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:oid:2.16.578.1.12.4.1.1.8231"/>
+  </identifier>
+  <version value="0.0.1"/>
+  <name value="NoKodeverk8231"/>
+  <title value="8231 Type tekstsvar"/>
+  <status value="draft"/>
+  <date value="2022-01-31T14:02:34+00:00"/>
+  <publisher value="Direktoratet for e-helse"/>
+  <description value="Begrunnelse for rekvisisjon"/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="NO"/>
+      <display value="Norway"/>
+    </coding>
+  </jurisdiction>
+  <content value="complete"/>
+  <count value="18"/>
+  <concept>
+    <code value="BG"/>
+    <display value="Begrunnelse"/>
+    <definition value="Uspesifisert"/>
+  </concept>
+  <concept>
+    <code value="BUP-BM"/>
+    <display value="Henvisningsgrunn barnets miljø"/>
+  </concept>
+  <concept>
+    <code value="BUP-HG"/>
+    <display value="Henvisningsgrunn barnet"/>
+  </concept>
+  <concept>
+    <code value="DIAG"/>
+    <display value="Diagnose"/>
+    <definition value="Når den ikke oppgis strukturert"/>
+  </concept>
+  <concept>
+    <code value="FA"/>
+    <display value="Familie/sosialt"/>
+  </concept>
+  <concept>
+    <code value="FO"/>
+    <display value="Forløp og behandling"/>
+  </concept>
+  <concept>
+    <code value="FU"/>
+    <display value="Funn og undersøkelsesresultater"/>
+  </concept>
+  <concept>
+    <code value="HJ"/>
+    <display value="Funksjonsnivå/hjelpetiltak"/>
+  </concept>
+  <concept>
+    <code value="IP"/>
+    <display value="Informasjon til pasient/pårørende"/>
+  </concept>
+  <concept>
+    <code value="KF"/>
+    <display value="Kontroll pga. tidligere funn"/>
+  </concept>
+  <concept>
+    <code value="MAAL"/>
+    <display value="Mål for oppholdet"/>
+  </concept>
+  <concept>
+    <code value="MU"/>
+    <display value="Innkalt til masseundersøkelse"/>
+  </concept>
+  <concept>
+    <code value="PROB"/>
+    <display value="Aktuell problemstilling"/>
+  </concept>
+  <concept>
+    <code value="RU"/>
+    <display value="Rutineundersøkelse utenom masseundersøkelse"/>
+  </concept>
+  <concept>
+    <code value="SVU"/>
+    <display value="Spesialistvurdering"/>
+    <definition value="Dersom henvisningen har blitt vurdert av en spesialist skal det finnes en forekomst av ReasonAsText med SVU som kodeverdi. Relevant epikriseinformasjon kan legges i TectResultValue feltet."/>
+  </concept>
+  <concept>
+    <code value="UP"/>
+    <display value="Ubesvarte prøver"/>
+  </concept>
+  <concept>
+    <code value="UTRED"/>
+    <display value="Forventet utredning/behandling"/>
+  </concept>
+  <concept>
+    <code value="VU"/>
+    <display value="Vurdering"/>
+  </concept>
+</CodeSystem>

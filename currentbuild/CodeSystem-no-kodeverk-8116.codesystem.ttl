@@ -1,0 +1,110 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.no/fhir/CodeSystem/no-kodeverk-8116.codesystem> a fhir:CodeSystem;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "no-kodeverk-8116.codesystem"];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system http://ehelse.no/fhir/CodeSystem/no-kodeverk-8116 defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">FNR<a name=\"no-kodeverk-8116.codesystem-FNR\"> </a></td><td>Fødselsnummer</td><td>Norsk fødselsnummer</td></tr><tr><td style=\"white-space:nowrap\">FDNR<a name=\"no-kodeverk-8116.codesystem-FDNR\"> </a></td><td>D-nummer</td><td>Personer i kontakt med norske myndigheter uten norsk fødselsnummer</td></tr><tr><td style=\"white-space:nowrap\">FHNR<a name=\"no-kodeverk-8116.codesystem-FHNR\"> </a></td><td>H-nummer</td><td>Nødnummer</td></tr><tr><td style=\"white-space:nowrap\">FHPR<a name=\"no-kodeverk-8116.codesystem-FHPR\"> </a></td><td>HPR-nummer</td><td>Id Helsepersonellregisteret</td></tr><tr><td style=\"white-space:nowrap\">FHER<a name=\"no-kodeverk-8116.codesystem-FHER\"> </a></td><td>HER-id</td><td>Rollebasert id i NHN Adresseregister</td></tr><tr><td style=\"white-space:nowrap\">FPNR<a name=\"no-kodeverk-8116.codesystem-FPNR\"> </a></td><td>Passnummer</td><td/></tr><tr><td style=\"white-space:nowrap\">FSEF<a name=\"no-kodeverk-8116.codesystem-FSEF\"> </a></td><td>Svensk personnummer</td><td/></tr><tr><td style=\"white-space:nowrap\">FDKF<a name=\"no-kodeverk-8116.codesystem-FDKF\"> </a></td><td>Dansk personnummer</td><td/></tr><tr><td style=\"white-space:nowrap\">FSSN<a name=\"no-kodeverk-8116.codesystem-FSSN\"> </a></td><td>Sosial security number</td><td/></tr><tr><td style=\"white-space:nowrap\">FFPN<a name=\"no-kodeverk-8116.codesystem-FFPN\"> </a></td><td>Forsikringspolise nummer</td><td/></tr><tr><td style=\"white-space:nowrap\">FUID<a name=\"no-kodeverk-8116.codesystem-FUID\"> </a></td><td>Utenlandsk identifikasjon</td><td>Annet enn svensk- og dansk personnummer</td></tr><tr><td style=\"white-space:nowrap\">FDUF<a name=\"no-kodeverk-8116.codesystem-FDUF\"> </a></td><td>DUF-nummer</td><td>Database for utlendingsforvaltningen</td></tr><tr><td style=\"white-space:nowrap\">FFHN<a name=\"no-kodeverk-8116.codesystem-FFHN\"> </a></td><td>Felles hjelpenummer</td><td/></tr><tr><td style=\"white-space:nowrap\">FXXX<a name=\"no-kodeverk-8116.codesystem-FXXX\"> </a></td><td>Annet</td><td/></tr></table></div>"
+  ];
+  fhir:CodeSystem.url [ fhir:value "http://ehelse.no/fhir/CodeSystem/no-kodeverk-8116"];
+  fhir:CodeSystem.identifier [
+     fhir:index 0;
+     fhir:Identifier.system [ fhir:value "urn:ietf:rfc:3986" ];
+     fhir:Identifier.value [ fhir:value "urn:oid:2.16.578.1.12.4.1.1.8116" ]
+  ];
+  fhir:CodeSystem.version [ fhir:value "0.0.1"];
+  fhir:CodeSystem.name [ fhir:value "NoKodeverk8116"];
+  fhir:CodeSystem.title [ fhir:value "8116 ID-type for personer"];
+  fhir:CodeSystem.status [ fhir:value "draft"];
+  fhir:CodeSystem.date [ fhir:value "2016-10-28"^^xsd:date];
+  fhir:CodeSystem.publisher [ fhir:value "Direktoratet for e-helse"];
+  fhir:CodeSystem.description [ fhir:value "Dette kodeverket inneholder koder som benyttes for å identifisere ulike typer identifikatorer for personer."];
+  fhir:CodeSystem.jurisdiction [
+     fhir:index 0;
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       fhir:Coding.system [ fhir:value "urn:iso:std:iso:3166" ];
+       fhir:Coding.code [ fhir:value "NO" ];
+       fhir:Coding.display [ fhir:value "Norway" ]
+     ]
+  ];
+  fhir:CodeSystem.content [ fhir:value "complete"];
+  fhir:CodeSystem.count [ fhir:value "14"^^xsd:nonNegativeInteger];
+  fhir:CodeSystem.concept [
+     fhir:index 0;
+     fhir:CodeSystem.concept.code [ fhir:value "FNR" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Fødselsnummer" ];
+     fhir:CodeSystem.concept.definition [ fhir:value "Norsk fødselsnummer" ]
+  ], [
+     fhir:index 1;
+     fhir:CodeSystem.concept.code [ fhir:value "FDNR" ];
+     fhir:CodeSystem.concept.display [ fhir:value "D-nummer" ];
+     fhir:CodeSystem.concept.definition [ fhir:value "Personer i kontakt med norske myndigheter uten norsk fødselsnummer" ]
+  ], [
+     fhir:index 2;
+     fhir:CodeSystem.concept.code [ fhir:value "FHNR" ];
+     fhir:CodeSystem.concept.display [ fhir:value "H-nummer" ];
+     fhir:CodeSystem.concept.definition [ fhir:value "Nødnummer" ]
+  ], [
+     fhir:index 3;
+     fhir:CodeSystem.concept.code [ fhir:value "FHPR" ];
+     fhir:CodeSystem.concept.display [ fhir:value "HPR-nummer" ];
+     fhir:CodeSystem.concept.definition [ fhir:value "Id Helsepersonellregisteret" ]
+  ], [
+     fhir:index 4;
+     fhir:CodeSystem.concept.code [ fhir:value "FHER" ];
+     fhir:CodeSystem.concept.display [ fhir:value "HER-id" ];
+     fhir:CodeSystem.concept.definition [ fhir:value "Rollebasert id i NHN Adresseregister" ]
+  ], [
+     fhir:index 5;
+     fhir:CodeSystem.concept.code [ fhir:value "FPNR" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Passnummer" ]
+  ], [
+     fhir:index 6;
+     fhir:CodeSystem.concept.code [ fhir:value "FSEF" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Svensk personnummer" ]
+  ], [
+     fhir:index 7;
+     fhir:CodeSystem.concept.code [ fhir:value "FDKF" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Dansk personnummer" ]
+  ], [
+     fhir:index 8;
+     fhir:CodeSystem.concept.code [ fhir:value "FSSN" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Sosial security number" ]
+  ], [
+     fhir:index 9;
+     fhir:CodeSystem.concept.code [ fhir:value "FFPN" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Forsikringspolise nummer" ]
+  ], [
+     fhir:index 10;
+     fhir:CodeSystem.concept.code [ fhir:value "FUID" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Utenlandsk identifikasjon" ];
+     fhir:CodeSystem.concept.definition [ fhir:value "Annet enn svensk- og dansk personnummer" ]
+  ], [
+     fhir:index 11;
+     fhir:CodeSystem.concept.code [ fhir:value "FDUF" ];
+     fhir:CodeSystem.concept.display [ fhir:value "DUF-nummer" ];
+     fhir:CodeSystem.concept.definition [ fhir:value "Database for utlendingsforvaltningen" ]
+  ], [
+     fhir:index 12;
+     fhir:CodeSystem.concept.code [ fhir:value "FFHN" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Felles hjelpenummer" ]
+  ], [
+     fhir:index 13;
+     fhir:CodeSystem.concept.code [ fhir:value "FXXX" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Annet" ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<http://hl7.no/fhir/CodeSystem/no-kodeverk-8116.codesystem.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+
