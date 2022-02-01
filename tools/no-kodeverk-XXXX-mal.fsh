@@ -9,6 +9,7 @@ Description: "Beskrivelse av kodeverket"
 * ^identifier.value = "urn:oid:2.16.578.1.12.4.1.1.XXXX"
 // * ^version = "1.0" // Blir overkjørt av SUSHI
 * ^status = #draft // Gjøres om fra draft til active etter QA
+* ^date = "20xx-xx-xx" // Frivillig
 * ^publisher = "Direktoratet for e-helse" // Endres om ønskelig
 * ^content = #not-present // #not-present hvis uten koder, #complete hvis med
 // * #KODE "Kodetekst/skjermtekst" "Beskrivelse av koden." // Eksempel på enkeltkode
