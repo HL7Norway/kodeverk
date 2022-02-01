@@ -12,4 +12,4 @@ Description: "Beskrivelse av kodeverket"
 * ^date = "20xx-xx-xx" // Frivillig
 * ^publisher = "Direktoratet for e-helse" // Endres om ønskelig
 * ^content = #not-present // #not-present hvis uten koder, #complete hvis med
-// * #KODE "Kodetekst/skjermtekst" "Beskrivelse av koden." // Eksempel på enkeltkode
+// * #KODE "Kodetekst/skjermtekst" "Beskrivelse av koden." // Eksempel på enkeltkode TEST
