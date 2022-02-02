@@ -9,7 +9,7 @@
   <version value="0.2.0"/>
   <name value="NoKodeverk"/>
   <status value="draft"/>
-  <date value="2022-02-02T08:04:13+00:00"/>
+  <date value="2022-02-02T08:44:19+00:00"/>
   <jurisdiction>
     <coding>
       <system value="urn:iso:std:iso:3166"/>
@@ -448,6 +448,18 @@
         <reference value="NamingSystem/no-basis-apotekenes-konsesjonsnr"/>
       </reference>
       <name value="no-basis-apotekenes-konsesjonsnr"/>
+      <description value="Ved utstedelse av apotekkonsesjon for et nytt apotek tildeles et apotekkonsesjonsnummer. Konsesjonsnummeret er et firesifret nummer, i en nummerserie som starter på 1001, som er unikt for hvert apotek. Tildeles av Statens legemiddelverk."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="NamingSystem"/>
+      </extension>
+      <reference>
+        <reference value="NamingSystem/no-basis-resh-id"/>
+      </reference>
+      <name value="no-basis-resh-id"/>
+      <description value="Identifikator for enheter i spesialisthelsetjenesten."/>
       <exampleBoolean value="false"/>
     </resource>
     <page>

@@ -9,7 +9,7 @@
   "version": "0.2.0",
   "name": "NoKodeverk",
   "status": "draft",
-  "date": "2022-02-02T08:04:13+00:00",
+  "date": "2022-02-02T08:44:19+00:00",
   "jurisdiction": [
     {
       "coding": [
@@ -630,6 +630,21 @@
           "reference": "NamingSystem/no-basis-apotekenes-konsesjonsnr"
         },
         "name": "no-basis-apotekenes-konsesjonsnr",
+        "description": "Ved utstedelse av apotekkonsesjon for et nytt apotek tildeles et apotekkonsesjonsnummer. Konsesjonsnummeret er et firesifret nummer, i en nummerserie som starter på 1001, som er unikt for hvert apotek. Tildeles av Statens legemiddelverk.",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "NamingSystem"
+          }
+        ],
+        "reference": {
+          "reference": "NamingSystem/no-basis-resh-id"
+        },
+        "name": "no-basis-resh-id",
+        "description": "Identifikator for enheter i spesialisthelsetjenesten.",
         "exampleBoolean": false
       }
     ],

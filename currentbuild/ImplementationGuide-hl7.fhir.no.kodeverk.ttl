@@ -16,7 +16,7 @@
   fhir:ImplementationGuide.version [ fhir:value "0.2.0"];
   fhir:ImplementationGuide.name [ fhir:value "NoKodeverk"];
   fhir:ImplementationGuide.status [ fhir:value "draft"];
-  fhir:ImplementationGuide.date [ fhir:value "2022-02-02T08:04:13+00:00"^^xsd:dateTime];
+  fhir:ImplementationGuide.date [ fhir:value "2022-02-02T08:44:19+00:00"^^xsd:dateTime];
   fhir:ImplementationGuide.jurisdiction [
      fhir:index 0;
      fhir:CodeableConcept.coding [
@@ -616,6 +616,21 @@
          fhir:Reference.reference [ fhir:value "NamingSystem/no-basis-apotekenes-konsesjonsnr" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "no-basis-apotekenes-konsesjonsnr" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Ved utstedelse av apotekkonsesjon for et nytt apotek tildeles et apotekkonsesjonsnummer. Konsesjonsnummeret er et firesifret nummer, i en nummerserie som starter på 1001, som er unikt for hvert apotek. Tildeles av Statens legemiddelverk." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 26;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "NamingSystem" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.no/fhir/NamingSystem/no-basis-resh-id>;
+         fhir:Reference.reference [ fhir:value "NamingSystem/no-basis-resh-id" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "no-basis-resh-id" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Identifikator for enheter i spesialisthelsetjenesten." ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ];
      fhir:ImplementationGuide.definition.page [
