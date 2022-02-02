@@ -26,7 +26,7 @@ menu:
   Artifacts: 
 #    Value Sets: artifacts.html#4
     Code Systems: artifacts.html
-    Naming Systems: artifacts.html#6
+#    Naming Systems: artifacts.html#6
 #    Examples: artifacts.html#7
 #  Changelog: 
 #    R4 Changelog: https://raw.githubusercontent.com/HL7Norway/basisprofiler-r4/master/Changelog-21.md
