@@ -27,7 +27,7 @@ Denne siden blir brukt som en arbeidsliste og vil flyttes ut av IG når den har 
 | 8243 | urn:oid:2.16.578.1.12.4.1.1.8243 | [Utkast FSH](https://github.com/HL7Norway/kodeverk/blob/main/input/fsh/codesystems/no-kodeverk-8243.fsh) | Type tekstsvar i tekstlig resultat i svarrapportering av medisinske tjenester |
 | 8244 | urn:oid:2.16.578.1.12.4.1.1.8244 | [Utkast FSH](https://github.com/HL7Norway/kodeverk/blob/main/input/fsh/codesystems/no-kodeverk-8244.fsh) | Avviksmarkør i svarrapportering av medisinske tjenester |
 | 8245 | urn:oid:2.16.578.1.12.4.1.1.8245 | [Utkast FSH](https://github.com/HL7Norway/kodeverk/blob/main/input/fsh/codesystems/no-kodeverk-8245.fsh) | Status for resultat i svarrapportering av medisinske tjenester |
-| 8264 | urn:oid:2.16.578.1.12.4.1.1.8264 | [Utkast FSH](https://github.com/HL7Norway/kodeverk/blob/main/input/fsh/codesystems/no-kodeverk-8264.fsh)<br/>Utgått.  | Tjenestekoder for timereservasjon |
+| 8264 | urn:oid:2.16.578.1.12.4.1.1.8264 | [Utkast FSH](https://github.com/HL7Norway/kodeverk/blob/main/input/fsh/codesystems/no-kodeverk-8264.fsh) | Tjenestekoder for timereservasjon |
 | 8268 | urn:oid:2.16.578.1.12.4.1.1.8268 | [Utkast FSH](https://github.com/HL7Norway/kodeverk/blob/main/input/fsh/codesystems/no-kodeverk-8268.fsh) | Type identifikator |
 | 8269 | urn:oid:2.16.578.1.12.4.1.1.8269 | [Utkast FSH](https://github.com/HL7Norway/kodeverk/blob/main/input/fsh/codesystems/no-kodeverk-8269.fsh) | Kommentar til svarrapport |
 | 8271 | urn:oid:2.16.578.1.12.4.1.1.8271 | [Utkast FSH](https://github.com/HL7Norway/kodeverk/blob/main/input/fsh/codesystems/no-kodeverk-8271.fsh) | Resistens |
