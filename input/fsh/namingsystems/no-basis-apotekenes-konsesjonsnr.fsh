@@ -7,8 +7,8 @@ Usage: #definition
 * kind = #identifier
 * date = "2022-02-01"
 * publisher = "Direktoratet for e-helse"
-// * responsible = "Apotekene"
-// * description = "Apotekenes konsesjonsnummer. Tildeles av XXX"
+* responsible = "Statens legemiddelverk"
+* description = "Ved utstedelse av apotekkonsesjon for et nytt apotek tildeles et apotekkonsesjonsnummer. Konsesjonsnummeret er et firesifret nummer, i en nummerserie som starter på 1001, som er unikt for hvert apotek."
 * jurisdiction = urn:iso:std:iso:3166#NO "Norway"
 * uniqueId[0].type = #uri
 * uniqueId[=].value = "http://hl7.no/fhir/NamingSystem/AKO"
