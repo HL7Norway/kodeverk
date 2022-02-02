@@ -22,7 +22,7 @@
   fhir:CodeSystem.name [ fhir:value "NoKodeverk8271"];
   fhir:CodeSystem.title [ fhir:value "8271 Resistens"];
   fhir:CodeSystem.status [ fhir:value "draft"];
-  fhir:CodeSystem.date [ fhir:value "2022-02-02T08:44:19+00:00"^^xsd:dateTime];
+  fhir:CodeSystem.date [ fhir:value "2022-02-02T15:40:28+00:00"^^xsd:dateTime];
   fhir:CodeSystem.publisher [ fhir:value "Helsedirektoratet"];
   fhir:CodeSystem.jurisdiction [
      fhir:index 0;

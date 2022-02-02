@@ -16,7 +16,7 @@
   "name": "NoKodeverk8219",
   "title": "8219 Kodeverk for patologisk-anatomiske undersøkelser",
   "status": "draft",
-  "date": "2022-02-02T08:44:19+00:00",
+  "date": "2022-02-02T15:40:28+00:00",
   "publisher": "Direktoratet for e-helse",
   "description": "Disse kodeverdiene dekker opp valgmuligheter fra standard rekvisisjonsskjema for cytologiske undersøkelser (elementet Identifikasjon av type undersøkelse (Id) i klassen Undersøkelse (Investigation)). Kodeverket er foreldet og erstattes av NLK (7280).",
   "jurisdiction": [
