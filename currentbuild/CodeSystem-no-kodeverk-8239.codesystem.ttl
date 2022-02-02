@@ -22,7 +22,7 @@
   fhir:CodeSystem.name [ fhir:value "NoKodeverk8239"];
   fhir:CodeSystem.title [ fhir:value "8239 Forholdsoperatorer i svarrapportering av medisinske tjenester"];
   fhir:CodeSystem.status [ fhir:value "draft"];
-  fhir:CodeSystem.date [ fhir:value "2022-01-31T21:57:51+00:00"^^xsd:dateTime];
+  fhir:CodeSystem.date [ fhir:value "2022-02-02T08:04:13+00:00"^^xsd:dateTime];
   fhir:CodeSystem.publisher [ fhir:value "Direktoratet for e-helse"];
   fhir:CodeSystem.jurisdiction [
      fhir:index 0;

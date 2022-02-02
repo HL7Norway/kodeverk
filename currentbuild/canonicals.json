@@ -255,5 +255,12 @@
     "url": "http://hl7.no/fhir/ImplementationGuide/hl7.fhir.no.kodeverk",
     "version": "0.2.0",
     "name": "NoKodeverk"
+  },
+  {
+    "id": "no-basis-apotekenes-konsesjonsnr",
+    "type": "NamingSystem",
+    "url": "http://hl7.no/fhir/NamingSystem/no-basis-apotekenes-konsesjonsnr",
+    "version": "0.2.0",
+    "name": "ApotekenesKonsesjonsnr"
   }
 ]

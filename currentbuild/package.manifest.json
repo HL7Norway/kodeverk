@@ -1,6 +1,6 @@
 {
   "version": "0.2.0",
   "fhirVersion": "[4.0.1]",
-  "date": "20220131215722",
+  "date": "20220202080346",
   "name": "hl7.fhir.no.kodeverk"
 }

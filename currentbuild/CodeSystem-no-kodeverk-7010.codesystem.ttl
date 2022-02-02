@@ -22,7 +22,7 @@
   fhir:CodeSystem.name [ fhir:value "NoKodeverk7010"];
   fhir:CodeSystem.title [ fhir:value "7010 Norsk patologikodeverk"];
   fhir:CodeSystem.status [ fhir:value "draft"];
-  fhir:CodeSystem.date [ fhir:value "2022-01-31T21:57:51+00:00"^^xsd:dateTime];
+  fhir:CodeSystem.date [ fhir:value "2022-02-02T08:04:13+00:00"^^xsd:dateTime];
   fhir:CodeSystem.publisher [ fhir:value "Den norske patologiforening"];
   fhir:CodeSystem.description [ fhir:value "Norsk patologikodeverk er et kodeverk som benyttes ved norske patologiavdelinger. Kodeverket ble utarbeidet av Den norske patologforenings kode- og nomenklaturutvalg i samarbeid med KITH på grunnlag av The Systematized Nomenclature of Medicine (SNOMED, 1984). Endret navn fra Den norske SNOMED til Norsk patologikodeverk 3. november 2015."];
   fhir:CodeSystem.jurisdiction [

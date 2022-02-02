@@ -22,7 +22,7 @@
   fhir:CodeSystem.name [ fhir:value "NoKodeverk9060"];
   fhir:CodeSystem.title [ fhir:value "9060 Kategori helsepersonell"];
   fhir:CodeSystem.status [ fhir:value "draft"];
-  fhir:CodeSystem.date [ fhir:value "2022-01-31T21:57:51+00:00"^^xsd:dateTime];
+  fhir:CodeSystem.date [ fhir:value "2022-02-02T08:04:13+00:00"^^xsd:dateTime];
   fhir:CodeSystem.publisher [ fhir:value "Helsedirektoratet"];
   fhir:CodeSystem.description [ fhir:value "Kodeverket inneholder koder som benyttes for å kategorisere helsepersonell med autorisasjon etter Helsepersonelloven § 48, og dyrehelsepersonell med autorisasjon etter Dyrehelsepersonelloven § 4."];
   fhir:CodeSystem.jurisdiction [

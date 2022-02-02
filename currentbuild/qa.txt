@@ -1,10 +1,10 @@
 ﻿NoKodeverk : Validation Results
 =========================================
 
-err = 1, warn = 8, info = 25
-IG Publisher Version: 1.1.97
-Generated Mon Jan 31 21:58:06 UTC 2022. FHIR version 4.0.1 for hl7.fhir.no.kodeverk#0.2.0 (canonical = http://hl7.no/fhir)
- Build Errors : 132 / 8 / 0
+err = 1, warn = 9, info = 25
+IG Publisher Version: 1.1.98
+Generated Wed Feb 02 08:04:29 UTC 2022. FHIR version 4.0.1 for hl7.fhir.no.kodeverk#0.2.0 (canonical = http://hl7.no/fhir)
+ Build Errors : 137 / 9 / 0
  /github/workspace/fsh-generated/resources/CodeSystem-no-kodeverk-1101.codesystem : 0 / 0 / 2
  /github/workspace/fsh-generated/resources/CodeSystem-no-kodeverk-7010.codesystem : 0 / 0 / 2
  /github/workspace/fsh-generated/resources/CodeSystem-no-kodeverk-7270.codesystem : 0 / 0 / 2
@@ -31,6 +31,7 @@ Generated Mon Jan 31 21:58:06 UTC 2022. FHIR version 4.0.1 for hl7.fhir.no.kodev
  /github/workspace/fsh-generated/resources/CodeSystem-no-kodeverk-8351.codesystem : 0 / 0 / 2
  /github/workspace/fsh-generated/resources/CodeSystem-no-kodeverk-9060.codesystem : 0 / 0 / 2
  /github/workspace/fsh-generated/resources/ImplementationGuide-hl7.fhir.no.kodeverk : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/NamingSystem-no-basis-apotekenes-konsesjonsnr : 0 / 0 / 1
 </table>
 == n/a ==
 ERROR: ImplementationGuide.definition.parameter[22].value: Supressed messages file not found
@@ -42,6 +43,7 @@ WARNING: Unable to find ImplementationGuide.definition.resource.description for 
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource CodeSystem/no-kodeverk-8271.codesystem.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource CodeSystem/no-kodeverk-8272.codesystem.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource CodeSystem/no-kodeverk-8275.codesystem.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource NamingSystem/no-basis-apotekenes-konsesjonsnr.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 ERROR: /github/workspace/output/CodeSystem-no-kodeverk-1101.codesystem.change.history.html#/html/body/div/div/div/p/a at Line 241, column 28: The link '' for "" cannot be resolved
 ERROR: /github/workspace/output/CodeSystem-no-kodeverk-1101.codesystem.html#/html/body/div/div/div/p/a at Line 250, column 28: The link '' for "" cannot be resolved
 ERROR: /github/workspace/output/CodeSystem-no-kodeverk-1101.codesystem.json.html#/html/body/div/div/div/p/a at Line 273, column 28: The link '' for "" cannot be resolved
@@ -167,10 +169,15 @@ ERROR: /github/workspace/output/CodeSystem-no-kodeverk-9060.codesystem.html#/htm
 ERROR: /github/workspace/output/CodeSystem-no-kodeverk-9060.codesystem.json.html#/html/body/div/div/div/p/a at Line 410, column 28: The link '' for "" cannot be resolved
 ERROR: /github/workspace/output/CodeSystem-no-kodeverk-9060.codesystem.ttl.html#/html/body/div/div/div/p/a at Line 419, column 28: The link '' for "" cannot be resolved
 ERROR: /github/workspace/output/CodeSystem-no-kodeverk-9060.codesystem.xml.html#/html/body/div/div/div/p/a at Line 403, column 28: The link '' for "" cannot be resolved
-ERROR: /github/workspace/output/artifacts.html#/html/body/div/div/div/p/a at Line 430, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/output/NamingSystem-no-basis-apotekenes-konsesjonsnr.change.history.html#/html/body/div/div/div/p/a at Line 241, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/output/NamingSystem-no-basis-apotekenes-konsesjonsnr.html#/html/body/div/div/div/p/a at Line 228, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/output/NamingSystem-no-basis-apotekenes-konsesjonsnr.json.html#/html/body/div/div/div/p/a at Line 264, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/output/NamingSystem-no-basis-apotekenes-konsesjonsnr.ttl.html#/html/body/div/div/div/p/a at Line 274, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/output/NamingSystem-no-basis-apotekenes-konsesjonsnr.xml.html#/html/body/div/div/div/p/a at Line 258, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/output/artifacts.html#/html/body/div/div/div/p/a at Line 451, column 28: The link '' for "" cannot be resolved
 ERROR: /github/workspace/output/download.html#/html/body/div/div/div/p/a at Line 208, column 28: The link '' for "" cannot be resolved
 ERROR: /github/workspace/output/index.html#/html/body/div/div/div/p/a at Line 205, column 28: The link '' for "" cannot be resolved
-ERROR: /github/workspace/output/mapping.html#/html/body/div/div/div/p/a at Line 349, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/output/mapping.html#/html/body/div/div/div/p/a at Line 350, column 28: The link '' for "" cannot be resolved
 ERROR: /github/workspace/output/nilar.html#/html/body/div/div/div/p/a at Line 418, column 28: The link '' for "" cannot be resolved
 ERROR: /github/workspace/output/toc.html#/html/body/div/div/div/p/a at Line 177, column 28: The link '' for "" cannot be resolved
 == fsh-generated/resources/CodeSystem-no-kodeverk-1101.codesystem.json ==
@@ -224,3 +231,4 @@ INFORMATION: CodeSystem/no-kodeverk-8351.codesystem: CodeSystem: CodeSystems SHO
 == fsh-generated/resources/CodeSystem-no-kodeverk-9060.codesystem.json ==
 INFORMATION: CodeSystem/no-kodeverk-9060.codesystem: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
 == fsh-generated/resources/ImplementationGuide-hl7.fhir.no.kodeverk.json ==
+== fsh-generated/resources/NamingSystem-no-basis-apotekenes-konsesjonsnr.json ==

@@ -13,8 +13,8 @@
   <version value="0.2.0"/>
   <name value="NoKodeverk1101"/>
   <title value="1101 Ja, nei"/>
-  <status value="draft"/>
-  <date value="2022-01-31T21:57:51+00:00"/>
+  <status value="active"/>
+  <date value="2020-12-04"/>
   <publisher value="Direktoratet for e-helse"/>
   <description value="Dette kodeverket inneholder koder for å angi svar Ja eller Nei."/>
   <jurisdiction>
