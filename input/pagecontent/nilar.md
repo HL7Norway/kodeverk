@@ -11,7 +11,7 @@ Denne siden blir brukt som en arbeidsliste og vil flyttes ut av IG når den har 
 | HPR | urn:oid:2.16.578.1.12.4.1.4.4 | [NamingSystem](https://github.com/HL7Norway/basisprofiler-r4/blob/master/NamingSystem/no-basis-helsepersonellnummer.namingsystem.xml) |  |
 | DUF | urn:oid:2.16.578.1.12.4.1.4.5 | [NamingSystem](https://github.com/HL7Norway/basisprofiler-r4/blob/master/NamingSystem/no-basis-dufnummer.namingsystem.xml) |  |
 | ENH | urn:oid:2.16.578.1.12.4.1.4.101 | NamingSystem? Ekstern? |  |
-| RSH | urn:oid:2.16.578.1.12.4.1.4.102 | NamingSystem nødvendig? |  |
+| RSH | urn:oid:2.16.578.1.12.4.1.4.102 | [Utkast FSH](https://github.com/HL7Norway/kodeverk/blob/main/input/fsh/namingsystems/no-basis-resh-id.fsh) |  |
 | AKO | urn:oid:2.16.578.1.12.4.1.4.107 | [Utkast FSH](https://github.com/HL7Norway/kodeverk/blob/main/input/fsh/namingsystems/no-basis-apotekenes-konsesjonsnr.fsh) |  |
 | 7010 | urn:oid:2.16.578.1.12.4.1.1.7010 | [Utkast FSH](https://github.com/HL7Norway/kodeverk/blob/main/input/fsh/codesystems/no-kodeverk-7010.fsh) | Norsk patologikodeverk |
 | 7270 | urn:oid:2.16.578.1.12.4.1.1.7270 | [Utkast FSH](https://github.com/HL7Norway/kodeverk/blob/main/input/fsh/codesystems/no-kodeverk-7270.fsh) | NCRP |
