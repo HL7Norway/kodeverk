@@ -1,7 +1,6 @@
 Instance: no-basis-apotekenes-konsesjonsnr
 InstanceOf: NamingSystem
 Usage: #definition
-// * meta.versionId = "1.0"
 * name = "ApotekenesKonsesjonsnr"
 * status = #draft
 * kind = #identifier
