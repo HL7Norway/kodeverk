@@ -1,0 +1,35 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "no-kodeverk-ICD-10.codesystem",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system http://hl7.org/fhir/sid/icd-10-no defines many codes, but they are not represented here</p></div>"
+  },
+  "url": "http://hl7.org/fhir/sid/icd-10-no",
+  "identifier": [
+    {
+      "use": "official",
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:2.16.578.1.12.4.1.1.7110"
+    }
+  ],
+  "version": "0.2.0",
+  "name": "NoKodeverkICD10",
+  "title": "ICD-10",
+  "status": "draft",
+  "date": "2022-02-03T08:35:41+00:00",
+  "publisher": "Direktoratet for e-helse",
+  "description": "Klassifikasjon av sykdommer og beslektede helseproblemer.",
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166",
+          "code": "NO",
+          "display": "Norway"
+        }
+      ]
+    }
+  ],
+  "content": "not-present"
+}

@@ -22,7 +22,7 @@
   fhir:CodeSystem.name [ fhir:value "NoKodeverk8268"];
   fhir:CodeSystem.title [ fhir:value "8268 Type identifikator"];
   fhir:CodeSystem.status [ fhir:value "draft"];
-  fhir:CodeSystem.date [ fhir:value "2022-02-02T15:40:28+00:00"^^xsd:dateTime];
+  fhir:CodeSystem.date [ fhir:value "2022-02-03T08:35:41+00:00"^^xsd:dateTime];
   fhir:CodeSystem.publisher [ fhir:value "Direktoratet for e-helse"];
   fhir:CodeSystem.description [ fhir:value "Dette kodeverket inneholder koder som benyttes for å identifisere ulike typer identifikatorer for personer og organisasjoner."];
   fhir:CodeSystem.jurisdiction [

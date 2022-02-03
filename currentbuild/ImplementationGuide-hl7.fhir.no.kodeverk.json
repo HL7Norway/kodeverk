@@ -9,7 +9,7 @@
   "version": "0.2.0",
   "name": "NoKodeverk",
   "status": "draft",
-  "date": "2022-02-02T15:40:28+00:00",
+  "date": "2022-02-03T08:35:41+00:00",
   "jurisdiction": [
     {
       "coding": [
@@ -617,6 +617,20 @@
         },
         "name": "9060 Kategori helsepersonell",
         "description": "Kodeverket inneholder koder som benyttes for å kategorisere helsepersonell med autorisasjon etter Helsepersonelloven § 48, og dyrehelsepersonell med autorisasjon etter Dyrehelsepersonelloven § 4.",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CodeSystem"
+          }
+        ],
+        "reference": {
+          "reference": "CodeSystem/no-kodeverk-ICD-10.codesystem"
+        },
+        "name": "ICD-10",
+        "description": "Klassifikasjon av sykdommer og beslektede helseproblemer.",
         "exampleBoolean": false
       },
       {

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="no-kodeverk-ICD-10.codesystem"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This code system http://hl7.org/fhir/sid/icd-10-no defines many codes, but they are not represented here</p></div>
+  </text>
+  <url value="http://hl7.org/fhir/sid/icd-10-no"/>
+  <identifier>
+    <use value="official"/>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:oid:2.16.578.1.12.4.1.1.7110"/>
+  </identifier>
+  <version value="0.2.0"/>
+  <name value="NoKodeverkICD10"/>
+  <title value="ICD-10"/>
+  <status value="draft"/>
+  <date value="2022-02-03T08:35:41+00:00"/>
+  <publisher value="Direktoratet for e-helse"/>
+  <description value="Klassifikasjon av sykdommer og beslektede helseproblemer."/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="NO"/>
+      <display value="Norway"/>
+    </coding>
+  </jurisdiction>
+  <content value="not-present"/>
+</CodeSystem>

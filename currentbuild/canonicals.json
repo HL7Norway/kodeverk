@@ -269,5 +269,15 @@
     "url": "http://hl7.no/fhir/NamingSystem/no-basis-resh-id",
     "version": "0.2.0",
     "name": "ReshId"
+  },
+  {
+    "id": "no-kodeverk-ICD-10.codesystem",
+    "type": "CodeSystem",
+    "url": "http://hl7.org/fhir/sid/icd-10-no",
+    "version": "0.2.0",
+    "name": "NoKodeverkICD10",
+    "oids": [
+      "2.16.578.1.12.4.1.1.7110"
+    ]
   }
 ]
