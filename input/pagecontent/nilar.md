@@ -37,5 +37,5 @@ Denne siden blir brukt som en arbeidsliste og vil flyttes ut av IG når den har 
 | 8327 | urn:oid:2.16.578.1.12.4.1.1.8327 | [Utkast FSH](https://github.com/HL7Norway/kodeverk/blob/main/input/fsh/codesystems/no-kodeverk-8327.fsh) | Offisiell personidentifikasjon |
 | 8351 | urn:oid:2.16.578.1.12.4.1.1.8351 | [Utkast FSH](https://github.com/HL7Norway/kodeverk/blob/main/input/fsh/codesystems/no-kodeverk-8351.fsh) | Prøvemateriale |
 | 9060 | urn:oid:2.16.578.1.12.4.1.1.9060 | [Utkast FSH](https://github.com/HL7Norway/kodeverk/blob/main/input/fsh/codesystems/no-kodeverk-9060.fsh) | Kategori helsepersonell |
-| icd-10 | http://hl7.org/fhir/sid/icd-10 | [Utkast FSH](https://github.com/HL7Norway/kodeverk/blob/main/input/fsh/codesystems/no-kodeverk-icd-10.fsh) | ICD-10 (Norsk) |
+| icd-10 | http://hl7.org/fhir/sid/icd-10-no (7110) | [Utkast FSH](https://github.com/HL7Norway/kodeverk/blob/main/input/fsh/codesystems/no-kodeverk-icd-10.fsh) | ICD-10 (Norsk) |
 | Expertise | http://ehelse.no/fhir/CodeSystem/Expertise | Behov? | |
