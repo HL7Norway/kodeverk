@@ -1,0 +1,1 @@
+Testing regler NLK-konvertering. 
