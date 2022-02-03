@@ -4,7 +4,7 @@ Denne siden blir brukt som en arbeidsliste og vil flyttes ut av IG når den har 
 
 | Kode | OID/ID | Kommentar/lenke | Navn |
 |------|--------|-----------------|------|
-| HER | urn:oid:2.16.578.1.12.4.1.2 | NamingSystem. Finnes? |  |
+| HER | urn:oid:2.16.578.1.12.4.1.2 | [Utkast FSH](https://github.com/HL7Norway/kodeverk/blob/main/input/fsh/namingsystems/no-basis-her.fsh) |  |
 | FNR | urn:oid:2.16.578.1.12.4.1.4.1 | [NamingSystem](https://github.com/HL7Norway/basisprofiler-r4/blob/master/NamingSystem/no-basis-fodselsnummer.namingsystem.xml) |  |
 | DNR | urn:oid:2.16.578.1.12.4.1.4.2 | [NamingSystem](https://github.com/HL7Norway/basisprofiler-r4/blob/master/NamingSystem/no-basis-dnummer.namingsystem.xml) |  |
 | FHN | urn:oid:2.16.578.1.12.4.1.4.3 | [NamingSystem](https://github.com/HL7Norway/basisprofiler-r4/blob/master/NamingSystem/no-basis-felleshjelpenummer.namingsystem.xml) |  |
