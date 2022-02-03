@@ -22,7 +22,7 @@
   fhir:CodeSystem.name [ fhir:value "NoKodeverk8216"];
   fhir:CodeSystem.title [ fhir:value "8216 Kodeverk for cytologisk materiale"];
   fhir:CodeSystem.status [ fhir:value "draft"];
-  fhir:CodeSystem.date [ fhir:value "2022-02-03T08:35:41+00:00"^^xsd:dateTime];
+  fhir:CodeSystem.date [ fhir:value "2022-02-03T09:16:30+00:00"^^xsd:dateTime];
   fhir:CodeSystem.publisher [ fhir:value "Direktoratet for e-helse"];
   fhir:CodeSystem.description [ fhir:value "Gynekologisk materiale eller annet cytologisk materiale som er tatt for cytologiske undersøkelser. Kodene dekker opp valgmuligheter fra standard rekvisisjonsskjema for cytologiske undersøkelser."];
   fhir:CodeSystem.jurisdiction [

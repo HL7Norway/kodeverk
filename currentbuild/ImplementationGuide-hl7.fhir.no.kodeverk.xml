@@ -9,7 +9,7 @@
   <version value="0.2.0"/>
   <name value="NoKodeverk"/>
   <status value="draft"/>
-  <date value="2022-02-03T08:35:41+00:00"/>
+  <date value="2022-02-03T09:16:30+00:00"/>
   <jurisdiction>
     <coding>
       <system value="urn:iso:std:iso:3166"/>
@@ -460,6 +460,28 @@
       </reference>
       <name value="no-basis-apotekenes-konsesjonsnr"/>
       <description value="Ved utstedelse av apotekkonsesjon for et nytt apotek tildeles et apotekkonsesjonsnummer. Konsesjonsnummeret er et firesifret nummer, i en nummerserie som starter på 1001, som er unikt for hvert apotek. Tildeles av Statens legemiddelverk."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="NamingSystem"/>
+      </extension>
+      <reference>
+        <reference value="NamingSystem/no-basis-her-id"/>
+      </reference>
+      <name value="no-basis-her-id"/>
+      <description value="Identifikator for kommunikasjonsparter i Helsenettet.."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="NamingSystem"/>
+      </extension>
+      <reference>
+        <reference value="NamingSystem/no-basis-organisasjonsnummer"/>
+      </reference>
+      <name value="no-basis-organisasjonsnummer"/>
+      <description value="Organisasjonsnummer fra Enhetsregisteret og Foretaksregisteret"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>

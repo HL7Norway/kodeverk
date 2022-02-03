@@ -16,7 +16,7 @@
   fhir:ImplementationGuide.version [ fhir:value "0.2.0"];
   fhir:ImplementationGuide.name [ fhir:value "NoKodeverk"];
   fhir:ImplementationGuide.status [ fhir:value "draft"];
-  fhir:ImplementationGuide.date [ fhir:value "2022-02-03T08:35:41+00:00"^^xsd:dateTime];
+  fhir:ImplementationGuide.date [ fhir:value "2022-02-03T09:16:30+00:00"^^xsd:dateTime];
   fhir:ImplementationGuide.jurisdiction [
      fhir:index 0;
      fhir:CodeableConcept.coding [
@@ -634,6 +634,34 @@
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
        fhir:index 27;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "NamingSystem" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.no/fhir/NamingSystem/no-basis-her-id>;
+         fhir:Reference.reference [ fhir:value "NamingSystem/no-basis-her-id" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "no-basis-her-id" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Identifikator for kommunikasjonsparter i Helsenettet.." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 28;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "NamingSystem" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.no/fhir/NamingSystem/no-basis-organisasjonsnummer>;
+         fhir:Reference.reference [ fhir:value "NamingSystem/no-basis-organisasjonsnummer" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "no-basis-organisasjonsnummer" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Organisasjonsnummer fra Enhetsregisteret og Foretaksregisteret" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 29;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];

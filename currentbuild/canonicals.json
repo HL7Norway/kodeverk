@@ -264,6 +264,20 @@
     "name": "ApotekenesKonsesjonsnr"
   },
   {
+    "id": "no-basis-her-id",
+    "type": "NamingSystem",
+    "url": "http://hl7.no/fhir/NamingSystem/no-basis-her-id",
+    "version": "0.2.0",
+    "name": "HERId"
+  },
+  {
+    "id": "no-basis-organisasjonsnummer",
+    "type": "NamingSystem",
+    "url": "http://hl7.no/fhir/NamingSystem/no-basis-organisasjonsnummer",
+    "version": "0.2.0",
+    "name": "Organisasjonsnummer"
+  },
+  {
     "id": "no-basis-resh-id",
     "type": "NamingSystem",
     "url": "http://hl7.no/fhir/NamingSystem/no-basis-resh-id",

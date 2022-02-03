@@ -9,7 +9,7 @@
   "version": "0.2.0",
   "name": "NoKodeverk",
   "status": "draft",
-  "date": "2022-02-03T08:35:41+00:00",
+  "date": "2022-02-03T09:16:30+00:00",
   "jurisdiction": [
     {
       "coding": [
@@ -645,6 +645,34 @@
         },
         "name": "no-basis-apotekenes-konsesjonsnr",
         "description": "Ved utstedelse av apotekkonsesjon for et nytt apotek tildeles et apotekkonsesjonsnummer. Konsesjonsnummeret er et firesifret nummer, i en nummerserie som starter på 1001, som er unikt for hvert apotek. Tildeles av Statens legemiddelverk.",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "NamingSystem"
+          }
+        ],
+        "reference": {
+          "reference": "NamingSystem/no-basis-her-id"
+        },
+        "name": "no-basis-her-id",
+        "description": "Identifikator for kommunikasjonsparter i Helsenettet..",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "NamingSystem"
+          }
+        ],
+        "reference": {
+          "reference": "NamingSystem/no-basis-organisasjonsnummer"
+        },
+        "name": "no-basis-organisasjonsnummer",
+        "description": "Organisasjonsnummer fra Enhetsregisteret og Foretaksregisteret",
         "exampleBoolean": false
       },
       {
