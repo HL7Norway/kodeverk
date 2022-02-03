@@ -6,14 +6,18 @@ I første omgang skal det støtte behovet i [NILAR](https://github.com/HL7Norway
 
 ## Plan
 
-- [ ] Utvikle mapping-regler som muliggjør scripting - se [arbeidsutkast mapping-regler](input/pagecontent/mapping.md)
-- [ ] Utvikle  [maler](tools/) som gjør det mulig å håndkode og generere CodeSystem ved hjelp av [Shorthand](http://hl7.org/fhir/uv/shorthand/). <br />Alle eller deler av disse vil ikke inneholde kodeverdier fra start.
+- [X] Utvikle mapping-regler som muliggjør scripting - se [arbeidsutkast mapping-regler](input/pagecontent/mapping.md)
+- [X] Utvikle  [maler](tools/) som gjør det mulig å håndkode og generere CodeSystem ved hjelp av [Shorthand](http://hl7.org/fhir/uv/shorthand/). <br />Alle eller deler av disse vil ikke inneholde kodeverdier fra start.
+- [X] Generere en IG og/eller pakke for publisering. <br />En pakke gjør at alle som trenger det automagisk kan "installere" alle kodeverk lokalt som et bibliotek på linje med programvareoppdatering. 
 - [ ] Skrive øvrig dokumentasjon
-- [ ] Generere en IG og/eller pakke for publisering. <br />En pakke gjør at alle som trenger det automagisk kan "installere" alle kodeverk lokalt som et bibliotek på linje med programvareoppdatering. 
   - [ ] Lage instruksjoner om hvordan generere IG og innhold (FSH, md -> JSON,HTML) 
   - [ ] Hvordan brukes pakken i IG, ValueSets og profiler, sjekke at det validerer i en test-IG
   - [ ] Hvordan brukes pakken i instanser, sjekke at det validerer i en test-IG
   - [ ] Lage IG-mal for Direktoratet for e-helse, [se issue #8](https://github.com/HL7Norway/kodeverk/issues/8)
+
+### Plan/oppgaver for lengre sikt
+
+* [Se issues med tag "på lengre sikt"](https://github.com/HL7Norway/kodeverk/issues?q=is%3Aissue+is%3Aopen+label%3A%22p%C3%A5+lengre+sikt%22)
 
 ## Dokumentasjon implementasjonsguide
 
