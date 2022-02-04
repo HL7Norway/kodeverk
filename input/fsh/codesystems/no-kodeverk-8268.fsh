@@ -26,8 +26,6 @@ Description: "Dette kodeverket inneholder koder som benyttes for å identifisere
 * #DNR "D-nummer" "Personer i kontakt med norske myndigheter uten norsk fødselsnummer"
 * #HNR "H-nummer" "Hjelpenummer"
 * #PNR "Passnummer"
-// * #SEF "Svensk 'personnummer'"
-// * #DKF "Dansk 'personnummer'"
 * #SEF "Svensk personnummer"
 * #DKF "Dansk personnummer"	
 * #SSN "Sosial security number"
