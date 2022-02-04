@@ -1,7 +1,7 @@
 Instance: no-basis-resh-id
 InstanceOf: NamingSystem
 Usage: #definition
-* name = "ReshId"
+* name = "RESHid"
 * status = #draft
 * kind = #identifier
 * date = "2022-02-02"
@@ -10,7 +10,7 @@ Usage: #definition
 * description = "Identifikator for enheter i spesialisthelsetjenesten."
 * jurisdiction = urn:iso:std:iso:3166#NO "Norway"
 * uniqueId[0].type = #uri
-* uniqueId[=].value = "http://hl7.no/fhir/NamingSystem/no-basis-resh-id"
+* uniqueId[=].value = "http://hl7.no/fhir/NamingSystem/RESHid"
 * uniqueId[=].preferred = false
 * uniqueId[+].type = #oid
 * uniqueId[=].value = "2.16.578.1.12.4.1.4.102"
