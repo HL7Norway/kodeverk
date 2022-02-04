@@ -10,31 +10,31 @@
     ]
   },
   {
-    "id": "no-kodeverk-7010.codesystem",
+    "id": "no-kodeverk-7010-norpat.codesystem",
     "type": "CodeSystem",
-    "url": "http://ehelse.no/fhir/CodeSystem/no-kodeverk-7010",
+    "url": "http://ehelse.no/fhir/CodeSystem/no-kodeverk-7010-norpat",
     "version": "0.2.0",
-    "name": "NoKodeverk7010",
+    "name": "NoKodeverk7010NORPAT",
     "oids": [
       "2.16.578.1.12.4.1.1.7010"
     ]
   },
   {
-    "id": "no-kodeverk-7270.codesystem",
+    "id": "no-kodeverk-7270-ncrp.codesystem",
     "type": "CodeSystem",
-    "url": "http://ehelse.no/fhir/CodeSystem/no-kodeverk-7270",
+    "url": "http://ehelse.no/fhir/CodeSystem/no-kodeverk-7270-ncrp",
     "version": "0.2.0",
-    "name": "NoKodeverk7270",
+    "name": "NoKodeverk7270NCRP",
     "oids": [
       "2.16.578.1.12.4.1.1.7270"
     ]
   },
   {
-    "id": "no-kodeverk-7280.codesystem",
+    "id": "no-kodeverk-7280-nlk.codesystem",
     "type": "CodeSystem",
-    "url": "http://ehelse.no/fhir/CodeSystem/no-kodeverk-7280",
+    "url": "http://ehelse.no/fhir/CodeSystem/no-kodeverk-7280-nlk",
     "version": "0.2.0",
-    "name": "NoKodeverk7280",
+    "name": "NoKodeverk7280NLK",
     "oids": [
       "2.16.578.1.12.4.1.1.7280"
     ]

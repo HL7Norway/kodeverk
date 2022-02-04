@@ -5,24 +5,24 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://hl7.no/fhir/CodeSystem/no-kodeverk-7270.codesystem> a fhir:CodeSystem;
+<http://hl7.no/fhir/CodeSystem/no-kodeverk-7270-ncrp.codesystem> a fhir:CodeSystem;
   fhir:nodeRole fhir:treeRoot;
-  fhir:Resource.id [ fhir:value "no-kodeverk-7270.codesystem"];
+  fhir:Resource.id [ fhir:value "no-kodeverk-7270-ncrp.codesystem"];
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system http://ehelse.no/fhir/CodeSystem/no-kodeverk-7270 defines many codes, but they are not represented here</p></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system http://ehelse.no/fhir/CodeSystem/no-kodeverk-7270-ncrp defines many codes, but they are not represented here</p></div>"
   ];
-  fhir:CodeSystem.url [ fhir:value "http://ehelse.no/fhir/CodeSystem/no-kodeverk-7270"];
+  fhir:CodeSystem.url [ fhir:value "http://ehelse.no/fhir/CodeSystem/no-kodeverk-7270-ncrp"];
   fhir:CodeSystem.identifier [
      fhir:index 0;
      fhir:Identifier.system [ fhir:value "urn:ietf:rfc:3986" ];
      fhir:Identifier.value [ fhir:value "urn:oid:2.16.578.1.12.4.1.1.7270" ]
   ];
   fhir:CodeSystem.version [ fhir:value "0.2.0"];
-  fhir:CodeSystem.name [ fhir:value "NoKodeverk7270"];
-  fhir:CodeSystem.title [ fhir:value "7270 NCRP"];
-  fhir:CodeSystem.status [ fhir:value "draft"];
-  fhir:CodeSystem.date [ fhir:value "2022-02-03T09:16:30+00:00"^^xsd:dateTime];
+  fhir:CodeSystem.name [ fhir:value "NoKodeverk7270NCRP"];
+  fhir:CodeSystem.title [ fhir:value "NCRP"];
+  fhir:CodeSystem.status [ fhir:value "active"];
+  fhir:CodeSystem.date [ fhir:value "2022-02-04T15:35:42+00:00"^^xsd:dateTime];
   fhir:CodeSystem.publisher [ fhir:value "Helsedirektoratet"];
   fhir:CodeSystem.description [ fhir:value "Kodeverk for radiologi og nukleærmedisin. Kodeverket skal brukes for å dokumentere og skal kunne brukes for å bestille radiologiske tjenester. Det skal benyttes for både polikliniske og innlagte pasienter. Fra 1. januar 2012 har det vært obligatorisk å bruke dette kodeverket for å rapportere poliklinisk radiologisk aktivitet både for offentlige og private virksomheter."];
   fhir:CodeSystem.jurisdiction [
@@ -38,7 +38,7 @@
 
 # - ontology header ------------------------------------------------------------
 
-<http://hl7.no/fhir/CodeSystem/no-kodeverk-7270.codesystem.ttl> a owl:Ontology;
+<http://hl7.no/fhir/CodeSystem/no-kodeverk-7270-ncrp.codesystem.ttl> a owl:Ontology;
   owl:imports fhir:fhir.ttl .
 
 # -------------------------------------------------------------------------------------

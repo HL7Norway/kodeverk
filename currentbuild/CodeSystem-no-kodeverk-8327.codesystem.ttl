@@ -10,7 +10,7 @@
   fhir:Resource.id [ fhir:value "no-kodeverk-8327.codesystem"];
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system http://ehelse.no/fhir/CodeSystem/no-kodeverk-8327 defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">DNR<a name=\"no-kodeverk-8327.codesystem-DNR\"> </a></td><td>D-nummer</td></tr><tr><td style=\"white-space:nowrap\">FHN<a name=\"no-kodeverk-8327.codesystem-FHN\"> </a></td><td>Felles hjelpenummer (FH-nummer)</td></tr><tr><td style=\"white-space:nowrap\">FNR<a name=\"no-kodeverk-8327.codesystem-FNR\"> </a></td><td>Fødselsnummer</td></tr><tr><td style=\"white-space:nowrap\">HNR<a name=\"no-kodeverk-8327.codesystem-HNR\"> </a></td><td>H-nummer</td></tr></table></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system http://ehelse.no/fhir/CodeSystem/no-kodeverk-8327 defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">DNR<a name=\"no-kodeverk-8327.codesystem-DNR\"> </a></td><td>D-nummer</td></tr><tr><td style=\"white-space:nowrap\">FHN<a name=\"no-kodeverk-8327.codesystem-FHN\"> </a></td><td>Felles hjelpenummer (FH-nummer)</td></tr><tr><td style=\"white-space:nowrap\">FNR<a name=\"no-kodeverk-8327.codesystem-FNR\"> </a></td><td>Fødselsnummer</td></tr><tr><td style=\"white-space:nowrap\">HNR<a name=\"no-kodeverk-8327.codesystem-HNR\"> </a></td><td>Virksomhetsinternt hjelpenummer</td></tr></table></div>"
   ];
   fhir:CodeSystem.url [ fhir:value "http://ehelse.no/fhir/CodeSystem/no-kodeverk-8327"];
   fhir:CodeSystem.identifier [
@@ -21,10 +21,10 @@
   fhir:CodeSystem.version [ fhir:value "0.2.0"];
   fhir:CodeSystem.name [ fhir:value "NoKodeverk8327"];
   fhir:CodeSystem.title [ fhir:value "8327 Offisiell personidentifikasjon"];
-  fhir:CodeSystem.status [ fhir:value "draft"];
-  fhir:CodeSystem.date [ fhir:value "2022-02-03T09:16:30+00:00"^^xsd:dateTime];
+  fhir:CodeSystem.status [ fhir:value "active"];
+  fhir:CodeSystem.date [ fhir:value "2022-02-04T15:35:42+00:00"^^xsd:dateTime];
   fhir:CodeSystem.publisher [ fhir:value "Direktoratet for e-helse"];
-  fhir:CodeSystem.description [ fhir:value "Dette kodeverket inneholder koder som benyttes for å identifisere ulike typer identifikatorer for personer."];
+  fhir:CodeSystem.description [ fhir:value "Angir type identifikator for person"];
   fhir:CodeSystem.jurisdiction [
      fhir:index 0;
      fhir:CodeableConcept.coding [
@@ -51,7 +51,7 @@
   ], [
      fhir:index 3;
      fhir:CodeSystem.concept.code [ fhir:value "HNR" ];
-     fhir:CodeSystem.concept.display [ fhir:value "H-nummer" ]
+     fhir:CodeSystem.concept.display [ fhir:value "Virksomhetsinternt hjelpenummer" ]
   ] .
 
 # - ontology header ------------------------------------------------------------

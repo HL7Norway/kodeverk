@@ -9,7 +9,7 @@
   "version": "0.2.0",
   "name": "NoKodeverk",
   "status": "draft",
-  "date": "2022-02-03T09:16:30+00:00",
+  "date": "2022-02-04T15:35:42+00:00",
   "jurisdiction": [
     {
       "coding": [
@@ -299,9 +299,9 @@
           }
         ],
         "reference": {
-          "reference": "CodeSystem/no-kodeverk-7010.codesystem"
+          "reference": "CodeSystem/no-kodeverk-7010-norpat.codesystem"
         },
-        "name": "7010 Norsk patologikodeverk",
+        "name": "Norsk patologikodeverk (NORPAT)",
         "description": "Norsk patologikodeverk er et kodeverk som benyttes ved norske patologiavdelinger. Kodeverket ble utarbeidet av Den norske patologforenings kode- og nomenklaturutvalg i samarbeid med KITH på grunnlag av The Systematized Nomenclature of Medicine (SNOMED, 1984). Endret navn fra Den norske SNOMED til Norsk patologikodeverk 3. november 2015.",
         "exampleBoolean": false
       },
@@ -313,9 +313,9 @@
           }
         ],
         "reference": {
-          "reference": "CodeSystem/no-kodeverk-7270.codesystem"
+          "reference": "CodeSystem/no-kodeverk-7270-ncrp.codesystem"
         },
-        "name": "7270 NCRP",
+        "name": "NCRP",
         "description": "Kodeverk for radiologi og nukleærmedisin. Kodeverket skal brukes for å dokumentere og skal kunne brukes for å bestille radiologiske tjenester. Det skal benyttes for både polikliniske og innlagte pasienter. Fra 1. januar 2012 har det vært obligatorisk å bruke dette kodeverket for å rapportere poliklinisk radiologisk aktivitet både for offentlige og private virksomheter.",
         "exampleBoolean": false
       },
@@ -327,9 +327,9 @@
           }
         ],
         "reference": {
-          "reference": "CodeSystem/no-kodeverk-7280.codesystem"
+          "reference": "CodeSystem/no-kodeverk-7280-nlk.codesystem"
         },
-        "name": "7280 Norsk laboratoriekodeverk",
+        "name": "Norsk laboratoriekodeverk",
         "description": "Norsk laboratoriekodverk er et felles kodeverk for laboratorieanalyser utarbeidet i samarbeid med de laboratoriefaglige miljøene fordelt på 6 spesialiteter: Immunologi og transfusjonsmedisin, Klinisk farmakologi, Medisinsk biokjemi, Medisinsk genetikk, Medisinsk mikrobiologi og Patologi.",
         "exampleBoolean": false
       },
@@ -344,7 +344,7 @@
           "reference": "CodeSystem/no-kodeverk-7305.codesystem"
         },
         "name": "7305 Moderator",
-        "description": "Kodeverket benyttes i epikrisemeldingen",
+        "description": "Tilleggsopplysning til diagnose.",
         "exampleBoolean": false
       },
       {
@@ -358,7 +358,7 @@
           "reference": "CodeSystem/no-kodeverk-8116.codesystem"
         },
         "name": "8116 ID-type for personer",
-        "description": "Dette kodeverket inneholder koder som benyttes for å identifisere ulike typer identifikatorer for personer.",
+        "description": "Angir type identifikator for personer.",
         "exampleBoolean": false
       },
       {
@@ -372,7 +372,7 @@
           "reference": "CodeSystem/no-kodeverk-8202.codesystem"
         },
         "name": "8202 Type laboratoriemelding",
-        "description": "Dette kodeverket beskriver de ulike typene laboratoriemeldinger.",
+        "description": "Fagområde innen laboratoriemedisin og bildediagnstikk. Benyttes for å angi type svarrapport",
         "exampleBoolean": false
       },
       {
@@ -508,7 +508,7 @@
           "reference": "CodeSystem/no-kodeverk-8268.codesystem"
         },
         "name": "8268 Type identifikator",
-        "description": "Dette kodeverket inneholder koder som benyttes for å identifisere ulike typer identifikatorer for personer og organisasjoner.",
+        "description": "Angir type identifikator for person og virksomhet.",
         "exampleBoolean": false
       },
       {
@@ -588,7 +588,7 @@
           "reference": "CodeSystem/no-kodeverk-8327.codesystem"
         },
         "name": "8327 Offisiell personidentifikasjon",
-        "description": "Dette kodeverket inneholder koder som benyttes for å identifisere ulike typer identifikatorer for personer.",
+        "description": "Angir type identifikator for person",
         "exampleBoolean": false
       },
       {

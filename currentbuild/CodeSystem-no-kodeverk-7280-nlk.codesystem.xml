@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <CodeSystem xmlns="http://hl7.org/fhir">
-  <id value="no-kodeverk-7280.codesystem"/>
+  <id value="no-kodeverk-7280-nlk.codesystem"/>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This code system http://ehelse.no/fhir/CodeSystem/no-kodeverk-7280 defines many codes, but they are not represented here</p></div>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This code system http://ehelse.no/fhir/CodeSystem/no-kodeverk-7280-nlk defines many codes, but they are not represented here</p></div>
   </text>
-  <url value="http://ehelse.no/fhir/CodeSystem/no-kodeverk-7280"/>
+  <url value="http://ehelse.no/fhir/CodeSystem/no-kodeverk-7280-nlk"/>
   <identifier>
     <system value="urn:ietf:rfc:3986"/>
     <value value="urn:oid:2.16.578.1.12.4.1.1.7280"/>
   </identifier>
   <version value="0.2.0"/>
-  <name value="NoKodeverk7280"/>
-  <title value="7280 Norsk laboratoriekodeverk"/>
-  <status value="draft"/>
-  <date value="2022-02-03T09:16:30+00:00"/>
+  <name value="NoKodeverk7280NLK"/>
+  <title value="Norsk laboratoriekodeverk"/>
+  <status value="active"/>
+  <date value="2022-02-04T15:35:42+00:00"/>
   <publisher value="Direktoratet for e-helse"/>
   <description value="Norsk laboratoriekodverk er et felles kodeverk for laboratorieanalyser utarbeidet i samarbeid med de laboratoriefaglige miljøene fordelt på 6 spesialiteter: Immunologi og transfusjonsmedisin, Klinisk farmakologi, Medisinsk biokjemi, Medisinsk genetikk, Medisinsk mikrobiologi og Patologi."/>
   <jurisdiction>

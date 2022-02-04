@@ -13,10 +13,10 @@
   <version value="0.2.0"/>
   <name value="NoKodeverk7305"/>
   <title value="7305 Moderator"/>
-  <status value="draft"/>
-  <date value="2022-02-03T09:16:30+00:00"/>
+  <status value="active"/>
+  <date value="2022-02-04T15:35:42+00:00"/>
   <publisher value="Direktoratet for e-helse"/>
-  <description value="Kodeverket benyttes i epikrisemeldingen"/>
+  <description value="Tilleggsopplysning til diagnose."/>
   <jurisdiction>
     <coding>
       <system value="urn:iso:std:iso:3166"/>

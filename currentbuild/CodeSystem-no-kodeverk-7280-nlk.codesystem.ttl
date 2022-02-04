@@ -5,24 +5,24 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://hl7.no/fhir/CodeSystem/no-kodeverk-7280.codesystem> a fhir:CodeSystem;
+<http://hl7.no/fhir/CodeSystem/no-kodeverk-7280-nlk.codesystem> a fhir:CodeSystem;
   fhir:nodeRole fhir:treeRoot;
-  fhir:Resource.id [ fhir:value "no-kodeverk-7280.codesystem"];
+  fhir:Resource.id [ fhir:value "no-kodeverk-7280-nlk.codesystem"];
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system http://ehelse.no/fhir/CodeSystem/no-kodeverk-7280 defines many codes, but they are not represented here</p></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system http://ehelse.no/fhir/CodeSystem/no-kodeverk-7280-nlk defines many codes, but they are not represented here</p></div>"
   ];
-  fhir:CodeSystem.url [ fhir:value "http://ehelse.no/fhir/CodeSystem/no-kodeverk-7280"];
+  fhir:CodeSystem.url [ fhir:value "http://ehelse.no/fhir/CodeSystem/no-kodeverk-7280-nlk"];
   fhir:CodeSystem.identifier [
      fhir:index 0;
      fhir:Identifier.system [ fhir:value "urn:ietf:rfc:3986" ];
      fhir:Identifier.value [ fhir:value "urn:oid:2.16.578.1.12.4.1.1.7280" ]
   ];
   fhir:CodeSystem.version [ fhir:value "0.2.0"];
-  fhir:CodeSystem.name [ fhir:value "NoKodeverk7280"];
-  fhir:CodeSystem.title [ fhir:value "7280 Norsk laboratoriekodeverk"];
-  fhir:CodeSystem.status [ fhir:value "draft"];
-  fhir:CodeSystem.date [ fhir:value "2022-02-03T09:16:30+00:00"^^xsd:dateTime];
+  fhir:CodeSystem.name [ fhir:value "NoKodeverk7280NLK"];
+  fhir:CodeSystem.title [ fhir:value "Norsk laboratoriekodeverk"];
+  fhir:CodeSystem.status [ fhir:value "active"];
+  fhir:CodeSystem.date [ fhir:value "2022-02-04T15:35:42+00:00"^^xsd:dateTime];
   fhir:CodeSystem.publisher [ fhir:value "Direktoratet for e-helse"];
   fhir:CodeSystem.description [ fhir:value "Norsk laboratoriekodverk er et felles kodeverk for laboratorieanalyser utarbeidet i samarbeid med de laboratoriefaglige miljøene fordelt på 6 spesialiteter: Immunologi og transfusjonsmedisin, Klinisk farmakologi, Medisinsk biokjemi, Medisinsk genetikk, Medisinsk mikrobiologi og Patologi."];
   fhir:CodeSystem.jurisdiction [
@@ -38,7 +38,7 @@
 
 # - ontology header ------------------------------------------------------------
 
-<http://hl7.no/fhir/CodeSystem/no-kodeverk-7280.codesystem.ttl> a owl:Ontology;
+<http://hl7.no/fhir/CodeSystem/no-kodeverk-7280-nlk.codesystem.ttl> a owl:Ontology;
   owl:imports fhir:fhir.ttl .
 
 # -------------------------------------------------------------------------------------

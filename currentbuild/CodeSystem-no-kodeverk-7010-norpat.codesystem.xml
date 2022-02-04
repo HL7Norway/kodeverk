@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <CodeSystem xmlns="http://hl7.org/fhir">
-  <id value="no-kodeverk-7010.codesystem"/>
+  <id value="no-kodeverk-7010-norpat.codesystem"/>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This code system http://ehelse.no/fhir/CodeSystem/no-kodeverk-7010 defines many codes, but they are not represented here</p></div>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This code system http://ehelse.no/fhir/CodeSystem/no-kodeverk-7010-norpat defines many codes, but they are not represented here</p></div>
   </text>
-  <url value="http://ehelse.no/fhir/CodeSystem/no-kodeverk-7010"/>
+  <url value="http://ehelse.no/fhir/CodeSystem/no-kodeverk-7010-norpat"/>
   <identifier>
     <system value="urn:ietf:rfc:3986"/>
     <value value="urn:oid:2.16.578.1.12.4.1.1.7010"/>
   </identifier>
   <version value="0.2.0"/>
-  <name value="NoKodeverk7010"/>
-  <title value="7010 Norsk patologikodeverk"/>
-  <status value="draft"/>
-  <date value="2022-02-03T09:16:30+00:00"/>
+  <name value="NoKodeverk7010NORPAT"/>
+  <title value="Norsk patologikodeverk (NORPAT)"/>
+  <status value="active"/>
+  <date value="2022-02-04T15:35:42+00:00"/>
   <publisher value="Den norske patologiforening"/>
   <description value="Norsk patologikodeverk er et kodeverk som benyttes ved norske patologiavdelinger. Kodeverket ble utarbeidet av Den norske patologforenings kode- og nomenklaturutvalg i samarbeid med KITH på grunnlag av The Systematized Nomenclature of Medicine (SNOMED, 1984). Endret navn fra Den norske SNOMED til Norsk patologikodeverk 3. november 2015."/>
   <jurisdiction>

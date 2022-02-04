@@ -13,8 +13,8 @@
   <version value="0.2.0"/>
   <name value="NoKodeverk8245"/>
   <title value="8245 Status for resultat i svarrapportering av medisinske tjenester"/>
-  <status value="draft"/>
-  <date value="2022-02-03T09:16:30+00:00"/>
+  <status value="active"/>
+  <date value="2022-02-04T15:35:42+00:00"/>
   <publisher value="Direktoratet for e-helse"/>
   <description value="Benyttes for å angi status/steg i arbeidsflyt for en enkelt lab- /røntgenundersøkelse."/>
   <jurisdiction>

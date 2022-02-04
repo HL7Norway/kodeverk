@@ -5,24 +5,24 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://hl7.no/fhir/CodeSystem/no-kodeverk-7010.codesystem> a fhir:CodeSystem;
+<http://hl7.no/fhir/CodeSystem/no-kodeverk-7010-norpat.codesystem> a fhir:CodeSystem;
   fhir:nodeRole fhir:treeRoot;
-  fhir:Resource.id [ fhir:value "no-kodeverk-7010.codesystem"];
+  fhir:Resource.id [ fhir:value "no-kodeverk-7010-norpat.codesystem"];
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system http://ehelse.no/fhir/CodeSystem/no-kodeverk-7010 defines many codes, but they are not represented here</p></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system http://ehelse.no/fhir/CodeSystem/no-kodeverk-7010-norpat defines many codes, but they are not represented here</p></div>"
   ];
-  fhir:CodeSystem.url [ fhir:value "http://ehelse.no/fhir/CodeSystem/no-kodeverk-7010"];
+  fhir:CodeSystem.url [ fhir:value "http://ehelse.no/fhir/CodeSystem/no-kodeverk-7010-norpat"];
   fhir:CodeSystem.identifier [
      fhir:index 0;
      fhir:Identifier.system [ fhir:value "urn:ietf:rfc:3986" ];
      fhir:Identifier.value [ fhir:value "urn:oid:2.16.578.1.12.4.1.1.7010" ]
   ];
   fhir:CodeSystem.version [ fhir:value "0.2.0"];
-  fhir:CodeSystem.name [ fhir:value "NoKodeverk7010"];
-  fhir:CodeSystem.title [ fhir:value "7010 Norsk patologikodeverk"];
-  fhir:CodeSystem.status [ fhir:value "draft"];
-  fhir:CodeSystem.date [ fhir:value "2022-02-03T09:16:30+00:00"^^xsd:dateTime];
+  fhir:CodeSystem.name [ fhir:value "NoKodeverk7010NORPAT"];
+  fhir:CodeSystem.title [ fhir:value "Norsk patologikodeverk (NORPAT)"];
+  fhir:CodeSystem.status [ fhir:value "active"];
+  fhir:CodeSystem.date [ fhir:value "2022-02-04T15:35:42+00:00"^^xsd:dateTime];
   fhir:CodeSystem.publisher [ fhir:value "Den norske patologiforening"];
   fhir:CodeSystem.description [ fhir:value "Norsk patologikodeverk er et kodeverk som benyttes ved norske patologiavdelinger. Kodeverket ble utarbeidet av Den norske patologforenings kode- og nomenklaturutvalg i samarbeid med KITH på grunnlag av The Systematized Nomenclature of Medicine (SNOMED, 1984). Endret navn fra Den norske SNOMED til Norsk patologikodeverk 3. november 2015."];
   fhir:CodeSystem.jurisdiction [
@@ -38,7 +38,7 @@
 
 # - ontology header ------------------------------------------------------------
 
-<http://hl7.no/fhir/CodeSystem/no-kodeverk-7010.codesystem.ttl> a owl:Ontology;
+<http://hl7.no/fhir/CodeSystem/no-kodeverk-7010-norpat.codesystem.ttl> a owl:Ontology;
   owl:imports fhir:fhir.ttl .
 
 # -------------------------------------------------------------------------------------
