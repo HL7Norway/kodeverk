@@ -18,11 +18,11 @@
      fhir:Identifier.system [ fhir:value "urn:ietf:rfc:3986" ];
      fhir:Identifier.value [ fhir:value "urn:oid:2.16.578.1.12.4.1.1.7270" ]
   ];
-  fhir:CodeSystem.version [ fhir:value "0.2.0"];
+  fhir:CodeSystem.version [ fhir:value "0.3.0"];
   fhir:CodeSystem.name [ fhir:value "NoKodeverk7270NCRP"];
   fhir:CodeSystem.title [ fhir:value "NCRP"];
   fhir:CodeSystem.status [ fhir:value "active"];
-  fhir:CodeSystem.date [ fhir:value "2022-02-04T15:35:42+00:00"^^xsd:dateTime];
+  fhir:CodeSystem.date [ fhir:value "2022-02-04T16:01:40+00:00"^^xsd:dateTime];
   fhir:CodeSystem.publisher [ fhir:value "Helsedirektoratet"];
   fhir:CodeSystem.description [ fhir:value "Kodeverk for radiologi og nukleærmedisin. Kodeverket skal brukes for å dokumentere og skal kunne brukes for å bestille radiologiske tjenester. Det skal benyttes for både polikliniske og innlagte pasienter. Fra 1. januar 2012 har det vært obligatorisk å bruke dette kodeverket for å rapportere poliklinisk radiologisk aktivitet både for offentlige og private virksomheter."];
   fhir:CodeSystem.jurisdiction [
