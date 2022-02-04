@@ -5,7 +5,7 @@ Title: "8271 Resistens"
 * ^url = "http://ehelse.no/fhir/CodeSystem/no-kodeverk-8271"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:2.16.578.1.12.4.1.1.8271"
-* ^status = #draft // Gjøres om fra draft til active etter QA
+* ^status = #active
 * ^publisher = "Helsedirektoratet"
 * ^content = #complete
 * #S "Sensitiv, standarddose"

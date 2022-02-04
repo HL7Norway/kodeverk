@@ -5,7 +5,7 @@ Description: "Kodeverket inneholder koder som benyttes for å kategorisere helse
 * ^url = "http://ehelse.no/fhir/CodeSystem/no-kodeverk-9060"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:2.16.578.1.12.4.1.1.9060"
-* ^status = #draft // Gjøres om fra draft til active etter QA
+* ^status = #active
 * ^publisher = "Helsedirektoratet"
 * ^content = #complete
 * #AA "Ambulansearbeider"
