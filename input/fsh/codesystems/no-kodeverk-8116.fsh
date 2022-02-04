@@ -1,7 +1,7 @@
 CodeSystem: NoKodeverk8116
 Id: no-kodeverk-8116.codesystem
 Title: "8116 ID-type for personer"
-Description: "Dette kodeverket inneholder koder som benyttes for å identifisere ulike typer identifikatorer for personer."
+Description: "Angir type identifikator for personer."
 * ^url = "http://ehelse.no/fhir/CodeSystem/no-kodeverk-8116"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:2.16.578.1.12.4.1.1.8116"
