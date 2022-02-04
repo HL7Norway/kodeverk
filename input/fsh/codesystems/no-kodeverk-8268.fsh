@@ -1,7 +1,7 @@
 CodeSystem: NoKodeverk8268
 Id: no-kodeverk-8268.codesystem
 Title: "8268 Type identifikator"
-Description: "Dette kodeverket inneholder koder som benyttes for å identifisere ulike typer identifikatorer for personer og organisasjoner."
+Description: "Angir type identifikator for person og virksomhet."
 * ^url = "http://ehelse.no/fhir/CodeSystem/no-kodeverk-8268"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:2.16.578.1.12.4.1.1.8268"
@@ -10,7 +10,7 @@ Description: "Dette kodeverket inneholder koder som benyttes for å identifisere
 * ^content = #complete
 * #ENH "Organisasjonsnummeret i Enhetsregister" "Brønnøysund"
 * #RSH "Nasjonalt register over enheter i spesialisthelsetjenesten (RESH-ID)" "Innføres fra og med 2007 for spesialisthelsetjenesten"
-* #HER "HER-id" "Rollebasert id i Adresseregisteret"
+* #HER "HER-id" "Identifikator som unikt identifiserer en  kommunikasjonspart i Adresseregisteret"
 * #NPR "NPR avdelingsnummer"
 * #SYS "SYSVAK institusjonsnummer"
 * #AVD "Off. identifikator for avdelinger"	
@@ -24,12 +24,12 @@ Description: "Dette kodeverket inneholder koder som benyttes for å identifisere
 * #FHN "Felles hjelpenummer (FH-nummer)"
 * #FNR "Norsk fødselsnummer"
 * #DNR "D-nummer" "Personer i kontakt med norske myndigheter uten norsk fødselsnummer"
-* #HNR "H-nummer" "Hjelpenummer"
+* #HNR "H-nummer" "Virksomhetsinternt hjelpenummer"
 * #PNR "Passnummer"
 * #SEF "Svensk personnummer"
 * #DKF "Dansk personnummer"	
 * #SSN "Sosial security number"
 * #EHK "Europeisk helsetrygdkortnummer"
 * #FPN "Forsikringspolise nummer"
-* #DUF "DUF-nummer" "Database for utlendingsdirektoratet"
+* #DUF "DUF-nummer" "Registreringsnummeret i UDIs datasystem"
 * #XXX "Annet"
