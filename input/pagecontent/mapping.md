@@ -17,7 +17,7 @@ Beskrivelse av mapping av små og administrative kodeverk fra [Volven.no](https:
 
 #### Noter
 
-1. Navneregel: `NoKodeverkXXX`, der XXXX er fire siste sifre i OID
+1. Navneregel: `NoKodeverkXXXX`, der XXXX er fire siste sifre i OID
 2. XXXX + Navn på kodeverk, der XXXX er fire siste sifre i OID<br />Eksempel `"1101 Ja, nei"`
 3. Navneregel: `no-kodeverk-XXXX.codesystem`, der XXXX er fire siste sifre i OID
 4. Anbefalt
@@ -27,6 +27,7 @@ Beskrivelse av mapping av små og administrative kodeverk fra [Volven.no](https:
 8. Frivillig. Se [issue #3](https://github.com/HL7Norway/kodeverk/issues/3)
 9.  Hvis CodeSystem ikke inneholder koder: *#not-present*, ellers *#complete* eller annen. [Se verdisett](https://www.hl7.org/fhir/valueset-codesystem-content-mode.html)
 
+Eksterne kodeverk som ikke har sine koder på Volven (som ICD-10, NLK etc.) kan ha et kortnavn på slutten av id/title/url/filnavn. Eksempel: `NoKodeverk7280NLK` + `no-kodeverk-7280-nlk`.
 
 ### Enkeltkoder
 
