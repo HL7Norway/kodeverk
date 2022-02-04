@@ -5,7 +5,7 @@ Description: "Angir type identifikator for person og virksomhet."
 * ^url = "http://ehelse.no/fhir/CodeSystem/no-kodeverk-8268"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:2.16.578.1.12.4.1.1.8268"
-* ^status = #draft // Gjøres om fra draft til active etter QA
+* ^status = #active
 * ^publisher = "Direktoratet for e-helse"
 * ^content = #complete
 * #ENH "Organisasjonsnummeret i Enhetsregister" "Brønnøysund"
