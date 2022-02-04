@@ -10,7 +10,7 @@ Usage: #definition
 * description = "Identifikator for kommunikasjonsparter i Helsenettet.."
 * jurisdiction = urn:iso:std:iso:3166#NO "Norway"
 * uniqueId[0].type = #uri
-* uniqueId[=].value = "http://hl7.no/fhir/NamingSystem/no-basis-her-id"
+* uniqueId[=].value = "http://hl7.no/fhir/NamingSystem/HERid"
 * uniqueId[=].preferred = false
 * uniqueId[+].type = #oid
 * uniqueId[=].value = "2.16.578.1.12.4.1.2"
