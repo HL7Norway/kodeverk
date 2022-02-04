@@ -5,7 +5,7 @@ Title: "8232 Forbehandling"
 * ^url = "http://ehelse.no/fhir/CodeSystem/no-kodeverk-8232"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:2.16.578.1.12.4.1.1.8232"
-* ^status = #draft // Gjøres om fra draft til active etter QA
+* ^status = #active
 * ^publisher = "Direktoratet for e-helse"
 * ^content = #complete
 * #PFP "Profylaktisk prosedyre"
