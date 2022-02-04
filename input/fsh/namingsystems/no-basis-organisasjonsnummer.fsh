@@ -15,7 +15,7 @@ Usage: #definition
 * uniqueId[0].type = #uri
 // ID for begrep, ikke nødvendigvis riktig namespace
 * uniqueId[=].value = "http://data.brreg.no/begrep/28155"
-* uniqueId[=].preferred = true
+* uniqueId[=].preferred = false
 * uniqueId[+].type = #oid
 * uniqueId[=].value = "2.16.578.1.12.4.1.4.101"
-* uniqueId[=].preferred = false
+* uniqueId[=].preferred = true
