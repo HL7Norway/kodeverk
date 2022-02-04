@@ -1,4 +1,5 @@
 // "orgnr" er forkortelsen Brreg selv benytter
+// Går ut fra at Brreg og DigDir er samkjørt. 
 Instance: no-basis-orgnr
 InstanceOf: NamingSystem
 Usage: #definition
