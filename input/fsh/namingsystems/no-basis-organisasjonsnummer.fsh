@@ -1,5 +1,3 @@
-// "orgnr" er forkortelsen Brreg selv benytter
-// Går ut fra at Brreg og DigDir er samkjørt. 
 Instance: no-basis-orgnr
 InstanceOf: NamingSystem
 Usage: #definition
@@ -13,7 +11,6 @@ Usage: #definition
 * jurisdiction = urn:iso:std:iso:3166#NO "Norway"
 * usage = "Er bygd opp i henhold til modulus 11. Organisasjonsnummeret inneholder ingen informasjon om enhetens organisasjonsform, eierforhold, adresser og lignende."
 * uniqueId[0].type = #uri
-// ID for begrep, ikke nødvendigvis riktig namespace
 * uniqueId[=].value = "http://data.brreg.no/begrep/28155"
 * uniqueId[=].preferred = false
 * uniqueId[+].type = #oid
