@@ -4,15 +4,15 @@ Denne siden blir brukt som en arbeidsliste og vil flyttes ut av IG når den har 
 
 | Kode | OID/ID | Kommentar/lenke | Navn |
 |------|--------|-----------------|------|
-| HER | urn:oid:2.16.578.1.12.4.1.2 | [Utkast FSH](https://github.com/HL7Norway/kodeverk/blob/main/input/fsh/namingsystems/no-basis-her.fsh) | HER-id |
+| HER | urn:oid:2.16.578.1.12.4.1.2 | [FSH](https://github.com/HL7Norway/kodeverk/blob/main/input/fsh/namingsystems/no-basis-her.fsh) | HER-id |
 | FNR | urn:oid:2.16.578.1.12.4.1.4.1 | [no-basis](https://github.com/HL7Norway/basisprofiler-r4/blob/master/NamingSystem/no-basis-fodselsnummer.namingsystem.xml) | Fødselsnummer |
 | DNR | urn:oid:2.16.578.1.12.4.1.4.2 | [no-basis](https://github.com/HL7Norway/basisprofiler-r4/blob/master/NamingSystem/no-basis-dnummer.namingsystem.xml) | D-nummer |
 | FHN | urn:oid:2.16.578.1.12.4.1.4.3 | [no-basis](https://github.com/HL7Norway/basisprofiler-r4/blob/master/NamingSystem/no-basis-felleshjelpenummer.namingsystem.xml) | Felles hjelpenummer |
 | HPR | urn:oid:2.16.578.1.12.4.1.4.4 | [no-basis](https://github.com/HL7Norway/basisprofiler-r4/blob/master/NamingSystem/no-basis-helsepersonellnummer.namingsystem.xml) | Helsepersonellnummer fra Helsepersonellregisteret (HPR) |
 | DUF | urn:oid:2.16.578.1.12.4.1.4.5 | [no-basis](https://github.com/HL7Norway/basisprofiler-r4/blob/master/NamingSystem/no-basis-dufnummer.namingsystem.xml) | DUF-nummer |
-| ENH | urn:oid:2.16.578.1.12.4.1.4.101 | [Utkast FSH](https://github.com/HL7Norway/kodeverk/blob/main/input/fsh/namingsystems/no-basis-organisasjonsnummer.fsh) | Organisasjonsnummer |
-| RSH | urn:oid:2.16.578.1.12.4.1.4.102 | [Utkast FSH](https://github.com/HL7Norway/kodeverk/blob/main/input/fsh/namingsystems/no-basis-resh-id.fsh) | RESH-id |
-| AKO | urn:oid:2.16.578.1.12.4.1.4.107 | [Utkast FSH](https://github.com/HL7Norway/kodeverk/blob/main/input/fsh/namingsystems/no-basis-apotekenes-konsesjonsnr.fsh) | Apotekenes konsesjonsnummer |
+| ENH | urn:oid:2.16.578.1.12.4.1.4.101 | [FSH](https://github.com/HL7Norway/kodeverk/blob/main/input/fsh/namingsystems/no-basis-organisasjonsnummer.fsh) | Organisasjonsnummer |
+| RSH | urn:oid:2.16.578.1.12.4.1.4.102 | [FSH](https://github.com/HL7Norway/kodeverk/blob/main/input/fsh/namingsystems/no-basis-resh-id.fsh) | RESH-id |
+| AKO | urn:oid:2.16.578.1.12.4.1.4.107 | [FSH](https://github.com/HL7Norway/kodeverk/blob/main/input/fsh/namingsystems/no-basis-apotekenes-konsesjonsnr.fsh) | Apotekenes konsesjonsnummer |
 | 7010 | urn:oid:2.16.578.1.12.4.1.1.7010 | [FSH](https://github.com/HL7Norway/kodeverk/blob/main/input/fsh/codesystems/no-kodeverk-7010.fsh) | Norsk patologikodeverk |
 | 7270 | urn:oid:2.16.578.1.12.4.1.1.7270 | [FSH](https://github.com/HL7Norway/kodeverk/blob/main/input/fsh/codesystems/no-kodeverk-7270.fsh) | NCRP |
 | 7280 | urn:oid:2.16.578.1.12.4.1.1.7280 | [FSH](https://github.com/HL7Norway/kodeverk/blob/main/input/fsh/codesystems/no-kodeverk-7280.fsh) | Norsk laboratoriekodeverk |
