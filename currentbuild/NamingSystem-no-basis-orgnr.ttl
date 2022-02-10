@@ -5,12 +5,12 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://hl7.no/fhir/NamingSystem/no-basis-organisasjonsnummer> a fhir:NamingSystem;
+<http://hl7.no/fhir/NamingSystem/no-basis-orgnr> a fhir:NamingSystem;
   fhir:nodeRole fhir:treeRoot;
-  fhir:Resource.id [ fhir:value "no-basis-organisasjonsnummer"];
+  fhir:Resource.id [ fhir:value "no-basis-orgnr"];
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h3>Summary</h3><table class=\"grid\"><tr><td>Defining URL</td><td>http://hl7.no/fhir/NamingSystem/no-basis-organisasjonsnummer</td></tr><tr><td>Version</td><td>0.3.0</td></tr><tr><td>Name</td><td>Organisasjonsnummer</td></tr><tr><td>Status</td><td>draft</td></tr><tr><td>Definition</td><td><div><p>Organisasjonsnummer fra Enhetsregisteret og Foretaksregisteret</p>\n</div></td></tr><tr><td>Publisher</td><td>Direktoratet for e-helse</td></tr></table><h3>Identifiers</h3><table class=\"grid\"><tr><td><b>Type</b></td><td><b>Value</b></td><td><b>Preferred</b></td></tr><tr><td>URI</td><td>http://brreg.no/TODO</td><td>false</td></tr><tr><td>OID</td><td>2.16.578.1.12.4.1.4.101</td><td>true</td></tr></table></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h3>Summary</h3><table class=\"grid\"><tr><td>Defining URL</td><td>http://hl7.no/fhir/NamingSystem/no-basis-orgnr</td></tr><tr><td>Version</td><td>0.4.0</td></tr><tr><td>Name</td><td>Organisasjonsnummer</td></tr><tr><td>Status</td><td>draft</td></tr><tr><td>Definition</td><td><div><p>Nisifret, informasjonsløst nummer som entydig identifiserer virksomheter i Enhetsregisteret</p>\n</div></td></tr><tr><td>Publisher</td><td>Direktoratet for e-helse</td></tr></table><h3>Identifiers</h3><table class=\"grid\"><tr><td><b>Type</b></td><td><b>Value</b></td><td><b>Preferred</b></td></tr><tr><td>URI</td><td>http://data.brreg.no/begrep/28155</td><td>false</td></tr><tr><td>OID</td><td>2.16.578.1.12.4.1.4.101</td><td>true</td></tr></table></div>"
   ];
   fhir:NamingSystem.name [ fhir:value "Organisasjonsnummer"];
   fhir:NamingSystem.status [ fhir:value "draft"];
@@ -18,7 +18,7 @@
   fhir:NamingSystem.date [ fhir:value "2022-02-03"^^xsd:date];
   fhir:NamingSystem.publisher [ fhir:value "Direktoratet for e-helse"];
   fhir:NamingSystem.responsible [ fhir:value "Brønnøysundregistrene"];
-  fhir:NamingSystem.description [ fhir:value "Organisasjonsnummer fra Enhetsregisteret og Foretaksregisteret"];
+  fhir:NamingSystem.description [ fhir:value "Nisifret, informasjonsløst nummer som entydig identifiserer virksomheter i Enhetsregisteret"];
   fhir:NamingSystem.jurisdiction [
      fhir:index 0;
      fhir:CodeableConcept.coding [
@@ -28,10 +28,11 @@
        fhir:Coding.display [ fhir:value "Norway" ]
      ]
   ];
+  fhir:NamingSystem.usage [ fhir:value "Er bygd opp i henhold til modulus 11. Organisasjonsnummeret inneholder ingen informasjon om enhetens organisasjonsform, eierforhold, adresser og lignende."];
   fhir:NamingSystem.uniqueId [
      fhir:index 0;
      fhir:NamingSystem.uniqueId.type [ fhir:value "uri" ];
-     fhir:NamingSystem.uniqueId.value [ fhir:value "http://brreg.no/TODO" ];
+     fhir:NamingSystem.uniqueId.value [ fhir:value "http://data.brreg.no/begrep/28155" ];
      fhir:NamingSystem.uniqueId.preferred [ fhir:value "false"^^xsd:boolean ]
   ], [
      fhir:index 1;
@@ -42,7 +43,7 @@
 
 # - ontology header ------------------------------------------------------------
 
-<http://hl7.no/fhir/NamingSystem/no-basis-organisasjonsnummer.ttl> a owl:Ontology;
+<http://hl7.no/fhir/NamingSystem/no-basis-orgnr.ttl> a owl:Ontology;
   owl:imports fhir:fhir.ttl .
 
 # -------------------------------------------------------------------------------------

@@ -12,11 +12,11 @@
       "value": "urn:oid:2.16.578.1.12.4.1.1.8268"
     }
   ],
-  "version": "0.3.0",
+  "version": "0.4.0",
   "name": "NoKodeverk8268",
   "title": "8268 Type identifikator",
   "status": "active",
-  "date": "2022-02-04T16:01:40+00:00",
+  "date": "2022-02-10T08:30:59+00:00",
   "publisher": "Direktoratet for e-helse",
   "description": "Angir type identifikator for person og virksomhet.",
   "jurisdiction": [

@@ -18,11 +18,11 @@
      fhir:Identifier.system [ fhir:value "urn:ietf:rfc:3986" ];
      fhir:Identifier.value [ fhir:value "urn:oid:2.16.578.1.12.4.1.1.9060" ]
   ];
-  fhir:CodeSystem.version [ fhir:value "0.3.0"];
+  fhir:CodeSystem.version [ fhir:value "0.4.0"];
   fhir:CodeSystem.name [ fhir:value "NoKodeverk9060"];
   fhir:CodeSystem.title [ fhir:value "9060 Kategori helsepersonell"];
   fhir:CodeSystem.status [ fhir:value "active"];
-  fhir:CodeSystem.date [ fhir:value "2022-02-04T16:01:40+00:00"^^xsd:dateTime];
+  fhir:CodeSystem.date [ fhir:value "2022-02-10T08:30:59+00:00"^^xsd:dateTime];
   fhir:CodeSystem.publisher [ fhir:value "Helsedirektoratet"];
   fhir:CodeSystem.description [ fhir:value "Kodeverket inneholder koder som benyttes for å kategorisere helsepersonell med autorisasjon etter Helsepersonelloven § 48, og dyrehelsepersonell med autorisasjon etter Dyrehelsepersonelloven § 4."];
   fhir:CodeSystem.jurisdiction [

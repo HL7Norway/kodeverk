@@ -3,7 +3,7 @@
 
 err = 1, warn = 9, info = 25
 IG Publisher Version: 1.1.99
-Generated Fri Feb 04 16:01:56 UTC 2022. FHIR version 4.0.1 for hl7.fhir.no.kodeverk#0.3.0 (canonical = http://hl7.no/fhir)
+Generated Thu Feb 10 08:31:13 UTC 2022. FHIR version 4.0.1 for hl7.fhir.no.kodeverk#0.4.0 (canonical = http://hl7.no/fhir)
  Build Errors : 157 / 8 / 0
  /github/workspace/fsh-generated/resources/CodeSystem-no-kodeverk-1101.codesystem : 0 / 0 / 2
  /github/workspace/fsh-generated/resources/CodeSystem-no-kodeverk-7010-norpat.codesystem : 0 / 0 / 2
@@ -34,7 +34,7 @@ Generated Fri Feb 04 16:01:56 UTC 2022. FHIR version 4.0.1 for hl7.fhir.no.kodev
  /github/workspace/fsh-generated/resources/ImplementationGuide-hl7.fhir.no.kodeverk : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/NamingSystem-no-basis-apotekenes-konsesjonsnr : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/NamingSystem-no-basis-her-id : 0 / 0 / 1
- /github/workspace/fsh-generated/resources/NamingSystem-no-basis-organisasjonsnummer : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/NamingSystem-no-basis-orgnr : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/NamingSystem-no-basis-resh-id : 0 / 0 / 1
 </table>
 == n/a ==
@@ -187,11 +187,11 @@ ERROR: /github/workspace/output/NamingSystem-no-basis-her-id.html#/html/body/div
 ERROR: /github/workspace/output/NamingSystem-no-basis-her-id.json.html#/html/body/div/div/div/p/a at Line 266, column 28: The link '' for "" cannot be resolved
 ERROR: /github/workspace/output/NamingSystem-no-basis-her-id.ttl.html#/html/body/div/div/div/p/a at Line 276, column 28: The link '' for "" cannot be resolved
 ERROR: /github/workspace/output/NamingSystem-no-basis-her-id.xml.html#/html/body/div/div/div/p/a at Line 261, column 28: The link '' for "" cannot be resolved
-ERROR: /github/workspace/output/NamingSystem-no-basis-organisasjonsnummer.change.history.html#/html/body/div/div/div/p/a at Line 241, column 28: The link '' for "" cannot be resolved
-ERROR: /github/workspace/output/NamingSystem-no-basis-organisasjonsnummer.html#/html/body/div/div/div/p/a at Line 229, column 28: The link '' for "" cannot be resolved
-ERROR: /github/workspace/output/NamingSystem-no-basis-organisasjonsnummer.json.html#/html/body/div/div/div/p/a at Line 266, column 28: The link '' for "" cannot be resolved
-ERROR: /github/workspace/output/NamingSystem-no-basis-organisasjonsnummer.ttl.html#/html/body/div/div/div/p/a at Line 276, column 28: The link '' for "" cannot be resolved
-ERROR: /github/workspace/output/NamingSystem-no-basis-organisasjonsnummer.xml.html#/html/body/div/div/div/p/a at Line 262, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/output/NamingSystem-no-basis-orgnr.change.history.html#/html/body/div/div/div/p/a at Line 241, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/output/NamingSystem-no-basis-orgnr.html#/html/body/div/div/div/p/a at Line 229, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/output/NamingSystem-no-basis-orgnr.json.html#/html/body/div/div/div/p/a at Line 267, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/output/NamingSystem-no-basis-orgnr.ttl.html#/html/body/div/div/div/p/a at Line 277, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/output/NamingSystem-no-basis-orgnr.xml.html#/html/body/div/div/div/p/a at Line 264, column 28: The link '' for "" cannot be resolved
 ERROR: /github/workspace/output/NamingSystem-no-basis-resh-id.change.history.html#/html/body/div/div/div/p/a at Line 241, column 28: The link '' for "" cannot be resolved
 ERROR: /github/workspace/output/NamingSystem-no-basis-resh-id.html#/html/body/div/div/div/p/a at Line 229, column 28: The link '' for "" cannot be resolved
 ERROR: /github/workspace/output/NamingSystem-no-basis-resh-id.json.html#/html/body/div/div/div/p/a at Line 266, column 28: The link '' for "" cannot be resolved
@@ -258,5 +258,5 @@ WARNING: CodeSystem/no-kodeverk-ICD-10.codesystem: CodeSystem: HL7 Defined CodeS
 == fsh-generated/resources/ImplementationGuide-hl7.fhir.no.kodeverk.json ==
 == fsh-generated/resources/NamingSystem-no-basis-apotekenes-konsesjonsnr.json ==
 == fsh-generated/resources/NamingSystem-no-basis-her-id.json ==
-== fsh-generated/resources/NamingSystem-no-basis-organisasjonsnummer.json ==
+== fsh-generated/resources/NamingSystem-no-basis-orgnr.json ==
 == fsh-generated/resources/NamingSystem-no-basis-resh-id.json ==

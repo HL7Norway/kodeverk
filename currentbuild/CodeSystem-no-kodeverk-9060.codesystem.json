@@ -12,11 +12,11 @@
       "value": "urn:oid:2.16.578.1.12.4.1.1.9060"
     }
   ],
-  "version": "0.3.0",
+  "version": "0.4.0",
   "name": "NoKodeverk9060",
   "title": "9060 Kategori helsepersonell",
   "status": "active",
-  "date": "2022-02-04T16:01:40+00:00",
+  "date": "2022-02-10T08:30:59+00:00",
   "publisher": "Helsedirektoratet",
   "description": "Kodeverket inneholder koder som benyttes for å kategorisere helsepersonell med autorisasjon etter Helsepersonelloven § 48, og dyrehelsepersonell med autorisasjon etter Dyrehelsepersonelloven § 4.",
   "jurisdiction": [

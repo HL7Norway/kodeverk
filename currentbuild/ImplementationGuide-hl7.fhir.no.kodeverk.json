@@ -6,10 +6,10 @@
     "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>NoKodeverk</h2><p>The official URL for this implementation guide is: </p><pre>http://hl7.no/fhir/ImplementationGuide/hl7.fhir.no.kodeverk</pre></div>"
   },
   "url": "http://hl7.no/fhir/ImplementationGuide/hl7.fhir.no.kodeverk",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "name": "NoKodeverk",
   "status": "draft",
-  "date": "2022-02-04T16:01:40+00:00",
+  "date": "2022-02-10T08:30:59+00:00",
   "jurisdiction": [
     {
       "coding": [
@@ -36,7 +36,7 @@
           },
           {
             "url": "value",
-            "valueString": "2021+"
+            "valueString": "2022+"
           }
         ],
         "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
@@ -669,10 +669,10 @@
           }
         ],
         "reference": {
-          "reference": "NamingSystem/no-basis-organisasjonsnummer"
+          "reference": "NamingSystem/no-basis-orgnr"
         },
-        "name": "no-basis-organisasjonsnummer",
-        "description": "Organisasjonsnummer fra Enhetsregisteret og Foretaksregisteret",
+        "name": "no-basis-orgnr",
+        "description": "Nisifret, informasjonsløst nummer som entydig identifiserer virksomheter i Enhetsregisteret",
         "exampleBoolean": false
       },
       {
