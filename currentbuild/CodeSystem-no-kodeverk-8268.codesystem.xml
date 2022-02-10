@@ -10,11 +10,11 @@
     <system value="urn:ietf:rfc:3986"/>
     <value value="urn:oid:2.16.578.1.12.4.1.1.8268"/>
   </identifier>
-  <version value="0.4.0"/>
+  <version value="0.4.1"/>
   <name value="NoKodeverk8268"/>
   <title value="8268 Type identifikator"/>
   <status value="active"/>
-  <date value="2022-02-10T08:30:59+00:00"/>
+  <date value="2022-02-10T08:53:39+00:00"/>
   <publisher value="Direktoratet for e-helse"/>
   <description value="Angir type identifikator for person og virksomhet."/>
   <jurisdiction>

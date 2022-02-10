@@ -10,11 +10,11 @@
     <system value="urn:ietf:rfc:3986"/>
     <value value="urn:oid:2.16.578.1.12.4.1.1.7280"/>
   </identifier>
-  <version value="0.4.0"/>
+  <version value="0.4.1"/>
   <name value="NoKodeverk7280NLK"/>
   <title value="Norsk laboratoriekodeverk"/>
   <status value="active"/>
-  <date value="2022-02-10T08:30:59+00:00"/>
+  <date value="2022-02-10T08:53:39+00:00"/>
   <publisher value="Direktoratet for e-helse"/>
   <description value="Norsk laboratoriekodverk er et felles kodeverk for laboratorieanalyser utarbeidet i samarbeid med de laboratoriefaglige miljøene fordelt på 6 spesialiteter: Immunologi og transfusjonsmedisin, Klinisk farmakologi, Medisinsk biokjemi, Medisinsk genetikk, Medisinsk mikrobiologi og Patologi."/>
   <jurisdiction>

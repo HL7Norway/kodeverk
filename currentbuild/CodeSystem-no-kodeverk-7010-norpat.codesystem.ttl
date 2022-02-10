@@ -18,11 +18,11 @@
      fhir:Identifier.system [ fhir:value "urn:ietf:rfc:3986" ];
      fhir:Identifier.value [ fhir:value "urn:oid:2.16.578.1.12.4.1.1.7010" ]
   ];
-  fhir:CodeSystem.version [ fhir:value "0.4.0"];
+  fhir:CodeSystem.version [ fhir:value "0.4.1"];
   fhir:CodeSystem.name [ fhir:value "NoKodeverk7010NORPAT"];
   fhir:CodeSystem.title [ fhir:value "Norsk patologikodeverk (NORPAT)"];
   fhir:CodeSystem.status [ fhir:value "active"];
-  fhir:CodeSystem.date [ fhir:value "2022-02-10T08:30:59+00:00"^^xsd:dateTime];
+  fhir:CodeSystem.date [ fhir:value "2022-02-10T08:53:39+00:00"^^xsd:dateTime];
   fhir:CodeSystem.publisher [ fhir:value "Den norske patologiforening"];
   fhir:CodeSystem.description [ fhir:value "Norsk patologikodeverk er et kodeverk som benyttes ved norske patologiavdelinger. Kodeverket ble utarbeidet av Den norske patologforenings kode- og nomenklaturutvalg i samarbeid med KITH på grunnlag av The Systematized Nomenclature of Medicine (SNOMED, 1984). Endret navn fra Den norske SNOMED til Norsk patologikodeverk 3. november 2015."];
   fhir:CodeSystem.jurisdiction [

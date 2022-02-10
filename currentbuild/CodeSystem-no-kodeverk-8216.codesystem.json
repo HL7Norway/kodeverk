@@ -12,11 +12,11 @@
       "value": "urn:oid:2.16.578.1.12.4.1.1.8216"
     }
   ],
-  "version": "0.4.0",
+  "version": "0.4.1",
   "name": "NoKodeverk8216",
   "title": "8216 Kodeverk for cytologisk materiale",
   "status": "active",
-  "date": "2022-02-10T08:30:59+00:00",
+  "date": "2022-02-10T08:53:39+00:00",
   "publisher": "Direktoratet for e-helse",
   "description": "Gynekologisk materiale eller annet cytologisk materiale som er tatt for cytologiske undersøkelser. Kodene dekker opp valgmuligheter fra standard rekvisisjonsskjema for cytologiske undersøkelser.",
   "jurisdiction": [

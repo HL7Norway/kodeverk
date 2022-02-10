@@ -18,11 +18,11 @@
      fhir:Identifier.system [ fhir:value "urn:ietf:rfc:3986" ];
      fhir:Identifier.value [ fhir:value "urn:oid:2.16.578.1.12.4.1.1.8232" ]
   ];
-  fhir:CodeSystem.version [ fhir:value "0.4.0"];
+  fhir:CodeSystem.version [ fhir:value "0.4.1"];
   fhir:CodeSystem.name [ fhir:value "NoKodeverk8232"];
   fhir:CodeSystem.title [ fhir:value "8232 Forbehandling"];
   fhir:CodeSystem.status [ fhir:value "active"];
-  fhir:CodeSystem.date [ fhir:value "2022-02-10T08:30:59+00:00"^^xsd:dateTime];
+  fhir:CodeSystem.date [ fhir:value "2022-02-10T08:53:39+00:00"^^xsd:dateTime];
   fhir:CodeSystem.publisher [ fhir:value "Direktoratet for e-helse"];
   fhir:CodeSystem.jurisdiction [
      fhir:index 0;

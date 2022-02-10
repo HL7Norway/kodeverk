@@ -6,10 +6,10 @@
     <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>NoKodeverk</h2><p>The official URL for this implementation guide is: </p><pre>http://hl7.no/fhir/ImplementationGuide/hl7.fhir.no.kodeverk</pre></div>
   </text>
   <url value="http://hl7.no/fhir/ImplementationGuide/hl7.fhir.no.kodeverk"/>
-  <version value="0.4.0"/>
+  <version value="0.4.1"/>
   <name value="NoKodeverk"/>
   <status value="draft"/>
-  <date value="2022-02-10T08:30:59+00:00"/>
+  <date value="2022-02-10T08:53:39+00:00"/>
   <jurisdiction>
     <coding>
       <system value="urn:iso:std:iso:3166"/>
