@@ -2,9 +2,9 @@ Instance: no-basis-resh-id
 InstanceOf: NamingSystem
 Usage: #definition
 * name = "RESHid"
-* status = #draft
+* status = #active
 * kind = #identifier
-* date = "2022-02-02"
+* date = "2022-02-10"
 * publisher = "Direktoratet for e-helse"
 * responsible = "Norsk helsenett"
 * description = "Identifikator for enheter i spesialisthelsetjenesten."

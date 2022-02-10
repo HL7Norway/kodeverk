@@ -2,9 +2,9 @@ Instance: no-basis-orgnr
 InstanceOf: NamingSystem
 Usage: #definition
 * name = "Organisasjonsnummer"
-* status = #draft
+* status = #active
 * kind = #identifier
-* date = "2022-02-03"
+* date = "2022-02-10"
 * publisher = "Direktoratet for e-helse"
 * responsible = "Brønnøysundregistrene"
 * description = "Nisifret, informasjonsløst nummer som entydig identifiserer virksomheter i Enhetsregisteret"

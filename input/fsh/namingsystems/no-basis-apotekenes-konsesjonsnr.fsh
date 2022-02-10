@@ -2,9 +2,9 @@ Instance: no-basis-apotekenes-konsesjonsnr
 InstanceOf: NamingSystem
 Usage: #definition
 * name = "ApotekenesKonsesjonsnr"
-* status = #draft
+* status = #active
 * kind = #identifier
-* date = "2022-02-01"
+* date = "2022-02-10"
 * publisher = "Direktoratet for e-helse"
 * responsible = "Statens legemiddelverk"
 * description = "Ved utstedelse av apotekkonsesjon for et nytt apotek tildeles et apotekkonsesjonsnummer. Konsesjonsnummeret er et firesifret nummer, i en nummerserie som starter på 1001, som er unikt for hvert apotek. Tildeles av Statens legemiddelverk."
