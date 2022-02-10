@@ -2,9 +2,9 @@ Instance: no-basis-her-id
 InstanceOf: NamingSystem
 Usage: #definition
 * name = "HERId"
-* status = #draft
+* status = #active
 * kind = #identifier
-* date = "2022-02-03"
+* date = "2022-02-10"
 * publisher = "Direktoratet for e-helse"
 * responsible = "Norsk helsenett"
 * description = "Identifikator for kommunikasjonsparter i Helsenettet.."
