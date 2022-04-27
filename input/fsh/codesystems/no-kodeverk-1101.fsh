@@ -1,6 +1,6 @@
 CodeSystem: NoKodeverk1101
 Id: no-kodeverk-1101.codesystem
-Title: "1101 Ja, nei"
+Title: "1101 Ja, nei, utsatt"
 Description: "Dette kodeverket inneholder koder for å angi svar Ja eller Nei."
 * ^url = "http://ehelse.no/fhir/CodeSystem/no-kodeverk-1101"
 * ^identifier.system = "urn:ietf:rfc:3986"
@@ -11,3 +11,4 @@ Description: "Dette kodeverket inneholder koder for å angi svar Ja eller Nei."
 * ^content = #complete
 * #1 "Ja"
 * #2 "Nei"
+* #3 "Utsatt" "Forklaringtekst"
