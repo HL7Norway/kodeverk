@@ -2,8 +2,8 @@
 =========================================
 
 err = 1, warn = 9, info = 25
-IG Publisher Version: 1.1.99
-Generated Thu Feb 10 08:53:55 UTC 2022. FHIR version 4.0.1 for hl7.fhir.no.kodeverk#0.4.1 (canonical = http://hl7.no/fhir)
+IG Publisher Version: 1.1.115
+Generated Wed Apr 27 12:39:40 UTC 2022. FHIR version 4.0.1 for hl7.fhir.no.kodeverk#0.4.1 (canonical = http://hl7.no/fhir)
  Build Errors : 157 / 8 / 0
  /github/workspace/fsh-generated/resources/CodeSystem-no-kodeverk-1101.codesystem : 0 / 0 / 2
  /github/workspace/fsh-generated/resources/CodeSystem-no-kodeverk-7010-norpat.codesystem : 0 / 0 / 2
@@ -254,7 +254,7 @@ INFORMATION: CodeSystem/no-kodeverk-8351.codesystem: CodeSystem: CodeSystems SHO
 == fsh-generated/resources/CodeSystem-no-kodeverk-9060.codesystem.json ==
 INFORMATION: CodeSystem/no-kodeverk-9060.codesystem: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
 == fsh-generated/resources/CodeSystem-no-kodeverk-ICD-10.codesystem.json ==
-WARNING: CodeSystem/no-kodeverk-ICD-10.codesystem: CodeSystem: HL7 Defined CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly 
+WARNING: CodeSystem/no-kodeverk-ICD-10.codesystem: CodeSystem: HL7 Defined CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
 == fsh-generated/resources/ImplementationGuide-hl7.fhir.no.kodeverk.json ==
 == fsh-generated/resources/NamingSystem-no-basis-apotekenes-konsesjonsnr.json ==
 == fsh-generated/resources/NamingSystem-no-basis-her-id.json ==

@@ -22,7 +22,7 @@
   fhir:CodeSystem.name [ fhir:value "NoKodeverk8245"];
   fhir:CodeSystem.title [ fhir:value "8245 Status for resultat i svarrapportering av medisinske tjenester"];
   fhir:CodeSystem.status [ fhir:value "active"];
-  fhir:CodeSystem.date [ fhir:value "2022-02-10T08:53:39+00:00"^^xsd:dateTime];
+  fhir:CodeSystem.date [ fhir:value "2022-04-27T12:37:13+00:00"^^xsd:dateTime];
   fhir:CodeSystem.publisher [ fhir:value "Direktoratet for e-helse"];
   fhir:CodeSystem.description [ fhir:value "Benyttes for å angi status/steg i arbeidsflyt for en enkelt lab- /røntgenundersøkelse."];
   fhir:CodeSystem.jurisdiction [

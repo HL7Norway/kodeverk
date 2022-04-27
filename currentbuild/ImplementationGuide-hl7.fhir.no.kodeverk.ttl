@@ -16,7 +16,7 @@
   fhir:ImplementationGuide.version [ fhir:value "0.4.1"];
   fhir:ImplementationGuide.name [ fhir:value "NoKodeverk"];
   fhir:ImplementationGuide.status [ fhir:value "draft"];
-  fhir:ImplementationGuide.date [ fhir:value "2022-02-10T08:53:39+00:00"^^xsd:dateTime];
+  fhir:ImplementationGuide.date [ fhir:value "2022-04-27T12:37:13+00:00"^^xsd:dateTime];
   fhir:ImplementationGuide.jurisdiction [
      fhir:index 0;
      fhir:CodeableConcept.coding [

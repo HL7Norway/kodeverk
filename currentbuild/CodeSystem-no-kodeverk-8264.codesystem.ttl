@@ -22,7 +22,7 @@
   fhir:CodeSystem.name [ fhir:value "NoKodeverk8264"];
   fhir:CodeSystem.title [ fhir:value "8264 Tjenestekoder for timereservasjon"];
   fhir:CodeSystem.status [ fhir:value "retired"];
-  fhir:CodeSystem.date [ fhir:value "2022-02-10T08:53:39+00:00"^^xsd:dateTime];
+  fhir:CodeSystem.date [ fhir:value "2022-04-27T12:37:13+00:00"^^xsd:dateTime];
   fhir:CodeSystem.publisher [ fhir:value "Direktoratet for e-helse"];
   fhir:CodeSystem.description [ fhir:value "Foreløpig kodeverk basert på tilgjengelige tjenester. Anvendes til booking av time."];
   fhir:CodeSystem.jurisdiction [
