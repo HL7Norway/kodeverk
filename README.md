@@ -39,3 +39,17 @@ I første omgang skal det støtte behovet i [NILAR](https://github.com/HL7Norway
 # Tilbakemeldinger
 
 Alle tilbakemeldinger om feil, bugs, skrivefeil, ønsker etc. skal [legges inn som issues](https://github.com/HL7Norway/kodeverk/issues). 
+
+# Utkast, prosess
+
+- registrer issue
+- se gjennom IG-en først
+- gjør endring i fsh-filer
+- lagre som ny gren med god kommentar (eller lage branchen først)
+- gjøre action - gh-pages den kjører ut en IG-action
+- se gjennom IG-en (burde hatt en egen current-build)
+- lage pull request - vi kan gjøre det selv.
+- verifisere
+
+TODO: Oppdateres av Espen, Jostein & Co
+
