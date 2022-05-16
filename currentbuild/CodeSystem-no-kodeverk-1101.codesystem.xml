@@ -10,7 +10,7 @@
     <system value="urn:ietf:rfc:3986"/>
     <value value="urn:oid:2.16.578.1.12.4.1.1.1101"/>
   </identifier>
-  <version value="0.4.1"/>
+  <version value="0.4.2"/>
   <name value="NoKodeverk1101"/>
   <title value="1101 Ja, nei"/>
   <status value="active"/>

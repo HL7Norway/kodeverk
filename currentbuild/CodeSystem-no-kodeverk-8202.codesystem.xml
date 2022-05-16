@@ -10,11 +10,11 @@
     <system value="urn:ietf:rfc:3986"/>
     <value value="urn:oid:2.16.578.1.12.4.1.1.8202"/>
   </identifier>
-  <version value="0.4.1"/>
+  <version value="0.4.2"/>
   <name value="NoKodeverk8202"/>
   <title value="8202 Type laboratoriemelding"/>
   <status value="active"/>
-  <date value="2022-04-27T12:37:13+00:00"/>
+  <date value="2022-05-16T12:54:37+00:00"/>
   <publisher value="Direktoratet for e-helse"/>
   <description value="Fagområde innen laboratoriemedisin og bildediagnstikk. Benyttes for å angi type svarrapport"/>
   <jurisdiction>

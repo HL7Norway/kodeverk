@@ -3,7 +3,7 @@
   "id": "no-basis-her-id",
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h3>Summary</h3><table class=\"grid\"><tr><td>Defining URL</td><td>http://hl7.no/fhir/NamingSystem/no-basis-her-id</td></tr><tr><td>Version</td><td>0.4.1</td></tr><tr><td>Name</td><td>HERId</td></tr><tr><td>Status</td><td>active</td></tr><tr><td>Definition</td><td><div><p>Identifikator for kommunikasjonsparter i Helsenettet..</p>\n</div></td></tr><tr><td>Publisher</td><td>Direktoratet for e-helse</td></tr></table><h3>Identifiers</h3><table class=\"grid\"><tr><td><b>Type</b></td><td><b>Value</b></td><td><b>Preferred</b></td></tr><tr><td>URI</td><td>http://hl7.no/fhir/NamingSystem/HERid</td><td>false</td></tr><tr><td>OID</td><td>2.16.578.1.12.4.1.2</td><td>true</td></tr></table></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h3>Summary</h3><table class=\"grid\"><tr><td>Defining URL</td><td>http://hl7.no/fhir/NamingSystem/no-basis-her-id</td></tr><tr><td>Version</td><td>0.4.2</td></tr><tr><td>Name</td><td>HERId</td></tr><tr><td>Status</td><td>active</td></tr><tr><td>Definition</td><td><div><p>Identifikator for kommunikasjonsparter i Helsenettet..</p>\n</div></td></tr><tr><td>Publisher</td><td>Direktoratet for e-helse</td></tr></table><h3>Identifiers</h3><table class=\"grid\"><tr><td><b>Type</b></td><td><b>Value</b></td><td><b>Preferred</b></td></tr><tr><td>URI</td><td>http://hl7.no/fhir/NamingSystem/HERid</td><td>false</td></tr><tr><td>OID</td><td>2.16.578.1.12.4.1.2</td><td>true</td></tr></table></div>"
   },
   "name": "HERId",
   "status": "active",

@@ -18,12 +18,13 @@
      fhir:Identifier.system [ fhir:value "urn:ietf:rfc:3986" ];
      fhir:Identifier.value [ fhir:value "urn:oid:2.16.578.1.12.4.1.1.8271" ]
   ];
-  fhir:CodeSystem.version [ fhir:value "0.4.1"];
+  fhir:CodeSystem.version [ fhir:value "0.4.2"];
   fhir:CodeSystem.name [ fhir:value "NoKodeverk8271"];
   fhir:CodeSystem.title [ fhir:value "8271 Resistens"];
   fhir:CodeSystem.status [ fhir:value "active"];
-  fhir:CodeSystem.date [ fhir:value "2022-04-27T12:37:13+00:00"^^xsd:dateTime];
+  fhir:CodeSystem.date [ fhir:value "2022-05-16T12:54:37+00:00"^^xsd:dateTime];
   fhir:CodeSystem.publisher [ fhir:value "Helsedirektoratet"];
+  fhir:CodeSystem.description [ fhir:value "Svarverdier til bruk i resistensbestemmelser"];
   fhir:CodeSystem.jurisdiction [
      fhir:index 0;
      fhir:CodeableConcept.coding [

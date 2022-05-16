@@ -2,10 +2,10 @@
   "url": "http://hl7.no/fhir/ImplementationGuide/hl7.fhir.no.kodeverk",
   "name": "NoKodeverk",
   "package-id": "hl7.fhir.no.kodeverk",
-  "ig-ver": "0.4.1",
-  "date": "Wed, 27 Apr, 2022 12:37:13 +0000",
+  "ig-ver": "0.4.2",
+  "date": "Mon, 16 May, 2022 12:54:37 +0000",
   "errs": 1,
-  "warnings": 9,
+  "warnings": 3,
   "hints": 25,
   "version": "4.0.1",
   "tool": "5.0.0-snapshot1 (3)"

@@ -6,10 +6,10 @@
     <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>NoKodeverk</h2><p>The official URL for this implementation guide is: </p><pre>http://hl7.no/fhir/ImplementationGuide/hl7.fhir.no.kodeverk</pre></div>
   </text>
   <url value="http://hl7.no/fhir/ImplementationGuide/hl7.fhir.no.kodeverk"/>
-  <version value="0.4.1"/>
+  <version value="0.4.2"/>
   <name value="NoKodeverk"/>
   <status value="draft"/>
-  <date value="2022-04-27T12:37:13+00:00"/>
+  <date value="2022-05-16T12:54:37+00:00"/>
   <jurisdiction>
     <coding>
       <system value="urn:iso:std:iso:3166"/>
@@ -20,6 +20,11 @@
   <packageId value="hl7.fhir.no.kodeverk"/>
   <license value="CC0-1.0"/>
   <fhirVersion value="4.0.1"/>
+  <dependsOn id="hl7tx">
+    <uri value="http://terminology.hl7.org/ImplementationGuide/hl7.terminology"/>
+    <packageId value="hl7.terminology.r4"/>
+    <version value="3.1.0"/>
+  </dependsOn>
   <definition>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
       <extension url="code">
@@ -269,7 +274,7 @@
         <reference value="CodeSystem/no-kodeverk-8219.codesystem"/>
       </reference>
       <name value="8219 Kodeverk for patologisk-anatomiske undersøkelser"/>
-      <description value="Disse kodeverdiene dekker opp valgmuligheter fra standard rekvisisjonsskjema for cytologiske undersøkelser (elementet Identifikasjon av type undersøkelse (Id) i klassen Undersøkelse (Investigation)). Kodeverket er foreldet og erstattes av NLK (7280)."/>
+      <description value="Kodene beskriver ulike typer patologi-undersøkelser."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -280,7 +285,7 @@
         <reference value="CodeSystem/no-kodeverk-8231.codesystem"/>
       </reference>
       <name value="8231 Type tekstsvar"/>
-      <description value="Begrunnelse for rekvisisjon"/>
+      <description value="Begrunnelse for rekvisisjon/henvisning"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -291,6 +296,7 @@
         <reference value="CodeSystem/no-kodeverk-8232.codesystem"/>
       </reference>
       <name value="8232 Forbehandling"/>
+      <description value="Forberedelse før undersøkelse"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -301,6 +307,7 @@
         <reference value="CodeSystem/no-kodeverk-8239.codesystem"/>
       </reference>
       <name value="8239 Forholdsoperatorer i svarrapportering av medisinske tjenester"/>
+      <description value="Forholdsoperatorer i svarrapportering av medisinske tjeneste"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -311,6 +318,7 @@
         <reference value="CodeSystem/no-kodeverk-8243.codesystem"/>
       </reference>
       <name value="8243 Type tekstsvar i tekstlig resultat i svarrapportering av medisinske tjenester"/>
+      <description value="Type tekstsvar i tekstlig resultat i svarrapportering av medisinske tjenester"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -321,6 +329,7 @@
         <reference value="CodeSystem/no-kodeverk-8244.codesystem"/>
       </reference>
       <name value="8244 Avviksmarkør i svarrapportering av medisinske tjenester"/>
+      <description value="Angir svarverdi i forhold til referansegrense"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -364,6 +373,7 @@
         <reference value="CodeSystem/no-kodeverk-8269.codesystem"/>
       </reference>
       <name value="8269 Kommentar til svarrapport"/>
+      <description value="Kodet kommentar til svarrapport"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -374,6 +384,7 @@
         <reference value="CodeSystem/no-kodeverk-8271.codesystem"/>
       </reference>
       <name value="8271 Resistens"/>
+      <description value="Svarverdier til bruk i resistensbestemmelser"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>

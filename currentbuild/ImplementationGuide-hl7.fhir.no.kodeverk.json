@@ -6,10 +6,10 @@
     "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>NoKodeverk</h2><p>The official URL for this implementation guide is: </p><pre>http://hl7.no/fhir/ImplementationGuide/hl7.fhir.no.kodeverk</pre></div>"
   },
   "url": "http://hl7.no/fhir/ImplementationGuide/hl7.fhir.no.kodeverk",
-  "version": "0.4.1",
+  "version": "0.4.2",
   "name": "NoKodeverk",
   "status": "draft",
-  "date": "2022-04-27T12:37:13+00:00",
+  "date": "2022-05-16T12:54:37+00:00",
   "jurisdiction": [
     {
       "coding": [
@@ -25,6 +25,14 @@
   "license": "CC0-1.0",
   "fhirVersion": [
     "4.0.1"
+  ],
+  "dependsOn": [
+    {
+      "id": "hl7tx",
+      "uri": "http://terminology.hl7.org/ImplementationGuide/hl7.terminology",
+      "packageId": "hl7.terminology.r4",
+      "version": "3.1.0"
+    }
   ],
   "definition": {
     "extension": [
@@ -400,7 +408,7 @@
           "reference": "CodeSystem/no-kodeverk-8219.codesystem"
         },
         "name": "8219 Kodeverk for patologisk-anatomiske undersøkelser",
-        "description": "Disse kodeverdiene dekker opp valgmuligheter fra standard rekvisisjonsskjema for cytologiske undersøkelser (elementet Identifikasjon av type undersøkelse (Id) i klassen Undersøkelse (Investigation)). Kodeverket er foreldet og erstattes av NLK (7280).",
+        "description": "Kodene beskriver ulike typer patologi-undersøkelser.",
         "exampleBoolean": false
       },
       {
@@ -414,7 +422,7 @@
           "reference": "CodeSystem/no-kodeverk-8231.codesystem"
         },
         "name": "8231 Type tekstsvar",
-        "description": "Begrunnelse for rekvisisjon",
+        "description": "Begrunnelse for rekvisisjon/henvisning",
         "exampleBoolean": false
       },
       {
@@ -428,6 +436,7 @@
           "reference": "CodeSystem/no-kodeverk-8232.codesystem"
         },
         "name": "8232 Forbehandling",
+        "description": "Forberedelse før undersøkelse",
         "exampleBoolean": false
       },
       {
@@ -441,6 +450,7 @@
           "reference": "CodeSystem/no-kodeverk-8239.codesystem"
         },
         "name": "8239 Forholdsoperatorer i svarrapportering av medisinske tjenester",
+        "description": "Forholdsoperatorer i svarrapportering av medisinske tjeneste",
         "exampleBoolean": false
       },
       {
@@ -454,6 +464,7 @@
           "reference": "CodeSystem/no-kodeverk-8243.codesystem"
         },
         "name": "8243 Type tekstsvar i tekstlig resultat i svarrapportering av medisinske tjenester",
+        "description": "Type tekstsvar i tekstlig resultat i svarrapportering av medisinske tjenester",
         "exampleBoolean": false
       },
       {
@@ -467,6 +478,7 @@
           "reference": "CodeSystem/no-kodeverk-8244.codesystem"
         },
         "name": "8244 Avviksmarkør i svarrapportering av medisinske tjenester",
+        "description": "Angir svarverdi i forhold til referansegrense",
         "exampleBoolean": false
       },
       {
@@ -522,6 +534,7 @@
           "reference": "CodeSystem/no-kodeverk-8269.codesystem"
         },
         "name": "8269 Kommentar til svarrapport",
+        "description": "Kodet kommentar til svarrapport",
         "exampleBoolean": false
       },
       {
@@ -535,6 +548,7 @@
           "reference": "CodeSystem/no-kodeverk-8271.codesystem"
         },
         "name": "8271 Resistens",
+        "description": "Svarverdier til bruk i resistensbestemmelser",
         "exampleBoolean": false
       },
       {

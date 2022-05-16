@@ -10,12 +10,13 @@
     <system value="urn:ietf:rfc:3986"/>
     <value value="urn:oid:2.16.578.1.12.4.1.1.8271"/>
   </identifier>
-  <version value="0.4.1"/>
+  <version value="0.4.2"/>
   <name value="NoKodeverk8271"/>
   <title value="8271 Resistens"/>
   <status value="active"/>
-  <date value="2022-04-27T12:37:13+00:00"/>
+  <date value="2022-05-16T12:54:37+00:00"/>
   <publisher value="Helsedirektoratet"/>
+  <description value="Svarverdier til bruk i resistensbestemmelser"/>
   <jurisdiction>
     <coding>
       <system value="urn:iso:std:iso:3166"/>

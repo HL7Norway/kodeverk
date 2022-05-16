@@ -10,12 +10,13 @@
     <system value="urn:ietf:rfc:3986"/>
     <value value="urn:oid:2.16.578.1.12.4.1.1.8239"/>
   </identifier>
-  <version value="0.4.1"/>
+  <version value="0.4.2"/>
   <name value="NoKodeverk8239"/>
   <title value="8239 Forholdsoperatorer i svarrapportering av medisinske tjenester"/>
   <status value="active"/>
-  <date value="2022-04-27T12:37:13+00:00"/>
+  <date value="2022-05-16T12:54:37+00:00"/>
   <publisher value="Direktoratet for e-helse"/>
+  <description value="Forholdsoperatorer i svarrapportering av medisinske tjeneste"/>
   <jurisdiction>
     <coding>
       <system value="urn:iso:std:iso:3166"/>

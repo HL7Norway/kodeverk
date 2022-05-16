@@ -1,39 +1,39 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE HTML>
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
-    <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
     <title>HL7.FHIR.NO.KODEVERK\8116 ID-type for personer - FHIR v4.0.1</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
 
-    <link rel="stylesheet" href="fhir.css"/>
+    <link href="fhir.css" rel="stylesheet"/>
 
-      <!-- Bootstrap core CSS -->
-    <link rel="stylesheet" href="assets/css/bootstrap-fhir.css"/>
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap-fhir.css" rel="stylesheet"/>
 
-      <!-- Project extras -->
-    <link rel="stylesheet" href="assets/css/project.css"/>
-    <link rel="stylesheet" href="assets/css/pygments-manni.css"/>
-    <link rel="stylesheet" href="assets/css/jquery-ui.css"/>
-  	<link rel="stylesheet" href="assets/css/prism.css"/>
-      <!-- Placeholder for child template CSS declarations -->
-    <link rel="stylesheet" href="assets/css/hl7.css"/>
-    <link rel="stylesheet" href="assets/css/fhir.css"/>
+    <!-- Project extras -->
+    <link href="assets/css/project.css" rel="stylesheet"/>
+    <link href="assets/css/pygments-manni.css" rel="stylesheet"/>
+    <link href="assets/css/jquery-ui.css" rel="stylesheet"/>
+  	<link href="assets/css/prism.css" rel="stylesheet" />
+    <!-- Placeholder for child template CSS declarations -->
+    <link href="assets/css/hl7.css" rel="stylesheet"/>
+    <link href="assets/css/fhir.css" rel="stylesheet"/>
 
-    <script src="fhir-table-scripts.js" type="text/javascript"> </script>
+    <script type="text/javascript" src="fhir-table-scripts.js"> </script>
 
-      <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-      <!-- [if lt IE 9]>
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
     <script src="assets/js/html5shiv.js"></script>
     <script src="assets/js/respond.min.js"></script>
-    <![endif] -->
+    <![endif]-->
 
-      <!-- Favicons -->
-    <link sizes="144x144" rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-144-precomposed.png"/>
-    <link sizes="114x114" rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-114-precomposed.png"/>
-    <link sizes="72x72" rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-72-precomposed.png"/>
+    <!-- Favicons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/apple-touch-icon-144-precomposed.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/apple-touch-icon-114-precomposed.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/apple-touch-icon-72-precomposed.png"/>
     <link rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-57-precomposed.png"/>
     <link rel="shortcut icon" href="assets/ico/favicon.png"/>
   </head>
@@ -43,49 +43,50 @@
 
     <style type="text/css">h2{--heading-prefix:"5.6"}
     h3,h4,h5,h6{--heading-prefix:"5.6"}</style>
-    <div id="segment-header" class="segment">    <!-- segment-header -->
-      <div class="container">    <!-- container -->
-          <!-- Placeholder for child template header declarations -->
+    <div id="segment-header" class="segment">  <!-- segment-header -->
+      <div class="container">  <!-- container -->
+        <!-- Placeholder for child template header declarations -->
 
             
 <div id="family-nav">
-	<a no-external="true" id="logo" href="http://hl7.org/fhir"> <img src="assets/images/fhir-logo-www.png" alt="logo fhir" height="50"/>
+	<a id="logo" no-external="true" href="http://hl7.org/fhir"> <img
+		alt="logo fhir" height="50" src="assets/images/fhir-logo-www.png" />
 	</a>
 </div>
 
 
             
 <div id="hl7-nav">
-    <a no-external="true" id="hl7-logo" href="https://github.com/HL7Norway">
-        <img src="assets/images/HL7-norway-logo.png" alt="visit the hl7 website" height="60"/>
+    <a id="hl7-logo" no-external="true" href="https://github.com/HL7Norway">
+        <img alt="visit the hl7 website" height="60" src="assets/images/HL7-norway-logo.png" />
     </a>            
 </div>
 
 
         <div id="ig-status">
-          <p><span style="font-size:12pt;font-weight:bold"></span><br/>0.4.1 - ci-build</p>
+          <p><span style="font-size:12pt;font-weight:bold"></span><br/>0.4.2 - ci-build</p>
         </div>
-      </div>   <!-- /container -->
-    </div>    <!-- /segment-header -->
+      </div> <!-- /container -->
+    </div>  <!-- /segment-header -->
 
-    <div id="segment-navbar" class="segment">    <!-- segment-navbar -->
+    <div id="segment-navbar" class="segment">  <!-- segment-navbar -->
       <div id="stripe"> </div>
-      <div class="container">    <!-- container -->
-          <!-- HEADER CONTENT -->
+      <div class="container">  <!-- container -->
+        <!-- HEADER CONTENT -->
 
         <nav class="navbar navbar-inverse">
-            <!-- status-bar -->
+          <!--status-bar-->
           <div class="container">
-            <button data-target=".navbar-inverse-collapse" data-toggle="collapse" type="button" class="navbar-toggle">
+            <button data-target=".navbar-inverse-collapse" class="navbar-toggle" data-toggle="collapse" type="button">
               <span class="icon-bar"> </span>
               <span class="icon-bar"> </span>
               <span class="icon-bar"> </span>
             </button>
-            <a href="http://hl7.org/fhir/R4/index.html" class="navbar-brand hidden">FHIR</a>
+            <a class="navbar-brand hidden" href="http://hl7.org/fhir/R4/index.html">FHIR</a>
             <div class="nav-collapse collapse navbar-inverse-collapse">
-                <!-- menu.xml -->
+              <!-- menu.xml  -->
 
-<ul class="nav navbar-nav">
+<ul xmlns="http://www.w3.org/1999/xhtml" class="nav navbar-nav">
   <li>
     <a href="index.html">Home</a>
   </li>
@@ -116,31 +117,31 @@
     <a href="download.html">Download</a>
   </li>
 </ul>
-            </div>    <!-- /.nav-collapse -->
-          </div>    <!-- /.container -->
-        </nav>    <!-- /.navbar -->
-        <!-- /HEADER CONTENT -->
-      </div>    <!-- /container -->
-    </div>    <!-- /segment-navbar -->
-      <!-- status-bar -->
+            </div>  <!-- /.nav-collapse -->
+          </div>  <!-- /.container -->
+        </nav>  <!-- /.navbar -->
+      <!-- /HEADER CONTENT -->
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-navbar -->
+    <!--status-bar-->
 
-    <div id="segment-breadcrumb" class="segment">    <!-- segment-breadcrumb -->
-      <div class="container">    <!-- container -->
+    <div id="segment-breadcrumb" class="segment">  <!-- segment-breadcrumb -->
+      <div class="container">  <!-- container -->
         <ul class="breadcrumb">
-          <li><a href="toc.html"><b>Table of Contents</b></a></li><li><a href="artifacts.html"><b>Artifacts Summary</b></a></li><li><b>8116 ID-type for personer</b></li>
+          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>8116 ID-type for personer</b></li>
 
         </ul>
-      </div>    <!-- /container -->
-    </div>    <!-- /segment-breadcrumb -->
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-breadcrumb -->
 
     <a name="top"> </a>
-    <div id="segment-content" class="segment">    <!-- segment-content -->
-      <div class="container">    <!-- container -->
+    <div id="segment-content" class="segment">  <!-- segment-content -->
+      <div class="container">  <!-- container -->
         <div class="row">
           <div class="inner-wrapper">
 
 <div class="col-12">
-    <!-- ReleaseHeader --><p id="publish-box">NoKodeverk - Local Development build (v0.4.1). See the <a href="http://hl7.no/fhir/history.html">Directory of published versions</a></p>  <!-- EndReleaseHeader -->
+  <!--ReleaseHeader--><p id="publish-box">NoKodeverk - Local Development build (v0.4.2). See the <a href="http://hl7.no/fhir/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
   
 
 
@@ -182,7 +183,7 @@
   <a name="root"> </a>
   <h2 id="root">CodeSystem: 8116 ID-type for personer</h2>
 
-    <!-- insert intro if present -->
+  <!-- insert intro if present -->
   
 
 
@@ -194,10 +195,10 @@
   <table class="grid">
 <tbody>
 <tr><td>Defining URL:</td><td>http://ehelse.no/fhir/CodeSystem/no-kodeverk-8116</td></tr>
- <tr><td>Version:</td><td>0.4.1</td></tr>
+ <tr><td>Version:</td><td>0.4.2</td></tr>
  <tr><td>Name:</td><td>NoKodeverk8116</td></tr>
  <tr><td>Title:</td><td>8116 ID-type for personer</td></tr>
- <tr><td>Status:</td><td>Active as of 2022-04-27 12:37:13+0000</td></tr>
+ <tr><td>Status:</td><td>Active as of 2022-05-16 12:54:37+0000</td></tr>
  <tr><td>Definition:</td><td><p>Angir type identifikator for personer.</p>
 </td></tr>
  <tr><td>Publisher:</td><td>Direktoratet for e-helse</td></tr>
@@ -215,9 +216,9 @@
 <p>This CodeSystem is not used here; it may be used elsewhere (e.g. specifications and/or implementations that use this content)</p>
 
 
-  <div><p>This code system http://ehelse.no/fhir/CodeSystem/no-kodeverk-8116 defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style="white-space:nowrap">FNR<a name="no-kodeverk-8116.codesystem-FNR"> </a></td><td>Fødselsnummer</td><td>Norsk fødselsnummer</td></tr><tr><td style="white-space:nowrap">DNR<a name="no-kodeverk-8116.codesystem-DNR"> </a></td><td>D-nummer</td><td>Nummer som kan tildeles personer uten norsk fødselsnummer</td></tr><tr><td style="white-space:nowrap">HNR<a name="no-kodeverk-8116.codesystem-HNR"> </a></td><td>H-nummer</td><td>Virksomhetsinternt hjelpenummer</td></tr><tr><td style="white-space:nowrap">HPR<a name="no-kodeverk-8116.codesystem-HPR"> </a></td><td>HPR-nummer</td><td>Id Helsepersonellregisteret</td></tr><tr><td style="white-space:nowrap">HER<a name="no-kodeverk-8116.codesystem-HER"> </a></td><td>HER-id</td><td>Identifikator som unikt identifiserer en  kommunikasjonspart i Adresseregisteret.</td></tr><tr><td style="white-space:nowrap">PNR<a name="no-kodeverk-8116.codesystem-PNR"> </a></td><td>Passnummer</td><td></td></tr><tr><td style="white-space:nowrap">SEF<a name="no-kodeverk-8116.codesystem-SEF"> </a></td><td>Svensk personnummer</td><td></td></tr><tr><td style="white-space:nowrap">DKF<a name="no-kodeverk-8116.codesystem-DKF"> </a></td><td>Dansk personnummer</td><td></td></tr><tr><td style="white-space:nowrap">SSN<a name="no-kodeverk-8116.codesystem-SSN"> </a></td><td>Sosial security number</td><td></td></tr><tr><td style="white-space:nowrap">FPN<a name="no-kodeverk-8116.codesystem-FPN"> </a></td><td>Forsikringspolise nummer</td><td></td></tr><tr><td style="white-space:nowrap">UID<a name="no-kodeverk-8116.codesystem-UID"> </a></td><td>Utenlandsk identifikasjon</td><td>Annet enn svensk- og dansk personnummer</td></tr><tr><td style="white-space:nowrap">DUF<a name="no-kodeverk-8116.codesystem-DUF"> </a></td><td>DUF-nummer</td><td>Registreringsnummeret i UDIs datasystem</td></tr><tr><td style="white-space:nowrap">FHN<a name="no-kodeverk-8116.codesystem-FHN"> </a></td><td>Felles hjelpenummer</td><td></td></tr><tr><td style="white-space:nowrap">XXX<a name="no-kodeverk-8116.codesystem-XXX"> </a></td><td>Annet</td><td></td></tr></table></div>
+  <div xmlns="http://www.w3.org/1999/xhtml"><p>This code system http://ehelse.no/fhir/CodeSystem/no-kodeverk-8116 defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style="white-space:nowrap">FNR<a name="no-kodeverk-8116.codesystem-FNR"> </a></td><td>Fødselsnummer</td><td>Norsk fødselsnummer</td></tr><tr><td style="white-space:nowrap">DNR<a name="no-kodeverk-8116.codesystem-DNR"> </a></td><td>D-nummer</td><td>Nummer som kan tildeles personer uten norsk fødselsnummer</td></tr><tr><td style="white-space:nowrap">HNR<a name="no-kodeverk-8116.codesystem-HNR"> </a></td><td>H-nummer</td><td>Virksomhetsinternt hjelpenummer</td></tr><tr><td style="white-space:nowrap">HPR<a name="no-kodeverk-8116.codesystem-HPR"> </a></td><td>HPR-nummer</td><td>Id Helsepersonellregisteret</td></tr><tr><td style="white-space:nowrap">HER<a name="no-kodeverk-8116.codesystem-HER"> </a></td><td>HER-id</td><td>Identifikator som unikt identifiserer en  kommunikasjonspart i Adresseregisteret.</td></tr><tr><td style="white-space:nowrap">PNR<a name="no-kodeverk-8116.codesystem-PNR"> </a></td><td>Passnummer</td><td></td></tr><tr><td style="white-space:nowrap">SEF<a name="no-kodeverk-8116.codesystem-SEF"> </a></td><td>Svensk personnummer</td><td></td></tr><tr><td style="white-space:nowrap">DKF<a name="no-kodeverk-8116.codesystem-DKF"> </a></td><td>Dansk personnummer</td><td></td></tr><tr><td style="white-space:nowrap">SSN<a name="no-kodeverk-8116.codesystem-SSN"> </a></td><td>Sosial security number</td><td></td></tr><tr><td style="white-space:nowrap">FPN<a name="no-kodeverk-8116.codesystem-FPN"> </a></td><td>Forsikringspolise nummer</td><td></td></tr><tr><td style="white-space:nowrap">UID<a name="no-kodeverk-8116.codesystem-UID"> </a></td><td>Utenlandsk identifikasjon</td><td>Annet enn svensk- og dansk personnummer</td></tr><tr><td style="white-space:nowrap">DUF<a name="no-kodeverk-8116.codesystem-DUF"> </a></td><td>DUF-nummer</td><td>Registreringsnummeret i Utlendingsdirektoratets datasystem</td></tr><tr><td style="white-space:nowrap">FHN<a name="no-kodeverk-8116.codesystem-FHN"> </a></td><td>Felles hjelpenummer</td><td></td></tr><tr><td style="white-space:nowrap">XXX<a name="no-kodeverk-8116.codesystem-XXX"> </a></td><td>Annet</td><td></td></tr></table></div>
 
-    <!-- insert notes if present -->
+  <!-- insert notes if present -->
   
 
 
@@ -225,13 +226,13 @@
   
 
 </div>
-        </div>    <!-- /inner-wrapper -->
-      </div>    <!-- /row -->
-    </div>    <!-- /container -->
-  </div>    <!-- /segment-content -->
+        </div>  <!-- /inner-wrapper -->
+      </div>  <!-- /row -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-content -->
 
-  <script src="assets/js/jquery.js" type="text/javascript"> </script>       <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
-  <script src="assets/js/jquery-ui.min.js" type="text/javascript"> </script>
+  <script type="text/javascript" src="assets/js/jquery.js"> </script>     <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
+  <script type="text/javascript" src="assets/js/jquery-ui.min.js"> </script>
 
   <script type="text/javascript">
     $(document).ready(function(){
@@ -241,12 +242,12 @@
     });
   </script>
   <a name="bottom"> </a>
-  <div igtool="footer" id="segment-footer" class="segment">    <!-- segment-footer -->
-    <div class="container">    <!-- container -->
+  <div id="segment-footer" igtool="footer" class="segment">  <!-- segment-footer -->
+    <div class="container">  <!-- container -->
 
       <div class="inner-wrapper">
-        <p><a name="l565">​</a>
-          IG &copy; 2022+ <a style="color:var(--footer-hyperlink-text-color)" href="null"></a>.  Package hl7.fhir.no.kodeverk#0.4.1 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Wed, Apr 27, 2022 12:37+0000">2022-04-27</span>
+        <p>
+          IG &#169; 2022+ <a style="color:var(--footer-hyperlink-text-color)" href=""></a>.  Package hl7.fhir.no.kodeverk#0.4.2 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Mon, May 16, 2022 12:54+0000">2022-05-16</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)"></span>
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
@@ -254,35 +255,36 @@
                  
                 
 
-          
+          </span>
         </p>
-      </div>    <!-- /inner-wrapper -->
-    </div>    <!-- /container -->
-  </div>    <!-- /segment-footer -->
+      </div>  <!-- /inner-wrapper -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-footer -->
   
-  <div id="segment-post-footer" class="segment hidden">    <!-- segment-post-footer -->
-    <div class="container">    <!-- container -->
-    </div>    <!-- /container -->
-  </div>    <!-- /segment-post-footer -->
+  <div id="segment-post-footer" class="segment hidden">  <!-- segment-post-footer -->
+    <div class="container">  <!-- container -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-post-footer -->
   
-    <!-- JS and analytics only. -->
-    <!-- Bootstrap core JavaScript
+  <!-- JS and analytics only. -->
+  <!-- Bootstrap core JavaScript
   ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-  <script src="assets/js/bootstrap.min.js" type="text/javascript"> </script>
-  <script src="assets/js/respond.min.js" type="text/javascript"> </script>
-  <script src="assets/js/anchor.min.js" type="text/javascript"> </script>
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script type="text/javascript" src="assets/js/bootstrap.min.js"> </script>
+  <script type="text/javascript" src="assets/js/respond.min.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor.min.js"> </script>
   <script>anchors.options.visible = 'hover'
 anchors.add()</script>
   
-  <!-- feedback form - Google forms -->
-  <!-- v0.1, 2021-01-09 -->
+<!-- feedback form - Google forms -->
+<!-- v0.1, 2021-01-09 -->
 
 
 
-  <!-- / feedback form -->
+<!-- / feedback form  -->
 
-    <!-- Analytics Below
+  <!-- Analytics Below
   ================================================== -->
   </body>
 </html>
+

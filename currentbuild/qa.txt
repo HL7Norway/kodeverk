@@ -1,10 +1,10 @@
 ﻿NoKodeverk : Validation Results
 =========================================
 
-err = 1, warn = 9, info = 25
-IG Publisher Version: 1.1.115
-Generated Wed Apr 27 12:39:40 UTC 2022. FHIR version 4.0.1 for hl7.fhir.no.kodeverk#0.4.1 (canonical = http://hl7.no/fhir)
- Build Errors : 157 / 8 / 0
+err = 1, warn = 3, info = 25
+IG Publisher Version: 1.1.120
+Generated Mon May 16 12:57:05 UTC 2022. FHIR version 4.0.1 for hl7.fhir.no.kodeverk#0.4.2 (canonical = http://hl7.no/fhir)
+ Build Errors : 1 / 2 / 0
  /github/workspace/fsh-generated/resources/CodeSystem-no-kodeverk-1101.codesystem : 0 / 0 / 2
  /github/workspace/fsh-generated/resources/CodeSystem-no-kodeverk-7010-norpat.codesystem : 0 / 0 / 2
  /github/workspace/fsh-generated/resources/CodeSystem-no-kodeverk-7270-ncrp.codesystem : 0 / 0 / 2
@@ -39,170 +39,8 @@ Generated Wed Apr 27 12:39:40 UTC 2022. FHIR version 4.0.1 for hl7.fhir.no.kodev
 </table>
 == n/a ==
 ERROR: ImplementationGuide.definition.parameter[22].value: Supressed messages file not found
-WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource CodeSystem/no-kodeverk-8232.codesystem.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
-WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource CodeSystem/no-kodeverk-8239.codesystem.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
-WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource CodeSystem/no-kodeverk-8243.codesystem.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
-WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource CodeSystem/no-kodeverk-8244.codesystem.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
-WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource CodeSystem/no-kodeverk-8269.codesystem.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
-WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource CodeSystem/no-kodeverk-8271.codesystem.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource CodeSystem/no-kodeverk-8272.codesystem.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource CodeSystem/no-kodeverk-8275.codesystem.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
-ERROR: /github/workspace/output/CodeSystem-no-kodeverk-1101.codesystem.change.history.html#/html/body/div/div/div/p/a at Line 241, column 28: The link '' for "" cannot be resolved
-ERROR: /github/workspace/output/CodeSystem-no-kodeverk-1101.codesystem.html#/html/body/div/div/div/p/a at Line 250, column 28: The link '' for "" cannot be resolved
-ERROR: /github/workspace/output/CodeSystem-no-kodeverk-1101.codesystem.json.html#/html/body/div/div/div/p/a at Line 273, column 28: The link '' for "" cannot be resolved
-ERROR: /github/workspace/output/CodeSystem-no-kodeverk-1101.codesystem.ttl.html#/html/body/div/div/div/p/a at Line 282, column 28: The link '' for "" cannot be resolved
-ERROR: /github/workspace/output/CodeSystem-no-kodeverk-1101.codesystem.xml.html#/html/body/div/div/div/p/a at Line 266, column 28: The link '' for "" cannot be resolved
-ERROR: /github/workspace/output/CodeSystem-no-kodeverk-7010-norpat.codesystem.change.history.html#/html/body/div/div/div/p/a at Line 241, column 28: The link '' for "" cannot be resolved
-ERROR: /github/workspace/output/CodeSystem-no-kodeverk-7010-norpat.codesystem.html#/html/body/div/div/div/p/a at Line 250, column 28: The link '' for "" cannot be resolved
-ERROR: /github/workspace/output/CodeSystem-no-kodeverk-7010-norpat.codesystem.json.html#/html/body/div/div/div/p/a at Line 262, column 28: The link '' for "" cannot be resolved
-ERROR: /github/workspace/output/CodeSystem-no-kodeverk-7010-norpat.codesystem.ttl.html#/html/body/div/div/div/p/a at Line 272, column 28: The link '' for "" cannot be resolved
-ERROR: /github/workspace/output/CodeSystem-no-kodeverk-7010-norpat.codesystem.xml.html#/html/body/div/div/div/p/a at Line 257, column 28: The link '' for "" cannot be resolved
-ERROR: /github/workspace/output/CodeSystem-no-kodeverk-7270-ncrp.codesystem.change.history.html#/html/body/div/div/div/p/a at Line 241, column 28: The link '' for "" cannot be resolved
-ERROR: /github/workspace/output/CodeSystem-no-kodeverk-7270-ncrp.codesystem.html#/html/body/div/div/div/p/a at Line 250, column 28: The link '' for "" cannot be resolved
-ERROR: /github/workspace/output/CodeSystem-no-kodeverk-7270-ncrp.codesystem.json.html#/html/body/div/div/div/p/a at Line 262, column 28: The link '' for "" cannot be resolved
-ERROR: /github/workspace/output/CodeSystem-no-kodeverk-7270-ncrp.codesystem.ttl.html#/html/body/div/div/div/p/a at Line 272, column 28: The link '' for "" cannot be resolved
-ERROR: /github/workspace/output/CodeSystem-no-kodeverk-7270-ncrp.codesystem.xml.html#/html/body/div/div/div/p/a at Line 257, column 28: The link '' for "" cannot be resolved
-ERROR: /github/workspace/output/CodeSystem-no-kodeverk-7280-nlk.codesystem.change.history.html#/html/body/div/div/div/p/a at Line 241, column 28: The link '' for "" cannot be resolved
-ERROR: /github/workspace/output/CodeSystem-no-kodeverk-7280-nlk.codesystem.html#/html/body/div/div/div/p/a at Line 250, column 28: The link '' for "" cannot be resolved
-ERROR: /github/workspace/output/CodeSystem-no-kodeverk-7280-nlk.codesystem.json.html#/html/body/div/div/div/p/a at Line 262, column 28: The link '' for "" cannot be resolved
-ERROR: /github/workspace/output/CodeSystem-no-kodeverk-7280-nlk.codesystem.ttl.html#/html/body/div/div/div/p/a at Line 272, column 28: The link '' for "" cannot be resolved
-ERROR: /github/workspace/output/CodeSystem-no-kodeverk-7280-nlk.codesystem.xml.html#/html/body/div/div/div/p/a at Line 257, column 28: The link '' for "" cannot be resolved
-ERROR: /github/workspace/output/CodeSystem-no-kodeverk-7305.codesystem.change.history.html#/html/body/div/div/div/p/a at Line 241, column 28: The link '' for "" cannot be resolved
-ERROR: /github/workspace/output/CodeSystem-no-kodeverk-7305.codesystem.html#/html/body/div/div/div/p/a at Line 250, column 28: The link '' for "" cannot be resolved
-ERROR: /github/workspace/output/CodeSystem-no-kodeverk-7305.codesystem.json.html#/html/body/div/div/div/p/a at Line 290, column 28: The link '' for "" cannot be resolved
-ERROR: /github/workspace/output/CodeSystem-no-kodeverk-7305.codesystem.ttl.html#/html/body/div/div/div/p/a at Line 299, column 28: The link '' for "" cannot be resolved
-ERROR: /github/workspace/output/CodeSystem-no-kodeverk-7305.codesystem.xml.html#/html/body/div/div/div/p/a at Line 282, column 28: The link '' for "" cannot be resolved
-ERROR: /github/workspace/output/CodeSystem-no-kodeverk-8116.codesystem.change.history.html#/html/body/div/div/div/p/a at Line 241, column 28: The link '' for "" cannot be resolved
-ERROR: /github/workspace/output/CodeSystem-no-kodeverk-8116.codesystem.html#/html/body/div/div/div/p/a at Line 250, column 28: The link '' for "" cannot be resolved
-ERROR: /github/workspace/output/CodeSystem-no-kodeverk-8116.codesystem.json.html#/html/body/div/div/div/p/a at Line 328, column 28: The link '' for "" cannot be resolved
-ERROR: /github/workspace/output/CodeSystem-no-kodeverk-8116.codesystem.ttl.html#/html/body/div/div/div/p/a at Line 337, column 28: The link '' for "" cannot be resolved
-ERROR: /github/workspace/output/CodeSystem-no-kodeverk-8116.codesystem.xml.html#/html/body/div/div/div/p/a at Line 322, column 28: The link '' for "" cannot be resolved
-ERROR: /github/workspace/output/CodeSystem-no-kodeverk-8202.codesystem.change.history.html#/html/body/div/div/div/p/a at Line 241, column 28: The link '' for "" cannot be resolved
-ERROR: /github/workspace/output/CodeSystem-no-kodeverk-8202.codesystem.html#/html/body/div/div/div/p/a at Line 250, column 28: The link '' for "" cannot be resolved
-ERROR: /github/workspace/output/CodeSystem-no-kodeverk-8202.codesystem.json.html#/html/body/div/div/div/p/a at Line 341, column 28: The link '' for "" cannot be resolved
-ERROR: /github/workspace/output/CodeSystem-no-kodeverk-8202.codesystem.ttl.html#/html/body/div/div/div/p/a at Line 350, column 28: The link '' for "" cannot be resolved
-ERROR: /github/workspace/output/CodeSystem-no-kodeverk-8202.codesystem.xml.html#/html/body/div/div/div/p/a at Line 334, column 28: The link '' for "" cannot be resolved
-ERROR: /github/workspace/output/CodeSystem-no-kodeverk-8216.codesystem.change.history.html#/html/body/div/div/div/p/a at Line 241, column 28: The link '' for "" cannot be resolved
-ERROR: /github/workspace/output/CodeSystem-no-kodeverk-8216.codesystem.html#/html/body/div/div/div/p/a at Line 250, column 28: The link '' for "" cannot be resolved
-ERROR: /github/workspace/output/CodeSystem-no-kodeverk-8216.codesystem.json.html#/html/body/div/div/div/p/a at Line 341, column 28: The link '' for "" cannot be resolved
-ERROR: /github/workspace/output/CodeSystem-no-kodeverk-8216.codesystem.ttl.html#/html/body/div/div/div/p/a at Line 350, column 28: The link '' for "" cannot be resolved
-ERROR: /github/workspace/output/CodeSystem-no-kodeverk-8216.codesystem.xml.html#/html/body/div/div/div/p/a at Line 334, column 28: The link '' for "" cannot be resolved
-ERROR: /github/workspace/output/CodeSystem-no-kodeverk-8219.codesystem.change.history.html#/html/body/div/div/div/p/a at Line 241, column 28: The link '' for "" cannot be resolved
-ERROR: /github/workspace/output/CodeSystem-no-kodeverk-8219.codesystem.html#/html/body/div/div/div/p/a at Line 250, column 28: The link '' for "" cannot be resolved
-ERROR: /github/workspace/output/CodeSystem-no-kodeverk-8219.codesystem.json.html#/html/body/div/div/div/p/a at Line 398, column 28: The link '' for "" cannot be resolved
-ERROR: /github/workspace/output/CodeSystem-no-kodeverk-8219.codesystem.ttl.html#/html/body/div/div/div/p/a at Line 407, column 28: The link '' for "" cannot be resolved
-ERROR: /github/workspace/output/CodeSystem-no-kodeverk-8219.codesystem.xml.html#/html/body/div/div/div/p/a at Line 391, column 28: The link '' for "" cannot be resolved
-ERROR: /github/workspace/output/CodeSystem-no-kodeverk-8231.codesystem.change.history.html#/html/body/div/div/div/p/a at Line 241, column 28: The link '' for "" cannot be resolved
-ERROR: /github/workspace/output/CodeSystem-no-kodeverk-8231.codesystem.html#/html/body/div/div/div/p/a at Line 250, column 28: The link '' for "" cannot be resolved
-ERROR: /github/workspace/output/CodeSystem-no-kodeverk-8231.codesystem.json.html#/html/body/div/div/div/p/a at Line 340, column 28: The link '' for "" cannot be resolved
-ERROR: /github/workspace/output/CodeSystem-no-kodeverk-8231.codesystem.ttl.html#/html/body/div/div/div/p/a at Line 349, column 28: The link '' for "" cannot be resolved
-ERROR: /github/workspace/output/CodeSystem-no-kodeverk-8231.codesystem.xml.html#/html/body/div/div/div/p/a at Line 333, column 28: The link '' for "" cannot be resolved
-ERROR: /github/workspace/output/CodeSystem-no-kodeverk-8232.codesystem.change.history.html#/html/body/div/div/div/p/a at Line 241, column 28: The link '' for "" cannot be resolved
-ERROR: /github/workspace/output/CodeSystem-no-kodeverk-8232.codesystem.html#/html/body/div/div/div/p/a at Line 248, column 28: The link '' for "" cannot be resolved
-ERROR: /github/workspace/output/CodeSystem-no-kodeverk-8232.codesystem.json.html#/html/body/div/div/div/p/a at Line 280, column 28: The link '' for "" cannot be resolved
-ERROR: /github/workspace/output/CodeSystem-no-kodeverk-8232.codesystem.ttl.html#/html/body/div/div/div/p/a at Line 289, column 28: The link '' for "" cannot be resolved
-ERROR: /github/workspace/output/CodeSystem-no-kodeverk-8232.codesystem.xml.html#/html/body/div/div/div/p/a at Line 272, column 28: The link '' for "" cannot be resolved
-ERROR: /github/workspace/output/CodeSystem-no-kodeverk-8239.codesystem.change.history.html#/html/body/div/div/div/p/a at Line 241, column 28: The link '' for "" cannot be resolved
-ERROR: /github/workspace/output/CodeSystem-no-kodeverk-8239.codesystem.html#/html/body/div/div/div/p/a at Line 248, column 28: The link '' for "" cannot be resolved
-ERROR: /github/workspace/output/CodeSystem-no-kodeverk-8239.codesystem.json.html#/html/body/div/div/div/p/a at Line 296, column 28: The link '' for "" cannot be resolved
-ERROR: /github/workspace/output/CodeSystem-no-kodeverk-8239.codesystem.ttl.html#/html/body/div/div/div/p/a at Line 305, column 28: The link '' for "" cannot be resolved
-ERROR: /github/workspace/output/CodeSystem-no-kodeverk-8239.codesystem.xml.html#/html/body/div/div/div/p/a at Line 289, column 28: The link '' for "" cannot be resolved
-ERROR: /github/workspace/output/CodeSystem-no-kodeverk-8243.codesystem.change.history.html#/html/body/div/div/div/p/a at Line 241, column 28: The link '' for "" cannot be resolved
-ERROR: /github/workspace/output/CodeSystem-no-kodeverk-8243.codesystem.html#/html/body/div/div/div/p/a at Line 248, column 28: The link '' for "" cannot be resolved
-ERROR: /github/workspace/output/CodeSystem-no-kodeverk-8243.codesystem.json.html#/html/body/div/div/div/p/a at Line 304, column 28: The link '' for "" cannot be resolved
-ERROR: /github/workspace/output/CodeSystem-no-kodeverk-8243.codesystem.ttl.html#/html/body/div/div/div/p/a at Line 313, column 28: The link '' for "" cannot be resolved
-ERROR: /github/workspace/output/CodeSystem-no-kodeverk-8243.codesystem.xml.html#/html/body/div/div/div/p/a at Line 297, column 28: The link '' for "" cannot be resolved
-ERROR: /github/workspace/output/CodeSystem-no-kodeverk-8244.codesystem.change.history.html#/html/body/div/div/div/p/a at Line 241, column 28: The link '' for "" cannot be resolved
-ERROR: /github/workspace/output/CodeSystem-no-kodeverk-8244.codesystem.html#/html/body/div/div/div/p/a at Line 248, column 28: The link '' for "" cannot be resolved
-ERROR: /github/workspace/output/CodeSystem-no-kodeverk-8244.codesystem.json.html#/html/body/div/div/div/p/a at Line 276, column 28: The link '' for "" cannot be resolved
-ERROR: /github/workspace/output/CodeSystem-no-kodeverk-8244.codesystem.ttl.html#/html/body/div/div/div/p/a at Line 285, column 28: The link '' for "" cannot be resolved
-ERROR: /github/workspace/output/CodeSystem-no-kodeverk-8244.codesystem.xml.html#/html/body/div/div/div/p/a at Line 268, column 28: The link '' for "" cannot be resolved
-ERROR: /github/workspace/output/CodeSystem-no-kodeverk-8245.codesystem.change.history.html#/html/body/div/div/div/p/a at Line 241, column 28: The link '' for "" cannot be resolved
-ERROR: /github/workspace/output/CodeSystem-no-kodeverk-8245.codesystem.html#/html/body/div/div/div/p/a at Line 250, column 28: The link '' for "" cannot be resolved
-ERROR: /github/workspace/output/CodeSystem-no-kodeverk-8245.codesystem.json.html#/html/body/div/div/div/p/a at Line 325, column 28: The link '' for "" cannot be resolved
-ERROR: /github/workspace/output/CodeSystem-no-kodeverk-8245.codesystem.ttl.html#/html/body/div/div/div/p/a at Line 334, column 28: The link '' for "" cannot be resolved
-ERROR: /github/workspace/output/CodeSystem-no-kodeverk-8245.codesystem.xml.html#/html/body/div/div/div/p/a at Line 319, column 28: The link '' for "" cannot be resolved
-ERROR: /github/workspace/output/CodeSystem-no-kodeverk-8264.codesystem.change.history.html#/html/body/div/div/div/p/a at Line 241, column 28: The link '' for "" cannot be resolved
-ERROR: /github/workspace/output/CodeSystem-no-kodeverk-8264.codesystem.html#/html/body/div/div/div/p/a at Line 250, column 28: The link '' for "" cannot be resolved
-ERROR: /github/workspace/output/CodeSystem-no-kodeverk-8264.codesystem.json.html#/html/body/div/div/div/p/a at Line 262, column 28: The link '' for "" cannot be resolved
-ERROR: /github/workspace/output/CodeSystem-no-kodeverk-8264.codesystem.ttl.html#/html/body/div/div/div/p/a at Line 272, column 28: The link '' for "" cannot be resolved
-ERROR: /github/workspace/output/CodeSystem-no-kodeverk-8264.codesystem.xml.html#/html/body/div/div/div/p/a at Line 257, column 28: The link '' for "" cannot be resolved
-ERROR: /github/workspace/output/CodeSystem-no-kodeverk-8268.codesystem.change.history.html#/html/body/div/div/div/p/a at Line 241, column 28: The link '' for "" cannot be resolved
-ERROR: /github/workspace/output/CodeSystem-no-kodeverk-8268.codesystem.html#/html/body/div/div/div/p/a at Line 250, column 28: The link '' for "" cannot be resolved
-ERROR: /github/workspace/output/CodeSystem-no-kodeverk-8268.codesystem.json.html#/html/body/div/div/div/p/a at Line 372, column 28: The link '' for "" cannot be resolved
-ERROR: /github/workspace/output/CodeSystem-no-kodeverk-8268.codesystem.ttl.html#/html/body/div/div/div/p/a at Line 381, column 28: The link '' for "" cannot be resolved
-ERROR: /github/workspace/output/CodeSystem-no-kodeverk-8268.codesystem.xml.html#/html/body/div/div/div/p/a at Line 368, column 28: The link '' for "" cannot be resolved
-ERROR: /github/workspace/output/CodeSystem-no-kodeverk-8269.codesystem.change.history.html#/html/body/div/div/div/p/a at Line 241, column 28: The link '' for "" cannot be resolved
-ERROR: /github/workspace/output/CodeSystem-no-kodeverk-8269.codesystem.html#/html/body/div/div/div/p/a at Line 248, column 28: The link '' for "" cannot be resolved
-ERROR: /github/workspace/output/CodeSystem-no-kodeverk-8269.codesystem.json.html#/html/body/div/div/div/p/a at Line 283, column 28: The link '' for "" cannot be resolved
-ERROR: /github/workspace/output/CodeSystem-no-kodeverk-8269.codesystem.ttl.html#/html/body/div/div/div/p/a at Line 292, column 28: The link '' for "" cannot be resolved
-ERROR: /github/workspace/output/CodeSystem-no-kodeverk-8269.codesystem.xml.html#/html/body/div/div/div/p/a at Line 277, column 28: The link '' for "" cannot be resolved
-ERROR: /github/workspace/output/CodeSystem-no-kodeverk-8271.codesystem.change.history.html#/html/body/div/div/div/p/a at Line 241, column 28: The link '' for "" cannot be resolved
-ERROR: /github/workspace/output/CodeSystem-no-kodeverk-8271.codesystem.html#/html/body/div/div/div/p/a at Line 248, column 28: The link '' for "" cannot be resolved
-ERROR: /github/workspace/output/CodeSystem-no-kodeverk-8271.codesystem.json.html#/html/body/div/div/div/p/a at Line 276, column 28: The link '' for "" cannot be resolved
-ERROR: /github/workspace/output/CodeSystem-no-kodeverk-8271.codesystem.ttl.html#/html/body/div/div/div/p/a at Line 285, column 28: The link '' for "" cannot be resolved
-ERROR: /github/workspace/output/CodeSystem-no-kodeverk-8271.codesystem.xml.html#/html/body/div/div/div/p/a at Line 268, column 28: The link '' for "" cannot be resolved
-ERROR: /github/workspace/output/CodeSystem-no-kodeverk-8272.codesystem.change.history.html#/html/body/div/div/div/p/a at Line 241, column 28: The link '' for "" cannot be resolved
-ERROR: /github/workspace/output/CodeSystem-no-kodeverk-8272.codesystem.html#/html/body/div/div/div/p/a at Line 248, column 28: The link '' for "" cannot be resolved
-ERROR: /github/workspace/output/CodeSystem-no-kodeverk-8272.codesystem.json.html#/html/body/div/div/div/p/a at Line 279, column 28: The link '' for "" cannot be resolved
-ERROR: /github/workspace/output/CodeSystem-no-kodeverk-8272.codesystem.ttl.html#/html/body/div/div/div/p/a at Line 288, column 28: The link '' for "" cannot be resolved
-ERROR: /github/workspace/output/CodeSystem-no-kodeverk-8272.codesystem.xml.html#/html/body/div/div/div/p/a at Line 271, column 28: The link '' for "" cannot be resolved
-ERROR: /github/workspace/output/CodeSystem-no-kodeverk-8273.codesystem.change.history.html#/html/body/div/div/div/p/a at Line 241, column 28: The link '' for "" cannot be resolved
-ERROR: /github/workspace/output/CodeSystem-no-kodeverk-8273.codesystem.html#/html/body/div/div/div/p/a at Line 250, column 28: The link '' for "" cannot be resolved
-ERROR: /github/workspace/output/CodeSystem-no-kodeverk-8273.codesystem.json.html#/html/body/div/div/div/p/a at Line 289, column 28: The link '' for "" cannot be resolved
-ERROR: /github/workspace/output/CodeSystem-no-kodeverk-8273.codesystem.ttl.html#/html/body/div/div/div/p/a at Line 298, column 28: The link '' for "" cannot be resolved
-ERROR: /github/workspace/output/CodeSystem-no-kodeverk-8273.codesystem.xml.html#/html/body/div/div/div/p/a at Line 281, column 28: The link '' for "" cannot be resolved
-ERROR: /github/workspace/output/CodeSystem-no-kodeverk-8275.codesystem.change.history.html#/html/body/div/div/div/p/a at Line 241, column 28: The link '' for "" cannot be resolved
-ERROR: /github/workspace/output/CodeSystem-no-kodeverk-8275.codesystem.html#/html/body/div/div/div/p/a at Line 248, column 28: The link '' for "" cannot be resolved
-ERROR: /github/workspace/output/CodeSystem-no-kodeverk-8275.codesystem.json.html#/html/body/div/div/div/p/a at Line 276, column 28: The link '' for "" cannot be resolved
-ERROR: /github/workspace/output/CodeSystem-no-kodeverk-8275.codesystem.ttl.html#/html/body/div/div/div/p/a at Line 285, column 28: The link '' for "" cannot be resolved
-ERROR: /github/workspace/output/CodeSystem-no-kodeverk-8275.codesystem.xml.html#/html/body/div/div/div/p/a at Line 268, column 28: The link '' for "" cannot be resolved
-ERROR: /github/workspace/output/CodeSystem-no-kodeverk-8327.codesystem.change.history.html#/html/body/div/div/div/p/a at Line 241, column 28: The link '' for "" cannot be resolved
-ERROR: /github/workspace/output/CodeSystem-no-kodeverk-8327.codesystem.html#/html/body/div/div/div/p/a at Line 250, column 28: The link '' for "" cannot be resolved
-ERROR: /github/workspace/output/CodeSystem-no-kodeverk-8327.codesystem.json.html#/html/body/div/div/div/p/a at Line 281, column 28: The link '' for "" cannot be resolved
-ERROR: /github/workspace/output/CodeSystem-no-kodeverk-8327.codesystem.ttl.html#/html/body/div/div/div/p/a at Line 290, column 28: The link '' for "" cannot be resolved
-ERROR: /github/workspace/output/CodeSystem-no-kodeverk-8327.codesystem.xml.html#/html/body/div/div/div/p/a at Line 273, column 28: The link '' for "" cannot be resolved
-ERROR: /github/workspace/output/CodeSystem-no-kodeverk-8351.codesystem.change.history.html#/html/body/div/div/div/p/a at Line 241, column 28: The link '' for "" cannot be resolved
-ERROR: /github/workspace/output/CodeSystem-no-kodeverk-8351.codesystem.html#/html/body/div/div/div/p/a at Line 250, column 28: The link '' for "" cannot be resolved
-ERROR: /github/workspace/output/CodeSystem-no-kodeverk-8351.codesystem.json.html#/html/body/div/div/div/p/a at Line 262, column 28: The link '' for "" cannot be resolved
-ERROR: /github/workspace/output/CodeSystem-no-kodeverk-8351.codesystem.ttl.html#/html/body/div/div/div/p/a at Line 272, column 28: The link '' for "" cannot be resolved
-ERROR: /github/workspace/output/CodeSystem-no-kodeverk-8351.codesystem.xml.html#/html/body/div/div/div/p/a at Line 257, column 28: The link '' for "" cannot be resolved
-ERROR: /github/workspace/output/CodeSystem-no-kodeverk-9060.codesystem.change.history.html#/html/body/div/div/div/p/a at Line 241, column 28: The link '' for "" cannot be resolved
-ERROR: /github/workspace/output/CodeSystem-no-kodeverk-9060.codesystem.html#/html/body/div/div/div/p/a at Line 250, column 28: The link '' for "" cannot be resolved
-ERROR: /github/workspace/output/CodeSystem-no-kodeverk-9060.codesystem.json.html#/html/body/div/div/div/p/a at Line 410, column 28: The link '' for "" cannot be resolved
-ERROR: /github/workspace/output/CodeSystem-no-kodeverk-9060.codesystem.ttl.html#/html/body/div/div/div/p/a at Line 419, column 28: The link '' for "" cannot be resolved
-ERROR: /github/workspace/output/CodeSystem-no-kodeverk-9060.codesystem.xml.html#/html/body/div/div/div/p/a at Line 403, column 28: The link '' for "" cannot be resolved
-ERROR: /github/workspace/output/CodeSystem-no-kodeverk-ICD-10.codesystem.change.history.html#/html/body/div/div/div/p/a at Line 241, column 28: The link '' for "" cannot be resolved
-ERROR: /github/workspace/output/CodeSystem-no-kodeverk-ICD-10.codesystem.html#/html/body/div/div/div/p/a at Line 250, column 28: The link '' for "" cannot be resolved
-ERROR: /github/workspace/output/CodeSystem-no-kodeverk-ICD-10.codesystem.json.html#/html/body/div/div/div/p/a at Line 263, column 28: The link '' for "" cannot be resolved
-ERROR: /github/workspace/output/CodeSystem-no-kodeverk-ICD-10.codesystem.ttl.html#/html/body/div/div/div/p/a at Line 273, column 28: The link '' for "" cannot be resolved
-ERROR: /github/workspace/output/CodeSystem-no-kodeverk-ICD-10.codesystem.xml.html#/html/body/div/div/div/p/a at Line 257, column 28: The link '' for "" cannot be resolved
-ERROR: /github/workspace/output/NamingSystem-no-basis-apotekenes-konsesjonsnr.change.history.html#/html/body/div/div/div/p/a at Line 241, column 28: The link '' for "" cannot be resolved
-ERROR: /github/workspace/output/NamingSystem-no-basis-apotekenes-konsesjonsnr.html#/html/body/div/div/div/p/a at Line 229, column 28: The link '' for "" cannot be resolved
-ERROR: /github/workspace/output/NamingSystem-no-basis-apotekenes-konsesjonsnr.json.html#/html/body/div/div/div/p/a at Line 266, column 28: The link '' for "" cannot be resolved
-ERROR: /github/workspace/output/NamingSystem-no-basis-apotekenes-konsesjonsnr.ttl.html#/html/body/div/div/div/p/a at Line 276, column 28: The link '' for "" cannot be resolved
-ERROR: /github/workspace/output/NamingSystem-no-basis-apotekenes-konsesjonsnr.xml.html#/html/body/div/div/div/p/a at Line 262, column 28: The link '' for "" cannot be resolved
-ERROR: /github/workspace/output/NamingSystem-no-basis-her-id.change.history.html#/html/body/div/div/div/p/a at Line 241, column 28: The link '' for "" cannot be resolved
-ERROR: /github/workspace/output/NamingSystem-no-basis-her-id.html#/html/body/div/div/div/p/a at Line 229, column 28: The link '' for "" cannot be resolved
-ERROR: /github/workspace/output/NamingSystem-no-basis-her-id.json.html#/html/body/div/div/div/p/a at Line 266, column 28: The link '' for "" cannot be resolved
-ERROR: /github/workspace/output/NamingSystem-no-basis-her-id.ttl.html#/html/body/div/div/div/p/a at Line 276, column 28: The link '' for "" cannot be resolved
-ERROR: /github/workspace/output/NamingSystem-no-basis-her-id.xml.html#/html/body/div/div/div/p/a at Line 261, column 28: The link '' for "" cannot be resolved
-ERROR: /github/workspace/output/NamingSystem-no-basis-orgnr.change.history.html#/html/body/div/div/div/p/a at Line 241, column 28: The link '' for "" cannot be resolved
-ERROR: /github/workspace/output/NamingSystem-no-basis-orgnr.html#/html/body/div/div/div/p/a at Line 229, column 28: The link '' for "" cannot be resolved
-ERROR: /github/workspace/output/NamingSystem-no-basis-orgnr.json.html#/html/body/div/div/div/p/a at Line 267, column 28: The link '' for "" cannot be resolved
-ERROR: /github/workspace/output/NamingSystem-no-basis-orgnr.ttl.html#/html/body/div/div/div/p/a at Line 277, column 28: The link '' for "" cannot be resolved
-ERROR: /github/workspace/output/NamingSystem-no-basis-orgnr.xml.html#/html/body/div/div/div/p/a at Line 264, column 28: The link '' for "" cannot be resolved
-ERROR: /github/workspace/output/NamingSystem-no-basis-resh-id.change.history.html#/html/body/div/div/div/p/a at Line 241, column 28: The link '' for "" cannot be resolved
-ERROR: /github/workspace/output/NamingSystem-no-basis-resh-id.html#/html/body/div/div/div/p/a at Line 229, column 28: The link '' for "" cannot be resolved
-ERROR: /github/workspace/output/NamingSystem-no-basis-resh-id.json.html#/html/body/div/div/div/p/a at Line 266, column 28: The link '' for "" cannot be resolved
-ERROR: /github/workspace/output/NamingSystem-no-basis-resh-id.ttl.html#/html/body/div/div/div/p/a at Line 276, column 28: The link '' for "" cannot be resolved
-ERROR: /github/workspace/output/NamingSystem-no-basis-resh-id.xml.html#/html/body/div/div/div/p/a at Line 261, column 28: The link '' for "" cannot be resolved
-ERROR: /github/workspace/output/artifacts.html#/html/body/div/div/div/p/a at Line 490, column 28: The link '' for "" cannot be resolved
-ERROR: /github/workspace/output/download.html#/html/body/div/div/div/p/a at Line 212, column 28: The link '' for "" cannot be resolved
-ERROR: /github/workspace/output/index.html#/html/body/div/div/div/p/a at Line 211, column 28: The link '' for "" cannot be resolved
-ERROR: /github/workspace/output/mapping.html#/html/body/div/div/div/p/a at Line 352, column 28: The link '' for "" cannot be resolved
-ERROR: /github/workspace/output/nilar.html#/html/body/div/div/div/p/a at Line 419, column 28: The link '' for "" cannot be resolved
-ERROR: /github/workspace/output/toc.html#/html/body/div/div/div/p/a at Line 177, column 28: The link '' for "" cannot be resolved
 == fsh-generated/resources/CodeSystem-no-kodeverk-1101.codesystem.json ==
 INFORMATION: CodeSystem/no-kodeverk-1101.codesystem: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
 == fsh-generated/resources/CodeSystem-no-kodeverk-7010-norpat.codesystem.json ==

@@ -13,10 +13,10 @@
      fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>NoKodeverk</h2><p>The official URL for this implementation guide is: </p><pre>http://hl7.no/fhir/ImplementationGuide/hl7.fhir.no.kodeverk</pre></div>"
   ];
   fhir:ImplementationGuide.url [ fhir:value "http://hl7.no/fhir/ImplementationGuide/hl7.fhir.no.kodeverk"];
-  fhir:ImplementationGuide.version [ fhir:value "0.4.1"];
+  fhir:ImplementationGuide.version [ fhir:value "0.4.2"];
   fhir:ImplementationGuide.name [ fhir:value "NoKodeverk"];
   fhir:ImplementationGuide.status [ fhir:value "draft"];
-  fhir:ImplementationGuide.date [ fhir:value "2022-04-27T12:37:13+00:00"^^xsd:dateTime];
+  fhir:ImplementationGuide.date [ fhir:value "2022-05-16T12:54:37+00:00"^^xsd:dateTime];
   fhir:ImplementationGuide.jurisdiction [
      fhir:index 0;
      fhir:CodeableConcept.coding [
@@ -31,6 +31,16 @@
   fhir:ImplementationGuide.fhirVersion [
      fhir:value "4.0.1";
      fhir:index 0
+  ];
+  fhir:ImplementationGuide.dependsOn [
+     fhir:index 0;
+     fhir:Element.id [ fhir:value "hl7tx" ];
+     fhir:ImplementationGuide.dependsOn.uri [
+       fhir:value "http://terminology.hl7.org/ImplementationGuide/hl7.terminology";
+       fhir:link <http://terminology.hl7.org/ImplementationGuide/hl7.terminology>
+     ];
+     fhir:ImplementationGuide.dependsOn.packageId [ fhir:value "hl7.terminology.r4" ];
+     fhir:ImplementationGuide.dependsOn.version [ fhir:value "3.1.0" ]
   ];
   fhir:ImplementationGuide.definition [
      fhir:Element.extension [
@@ -386,7 +396,7 @@
          fhir:Reference.reference [ fhir:value "CodeSystem/no-kodeverk-8219.codesystem" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "8219 Kodeverk for patologisk-anatomiske undersøkelser" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Disse kodeverdiene dekker opp valgmuligheter fra standard rekvisisjonsskjema for cytologiske undersøkelser (elementet Identifikasjon av type undersøkelse (Id) i klassen Undersøkelse (Investigation)). Kodeverket er foreldet og erstattes av NLK (7280)." ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Kodene beskriver ulike typer patologi-undersøkelser." ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
        fhir:index 9;
@@ -400,7 +410,7 @@
          fhir:Reference.reference [ fhir:value "CodeSystem/no-kodeverk-8231.codesystem" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "8231 Type tekstsvar" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Begrunnelse for rekvisisjon" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Begrunnelse for rekvisisjon/henvisning" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
        fhir:index 10;
@@ -414,6 +424,7 @@
          fhir:Reference.reference [ fhir:value "CodeSystem/no-kodeverk-8232.codesystem" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "8232 Forbehandling" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Forberedelse før undersøkelse" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
        fhir:index 11;
@@ -427,6 +438,7 @@
          fhir:Reference.reference [ fhir:value "CodeSystem/no-kodeverk-8239.codesystem" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "8239 Forholdsoperatorer i svarrapportering av medisinske tjenester" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Forholdsoperatorer i svarrapportering av medisinske tjeneste" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
        fhir:index 12;
@@ -440,6 +452,7 @@
          fhir:Reference.reference [ fhir:value "CodeSystem/no-kodeverk-8243.codesystem" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "8243 Type tekstsvar i tekstlig resultat i svarrapportering av medisinske tjenester" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Type tekstsvar i tekstlig resultat i svarrapportering av medisinske tjenester" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
        fhir:index 13;
@@ -453,6 +466,7 @@
          fhir:Reference.reference [ fhir:value "CodeSystem/no-kodeverk-8244.codesystem" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "8244 Avviksmarkør i svarrapportering av medisinske tjenester" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Angir svarverdi i forhold til referansegrense" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
        fhir:index 14;
@@ -508,6 +522,7 @@
          fhir:Reference.reference [ fhir:value "CodeSystem/no-kodeverk-8269.codesystem" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "8269 Kommentar til svarrapport" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Kodet kommentar til svarrapport" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
        fhir:index 18;
@@ -521,6 +536,7 @@
          fhir:Reference.reference [ fhir:value "CodeSystem/no-kodeverk-8271.codesystem" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "8271 Resistens" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Svarverdier til bruk i resistensbestemmelser" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
        fhir:index 19;
