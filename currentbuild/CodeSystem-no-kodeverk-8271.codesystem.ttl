@@ -22,9 +22,9 @@
   fhir:CodeSystem.name [ fhir:value "NoKodeverk8271"];
   fhir:CodeSystem.title [ fhir:value "8271 Resistens"];
   fhir:CodeSystem.status [ fhir:value "active"];
-  fhir:CodeSystem.date [ fhir:value "2022-05-16T12:54:37+00:00"^^xsd:dateTime];
+  fhir:CodeSystem.date [ fhir:value "2022-05-16T13:02:52+00:00"^^xsd:dateTime];
   fhir:CodeSystem.publisher [ fhir:value "Helsedirektoratet"];
-  fhir:CodeSystem.description [ fhir:value "Svarverdier til bruk i resistensbestemmelser"];
+  fhir:CodeSystem.description [ fhir:value "Svarverdier til bruk i resistensbestemmelser (SIR)"];
   fhir:CodeSystem.jurisdiction [
      fhir:index 0;
      fhir:CodeableConcept.coding [

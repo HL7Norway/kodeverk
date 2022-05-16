@@ -22,7 +22,7 @@
   fhir:CodeSystem.name [ fhir:value "NoKodeverk7280NLK"];
   fhir:CodeSystem.title [ fhir:value "Norsk laboratoriekodeverk"];
   fhir:CodeSystem.status [ fhir:value "active"];
-  fhir:CodeSystem.date [ fhir:value "2022-05-16T12:54:37+00:00"^^xsd:dateTime];
+  fhir:CodeSystem.date [ fhir:value "2022-05-16T13:02:52+00:00"^^xsd:dateTime];
   fhir:CodeSystem.publisher [ fhir:value "Direktoratet for e-helse"];
   fhir:CodeSystem.description [ fhir:value "Norsk laboratoriekodverk er et felles kodeverk for laboratorieanalyser utarbeidet i samarbeid med de laboratoriefaglige miljøene fordelt på 6 spesialiteter: Immunologi og transfusjonsmedisin, Klinisk farmakologi, Medisinsk biokjemi, Medisinsk genetikk, Medisinsk mikrobiologi og Patologi."];
   fhir:CodeSystem.jurisdiction [
