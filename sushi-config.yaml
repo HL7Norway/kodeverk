@@ -9,7 +9,7 @@ FSHOnly: false
 applyExtensionMetadataToRoot: false
 id: hl7.fhir.no.kodeverk
 status: draft
-version: 0.4.2
+version: 0.4.3
 releaseLabel: ci-build
 copyrightYear: 2022+
 jurisdiction: urn:iso:std:iso:3166#NO "Norway"
