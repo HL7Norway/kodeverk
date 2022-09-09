@@ -3,18 +3,18 @@
 <CodeSystem xmlns="http://hl7.org/fhir">
   <id value="no-kodeverk-8243.codesystem"/>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This code system http://ehelse.no/fhir/CodeSystem/no-kodeverk-8243 defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">AN<a name="no-kodeverk-8243.codesystem-AN"> </a></td><td>Analyse</td></tr><tr><td style="white-space:nowrap">DIAG<a name="no-kodeverk-8243.codesystem-DIAG"> </a></td><td>Diagnose</td></tr><tr><td style="white-space:nowrap">FU<a name="no-kodeverk-8243.codesystem-FU"> </a></td><td>Funn og undersøkelsesresultater</td></tr><tr><td style="white-space:nowrap">GR<a name="no-kodeverk-8243.codesystem-GR"> </a></td><td>Gruppe</td></tr><tr><td style="white-space:nowrap">LR<a name="no-kodeverk-8243.codesystem-LR"> </a></td><td>Laboratorieresultat</td></tr><tr><td style="white-space:nowrap">RSB<a name="no-kodeverk-8243.codesystem-RSB"> </a></td><td>Resistensbestemmelse</td></tr><tr><td style="white-space:nowrap">SY<a name="no-kodeverk-8243.codesystem-SY"> </a></td><td>Sykmelding</td></tr><tr><td style="white-space:nowrap">UP<a name="no-kodeverk-8243.codesystem-UP"> </a></td><td>Ubesvarte prøver</td></tr><tr><td style="white-space:nowrap">VU<a name="no-kodeverk-8243.codesystem-VU"> </a></td><td>Vurdering</td></tr><tr><td style="white-space:nowrap">XX<a name="no-kodeverk-8243.codesystem-XX"> </a></td><td>Uspesifisert</td></tr></table></div>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This code system <code>http://ehelse.no/fhir/CodeSystem/no-kodeverk-8243</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">AN<a name="no-kodeverk-8243.codesystem-AN"> </a></td><td>Analyse</td></tr><tr><td style="white-space:nowrap">DIAG<a name="no-kodeverk-8243.codesystem-DIAG"> </a></td><td>Diagnose</td></tr><tr><td style="white-space:nowrap">FU<a name="no-kodeverk-8243.codesystem-FU"> </a></td><td>Funn og undersøkelsesresultater</td></tr><tr><td style="white-space:nowrap">GR<a name="no-kodeverk-8243.codesystem-GR"> </a></td><td>Gruppe</td></tr><tr><td style="white-space:nowrap">LR<a name="no-kodeverk-8243.codesystem-LR"> </a></td><td>Laboratorieresultat</td></tr><tr><td style="white-space:nowrap">RSB<a name="no-kodeverk-8243.codesystem-RSB"> </a></td><td>Resistensbestemmelse</td></tr><tr><td style="white-space:nowrap">SY<a name="no-kodeverk-8243.codesystem-SY"> </a></td><td>Sykmelding</td></tr><tr><td style="white-space:nowrap">UP<a name="no-kodeverk-8243.codesystem-UP"> </a></td><td>Ubesvarte prøver</td></tr><tr><td style="white-space:nowrap">VU<a name="no-kodeverk-8243.codesystem-VU"> </a></td><td>Vurdering</td></tr><tr><td style="white-space:nowrap">XX<a name="no-kodeverk-8243.codesystem-XX"> </a></td><td>Uspesifisert</td></tr></table></div>
   </text>
   <url value="http://ehelse.no/fhir/CodeSystem/no-kodeverk-8243"/>
   <identifier>
     <system value="urn:ietf:rfc:3986"/>
     <value value="urn:oid:2.16.578.1.12.4.1.1.8243"/>
   </identifier>
-  <version value="0.4.2"/>
+  <version value="0.4.3"/>
   <name value="NoKodeverk8243"/>
   <title value="8243 Type tekstsvar i tekstlig resultat i svarrapportering av medisinske tjenester"/>
   <status value="active"/>
-  <date value="2022-05-16T13:02:52+00:00"/>
+  <date value="2022-09-09T13:02:22+00:00"/>
   <publisher value="Direktoratet for e-helse"/>
   <description value="Type tekstsvar i tekstlig resultat i svarrapportering av medisinske tjenester"/>
   <jurisdiction>

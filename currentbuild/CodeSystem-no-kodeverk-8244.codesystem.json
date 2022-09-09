@@ -3,7 +3,7 @@
   "id": "no-kodeverk-8244.codesystem",
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system http://ehelse.no/fhir/CodeSystem/no-kodeverk-8244 defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">1<a name=\"no-kodeverk-8244.codesystem-1\"> </a></td><td>Over øvre referansegrense</td></tr><tr><td style=\"white-space:nowrap\">2<a name=\"no-kodeverk-8244.codesystem-2\"> </a></td><td>Under nedre referansegrense</td></tr><tr><td style=\"white-space:nowrap\">3<a name=\"no-kodeverk-8244.codesystem-3\"> </a></td><td>Utenfor referansegrensene</td></tr></table></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system <code>http://ehelse.no/fhir/CodeSystem/no-kodeverk-8244</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">1<a name=\"no-kodeverk-8244.codesystem-1\"> </a></td><td>Over øvre referansegrense</td></tr><tr><td style=\"white-space:nowrap\">2<a name=\"no-kodeverk-8244.codesystem-2\"> </a></td><td>Under nedre referansegrense</td></tr><tr><td style=\"white-space:nowrap\">3<a name=\"no-kodeverk-8244.codesystem-3\"> </a></td><td>Utenfor referansegrensene</td></tr></table></div>"
   },
   "url": "http://ehelse.no/fhir/CodeSystem/no-kodeverk-8244",
   "identifier": [
@@ -12,11 +12,11 @@
       "value": "urn:oid:2.16.578.1.12.4.1.1.8244"
     }
   ],
-  "version": "0.4.2",
+  "version": "0.4.3",
   "name": "NoKodeverk8244",
   "title": "8244 Avviksmarkør i svarrapportering av medisinske tjenester",
   "status": "active",
-  "date": "2022-05-16T13:02:52+00:00",
+  "date": "2022-09-09T13:02:22+00:00",
   "publisher": "Direktoratet for e-helse",
   "description": "Angir svarverdi i forhold til referansegrense",
   "jurisdiction": [

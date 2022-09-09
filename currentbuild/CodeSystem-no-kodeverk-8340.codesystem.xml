@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="no-kodeverk-8340.codesystem"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This code system <code>http://ehelse.no/fhir/CodeSystem/no-kodeverk-8340</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">T001<a name="no-kodeverk-8340.codesystem-T001"> </a></td><td>Påvist</td></tr><tr><td style="white-space:nowrap">T002<a name="no-kodeverk-8340.codesystem-T002"> </a></td><td>Positiv</td></tr><tr><td style="white-space:nowrap">T003<a name="no-kodeverk-8340.codesystem-T003"> </a></td><td>Svakt postiv</td></tr><tr><td style="white-space:nowrap">T004<a name="no-kodeverk-8340.codesystem-T004"> </a></td><td>Grenseverdi</td></tr><tr><td style="white-space:nowrap">T005<a name="no-kodeverk-8340.codesystem-T005"> </a></td><td>Gråsone</td></tr><tr><td style="white-space:nowrap">T006<a name="no-kodeverk-8340.codesystem-T006"> </a></td><td>Reaktiv</td></tr><tr><td style="white-space:nowrap">T007<a name="no-kodeverk-8340.codesystem-T007"> </a></td><td>Ikke påvist</td></tr><tr><td style="white-space:nowrap">T008<a name="no-kodeverk-8340.codesystem-T008"> </a></td><td>Negativ</td></tr><tr><td style="white-space:nowrap">T009<a name="no-kodeverk-8340.codesystem-T009"> </a></td><td>Inkonklusiv</td></tr><tr><td style="white-space:nowrap">T010<a name="no-kodeverk-8340.codesystem-T010"> </a></td><td>Se kommentar</td></tr></table></div>
+  </text>
+  <url value="http://ehelse.no/fhir/CodeSystem/no-kodeverk-8340"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:oid:2.16.578.1.12.4.1.1.8340"/>
+  </identifier>
+  <version value="0.4.3"/>
+  <name value="NoKodeverk8340"/>
+  <title value="8340 Tekstlige resultatverdier for mikrobiologiske svar"/>
+  <status value="active"/>
+  <date value="2021-06-02"/>
+  <publisher value="Direktoratet for e-helse"/>
+  <description value="Kodeverk for tekstlig resultatverdier til bruk i svar av mikrobiologiske laboratorieundersøkelser."/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="NO"/>
+      <display value="Norway"/>
+    </coding>
+  </jurisdiction>
+  <content value="complete"/>
+  <count value="10"/>
+  <concept>
+    <code value="T001"/>
+    <display value="Påvist"/>
+  </concept>
+  <concept>
+    <code value="T002"/>
+    <display value="Positiv"/>
+  </concept>
+  <concept>
+    <code value="T003"/>
+    <display value="Svakt postiv"/>
+  </concept>
+  <concept>
+    <code value="T004"/>
+    <display value="Grenseverdi"/>
+  </concept>
+  <concept>
+    <code value="T005"/>
+    <display value="Gråsone"/>
+  </concept>
+  <concept>
+    <code value="T006"/>
+    <display value="Reaktiv"/>
+  </concept>
+  <concept>
+    <code value="T007"/>
+    <display value="Ikke påvist"/>
+  </concept>
+  <concept>
+    <code value="T008"/>
+    <display value="Negativ"/>
+  </concept>
+  <concept>
+    <code value="T009"/>
+    <display value="Inkonklusiv"/>
+  </concept>
+  <concept>
+    <code value="T010"/>
+    <display value="Se kommentar"/>
+  </concept>
+</CodeSystem>

@@ -1,37 +1,39 @@
 ﻿NoKodeverk : Validation Results
 =========================================
 
-err = 1, warn = 3, info = 25
-IG Publisher Version: 1.1.120
-Generated Mon May 16 13:05:19 UTC 2022. FHIR version 4.0.1 for hl7.fhir.no.kodeverk#0.4.2 (canonical = http://hl7.no/fhir)
+err = 76, warn = 3, info = 27
+IG Publisher Version: 1.1.130
+Generated Fri Sep 09 13:04:48 UTC 2022. FHIR version 4.0.1 for hl7.fhir.no.kodeverk#0.4.3 (canonical = http://hl7.no/fhir)
  Build Errors : 1 / 2 / 0
- /github/workspace/fsh-generated/resources/CodeSystem-no-kodeverk-1101.codesystem : 0 / 0 / 2
- /github/workspace/fsh-generated/resources/CodeSystem-no-kodeverk-7010-norpat.codesystem : 0 / 0 / 2
- /github/workspace/fsh-generated/resources/CodeSystem-no-kodeverk-7270-ncrp.codesystem : 0 / 0 / 2
- /github/workspace/fsh-generated/resources/CodeSystem-no-kodeverk-7280-nlk.codesystem : 0 / 0 / 2
- /github/workspace/fsh-generated/resources/CodeSystem-no-kodeverk-7305.codesystem : 0 / 0 / 2
- /github/workspace/fsh-generated/resources/CodeSystem-no-kodeverk-8116.codesystem : 0 / 0 / 2
- /github/workspace/fsh-generated/resources/CodeSystem-no-kodeverk-8202.codesystem : 0 / 0 / 2
- /github/workspace/fsh-generated/resources/CodeSystem-no-kodeverk-8216.codesystem : 0 / 0 / 2
- /github/workspace/fsh-generated/resources/CodeSystem-no-kodeverk-8219.codesystem : 0 / 0 / 2
- /github/workspace/fsh-generated/resources/CodeSystem-no-kodeverk-8231.codesystem : 0 / 0 / 2
- /github/workspace/fsh-generated/resources/CodeSystem-no-kodeverk-8232.codesystem : 0 / 0 / 2
- /github/workspace/fsh-generated/resources/CodeSystem-no-kodeverk-8239.codesystem : 0 / 0 / 2
- /github/workspace/fsh-generated/resources/CodeSystem-no-kodeverk-8243.codesystem : 0 / 0 / 2
- /github/workspace/fsh-generated/resources/CodeSystem-no-kodeverk-8244.codesystem : 0 / 0 / 2
- /github/workspace/fsh-generated/resources/CodeSystem-no-kodeverk-8245.codesystem : 0 / 0 / 2
- /github/workspace/fsh-generated/resources/CodeSystem-no-kodeverk-8264.codesystem : 0 / 0 / 2
- /github/workspace/fsh-generated/resources/CodeSystem-no-kodeverk-8268.codesystem : 0 / 0 / 2
- /github/workspace/fsh-generated/resources/CodeSystem-no-kodeverk-8269.codesystem : 0 / 0 / 2
- /github/workspace/fsh-generated/resources/CodeSystem-no-kodeverk-8271.codesystem : 0 / 0 / 2
- /github/workspace/fsh-generated/resources/CodeSystem-no-kodeverk-8272.codesystem : 0 / 0 / 2
- /github/workspace/fsh-generated/resources/CodeSystem-no-kodeverk-8273.codesystem : 0 / 0 / 2
- /github/workspace/fsh-generated/resources/CodeSystem-no-kodeverk-8275.codesystem : 0 / 0 / 2
- /github/workspace/fsh-generated/resources/CodeSystem-no-kodeverk-8327.codesystem : 0 / 0 / 2
- /github/workspace/fsh-generated/resources/CodeSystem-no-kodeverk-8351.codesystem : 0 / 0 / 2
- /github/workspace/fsh-generated/resources/CodeSystem-no-kodeverk-9060.codesystem : 0 / 0 / 2
- /github/workspace/fsh-generated/resources/CodeSystem-no-kodeverk-ICD-10.codesystem : 0 / 1 / 1
- /github/workspace/fsh-generated/resources/ImplementationGuide-hl7.fhir.no.kodeverk : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/CodeSystem-no-kodeverk-1101.codesystem : 2 / 0 / 2
+ /github/workspace/fsh-generated/resources/CodeSystem-no-kodeverk-7010-norpat.codesystem : 2 / 0 / 2
+ /github/workspace/fsh-generated/resources/CodeSystem-no-kodeverk-7270-ncrp.codesystem : 2 / 0 / 2
+ /github/workspace/fsh-generated/resources/CodeSystem-no-kodeverk-7280-nlk.codesystem : 2 / 0 / 2
+ /github/workspace/fsh-generated/resources/CodeSystem-no-kodeverk-7305.codesystem : 2 / 0 / 2
+ /github/workspace/fsh-generated/resources/CodeSystem-no-kodeverk-8116.codesystem : 2 / 0 / 2
+ /github/workspace/fsh-generated/resources/CodeSystem-no-kodeverk-8202.codesystem : 2 / 0 / 2
+ /github/workspace/fsh-generated/resources/CodeSystem-no-kodeverk-8212.codesystem : 2 / 0 / 2
+ /github/workspace/fsh-generated/resources/CodeSystem-no-kodeverk-8216.codesystem : 2 / 0 / 2
+ /github/workspace/fsh-generated/resources/CodeSystem-no-kodeverk-8219.codesystem : 2 / 0 / 2
+ /github/workspace/fsh-generated/resources/CodeSystem-no-kodeverk-8231.codesystem : 2 / 0 / 2
+ /github/workspace/fsh-generated/resources/CodeSystem-no-kodeverk-8232.codesystem : 2 / 0 / 2
+ /github/workspace/fsh-generated/resources/CodeSystem-no-kodeverk-8239.codesystem : 2 / 0 / 2
+ /github/workspace/fsh-generated/resources/CodeSystem-no-kodeverk-8243.codesystem : 2 / 0 / 2
+ /github/workspace/fsh-generated/resources/CodeSystem-no-kodeverk-8244.codesystem : 2 / 0 / 2
+ /github/workspace/fsh-generated/resources/CodeSystem-no-kodeverk-8245.codesystem : 2 / 0 / 2
+ /github/workspace/fsh-generated/resources/CodeSystem-no-kodeverk-8264.codesystem : 2 / 0 / 2
+ /github/workspace/fsh-generated/resources/CodeSystem-no-kodeverk-8268.codesystem : 2 / 0 / 2
+ /github/workspace/fsh-generated/resources/CodeSystem-no-kodeverk-8269.codesystem : 2 / 0 / 2
+ /github/workspace/fsh-generated/resources/CodeSystem-no-kodeverk-8271.codesystem : 2 / 0 / 2
+ /github/workspace/fsh-generated/resources/CodeSystem-no-kodeverk-8272.codesystem : 2 / 0 / 2
+ /github/workspace/fsh-generated/resources/CodeSystem-no-kodeverk-8273.codesystem : 2 / 0 / 2
+ /github/workspace/fsh-generated/resources/CodeSystem-no-kodeverk-8275.codesystem : 2 / 0 / 2
+ /github/workspace/fsh-generated/resources/CodeSystem-no-kodeverk-8327.codesystem : 2 / 0 / 2
+ /github/workspace/fsh-generated/resources/CodeSystem-no-kodeverk-8340.codesystem : 2 / 0 / 2
+ /github/workspace/fsh-generated/resources/CodeSystem-no-kodeverk-8351.codesystem : 2 / 0 / 2
+ /github/workspace/fsh-generated/resources/CodeSystem-no-kodeverk-9060.codesystem : 2 / 0 / 2
+ /github/workspace/fsh-generated/resources/CodeSystem-no-kodeverk-ICD-10.codesystem : 2 / 1 / 1
+ /github/workspace/fsh-generated/resources/ImplementationGuide-hl7.fhir.no.kodeverk : 19 / 0 / 1
  /github/workspace/fsh-generated/resources/NamingSystem-no-basis-apotekenes-konsesjonsnr : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/NamingSystem-no-basis-her-id : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/NamingSystem-no-basis-orgnr : 0 / 0 / 1
@@ -42,58 +44,137 @@ ERROR: ImplementationGuide.definition.parameter[22].value: Supressed messages fi
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource CodeSystem/no-kodeverk-8272.codesystem.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource CodeSystem/no-kodeverk-8275.codesystem.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 == fsh-generated/resources/CodeSystem-no-kodeverk-1101.codesystem.json ==
+ERROR: CodeSystem.where(url = 'http://ehelse.no/fhir/CodeSystem/no-kodeverk-1101'): Conformance resource /github/workspace/fsh-generated/resources/CodeSystem-no-kodeverk-1101.codesystem.json - the canonical URL (http://hl7.no/fhir/CodeSystem/no-kodeverk-1101.codesystem) does not match the URL (http://ehelse.no/fhir/CodeSystem/no-kodeverk-1101)
 INFORMATION: CodeSystem/no-kodeverk-1101.codesystem: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+ERROR: /github/workspace/fsh-generated/resources/CodeSystem-no-kodeverk-1101.codesystem: URL Mismatch http://hl7.no/fhir/CodeSystem/no-kodeverk-1101.codesystem vs http://ehelse.no/fhir/CodeSystem/no-kodeverk-1101
 == fsh-generated/resources/CodeSystem-no-kodeverk-7010-norpat.codesystem.json ==
+ERROR: CodeSystem.where(url = 'http://ehelse.no/fhir/CodeSystem/no-kodeverk-7010-norpat'): Conformance resource /github/workspace/fsh-generated/resources/CodeSystem-no-kodeverk-7010-norpat.codesystem.json - the canonical URL (http://hl7.no/fhir/CodeSystem/no-kodeverk-7010-norpat.codesystem) does not match the URL (http://ehelse.no/fhir/CodeSystem/no-kodeverk-7010-norpat)
 INFORMATION: CodeSystem/no-kodeverk-7010-norpat.codesystem: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+ERROR: /github/workspace/fsh-generated/resources/CodeSystem-no-kodeverk-7010-norpat.codesystem: URL Mismatch http://hl7.no/fhir/CodeSystem/no-kodeverk-7010-norpat.codesystem vs http://ehelse.no/fhir/CodeSystem/no-kodeverk-7010-norpat
 == fsh-generated/resources/CodeSystem-no-kodeverk-7270-ncrp.codesystem.json ==
+ERROR: CodeSystem.where(url = 'http://ehelse.no/fhir/CodeSystem/no-kodeverk-7270-ncrp'): Conformance resource /github/workspace/fsh-generated/resources/CodeSystem-no-kodeverk-7270-ncrp.codesystem.json - the canonical URL (http://hl7.no/fhir/CodeSystem/no-kodeverk-7270-ncrp.codesystem) does not match the URL (http://ehelse.no/fhir/CodeSystem/no-kodeverk-7270-ncrp)
 INFORMATION: CodeSystem/no-kodeverk-7270-ncrp.codesystem: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+ERROR: /github/workspace/fsh-generated/resources/CodeSystem-no-kodeverk-7270-ncrp.codesystem: URL Mismatch http://hl7.no/fhir/CodeSystem/no-kodeverk-7270-ncrp.codesystem vs http://ehelse.no/fhir/CodeSystem/no-kodeverk-7270-ncrp
 == fsh-generated/resources/CodeSystem-no-kodeverk-7280-nlk.codesystem.json ==
+ERROR: CodeSystem.where(url = 'http://ehelse.no/fhir/CodeSystem/no-kodeverk-7280-nlk'): Conformance resource /github/workspace/fsh-generated/resources/CodeSystem-no-kodeverk-7280-nlk.codesystem.json - the canonical URL (http://hl7.no/fhir/CodeSystem/no-kodeverk-7280-nlk.codesystem) does not match the URL (http://ehelse.no/fhir/CodeSystem/no-kodeverk-7280-nlk)
 INFORMATION: CodeSystem/no-kodeverk-7280-nlk.codesystem: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+ERROR: /github/workspace/fsh-generated/resources/CodeSystem-no-kodeverk-7280-nlk.codesystem: URL Mismatch http://hl7.no/fhir/CodeSystem/no-kodeverk-7280-nlk.codesystem vs http://ehelse.no/fhir/CodeSystem/no-kodeverk-7280-nlk
 == fsh-generated/resources/CodeSystem-no-kodeverk-7305.codesystem.json ==
+ERROR: CodeSystem.where(url = 'http://ehelse.no/fhir/CodeSystem/no-kodeverk-7305'): Conformance resource /github/workspace/fsh-generated/resources/CodeSystem-no-kodeverk-7305.codesystem.json - the canonical URL (http://hl7.no/fhir/CodeSystem/no-kodeverk-7305.codesystem) does not match the URL (http://ehelse.no/fhir/CodeSystem/no-kodeverk-7305)
 INFORMATION: CodeSystem/no-kodeverk-7305.codesystem: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+ERROR: /github/workspace/fsh-generated/resources/CodeSystem-no-kodeverk-7305.codesystem: URL Mismatch http://hl7.no/fhir/CodeSystem/no-kodeverk-7305.codesystem vs http://ehelse.no/fhir/CodeSystem/no-kodeverk-7305
 == fsh-generated/resources/CodeSystem-no-kodeverk-8116.codesystem.json ==
+ERROR: CodeSystem.where(url = 'http://ehelse.no/fhir/CodeSystem/no-kodeverk-8116'): Conformance resource /github/workspace/fsh-generated/resources/CodeSystem-no-kodeverk-8116.codesystem.json - the canonical URL (http://hl7.no/fhir/CodeSystem/no-kodeverk-8116.codesystem) does not match the URL (http://ehelse.no/fhir/CodeSystem/no-kodeverk-8116)
 INFORMATION: CodeSystem/no-kodeverk-8116.codesystem: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+ERROR: /github/workspace/fsh-generated/resources/CodeSystem-no-kodeverk-8116.codesystem: URL Mismatch http://hl7.no/fhir/CodeSystem/no-kodeverk-8116.codesystem vs http://ehelse.no/fhir/CodeSystem/no-kodeverk-8116
 == fsh-generated/resources/CodeSystem-no-kodeverk-8202.codesystem.json ==
+ERROR: CodeSystem.where(url = 'http://ehelse.no/fhir/CodeSystem/no-kodeverk-8202'): Conformance resource /github/workspace/fsh-generated/resources/CodeSystem-no-kodeverk-8202.codesystem.json - the canonical URL (http://hl7.no/fhir/CodeSystem/no-kodeverk-8202.codesystem) does not match the URL (http://ehelse.no/fhir/CodeSystem/no-kodeverk-8202)
 INFORMATION: CodeSystem/no-kodeverk-8202.codesystem: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+ERROR: /github/workspace/fsh-generated/resources/CodeSystem-no-kodeverk-8202.codesystem: URL Mismatch http://hl7.no/fhir/CodeSystem/no-kodeverk-8202.codesystem vs http://ehelse.no/fhir/CodeSystem/no-kodeverk-8202
+== fsh-generated/resources/CodeSystem-no-kodeverk-8212.codesystem.json ==
+ERROR: CodeSystem.where(url = 'http://ehelse.no/fhir/CodeSystem/no-kodeverk-8212'): Conformance resource /github/workspace/fsh-generated/resources/CodeSystem-no-kodeverk-8212.codesystem.json - the canonical URL (http://hl7.no/fhir/CodeSystem/no-kodeverk-8212.codesystem) does not match the URL (http://ehelse.no/fhir/CodeSystem/no-kodeverk-8212)
+INFORMATION: CodeSystem/no-kodeverk-8212.codesystem: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+ERROR: /github/workspace/fsh-generated/resources/CodeSystem-no-kodeverk-8212.codesystem: URL Mismatch http://hl7.no/fhir/CodeSystem/no-kodeverk-8212.codesystem vs http://ehelse.no/fhir/CodeSystem/no-kodeverk-8212
 == fsh-generated/resources/CodeSystem-no-kodeverk-8216.codesystem.json ==
+ERROR: CodeSystem.where(url = 'http://ehelse.no/fhir/CodeSystem/no-kodeverk-8216'): Conformance resource /github/workspace/fsh-generated/resources/CodeSystem-no-kodeverk-8216.codesystem.json - the canonical URL (http://hl7.no/fhir/CodeSystem/no-kodeverk-8216.codesystem) does not match the URL (http://ehelse.no/fhir/CodeSystem/no-kodeverk-8216)
 INFORMATION: CodeSystem/no-kodeverk-8216.codesystem: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+ERROR: /github/workspace/fsh-generated/resources/CodeSystem-no-kodeverk-8216.codesystem: URL Mismatch http://hl7.no/fhir/CodeSystem/no-kodeverk-8216.codesystem vs http://ehelse.no/fhir/CodeSystem/no-kodeverk-8216
 == fsh-generated/resources/CodeSystem-no-kodeverk-8219.codesystem.json ==
+ERROR: CodeSystem.where(url = 'http://ehelse.no/fhir/CodeSystem/no-kodeverk-8219'): Conformance resource /github/workspace/fsh-generated/resources/CodeSystem-no-kodeverk-8219.codesystem.json - the canonical URL (http://hl7.no/fhir/CodeSystem/no-kodeverk-8219.codesystem) does not match the URL (http://ehelse.no/fhir/CodeSystem/no-kodeverk-8219)
 INFORMATION: CodeSystem/no-kodeverk-8219.codesystem: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+ERROR: /github/workspace/fsh-generated/resources/CodeSystem-no-kodeverk-8219.codesystem: URL Mismatch http://hl7.no/fhir/CodeSystem/no-kodeverk-8219.codesystem vs http://ehelse.no/fhir/CodeSystem/no-kodeverk-8219
 == fsh-generated/resources/CodeSystem-no-kodeverk-8231.codesystem.json ==
+ERROR: CodeSystem.where(url = 'http://ehelse.no/fhir/CodeSystem/no-kodeverk-8231'): Conformance resource /github/workspace/fsh-generated/resources/CodeSystem-no-kodeverk-8231.codesystem.json - the canonical URL (http://hl7.no/fhir/CodeSystem/no-kodeverk-8231.codesystem) does not match the URL (http://ehelse.no/fhir/CodeSystem/no-kodeverk-8231)
 INFORMATION: CodeSystem/no-kodeverk-8231.codesystem: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+ERROR: /github/workspace/fsh-generated/resources/CodeSystem-no-kodeverk-8231.codesystem: URL Mismatch http://hl7.no/fhir/CodeSystem/no-kodeverk-8231.codesystem vs http://ehelse.no/fhir/CodeSystem/no-kodeverk-8231
 == fsh-generated/resources/CodeSystem-no-kodeverk-8232.codesystem.json ==
+ERROR: CodeSystem.where(url = 'http://ehelse.no/fhir/CodeSystem/no-kodeverk-8232'): Conformance resource /github/workspace/fsh-generated/resources/CodeSystem-no-kodeverk-8232.codesystem.json - the canonical URL (http://hl7.no/fhir/CodeSystem/no-kodeverk-8232.codesystem) does not match the URL (http://ehelse.no/fhir/CodeSystem/no-kodeverk-8232)
 INFORMATION: CodeSystem/no-kodeverk-8232.codesystem: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+ERROR: /github/workspace/fsh-generated/resources/CodeSystem-no-kodeverk-8232.codesystem: URL Mismatch http://hl7.no/fhir/CodeSystem/no-kodeverk-8232.codesystem vs http://ehelse.no/fhir/CodeSystem/no-kodeverk-8232
 == fsh-generated/resources/CodeSystem-no-kodeverk-8239.codesystem.json ==
+ERROR: CodeSystem.where(url = 'http://ehelse.no/fhir/CodeSystem/no-kodeverk-8239'): Conformance resource /github/workspace/fsh-generated/resources/CodeSystem-no-kodeverk-8239.codesystem.json - the canonical URL (http://hl7.no/fhir/CodeSystem/no-kodeverk-8239.codesystem) does not match the URL (http://ehelse.no/fhir/CodeSystem/no-kodeverk-8239)
 INFORMATION: CodeSystem/no-kodeverk-8239.codesystem: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+ERROR: /github/workspace/fsh-generated/resources/CodeSystem-no-kodeverk-8239.codesystem: URL Mismatch http://hl7.no/fhir/CodeSystem/no-kodeverk-8239.codesystem vs http://ehelse.no/fhir/CodeSystem/no-kodeverk-8239
 == fsh-generated/resources/CodeSystem-no-kodeverk-8243.codesystem.json ==
+ERROR: CodeSystem.where(url = 'http://ehelse.no/fhir/CodeSystem/no-kodeverk-8243'): Conformance resource /github/workspace/fsh-generated/resources/CodeSystem-no-kodeverk-8243.codesystem.json - the canonical URL (http://hl7.no/fhir/CodeSystem/no-kodeverk-8243.codesystem) does not match the URL (http://ehelse.no/fhir/CodeSystem/no-kodeverk-8243)
 INFORMATION: CodeSystem/no-kodeverk-8243.codesystem: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+ERROR: /github/workspace/fsh-generated/resources/CodeSystem-no-kodeverk-8243.codesystem: URL Mismatch http://hl7.no/fhir/CodeSystem/no-kodeverk-8243.codesystem vs http://ehelse.no/fhir/CodeSystem/no-kodeverk-8243
 == fsh-generated/resources/CodeSystem-no-kodeverk-8244.codesystem.json ==
+ERROR: CodeSystem.where(url = 'http://ehelse.no/fhir/CodeSystem/no-kodeverk-8244'): Conformance resource /github/workspace/fsh-generated/resources/CodeSystem-no-kodeverk-8244.codesystem.json - the canonical URL (http://hl7.no/fhir/CodeSystem/no-kodeverk-8244.codesystem) does not match the URL (http://ehelse.no/fhir/CodeSystem/no-kodeverk-8244)
 INFORMATION: CodeSystem/no-kodeverk-8244.codesystem: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+ERROR: /github/workspace/fsh-generated/resources/CodeSystem-no-kodeverk-8244.codesystem: URL Mismatch http://hl7.no/fhir/CodeSystem/no-kodeverk-8244.codesystem vs http://ehelse.no/fhir/CodeSystem/no-kodeverk-8244
 == fsh-generated/resources/CodeSystem-no-kodeverk-8245.codesystem.json ==
+ERROR: CodeSystem.where(url = 'http://ehelse.no/fhir/CodeSystem/no-kodeverk-8245'): Conformance resource /github/workspace/fsh-generated/resources/CodeSystem-no-kodeverk-8245.codesystem.json - the canonical URL (http://hl7.no/fhir/CodeSystem/no-kodeverk-8245.codesystem) does not match the URL (http://ehelse.no/fhir/CodeSystem/no-kodeverk-8245)
 INFORMATION: CodeSystem/no-kodeverk-8245.codesystem: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+ERROR: /github/workspace/fsh-generated/resources/CodeSystem-no-kodeverk-8245.codesystem: URL Mismatch http://hl7.no/fhir/CodeSystem/no-kodeverk-8245.codesystem vs http://ehelse.no/fhir/CodeSystem/no-kodeverk-8245
 == fsh-generated/resources/CodeSystem-no-kodeverk-8264.codesystem.json ==
+ERROR: CodeSystem.where(url = 'http://ehelse.no/fhir/CodeSystem/no-kodeverk-8264'): Conformance resource /github/workspace/fsh-generated/resources/CodeSystem-no-kodeverk-8264.codesystem.json - the canonical URL (http://hl7.no/fhir/CodeSystem/no-kodeverk-8264.codesystem) does not match the URL (http://ehelse.no/fhir/CodeSystem/no-kodeverk-8264)
 INFORMATION: CodeSystem/no-kodeverk-8264.codesystem: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+ERROR: /github/workspace/fsh-generated/resources/CodeSystem-no-kodeverk-8264.codesystem: URL Mismatch http://hl7.no/fhir/CodeSystem/no-kodeverk-8264.codesystem vs http://ehelse.no/fhir/CodeSystem/no-kodeverk-8264
 == fsh-generated/resources/CodeSystem-no-kodeverk-8268.codesystem.json ==
+ERROR: CodeSystem.where(url = 'http://ehelse.no/fhir/CodeSystem/no-kodeverk-8268'): Conformance resource /github/workspace/fsh-generated/resources/CodeSystem-no-kodeverk-8268.codesystem.json - the canonical URL (http://hl7.no/fhir/CodeSystem/no-kodeverk-8268.codesystem) does not match the URL (http://ehelse.no/fhir/CodeSystem/no-kodeverk-8268)
 INFORMATION: CodeSystem/no-kodeverk-8268.codesystem: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+ERROR: /github/workspace/fsh-generated/resources/CodeSystem-no-kodeverk-8268.codesystem: URL Mismatch http://hl7.no/fhir/CodeSystem/no-kodeverk-8268.codesystem vs http://ehelse.no/fhir/CodeSystem/no-kodeverk-8268
 == fsh-generated/resources/CodeSystem-no-kodeverk-8269.codesystem.json ==
+ERROR: CodeSystem.where(url = 'http://ehelse.no/fhir/CodeSystem/no-kodeverk-8269'): Conformance resource /github/workspace/fsh-generated/resources/CodeSystem-no-kodeverk-8269.codesystem.json - the canonical URL (http://hl7.no/fhir/CodeSystem/no-kodeverk-8269.codesystem) does not match the URL (http://ehelse.no/fhir/CodeSystem/no-kodeverk-8269)
 INFORMATION: CodeSystem/no-kodeverk-8269.codesystem: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+ERROR: /github/workspace/fsh-generated/resources/CodeSystem-no-kodeverk-8269.codesystem: URL Mismatch http://hl7.no/fhir/CodeSystem/no-kodeverk-8269.codesystem vs http://ehelse.no/fhir/CodeSystem/no-kodeverk-8269
 == fsh-generated/resources/CodeSystem-no-kodeverk-8271.codesystem.json ==
+ERROR: CodeSystem.where(url = 'http://ehelse.no/fhir/CodeSystem/no-kodeverk-8271'): Conformance resource /github/workspace/fsh-generated/resources/CodeSystem-no-kodeverk-8271.codesystem.json - the canonical URL (http://hl7.no/fhir/CodeSystem/no-kodeverk-8271.codesystem) does not match the URL (http://ehelse.no/fhir/CodeSystem/no-kodeverk-8271)
 INFORMATION: CodeSystem/no-kodeverk-8271.codesystem: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+ERROR: /github/workspace/fsh-generated/resources/CodeSystem-no-kodeverk-8271.codesystem: URL Mismatch http://hl7.no/fhir/CodeSystem/no-kodeverk-8271.codesystem vs http://ehelse.no/fhir/CodeSystem/no-kodeverk-8271
 == fsh-generated/resources/CodeSystem-no-kodeverk-8272.codesystem.json ==
+ERROR: CodeSystem.where(url = 'http://ehelse.no/fhir/CodeSystem/no-kodeverk-8272'): Conformance resource /github/workspace/fsh-generated/resources/CodeSystem-no-kodeverk-8272.codesystem.json - the canonical URL (http://hl7.no/fhir/CodeSystem/no-kodeverk-8272.codesystem) does not match the URL (http://ehelse.no/fhir/CodeSystem/no-kodeverk-8272)
 INFORMATION: CodeSystem/no-kodeverk-8272.codesystem: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+ERROR: /github/workspace/fsh-generated/resources/CodeSystem-no-kodeverk-8272.codesystem: URL Mismatch http://hl7.no/fhir/CodeSystem/no-kodeverk-8272.codesystem vs http://ehelse.no/fhir/CodeSystem/no-kodeverk-8272
 == fsh-generated/resources/CodeSystem-no-kodeverk-8273.codesystem.json ==
+ERROR: CodeSystem.where(url = 'http://ehelse.no/fhir/CodeSystem/no-kodeverk-8273'): Conformance resource /github/workspace/fsh-generated/resources/CodeSystem-no-kodeverk-8273.codesystem.json - the canonical URL (http://hl7.no/fhir/CodeSystem/no-kodeverk-8273.codesystem) does not match the URL (http://ehelse.no/fhir/CodeSystem/no-kodeverk-8273)
 INFORMATION: CodeSystem/no-kodeverk-8273.codesystem: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+ERROR: /github/workspace/fsh-generated/resources/CodeSystem-no-kodeverk-8273.codesystem: URL Mismatch http://hl7.no/fhir/CodeSystem/no-kodeverk-8273.codesystem vs http://ehelse.no/fhir/CodeSystem/no-kodeverk-8273
 == fsh-generated/resources/CodeSystem-no-kodeverk-8275.codesystem.json ==
+ERROR: CodeSystem.where(url = 'http://ehelse.no/fhir/CodeSystem/no-kodeverk-8275'): Conformance resource /github/workspace/fsh-generated/resources/CodeSystem-no-kodeverk-8275.codesystem.json - the canonical URL (http://hl7.no/fhir/CodeSystem/no-kodeverk-8275.codesystem) does not match the URL (http://ehelse.no/fhir/CodeSystem/no-kodeverk-8275)
 INFORMATION: CodeSystem/no-kodeverk-8275.codesystem: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+ERROR: /github/workspace/fsh-generated/resources/CodeSystem-no-kodeverk-8275.codesystem: URL Mismatch http://hl7.no/fhir/CodeSystem/no-kodeverk-8275.codesystem vs http://ehelse.no/fhir/CodeSystem/no-kodeverk-8275
 == fsh-generated/resources/CodeSystem-no-kodeverk-8327.codesystem.json ==
+ERROR: CodeSystem.where(url = 'http://ehelse.no/fhir/CodeSystem/no-kodeverk-8327'): Conformance resource /github/workspace/fsh-generated/resources/CodeSystem-no-kodeverk-8327.codesystem.json - the canonical URL (http://hl7.no/fhir/CodeSystem/no-kodeverk-8327.codesystem) does not match the URL (http://ehelse.no/fhir/CodeSystem/no-kodeverk-8327)
 INFORMATION: CodeSystem/no-kodeverk-8327.codesystem: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+ERROR: /github/workspace/fsh-generated/resources/CodeSystem-no-kodeverk-8327.codesystem: URL Mismatch http://hl7.no/fhir/CodeSystem/no-kodeverk-8327.codesystem vs http://ehelse.no/fhir/CodeSystem/no-kodeverk-8327
+== fsh-generated/resources/CodeSystem-no-kodeverk-8340.codesystem.json ==
+ERROR: CodeSystem.where(url = 'http://ehelse.no/fhir/CodeSystem/no-kodeverk-8340'): Conformance resource /github/workspace/fsh-generated/resources/CodeSystem-no-kodeverk-8340.codesystem.json - the canonical URL (http://hl7.no/fhir/CodeSystem/no-kodeverk-8340.codesystem) does not match the URL (http://ehelse.no/fhir/CodeSystem/no-kodeverk-8340)
+INFORMATION: CodeSystem/no-kodeverk-8340.codesystem: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+ERROR: /github/workspace/fsh-generated/resources/CodeSystem-no-kodeverk-8340.codesystem: URL Mismatch http://hl7.no/fhir/CodeSystem/no-kodeverk-8340.codesystem vs http://ehelse.no/fhir/CodeSystem/no-kodeverk-8340
 == fsh-generated/resources/CodeSystem-no-kodeverk-8351.codesystem.json ==
+ERROR: CodeSystem.where(url = 'http://ehelse.no/fhir/CodeSystem/no-kodeverk-8351'): Conformance resource /github/workspace/fsh-generated/resources/CodeSystem-no-kodeverk-8351.codesystem.json - the canonical URL (http://hl7.no/fhir/CodeSystem/no-kodeverk-8351.codesystem) does not match the URL (http://ehelse.no/fhir/CodeSystem/no-kodeverk-8351)
 INFORMATION: CodeSystem/no-kodeverk-8351.codesystem: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+ERROR: /github/workspace/fsh-generated/resources/CodeSystem-no-kodeverk-8351.codesystem: URL Mismatch http://hl7.no/fhir/CodeSystem/no-kodeverk-8351.codesystem vs http://ehelse.no/fhir/CodeSystem/no-kodeverk-8351
 == fsh-generated/resources/CodeSystem-no-kodeverk-9060.codesystem.json ==
+ERROR: CodeSystem.where(url = 'http://ehelse.no/fhir/CodeSystem/no-kodeverk-9060'): Conformance resource /github/workspace/fsh-generated/resources/CodeSystem-no-kodeverk-9060.codesystem.json - the canonical URL (http://hl7.no/fhir/CodeSystem/no-kodeverk-9060.codesystem) does not match the URL (http://ehelse.no/fhir/CodeSystem/no-kodeverk-9060)
 INFORMATION: CodeSystem/no-kodeverk-9060.codesystem: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+ERROR: /github/workspace/fsh-generated/resources/CodeSystem-no-kodeverk-9060.codesystem: URL Mismatch http://hl7.no/fhir/CodeSystem/no-kodeverk-9060.codesystem vs http://ehelse.no/fhir/CodeSystem/no-kodeverk-9060
 == fsh-generated/resources/CodeSystem-no-kodeverk-ICD-10.codesystem.json ==
+ERROR: CodeSystem.where(url = 'http://hl7.org/fhir/sid/icd-10-no'): Conformance resource /github/workspace/fsh-generated/resources/CodeSystem-no-kodeverk-ICD-10.codesystem.json - the canonical URL (http://hl7.no/fhir/CodeSystem/no-kodeverk-ICD-10.codesystem) does not match the URL (http://hl7.org/fhir/sid/icd-10-no)
 WARNING: CodeSystem/no-kodeverk-ICD-10.codesystem: CodeSystem: HL7 Defined CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+ERROR: /github/workspace/fsh-generated/resources/CodeSystem-no-kodeverk-ICD-10.codesystem: URL Mismatch http://hl7.no/fhir/CodeSystem/no-kodeverk-ICD-10.codesystem vs http://hl7.org/fhir/sid/icd-10-no
 == fsh-generated/resources/ImplementationGuide-hl7.fhir.no.kodeverk.json ==
+ERROR: ImplementationGuide/hl7.fhir.no.kodeverk: ImplementationGuide.definition.parameter[0].code: The value provided ('copyrightyear') is not in the value set 'GuideParameterCode' (http://hl7.org/fhir/ValueSet/guide-parameter-code|4.0.1), and a code is required from this value set) (error message = Unknown Code http://hl7.org/fhir/guide-parameter-code#copyrightyear in http://hl7.org/fhir/guide-parameter-code)
+ERROR: ImplementationGuide/hl7.fhir.no.kodeverk: ImplementationGuide.definition.parameter[1].code: The value provided ('releaselabel') is not in the value set 'GuideParameterCode' (http://hl7.org/fhir/ValueSet/guide-parameter-code|4.0.1), and a code is required from this value set) (error message = Unknown Code http://hl7.org/fhir/guide-parameter-code#releaselabel in http://hl7.org/fhir/guide-parameter-code)
+ERROR: ImplementationGuide/hl7.fhir.no.kodeverk: ImplementationGuide.definition.parameter[16].code: The value provided ('path-liquid') is not in the value set 'GuideParameterCode' (http://hl7.org/fhir/ValueSet/guide-parameter-code|4.0.1), and a code is required from this value set) (error message = Unknown Code http://hl7.org/fhir/guide-parameter-code#path-liquid in http://hl7.org/fhir/guide-parameter-code)
+ERROR: ImplementationGuide/hl7.fhir.no.kodeverk: ImplementationGuide.definition.parameter[17].code: The value provided ('path-liquid') is not in the value set 'GuideParameterCode' (http://hl7.org/fhir/ValueSet/guide-parameter-code|4.0.1), and a code is required from this value set) (error message = Unknown Code http://hl7.org/fhir/guide-parameter-code#path-liquid in http://hl7.org/fhir/guide-parameter-code)
+ERROR: ImplementationGuide/hl7.fhir.no.kodeverk: ImplementationGuide.definition.parameter[18].code: The value provided ('path-qa') is not in the value set 'GuideParameterCode' (http://hl7.org/fhir/ValueSet/guide-parameter-code|4.0.1), and a code is required from this value set) (error message = Unknown Code http://hl7.org/fhir/guide-parameter-code#path-qa in http://hl7.org/fhir/guide-parameter-code)
+ERROR: ImplementationGuide/hl7.fhir.no.kodeverk: ImplementationGuide.definition.parameter[19].code: The value provided ('path-temp') is not in the value set 'GuideParameterCode' (http://hl7.org/fhir/ValueSet/guide-parameter-code|4.0.1), and a code is required from this value set) (error message = Unknown Code http://hl7.org/fhir/guide-parameter-code#path-temp in http://hl7.org/fhir/guide-parameter-code)
+ERROR: ImplementationGuide/hl7.fhir.no.kodeverk: ImplementationGuide.definition.parameter[20].code: The value provided ('path-output') is not in the value set 'GuideParameterCode' (http://hl7.org/fhir/ValueSet/guide-parameter-code|4.0.1), and a code is required from this value set) (error message = Unknown Code http://hl7.org/fhir/guide-parameter-code#path-output in http://hl7.org/fhir/guide-parameter-code)
+ERROR: ImplementationGuide/hl7.fhir.no.kodeverk: ImplementationGuide.definition.parameter[22].code: The value provided ('path-suppressed-warnings') is not in the value set 'GuideParameterCode' (http://hl7.org/fhir/ValueSet/guide-parameter-code|4.0.1), and a code is required from this value set) (error message = Unknown Code http://hl7.org/fhir/guide-parameter-code#path-suppressed-warnings in http://hl7.org/fhir/guide-parameter-code)
+ERROR: ImplementationGuide/hl7.fhir.no.kodeverk: ImplementationGuide.definition.parameter[23].code: The value provided ('path-history') is not in the value set 'GuideParameterCode' (http://hl7.org/fhir/ValueSet/guide-parameter-code|4.0.1), and a code is required from this value set) (error message = Unknown Code http://hl7.org/fhir/guide-parameter-code#path-history in http://hl7.org/fhir/guide-parameter-code)
+ERROR: ImplementationGuide/hl7.fhir.no.kodeverk: ImplementationGuide.definition.parameter[24].code: The value provided ('template-html') is not in the value set 'GuideParameterCode' (http://hl7.org/fhir/ValueSet/guide-parameter-code|4.0.1), and a code is required from this value set) (error message = Unknown Code http://hl7.org/fhir/guide-parameter-code#template-html in http://hl7.org/fhir/guide-parameter-code)
+ERROR: ImplementationGuide/hl7.fhir.no.kodeverk: ImplementationGuide.definition.parameter[25].code: The value provided ('template-md') is not in the value set 'GuideParameterCode' (http://hl7.org/fhir/ValueSet/guide-parameter-code|4.0.1), and a code is required from this value set) (error message = Unknown Code http://hl7.org/fhir/guide-parameter-code#template-md in http://hl7.org/fhir/guide-parameter-code)
+ERROR: ImplementationGuide/hl7.fhir.no.kodeverk: ImplementationGuide.definition.parameter[26].code: The value provided ('apply-contact') is not in the value set 'GuideParameterCode' (http://hl7.org/fhir/ValueSet/guide-parameter-code|4.0.1), and a code is required from this value set) (error message = Unknown Code http://hl7.org/fhir/guide-parameter-code#apply-contact in http://hl7.org/fhir/guide-parameter-code)
+ERROR: ImplementationGuide/hl7.fhir.no.kodeverk: ImplementationGuide.definition.parameter[27].code: The value provided ('apply-context') is not in the value set 'GuideParameterCode' (http://hl7.org/fhir/ValueSet/guide-parameter-code|4.0.1), and a code is required from this value set) (error message = Unknown Code http://hl7.org/fhir/guide-parameter-code#apply-context in http://hl7.org/fhir/guide-parameter-code)
+ERROR: ImplementationGuide/hl7.fhir.no.kodeverk: ImplementationGuide.definition.parameter[28].code: The value provided ('apply-copyright') is not in the value set 'GuideParameterCode' (http://hl7.org/fhir/ValueSet/guide-parameter-code|4.0.1), and a code is required from this value set) (error message = Unknown Code http://hl7.org/fhir/guide-parameter-code#apply-copyright in http://hl7.org/fhir/guide-parameter-code)
+ERROR: ImplementationGuide/hl7.fhir.no.kodeverk: ImplementationGuide.definition.parameter[29].code: The value provided ('apply-jurisdiction') is not in the value set 'GuideParameterCode' (http://hl7.org/fhir/ValueSet/guide-parameter-code|4.0.1), and a code is required from this value set) (error message = Unknown Code http://hl7.org/fhir/guide-parameter-code#apply-jurisdiction in http://hl7.org/fhir/guide-parameter-code)
+ERROR: ImplementationGuide/hl7.fhir.no.kodeverk: ImplementationGuide.definition.parameter[30].code: The value provided ('apply-license') is not in the value set 'GuideParameterCode' (http://hl7.org/fhir/ValueSet/guide-parameter-code|4.0.1), and a code is required from this value set) (error message = Unknown Code http://hl7.org/fhir/guide-parameter-code#apply-license in http://hl7.org/fhir/guide-parameter-code)
+ERROR: ImplementationGuide/hl7.fhir.no.kodeverk: ImplementationGuide.definition.parameter[31].code: The value provided ('apply-publisher') is not in the value set 'GuideParameterCode' (http://hl7.org/fhir/ValueSet/guide-parameter-code|4.0.1), and a code is required from this value set) (error message = Unknown Code http://hl7.org/fhir/guide-parameter-code#apply-publisher in http://hl7.org/fhir/guide-parameter-code)
+ERROR: ImplementationGuide/hl7.fhir.no.kodeverk: ImplementationGuide.definition.parameter[32].code: The value provided ('apply-version') is not in the value set 'GuideParameterCode' (http://hl7.org/fhir/ValueSet/guide-parameter-code|4.0.1), and a code is required from this value set) (error message = Unknown Code http://hl7.org/fhir/guide-parameter-code#apply-version in http://hl7.org/fhir/guide-parameter-code)
+ERROR: ImplementationGuide/hl7.fhir.no.kodeverk: ImplementationGuide.definition.parameter[33].code: The value provided ('active-tables') is not in the value set 'GuideParameterCode' (http://hl7.org/fhir/ValueSet/guide-parameter-code|4.0.1), and a code is required from this value set) (error message = Unknown Code http://hl7.org/fhir/guide-parameter-code#active-tables in http://hl7.org/fhir/guide-parameter-code)
 == fsh-generated/resources/NamingSystem-no-basis-apotekenes-konsesjonsnr.json ==
 == fsh-generated/resources/NamingSystem-no-basis-her-id.json ==
 == fsh-generated/resources/NamingSystem-no-basis-orgnr.json ==

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="no-kodeverk-8212.codesystem"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This code system <code>http://ehelse.no/fhir/CodeSystem/no-kodeverk-8212</code> defines many codes, but they are not represented here</p></div>
+  </text>
+  <url value="http://ehelse.no/fhir/CodeSystem/no-kodeverk-8212"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:oid:2.16.578.1.12.4.1.1.8212"/>
+  </identifier>
+  <version value="0.4.3"/>
+  <name value="NoKodeverk8212"/>
+  <title value="8212 Uspesifisert laboratoriekodeverk"/>
+  <status value="active"/>
+  <date value="2022-09-09T13:02:22+00:00"/>
+  <publisher value="Direktoratet for e-helse"/>
+  <description value="Dette kodeverk skal benyttes i tilfeller der det er uavklart hvilket type koder som skal være med i en melding. Kodeverket inneholder ingen koder"/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="NO"/>
+      <display value="Norway"/>
+    </coding>
+  </jurisdiction>
+  <content value="not-present"/>
+</CodeSystem>

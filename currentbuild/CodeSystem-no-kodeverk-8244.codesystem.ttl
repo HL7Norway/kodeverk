@@ -10,7 +10,7 @@
   fhir:Resource.id [ fhir:value "no-kodeverk-8244.codesystem"];
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system http://ehelse.no/fhir/CodeSystem/no-kodeverk-8244 defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">1<a name=\"no-kodeverk-8244.codesystem-1\"> </a></td><td>Over øvre referansegrense</td></tr><tr><td style=\"white-space:nowrap\">2<a name=\"no-kodeverk-8244.codesystem-2\"> </a></td><td>Under nedre referansegrense</td></tr><tr><td style=\"white-space:nowrap\">3<a name=\"no-kodeverk-8244.codesystem-3\"> </a></td><td>Utenfor referansegrensene</td></tr></table></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system <code>http://ehelse.no/fhir/CodeSystem/no-kodeverk-8244</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">1<a name=\"no-kodeverk-8244.codesystem-1\"> </a></td><td>Over øvre referansegrense</td></tr><tr><td style=\"white-space:nowrap\">2<a name=\"no-kodeverk-8244.codesystem-2\"> </a></td><td>Under nedre referansegrense</td></tr><tr><td style=\"white-space:nowrap\">3<a name=\"no-kodeverk-8244.codesystem-3\"> </a></td><td>Utenfor referansegrensene</td></tr></table></div>"
   ];
   fhir:CodeSystem.url [ fhir:value "http://ehelse.no/fhir/CodeSystem/no-kodeverk-8244"];
   fhir:CodeSystem.identifier [
@@ -18,11 +18,11 @@
      fhir:Identifier.system [ fhir:value "urn:ietf:rfc:3986" ];
      fhir:Identifier.value [ fhir:value "urn:oid:2.16.578.1.12.4.1.1.8244" ]
   ];
-  fhir:CodeSystem.version [ fhir:value "0.4.2"];
+  fhir:CodeSystem.version [ fhir:value "0.4.3"];
   fhir:CodeSystem.name [ fhir:value "NoKodeverk8244"];
   fhir:CodeSystem.title [ fhir:value "8244 Avviksmarkør i svarrapportering av medisinske tjenester"];
   fhir:CodeSystem.status [ fhir:value "active"];
-  fhir:CodeSystem.date [ fhir:value "2022-05-16T13:02:52+00:00"^^xsd:dateTime];
+  fhir:CodeSystem.date [ fhir:value "2022-09-09T13:02:22+00:00"^^xsd:dateTime];
   fhir:CodeSystem.publisher [ fhir:value "Direktoratet for e-helse"];
   fhir:CodeSystem.description [ fhir:value "Angir svarverdi i forhold til referansegrense"];
   fhir:CodeSystem.jurisdiction [

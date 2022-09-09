@@ -3,7 +3,7 @@
   "id": "no-kodeverk-7270-ncrp.codesystem",
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system http://ehelse.no/fhir/CodeSystem/no-kodeverk-7270-ncrp defines many codes, but they are not represented here</p></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system <code>http://ehelse.no/fhir/CodeSystem/no-kodeverk-7270-ncrp</code> defines many codes, but they are not represented here</p></div>"
   },
   "url": "http://ehelse.no/fhir/CodeSystem/no-kodeverk-7270-ncrp",
   "identifier": [
@@ -12,11 +12,11 @@
       "value": "urn:oid:2.16.578.1.12.4.1.1.7270"
     }
   ],
-  "version": "0.4.2",
+  "version": "0.4.3",
   "name": "NoKodeverk7270NCRP",
   "title": "NCRP",
   "status": "active",
-  "date": "2022-05-16T13:02:52+00:00",
+  "date": "2022-09-09T13:02:22+00:00",
   "publisher": "Helsedirektoratet",
   "description": "Kodeverk for radiologi og nukleærmedisin. Kodeverket skal brukes for å dokumentere og skal kunne brukes for å bestille radiologiske tjenester. Det skal benyttes for både polikliniske og innlagte pasienter. Fra 1. januar 2012 har det vært obligatorisk å bruke dette kodeverket for å rapportere poliklinisk radiologisk aktivitet både for offentlige og private virksomheter.",
   "jurisdiction": [

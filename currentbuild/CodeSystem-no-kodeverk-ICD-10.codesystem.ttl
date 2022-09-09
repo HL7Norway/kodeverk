@@ -10,7 +10,7 @@
   fhir:Resource.id [ fhir:value "no-kodeverk-ICD-10.codesystem"];
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system http://hl7.org/fhir/sid/icd-10-no defines many codes, but they are not represented here</p></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system <code>http://hl7.org/fhir/sid/icd-10-no</code> defines many codes, but they are not represented here</p></div>"
   ];
   fhir:CodeSystem.url [ fhir:value "http://hl7.org/fhir/sid/icd-10-no"];
   fhir:CodeSystem.identifier [
@@ -19,11 +19,11 @@
      fhir:Identifier.system [ fhir:value "urn:ietf:rfc:3986" ];
      fhir:Identifier.value [ fhir:value "urn:oid:2.16.578.1.12.4.1.1.7110" ]
   ];
-  fhir:CodeSystem.version [ fhir:value "0.4.2"];
+  fhir:CodeSystem.version [ fhir:value "0.4.3"];
   fhir:CodeSystem.name [ fhir:value "NoKodeverkICD10"];
   fhir:CodeSystem.title [ fhir:value "ICD-10"];
   fhir:CodeSystem.status [ fhir:value "active"];
-  fhir:CodeSystem.date [ fhir:value "2022-05-16T13:02:52+00:00"^^xsd:dateTime];
+  fhir:CodeSystem.date [ fhir:value "2022-09-09T13:02:22+00:00"^^xsd:dateTime];
   fhir:CodeSystem.publisher [ fhir:value "Direktoratet for e-helse"];
   fhir:CodeSystem.description [ fhir:value "Klassifikasjon av sykdommer og beslektede helseproblemer."];
   fhir:CodeSystem.jurisdiction [

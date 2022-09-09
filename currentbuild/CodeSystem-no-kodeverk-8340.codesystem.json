@@ -1,0 +1,77 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "no-kodeverk-8340.codesystem",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system <code>http://ehelse.no/fhir/CodeSystem/no-kodeverk-8340</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">T001<a name=\"no-kodeverk-8340.codesystem-T001\"> </a></td><td>Påvist</td></tr><tr><td style=\"white-space:nowrap\">T002<a name=\"no-kodeverk-8340.codesystem-T002\"> </a></td><td>Positiv</td></tr><tr><td style=\"white-space:nowrap\">T003<a name=\"no-kodeverk-8340.codesystem-T003\"> </a></td><td>Svakt postiv</td></tr><tr><td style=\"white-space:nowrap\">T004<a name=\"no-kodeverk-8340.codesystem-T004\"> </a></td><td>Grenseverdi</td></tr><tr><td style=\"white-space:nowrap\">T005<a name=\"no-kodeverk-8340.codesystem-T005\"> </a></td><td>Gråsone</td></tr><tr><td style=\"white-space:nowrap\">T006<a name=\"no-kodeverk-8340.codesystem-T006\"> </a></td><td>Reaktiv</td></tr><tr><td style=\"white-space:nowrap\">T007<a name=\"no-kodeverk-8340.codesystem-T007\"> </a></td><td>Ikke påvist</td></tr><tr><td style=\"white-space:nowrap\">T008<a name=\"no-kodeverk-8340.codesystem-T008\"> </a></td><td>Negativ</td></tr><tr><td style=\"white-space:nowrap\">T009<a name=\"no-kodeverk-8340.codesystem-T009\"> </a></td><td>Inkonklusiv</td></tr><tr><td style=\"white-space:nowrap\">T010<a name=\"no-kodeverk-8340.codesystem-T010\"> </a></td><td>Se kommentar</td></tr></table></div>"
+  },
+  "url": "http://ehelse.no/fhir/CodeSystem/no-kodeverk-8340",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:2.16.578.1.12.4.1.1.8340"
+    }
+  ],
+  "version": "0.4.3",
+  "name": "NoKodeverk8340",
+  "title": "8340 Tekstlige resultatverdier for mikrobiologiske svar",
+  "status": "active",
+  "date": "2021-06-02",
+  "publisher": "Direktoratet for e-helse",
+  "description": "Kodeverk for tekstlig resultatverdier til bruk i svar av mikrobiologiske laboratorieundersøkelser.",
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166",
+          "code": "NO",
+          "display": "Norway"
+        }
+      ]
+    }
+  ],
+  "content": "complete",
+  "count": 10,
+  "concept": [
+    {
+      "code": "T001",
+      "display": "Påvist"
+    },
+    {
+      "code": "T002",
+      "display": "Positiv"
+    },
+    {
+      "code": "T003",
+      "display": "Svakt postiv"
+    },
+    {
+      "code": "T004",
+      "display": "Grenseverdi"
+    },
+    {
+      "code": "T005",
+      "display": "Gråsone"
+    },
+    {
+      "code": "T006",
+      "display": "Reaktiv"
+    },
+    {
+      "code": "T007",
+      "display": "Ikke påvist"
+    },
+    {
+      "code": "T008",
+      "display": "Negativ"
+    },
+    {
+      "code": "T009",
+      "display": "Inkonklusiv"
+    },
+    {
+      "code": "T010",
+      "display": "Se kommentar"
+    }
+  ]
+}
