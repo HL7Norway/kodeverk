@@ -16,4 +16,3 @@ Description: "Namespace for identifikatorer som skal benyttes med logiske refera
 * #urn:oid:2.16.578.1.12.4.1.4.101 "Organisasjonsnummer" "Organisasjonsnummeret i Enhetsregister (Brønnøysund)"
 * #urn:oid:2.16.578.1.12.4.1.4.102 "RESH-id"
 * #urn:oid:2.16.578.1.12.4.1.4.107 "Apotekets konsesjonsnummer"
-* #urn:oid:2.16.578.1.12.4.1.4.101
