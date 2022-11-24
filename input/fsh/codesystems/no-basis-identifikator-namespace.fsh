@@ -1,12 +1,10 @@
-CodeSystem: NoKodeverkIdentifikatorNamespace
-Id: no-kodeverk-identifikator-namespace.codesystem
+CodeSystem: NoBasisIdentifikatorNamespace
+Id: no-basis-identifikator-namespace.codesystem
 Title: "Namespace for identifikatorer"
 Description: "Liste med namespace for identifikatorer til bruk med logiske referanser."
-* ^url = "http://ehelse.no/fhir/CodeSystem/no-kodeverk-identifikatorer-namespace"
-// * ^identifier.system = "urn:ietf:rfc:3986"
-// * ^identifier.value = "urn:oid:2.16.578.1.12.4.1.1.XXXX"
+* ^url = "http://hl7.no/fhir/CodeSystem/no-basis-identifikator-namespace"  
 * ^status = #draft
-* ^date = "2022-11-23"
+* ^date = "2022-11-24"
 * ^publisher = "Direktoratet for e-helse"
 * ^purpose = "Skal kun benyttes for logiske referanser." 
 * #urn:oid:2.16.578.1.12.4.1.4.1 "Fødselsnummer"
