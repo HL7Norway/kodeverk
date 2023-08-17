@@ -5,83 +5,65 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://hl7.no/fhir/CodeSystem/no-kodeverk-8243.codesystem> a fhir:CodeSystem;
-  fhir:nodeRole fhir:treeRoot;
-  fhir:Resource.id [ fhir:value "no-kodeverk-8243.codesystem"];
-  fhir:DomainResource.text [
-     fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system <code>http://ehelse.no/fhir/CodeSystem/no-kodeverk-8243</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">AN<a name=\"no-kodeverk-8243.codesystem-AN\"> </a></td><td>Analyse</td></tr><tr><td style=\"white-space:nowrap\">DIAG<a name=\"no-kodeverk-8243.codesystem-DIAG\"> </a></td><td>Diagnose</td></tr><tr><td style=\"white-space:nowrap\">FU<a name=\"no-kodeverk-8243.codesystem-FU\"> </a></td><td>Funn og undersøkelsesresultater</td></tr><tr><td style=\"white-space:nowrap\">GR<a name=\"no-kodeverk-8243.codesystem-GR\"> </a></td><td>Gruppe</td></tr><tr><td style=\"white-space:nowrap\">LR<a name=\"no-kodeverk-8243.codesystem-LR\"> </a></td><td>Laboratorieresultat</td></tr><tr><td style=\"white-space:nowrap\">RSB<a name=\"no-kodeverk-8243.codesystem-RSB\"> </a></td><td>Resistensbestemmelse</td></tr><tr><td style=\"white-space:nowrap\">SY<a name=\"no-kodeverk-8243.codesystem-SY\"> </a></td><td>Sykmelding</td></tr><tr><td style=\"white-space:nowrap\">UP<a name=\"no-kodeverk-8243.codesystem-UP\"> </a></td><td>Ubesvarte prøver</td></tr><tr><td style=\"white-space:nowrap\">VU<a name=\"no-kodeverk-8243.codesystem-VU\"> </a></td><td>Vurdering</td></tr><tr><td style=\"white-space:nowrap\">XX<a name=\"no-kodeverk-8243.codesystem-XX\"> </a></td><td>Uspesifisert</td></tr></table></div>"
-  ];
-  fhir:CodeSystem.url [ fhir:value "http://ehelse.no/fhir/CodeSystem/no-kodeverk-8243"];
-  fhir:CodeSystem.identifier [
-     fhir:index 0;
-     fhir:Identifier.system [ fhir:value "urn:ietf:rfc:3986" ];
-     fhir:Identifier.value [ fhir:value "urn:oid:2.16.578.1.12.4.1.1.8243" ]
-  ];
-  fhir:CodeSystem.version [ fhir:value "0.4.3"];
-  fhir:CodeSystem.name [ fhir:value "NoKodeverk8243"];
-  fhir:CodeSystem.title [ fhir:value "8243 Type tekstsvar i tekstlig resultat i svarrapportering av medisinske tjenester"];
-  fhir:CodeSystem.status [ fhir:value "active"];
-  fhir:CodeSystem.date [ fhir:value "2022-09-09T13:02:22+00:00"^^xsd:dateTime];
-  fhir:CodeSystem.publisher [ fhir:value "Direktoratet for e-helse"];
-  fhir:CodeSystem.description [ fhir:value "Type tekstsvar i tekstlig resultat i svarrapportering av medisinske tjenester"];
-  fhir:CodeSystem.jurisdiction [
-     fhir:index 0;
-     fhir:CodeableConcept.coding [
-       fhir:index 0;
-       fhir:Coding.system [ fhir:value "urn:iso:std:iso:3166" ];
-       fhir:Coding.code [ fhir:value "NO" ];
-       fhir:Coding.display [ fhir:value "Norway" ]
-     ]
-  ];
-  fhir:CodeSystem.content [ fhir:value "complete"];
-  fhir:CodeSystem.count [ fhir:value "10"^^xsd:nonNegativeInteger];
-  fhir:CodeSystem.concept [
-     fhir:index 0;
-     fhir:CodeSystem.concept.code [ fhir:value "AN" ];
-     fhir:CodeSystem.concept.display [ fhir:value "Analyse" ]
-  ], [
-     fhir:index 1;
-     fhir:CodeSystem.concept.code [ fhir:value "DIAG" ];
-     fhir:CodeSystem.concept.display [ fhir:value "Diagnose" ]
-  ], [
-     fhir:index 2;
-     fhir:CodeSystem.concept.code [ fhir:value "FU" ];
-     fhir:CodeSystem.concept.display [ fhir:value "Funn og undersøkelsesresultater" ]
-  ], [
-     fhir:index 3;
-     fhir:CodeSystem.concept.code [ fhir:value "GR" ];
-     fhir:CodeSystem.concept.display [ fhir:value "Gruppe" ]
-  ], [
-     fhir:index 4;
-     fhir:CodeSystem.concept.code [ fhir:value "LR" ];
-     fhir:CodeSystem.concept.display [ fhir:value "Laboratorieresultat" ]
-  ], [
-     fhir:index 5;
-     fhir:CodeSystem.concept.code [ fhir:value "RSB" ];
-     fhir:CodeSystem.concept.display [ fhir:value "Resistensbestemmelse" ]
-  ], [
-     fhir:index 6;
-     fhir:CodeSystem.concept.code [ fhir:value "SY" ];
-     fhir:CodeSystem.concept.display [ fhir:value "Sykmelding" ]
-  ], [
-     fhir:index 7;
-     fhir:CodeSystem.concept.code [ fhir:value "UP" ];
-     fhir:CodeSystem.concept.display [ fhir:value "Ubesvarte prøver" ]
-  ], [
-     fhir:index 8;
-     fhir:CodeSystem.concept.code [ fhir:value "VU" ];
-     fhir:CodeSystem.concept.display [ fhir:value "Vurdering" ]
-  ], [
-     fhir:index 9;
-     fhir:CodeSystem.concept.code [ fhir:value "XX" ];
-     fhir:CodeSystem.concept.display [ fhir:value "Uspesifisert" ]
-  ] .
-
-# - ontology header ------------------------------------------------------------
-
-<http://hl7.no/fhir/CodeSystem/no-kodeverk-8243.codesystem.ttl> a owl:Ontology;
-  owl:imports fhir:fhir.ttl .
+<http://hl7.no/fhir/CodeSystem/no-kodeverk-8243.codesystem> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "no-kodeverk-8243.codesystem"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system <code>http://ehelse.no/fhir/CodeSystem/no-kodeverk-8243</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">AN<a name=\"no-kodeverk-8243.codesystem-AN\"> </a></td><td>Analyse</td></tr><tr><td style=\"white-space:nowrap\">DIAG<a name=\"no-kodeverk-8243.codesystem-DIAG\"> </a></td><td>Diagnose</td></tr><tr><td style=\"white-space:nowrap\">FU<a name=\"no-kodeverk-8243.codesystem-FU\"> </a></td><td>Funn og undersøkelsesresultater</td></tr><tr><td style=\"white-space:nowrap\">GR<a name=\"no-kodeverk-8243.codesystem-GR\"> </a></td><td>Gruppe</td></tr><tr><td style=\"white-space:nowrap\">LR<a name=\"no-kodeverk-8243.codesystem-LR\"> </a></td><td>Laboratorieresultat</td></tr><tr><td style=\"white-space:nowrap\">RSB<a name=\"no-kodeverk-8243.codesystem-RSB\"> </a></td><td>Resistensbestemmelse</td></tr><tr><td style=\"white-space:nowrap\">SY<a name=\"no-kodeverk-8243.codesystem-SY\"> </a></td><td>Sykmelding</td></tr><tr><td style=\"white-space:nowrap\">UP<a name=\"no-kodeverk-8243.codesystem-UP\"> </a></td><td>Ubesvarte prøver</td></tr><tr><td style=\"white-space:nowrap\">VU<a name=\"no-kodeverk-8243.codesystem-VU\"> </a></td><td>Vurdering</td></tr><tr><td style=\"white-space:nowrap\">XX<a name=\"no-kodeverk-8243.codesystem-XX\"> </a></td><td>Uspesifisert</td></tr></table></div>"
+  ] ; # 
+  fhir:url [ fhir:v "http://ehelse.no/fhir/CodeSystem/no-kodeverk-8243"^^xsd:anyURI] ; # 
+  fhir:identifier ( [
+     fhir:system [ fhir:v "urn:ietf:rfc:3986"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "urn:oid:2.16.578.1.12.4.1.1.8243" ]
+  ] ) ; # 
+  fhir:version [ fhir:v "0.4.3"] ; # 
+  fhir:name [ fhir:v "NoKodeverk8243"] ; # 
+  fhir:title [ fhir:v "8243 Type tekstsvar i tekstlig resultat i svarrapportering av medisinske tjenester"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:date [ fhir:v "2023-08-17T10:02:16+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "Direktoratet for e-helse"] ; # 
+  fhir:description [ fhir:v "Type tekstsvar i tekstlig resultat i svarrapportering av medisinske tjenester"] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [ fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "NO" ] ;
+       fhir:display [ fhir:v "Norway" ]
+     ] )
+  ] ) ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:count [ fhir:v "10"^^xsd:nonNegativeInteger] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "AN" ] ;
+     fhir:display [ fhir:v "Analyse" ]
+  ] [
+     fhir:code [ fhir:v "DIAG" ] ;
+     fhir:display [ fhir:v "Diagnose" ]
+  ] [
+     fhir:code [ fhir:v "FU" ] ;
+     fhir:display [ fhir:v "Funn og undersøkelsesresultater" ]
+  ] [
+     fhir:code [ fhir:v "GR" ] ;
+     fhir:display [ fhir:v "Gruppe" ]
+  ] [
+     fhir:code [ fhir:v "LR" ] ;
+     fhir:display [ fhir:v "Laboratorieresultat" ]
+  ] [
+     fhir:code [ fhir:v "RSB" ] ;
+     fhir:display [ fhir:v "Resistensbestemmelse" ]
+  ] [
+     fhir:code [ fhir:v "SY" ] ;
+     fhir:display [ fhir:v "Sykmelding" ]
+  ] [
+     fhir:code [ fhir:v "UP" ] ;
+     fhir:display [ fhir:v "Ubesvarte prøver" ]
+  ] [
+     fhir:code [ fhir:v "VU" ] ;
+     fhir:display [ fhir:v "Vurdering" ]
+  ] [
+     fhir:code [ fhir:v "XX" ] ;
+     fhir:display [ fhir:v "Uspesifisert" ]
+  ] ) . # 
 
 # -------------------------------------------------------------------------------------
 

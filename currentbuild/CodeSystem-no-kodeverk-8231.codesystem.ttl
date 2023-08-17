@@ -5,118 +5,92 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://hl7.no/fhir/CodeSystem/no-kodeverk-8231.codesystem> a fhir:CodeSystem;
-  fhir:nodeRole fhir:treeRoot;
-  fhir:Resource.id [ fhir:value "no-kodeverk-8231.codesystem"];
-  fhir:DomainResource.text [
-     fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system <code>http://ehelse.no/fhir/CodeSystem/no-kodeverk-8231</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">BG<a name=\"no-kodeverk-8231.codesystem-BG\"> </a></td><td>Begrunnelse</td><td>Uspesifisert</td></tr><tr><td style=\"white-space:nowrap\">BUP-BM<a name=\"no-kodeverk-8231.codesystem-BUP-BM\"> </a></td><td>Henvisningsgrunn barnets miljø</td><td/></tr><tr><td style=\"white-space:nowrap\">BUP-HG<a name=\"no-kodeverk-8231.codesystem-BUP-HG\"> </a></td><td>Henvisningsgrunn barnet</td><td/></tr><tr><td style=\"white-space:nowrap\">DIAG<a name=\"no-kodeverk-8231.codesystem-DIAG\"> </a></td><td>Diagnose</td><td>Når den ikke oppgis strukturert</td></tr><tr><td style=\"white-space:nowrap\">FA<a name=\"no-kodeverk-8231.codesystem-FA\"> </a></td><td>Familie/sosialt</td><td/></tr><tr><td style=\"white-space:nowrap\">FO<a name=\"no-kodeverk-8231.codesystem-FO\"> </a></td><td>Forløp og behandling</td><td/></tr><tr><td style=\"white-space:nowrap\">FU<a name=\"no-kodeverk-8231.codesystem-FU\"> </a></td><td>Funn og undersøkelsesresultater</td><td/></tr><tr><td style=\"white-space:nowrap\">HJ<a name=\"no-kodeverk-8231.codesystem-HJ\"> </a></td><td>Funksjonsnivå/hjelpetiltak</td><td/></tr><tr><td style=\"white-space:nowrap\">IP<a name=\"no-kodeverk-8231.codesystem-IP\"> </a></td><td>Informasjon til pasient/pårørende</td><td/></tr><tr><td style=\"white-space:nowrap\">KF<a name=\"no-kodeverk-8231.codesystem-KF\"> </a></td><td>Kontroll pga. tidligere funn</td><td/></tr><tr><td style=\"white-space:nowrap\">MAAL<a name=\"no-kodeverk-8231.codesystem-MAAL\"> </a></td><td>Mål for oppholdet</td><td/></tr><tr><td style=\"white-space:nowrap\">MU<a name=\"no-kodeverk-8231.codesystem-MU\"> </a></td><td>Innkalt til masseundersøkelse</td><td/></tr><tr><td style=\"white-space:nowrap\">PROB<a name=\"no-kodeverk-8231.codesystem-PROB\"> </a></td><td>Aktuell problemstilling</td><td/></tr><tr><td style=\"white-space:nowrap\">RU<a name=\"no-kodeverk-8231.codesystem-RU\"> </a></td><td>Rutineundersøkelse utenom masseundersøkelse</td><td/></tr><tr><td style=\"white-space:nowrap\">SVU<a name=\"no-kodeverk-8231.codesystem-SVU\"> </a></td><td>Spesialistvurdering</td><td>Dersom henvisningen har blitt vurdert av en spesialist skal det finnes en forekomst av ReasonAsText med SVU som kodeverdi. Relevant epikriseinformasjon kan legges i TectResultValue feltet.</td></tr><tr><td style=\"white-space:nowrap\">UP<a name=\"no-kodeverk-8231.codesystem-UP\"> </a></td><td>Ubesvarte prøver</td><td/></tr><tr><td style=\"white-space:nowrap\">UTRED<a name=\"no-kodeverk-8231.codesystem-UTRED\"> </a></td><td>Forventet utredning/behandling</td><td/></tr><tr><td style=\"white-space:nowrap\">VU<a name=\"no-kodeverk-8231.codesystem-VU\"> </a></td><td>Vurdering</td><td/></tr></table></div>"
-  ];
-  fhir:CodeSystem.url [ fhir:value "http://ehelse.no/fhir/CodeSystem/no-kodeverk-8231"];
-  fhir:CodeSystem.identifier [
-     fhir:index 0;
-     fhir:Identifier.system [ fhir:value "urn:ietf:rfc:3986" ];
-     fhir:Identifier.value [ fhir:value "urn:oid:2.16.578.1.12.4.1.1.8231" ]
-  ];
-  fhir:CodeSystem.version [ fhir:value "0.4.3"];
-  fhir:CodeSystem.name [ fhir:value "NoKodeverk8231"];
-  fhir:CodeSystem.title [ fhir:value "8231 Type tekstsvar"];
-  fhir:CodeSystem.status [ fhir:value "active"];
-  fhir:CodeSystem.date [ fhir:value "2022-09-09T13:02:22+00:00"^^xsd:dateTime];
-  fhir:CodeSystem.publisher [ fhir:value "Direktoratet for e-helse"];
-  fhir:CodeSystem.description [ fhir:value "Begrunnelse for rekvisisjon/henvisning"];
-  fhir:CodeSystem.jurisdiction [
-     fhir:index 0;
-     fhir:CodeableConcept.coding [
-       fhir:index 0;
-       fhir:Coding.system [ fhir:value "urn:iso:std:iso:3166" ];
-       fhir:Coding.code [ fhir:value "NO" ];
-       fhir:Coding.display [ fhir:value "Norway" ]
-     ]
-  ];
-  fhir:CodeSystem.content [ fhir:value "complete"];
-  fhir:CodeSystem.count [ fhir:value "18"^^xsd:nonNegativeInteger];
-  fhir:CodeSystem.concept [
-     fhir:index 0;
-     fhir:CodeSystem.concept.code [ fhir:value "BG" ];
-     fhir:CodeSystem.concept.display [ fhir:value "Begrunnelse" ];
-     fhir:CodeSystem.concept.definition [ fhir:value "Uspesifisert" ]
-  ], [
-     fhir:index 1;
-     fhir:CodeSystem.concept.code [ fhir:value "BUP-BM" ];
-     fhir:CodeSystem.concept.display [ fhir:value "Henvisningsgrunn barnets miljø" ]
-  ], [
-     fhir:index 2;
-     fhir:CodeSystem.concept.code [ fhir:value "BUP-HG" ];
-     fhir:CodeSystem.concept.display [ fhir:value "Henvisningsgrunn barnet" ]
-  ], [
-     fhir:index 3;
-     fhir:CodeSystem.concept.code [ fhir:value "DIAG" ];
-     fhir:CodeSystem.concept.display [ fhir:value "Diagnose" ];
-     fhir:CodeSystem.concept.definition [ fhir:value "Når den ikke oppgis strukturert" ]
-  ], [
-     fhir:index 4;
-     fhir:CodeSystem.concept.code [ fhir:value "FA" ];
-     fhir:CodeSystem.concept.display [ fhir:value "Familie/sosialt" ]
-  ], [
-     fhir:index 5;
-     fhir:CodeSystem.concept.code [ fhir:value "FO" ];
-     fhir:CodeSystem.concept.display [ fhir:value "Forløp og behandling" ]
-  ], [
-     fhir:index 6;
-     fhir:CodeSystem.concept.code [ fhir:value "FU" ];
-     fhir:CodeSystem.concept.display [ fhir:value "Funn og undersøkelsesresultater" ]
-  ], [
-     fhir:index 7;
-     fhir:CodeSystem.concept.code [ fhir:value "HJ" ];
-     fhir:CodeSystem.concept.display [ fhir:value "Funksjonsnivå/hjelpetiltak" ]
-  ], [
-     fhir:index 8;
-     fhir:CodeSystem.concept.code [ fhir:value "IP" ];
-     fhir:CodeSystem.concept.display [ fhir:value "Informasjon til pasient/pårørende" ]
-  ], [
-     fhir:index 9;
-     fhir:CodeSystem.concept.code [ fhir:value "KF" ];
-     fhir:CodeSystem.concept.display [ fhir:value "Kontroll pga. tidligere funn" ]
-  ], [
-     fhir:index 10;
-     fhir:CodeSystem.concept.code [ fhir:value "MAAL" ];
-     fhir:CodeSystem.concept.display [ fhir:value "Mål for oppholdet" ]
-  ], [
-     fhir:index 11;
-     fhir:CodeSystem.concept.code [ fhir:value "MU" ];
-     fhir:CodeSystem.concept.display [ fhir:value "Innkalt til masseundersøkelse" ]
-  ], [
-     fhir:index 12;
-     fhir:CodeSystem.concept.code [ fhir:value "PROB" ];
-     fhir:CodeSystem.concept.display [ fhir:value "Aktuell problemstilling" ]
-  ], [
-     fhir:index 13;
-     fhir:CodeSystem.concept.code [ fhir:value "RU" ];
-     fhir:CodeSystem.concept.display [ fhir:value "Rutineundersøkelse utenom masseundersøkelse" ]
-  ], [
-     fhir:index 14;
-     fhir:CodeSystem.concept.code [ fhir:value "SVU" ];
-     fhir:CodeSystem.concept.display [ fhir:value "Spesialistvurdering" ];
-     fhir:CodeSystem.concept.definition [ fhir:value "Dersom henvisningen har blitt vurdert av en spesialist skal det finnes en forekomst av ReasonAsText med SVU som kodeverdi. Relevant epikriseinformasjon kan legges i TectResultValue feltet." ]
-  ], [
-     fhir:index 15;
-     fhir:CodeSystem.concept.code [ fhir:value "UP" ];
-     fhir:CodeSystem.concept.display [ fhir:value "Ubesvarte prøver" ]
-  ], [
-     fhir:index 16;
-     fhir:CodeSystem.concept.code [ fhir:value "UTRED" ];
-     fhir:CodeSystem.concept.display [ fhir:value "Forventet utredning/behandling" ]
-  ], [
-     fhir:index 17;
-     fhir:CodeSystem.concept.code [ fhir:value "VU" ];
-     fhir:CodeSystem.concept.display [ fhir:value "Vurdering" ]
-  ] .
-
-# - ontology header ------------------------------------------------------------
-
-<http://hl7.no/fhir/CodeSystem/no-kodeverk-8231.codesystem.ttl> a owl:Ontology;
-  owl:imports fhir:fhir.ttl .
+<http://hl7.no/fhir/CodeSystem/no-kodeverk-8231.codesystem> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "no-kodeverk-8231.codesystem"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system <code>http://ehelse.no/fhir/CodeSystem/no-kodeverk-8231</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">BG<a name=\"no-kodeverk-8231.codesystem-BG\"> </a></td><td>Begrunnelse</td><td>Uspesifisert</td></tr><tr><td style=\"white-space:nowrap\">BUP-BM<a name=\"no-kodeverk-8231.codesystem-BUP-BM\"> </a></td><td>Henvisningsgrunn barnets miljø</td><td/></tr><tr><td style=\"white-space:nowrap\">BUP-HG<a name=\"no-kodeverk-8231.codesystem-BUP-HG\"> </a></td><td>Henvisningsgrunn barnet</td><td/></tr><tr><td style=\"white-space:nowrap\">DIAG<a name=\"no-kodeverk-8231.codesystem-DIAG\"> </a></td><td>Diagnose</td><td>Når den ikke oppgis strukturert</td></tr><tr><td style=\"white-space:nowrap\">FA<a name=\"no-kodeverk-8231.codesystem-FA\"> </a></td><td>Familie/sosialt</td><td/></tr><tr><td style=\"white-space:nowrap\">FO<a name=\"no-kodeverk-8231.codesystem-FO\"> </a></td><td>Forløp og behandling</td><td/></tr><tr><td style=\"white-space:nowrap\">FU<a name=\"no-kodeverk-8231.codesystem-FU\"> </a></td><td>Funn og undersøkelsesresultater</td><td/></tr><tr><td style=\"white-space:nowrap\">HJ<a name=\"no-kodeverk-8231.codesystem-HJ\"> </a></td><td>Funksjonsnivå/hjelpetiltak</td><td/></tr><tr><td style=\"white-space:nowrap\">IP<a name=\"no-kodeverk-8231.codesystem-IP\"> </a></td><td>Informasjon til pasient/pårørende</td><td/></tr><tr><td style=\"white-space:nowrap\">KF<a name=\"no-kodeverk-8231.codesystem-KF\"> </a></td><td>Kontroll pga. tidligere funn</td><td/></tr><tr><td style=\"white-space:nowrap\">MAAL<a name=\"no-kodeverk-8231.codesystem-MAAL\"> </a></td><td>Mål for oppholdet</td><td/></tr><tr><td style=\"white-space:nowrap\">MU<a name=\"no-kodeverk-8231.codesystem-MU\"> </a></td><td>Innkalt til masseundersøkelse</td><td/></tr><tr><td style=\"white-space:nowrap\">PROB<a name=\"no-kodeverk-8231.codesystem-PROB\"> </a></td><td>Aktuell problemstilling</td><td/></tr><tr><td style=\"white-space:nowrap\">RU<a name=\"no-kodeverk-8231.codesystem-RU\"> </a></td><td>Rutineundersøkelse utenom masseundersøkelse</td><td/></tr><tr><td style=\"white-space:nowrap\">SVU<a name=\"no-kodeverk-8231.codesystem-SVU\"> </a></td><td>Spesialistvurdering</td><td>Dersom henvisningen har blitt vurdert av en spesialist skal det finnes en forekomst av ReasonAsText med SVU som kodeverdi. Relevant epikriseinformasjon kan legges i TectResultValue feltet.</td></tr><tr><td style=\"white-space:nowrap\">UP<a name=\"no-kodeverk-8231.codesystem-UP\"> </a></td><td>Ubesvarte prøver</td><td/></tr><tr><td style=\"white-space:nowrap\">UTRED<a name=\"no-kodeverk-8231.codesystem-UTRED\"> </a></td><td>Forventet utredning/behandling</td><td/></tr><tr><td style=\"white-space:nowrap\">VU<a name=\"no-kodeverk-8231.codesystem-VU\"> </a></td><td>Vurdering</td><td/></tr></table></div>"
+  ] ; # 
+  fhir:url [ fhir:v "http://ehelse.no/fhir/CodeSystem/no-kodeverk-8231"^^xsd:anyURI] ; # 
+  fhir:identifier ( [
+     fhir:system [ fhir:v "urn:ietf:rfc:3986"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "urn:oid:2.16.578.1.12.4.1.1.8231" ]
+  ] ) ; # 
+  fhir:version [ fhir:v "0.4.3"] ; # 
+  fhir:name [ fhir:v "NoKodeverk8231"] ; # 
+  fhir:title [ fhir:v "8231 Type tekstsvar"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:date [ fhir:v "2023-08-17T10:02:16+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "Direktoratet for e-helse"] ; # 
+  fhir:description [ fhir:v "Begrunnelse for rekvisisjon/henvisning"] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [ fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "NO" ] ;
+       fhir:display [ fhir:v "Norway" ]
+     ] )
+  ] ) ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:count [ fhir:v "18"^^xsd:nonNegativeInteger] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "BG" ] ;
+     fhir:display [ fhir:v "Begrunnelse" ] ;
+     fhir:definition [ fhir:v "Uspesifisert" ]
+  ] [
+     fhir:code [ fhir:v "BUP-BM" ] ;
+     fhir:display [ fhir:v "Henvisningsgrunn barnets miljø" ]
+  ] [
+     fhir:code [ fhir:v "BUP-HG" ] ;
+     fhir:display [ fhir:v "Henvisningsgrunn barnet" ]
+  ] [
+     fhir:code [ fhir:v "DIAG" ] ;
+     fhir:display [ fhir:v "Diagnose" ] ;
+     fhir:definition [ fhir:v "Når den ikke oppgis strukturert" ]
+  ] [
+     fhir:code [ fhir:v "FA" ] ;
+     fhir:display [ fhir:v "Familie/sosialt" ]
+  ] [
+     fhir:code [ fhir:v "FO" ] ;
+     fhir:display [ fhir:v "Forløp og behandling" ]
+  ] [
+     fhir:code [ fhir:v "FU" ] ;
+     fhir:display [ fhir:v "Funn og undersøkelsesresultater" ]
+  ] [
+     fhir:code [ fhir:v "HJ" ] ;
+     fhir:display [ fhir:v "Funksjonsnivå/hjelpetiltak" ]
+  ] [
+     fhir:code [ fhir:v "IP" ] ;
+     fhir:display [ fhir:v "Informasjon til pasient/pårørende" ]
+  ] [
+     fhir:code [ fhir:v "KF" ] ;
+     fhir:display [ fhir:v "Kontroll pga. tidligere funn" ]
+  ] [
+     fhir:code [ fhir:v "MAAL" ] ;
+     fhir:display [ fhir:v "Mål for oppholdet" ]
+  ] [
+     fhir:code [ fhir:v "MU" ] ;
+     fhir:display [ fhir:v "Innkalt til masseundersøkelse" ]
+  ] [
+     fhir:code [ fhir:v "PROB" ] ;
+     fhir:display [ fhir:v "Aktuell problemstilling" ]
+  ] [
+     fhir:code [ fhir:v "RU" ] ;
+     fhir:display [ fhir:v "Rutineundersøkelse utenom masseundersøkelse" ]
+  ] [
+     fhir:code [ fhir:v "SVU" ] ;
+     fhir:display [ fhir:v "Spesialistvurdering" ] ;
+     fhir:definition [ fhir:v "Dersom henvisningen har blitt vurdert av en spesialist skal det finnes en forekomst av ReasonAsText med SVU som kodeverdi. Relevant epikriseinformasjon kan legges i TectResultValue feltet." ]
+  ] [
+     fhir:code [ fhir:v "UP" ] ;
+     fhir:display [ fhir:v "Ubesvarte prøver" ]
+  ] [
+     fhir:code [ fhir:v "UTRED" ] ;
+     fhir:display [ fhir:v "Forventet utredning/behandling" ]
+  ] [
+     fhir:code [ fhir:v "VU" ] ;
+     fhir:display [ fhir:v "Vurdering" ]
+  ] ) . # 
 
 # -------------------------------------------------------------------------------------
 

@@ -43,8 +43,8 @@
 
 	  <script src="assets/js/prism.js"></script>
 
-    <style type="text/css">h2{--heading-prefix:"5.16"}
-    h3,h4,h5,h6{--heading-prefix:"5.16"}</style>
+    <style type="text/css">h2{--heading-prefix:"5.13"}
+    h3,h4,h5,h6{--heading-prefix:"5.13"}</style>
     <div id="segment-header" class="segment">  <!-- segment-header -->
       <div class="container">  <!-- container -->
         <!-- Placeholder for child template header declarations -->
@@ -66,7 +66,17 @@
 
 
         <div id="ig-status">
-          <p><span style="font-size:12pt;font-weight:bold"></span><br/>0.4.3 - ci-build</p>
+          <p><span style="font-size:12pt;font-weight:bold"></span>
+            <br/>
+            <span style="display:inline-block;">0.4.3 - ci-build
+
+
+
+  <img alt="Norway flag" src="assets/images/nor.svg" height="16" title="Norway"/>
+
+
+            </span>
+          </p>
         </div>
       </div> <!-- /container -->
     </div>  <!-- /segment-header -->
@@ -151,11 +161,14 @@
 
 
 
+
+
 <ul class="nav nav-tabs">
 
   <li>
     <a href="CodeSystem-no-kodeverk-8245.codesystem.html">Narrative Content</a>
   </li>
+
 
 
   
@@ -187,6 +200,21 @@
 
 
 <h2 id="root">: 8245 Status for resultat i svarrapportering av medisinske tjenester - JSON Representation</h2>
+  <table class="colsi">
+    <tr>
+
+      <td colspan="2">
+        
+          Active
+          
+            as of 2023-08-17
+          
+        
+      </td>
+
+    </tr>
+  </table>
+
 
 <p><a href="CodeSystem-no-kodeverk-8245.codesystem.json" no-download="true">Raw json</a> | <a href="CodeSystem-no-kodeverk-8245.codesystem.json" download>Download</a></p>
 
@@ -195,7 +223,7 @@
 
 
 
-  <pre class="json"><code class="language-json">
+  <pre class="json" style="white-space: pre; overflow: hidden"><code class="language-json">
 {
   "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem">resourceType</a>" : "CodeSystem",
   "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.id">id</a>" : "no-kodeverk-8245.codesystem",
@@ -214,7 +242,7 @@
   "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.name">name</a>" : "NoKodeverk8245",
   "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.title">title</a>" : "8245 Status for resultat i svarrapportering av medisinske tjenester",
   "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.status">status</a>" : "active",
-  "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.date">date</a>" : "2022-09-09T13:02:22+00:00",
+  "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.date">date</a>" : "2023-08-17T10:02:16+00:00",
   "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.publisher">publisher</a>" : "Direktoratet for e-helse",
   "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.description">description</a>" : "Benyttes for å angi status/steg i arbeidsflyt for en enkelt lab- /røntgenundersøkelse.",
   "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.jurisdiction">jurisdiction</a>" : [
@@ -322,9 +350,9 @@
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2022+ <a style="color:var(--footer-hyperlink-text-color)" href=""></a>.  Package hl7.fhir.no.kodeverk#0.4.3 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Fri, Sep 9, 2022 13:02+0000">2022-09-09</span>
+          IG &#169; 2022+ <a style="color:var(--footer-hyperlink-text-color)" href=""></a>.  Package hl7.fhir.no.kodeverk#0.4.3 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Thu, Aug 17, 2023 10:02+0000">2023-08-17</span>
           <br/>
-          <span style="color: var(--footer-highlight-text-color)"></span>
+          <span style="color: var(--footer-highlight-text-color)">
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
                  <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
                  
@@ -348,6 +376,8 @@
   <script type="text/javascript" src="assets/js/bootstrap.min.js"> </script>
   <script type="text/javascript" src="assets/js/respond.min.js"> </script>
   <script type="text/javascript" src="assets/js/anchor.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard-btn.js"> </script>
   <script>anchors.options.visible = 'hover'
 anchors.add()</script>
   

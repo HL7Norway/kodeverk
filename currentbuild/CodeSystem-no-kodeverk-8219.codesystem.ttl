@@ -5,176 +5,135 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://hl7.no/fhir/CodeSystem/no-kodeverk-8219.codesystem> a fhir:CodeSystem;
-  fhir:nodeRole fhir:treeRoot;
-  fhir:Resource.id [ fhir:value "no-kodeverk-8219.codesystem"];
-  fhir:DomainResource.text [
-     fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system <code>http://ehelse.no/fhir/CodeSystem/no-kodeverk-8219</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">K<a name=\"no-kodeverk-8219.codesystem-K\"> </a></td><td>Kromosomundersøkelse</td><td/></tr><tr><td style=\"white-space:nowrap\">EM<a name=\"no-kodeverk-8219.codesystem-EM\"> </a></td><td>Ultrastrukturell diagnostikk</td><td/></tr><tr><td style=\"white-space:nowrap\">FLW<a name=\"no-kodeverk-8219.codesystem-FLW\"> </a></td><td>Flowcytometri</td><td/></tr><tr><td style=\"white-space:nowrap\">PCR<a name=\"no-kodeverk-8219.codesystem-PCR\"> </a></td><td>PCR-analyse</td><td/></tr><tr><td style=\"white-space:nowrap\">H<a name=\"no-kodeverk-8219.codesystem-H\"> </a></td><td>Hormonreseptoranalyse</td><td/></tr><tr><td style=\"white-space:nowrap\">PL<a name=\"no-kodeverk-8219.codesystem-PL\"> </a></td><td>Ploidianalyse</td><td/></tr><tr><td style=\"white-space:nowrap\">M<a name=\"no-kodeverk-8219.codesystem-M\"> </a></td><td>Molekylærgenetisk undersøkelse</td><td/></tr><tr><td style=\"white-space:nowrap\">MI<a name=\"no-kodeverk-8219.codesystem-MI\"> </a></td><td>Mikroskopisk undersøkelse</td><td/></tr><tr><td style=\"white-space:nowrap\">A<a name=\"no-kodeverk-8219.codesystem-A\"> </a></td><td>Histologisk undersøkelse</td><td/></tr><tr><td style=\"white-space:nowrap\">MA<a name=\"no-kodeverk-8219.codesystem-MA\"> </a></td><td>Makroskopisk undersøkelse</td><td/></tr><tr><td style=\"white-space:nowrap\">MAMI<a name=\"no-kodeverk-8219.codesystem-MAMI\"> </a></td><td>Makro- og mikroskopisk undersøkelse</td><td/></tr><tr><td style=\"white-space:nowrap\">G<a name=\"no-kodeverk-8219.codesystem-G\"> </a></td><td>Histologi relatert til genetisk us</td><td/></tr><tr><td style=\"white-space:nowrap\">H1<a name=\"no-kodeverk-8219.codesystem-H1\"> </a></td><td>Vanlig obduksjon</td><td/></tr><tr><td style=\"white-space:nowrap\">H2<a name=\"no-kodeverk-8219.codesystem-H2\"> </a></td><td>Nevropatologisk us</td><td/></tr><tr><td style=\"white-space:nowrap\">H3<a name=\"no-kodeverk-8219.codesystem-H3\"> </a></td><td>Obduksjon + Nevropatologisk us</td><td/></tr><tr><td style=\"white-space:nowrap\">F<a name=\"no-kodeverk-8219.codesystem-F\"> </a></td><td>Frysesnitt - hurtigdiagnostikk</td><td/></tr><tr><td style=\"white-space:nowrap\">BL<a name=\"no-kodeverk-8219.codesystem-BL\"> </a></td><td>Blodprøve</td><td/></tr><tr><td style=\"white-space:nowrap\">HPV<a name=\"no-kodeverk-8219.codesystem-HPV\"> </a></td><td>HPV-test</td><td/></tr><tr><td style=\"white-space:nowrap\">C<a name=\"no-kodeverk-8219.codesystem-C\"> </a></td><td>Cytologisk undersøkelse</td><td>Generell cytologisk undersøkelse</td></tr><tr><td style=\"white-space:nowrap\">VC<a name=\"no-kodeverk-8219.codesystem-VC\"> </a></td><td>Væskebasert cytologi</td><td/></tr><tr><td style=\"white-space:nowrap\">D<a name=\"no-kodeverk-8219.codesystem-D\"> </a></td><td>Vaginal - Cervix cytologi</td><td/></tr><tr><td style=\"white-space:nowrap\">E<a name=\"no-kodeverk-8219.codesystem-E\"> </a></td><td>Cytologisk us (non-gyn)</td><td/></tr><tr><td style=\"white-space:nowrap\">FNA<a name=\"no-kodeverk-8219.codesystem-FNA\"> </a></td><td>Finnålsaspirasjon</td><td/></tr><tr><td style=\"white-space:nowrap\">P<a name=\"no-kodeverk-8219.codesystem-P\"> </a></td><td>Punksjonscytologi</td><td/></tr><tr><td style=\"white-space:nowrap\">R<a name=\"no-kodeverk-8219.codesystem-R\"> </a></td><td>Rescreening/Us av restmateriale</td><td/></tr><tr><td style=\"white-space:nowrap\">RM<a name=\"no-kodeverk-8219.codesystem-RM\"> </a></td><td>Rettsmedisinsk obduksjon</td><td/></tr><tr><td style=\"white-space:nowrap\">T<a name=\"no-kodeverk-8219.codesystem-T\"> </a></td><td>Telepatologi</td><td/></tr><tr><td style=\"white-space:nowrap\">GO<a name=\"no-kodeverk-8219.codesystem-GO\"> </a></td><td>Gammel obduksjon</td><td/></tr><tr><td style=\"white-space:nowrap\">EMI<a name=\"no-kodeverk-8219.codesystem-EMI\"> </a></td><td>Elektronmikroskopi</td><td/></tr><tr><td style=\"white-space:nowrap\">MP<a name=\"no-kodeverk-8219.codesystem-MP\"> </a></td><td>Molekylærpatologisk us</td><td/></tr><tr><td style=\"white-space:nowrap\">FISH<a name=\"no-kodeverk-8219.codesystem-FISH\"> </a></td><td>FISH-analyse</td><td/></tr><tr><td style=\"white-space:nowrap\">LKP<a name=\"no-kodeverk-8219.codesystem-LKP\"> </a></td><td>Likkjellerprotokoll</td><td/></tr><tr><td style=\"white-space:nowrap\">LP<a name=\"no-kodeverk-8219.codesystem-LP\"> </a></td><td>Likprotokoll</td><td/></tr></table></div>"
-  ];
-  fhir:CodeSystem.url [ fhir:value "http://ehelse.no/fhir/CodeSystem/no-kodeverk-8219"];
-  fhir:CodeSystem.identifier [
-     fhir:index 0;
-     fhir:Identifier.system [ fhir:value "urn:ietf:rfc:3986" ];
-     fhir:Identifier.value [ fhir:value "urn:oid:2.16.578.1.12.4.1.1.8219" ]
-  ];
-  fhir:CodeSystem.version [ fhir:value "0.4.3"];
-  fhir:CodeSystem.name [ fhir:value "NoKodeverk8219"];
-  fhir:CodeSystem.title [ fhir:value "8219 Kodeverk for patologisk-anatomiske undersøkelser"];
-  fhir:CodeSystem.status [ fhir:value "active"];
-  fhir:CodeSystem.date [ fhir:value "2022-09-09T13:02:22+00:00"^^xsd:dateTime];
-  fhir:CodeSystem.publisher [ fhir:value "Direktoratet for e-helse"];
-  fhir:CodeSystem.description [ fhir:value "Kodene beskriver ulike typer patologi-undersøkelser."];
-  fhir:CodeSystem.jurisdiction [
-     fhir:index 0;
-     fhir:CodeableConcept.coding [
-       fhir:index 0;
-       fhir:Coding.system [ fhir:value "urn:iso:std:iso:3166" ];
-       fhir:Coding.code [ fhir:value "NO" ];
-       fhir:Coding.display [ fhir:value "Norway" ]
-     ]
-  ];
-  fhir:CodeSystem.content [ fhir:value "complete"];
-  fhir:CodeSystem.count [ fhir:value "33"^^xsd:nonNegativeInteger];
-  fhir:CodeSystem.concept [
-     fhir:index 0;
-     fhir:CodeSystem.concept.code [ fhir:value "K" ];
-     fhir:CodeSystem.concept.display [ fhir:value "Kromosomundersøkelse" ]
-  ], [
-     fhir:index 1;
-     fhir:CodeSystem.concept.code [ fhir:value "EM" ];
-     fhir:CodeSystem.concept.display [ fhir:value "Ultrastrukturell diagnostikk" ]
-  ], [
-     fhir:index 2;
-     fhir:CodeSystem.concept.code [ fhir:value "FLW" ];
-     fhir:CodeSystem.concept.display [ fhir:value "Flowcytometri" ]
-  ], [
-     fhir:index 3;
-     fhir:CodeSystem.concept.code [ fhir:value "PCR" ];
-     fhir:CodeSystem.concept.display [ fhir:value "PCR-analyse" ]
-  ], [
-     fhir:index 4;
-     fhir:CodeSystem.concept.code [ fhir:value "H" ];
-     fhir:CodeSystem.concept.display [ fhir:value "Hormonreseptoranalyse" ]
-  ], [
-     fhir:index 5;
-     fhir:CodeSystem.concept.code [ fhir:value "PL" ];
-     fhir:CodeSystem.concept.display [ fhir:value "Ploidianalyse" ]
-  ], [
-     fhir:index 6;
-     fhir:CodeSystem.concept.code [ fhir:value "M" ];
-     fhir:CodeSystem.concept.display [ fhir:value "Molekylærgenetisk undersøkelse" ]
-  ], [
-     fhir:index 7;
-     fhir:CodeSystem.concept.code [ fhir:value "MI" ];
-     fhir:CodeSystem.concept.display [ fhir:value "Mikroskopisk undersøkelse" ]
-  ], [
-     fhir:index 8;
-     fhir:CodeSystem.concept.code [ fhir:value "A" ];
-     fhir:CodeSystem.concept.display [ fhir:value "Histologisk undersøkelse" ]
-  ], [
-     fhir:index 9;
-     fhir:CodeSystem.concept.code [ fhir:value "MA" ];
-     fhir:CodeSystem.concept.display [ fhir:value "Makroskopisk undersøkelse" ]
-  ], [
-     fhir:index 10;
-     fhir:CodeSystem.concept.code [ fhir:value "MAMI" ];
-     fhir:CodeSystem.concept.display [ fhir:value "Makro- og mikroskopisk undersøkelse" ]
-  ], [
-     fhir:index 11;
-     fhir:CodeSystem.concept.code [ fhir:value "G" ];
-     fhir:CodeSystem.concept.display [ fhir:value "Histologi relatert til genetisk us" ]
-  ], [
-     fhir:index 12;
-     fhir:CodeSystem.concept.code [ fhir:value "H1" ];
-     fhir:CodeSystem.concept.display [ fhir:value "Vanlig obduksjon" ]
-  ], [
-     fhir:index 13;
-     fhir:CodeSystem.concept.code [ fhir:value "H2" ];
-     fhir:CodeSystem.concept.display [ fhir:value "Nevropatologisk us" ]
-  ], [
-     fhir:index 14;
-     fhir:CodeSystem.concept.code [ fhir:value "H3" ];
-     fhir:CodeSystem.concept.display [ fhir:value "Obduksjon + Nevropatologisk us" ]
-  ], [
-     fhir:index 15;
-     fhir:CodeSystem.concept.code [ fhir:value "F" ];
-     fhir:CodeSystem.concept.display [ fhir:value "Frysesnitt - hurtigdiagnostikk" ]
-  ], [
-     fhir:index 16;
-     fhir:CodeSystem.concept.code [ fhir:value "BL" ];
-     fhir:CodeSystem.concept.display [ fhir:value "Blodprøve" ]
-  ], [
-     fhir:index 17;
-     fhir:CodeSystem.concept.code [ fhir:value "HPV" ];
-     fhir:CodeSystem.concept.display [ fhir:value "HPV-test" ]
-  ], [
-     fhir:index 18;
-     fhir:CodeSystem.concept.code [ fhir:value "C" ];
-     fhir:CodeSystem.concept.display [ fhir:value "Cytologisk undersøkelse" ];
-     fhir:CodeSystem.concept.definition [ fhir:value "Generell cytologisk undersøkelse" ]
-  ], [
-     fhir:index 19;
-     fhir:CodeSystem.concept.code [ fhir:value "VC" ];
-     fhir:CodeSystem.concept.display [ fhir:value "Væskebasert cytologi" ]
-  ], [
-     fhir:index 20;
-     fhir:CodeSystem.concept.code [ fhir:value "D" ];
-     fhir:CodeSystem.concept.display [ fhir:value "Vaginal - Cervix cytologi" ]
-  ], [
-     fhir:index 21;
-     fhir:CodeSystem.concept.code [ fhir:value "E" ];
-     fhir:CodeSystem.concept.display [ fhir:value "Cytologisk us (non-gyn)" ]
-  ], [
-     fhir:index 22;
-     fhir:CodeSystem.concept.code [ fhir:value "FNA" ];
-     fhir:CodeSystem.concept.display [ fhir:value "Finnålsaspirasjon" ]
-  ], [
-     fhir:index 23;
-     fhir:CodeSystem.concept.code [ fhir:value "P" ];
-     fhir:CodeSystem.concept.display [ fhir:value "Punksjonscytologi" ]
-  ], [
-     fhir:index 24;
-     fhir:CodeSystem.concept.code [ fhir:value "R" ];
-     fhir:CodeSystem.concept.display [ fhir:value "Rescreening/Us av restmateriale" ]
-  ], [
-     fhir:index 25;
-     fhir:CodeSystem.concept.code [ fhir:value "RM" ];
-     fhir:CodeSystem.concept.display [ fhir:value "Rettsmedisinsk obduksjon" ]
-  ], [
-     fhir:index 26;
-     fhir:CodeSystem.concept.code [ fhir:value "T" ];
-     fhir:CodeSystem.concept.display [ fhir:value "Telepatologi" ]
-  ], [
-     fhir:index 27;
-     fhir:CodeSystem.concept.code [ fhir:value "GO" ];
-     fhir:CodeSystem.concept.display [ fhir:value "Gammel obduksjon" ]
-  ], [
-     fhir:index 28;
-     fhir:CodeSystem.concept.code [ fhir:value "EMI" ];
-     fhir:CodeSystem.concept.display [ fhir:value "Elektronmikroskopi" ]
-  ], [
-     fhir:index 29;
-     fhir:CodeSystem.concept.code [ fhir:value "MP" ];
-     fhir:CodeSystem.concept.display [ fhir:value "Molekylærpatologisk us" ]
-  ], [
-     fhir:index 30;
-     fhir:CodeSystem.concept.code [ fhir:value "FISH" ];
-     fhir:CodeSystem.concept.display [ fhir:value "FISH-analyse" ]
-  ], [
-     fhir:index 31;
-     fhir:CodeSystem.concept.code [ fhir:value "LKP" ];
-     fhir:CodeSystem.concept.display [ fhir:value "Likkjellerprotokoll" ]
-  ], [
-     fhir:index 32;
-     fhir:CodeSystem.concept.code [ fhir:value "LP" ];
-     fhir:CodeSystem.concept.display [ fhir:value "Likprotokoll" ]
-  ] .
-
-# - ontology header ------------------------------------------------------------
-
-<http://hl7.no/fhir/CodeSystem/no-kodeverk-8219.codesystem.ttl> a owl:Ontology;
-  owl:imports fhir:fhir.ttl .
+<http://hl7.no/fhir/CodeSystem/no-kodeverk-8219.codesystem> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "no-kodeverk-8219.codesystem"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system <code>http://ehelse.no/fhir/CodeSystem/no-kodeverk-8219</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">K<a name=\"no-kodeverk-8219.codesystem-K\"> </a></td><td>Kromosomundersøkelse</td><td/></tr><tr><td style=\"white-space:nowrap\">EM<a name=\"no-kodeverk-8219.codesystem-EM\"> </a></td><td>Ultrastrukturell diagnostikk</td><td/></tr><tr><td style=\"white-space:nowrap\">FLW<a name=\"no-kodeverk-8219.codesystem-FLW\"> </a></td><td>Flowcytometri</td><td/></tr><tr><td style=\"white-space:nowrap\">PCR<a name=\"no-kodeverk-8219.codesystem-PCR\"> </a></td><td>PCR-analyse</td><td/></tr><tr><td style=\"white-space:nowrap\">H<a name=\"no-kodeverk-8219.codesystem-H\"> </a></td><td>Hormonreseptoranalyse</td><td/></tr><tr><td style=\"white-space:nowrap\">PL<a name=\"no-kodeverk-8219.codesystem-PL\"> </a></td><td>Ploidianalyse</td><td/></tr><tr><td style=\"white-space:nowrap\">M<a name=\"no-kodeverk-8219.codesystem-M\"> </a></td><td>Molekylærgenetisk undersøkelse</td><td/></tr><tr><td style=\"white-space:nowrap\">MI<a name=\"no-kodeverk-8219.codesystem-MI\"> </a></td><td>Mikroskopisk undersøkelse</td><td/></tr><tr><td style=\"white-space:nowrap\">A<a name=\"no-kodeverk-8219.codesystem-A\"> </a></td><td>Histologisk undersøkelse</td><td/></tr><tr><td style=\"white-space:nowrap\">MA<a name=\"no-kodeverk-8219.codesystem-MA\"> </a></td><td>Makroskopisk undersøkelse</td><td/></tr><tr><td style=\"white-space:nowrap\">MAMI<a name=\"no-kodeverk-8219.codesystem-MAMI\"> </a></td><td>Makro- og mikroskopisk undersøkelse</td><td/></tr><tr><td style=\"white-space:nowrap\">G<a name=\"no-kodeverk-8219.codesystem-G\"> </a></td><td>Histologi relatert til genetisk us</td><td/></tr><tr><td style=\"white-space:nowrap\">H1<a name=\"no-kodeverk-8219.codesystem-H1\"> </a></td><td>Vanlig obduksjon</td><td/></tr><tr><td style=\"white-space:nowrap\">H2<a name=\"no-kodeverk-8219.codesystem-H2\"> </a></td><td>Nevropatologisk us</td><td/></tr><tr><td style=\"white-space:nowrap\">H3<a name=\"no-kodeverk-8219.codesystem-H3\"> </a></td><td>Obduksjon + Nevropatologisk us</td><td/></tr><tr><td style=\"white-space:nowrap\">F<a name=\"no-kodeverk-8219.codesystem-F\"> </a></td><td>Frysesnitt - hurtigdiagnostikk</td><td/></tr><tr><td style=\"white-space:nowrap\">BL<a name=\"no-kodeverk-8219.codesystem-BL\"> </a></td><td>Blodprøve</td><td/></tr><tr><td style=\"white-space:nowrap\">HPV<a name=\"no-kodeverk-8219.codesystem-HPV\"> </a></td><td>HPV-test</td><td/></tr><tr><td style=\"white-space:nowrap\">C<a name=\"no-kodeverk-8219.codesystem-C\"> </a></td><td>Cytologisk undersøkelse</td><td>Generell cytologisk undersøkelse</td></tr><tr><td style=\"white-space:nowrap\">VC<a name=\"no-kodeverk-8219.codesystem-VC\"> </a></td><td>Væskebasert cytologi</td><td/></tr><tr><td style=\"white-space:nowrap\">D<a name=\"no-kodeverk-8219.codesystem-D\"> </a></td><td>Vaginal - Cervix cytologi</td><td/></tr><tr><td style=\"white-space:nowrap\">E<a name=\"no-kodeverk-8219.codesystem-E\"> </a></td><td>Cytologisk us (non-gyn)</td><td/></tr><tr><td style=\"white-space:nowrap\">FNA<a name=\"no-kodeverk-8219.codesystem-FNA\"> </a></td><td>Finnålsaspirasjon</td><td/></tr><tr><td style=\"white-space:nowrap\">P<a name=\"no-kodeverk-8219.codesystem-P\"> </a></td><td>Punksjonscytologi</td><td/></tr><tr><td style=\"white-space:nowrap\">R<a name=\"no-kodeverk-8219.codesystem-R\"> </a></td><td>Rescreening/Us av restmateriale</td><td/></tr><tr><td style=\"white-space:nowrap\">RM<a name=\"no-kodeverk-8219.codesystem-RM\"> </a></td><td>Rettsmedisinsk obduksjon</td><td/></tr><tr><td style=\"white-space:nowrap\">T<a name=\"no-kodeverk-8219.codesystem-T\"> </a></td><td>Telepatologi</td><td/></tr><tr><td style=\"white-space:nowrap\">GO<a name=\"no-kodeverk-8219.codesystem-GO\"> </a></td><td>Gammel obduksjon</td><td/></tr><tr><td style=\"white-space:nowrap\">EMI<a name=\"no-kodeverk-8219.codesystem-EMI\"> </a></td><td>Elektronmikroskopi</td><td/></tr><tr><td style=\"white-space:nowrap\">MP<a name=\"no-kodeverk-8219.codesystem-MP\"> </a></td><td>Molekylærpatologisk us</td><td/></tr><tr><td style=\"white-space:nowrap\">FISH<a name=\"no-kodeverk-8219.codesystem-FISH\"> </a></td><td>FISH-analyse</td><td/></tr><tr><td style=\"white-space:nowrap\">LKP<a name=\"no-kodeverk-8219.codesystem-LKP\"> </a></td><td>Likkjellerprotokoll</td><td/></tr><tr><td style=\"white-space:nowrap\">LP<a name=\"no-kodeverk-8219.codesystem-LP\"> </a></td><td>Likprotokoll</td><td/></tr></table></div>"
+  ] ; # 
+  fhir:url [ fhir:v "http://ehelse.no/fhir/CodeSystem/no-kodeverk-8219"^^xsd:anyURI] ; # 
+  fhir:identifier ( [
+     fhir:system [ fhir:v "urn:ietf:rfc:3986"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "urn:oid:2.16.578.1.12.4.1.1.8219" ]
+  ] ) ; # 
+  fhir:version [ fhir:v "0.4.3"] ; # 
+  fhir:name [ fhir:v "NoKodeverk8219"] ; # 
+  fhir:title [ fhir:v "8219 Kodeverk for patologisk-anatomiske undersøkelser"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:date [ fhir:v "2023-08-17T10:02:16+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "Direktoratet for e-helse"] ; # 
+  fhir:description [ fhir:v "Kodene beskriver ulike typer patologi-undersøkelser."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [ fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "NO" ] ;
+       fhir:display [ fhir:v "Norway" ]
+     ] )
+  ] ) ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:count [ fhir:v "33"^^xsd:nonNegativeInteger] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "K" ] ;
+     fhir:display [ fhir:v "Kromosomundersøkelse" ]
+  ] [
+     fhir:code [ fhir:v "EM" ] ;
+     fhir:display [ fhir:v "Ultrastrukturell diagnostikk" ]
+  ] [
+     fhir:code [ fhir:v "FLW" ] ;
+     fhir:display [ fhir:v "Flowcytometri" ]
+  ] [
+     fhir:code [ fhir:v "PCR" ] ;
+     fhir:display [ fhir:v "PCR-analyse" ]
+  ] [
+     fhir:code [ fhir:v "H" ] ;
+     fhir:display [ fhir:v "Hormonreseptoranalyse" ]
+  ] [
+     fhir:code [ fhir:v "PL" ] ;
+     fhir:display [ fhir:v "Ploidianalyse" ]
+  ] [
+     fhir:code [ fhir:v "M" ] ;
+     fhir:display [ fhir:v "Molekylærgenetisk undersøkelse" ]
+  ] [
+     fhir:code [ fhir:v "MI" ] ;
+     fhir:display [ fhir:v "Mikroskopisk undersøkelse" ]
+  ] [
+     fhir:code [ fhir:v "A" ] ;
+     fhir:display [ fhir:v "Histologisk undersøkelse" ]
+  ] [
+     fhir:code [ fhir:v "MA" ] ;
+     fhir:display [ fhir:v "Makroskopisk undersøkelse" ]
+  ] [
+     fhir:code [ fhir:v "MAMI" ] ;
+     fhir:display [ fhir:v "Makro- og mikroskopisk undersøkelse" ]
+  ] [
+     fhir:code [ fhir:v "G" ] ;
+     fhir:display [ fhir:v "Histologi relatert til genetisk us" ]
+  ] [
+     fhir:code [ fhir:v "H1" ] ;
+     fhir:display [ fhir:v "Vanlig obduksjon" ]
+  ] [
+     fhir:code [ fhir:v "H2" ] ;
+     fhir:display [ fhir:v "Nevropatologisk us" ]
+  ] [
+     fhir:code [ fhir:v "H3" ] ;
+     fhir:display [ fhir:v "Obduksjon + Nevropatologisk us" ]
+  ] [
+     fhir:code [ fhir:v "F" ] ;
+     fhir:display [ fhir:v "Frysesnitt - hurtigdiagnostikk" ]
+  ] [
+     fhir:code [ fhir:v "BL" ] ;
+     fhir:display [ fhir:v "Blodprøve" ]
+  ] [
+     fhir:code [ fhir:v "HPV" ] ;
+     fhir:display [ fhir:v "HPV-test" ]
+  ] [
+     fhir:code [ fhir:v "C" ] ;
+     fhir:display [ fhir:v "Cytologisk undersøkelse" ] ;
+     fhir:definition [ fhir:v "Generell cytologisk undersøkelse" ]
+  ] [
+     fhir:code [ fhir:v "VC" ] ;
+     fhir:display [ fhir:v "Væskebasert cytologi" ]
+  ] [
+     fhir:code [ fhir:v "D" ] ;
+     fhir:display [ fhir:v "Vaginal - Cervix cytologi" ]
+  ] [
+     fhir:code [ fhir:v "E" ] ;
+     fhir:display [ fhir:v "Cytologisk us (non-gyn)" ]
+  ] [
+     fhir:code [ fhir:v "FNA" ] ;
+     fhir:display [ fhir:v "Finnålsaspirasjon" ]
+  ] [
+     fhir:code [ fhir:v "P" ] ;
+     fhir:display [ fhir:v "Punksjonscytologi" ]
+  ] [
+     fhir:code [ fhir:v "R" ] ;
+     fhir:display [ fhir:v "Rescreening/Us av restmateriale" ]
+  ] [
+     fhir:code [ fhir:v "RM" ] ;
+     fhir:display [ fhir:v "Rettsmedisinsk obduksjon" ]
+  ] [
+     fhir:code [ fhir:v "T" ] ;
+     fhir:display [ fhir:v "Telepatologi" ]
+  ] [
+     fhir:code [ fhir:v "GO" ] ;
+     fhir:display [ fhir:v "Gammel obduksjon" ]
+  ] [
+     fhir:code [ fhir:v "EMI" ] ;
+     fhir:display [ fhir:v "Elektronmikroskopi" ]
+  ] [
+     fhir:code [ fhir:v "MP" ] ;
+     fhir:display [ fhir:v "Molekylærpatologisk us" ]
+  ] [
+     fhir:code [ fhir:v "FISH" ] ;
+     fhir:display [ fhir:v "FISH-analyse" ]
+  ] [
+     fhir:code [ fhir:v "LKP" ] ;
+     fhir:display [ fhir:v "Likkjellerprotokoll" ]
+  ] [
+     fhir:code [ fhir:v "LP" ] ;
+     fhir:display [ fhir:v "Likprotokoll" ]
+  ] ) . # 
 
 # -------------------------------------------------------------------------------------
 

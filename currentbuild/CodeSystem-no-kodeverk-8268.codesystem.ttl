@@ -5,150 +5,117 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://hl7.no/fhir/CodeSystem/no-kodeverk-8268.codesystem> a fhir:CodeSystem;
-  fhir:nodeRole fhir:treeRoot;
-  fhir:Resource.id [ fhir:value "no-kodeverk-8268.codesystem"];
-  fhir:DomainResource.text [
-     fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system <code>http://ehelse.no/fhir/CodeSystem/no-kodeverk-8268</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">ENH<a name=\"no-kodeverk-8268.codesystem-ENH\"> </a></td><td>Organisasjonsnummeret i Enhetsregister</td><td>Brønnøysund</td></tr><tr><td style=\"white-space:nowrap\">RSH<a name=\"no-kodeverk-8268.codesystem-RSH\"> </a></td><td>Nasjonalt register over enheter i spesialisthelsetjenesten (RESH-ID)</td><td>Innføres fra og med 2007 for spesialisthelsetjenesten</td></tr><tr><td style=\"white-space:nowrap\">HER<a name=\"no-kodeverk-8268.codesystem-HER\"> </a></td><td>HER-id</td><td>Identifikator som unikt identifiserer en  kommunikasjonspart i Adresseregisteret</td></tr><tr><td style=\"white-space:nowrap\">NPR<a name=\"no-kodeverk-8268.codesystem-NPR\"> </a></td><td>NPR avdelingsnummer</td><td/></tr><tr><td style=\"white-space:nowrap\">SYS<a name=\"no-kodeverk-8268.codesystem-SYS\"> </a></td><td>SYSVAK institusjonsnummer</td><td/></tr><tr><td style=\"white-space:nowrap\">AVD<a name=\"no-kodeverk-8268.codesystem-AVD\"> </a></td><td>Off. identifikator for avdelinger</td><td/></tr><tr><td style=\"white-space:nowrap\">APO<a name=\"no-kodeverk-8268.codesystem-APO\"> </a></td><td>Apotekenes identifikasjonsnummer</td><td/></tr><tr><td style=\"white-space:nowrap\">AKO<a name=\"no-kodeverk-8268.codesystem-AKO\"> </a></td><td>Apotekenes konsesjonsnummer</td><td/></tr><tr><td style=\"white-space:nowrap\">LIN<a name=\"no-kodeverk-8268.codesystem-LIN\"> </a></td><td>Lokal identifikator for institusjoner</td><td/></tr><tr><td style=\"white-space:nowrap\">LAV<a name=\"no-kodeverk-8268.codesystem-LAV\"> </a></td><td>Lokal identifikator for avdelinger</td><td/></tr><tr><td style=\"white-space:nowrap\">LOK<a name=\"no-kodeverk-8268.codesystem-LOK\"> </a></td><td>Lokal identifikator uten nærmere angivelse</td><td/></tr><tr><td style=\"white-space:nowrap\">HPR<a name=\"no-kodeverk-8268.codesystem-HPR\"> </a></td><td>HPR-nummer</td><td>Tildeles av Statens autorisasjonskontor for helsepersonell</td></tr><tr><td style=\"white-space:nowrap\">LOP<a name=\"no-kodeverk-8268.codesystem-LOP\"> </a></td><td>Lokal identifikator for helsepersonell</td><td/></tr><tr><td style=\"white-space:nowrap\">FHN<a name=\"no-kodeverk-8268.codesystem-FHN\"> </a></td><td>Felles hjelpenummer (FH-nummer)</td><td/></tr><tr><td style=\"white-space:nowrap\">FNR<a name=\"no-kodeverk-8268.codesystem-FNR\"> </a></td><td>Norsk fødselsnummer</td><td/></tr><tr><td style=\"white-space:nowrap\">DNR<a name=\"no-kodeverk-8268.codesystem-DNR\"> </a></td><td>D-nummer</td><td>Personer i kontakt med norske myndigheter uten norsk fødselsnummer</td></tr><tr><td style=\"white-space:nowrap\">HNR<a name=\"no-kodeverk-8268.codesystem-HNR\"> </a></td><td>H-nummer</td><td>Virksomhetsinternt hjelpenummer</td></tr><tr><td style=\"white-space:nowrap\">PNR<a name=\"no-kodeverk-8268.codesystem-PNR\"> </a></td><td>Passnummer</td><td/></tr><tr><td style=\"white-space:nowrap\">SEF<a name=\"no-kodeverk-8268.codesystem-SEF\"> </a></td><td>Svensk personnummer</td><td/></tr><tr><td style=\"white-space:nowrap\">DKF<a name=\"no-kodeverk-8268.codesystem-DKF\"> </a></td><td>Dansk personnummer</td><td/></tr><tr><td style=\"white-space:nowrap\">SSN<a name=\"no-kodeverk-8268.codesystem-SSN\"> </a></td><td>Sosial security number</td><td/></tr><tr><td style=\"white-space:nowrap\">EHK<a name=\"no-kodeverk-8268.codesystem-EHK\"> </a></td><td>Europeisk helsetrygdkortnummer</td><td/></tr><tr><td style=\"white-space:nowrap\">FPN<a name=\"no-kodeverk-8268.codesystem-FPN\"> </a></td><td>Forsikringspolise nummer</td><td/></tr><tr><td style=\"white-space:nowrap\">DUF<a name=\"no-kodeverk-8268.codesystem-DUF\"> </a></td><td>DUF-nummer</td><td>Registreringsnummeret i Utlendingsdirektoratets datasystem</td></tr><tr><td style=\"white-space:nowrap\">XXX<a name=\"no-kodeverk-8268.codesystem-XXX\"> </a></td><td>Annet</td><td/></tr></table></div>"
-  ];
-  fhir:CodeSystem.url [ fhir:value "http://ehelse.no/fhir/CodeSystem/no-kodeverk-8268"];
-  fhir:CodeSystem.identifier [
-     fhir:index 0;
-     fhir:Identifier.system [ fhir:value "urn:ietf:rfc:3986" ];
-     fhir:Identifier.value [ fhir:value "urn:oid:2.16.578.1.12.4.1.1.8268" ]
-  ];
-  fhir:CodeSystem.version [ fhir:value "0.4.3"];
-  fhir:CodeSystem.name [ fhir:value "NoKodeverk8268"];
-  fhir:CodeSystem.title [ fhir:value "8268 Type identifikator"];
-  fhir:CodeSystem.status [ fhir:value "active"];
-  fhir:CodeSystem.date [ fhir:value "2022-09-09T13:02:22+00:00"^^xsd:dateTime];
-  fhir:CodeSystem.publisher [ fhir:value "Direktoratet for e-helse"];
-  fhir:CodeSystem.description [ fhir:value "Angir type identifikator for person og virksomhet."];
-  fhir:CodeSystem.jurisdiction [
-     fhir:index 0;
-     fhir:CodeableConcept.coding [
-       fhir:index 0;
-       fhir:Coding.system [ fhir:value "urn:iso:std:iso:3166" ];
-       fhir:Coding.code [ fhir:value "NO" ];
-       fhir:Coding.display [ fhir:value "Norway" ]
-     ]
-  ];
-  fhir:CodeSystem.content [ fhir:value "complete"];
-  fhir:CodeSystem.count [ fhir:value "25"^^xsd:nonNegativeInteger];
-  fhir:CodeSystem.concept [
-     fhir:index 0;
-     fhir:CodeSystem.concept.code [ fhir:value "ENH" ];
-     fhir:CodeSystem.concept.display [ fhir:value "Organisasjonsnummeret i Enhetsregister" ];
-     fhir:CodeSystem.concept.definition [ fhir:value "Brønnøysund" ]
-  ], [
-     fhir:index 1;
-     fhir:CodeSystem.concept.code [ fhir:value "RSH" ];
-     fhir:CodeSystem.concept.display [ fhir:value "Nasjonalt register over enheter i spesialisthelsetjenesten (RESH-ID)" ];
-     fhir:CodeSystem.concept.definition [ fhir:value "Innføres fra og med 2007 for spesialisthelsetjenesten" ]
-  ], [
-     fhir:index 2;
-     fhir:CodeSystem.concept.code [ fhir:value "HER" ];
-     fhir:CodeSystem.concept.display [ fhir:value "HER-id" ];
-     fhir:CodeSystem.concept.definition [ fhir:value "Identifikator som unikt identifiserer en  kommunikasjonspart i Adresseregisteret" ]
-  ], [
-     fhir:index 3;
-     fhir:CodeSystem.concept.code [ fhir:value "NPR" ];
-     fhir:CodeSystem.concept.display [ fhir:value "NPR avdelingsnummer" ]
-  ], [
-     fhir:index 4;
-     fhir:CodeSystem.concept.code [ fhir:value "SYS" ];
-     fhir:CodeSystem.concept.display [ fhir:value "SYSVAK institusjonsnummer" ]
-  ], [
-     fhir:index 5;
-     fhir:CodeSystem.concept.code [ fhir:value "AVD" ];
-     fhir:CodeSystem.concept.display [ fhir:value "Off. identifikator for avdelinger" ]
-  ], [
-     fhir:index 6;
-     fhir:CodeSystem.concept.code [ fhir:value "APO" ];
-     fhir:CodeSystem.concept.display [ fhir:value "Apotekenes identifikasjonsnummer" ]
-  ], [
-     fhir:index 7;
-     fhir:CodeSystem.concept.code [ fhir:value "AKO" ];
-     fhir:CodeSystem.concept.display [ fhir:value "Apotekenes konsesjonsnummer" ]
-  ], [
-     fhir:index 8;
-     fhir:CodeSystem.concept.code [ fhir:value "LIN" ];
-     fhir:CodeSystem.concept.display [ fhir:value "Lokal identifikator for institusjoner" ]
-  ], [
-     fhir:index 9;
-     fhir:CodeSystem.concept.code [ fhir:value "LAV" ];
-     fhir:CodeSystem.concept.display [ fhir:value "Lokal identifikator for avdelinger" ]
-  ], [
-     fhir:index 10;
-     fhir:CodeSystem.concept.code [ fhir:value "LOK" ];
-     fhir:CodeSystem.concept.display [ fhir:value "Lokal identifikator uten nærmere angivelse" ]
-  ], [
-     fhir:index 11;
-     fhir:CodeSystem.concept.code [ fhir:value "HPR" ];
-     fhir:CodeSystem.concept.display [ fhir:value "HPR-nummer" ];
-     fhir:CodeSystem.concept.definition [ fhir:value "Tildeles av Statens autorisasjonskontor for helsepersonell" ]
-  ], [
-     fhir:index 12;
-     fhir:CodeSystem.concept.code [ fhir:value "LOP" ];
-     fhir:CodeSystem.concept.display [ fhir:value "Lokal identifikator for helsepersonell" ]
-  ], [
-     fhir:index 13;
-     fhir:CodeSystem.concept.code [ fhir:value "FHN" ];
-     fhir:CodeSystem.concept.display [ fhir:value "Felles hjelpenummer (FH-nummer)" ]
-  ], [
-     fhir:index 14;
-     fhir:CodeSystem.concept.code [ fhir:value "FNR" ];
-     fhir:CodeSystem.concept.display [ fhir:value "Norsk fødselsnummer" ]
-  ], [
-     fhir:index 15;
-     fhir:CodeSystem.concept.code [ fhir:value "DNR" ];
-     fhir:CodeSystem.concept.display [ fhir:value "D-nummer" ];
-     fhir:CodeSystem.concept.definition [ fhir:value "Personer i kontakt med norske myndigheter uten norsk fødselsnummer" ]
-  ], [
-     fhir:index 16;
-     fhir:CodeSystem.concept.code [ fhir:value "HNR" ];
-     fhir:CodeSystem.concept.display [ fhir:value "H-nummer" ];
-     fhir:CodeSystem.concept.definition [ fhir:value "Virksomhetsinternt hjelpenummer" ]
-  ], [
-     fhir:index 17;
-     fhir:CodeSystem.concept.code [ fhir:value "PNR" ];
-     fhir:CodeSystem.concept.display [ fhir:value "Passnummer" ]
-  ], [
-     fhir:index 18;
-     fhir:CodeSystem.concept.code [ fhir:value "SEF" ];
-     fhir:CodeSystem.concept.display [ fhir:value "Svensk personnummer" ]
-  ], [
-     fhir:index 19;
-     fhir:CodeSystem.concept.code [ fhir:value "DKF" ];
-     fhir:CodeSystem.concept.display [ fhir:value "Dansk personnummer" ]
-  ], [
-     fhir:index 20;
-     fhir:CodeSystem.concept.code [ fhir:value "SSN" ];
-     fhir:CodeSystem.concept.display [ fhir:value "Sosial security number" ]
-  ], [
-     fhir:index 21;
-     fhir:CodeSystem.concept.code [ fhir:value "EHK" ];
-     fhir:CodeSystem.concept.display [ fhir:value "Europeisk helsetrygdkortnummer" ]
-  ], [
-     fhir:index 22;
-     fhir:CodeSystem.concept.code [ fhir:value "FPN" ];
-     fhir:CodeSystem.concept.display [ fhir:value "Forsikringspolise nummer" ]
-  ], [
-     fhir:index 23;
-     fhir:CodeSystem.concept.code [ fhir:value "DUF" ];
-     fhir:CodeSystem.concept.display [ fhir:value "DUF-nummer" ];
-     fhir:CodeSystem.concept.definition [ fhir:value "Registreringsnummeret i Utlendingsdirektoratets datasystem" ]
-  ], [
-     fhir:index 24;
-     fhir:CodeSystem.concept.code [ fhir:value "XXX" ];
-     fhir:CodeSystem.concept.display [ fhir:value "Annet" ]
-  ] .
-
-# - ontology header ------------------------------------------------------------
-
-<http://hl7.no/fhir/CodeSystem/no-kodeverk-8268.codesystem.ttl> a owl:Ontology;
-  owl:imports fhir:fhir.ttl .
+<http://hl7.no/fhir/CodeSystem/no-kodeverk-8268.codesystem> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "no-kodeverk-8268.codesystem"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system <code>http://ehelse.no/fhir/CodeSystem/no-kodeverk-8268</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">ENH<a name=\"no-kodeverk-8268.codesystem-ENH\"> </a></td><td>Organisasjonsnummeret i Enhetsregister</td><td>Brønnøysund</td></tr><tr><td style=\"white-space:nowrap\">RSH<a name=\"no-kodeverk-8268.codesystem-RSH\"> </a></td><td>Nasjonalt register over enheter i spesialisthelsetjenesten (RESH-ID)</td><td>Innføres fra og med 2007 for spesialisthelsetjenesten</td></tr><tr><td style=\"white-space:nowrap\">HER<a name=\"no-kodeverk-8268.codesystem-HER\"> </a></td><td>HER-id</td><td>Identifikator som unikt identifiserer en  kommunikasjonspart i Adresseregisteret</td></tr><tr><td style=\"white-space:nowrap\">NPR<a name=\"no-kodeverk-8268.codesystem-NPR\"> </a></td><td>NPR avdelingsnummer</td><td/></tr><tr><td style=\"white-space:nowrap\">SYS<a name=\"no-kodeverk-8268.codesystem-SYS\"> </a></td><td>SYSVAK institusjonsnummer</td><td/></tr><tr><td style=\"white-space:nowrap\">AVD<a name=\"no-kodeverk-8268.codesystem-AVD\"> </a></td><td>Off. identifikator for avdelinger</td><td/></tr><tr><td style=\"white-space:nowrap\">APO<a name=\"no-kodeverk-8268.codesystem-APO\"> </a></td><td>Apotekenes identifikasjonsnummer</td><td/></tr><tr><td style=\"white-space:nowrap\">AKO<a name=\"no-kodeverk-8268.codesystem-AKO\"> </a></td><td>Apotekenes konsesjonsnummer</td><td/></tr><tr><td style=\"white-space:nowrap\">LIN<a name=\"no-kodeverk-8268.codesystem-LIN\"> </a></td><td>Lokal identifikator for institusjoner</td><td/></tr><tr><td style=\"white-space:nowrap\">LAV<a name=\"no-kodeverk-8268.codesystem-LAV\"> </a></td><td>Lokal identifikator for avdelinger</td><td/></tr><tr><td style=\"white-space:nowrap\">LOK<a name=\"no-kodeverk-8268.codesystem-LOK\"> </a></td><td>Lokal identifikator uten nærmere angivelse</td><td/></tr><tr><td style=\"white-space:nowrap\">HPR<a name=\"no-kodeverk-8268.codesystem-HPR\"> </a></td><td>HPR-nummer</td><td>Tildeles av Statens autorisasjonskontor for helsepersonell</td></tr><tr><td style=\"white-space:nowrap\">LOP<a name=\"no-kodeverk-8268.codesystem-LOP\"> </a></td><td>Lokal identifikator for helsepersonell</td><td/></tr><tr><td style=\"white-space:nowrap\">FHN<a name=\"no-kodeverk-8268.codesystem-FHN\"> </a></td><td>Felles hjelpenummer (FH-nummer)</td><td/></tr><tr><td style=\"white-space:nowrap\">FNR<a name=\"no-kodeverk-8268.codesystem-FNR\"> </a></td><td>Norsk fødselsnummer</td><td/></tr><tr><td style=\"white-space:nowrap\">DNR<a name=\"no-kodeverk-8268.codesystem-DNR\"> </a></td><td>D-nummer</td><td>Personer i kontakt med norske myndigheter uten norsk fødselsnummer</td></tr><tr><td style=\"white-space:nowrap\">HNR<a name=\"no-kodeverk-8268.codesystem-HNR\"> </a></td><td>H-nummer</td><td>Virksomhetsinternt hjelpenummer</td></tr><tr><td style=\"white-space:nowrap\">PNR<a name=\"no-kodeverk-8268.codesystem-PNR\"> </a></td><td>Passnummer</td><td/></tr><tr><td style=\"white-space:nowrap\">SEF<a name=\"no-kodeverk-8268.codesystem-SEF\"> </a></td><td>Svensk personnummer</td><td/></tr><tr><td style=\"white-space:nowrap\">DKF<a name=\"no-kodeverk-8268.codesystem-DKF\"> </a></td><td>Dansk personnummer</td><td/></tr><tr><td style=\"white-space:nowrap\">SSN<a name=\"no-kodeverk-8268.codesystem-SSN\"> </a></td><td>Sosial security number</td><td/></tr><tr><td style=\"white-space:nowrap\">EHK<a name=\"no-kodeverk-8268.codesystem-EHK\"> </a></td><td>Europeisk helsetrygdkortnummer</td><td/></tr><tr><td style=\"white-space:nowrap\">FPN<a name=\"no-kodeverk-8268.codesystem-FPN\"> </a></td><td>Forsikringspolise nummer</td><td/></tr><tr><td style=\"white-space:nowrap\">DUF<a name=\"no-kodeverk-8268.codesystem-DUF\"> </a></td><td>DUF-nummer</td><td>Registreringsnummeret i Utlendingsdirektoratets datasystem</td></tr><tr><td style=\"white-space:nowrap\">XXX<a name=\"no-kodeverk-8268.codesystem-XXX\"> </a></td><td>Annet</td><td/></tr></table></div>"
+  ] ; # 
+  fhir:url [ fhir:v "http://ehelse.no/fhir/CodeSystem/no-kodeverk-8268"^^xsd:anyURI] ; # 
+  fhir:identifier ( [
+     fhir:system [ fhir:v "urn:ietf:rfc:3986"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "urn:oid:2.16.578.1.12.4.1.1.8268" ]
+  ] ) ; # 
+  fhir:version [ fhir:v "0.4.3"] ; # 
+  fhir:name [ fhir:v "NoKodeverk8268"] ; # 
+  fhir:title [ fhir:v "8268 Type identifikator"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:date [ fhir:v "2023-08-17T10:02:16+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "Direktoratet for e-helse"] ; # 
+  fhir:description [ fhir:v "Angir type identifikator for person og virksomhet."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [ fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "NO" ] ;
+       fhir:display [ fhir:v "Norway" ]
+     ] )
+  ] ) ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:count [ fhir:v "25"^^xsd:nonNegativeInteger] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "ENH" ] ;
+     fhir:display [ fhir:v "Organisasjonsnummeret i Enhetsregister" ] ;
+     fhir:definition [ fhir:v "Brønnøysund" ]
+  ] [
+     fhir:code [ fhir:v "RSH" ] ;
+     fhir:display [ fhir:v "Nasjonalt register over enheter i spesialisthelsetjenesten (RESH-ID)" ] ;
+     fhir:definition [ fhir:v "Innføres fra og med 2007 for spesialisthelsetjenesten" ]
+  ] [
+     fhir:code [ fhir:v "HER" ] ;
+     fhir:display [ fhir:v "HER-id" ] ;
+     fhir:definition [ fhir:v "Identifikator som unikt identifiserer en  kommunikasjonspart i Adresseregisteret" ]
+  ] [
+     fhir:code [ fhir:v "NPR" ] ;
+     fhir:display [ fhir:v "NPR avdelingsnummer" ]
+  ] [
+     fhir:code [ fhir:v "SYS" ] ;
+     fhir:display [ fhir:v "SYSVAK institusjonsnummer" ]
+  ] [
+     fhir:code [ fhir:v "AVD" ] ;
+     fhir:display [ fhir:v "Off. identifikator for avdelinger" ]
+  ] [
+     fhir:code [ fhir:v "APO" ] ;
+     fhir:display [ fhir:v "Apotekenes identifikasjonsnummer" ]
+  ] [
+     fhir:code [ fhir:v "AKO" ] ;
+     fhir:display [ fhir:v "Apotekenes konsesjonsnummer" ]
+  ] [
+     fhir:code [ fhir:v "LIN" ] ;
+     fhir:display [ fhir:v "Lokal identifikator for institusjoner" ]
+  ] [
+     fhir:code [ fhir:v "LAV" ] ;
+     fhir:display [ fhir:v "Lokal identifikator for avdelinger" ]
+  ] [
+     fhir:code [ fhir:v "LOK" ] ;
+     fhir:display [ fhir:v "Lokal identifikator uten nærmere angivelse" ]
+  ] [
+     fhir:code [ fhir:v "HPR" ] ;
+     fhir:display [ fhir:v "HPR-nummer" ] ;
+     fhir:definition [ fhir:v "Tildeles av Statens autorisasjonskontor for helsepersonell" ]
+  ] [
+     fhir:code [ fhir:v "LOP" ] ;
+     fhir:display [ fhir:v "Lokal identifikator for helsepersonell" ]
+  ] [
+     fhir:code [ fhir:v "FHN" ] ;
+     fhir:display [ fhir:v "Felles hjelpenummer (FH-nummer)" ]
+  ] [
+     fhir:code [ fhir:v "FNR" ] ;
+     fhir:display [ fhir:v "Norsk fødselsnummer" ]
+  ] [
+     fhir:code [ fhir:v "DNR" ] ;
+     fhir:display [ fhir:v "D-nummer" ] ;
+     fhir:definition [ fhir:v "Personer i kontakt med norske myndigheter uten norsk fødselsnummer" ]
+  ] [
+     fhir:code [ fhir:v "HNR" ] ;
+     fhir:display [ fhir:v "H-nummer" ] ;
+     fhir:definition [ fhir:v "Virksomhetsinternt hjelpenummer" ]
+  ] [
+     fhir:code [ fhir:v "PNR" ] ;
+     fhir:display [ fhir:v "Passnummer" ]
+  ] [
+     fhir:code [ fhir:v "SEF" ] ;
+     fhir:display [ fhir:v "Svensk personnummer" ]
+  ] [
+     fhir:code [ fhir:v "DKF" ] ;
+     fhir:display [ fhir:v "Dansk personnummer" ]
+  ] [
+     fhir:code [ fhir:v "SSN" ] ;
+     fhir:display [ fhir:v "Sosial security number" ]
+  ] [
+     fhir:code [ fhir:v "EHK" ] ;
+     fhir:display [ fhir:v "Europeisk helsetrygdkortnummer" ]
+  ] [
+     fhir:code [ fhir:v "FPN" ] ;
+     fhir:display [ fhir:v "Forsikringspolise nummer" ]
+  ] [
+     fhir:code [ fhir:v "DUF" ] ;
+     fhir:display [ fhir:v "DUF-nummer" ] ;
+     fhir:definition [ fhir:v "Registreringsnummeret i Utlendingsdirektoratets datasystem" ]
+  ] [
+     fhir:code [ fhir:v "XXX" ] ;
+     fhir:display [ fhir:v "Annet" ]
+  ] ) . # 
 
 # -------------------------------------------------------------------------------------
 

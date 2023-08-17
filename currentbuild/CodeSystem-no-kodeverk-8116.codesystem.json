@@ -1,100 +1,92 @@
 {
-  "resourceType": "CodeSystem",
-  "id": "no-kodeverk-8116.codesystem",
-  "text": {
-    "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system <code>http://ehelse.no/fhir/CodeSystem/no-kodeverk-8116</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">FNR<a name=\"no-kodeverk-8116.codesystem-FNR\"> </a></td><td>Fødselsnummer</td><td>Norsk fødselsnummer</td></tr><tr><td style=\"white-space:nowrap\">DNR<a name=\"no-kodeverk-8116.codesystem-DNR\"> </a></td><td>D-nummer</td><td>Nummer som kan tildeles personer uten norsk fødselsnummer</td></tr><tr><td style=\"white-space:nowrap\">HNR<a name=\"no-kodeverk-8116.codesystem-HNR\"> </a></td><td>H-nummer</td><td>Virksomhetsinternt hjelpenummer</td></tr><tr><td style=\"white-space:nowrap\">HPR<a name=\"no-kodeverk-8116.codesystem-HPR\"> </a></td><td>HPR-nummer</td><td>Id Helsepersonellregisteret</td></tr><tr><td style=\"white-space:nowrap\">HER<a name=\"no-kodeverk-8116.codesystem-HER\"> </a></td><td>HER-id</td><td>Identifikator som unikt identifiserer en  kommunikasjonspart i Adresseregisteret.</td></tr><tr><td style=\"white-space:nowrap\">PNR<a name=\"no-kodeverk-8116.codesystem-PNR\"> </a></td><td>Passnummer</td><td/></tr><tr><td style=\"white-space:nowrap\">SEF<a name=\"no-kodeverk-8116.codesystem-SEF\"> </a></td><td>Svensk personnummer</td><td/></tr><tr><td style=\"white-space:nowrap\">DKF<a name=\"no-kodeverk-8116.codesystem-DKF\"> </a></td><td>Dansk personnummer</td><td/></tr><tr><td style=\"white-space:nowrap\">SSN<a name=\"no-kodeverk-8116.codesystem-SSN\"> </a></td><td>Sosial security number</td><td/></tr><tr><td style=\"white-space:nowrap\">FPN<a name=\"no-kodeverk-8116.codesystem-FPN\"> </a></td><td>Forsikringspolise nummer</td><td/></tr><tr><td style=\"white-space:nowrap\">UID<a name=\"no-kodeverk-8116.codesystem-UID\"> </a></td><td>Utenlandsk identifikasjon</td><td>Annet enn svensk- og dansk personnummer</td></tr><tr><td style=\"white-space:nowrap\">DUF<a name=\"no-kodeverk-8116.codesystem-DUF\"> </a></td><td>DUF-nummer</td><td>Registreringsnummeret i Utlendingsdirektoratets datasystem</td></tr><tr><td style=\"white-space:nowrap\">FHN<a name=\"no-kodeverk-8116.codesystem-FHN\"> </a></td><td>Felles hjelpenummer</td><td/></tr><tr><td style=\"white-space:nowrap\">XXX<a name=\"no-kodeverk-8116.codesystem-XXX\"> </a></td><td>Annet</td><td/></tr></table></div>"
+  "resourceType" : "CodeSystem",
+  "id" : "no-kodeverk-8116.codesystem",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system <code>http://ehelse.no/fhir/CodeSystem/no-kodeverk-8116</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">FNR<a name=\"no-kodeverk-8116.codesystem-FNR\"> </a></td><td>Fødselsnummer</td><td>Norsk fødselsnummer</td></tr><tr><td style=\"white-space:nowrap\">DNR<a name=\"no-kodeverk-8116.codesystem-DNR\"> </a></td><td>D-nummer</td><td>Nummer som kan tildeles personer uten norsk fødselsnummer</td></tr><tr><td style=\"white-space:nowrap\">HNR<a name=\"no-kodeverk-8116.codesystem-HNR\"> </a></td><td>H-nummer</td><td>Virksomhetsinternt hjelpenummer</td></tr><tr><td style=\"white-space:nowrap\">HPR<a name=\"no-kodeverk-8116.codesystem-HPR\"> </a></td><td>HPR-nummer</td><td>Id Helsepersonellregisteret</td></tr><tr><td style=\"white-space:nowrap\">HER<a name=\"no-kodeverk-8116.codesystem-HER\"> </a></td><td>HER-id</td><td>Identifikator som unikt identifiserer en  kommunikasjonspart i Adresseregisteret.</td></tr><tr><td style=\"white-space:nowrap\">PNR<a name=\"no-kodeverk-8116.codesystem-PNR\"> </a></td><td>Passnummer</td><td/></tr><tr><td style=\"white-space:nowrap\">SEF<a name=\"no-kodeverk-8116.codesystem-SEF\"> </a></td><td>Svensk personnummer</td><td/></tr><tr><td style=\"white-space:nowrap\">DKF<a name=\"no-kodeverk-8116.codesystem-DKF\"> </a></td><td>Dansk personnummer</td><td/></tr><tr><td style=\"white-space:nowrap\">SSN<a name=\"no-kodeverk-8116.codesystem-SSN\"> </a></td><td>Sosial security number</td><td/></tr><tr><td style=\"white-space:nowrap\">FPN<a name=\"no-kodeverk-8116.codesystem-FPN\"> </a></td><td>Forsikringspolise nummer</td><td/></tr><tr><td style=\"white-space:nowrap\">UID<a name=\"no-kodeverk-8116.codesystem-UID\"> </a></td><td>Utenlandsk identifikasjon</td><td>Annet enn svensk- og dansk personnummer</td></tr><tr><td style=\"white-space:nowrap\">DUF<a name=\"no-kodeverk-8116.codesystem-DUF\"> </a></td><td>DUF-nummer</td><td>Registreringsnummeret i Utlendingsdirektoratets datasystem</td></tr><tr><td style=\"white-space:nowrap\">FHN<a name=\"no-kodeverk-8116.codesystem-FHN\"> </a></td><td>Felles hjelpenummer</td><td/></tr><tr><td style=\"white-space:nowrap\">XXX<a name=\"no-kodeverk-8116.codesystem-XXX\"> </a></td><td>Annet</td><td/></tr></table></div>"
   },
-  "url": "http://ehelse.no/fhir/CodeSystem/no-kodeverk-8116",
-  "identifier": [
-    {
-      "system": "urn:ietf:rfc:3986",
-      "value": "urn:oid:2.16.578.1.12.4.1.1.8116"
-    }
-  ],
-  "version": "0.4.3",
-  "name": "NoKodeverk8116",
-  "title": "8116 ID-type for personer",
-  "status": "active",
-  "date": "2022-09-09T13:02:22+00:00",
-  "publisher": "Direktoratet for e-helse",
-  "description": "Angir type identifikator for personer.",
-  "jurisdiction": [
-    {
-      "coding": [
-        {
-          "system": "urn:iso:std:iso:3166",
-          "code": "NO",
-          "display": "Norway"
-        }
-      ]
-    }
-  ],
-  "content": "complete",
-  "count": 14,
-  "concept": [
-    {
-      "code": "FNR",
-      "display": "Fødselsnummer",
-      "definition": "Norsk fødselsnummer"
-    },
-    {
-      "code": "DNR",
-      "display": "D-nummer",
-      "definition": "Nummer som kan tildeles personer uten norsk fødselsnummer"
-    },
-    {
-      "code": "HNR",
-      "display": "H-nummer",
-      "definition": "Virksomhetsinternt hjelpenummer"
-    },
-    {
-      "code": "HPR",
-      "display": "HPR-nummer",
-      "definition": "Id Helsepersonellregisteret"
-    },
-    {
-      "code": "HER",
-      "display": "HER-id",
-      "definition": "Identifikator som unikt identifiserer en  kommunikasjonspart i Adresseregisteret."
-    },
-    {
-      "code": "PNR",
-      "display": "Passnummer"
-    },
-    {
-      "code": "SEF",
-      "display": "Svensk personnummer"
-    },
-    {
-      "code": "DKF",
-      "display": "Dansk personnummer"
-    },
-    {
-      "code": "SSN",
-      "display": "Sosial security number"
-    },
-    {
-      "code": "FPN",
-      "display": "Forsikringspolise nummer"
-    },
-    {
-      "code": "UID",
-      "display": "Utenlandsk identifikasjon",
-      "definition": "Annet enn svensk- og dansk personnummer"
-    },
-    {
-      "code": "DUF",
-      "display": "DUF-nummer",
-      "definition": "Registreringsnummeret i Utlendingsdirektoratets datasystem"
-    },
-    {
-      "code": "FHN",
-      "display": "Felles hjelpenummer"
-    },
-    {
-      "code": "XXX",
-      "display": "Annet"
-    }
-  ]
+  "url" : "http://ehelse.no/fhir/CodeSystem/no-kodeverk-8116",
+  "identifier" : [{
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:oid:2.16.578.1.12.4.1.1.8116"
+  }],
+  "version" : "0.4.3",
+  "name" : "NoKodeverk8116",
+  "title" : "8116 ID-type for personer",
+  "status" : "active",
+  "date" : "2023-08-17T10:02:16+00:00",
+  "publisher" : "Direktoratet for e-helse",
+  "description" : "Angir type identifikator for personer.",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "NO",
+      "display" : "Norway"
+    }]
+  }],
+  "content" : "complete",
+  "count" : 14,
+  "concept" : [{
+    "code" : "FNR",
+    "display" : "Fødselsnummer",
+    "definition" : "Norsk fødselsnummer"
+  },
+  {
+    "code" : "DNR",
+    "display" : "D-nummer",
+    "definition" : "Nummer som kan tildeles personer uten norsk fødselsnummer"
+  },
+  {
+    "code" : "HNR",
+    "display" : "H-nummer",
+    "definition" : "Virksomhetsinternt hjelpenummer"
+  },
+  {
+    "code" : "HPR",
+    "display" : "HPR-nummer",
+    "definition" : "Id Helsepersonellregisteret"
+  },
+  {
+    "code" : "HER",
+    "display" : "HER-id",
+    "definition" : "Identifikator som unikt identifiserer en  kommunikasjonspart i Adresseregisteret."
+  },
+  {
+    "code" : "PNR",
+    "display" : "Passnummer"
+  },
+  {
+    "code" : "SEF",
+    "display" : "Svensk personnummer"
+  },
+  {
+    "code" : "DKF",
+    "display" : "Dansk personnummer"
+  },
+  {
+    "code" : "SSN",
+    "display" : "Sosial security number"
+  },
+  {
+    "code" : "FPN",
+    "display" : "Forsikringspolise nummer"
+  },
+  {
+    "code" : "UID",
+    "display" : "Utenlandsk identifikasjon",
+    "definition" : "Annet enn svensk- og dansk personnummer"
+  },
+  {
+    "code" : "DUF",
+    "display" : "DUF-nummer",
+    "definition" : "Registreringsnummeret i Utlendingsdirektoratets datasystem"
+  },
+  {
+    "code" : "FHN",
+    "display" : "Felles hjelpenummer"
+  },
+  {
+    "code" : "XXX",
+    "display" : "Annet"
+  }]
 }

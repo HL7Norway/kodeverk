@@ -5,59 +5,47 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://hl7.no/fhir/CodeSystem/no-kodeverk-8232.codesystem> a fhir:CodeSystem;
-  fhir:nodeRole fhir:treeRoot;
-  fhir:Resource.id [ fhir:value "no-kodeverk-8232.codesystem"];
-  fhir:DomainResource.text [
-     fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system <code>http://ehelse.no/fhir/CodeSystem/no-kodeverk-8232</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">PFP<a name=\"no-kodeverk-8232.codesystem-PFP\"> </a></td><td>Profylaktisk prosedyre</td></tr><tr><td style=\"white-space:nowrap\">DI<a name=\"no-kodeverk-8232.codesystem-DI\"> </a></td><td>Diett</td></tr><tr><td style=\"white-space:nowrap\">FA<a name=\"no-kodeverk-8232.codesystem-FA\"> </a></td><td>Faste</td></tr><tr><td style=\"white-space:nowrap\">MEDB<a name=\"no-kodeverk-8232.codesystem-MEDB\"> </a></td><td>Medikamentell behandling</td></tr></table></div>"
-  ];
-  fhir:CodeSystem.url [ fhir:value "http://ehelse.no/fhir/CodeSystem/no-kodeverk-8232"];
-  fhir:CodeSystem.identifier [
-     fhir:index 0;
-     fhir:Identifier.system [ fhir:value "urn:ietf:rfc:3986" ];
-     fhir:Identifier.value [ fhir:value "urn:oid:2.16.578.1.12.4.1.1.8232" ]
-  ];
-  fhir:CodeSystem.version [ fhir:value "0.4.3"];
-  fhir:CodeSystem.name [ fhir:value "NoKodeverk8232"];
-  fhir:CodeSystem.title [ fhir:value "8232 Forbehandling"];
-  fhir:CodeSystem.status [ fhir:value "active"];
-  fhir:CodeSystem.date [ fhir:value "2022-09-09T13:02:22+00:00"^^xsd:dateTime];
-  fhir:CodeSystem.publisher [ fhir:value "Direktoratet for e-helse"];
-  fhir:CodeSystem.description [ fhir:value "Forberedelse før undersøkelse"];
-  fhir:CodeSystem.jurisdiction [
-     fhir:index 0;
-     fhir:CodeableConcept.coding [
-       fhir:index 0;
-       fhir:Coding.system [ fhir:value "urn:iso:std:iso:3166" ];
-       fhir:Coding.code [ fhir:value "NO" ];
-       fhir:Coding.display [ fhir:value "Norway" ]
-     ]
-  ];
-  fhir:CodeSystem.content [ fhir:value "complete"];
-  fhir:CodeSystem.count [ fhir:value "4"^^xsd:nonNegativeInteger];
-  fhir:CodeSystem.concept [
-     fhir:index 0;
-     fhir:CodeSystem.concept.code [ fhir:value "PFP" ];
-     fhir:CodeSystem.concept.display [ fhir:value "Profylaktisk prosedyre" ]
-  ], [
-     fhir:index 1;
-     fhir:CodeSystem.concept.code [ fhir:value "DI" ];
-     fhir:CodeSystem.concept.display [ fhir:value "Diett" ]
-  ], [
-     fhir:index 2;
-     fhir:CodeSystem.concept.code [ fhir:value "FA" ];
-     fhir:CodeSystem.concept.display [ fhir:value "Faste" ]
-  ], [
-     fhir:index 3;
-     fhir:CodeSystem.concept.code [ fhir:value "MEDB" ];
-     fhir:CodeSystem.concept.display [ fhir:value "Medikamentell behandling" ]
-  ] .
-
-# - ontology header ------------------------------------------------------------
-
-<http://hl7.no/fhir/CodeSystem/no-kodeverk-8232.codesystem.ttl> a owl:Ontology;
-  owl:imports fhir:fhir.ttl .
+<http://hl7.no/fhir/CodeSystem/no-kodeverk-8232.codesystem> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "no-kodeverk-8232.codesystem"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system <code>http://ehelse.no/fhir/CodeSystem/no-kodeverk-8232</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">PFP<a name=\"no-kodeverk-8232.codesystem-PFP\"> </a></td><td>Profylaktisk prosedyre</td></tr><tr><td style=\"white-space:nowrap\">DI<a name=\"no-kodeverk-8232.codesystem-DI\"> </a></td><td>Diett</td></tr><tr><td style=\"white-space:nowrap\">FA<a name=\"no-kodeverk-8232.codesystem-FA\"> </a></td><td>Faste</td></tr><tr><td style=\"white-space:nowrap\">MEDB<a name=\"no-kodeverk-8232.codesystem-MEDB\"> </a></td><td>Medikamentell behandling</td></tr></table></div>"
+  ] ; # 
+  fhir:url [ fhir:v "http://ehelse.no/fhir/CodeSystem/no-kodeverk-8232"^^xsd:anyURI] ; # 
+  fhir:identifier ( [
+     fhir:system [ fhir:v "urn:ietf:rfc:3986"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "urn:oid:2.16.578.1.12.4.1.1.8232" ]
+  ] ) ; # 
+  fhir:version [ fhir:v "0.4.3"] ; # 
+  fhir:name [ fhir:v "NoKodeverk8232"] ; # 
+  fhir:title [ fhir:v "8232 Forbehandling"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:date [ fhir:v "2023-08-17T10:02:16+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "Direktoratet for e-helse"] ; # 
+  fhir:description [ fhir:v "Forberedelse før undersøkelse"] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [ fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "NO" ] ;
+       fhir:display [ fhir:v "Norway" ]
+     ] )
+  ] ) ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:count [ fhir:v "4"^^xsd:nonNegativeInteger] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "PFP" ] ;
+     fhir:display [ fhir:v "Profylaktisk prosedyre" ]
+  ] [
+     fhir:code [ fhir:v "DI" ] ;
+     fhir:display [ fhir:v "Diett" ]
+  ] [
+     fhir:code [ fhir:v "FA" ] ;
+     fhir:display [ fhir:v "Faste" ]
+  ] [
+     fhir:code [ fhir:v "MEDB" ] ;
+     fhir:display [ fhir:v "Medikamentell behandling" ]
+  ] ) . # 
 
 # -------------------------------------------------------------------------------------
 

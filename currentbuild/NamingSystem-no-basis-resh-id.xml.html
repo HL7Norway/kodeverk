@@ -43,8 +43,8 @@
 
 	  <script src="assets/js/prism.js"></script>
 
-    <style type="text/css">h2{--heading-prefix:"5.32"}
-    h3,h4,h5,h6{--heading-prefix:"5.32"}</style>
+    <style type="text/css">h2{--heading-prefix:"5.33"}
+    h3,h4,h5,h6{--heading-prefix:"5.33"}</style>
     <div id="segment-header" class="segment">  <!-- segment-header -->
       <div class="container">  <!-- container -->
         <!-- Placeholder for child template header declarations -->
@@ -66,7 +66,17 @@
 
 
         <div id="ig-status">
-          <p><span style="font-size:12pt;font-weight:bold"></span><br/>0.4.3 - ci-build</p>
+          <p><span style="font-size:12pt;font-weight:bold"></span>
+            <br/>
+            <span style="display:inline-block;">0.4.3 - ci-build
+
+
+
+  <img alt="Norway flag" src="assets/images/nor.svg" height="16" title="Norway"/>
+
+
+            </span>
+          </p>
         </div>
       </div> <!-- /container -->
     </div>  <!-- /segment-header -->
@@ -151,11 +161,14 @@
 
 
 
+
+
 <ul class="nav nav-tabs">
 
   <li>
     <a href="NamingSystem-no-basis-resh-id.html">Narrative Content</a>
   </li>
+
 
 
   
@@ -187,6 +200,21 @@
 
 
 <h2 id="root">: no-basis-resh-id - XML Representation</h2>
+  <table class="colsi">
+    <tr>
+
+      <td colspan="2">
+        
+          Active
+          
+            as of 2022-02-10
+          
+        
+      </td>
+
+    </tr>
+  </table>
+
 
 <p><a href="NamingSystem-no-basis-resh-id.xml" no-download="true">Raw xml</a> | <a href="NamingSystem-no-basis-resh-id.xml" download>Download</a></p>
 
@@ -195,7 +223,7 @@
 
 
 
-  <pre class="xml"><code class="language-xml">
+  <pre class="xml" style="white-space: pre; overflow: hidden"><code class="language-xml">
 
 &lt;<a href="http://hl7.org/fhir/R4/namingsystem.html#NamingSystem">NamingSystem</a> xmlns=&quot;http://hl7.org/fhir&quot;&gt;
   &lt;<a href="http://hl7.org/fhir/R4/namingsystem.html#NamingSystem.id">id</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;no-basis-resh-id&quot;/&gt;
@@ -204,6 +232,14 @@
     &lt;div xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;&lt;h3&gt;Summary&lt;/h3&gt;&lt;table class=&quot;grid&quot;&gt;&lt;tr&gt;&lt;td&gt;Defining URL&lt;/td&gt;&lt;td&gt;http://hl7.no/fhir/NamingSystem/no-basis-resh-id&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Version&lt;/td&gt;&lt;td&gt;0.4.3&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Name&lt;/td&gt;&lt;td&gt;RESHid&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Status&lt;/td&gt;&lt;td&gt;active&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Definition&lt;/td&gt;&lt;td&gt;&lt;div&gt;&lt;p&gt;Identifikator for enheter i spesialisthelsetjenesten.&lt;/p&gt;
 &lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Publisher&lt;/td&gt;&lt;td&gt;Direktoratet for e-helse&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;h3&gt;Identifiers&lt;/h3&gt;&lt;table class=&quot;grid&quot;&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;Type&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Value&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Preferred&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;URI&lt;/td&gt;&lt;td&gt;http://hl7.no/fhir/NamingSystem/RESHid&lt;/td&gt;&lt;td&gt;false&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;OID&lt;/td&gt;&lt;td&gt;2.16.578.1.12.4.1.4.102&lt;/td&gt;&lt;td&gt;true&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;<a name="end-xhtml"></a>
   &lt;/text&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/namingsystem.html#NamingSystem.extension">extension</a>
+             <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;http://hl7.org/fhir/5.0/StructureDefinition/extension-NamingSystem.url&quot;&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value[x]">valueUri</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;http://hl7.no/fhir/NamingSystem/no-basis-resh-id&quot;/&gt;
+  &lt;/extension&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/namingsystem.html#NamingSystem.extension">extension</a>
+             <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;http://hl7.org/fhir/5.0/StructureDefinition/extension-NamingSystem.version&quot;&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value[x]">valueString</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;0.4.3&quot;/&gt;
+  &lt;/extension&gt;
   &lt;<a href="http://hl7.org/fhir/R4/namingsystem.html#NamingSystem.name">name</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;RESHid&quot;/&gt;
   &lt;<a href="http://hl7.org/fhir/R4/namingsystem.html#NamingSystem.status">status</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;active&quot;/&gt;
   &lt;<a href="http://hl7.org/fhir/R4/namingsystem.html#NamingSystem.kind">kind</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;identifier&quot;/&gt;
@@ -258,9 +294,9 @@
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2022+ <a style="color:var(--footer-hyperlink-text-color)" href=""></a>.  Package hl7.fhir.no.kodeverk#0.4.3 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Fri, Sep 9, 2022 13:02+0000">2022-09-09</span>
+          IG &#169; 2022+ <a style="color:var(--footer-hyperlink-text-color)" href=""></a>.  Package hl7.fhir.no.kodeverk#0.4.3 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Thu, Aug 17, 2023 10:02+0000">2023-08-17</span>
           <br/>
-          <span style="color: var(--footer-highlight-text-color)"></span>
+          <span style="color: var(--footer-highlight-text-color)">
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
                  <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
                  
@@ -284,6 +320,8 @@
   <script type="text/javascript" src="assets/js/bootstrap.min.js"> </script>
   <script type="text/javascript" src="assets/js/respond.min.js"> </script>
   <script type="text/javascript" src="assets/js/anchor.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard-btn.js"> </script>
   <script>anchors.options.visible = 'hover'
 anchors.add()</script>
   

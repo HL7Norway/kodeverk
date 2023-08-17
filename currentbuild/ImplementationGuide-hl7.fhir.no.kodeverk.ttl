@@ -5,660 +5,974 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://hl7.no/fhir/ImplementationGuide/hl7.fhir.no.kodeverk> a fhir:ImplementationGuide;
-  fhir:nodeRole fhir:treeRoot;
-  fhir:Resource.id [ fhir:value "hl7.fhir.no.kodeverk"];
-  fhir:DomainResource.text [
-     fhir:Narrative.status [ fhir:value "extensions" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>NoKodeverk</h2><p>The official URL for this implementation guide is: </p><pre>http://hl7.no/fhir/ImplementationGuide/hl7.fhir.no.kodeverk</pre></div>"
-  ];
-  fhir:ImplementationGuide.url [ fhir:value "http://hl7.no/fhir/ImplementationGuide/hl7.fhir.no.kodeverk"];
-  fhir:ImplementationGuide.version [ fhir:value "0.4.3"];
-  fhir:ImplementationGuide.name [ fhir:value "NoKodeverk"];
-  fhir:ImplementationGuide.status [ fhir:value "draft"];
-  fhir:ImplementationGuide.date [ fhir:value "2022-09-09T13:02:22+00:00"^^xsd:dateTime];
-  fhir:ImplementationGuide.jurisdiction [
-     fhir:index 0;
-     fhir:CodeableConcept.coding [
-       fhir:index 0;
-       fhir:Coding.system [ fhir:value "urn:iso:std:iso:3166" ];
-       fhir:Coding.code [ fhir:value "NO" ];
-       fhir:Coding.display [ fhir:value "Norway" ]
-     ]
-  ];
-  fhir:ImplementationGuide.packageId [ fhir:value "hl7.fhir.no.kodeverk"];
-  fhir:ImplementationGuide.license [ fhir:value "CC0-1.0"];
-  fhir:ImplementationGuide.fhirVersion [
-     fhir:value "4.0.1";
-     fhir:index 0
-  ];
-  fhir:ImplementationGuide.dependsOn [
-     fhir:index 0;
-     fhir:Element.id [ fhir:value "hl7tx" ];
-     fhir:ImplementationGuide.dependsOn.uri [
-       fhir:value "http://terminology.hl7.org/ImplementationGuide/hl7.terminology";
+<http://hl7.no/fhir/ImplementationGuide/hl7.fhir.no.kodeverk> a fhir:ImplementationGuide ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "hl7.fhir.no.kodeverk"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "extensions" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>NoKodeverk</h2><p>The official URL for this implementation guide is: </p><pre>http://hl7.no/fhir/ImplementationGuide/hl7.fhir.no.kodeverk</pre></div>"
+  ] ; # 
+  fhir:url [ fhir:v "http://hl7.no/fhir/ImplementationGuide/hl7.fhir.no.kodeverk"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "0.4.3"] ; # 
+  fhir:name [ fhir:v "NoKodeverk"] ; # 
+  fhir:status [ fhir:v "draft"] ; # 
+  fhir:date [ fhir:v "2023-08-17T10:02:16+00:00"^^xsd:dateTime] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [ fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "NO" ] ;
+       fhir:display [ fhir:v "Norway" ]
+     ] )
+  ] ) ; # 
+  fhir:packageId [ fhir:v "hl7.fhir.no.kodeverk"] ; # 
+  fhir:license [ fhir:v "CC0-1.0"] ; # 
+  fhir:fhirVersion ( [ fhir:v "4.0.1"] ) ; # 
+  fhir:dependsOn ( [
+     fhir:id [ fhir:v "hl7tx" ] ;
+     fhir:extension ( [
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/implementationguide-dependency-comment"^^xsd:anyURI ] ;
+       fhir:value [ fhir:v "Automatically added as a dependency - all IGs depend on HL7 Terminology" ]
+     ] ) ;
+     fhir:uri [
+       fhir:v "http://terminology.hl7.org/ImplementationGuide/hl7.terminology"^^xsd:anyURI ;
        fhir:link <http://terminology.hl7.org/ImplementationGuide/hl7.terminology>
-     ];
-     fhir:ImplementationGuide.dependsOn.packageId [ fhir:value "hl7.terminology.r4" ];
-     fhir:ImplementationGuide.dependsOn.version [ fhir:value "3.1.0" ]
-  ];
-  fhir:ImplementationGuide.definition [
-     fhir:ImplementationGuide.definition.resource [
-       fhir:index 0;
-       fhir:Element.extension [
-         fhir:index 0;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "CodeSystem" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://hl7.no/fhir/CodeSystem/no-kodeverk-1101.codesystem>;
-         fhir:Reference.reference [ fhir:value "CodeSystem/no-kodeverk-1101.codesystem" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "1101 Ja, nei" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Dette kodeverket inneholder koder for å angi svar Ja eller Nei." ];
-       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
-     ], [
-       fhir:index 1;
-       fhir:Element.extension [
-         fhir:index 0;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "CodeSystem" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://hl7.no/fhir/CodeSystem/no-kodeverk-7010-norpat.codesystem>;
-         fhir:Reference.reference [ fhir:value "CodeSystem/no-kodeverk-7010-norpat.codesystem" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Norsk patologikodeverk (NORPAT)" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Norsk patologikodeverk er et kodeverk som benyttes ved norske patologiavdelinger. Kodeverket ble utarbeidet av Den norske patologforenings kode- og nomenklaturutvalg i samarbeid med KITH på grunnlag av The Systematized Nomenclature of Medicine (SNOMED, 1984). Endret navn fra Den norske SNOMED til Norsk patologikodeverk 3. november 2015." ];
-       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
-     ], [
-       fhir:index 2;
-       fhir:Element.extension [
-         fhir:index 0;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "CodeSystem" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://hl7.no/fhir/CodeSystem/no-kodeverk-7270-ncrp.codesystem>;
-         fhir:Reference.reference [ fhir:value "CodeSystem/no-kodeverk-7270-ncrp.codesystem" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "NCRP" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Kodeverk for radiologi og nukleærmedisin. Kodeverket skal brukes for å dokumentere og skal kunne brukes for å bestille radiologiske tjenester. Det skal benyttes for både polikliniske og innlagte pasienter. Fra 1. januar 2012 har det vært obligatorisk å bruke dette kodeverket for å rapportere poliklinisk radiologisk aktivitet både for offentlige og private virksomheter." ];
-       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
-     ], [
-       fhir:index 3;
-       fhir:Element.extension [
-         fhir:index 0;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "CodeSystem" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://hl7.no/fhir/CodeSystem/no-kodeverk-7280-nlk.codesystem>;
-         fhir:Reference.reference [ fhir:value "CodeSystem/no-kodeverk-7280-nlk.codesystem" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Norsk laboratoriekodeverk" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Norsk laboratoriekodverk er et felles kodeverk for laboratorieanalyser utarbeidet i samarbeid med de laboratoriefaglige miljøene fordelt på 6 spesialiteter: Immunologi og transfusjonsmedisin, Klinisk farmakologi, Medisinsk biokjemi, Medisinsk genetikk, Medisinsk mikrobiologi og Patologi." ];
-       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
-     ], [
-       fhir:index 4;
-       fhir:Element.extension [
-         fhir:index 0;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "CodeSystem" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://hl7.no/fhir/CodeSystem/no-kodeverk-7305.codesystem>;
-         fhir:Reference.reference [ fhir:value "CodeSystem/no-kodeverk-7305.codesystem" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "7305 Moderator" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Tilleggsopplysning til diagnose." ];
-       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
-     ], [
-       fhir:index 5;
-       fhir:Element.extension [
-         fhir:index 0;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "CodeSystem" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://hl7.no/fhir/CodeSystem/no-kodeverk-8116.codesystem>;
-         fhir:Reference.reference [ fhir:value "CodeSystem/no-kodeverk-8116.codesystem" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "8116 ID-type for personer" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Angir type identifikator for personer." ];
-       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
-     ], [
-       fhir:index 6;
-       fhir:Element.extension [
-         fhir:index 0;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "CodeSystem" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://hl7.no/fhir/CodeSystem/no-kodeverk-8202.codesystem>;
-         fhir:Reference.reference [ fhir:value "CodeSystem/no-kodeverk-8202.codesystem" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "8202 Type laboratoriemelding" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Fagområde innen laboratoriemedisin og bildediagnstikk. Benyttes for å angi type svarrapport" ];
-       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
-     ], [
-       fhir:index 7;
-       fhir:Element.extension [
-         fhir:index 0;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "CodeSystem" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://hl7.no/fhir/CodeSystem/no-kodeverk-8212.codesystem>;
-         fhir:Reference.reference [ fhir:value "CodeSystem/no-kodeverk-8212.codesystem" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "8212 Uspesifisert laboratoriekodeverk" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Dette kodeverk skal benyttes i tilfeller der det er uavklart hvilket type koder som skal være med i en melding. Kodeverket inneholder ingen koder" ];
-       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
-     ], [
-       fhir:index 8;
-       fhir:Element.extension [
-         fhir:index 0;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "CodeSystem" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://hl7.no/fhir/CodeSystem/no-kodeverk-8216.codesystem>;
-         fhir:Reference.reference [ fhir:value "CodeSystem/no-kodeverk-8216.codesystem" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "8216 Kodeverk for cytologisk materiale" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Gynekologisk materiale eller annet cytologisk materiale som er tatt for cytologiske undersøkelser. Kodene dekker opp valgmuligheter fra standard rekvisisjonsskjema for cytologiske undersøkelser." ];
-       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
-     ], [
-       fhir:index 9;
-       fhir:Element.extension [
-         fhir:index 0;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "CodeSystem" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://hl7.no/fhir/CodeSystem/no-kodeverk-8219.codesystem>;
-         fhir:Reference.reference [ fhir:value "CodeSystem/no-kodeverk-8219.codesystem" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "8219 Kodeverk for patologisk-anatomiske undersøkelser" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Kodene beskriver ulike typer patologi-undersøkelser." ];
-       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
-     ], [
-       fhir:index 10;
-       fhir:Element.extension [
-         fhir:index 0;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "CodeSystem" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://hl7.no/fhir/CodeSystem/no-kodeverk-8231.codesystem>;
-         fhir:Reference.reference [ fhir:value "CodeSystem/no-kodeverk-8231.codesystem" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "8231 Type tekstsvar" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Begrunnelse for rekvisisjon/henvisning" ];
-       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
-     ], [
-       fhir:index 11;
-       fhir:Element.extension [
-         fhir:index 0;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "CodeSystem" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://hl7.no/fhir/CodeSystem/no-kodeverk-8232.codesystem>;
-         fhir:Reference.reference [ fhir:value "CodeSystem/no-kodeverk-8232.codesystem" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "8232 Forbehandling" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Forberedelse før undersøkelse" ];
-       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
-     ], [
-       fhir:index 12;
-       fhir:Element.extension [
-         fhir:index 0;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "CodeSystem" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://hl7.no/fhir/CodeSystem/no-kodeverk-8239.codesystem>;
-         fhir:Reference.reference [ fhir:value "CodeSystem/no-kodeverk-8239.codesystem" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "8239 Forholdsoperatorer i svarrapportering av medisinske tjenester" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Forholdsoperatorer i svarrapportering av medisinske tjeneste" ];
-       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
-     ], [
-       fhir:index 13;
-       fhir:Element.extension [
-         fhir:index 0;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "CodeSystem" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://hl7.no/fhir/CodeSystem/no-kodeverk-8243.codesystem>;
-         fhir:Reference.reference [ fhir:value "CodeSystem/no-kodeverk-8243.codesystem" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "8243 Type tekstsvar i tekstlig resultat i svarrapportering av medisinske tjenester" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Type tekstsvar i tekstlig resultat i svarrapportering av medisinske tjenester" ];
-       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
-     ], [
-       fhir:index 14;
-       fhir:Element.extension [
-         fhir:index 0;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "CodeSystem" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://hl7.no/fhir/CodeSystem/no-kodeverk-8244.codesystem>;
-         fhir:Reference.reference [ fhir:value "CodeSystem/no-kodeverk-8244.codesystem" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "8244 Avviksmarkør i svarrapportering av medisinske tjenester" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Angir svarverdi i forhold til referansegrense" ];
-       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
-     ], [
-       fhir:index 15;
-       fhir:Element.extension [
-         fhir:index 0;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "CodeSystem" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://hl7.no/fhir/CodeSystem/no-kodeverk-8245.codesystem>;
-         fhir:Reference.reference [ fhir:value "CodeSystem/no-kodeverk-8245.codesystem" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "8245 Status for resultat i svarrapportering av medisinske tjenester" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Benyttes for å angi status/steg i arbeidsflyt for en enkelt lab- /røntgenundersøkelse." ];
-       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
-     ], [
-       fhir:index 16;
-       fhir:Element.extension [
-         fhir:index 0;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "CodeSystem" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://hl7.no/fhir/CodeSystem/no-kodeverk-8264.codesystem>;
-         fhir:Reference.reference [ fhir:value "CodeSystem/no-kodeverk-8264.codesystem" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "8264 Tjenestekoder for timereservasjon" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Foreløpig kodeverk basert på tilgjengelige tjenester. Anvendes til booking av time." ];
-       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
-     ], [
-       fhir:index 17;
-       fhir:Element.extension [
-         fhir:index 0;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "CodeSystem" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://hl7.no/fhir/CodeSystem/no-kodeverk-8268.codesystem>;
-         fhir:Reference.reference [ fhir:value "CodeSystem/no-kodeverk-8268.codesystem" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "8268 Type identifikator" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Angir type identifikator for person og virksomhet." ];
-       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
-     ], [
-       fhir:index 18;
-       fhir:Element.extension [
-         fhir:index 0;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "CodeSystem" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://hl7.no/fhir/CodeSystem/no-kodeverk-8269.codesystem>;
-         fhir:Reference.reference [ fhir:value "CodeSystem/no-kodeverk-8269.codesystem" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "8269 Kommentar til svarrapport" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Kodet kommentar til svarrapport" ];
-       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
-     ], [
-       fhir:index 19;
-       fhir:Element.extension [
-         fhir:index 0;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "CodeSystem" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://hl7.no/fhir/CodeSystem/no-kodeverk-8271.codesystem>;
-         fhir:Reference.reference [ fhir:value "CodeSystem/no-kodeverk-8271.codesystem" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "8271 Resistens" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Svarverdier til bruk i resistensbestemmelser (SIR)" ];
-       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
-     ], [
-       fhir:index 20;
-       fhir:Element.extension [
-         fhir:index 0;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "CodeSystem" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://hl7.no/fhir/CodeSystem/no-kodeverk-8272.codesystem>;
-         fhir:Reference.reference [ fhir:value "CodeSystem/no-kodeverk-8272.codesystem" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "8272 Anbefaling om ny undersøkelse" ];
-       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
-     ], [
-       fhir:index 21;
-       fhir:Element.extension [
-         fhir:index 0;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "CodeSystem" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://hl7.no/fhir/CodeSystem/no-kodeverk-8273.codesystem>;
-         fhir:Reference.reference [ fhir:value "CodeSystem/no-kodeverk-8273.codesystem" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "8273 Hastegrad" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Anbefalt tidsperspektiv for tiltak." ];
-       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
-     ], [
-       fhir:index 22;
-       fhir:Element.extension [
-         fhir:index 0;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "CodeSystem" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://hl7.no/fhir/CodeSystem/no-kodeverk-8275.codesystem>;
-         fhir:Reference.reference [ fhir:value "CodeSystem/no-kodeverk-8275.codesystem" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "8275 Cytologisk materiale tatt med" ];
-       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
-     ], [
-       fhir:index 23;
-       fhir:Element.extension [
-         fhir:index 0;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "CodeSystem" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://hl7.no/fhir/CodeSystem/no-kodeverk-8327.codesystem>;
-         fhir:Reference.reference [ fhir:value "CodeSystem/no-kodeverk-8327.codesystem" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "8327 Offisiell personidentifikasjon" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Angir type identifikator for person" ];
-       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
-     ], [
-       fhir:index 24;
-       fhir:Element.extension [
-         fhir:index 0;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "CodeSystem" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://hl7.no/fhir/CodeSystem/no-kodeverk-8340.codesystem>;
-         fhir:Reference.reference [ fhir:value "CodeSystem/no-kodeverk-8340.codesystem" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "8340 Tekstlige resultatverdier for mikrobiologiske svar" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Kodeverk for tekstlig resultatverdier til bruk i svar av mikrobiologiske laboratorieundersøkelser." ];
-       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
-     ], [
-       fhir:index 25;
-       fhir:Element.extension [
-         fhir:index 0;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "CodeSystem" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://hl7.no/fhir/CodeSystem/no-kodeverk-8351.codesystem>;
-         fhir:Reference.reference [ fhir:value "CodeSystem/no-kodeverk-8351.codesystem" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "8351 Prøvemateriale" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Kodeverk for prøvemateriale til bruk i rekvisisjon og svar av laboratorieundersøkelser." ];
-       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
-     ], [
-       fhir:index 26;
-       fhir:Element.extension [
-         fhir:index 0;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "CodeSystem" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://hl7.no/fhir/CodeSystem/no-kodeverk-9060.codesystem>;
-         fhir:Reference.reference [ fhir:value "CodeSystem/no-kodeverk-9060.codesystem" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "9060 Kategori helsepersonell" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Kodeverket inneholder koder som benyttes for å kategorisere helsepersonell med autorisasjon etter Helsepersonelloven § 48, og dyrehelsepersonell med autorisasjon etter Dyrehelsepersonelloven § 4." ];
-       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
-     ], [
-       fhir:index 27;
-       fhir:Element.extension [
-         fhir:index 0;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "CodeSystem" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://hl7.no/fhir/CodeSystem/no-kodeverk-ICD-10.codesystem>;
-         fhir:Reference.reference [ fhir:value "CodeSystem/no-kodeverk-ICD-10.codesystem" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "ICD-10" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Klassifikasjon av sykdommer og beslektede helseproblemer." ];
-       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
-     ], [
-       fhir:index 28;
-       fhir:Element.extension [
-         fhir:index 0;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "NamingSystem" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://hl7.no/fhir/NamingSystem/no-basis-apotekenes-konsesjonsnr>;
-         fhir:Reference.reference [ fhir:value "NamingSystem/no-basis-apotekenes-konsesjonsnr" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "no-basis-apotekenes-konsesjonsnr" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Ved utstedelse av apotekkonsesjon for et nytt apotek tildeles et apotekkonsesjonsnummer. Konsesjonsnummeret er et firesifret nummer, i en nummerserie som starter på 1001, som er unikt for hvert apotek. Tildeles av Statens legemiddelverk." ];
-       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
-     ], [
-       fhir:index 29;
-       fhir:Element.extension [
-         fhir:index 0;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "NamingSystem" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://hl7.no/fhir/NamingSystem/no-basis-her-id>;
-         fhir:Reference.reference [ fhir:value "NamingSystem/no-basis-her-id" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "no-basis-her-id" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Identifikator for kommunikasjonsparter i Helsenettet.." ];
-       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
-     ], [
-       fhir:index 30;
-       fhir:Element.extension [
-         fhir:index 0;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "NamingSystem" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://hl7.no/fhir/NamingSystem/no-basis-orgnr>;
-         fhir:Reference.reference [ fhir:value "NamingSystem/no-basis-orgnr" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "no-basis-orgnr" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Nisifret, informasjonsløst nummer som entydig identifiserer virksomheter i Enhetsregisteret" ];
-       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
-     ], [
-       fhir:index 31;
-       fhir:Element.extension [
-         fhir:index 0;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "NamingSystem" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://hl7.no/fhir/NamingSystem/no-basis-resh-id>;
-         fhir:Reference.reference [ fhir:value "NamingSystem/no-basis-resh-id" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "no-basis-resh-id" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Identifikator for enheter i spesialisthelsetjenesten." ];
-       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
-     ];
-     fhir:ImplementationGuide.definition.page [
-       fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "toc.html" ];
-       fhir:ImplementationGuide.definition.page.title [ fhir:value "Table of Contents" ];
-       fhir:ImplementationGuide.definition.page.generation [ fhir:value "html" ];
-       fhir:ImplementationGuide.definition.page.page [
-         fhir:index 0;
-         fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "index.html" ];
-         fhir:ImplementationGuide.definition.page.title [ fhir:value "Home" ];
-         fhir:ImplementationGuide.definition.page.generation [ fhir:value "markdown" ]
-       ], [
-         fhir:index 1;
-         fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "download.html" ];
-         fhir:ImplementationGuide.definition.page.title [ fhir:value "Download" ];
-         fhir:ImplementationGuide.definition.page.generation [ fhir:value "markdown" ]
-       ], [
-         fhir:index 2;
-         fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "mapping.html" ];
-         fhir:ImplementationGuide.definition.page.title [ fhir:value "Mapping" ];
-         fhir:ImplementationGuide.definition.page.generation [ fhir:value "markdown" ]
-       ], [
-         fhir:index 3;
-         fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "nilar.html" ];
-         fhir:ImplementationGuide.definition.page.title [ fhir:value "Nilar" ];
-         fhir:ImplementationGuide.definition.page.generation [ fhir:value "markdown" ]
-       ]
-     ];
-     fhir:ImplementationGuide.definition.parameter [
-       fhir:index 0;
-       fhir:ImplementationGuide.definition.parameter.code [ fhir:value "copyrightyear" ];
-       fhir:ImplementationGuide.definition.parameter.value [ fhir:value "2022+" ]
-     ], [
-       fhir:index 1;
-       fhir:ImplementationGuide.definition.parameter.code [ fhir:value "releaselabel" ];
-       fhir:ImplementationGuide.definition.parameter.value [ fhir:value "ci-build" ]
-     ], [
-       fhir:index 2;
-       fhir:ImplementationGuide.definition.parameter.code [ fhir:value "path-resource" ];
-       fhir:ImplementationGuide.definition.parameter.value [ fhir:value "input/capabilities" ]
-     ], [
-       fhir:index 3;
-       fhir:ImplementationGuide.definition.parameter.code [ fhir:value "path-resource" ];
-       fhir:ImplementationGuide.definition.parameter.value [ fhir:value "input/examples" ]
-     ], [
-       fhir:index 4;
-       fhir:ImplementationGuide.definition.parameter.code [ fhir:value "path-resource" ];
-       fhir:ImplementationGuide.definition.parameter.value [ fhir:value "input/extensions" ]
-     ], [
-       fhir:index 5;
-       fhir:ImplementationGuide.definition.parameter.code [ fhir:value "path-resource" ];
-       fhir:ImplementationGuide.definition.parameter.value [ fhir:value "input/models" ]
-     ], [
-       fhir:index 6;
-       fhir:ImplementationGuide.definition.parameter.code [ fhir:value "path-resource" ];
-       fhir:ImplementationGuide.definition.parameter.value [ fhir:value "input/operations" ]
-     ], [
-       fhir:index 7;
-       fhir:ImplementationGuide.definition.parameter.code [ fhir:value "path-resource" ];
-       fhir:ImplementationGuide.definition.parameter.value [ fhir:value "input/profiles" ]
-     ], [
-       fhir:index 8;
-       fhir:ImplementationGuide.definition.parameter.code [ fhir:value "path-resource" ];
-       fhir:ImplementationGuide.definition.parameter.value [ fhir:value "input/resources" ]
-     ], [
-       fhir:index 9;
-       fhir:ImplementationGuide.definition.parameter.code [ fhir:value "path-resource" ];
-       fhir:ImplementationGuide.definition.parameter.value [ fhir:value "input/vocabulary" ]
-     ], [
-       fhir:index 10;
-       fhir:ImplementationGuide.definition.parameter.code [ fhir:value "path-resource" ];
-       fhir:ImplementationGuide.definition.parameter.value [ fhir:value "input/maps" ]
-     ], [
-       fhir:index 11;
-       fhir:ImplementationGuide.definition.parameter.code [ fhir:value "path-resource" ];
-       fhir:ImplementationGuide.definition.parameter.value [ fhir:value "input/testing" ]
-     ], [
-       fhir:index 12;
-       fhir:ImplementationGuide.definition.parameter.code [ fhir:value "path-resource" ];
-       fhir:ImplementationGuide.definition.parameter.value [ fhir:value "input/history" ]
-     ], [
-       fhir:index 13;
-       fhir:ImplementationGuide.definition.parameter.code [ fhir:value "path-resource" ];
-       fhir:ImplementationGuide.definition.parameter.value [ fhir:value "fsh-generated/resources" ]
-     ], [
-       fhir:index 14;
-       fhir:ImplementationGuide.definition.parameter.code [ fhir:value "path-pages" ];
-       fhir:ImplementationGuide.definition.parameter.value [ fhir:value "template/config" ]
-     ], [
-       fhir:index 15;
-       fhir:ImplementationGuide.definition.parameter.code [ fhir:value "path-pages" ];
-       fhir:ImplementationGuide.definition.parameter.value [ fhir:value "input/images" ]
-     ], [
-       fhir:index 16;
-       fhir:ImplementationGuide.definition.parameter.code [ fhir:value "path-liquid" ];
-       fhir:ImplementationGuide.definition.parameter.value [ fhir:value "template/liquid" ]
-     ], [
-       fhir:index 17;
-       fhir:ImplementationGuide.definition.parameter.code [ fhir:value "path-liquid" ];
-       fhir:ImplementationGuide.definition.parameter.value [ fhir:value "input/liquid" ]
-     ], [
-       fhir:index 18;
-       fhir:ImplementationGuide.definition.parameter.code [ fhir:value "path-qa" ];
-       fhir:ImplementationGuide.definition.parameter.value [ fhir:value "temp/qa" ]
-     ], [
-       fhir:index 19;
-       fhir:ImplementationGuide.definition.parameter.code [ fhir:value "path-temp" ];
-       fhir:ImplementationGuide.definition.parameter.value [ fhir:value "temp/pages" ]
-     ], [
-       fhir:index 20;
-       fhir:ImplementationGuide.definition.parameter.code [ fhir:value "path-output" ];
-       fhir:ImplementationGuide.definition.parameter.value [ fhir:value "output" ]
-     ], [
-       fhir:index 21;
-       fhir:ImplementationGuide.definition.parameter.code [ fhir:value "path-tx-cache" ];
-       fhir:ImplementationGuide.definition.parameter.value [ fhir:value "input-cache/txcache" ]
-     ], [
-       fhir:index 22;
-       fhir:ImplementationGuide.definition.parameter.code [ fhir:value "path-suppressed-warnings" ];
-       fhir:ImplementationGuide.definition.parameter.value [ fhir:value "input/ignoreWarnings.txt" ]
-     ], [
-       fhir:index 23;
-       fhir:ImplementationGuide.definition.parameter.code [ fhir:value "path-history" ];
-       fhir:ImplementationGuide.definition.parameter.value [ fhir:value "http://hl7.no/fhir/history.html" ]
-     ], [
-       fhir:index 24;
-       fhir:ImplementationGuide.definition.parameter.code [ fhir:value "template-html" ];
-       fhir:ImplementationGuide.definition.parameter.value [ fhir:value "template-page.html" ]
-     ], [
-       fhir:index 25;
-       fhir:ImplementationGuide.definition.parameter.code [ fhir:value "template-md" ];
-       fhir:ImplementationGuide.definition.parameter.value [ fhir:value "template-page-md.html" ]
-     ], [
-       fhir:index 26;
-       fhir:ImplementationGuide.definition.parameter.code [ fhir:value "apply-contact" ];
-       fhir:ImplementationGuide.definition.parameter.value [ fhir:value "true" ]
-     ], [
-       fhir:index 27;
-       fhir:ImplementationGuide.definition.parameter.code [ fhir:value "apply-context" ];
-       fhir:ImplementationGuide.definition.parameter.value [ fhir:value "true" ]
-     ], [
-       fhir:index 28;
-       fhir:ImplementationGuide.definition.parameter.code [ fhir:value "apply-copyright" ];
-       fhir:ImplementationGuide.definition.parameter.value [ fhir:value "true" ]
-     ], [
-       fhir:index 29;
-       fhir:ImplementationGuide.definition.parameter.code [ fhir:value "apply-jurisdiction" ];
-       fhir:ImplementationGuide.definition.parameter.value [ fhir:value "true" ]
-     ], [
-       fhir:index 30;
-       fhir:ImplementationGuide.definition.parameter.code [ fhir:value "apply-license" ];
-       fhir:ImplementationGuide.definition.parameter.value [ fhir:value "true" ]
-     ], [
-       fhir:index 31;
-       fhir:ImplementationGuide.definition.parameter.code [ fhir:value "apply-publisher" ];
-       fhir:ImplementationGuide.definition.parameter.value [ fhir:value "true" ]
-     ], [
-       fhir:index 32;
-       fhir:ImplementationGuide.definition.parameter.code [ fhir:value "apply-version" ];
-       fhir:ImplementationGuide.definition.parameter.value [ fhir:value "true" ]
-     ], [
-       fhir:index 33;
-       fhir:ImplementationGuide.definition.parameter.code [ fhir:value "active-tables" ];
-       fhir:ImplementationGuide.definition.parameter.value [ fhir:value "true" ]
-     ]
-  ] .
-
-# - ontology header ------------------------------------------------------------
-
-<http://hl7.no/fhir/ImplementationGuide/hl7.fhir.no.kodeverk.ttl> a owl:Ontology;
-  owl:imports fhir:fhir.ttl .
+     ] ;
+     fhir:packageId [ fhir:v "hl7.terminology.r4" ] ;
+     fhir:version [ fhir:v "5.0.0" ]
+  ] [
+     fhir:id [ fhir:v "hl7ext" ] ;
+     fhir:extension ( [
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/implementationguide-dependency-comment"^^xsd:anyURI ] ;
+       fhir:value [ fhir:v "Automatically added as a dependency - all IGs depend on the HL7 Extension Pack" ]
+     ] ) ;
+     fhir:uri [
+       fhir:v "http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions"^^xsd:anyURI ;
+       fhir:link <http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions>
+     ] ;
+     fhir:packageId [ fhir:v "hl7.fhir.uv.extensions.r4" ] ;
+     fhir:version [ fhir:v "1.0.0" ]
+  ] ) ; # 
+  fhir:definition [
+     fhir:extension ( [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "copyrightyear" ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "2022+" ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "releaselabel" ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ci-build" ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "autoload-resources" ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "true" ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "path-liquid" ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "template/liquid" ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "path-liquid" ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "input/liquid" ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "path-qa" ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "temp/qa" ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "path-temp" ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "temp/pages" ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "path-output" ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "output" ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "path-suppressed-warnings" ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "input/ignoreWarnings.txt" ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "path-history" ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "http://hl7.no/fhir/history.html" ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "template-html" ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "template-page.html" ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "template-md" ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "template-page-md.html" ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "apply-contact" ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "true" ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "apply-context" ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "true" ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "apply-copyright" ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "true" ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "apply-jurisdiction" ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "true" ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "apply-license" ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "true" ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "apply-publisher" ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "true" ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "apply-version" ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "true" ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "active-tables" ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "true" ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "fmm-definition" ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "http://hl7.org/fhir/versions.html#maturity" ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "propagate-status" ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "true" ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "excludelogbinaryformat" ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "true" ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "tabbed-snapshots" ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "true" ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-internal-dependency"^^xsd:anyURI ] ;
+       fhir:value [ fhir:v "hl7.fhir.uv.tools#current" ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "copyrightyear" ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "2022+" ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "releaselabel" ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ci-build" ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "autoload-resources" ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "true" ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "path-liquid" ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "template/liquid" ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "path-liquid" ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "input/liquid" ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "path-qa" ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "temp/qa" ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "path-temp" ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "temp/pages" ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "path-output" ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "output" ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "path-suppressed-warnings" ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "input/ignoreWarnings.txt" ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "path-history" ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "http://hl7.no/fhir/history.html" ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "template-html" ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "template-page.html" ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "template-md" ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "template-page-md.html" ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "apply-contact" ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "true" ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "apply-context" ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "true" ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "apply-copyright" ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "true" ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "apply-jurisdiction" ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "true" ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "apply-license" ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "true" ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "apply-publisher" ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "true" ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "apply-version" ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "true" ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "active-tables" ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "true" ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "fmm-definition" ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "http://hl7.org/fhir/versions.html#maturity" ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "propagate-status" ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "true" ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "excludelogbinaryformat" ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "true" ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "tabbed-snapshots" ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "true" ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] ) ;
+     fhir:resource ( [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "CodeSystem" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.no/fhir/CodeSystem/no-kodeverk-1101.codesystem> ;
+         fhir:reference [ fhir:v "CodeSystem/no-kodeverk-1101.codesystem" ]
+       ] ;
+       fhir:name [ fhir:v "1101 Ja, nei" ] ;
+       fhir:description [ fhir:v "Dette kodeverket inneholder koder for å angi svar Ja eller Nei." ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "CodeSystem" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.no/fhir/CodeSystem/no-kodeverk-7305.codesystem> ;
+         fhir:reference [ fhir:v "CodeSystem/no-kodeverk-7305.codesystem" ]
+       ] ;
+       fhir:name [ fhir:v "7305 Moderator" ] ;
+       fhir:description [ fhir:v "Tilleggsopplysning til diagnose." ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "CodeSystem" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.no/fhir/CodeSystem/no-kodeverk-8116.codesystem> ;
+         fhir:reference [ fhir:v "CodeSystem/no-kodeverk-8116.codesystem" ]
+       ] ;
+       fhir:name [ fhir:v "8116 ID-type for personer" ] ;
+       fhir:description [ fhir:v "Angir type identifikator for personer." ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "CodeSystem" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.no/fhir/CodeSystem/no-kodeverk-8202.codesystem> ;
+         fhir:reference [ fhir:v "CodeSystem/no-kodeverk-8202.codesystem" ]
+       ] ;
+       fhir:name [ fhir:v "8202 Type laboratoriemelding" ] ;
+       fhir:description [ fhir:v "Fagområde innen laboratoriemedisin og bildediagnstikk. Benyttes for å angi type svarrapport" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "CodeSystem" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.no/fhir/CodeSystem/no-kodeverk-8212.codesystem> ;
+         fhir:reference [ fhir:v "CodeSystem/no-kodeverk-8212.codesystem" ]
+       ] ;
+       fhir:name [ fhir:v "8212 Uspesifisert laboratoriekodeverk" ] ;
+       fhir:description [ fhir:v "Dette kodeverk skal benyttes i tilfeller der det er uavklart hvilket type koder som skal være med i en melding. Kodeverket inneholder ingen koder" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "CodeSystem" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.no/fhir/CodeSystem/no-kodeverk-8216.codesystem> ;
+         fhir:reference [ fhir:v "CodeSystem/no-kodeverk-8216.codesystem" ]
+       ] ;
+       fhir:name [ fhir:v "8216 Kodeverk for cytologisk materiale" ] ;
+       fhir:description [ fhir:v "Gynekologisk materiale eller annet cytologisk materiale som er tatt for cytologiske undersøkelser. Kodene dekker opp valgmuligheter fra standard rekvisisjonsskjema for cytologiske undersøkelser." ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "CodeSystem" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.no/fhir/CodeSystem/no-kodeverk-8219.codesystem> ;
+         fhir:reference [ fhir:v "CodeSystem/no-kodeverk-8219.codesystem" ]
+       ] ;
+       fhir:name [ fhir:v "8219 Kodeverk for patologisk-anatomiske undersøkelser" ] ;
+       fhir:description [ fhir:v "Kodene beskriver ulike typer patologi-undersøkelser." ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "CodeSystem" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.no/fhir/CodeSystem/no-kodeverk-8231.codesystem> ;
+         fhir:reference [ fhir:v "CodeSystem/no-kodeverk-8231.codesystem" ]
+       ] ;
+       fhir:name [ fhir:v "8231 Type tekstsvar" ] ;
+       fhir:description [ fhir:v "Begrunnelse for rekvisisjon/henvisning" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "CodeSystem" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.no/fhir/CodeSystem/no-kodeverk-8232.codesystem> ;
+         fhir:reference [ fhir:v "CodeSystem/no-kodeverk-8232.codesystem" ]
+       ] ;
+       fhir:name [ fhir:v "8232 Forbehandling" ] ;
+       fhir:description [ fhir:v "Forberedelse før undersøkelse" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "CodeSystem" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.no/fhir/CodeSystem/no-kodeverk-8239.codesystem> ;
+         fhir:reference [ fhir:v "CodeSystem/no-kodeverk-8239.codesystem" ]
+       ] ;
+       fhir:name [ fhir:v "8239 Forholdsoperatorer i svarrapportering av medisinske tjenester" ] ;
+       fhir:description [ fhir:v "Forholdsoperatorer i svarrapportering av medisinske tjeneste" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "CodeSystem" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.no/fhir/CodeSystem/no-kodeverk-8243.codesystem> ;
+         fhir:reference [ fhir:v "CodeSystem/no-kodeverk-8243.codesystem" ]
+       ] ;
+       fhir:name [ fhir:v "8243 Type tekstsvar i tekstlig resultat i svarrapportering av medisinske tjenester" ] ;
+       fhir:description [ fhir:v "Type tekstsvar i tekstlig resultat i svarrapportering av medisinske tjenester" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "CodeSystem" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.no/fhir/CodeSystem/no-kodeverk-8244.codesystem> ;
+         fhir:reference [ fhir:v "CodeSystem/no-kodeverk-8244.codesystem" ]
+       ] ;
+       fhir:name [ fhir:v "8244 Avviksmarkør i svarrapportering av medisinske tjenester" ] ;
+       fhir:description [ fhir:v "Angir svarverdi i forhold til referansegrense" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "CodeSystem" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.no/fhir/CodeSystem/no-kodeverk-8245.codesystem> ;
+         fhir:reference [ fhir:v "CodeSystem/no-kodeverk-8245.codesystem" ]
+       ] ;
+       fhir:name [ fhir:v "8245 Status for resultat i svarrapportering av medisinske tjenester" ] ;
+       fhir:description [ fhir:v "Benyttes for å angi status/steg i arbeidsflyt for en enkelt lab- /røntgenundersøkelse." ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "CodeSystem" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.no/fhir/CodeSystem/no-kodeverk-8264.codesystem> ;
+         fhir:reference [ fhir:v "CodeSystem/no-kodeverk-8264.codesystem" ]
+       ] ;
+       fhir:name [ fhir:v "8264 Tjenestekoder for timereservasjon" ] ;
+       fhir:description [ fhir:v "Foreløpig kodeverk basert på tilgjengelige tjenester. Anvendes til booking av time." ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "CodeSystem" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.no/fhir/CodeSystem/no-kodeverk-8268.codesystem> ;
+         fhir:reference [ fhir:v "CodeSystem/no-kodeverk-8268.codesystem" ]
+       ] ;
+       fhir:name [ fhir:v "8268 Type identifikator" ] ;
+       fhir:description [ fhir:v "Angir type identifikator for person og virksomhet." ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "CodeSystem" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.no/fhir/CodeSystem/no-kodeverk-8269.codesystem> ;
+         fhir:reference [ fhir:v "CodeSystem/no-kodeverk-8269.codesystem" ]
+       ] ;
+       fhir:name [ fhir:v "8269 Kommentar til svarrapport" ] ;
+       fhir:description [ fhir:v "Kodet kommentar til svarrapport" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "CodeSystem" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.no/fhir/CodeSystem/no-kodeverk-8271.codesystem> ;
+         fhir:reference [ fhir:v "CodeSystem/no-kodeverk-8271.codesystem" ]
+       ] ;
+       fhir:name [ fhir:v "8271 Resistens" ] ;
+       fhir:description [ fhir:v "Svarverdier til bruk i resistensbestemmelser (SIR)" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "CodeSystem" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.no/fhir/CodeSystem/no-kodeverk-8272.codesystem> ;
+         fhir:reference [ fhir:v "CodeSystem/no-kodeverk-8272.codesystem" ]
+       ] ;
+       fhir:name [ fhir:v "8272 Anbefaling om ny undersøkelse" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "CodeSystem" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.no/fhir/CodeSystem/no-kodeverk-8273.codesystem> ;
+         fhir:reference [ fhir:v "CodeSystem/no-kodeverk-8273.codesystem" ]
+       ] ;
+       fhir:name [ fhir:v "8273 Hastegrad" ] ;
+       fhir:description [ fhir:v "Anbefalt tidsperspektiv for tiltak." ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "CodeSystem" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.no/fhir/CodeSystem/no-kodeverk-8275.codesystem> ;
+         fhir:reference [ fhir:v "CodeSystem/no-kodeverk-8275.codesystem" ]
+       ] ;
+       fhir:name [ fhir:v "8275 Cytologisk materiale tatt med" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "CodeSystem" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.no/fhir/CodeSystem/no-kodeverk-8327.codesystem> ;
+         fhir:reference [ fhir:v "CodeSystem/no-kodeverk-8327.codesystem" ]
+       ] ;
+       fhir:name [ fhir:v "8327 Offisiell personidentifikasjon" ] ;
+       fhir:description [ fhir:v "Angir type identifikator for person" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "CodeSystem" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.no/fhir/CodeSystem/no-kodeverk-8340.codesystem> ;
+         fhir:reference [ fhir:v "CodeSystem/no-kodeverk-8340.codesystem" ]
+       ] ;
+       fhir:name [ fhir:v "8340 Tekstlige resultatverdier for mikrobiologiske svar" ] ;
+       fhir:description [ fhir:v "Kodeverk for tekstlig resultatverdier til bruk i svar av mikrobiologiske laboratorieundersøkelser." ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "CodeSystem" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.no/fhir/CodeSystem/no-kodeverk-8351.codesystem> ;
+         fhir:reference [ fhir:v "CodeSystem/no-kodeverk-8351.codesystem" ]
+       ] ;
+       fhir:name [ fhir:v "8351 Prøvemateriale" ] ;
+       fhir:description [ fhir:v "Kodeverk for prøvemateriale til bruk i rekvisisjon og svar av laboratorieundersøkelser." ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "CodeSystem" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.no/fhir/CodeSystem/no-kodeverk-9060.codesystem> ;
+         fhir:reference [ fhir:v "CodeSystem/no-kodeverk-9060.codesystem" ]
+       ] ;
+       fhir:name [ fhir:v "9060 Kategori helsepersonell" ] ;
+       fhir:description [ fhir:v "Kodeverket inneholder koder som benyttes for å kategorisere helsepersonell med autorisasjon etter Helsepersonelloven § 48, og dyrehelsepersonell med autorisasjon etter Dyrehelsepersonelloven § 4." ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "CodeSystem" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.no/fhir/CodeSystem/no-kodeverk-9603.codesystem> ;
+         fhir:reference [ fhir:v "CodeSystem/no-kodeverk-9603.codesystem" ]
+       ] ;
+       fhir:name [ fhir:v "9603 Sperring og nekting av dokumenter" ] ;
+       fhir:description [ fhir:v "Kodeverket benyttes for å angi sperring og nekting av dokumenter. Opprettet for bruk i HIS 1169:2016 IHE XDS metadata inntil en nasjonal løsning for tilgangsstyring/håndtering av sperring er etablert." ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "CodeSystem" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.no/fhir/CodeSystem/no-kodeverk-ICD-10.codesystem> ;
+         fhir:reference [ fhir:v "CodeSystem/no-kodeverk-ICD-10.codesystem" ]
+       ] ;
+       fhir:name [ fhir:v "ICD-10" ] ;
+       fhir:description [ fhir:v "Klassifikasjon av sykdommer og beslektede helseproblemer." ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "CodeSystem" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.no/fhir/CodeSystem/no-kodeverk-7270-ncrp.codesystem> ;
+         fhir:reference [ fhir:v "CodeSystem/no-kodeverk-7270-ncrp.codesystem" ]
+       ] ;
+       fhir:name [ fhir:v "NCRP" ] ;
+       fhir:description [ fhir:v "Kodeverk for radiologi og nukleærmedisin. Kodeverket skal brukes for å dokumentere og skal kunne brukes for å bestille radiologiske tjenester. Det skal benyttes for både polikliniske og innlagte pasienter. Fra 1. januar 2012 har det vært obligatorisk å bruke dette kodeverket for å rapportere poliklinisk radiologisk aktivitet både for offentlige og private virksomheter." ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "NamingSystem" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.no/fhir/NamingSystem/no-basis-apotekenes-konsesjonsnr> ;
+         fhir:reference [ fhir:v "NamingSystem/no-basis-apotekenes-konsesjonsnr" ]
+       ] ;
+       fhir:name [ fhir:v "no-basis-apotekenes-konsesjonsnr" ] ;
+       fhir:description [ fhir:v "Ved utstedelse av apotekkonsesjon for et nytt apotek tildeles et apotekkonsesjonsnummer. Konsesjonsnummeret er et firesifret nummer, i en nummerserie som starter på 1001, som er unikt for hvert apotek. Tildeles av Statens legemiddelverk." ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "NamingSystem" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.no/fhir/NamingSystem/no-basis-her-id> ;
+         fhir:reference [ fhir:v "NamingSystem/no-basis-her-id" ]
+       ] ;
+       fhir:name [ fhir:v "no-basis-her-id" ] ;
+       fhir:description [ fhir:v "Identifikator for kommunikasjonsparter i Helsenettet.." ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "NamingSystem" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.no/fhir/NamingSystem/no-basis-orgnr> ;
+         fhir:reference [ fhir:v "NamingSystem/no-basis-orgnr" ]
+       ] ;
+       fhir:name [ fhir:v "no-basis-orgnr" ] ;
+       fhir:description [ fhir:v "Nisifret, informasjonsløst nummer som entydig identifiserer virksomheter i Enhetsregisteret" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "NamingSystem" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.no/fhir/NamingSystem/no-basis-resh-id> ;
+         fhir:reference [ fhir:v "NamingSystem/no-basis-resh-id" ]
+       ] ;
+       fhir:name [ fhir:v "no-basis-resh-id" ] ;
+       fhir:description [ fhir:v "Identifikator for enheter i spesialisthelsetjenesten." ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "CodeSystem" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.no/fhir/CodeSystem/no-kodeverk-7280-nlk.codesystem> ;
+         fhir:reference [ fhir:v "CodeSystem/no-kodeverk-7280-nlk.codesystem" ]
+       ] ;
+       fhir:name [ fhir:v "Norsk laboratoriekodeverk" ] ;
+       fhir:description [ fhir:v "Norsk laboratoriekodverk er et felles kodeverk for laboratorieanalyser utarbeidet i samarbeid med de laboratoriefaglige miljøene fordelt på 6 spesialiteter: Immunologi og transfusjonsmedisin, Klinisk farmakologi, Medisinsk biokjemi, Medisinsk genetikk, Medisinsk mikrobiologi og Patologi." ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "CodeSystem" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.no/fhir/CodeSystem/no-kodeverk-7010-norpat.codesystem> ;
+         fhir:reference [ fhir:v "CodeSystem/no-kodeverk-7010-norpat.codesystem" ]
+       ] ;
+       fhir:name [ fhir:v "Norsk patologikodeverk (NORPAT)" ] ;
+       fhir:description [ fhir:v "Norsk patologikodeverk er et kodeverk som benyttes ved norske patologiavdelinger. Kodeverket ble utarbeidet av Den norske patologforenings kode- og nomenklaturutvalg i samarbeid med KITH på grunnlag av The Systematized Nomenclature of Medicine (SNOMED, 1984). Endret navn fra Den norske SNOMED til Norsk patologikodeverk 3. november 2015." ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] ) ;
+     fhir:page [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "toc.html"^^xsd:anyURI ]
+       ] ) ;
+       fhir:name [ fhir:v "toc.html"^^xsd:anyURI ] ;
+       fhir:title [ fhir:v "Table of Contents" ] ;
+       fhir:generation [ fhir:v "html" ] ;
+       fhir:page ( [
+         fhir:extension ( [
+           fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name"^^xsd:anyURI ] ;
+           fhir:value [ fhir:v "index.html"^^xsd:anyURI ]
+         ] ) ;
+         fhir:name [ fhir:v "index.html"^^xsd:anyURI ] ;
+         fhir:title [ fhir:v "Home" ] ;
+         fhir:generation [ fhir:v "markdown" ]
+       ] [
+         fhir:extension ( [
+           fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name"^^xsd:anyURI ] ;
+           fhir:value [ fhir:v "download.html"^^xsd:anyURI ]
+         ] ) ;
+         fhir:name [ fhir:v "download.html"^^xsd:anyURI ] ;
+         fhir:title [ fhir:v "Download" ] ;
+         fhir:generation [ fhir:v "markdown" ]
+       ] [
+         fhir:extension ( [
+           fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name"^^xsd:anyURI ] ;
+           fhir:value [ fhir:v "mapping.html"^^xsd:anyURI ]
+         ] ) ;
+         fhir:name [ fhir:v "mapping.html"^^xsd:anyURI ] ;
+         fhir:title [ fhir:v "Mapping" ] ;
+         fhir:generation [ fhir:v "markdown" ]
+       ] [
+         fhir:extension ( [
+           fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name"^^xsd:anyURI ] ;
+           fhir:value [ fhir:v "nilar.html"^^xsd:anyURI ]
+         ] ) ;
+         fhir:name [ fhir:v "nilar.html"^^xsd:anyURI ] ;
+         fhir:title [ fhir:v "Nilar" ] ;
+         fhir:generation [ fhir:v "markdown" ]
+       ] )
+     ] ;
+     fhir:parameter ( [
+       fhir:code [ fhir:v "path-resource" ] ;
+       fhir:value [ fhir:v "input/capabilities" ]
+     ] [
+       fhir:code [ fhir:v "path-resource" ] ;
+       fhir:value [ fhir:v "input/examples" ]
+     ] [
+       fhir:code [ fhir:v "path-resource" ] ;
+       fhir:value [ fhir:v "input/extensions" ]
+     ] [
+       fhir:code [ fhir:v "path-resource" ] ;
+       fhir:value [ fhir:v "input/models" ]
+     ] [
+       fhir:code [ fhir:v "path-resource" ] ;
+       fhir:value [ fhir:v "input/operations" ]
+     ] [
+       fhir:code [ fhir:v "path-resource" ] ;
+       fhir:value [ fhir:v "input/profiles" ]
+     ] [
+       fhir:code [ fhir:v "path-resource" ] ;
+       fhir:value [ fhir:v "input/resources" ]
+     ] [
+       fhir:code [ fhir:v "path-resource" ] ;
+       fhir:value [ fhir:v "input/vocabulary" ]
+     ] [
+       fhir:code [ fhir:v "path-resource" ] ;
+       fhir:value [ fhir:v "input/maps" ]
+     ] [
+       fhir:code [ fhir:v "path-resource" ] ;
+       fhir:value [ fhir:v "input/testing" ]
+     ] [
+       fhir:code [ fhir:v "path-resource" ] ;
+       fhir:value [ fhir:v "input/history" ]
+     ] [
+       fhir:code [ fhir:v "path-resource" ] ;
+       fhir:value [ fhir:v "fsh-generated/resources" ]
+     ] [
+       fhir:code [ fhir:v "path-pages" ] ;
+       fhir:value [ fhir:v "template/config" ]
+     ] [
+       fhir:code [ fhir:v "path-pages" ] ;
+       fhir:value [ fhir:v "input/images" ]
+     ] [
+       fhir:code [ fhir:v "path-tx-cache" ] ;
+       fhir:value [ fhir:v "input-cache/txcache" ]
+     ] )
+  ] . # 
 
 # -------------------------------------------------------------------------------------
 

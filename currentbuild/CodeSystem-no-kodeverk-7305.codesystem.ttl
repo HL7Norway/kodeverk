@@ -5,68 +5,54 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://hl7.no/fhir/CodeSystem/no-kodeverk-7305.codesystem> a fhir:CodeSystem;
-  fhir:nodeRole fhir:treeRoot;
-  fhir:Resource.id [ fhir:value "no-kodeverk-7305.codesystem"];
-  fhir:DomainResource.text [
-     fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system <code>http://ehelse.no/fhir/CodeSystem/no-kodeverk-7305</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">S<a name=\"no-kodeverk-7305.codesystem-S\"> </a></td><td>ICD10 stjernekode</td><td/></tr><tr><td style=\"white-space:nowrap\">A<a name=\"no-kodeverk-7305.codesystem-A\"> </a></td><td>ATC-kode</td><td>(til bruk ved ICD10)</td></tr><tr><td style=\"white-space:nowrap\">AN<a name=\"no-kodeverk-7305.codesystem-AN\"> </a></td><td>Anatomisk lokalisasjon</td><td/></tr><tr><td style=\"white-space:nowrap\">DI<a name=\"no-kodeverk-7305.codesystem-DI\"> </a></td><td>Diagnosestatus</td><td/></tr><tr><td style=\"white-space:nowrap\">FO<a name=\"no-kodeverk-7305.codesystem-FO\"> </a></td><td>Forløp</td><td/></tr><tr><td style=\"white-space:nowrap\">LA<a name=\"no-kodeverk-7305.codesystem-LA\"> </a></td><td>Lateralitet</td><td/></tr></table></div>"
-  ];
-  fhir:CodeSystem.url [ fhir:value "http://ehelse.no/fhir/CodeSystem/no-kodeverk-7305"];
-  fhir:CodeSystem.identifier [
-     fhir:index 0;
-     fhir:Identifier.system [ fhir:value "urn:ietf:rfc:3986" ];
-     fhir:Identifier.value [ fhir:value "urn:oid:2.16.578.1.12.4.1.1.7305" ]
-  ];
-  fhir:CodeSystem.version [ fhir:value "0.4.3"];
-  fhir:CodeSystem.name [ fhir:value "NoKodeverk7305"];
-  fhir:CodeSystem.title [ fhir:value "7305 Moderator"];
-  fhir:CodeSystem.status [ fhir:value "active"];
-  fhir:CodeSystem.date [ fhir:value "2022-09-09T13:02:22+00:00"^^xsd:dateTime];
-  fhir:CodeSystem.publisher [ fhir:value "Direktoratet for e-helse"];
-  fhir:CodeSystem.description [ fhir:value "Tilleggsopplysning til diagnose."];
-  fhir:CodeSystem.jurisdiction [
-     fhir:index 0;
-     fhir:CodeableConcept.coding [
-       fhir:index 0;
-       fhir:Coding.system [ fhir:value "urn:iso:std:iso:3166" ];
-       fhir:Coding.code [ fhir:value "NO" ];
-       fhir:Coding.display [ fhir:value "Norway" ]
-     ]
-  ];
-  fhir:CodeSystem.content [ fhir:value "complete"];
-  fhir:CodeSystem.count [ fhir:value "6"^^xsd:nonNegativeInteger];
-  fhir:CodeSystem.concept [
-     fhir:index 0;
-     fhir:CodeSystem.concept.code [ fhir:value "S" ];
-     fhir:CodeSystem.concept.display [ fhir:value "ICD10 stjernekode" ]
-  ], [
-     fhir:index 1;
-     fhir:CodeSystem.concept.code [ fhir:value "A" ];
-     fhir:CodeSystem.concept.display [ fhir:value "ATC-kode" ];
-     fhir:CodeSystem.concept.definition [ fhir:value "(til bruk ved ICD10)" ]
-  ], [
-     fhir:index 2;
-     fhir:CodeSystem.concept.code [ fhir:value "AN" ];
-     fhir:CodeSystem.concept.display [ fhir:value "Anatomisk lokalisasjon" ]
-  ], [
-     fhir:index 3;
-     fhir:CodeSystem.concept.code [ fhir:value "DI" ];
-     fhir:CodeSystem.concept.display [ fhir:value "Diagnosestatus" ]
-  ], [
-     fhir:index 4;
-     fhir:CodeSystem.concept.code [ fhir:value "FO" ];
-     fhir:CodeSystem.concept.display [ fhir:value "Forløp" ]
-  ], [
-     fhir:index 5;
-     fhir:CodeSystem.concept.code [ fhir:value "LA" ];
-     fhir:CodeSystem.concept.display [ fhir:value "Lateralitet" ]
-  ] .
-
-# - ontology header ------------------------------------------------------------
-
-<http://hl7.no/fhir/CodeSystem/no-kodeverk-7305.codesystem.ttl> a owl:Ontology;
-  owl:imports fhir:fhir.ttl .
+<http://hl7.no/fhir/CodeSystem/no-kodeverk-7305.codesystem> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "no-kodeverk-7305.codesystem"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system <code>http://ehelse.no/fhir/CodeSystem/no-kodeverk-7305</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">S<a name=\"no-kodeverk-7305.codesystem-S\"> </a></td><td>ICD10 stjernekode</td><td/></tr><tr><td style=\"white-space:nowrap\">A<a name=\"no-kodeverk-7305.codesystem-A\"> </a></td><td>ATC-kode</td><td>(til bruk ved ICD10)</td></tr><tr><td style=\"white-space:nowrap\">AN<a name=\"no-kodeverk-7305.codesystem-AN\"> </a></td><td>Anatomisk lokalisasjon</td><td/></tr><tr><td style=\"white-space:nowrap\">DI<a name=\"no-kodeverk-7305.codesystem-DI\"> </a></td><td>Diagnosestatus</td><td/></tr><tr><td style=\"white-space:nowrap\">FO<a name=\"no-kodeverk-7305.codesystem-FO\"> </a></td><td>Forløp</td><td/></tr><tr><td style=\"white-space:nowrap\">LA<a name=\"no-kodeverk-7305.codesystem-LA\"> </a></td><td>Lateralitet</td><td/></tr></table></div>"
+  ] ; # 
+  fhir:url [ fhir:v "http://ehelse.no/fhir/CodeSystem/no-kodeverk-7305"^^xsd:anyURI] ; # 
+  fhir:identifier ( [
+     fhir:system [ fhir:v "urn:ietf:rfc:3986"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "urn:oid:2.16.578.1.12.4.1.1.7305" ]
+  ] ) ; # 
+  fhir:version [ fhir:v "0.4.3"] ; # 
+  fhir:name [ fhir:v "NoKodeverk7305"] ; # 
+  fhir:title [ fhir:v "7305 Moderator"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:date [ fhir:v "2023-08-17T10:02:16+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "Direktoratet for e-helse"] ; # 
+  fhir:description [ fhir:v "Tilleggsopplysning til diagnose."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [ fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "NO" ] ;
+       fhir:display [ fhir:v "Norway" ]
+     ] )
+  ] ) ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:count [ fhir:v "6"^^xsd:nonNegativeInteger] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "S" ] ;
+     fhir:display [ fhir:v "ICD10 stjernekode" ]
+  ] [
+     fhir:code [ fhir:v "A" ] ;
+     fhir:display [ fhir:v "ATC-kode" ] ;
+     fhir:definition [ fhir:v "(til bruk ved ICD10)" ]
+  ] [
+     fhir:code [ fhir:v "AN" ] ;
+     fhir:display [ fhir:v "Anatomisk lokalisasjon" ]
+  ] [
+     fhir:code [ fhir:v "DI" ] ;
+     fhir:display [ fhir:v "Diagnosestatus" ]
+  ] [
+     fhir:code [ fhir:v "FO" ] ;
+     fhir:display [ fhir:v "Forløp" ]
+  ] [
+     fhir:code [ fhir:v "LA" ] ;
+     fhir:display [ fhir:v "Lateralitet" ]
+  ] ) . # 
 
 # -------------------------------------------------------------------------------------
 

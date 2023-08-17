@@ -5,45 +5,43 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://hl7.no/fhir/NamingSystem/no-basis-resh-id> a fhir:NamingSystem;
-  fhir:nodeRole fhir:treeRoot;
-  fhir:Resource.id [ fhir:value "no-basis-resh-id"];
-  fhir:DomainResource.text [
-     fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h3>Summary</h3><table class=\"grid\"><tr><td>Defining URL</td><td>http://hl7.no/fhir/NamingSystem/no-basis-resh-id</td></tr><tr><td>Version</td><td>0.4.3</td></tr><tr><td>Name</td><td>RESHid</td></tr><tr><td>Status</td><td>active</td></tr><tr><td>Definition</td><td><div><p>Identifikator for enheter i spesialisthelsetjenesten.</p>\n</div></td></tr><tr><td>Publisher</td><td>Direktoratet for e-helse</td></tr></table><h3>Identifiers</h3><table class=\"grid\"><tr><td><b>Type</b></td><td><b>Value</b></td><td><b>Preferred</b></td></tr><tr><td>URI</td><td>http://hl7.no/fhir/NamingSystem/RESHid</td><td>false</td></tr><tr><td>OID</td><td>2.16.578.1.12.4.1.4.102</td><td>true</td></tr></table></div>"
-  ];
-  fhir:NamingSystem.name [ fhir:value "RESHid"];
-  fhir:NamingSystem.status [ fhir:value "active"];
-  fhir:NamingSystem.kind [ fhir:value "identifier"];
-  fhir:NamingSystem.date [ fhir:value "2022-02-10"^^xsd:date];
-  fhir:NamingSystem.publisher [ fhir:value "Direktoratet for e-helse"];
-  fhir:NamingSystem.responsible [ fhir:value "Norsk helsenett"];
-  fhir:NamingSystem.description [ fhir:value "Identifikator for enheter i spesialisthelsetjenesten."];
-  fhir:NamingSystem.jurisdiction [
-     fhir:index 0;
-     fhir:CodeableConcept.coding [
-       fhir:index 0;
-       fhir:Coding.system [ fhir:value "urn:iso:std:iso:3166" ];
-       fhir:Coding.code [ fhir:value "NO" ];
-       fhir:Coding.display [ fhir:value "Norway" ]
-     ]
-  ];
-  fhir:NamingSystem.uniqueId [
-     fhir:index 0;
-     fhir:NamingSystem.uniqueId.type [ fhir:value "uri" ];
-     fhir:NamingSystem.uniqueId.value [ fhir:value "http://hl7.no/fhir/NamingSystem/RESHid" ];
-     fhir:NamingSystem.uniqueId.preferred [ fhir:value "false"^^xsd:boolean ]
-  ], [
-     fhir:index 1;
-     fhir:NamingSystem.uniqueId.type [ fhir:value "oid" ];
-     fhir:NamingSystem.uniqueId.value [ fhir:value "2.16.578.1.12.4.1.4.102" ];
-     fhir:NamingSystem.uniqueId.preferred [ fhir:value "true"^^xsd:boolean ]
-  ] .
-
-# - ontology header ------------------------------------------------------------
-
-<http://hl7.no/fhir/NamingSystem/no-basis-resh-id.ttl> a owl:Ontology;
-  owl:imports fhir:fhir.ttl .
+<http://hl7.no/fhir/NamingSystem/no-basis-resh-id> a fhir:NamingSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "no-basis-resh-id"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h3>Summary</h3><table class=\"grid\"><tr><td>Defining URL</td><td>http://hl7.no/fhir/NamingSystem/no-basis-resh-id</td></tr><tr><td>Version</td><td>0.4.3</td></tr><tr><td>Name</td><td>RESHid</td></tr><tr><td>Status</td><td>active</td></tr><tr><td>Definition</td><td><div><p>Identifikator for enheter i spesialisthelsetjenesten.</p>\n</div></td></tr><tr><td>Publisher</td><td>Direktoratet for e-helse</td></tr></table><h3>Identifiers</h3><table class=\"grid\"><tr><td><b>Type</b></td><td><b>Value</b></td><td><b>Preferred</b></td></tr><tr><td>URI</td><td>http://hl7.no/fhir/NamingSystem/RESHid</td><td>false</td></tr><tr><td>OID</td><td>2.16.578.1.12.4.1.4.102</td><td>true</td></tr></table></div>"
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-NamingSystem.url"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "http://hl7.no/fhir/NamingSystem/no-basis-resh-id"^^xsd:anyURI ]
+  ] [
+     fhir:url [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-NamingSystem.version"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "0.4.3" ]
+  ] ) ; # 
+  fhir:name [ fhir:v "RESHid"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:kind [ fhir:v "identifier"] ; # 
+  fhir:date [ fhir:v "2022-02-10"^^xsd:date] ; # 
+  fhir:publisher [ fhir:v "Direktoratet for e-helse"] ; # 
+  fhir:responsible [ fhir:v "Norsk helsenett"] ; # 
+  fhir:description [ fhir:v "Identifikator for enheter i spesialisthelsetjenesten."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [ fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "NO" ] ;
+       fhir:display [ fhir:v "Norway" ]
+     ] )
+  ] ) ; # 
+  fhir:uniqueId ( [
+     fhir:type [ fhir:v "uri" ] ;
+     fhir:value [ fhir:v "http://hl7.no/fhir/NamingSystem/RESHid" ] ;
+     fhir:preferred [ fhir:v "false"^^xsd:boolean ]
+  ] [
+     fhir:type [ fhir:v "oid" ] ;
+     fhir:value [ fhir:v "2.16.578.1.12.4.1.4.102" ] ;
+     fhir:preferred [ fhir:v "true"^^xsd:boolean ]
+  ] ) . # 
 
 # -------------------------------------------------------------------------------------
 

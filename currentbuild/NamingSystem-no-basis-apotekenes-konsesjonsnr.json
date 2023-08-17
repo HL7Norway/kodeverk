@@ -1,38 +1,40 @@
 {
-  "resourceType": "NamingSystem",
-  "id": "no-basis-apotekenes-konsesjonsnr",
-  "text": {
-    "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h3>Summary</h3><table class=\"grid\"><tr><td>Defining URL</td><td>http://hl7.no/fhir/NamingSystem/no-basis-apotekenes-konsesjonsnr</td></tr><tr><td>Version</td><td>0.4.3</td></tr><tr><td>Name</td><td>ApotekenesKonsesjonsnr</td></tr><tr><td>Status</td><td>active</td></tr><tr><td>Definition</td><td><div><p>Ved utstedelse av apotekkonsesjon for et nytt apotek tildeles et apotekkonsesjonsnummer. Konsesjonsnummeret er et firesifret nummer, i en nummerserie som starter på 1001, som er unikt for hvert apotek. Tildeles av Statens legemiddelverk.</p>\n</div></td></tr><tr><td>Publisher</td><td>Direktoratet for e-helse</td></tr></table><h3>Identifiers</h3><table class=\"grid\"><tr><td><b>Type</b></td><td><b>Value</b></td><td><b>Preferred</b></td></tr><tr><td>URI</td><td>http://hl7.no/fhir/NamingSystem/AKO</td><td>false</td></tr><tr><td>OID</td><td>2.16.578.1.12.4.1.4.107</td><td>true</td></tr></table></div>"
+  "resourceType" : "NamingSystem",
+  "id" : "no-basis-apotekenes-konsesjonsnr",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h3>Summary</h3><table class=\"grid\"><tr><td>Defining URL</td><td>http://hl7.no/fhir/NamingSystem/no-basis-apotekenes-konsesjonsnr</td></tr><tr><td>Version</td><td>0.4.3</td></tr><tr><td>Name</td><td>ApotekenesKonsesjonsnr</td></tr><tr><td>Status</td><td>active</td></tr><tr><td>Definition</td><td><div><p>Ved utstedelse av apotekkonsesjon for et nytt apotek tildeles et apotekkonsesjonsnummer. Konsesjonsnummeret er et firesifret nummer, i en nummerserie som starter på 1001, som er unikt for hvert apotek. Tildeles av Statens legemiddelverk.</p>\n</div></td></tr><tr><td>Publisher</td><td>Direktoratet for e-helse</td></tr></table><h3>Identifiers</h3><table class=\"grid\"><tr><td><b>Type</b></td><td><b>Value</b></td><td><b>Preferred</b></td></tr><tr><td>URI</td><td>http://hl7.no/fhir/NamingSystem/AKO</td><td>false</td></tr><tr><td>OID</td><td>2.16.578.1.12.4.1.4.107</td><td>true</td></tr></table></div>"
   },
-  "name": "ApotekenesKonsesjonsnr",
-  "status": "active",
-  "kind": "identifier",
-  "date": "2022-02-10",
-  "publisher": "Direktoratet for e-helse",
-  "responsible": "Statens legemiddelverk",
-  "description": "Ved utstedelse av apotekkonsesjon for et nytt apotek tildeles et apotekkonsesjonsnummer. Konsesjonsnummeret er et firesifret nummer, i en nummerserie som starter på 1001, som er unikt for hvert apotek. Tildeles av Statens legemiddelverk.",
-  "jurisdiction": [
-    {
-      "coding": [
-        {
-          "system": "urn:iso:std:iso:3166",
-          "code": "NO",
-          "display": "Norway"
-        }
-      ]
-    }
-  ],
-  "uniqueId": [
-    {
-      "type": "uri",
-      "value": "http://hl7.no/fhir/NamingSystem/AKO",
-      "preferred": false
-    },
-    {
-      "type": "oid",
-      "value": "2.16.578.1.12.4.1.4.107",
-      "preferred": true
-    }
-  ]
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-NamingSystem.url",
+    "valueUri" : "http://hl7.no/fhir/NamingSystem/no-basis-apotekenes-konsesjonsnr"
+  },
+  {
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-NamingSystem.version",
+    "valueString" : "0.4.3"
+  }],
+  "name" : "ApotekenesKonsesjonsnr",
+  "status" : "active",
+  "kind" : "identifier",
+  "date" : "2022-02-10",
+  "publisher" : "Direktoratet for e-helse",
+  "responsible" : "Statens legemiddelverk",
+  "description" : "Ved utstedelse av apotekkonsesjon for et nytt apotek tildeles et apotekkonsesjonsnummer. Konsesjonsnummeret er et firesifret nummer, i en nummerserie som starter på 1001, som er unikt for hvert apotek. Tildeles av Statens legemiddelverk.",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "NO",
+      "display" : "Norway"
+    }]
+  }],
+  "uniqueId" : [{
+    "type" : "uri",
+    "value" : "http://hl7.no/fhir/NamingSystem/AKO",
+    "preferred" : false
+  },
+  {
+    "type" : "oid",
+    "value" : "2.16.578.1.12.4.1.4.107",
+    "preferred" : true
+  }]
 }

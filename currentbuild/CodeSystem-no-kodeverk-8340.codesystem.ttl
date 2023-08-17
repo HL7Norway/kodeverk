@@ -5,83 +5,65 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://hl7.no/fhir/CodeSystem/no-kodeverk-8340.codesystem> a fhir:CodeSystem;
-  fhir:nodeRole fhir:treeRoot;
-  fhir:Resource.id [ fhir:value "no-kodeverk-8340.codesystem"];
-  fhir:DomainResource.text [
-     fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system <code>http://ehelse.no/fhir/CodeSystem/no-kodeverk-8340</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">T001<a name=\"no-kodeverk-8340.codesystem-T001\"> </a></td><td>Påvist</td></tr><tr><td style=\"white-space:nowrap\">T002<a name=\"no-kodeverk-8340.codesystem-T002\"> </a></td><td>Positiv</td></tr><tr><td style=\"white-space:nowrap\">T003<a name=\"no-kodeverk-8340.codesystem-T003\"> </a></td><td>Svakt postiv</td></tr><tr><td style=\"white-space:nowrap\">T004<a name=\"no-kodeverk-8340.codesystem-T004\"> </a></td><td>Grenseverdi</td></tr><tr><td style=\"white-space:nowrap\">T005<a name=\"no-kodeverk-8340.codesystem-T005\"> </a></td><td>Gråsone</td></tr><tr><td style=\"white-space:nowrap\">T006<a name=\"no-kodeverk-8340.codesystem-T006\"> </a></td><td>Reaktiv</td></tr><tr><td style=\"white-space:nowrap\">T007<a name=\"no-kodeverk-8340.codesystem-T007\"> </a></td><td>Ikke påvist</td></tr><tr><td style=\"white-space:nowrap\">T008<a name=\"no-kodeverk-8340.codesystem-T008\"> </a></td><td>Negativ</td></tr><tr><td style=\"white-space:nowrap\">T009<a name=\"no-kodeverk-8340.codesystem-T009\"> </a></td><td>Inkonklusiv</td></tr><tr><td style=\"white-space:nowrap\">T010<a name=\"no-kodeverk-8340.codesystem-T010\"> </a></td><td>Se kommentar</td></tr></table></div>"
-  ];
-  fhir:CodeSystem.url [ fhir:value "http://ehelse.no/fhir/CodeSystem/no-kodeverk-8340"];
-  fhir:CodeSystem.identifier [
-     fhir:index 0;
-     fhir:Identifier.system [ fhir:value "urn:ietf:rfc:3986" ];
-     fhir:Identifier.value [ fhir:value "urn:oid:2.16.578.1.12.4.1.1.8340" ]
-  ];
-  fhir:CodeSystem.version [ fhir:value "0.4.3"];
-  fhir:CodeSystem.name [ fhir:value "NoKodeverk8340"];
-  fhir:CodeSystem.title [ fhir:value "8340 Tekstlige resultatverdier for mikrobiologiske svar"];
-  fhir:CodeSystem.status [ fhir:value "active"];
-  fhir:CodeSystem.date [ fhir:value "2021-06-02"^^xsd:date];
-  fhir:CodeSystem.publisher [ fhir:value "Direktoratet for e-helse"];
-  fhir:CodeSystem.description [ fhir:value "Kodeverk for tekstlig resultatverdier til bruk i svar av mikrobiologiske laboratorieundersøkelser."];
-  fhir:CodeSystem.jurisdiction [
-     fhir:index 0;
-     fhir:CodeableConcept.coding [
-       fhir:index 0;
-       fhir:Coding.system [ fhir:value "urn:iso:std:iso:3166" ];
-       fhir:Coding.code [ fhir:value "NO" ];
-       fhir:Coding.display [ fhir:value "Norway" ]
-     ]
-  ];
-  fhir:CodeSystem.content [ fhir:value "complete"];
-  fhir:CodeSystem.count [ fhir:value "10"^^xsd:nonNegativeInteger];
-  fhir:CodeSystem.concept [
-     fhir:index 0;
-     fhir:CodeSystem.concept.code [ fhir:value "T001" ];
-     fhir:CodeSystem.concept.display [ fhir:value "Påvist" ]
-  ], [
-     fhir:index 1;
-     fhir:CodeSystem.concept.code [ fhir:value "T002" ];
-     fhir:CodeSystem.concept.display [ fhir:value "Positiv" ]
-  ], [
-     fhir:index 2;
-     fhir:CodeSystem.concept.code [ fhir:value "T003" ];
-     fhir:CodeSystem.concept.display [ fhir:value "Svakt postiv" ]
-  ], [
-     fhir:index 3;
-     fhir:CodeSystem.concept.code [ fhir:value "T004" ];
-     fhir:CodeSystem.concept.display [ fhir:value "Grenseverdi" ]
-  ], [
-     fhir:index 4;
-     fhir:CodeSystem.concept.code [ fhir:value "T005" ];
-     fhir:CodeSystem.concept.display [ fhir:value "Gråsone" ]
-  ], [
-     fhir:index 5;
-     fhir:CodeSystem.concept.code [ fhir:value "T006" ];
-     fhir:CodeSystem.concept.display [ fhir:value "Reaktiv" ]
-  ], [
-     fhir:index 6;
-     fhir:CodeSystem.concept.code [ fhir:value "T007" ];
-     fhir:CodeSystem.concept.display [ fhir:value "Ikke påvist" ]
-  ], [
-     fhir:index 7;
-     fhir:CodeSystem.concept.code [ fhir:value "T008" ];
-     fhir:CodeSystem.concept.display [ fhir:value "Negativ" ]
-  ], [
-     fhir:index 8;
-     fhir:CodeSystem.concept.code [ fhir:value "T009" ];
-     fhir:CodeSystem.concept.display [ fhir:value "Inkonklusiv" ]
-  ], [
-     fhir:index 9;
-     fhir:CodeSystem.concept.code [ fhir:value "T010" ];
-     fhir:CodeSystem.concept.display [ fhir:value "Se kommentar" ]
-  ] .
-
-# - ontology header ------------------------------------------------------------
-
-<http://hl7.no/fhir/CodeSystem/no-kodeverk-8340.codesystem.ttl> a owl:Ontology;
-  owl:imports fhir:fhir.ttl .
+<http://hl7.no/fhir/CodeSystem/no-kodeverk-8340.codesystem> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "no-kodeverk-8340.codesystem"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system <code>http://ehelse.no/fhir/CodeSystem/no-kodeverk-8340</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">T001<a name=\"no-kodeverk-8340.codesystem-T001\"> </a></td><td>Påvist</td></tr><tr><td style=\"white-space:nowrap\">T002<a name=\"no-kodeverk-8340.codesystem-T002\"> </a></td><td>Positiv</td></tr><tr><td style=\"white-space:nowrap\">T003<a name=\"no-kodeverk-8340.codesystem-T003\"> </a></td><td>Svakt postiv</td></tr><tr><td style=\"white-space:nowrap\">T004<a name=\"no-kodeverk-8340.codesystem-T004\"> </a></td><td>Grenseverdi</td></tr><tr><td style=\"white-space:nowrap\">T005<a name=\"no-kodeverk-8340.codesystem-T005\"> </a></td><td>Gråsone</td></tr><tr><td style=\"white-space:nowrap\">T006<a name=\"no-kodeverk-8340.codesystem-T006\"> </a></td><td>Reaktiv</td></tr><tr><td style=\"white-space:nowrap\">T007<a name=\"no-kodeverk-8340.codesystem-T007\"> </a></td><td>Ikke påvist</td></tr><tr><td style=\"white-space:nowrap\">T008<a name=\"no-kodeverk-8340.codesystem-T008\"> </a></td><td>Negativ</td></tr><tr><td style=\"white-space:nowrap\">T009<a name=\"no-kodeverk-8340.codesystem-T009\"> </a></td><td>Inkonklusiv</td></tr><tr><td style=\"white-space:nowrap\">T010<a name=\"no-kodeverk-8340.codesystem-T010\"> </a></td><td>Se kommentar</td></tr></table></div>"
+  ] ; # 
+  fhir:url [ fhir:v "http://ehelse.no/fhir/CodeSystem/no-kodeverk-8340"^^xsd:anyURI] ; # 
+  fhir:identifier ( [
+     fhir:system [ fhir:v "urn:ietf:rfc:3986"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "urn:oid:2.16.578.1.12.4.1.1.8340" ]
+  ] ) ; # 
+  fhir:version [ fhir:v "0.4.3"] ; # 
+  fhir:name [ fhir:v "NoKodeverk8340"] ; # 
+  fhir:title [ fhir:v "8340 Tekstlige resultatverdier for mikrobiologiske svar"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:date [ fhir:v "2021-06-02"^^xsd:date] ; # 
+  fhir:publisher [ fhir:v "Direktoratet for e-helse"] ; # 
+  fhir:description [ fhir:v "Kodeverk for tekstlig resultatverdier til bruk i svar av mikrobiologiske laboratorieundersøkelser."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [ fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "NO" ] ;
+       fhir:display [ fhir:v "Norway" ]
+     ] )
+  ] ) ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:count [ fhir:v "10"^^xsd:nonNegativeInteger] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "T001" ] ;
+     fhir:display [ fhir:v "Påvist" ]
+  ] [
+     fhir:code [ fhir:v "T002" ] ;
+     fhir:display [ fhir:v "Positiv" ]
+  ] [
+     fhir:code [ fhir:v "T003" ] ;
+     fhir:display [ fhir:v "Svakt postiv" ]
+  ] [
+     fhir:code [ fhir:v "T004" ] ;
+     fhir:display [ fhir:v "Grenseverdi" ]
+  ] [
+     fhir:code [ fhir:v "T005" ] ;
+     fhir:display [ fhir:v "Gråsone" ]
+  ] [
+     fhir:code [ fhir:v "T006" ] ;
+     fhir:display [ fhir:v "Reaktiv" ]
+  ] [
+     fhir:code [ fhir:v "T007" ] ;
+     fhir:display [ fhir:v "Ikke påvist" ]
+  ] [
+     fhir:code [ fhir:v "T008" ] ;
+     fhir:display [ fhir:v "Negativ" ]
+  ] [
+     fhir:code [ fhir:v "T009" ] ;
+     fhir:display [ fhir:v "Inkonklusiv" ]
+  ] [
+     fhir:code [ fhir:v "T010" ] ;
+     fhir:display [ fhir:v "Se kommentar" ]
+  ] ) . # 
 
 # -------------------------------------------------------------------------------------
 

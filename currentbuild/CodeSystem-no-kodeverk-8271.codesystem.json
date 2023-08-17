@@ -1,49 +1,41 @@
 {
-  "resourceType": "CodeSystem",
-  "id": "no-kodeverk-8271.codesystem",
-  "text": {
-    "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system <code>http://ehelse.no/fhir/CodeSystem/no-kodeverk-8271</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">S<a name=\"no-kodeverk-8271.codesystem-S\"> </a></td><td>Sensitiv, standarddose</td></tr><tr><td style=\"white-space:nowrap\">I<a name=\"no-kodeverk-8271.codesystem-I\"> </a></td><td>Sensitiv, økt eksponering</td></tr><tr><td style=\"white-space:nowrap\">R<a name=\"no-kodeverk-8271.codesystem-R\"> </a></td><td>Resistent</td></tr></table></div>"
+  "resourceType" : "CodeSystem",
+  "id" : "no-kodeverk-8271.codesystem",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system <code>http://ehelse.no/fhir/CodeSystem/no-kodeverk-8271</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">S<a name=\"no-kodeverk-8271.codesystem-S\"> </a></td><td>Sensitiv, standarddose</td></tr><tr><td style=\"white-space:nowrap\">I<a name=\"no-kodeverk-8271.codesystem-I\"> </a></td><td>Sensitiv, økt eksponering</td></tr><tr><td style=\"white-space:nowrap\">R<a name=\"no-kodeverk-8271.codesystem-R\"> </a></td><td>Resistent</td></tr></table></div>"
   },
-  "url": "http://ehelse.no/fhir/CodeSystem/no-kodeverk-8271",
-  "identifier": [
-    {
-      "system": "urn:ietf:rfc:3986",
-      "value": "urn:oid:2.16.578.1.12.4.1.1.8271"
-    }
-  ],
-  "version": "0.4.3",
-  "name": "NoKodeverk8271",
-  "title": "8271 Resistens",
-  "status": "active",
-  "date": "2022-09-09T13:02:22+00:00",
-  "publisher": "Helsedirektoratet",
-  "description": "Svarverdier til bruk i resistensbestemmelser (SIR)",
-  "jurisdiction": [
-    {
-      "coding": [
-        {
-          "system": "urn:iso:std:iso:3166",
-          "code": "NO",
-          "display": "Norway"
-        }
-      ]
-    }
-  ],
-  "content": "complete",
-  "count": 3,
-  "concept": [
-    {
-      "code": "S",
-      "display": "Sensitiv, standarddose"
-    },
-    {
-      "code": "I",
-      "display": "Sensitiv, økt eksponering"
-    },
-    {
-      "code": "R",
-      "display": "Resistent"
-    }
-  ]
+  "url" : "http://ehelse.no/fhir/CodeSystem/no-kodeverk-8271",
+  "identifier" : [{
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:oid:2.16.578.1.12.4.1.1.8271"
+  }],
+  "version" : "0.4.3",
+  "name" : "NoKodeverk8271",
+  "title" : "8271 Resistens",
+  "status" : "active",
+  "date" : "2023-08-17T10:02:16+00:00",
+  "publisher" : "Helsedirektoratet",
+  "description" : "Svarverdier til bruk i resistensbestemmelser (SIR)",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "NO",
+      "display" : "Norway"
+    }]
+  }],
+  "content" : "complete",
+  "count" : 3,
+  "concept" : [{
+    "code" : "S",
+    "display" : "Sensitiv, standarddose"
+  },
+  {
+    "code" : "I",
+    "display" : "Sensitiv, økt eksponering"
+  },
+  {
+    "code" : "R",
+    "display" : "Resistent"
+  }]
 }
