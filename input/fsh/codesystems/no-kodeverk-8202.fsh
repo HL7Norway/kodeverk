@@ -8,6 +8,7 @@ Description: "Fagområde innen laboratoriemedisin og bildediagnstikk. Benyttes f
 * ^status = #active
 * ^publisher = "Direktoratet for e-helse"
 * ^content = #complete
+* #BLD "Bildediagnostikk"
 * #CLIN "Medisinsk biokjemi"
 * #CT "Computertomografi"
 * #CYTO "Cytologi"
@@ -18,6 +19,8 @@ Description: "Fagområde innen laboratoriemedisin og bildediagnstikk. Benyttes f
 * #MA "Mammografi"
 * #MBIO "Medisinsk mikrobiologi"
 * #MGEN "Medisinsk genetikk"
+* #MORS "Mors"
+* #MPAT "Molekylærpatologi"
 * #MR "Magnettomografi"
 * #NUK "Nukleærmedisin"
 * #OBD "Obduksjon"
