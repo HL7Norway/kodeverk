@@ -21,7 +21,7 @@
   fhir:name [ fhir:v "NoKodeverk4101"] ; # 
   fhir:title [ fhir:v "4101 Betalingskategori"] ; # 
   fhir:status [ fhir:v "active"] ; # 
-  fhir:date [ fhir:v "2023-08-17T10:17:13+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2023-08-17T10:25:54+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Direktoratet for e-helse"] ; # 
   fhir:description [ fhir:v "Dette kodeverket inneholder koder som benyttes for å angi hvem som er betalingsansvarlig."] ; # 
   fhir:jurisdiction ( [

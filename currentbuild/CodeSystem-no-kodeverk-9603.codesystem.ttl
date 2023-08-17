@@ -21,7 +21,7 @@
   fhir:name [ fhir:v "NoKodeverk9603"] ; # 
   fhir:title [ fhir:v "9603 Sperring og nekting av dokumenter"] ; # 
   fhir:status [ fhir:v "active"] ; # 
-  fhir:date [ fhir:v "2023-08-17T10:17:13+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2023-08-17T10:25:54+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Direktoratet for e-helse"] ; # 
   fhir:description [ fhir:v "Kodeverket benyttes for å angi sperring og nekting av dokumenter. Opprettet for bruk i HIS 1169:2016 IHE XDS metadata inntil en nasjonal løsning for tilgangsstyring/håndtering av sperring er etablert."] ; # 
   fhir:jurisdiction ( [

@@ -10,7 +10,7 @@
   fhir:id [ fhir:v "no-kodeverk-8202.codesystem"] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system <code>http://ehelse.no/fhir/CodeSystem/no-kodeverk-8202</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">CLIN<a name=\"no-kodeverk-8202.codesystem-CLIN\"> </a></td><td>Medisinsk biokjemi</td></tr><tr><td style=\"white-space:nowrap\">CT<a name=\"no-kodeverk-8202.codesystem-CT\"> </a></td><td>Computertomografi</td></tr><tr><td style=\"white-space:nowrap\">CYTO<a name=\"no-kodeverk-8202.codesystem-CYTO\"> </a></td><td>Cytologi</td></tr><tr><td style=\"white-space:nowrap\">FARM<a name=\"no-kodeverk-8202.codesystem-FARM\"> </a></td><td>Klinisk farmakologi</td></tr><tr><td style=\"white-space:nowrap\">HIST<a name=\"no-kodeverk-8202.codesystem-HIST\"> </a></td><td>Histologi</td></tr><tr><td style=\"white-space:nowrap\">IMTR<a name=\"no-kodeverk-8202.codesystem-IMTR\"> </a></td><td>Immunologi og transfusjonsmedisin</td></tr><tr><td style=\"white-space:nowrap\">LAB<a name=\"no-kodeverk-8202.codesystem-LAB\"> </a></td><td>Laboratoriemedisin</td></tr><tr><td style=\"white-space:nowrap\">MA<a name=\"no-kodeverk-8202.codesystem-MA\"> </a></td><td>Mammografi</td></tr><tr><td style=\"white-space:nowrap\">MBIO<a name=\"no-kodeverk-8202.codesystem-MBIO\"> </a></td><td>Medisinsk mikrobiologi</td></tr><tr><td style=\"white-space:nowrap\">MGEN<a name=\"no-kodeverk-8202.codesystem-MGEN\"> </a></td><td>Medisinsk genetikk</td></tr><tr><td style=\"white-space:nowrap\">MR<a name=\"no-kodeverk-8202.codesystem-MR\"> </a></td><td>Magnettomografi</td></tr><tr><td style=\"white-space:nowrap\">NUK<a name=\"no-kodeverk-8202.codesystem-NUK\"> </a></td><td>Nukleærmedisin</td></tr><tr><td style=\"white-space:nowrap\">OBD<a name=\"no-kodeverk-8202.codesystem-OBD\"> </a></td><td>Obduksjon</td></tr><tr><td style=\"white-space:nowrap\">PAT<a name=\"no-kodeverk-8202.codesystem-PAT\"> </a></td><td>Patologi</td></tr><tr><td style=\"white-space:nowrap\">RAD<a name=\"no-kodeverk-8202.codesystem-RAD\"> </a></td><td>Radiologi</td></tr><tr><td style=\"white-space:nowrap\">RTG<a name=\"no-kodeverk-8202.codesystem-RTG\"> </a></td><td>Røntgen</td></tr><tr><td style=\"white-space:nowrap\">SCI<a name=\"no-kodeverk-8202.codesystem-SCI\"> </a></td><td>Scintigrafi</td></tr><tr><td style=\"white-space:nowrap\">UL<a name=\"no-kodeverk-8202.codesystem-UL\"> </a></td><td>Ultralyd</td></tr><tr><td style=\"white-space:nowrap\">AN<a name=\"no-kodeverk-8202.codesystem-AN\"> </a></td><td>Annet</td></tr></table></div>"
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system <code>http://ehelse.no/fhir/CodeSystem/no-kodeverk-8202</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">BLD<a name=\"no-kodeverk-8202.codesystem-BLD\"> </a></td><td>Bildediagnostikk</td></tr><tr><td style=\"white-space:nowrap\">CLIN<a name=\"no-kodeverk-8202.codesystem-CLIN\"> </a></td><td>Medisinsk biokjemi</td></tr><tr><td style=\"white-space:nowrap\">CT<a name=\"no-kodeverk-8202.codesystem-CT\"> </a></td><td>Computertomografi</td></tr><tr><td style=\"white-space:nowrap\">CYTO<a name=\"no-kodeverk-8202.codesystem-CYTO\"> </a></td><td>Cytologi</td></tr><tr><td style=\"white-space:nowrap\">FARM<a name=\"no-kodeverk-8202.codesystem-FARM\"> </a></td><td>Klinisk farmakologi</td></tr><tr><td style=\"white-space:nowrap\">HIST<a name=\"no-kodeverk-8202.codesystem-HIST\"> </a></td><td>Histologi</td></tr><tr><td style=\"white-space:nowrap\">IMTR<a name=\"no-kodeverk-8202.codesystem-IMTR\"> </a></td><td>Immunologi og transfusjonsmedisin</td></tr><tr><td style=\"white-space:nowrap\">LAB<a name=\"no-kodeverk-8202.codesystem-LAB\"> </a></td><td>Laboratoriemedisin</td></tr><tr><td style=\"white-space:nowrap\">MA<a name=\"no-kodeverk-8202.codesystem-MA\"> </a></td><td>Mammografi</td></tr><tr><td style=\"white-space:nowrap\">MBIO<a name=\"no-kodeverk-8202.codesystem-MBIO\"> </a></td><td>Medisinsk mikrobiologi</td></tr><tr><td style=\"white-space:nowrap\">MGEN<a name=\"no-kodeverk-8202.codesystem-MGEN\"> </a></td><td>Medisinsk genetikk</td></tr><tr><td style=\"white-space:nowrap\">MORS<a name=\"no-kodeverk-8202.codesystem-MORS\"> </a></td><td>Mors</td></tr><tr><td style=\"white-space:nowrap\">MPAT<a name=\"no-kodeverk-8202.codesystem-MPAT\"> </a></td><td>Molekylærpatologi</td></tr><tr><td style=\"white-space:nowrap\">MR<a name=\"no-kodeverk-8202.codesystem-MR\"> </a></td><td>Magnettomografi</td></tr><tr><td style=\"white-space:nowrap\">NUK<a name=\"no-kodeverk-8202.codesystem-NUK\"> </a></td><td>Nukleærmedisin</td></tr><tr><td style=\"white-space:nowrap\">OBD<a name=\"no-kodeverk-8202.codesystem-OBD\"> </a></td><td>Obduksjon</td></tr><tr><td style=\"white-space:nowrap\">PAT<a name=\"no-kodeverk-8202.codesystem-PAT\"> </a></td><td>Patologi</td></tr><tr><td style=\"white-space:nowrap\">RAD<a name=\"no-kodeverk-8202.codesystem-RAD\"> </a></td><td>Radiologi</td></tr><tr><td style=\"white-space:nowrap\">RTG<a name=\"no-kodeverk-8202.codesystem-RTG\"> </a></td><td>Røntgen</td></tr><tr><td style=\"white-space:nowrap\">SCI<a name=\"no-kodeverk-8202.codesystem-SCI\"> </a></td><td>Scintigrafi</td></tr><tr><td style=\"white-space:nowrap\">UL<a name=\"no-kodeverk-8202.codesystem-UL\"> </a></td><td>Ultralyd</td></tr><tr><td style=\"white-space:nowrap\">AN<a name=\"no-kodeverk-8202.codesystem-AN\"> </a></td><td>Annet</td></tr></table></div>"
   ] ; # 
   fhir:url [ fhir:v "http://ehelse.no/fhir/CodeSystem/no-kodeverk-8202"^^xsd:anyURI] ; # 
   fhir:identifier ( [
@@ -21,7 +21,7 @@
   fhir:name [ fhir:v "NoKodeverk8202"] ; # 
   fhir:title [ fhir:v "8202 Type laboratoriemelding"] ; # 
   fhir:status [ fhir:v "active"] ; # 
-  fhir:date [ fhir:v "2023-08-17T10:17:13+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2023-08-17T10:25:54+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Direktoratet for e-helse"] ; # 
   fhir:description [ fhir:v "Fagområde innen laboratoriemedisin og bildediagnstikk. Benyttes for å angi type svarrapport"] ; # 
   fhir:jurisdiction ( [
@@ -32,8 +32,11 @@
      ] )
   ] ) ; # 
   fhir:content [ fhir:v "complete"] ; # 
-  fhir:count [ fhir:v "19"^^xsd:nonNegativeInteger] ; # 
+  fhir:count [ fhir:v "22"^^xsd:nonNegativeInteger] ; # 
   fhir:concept ( [
+     fhir:code [ fhir:v "BLD" ] ;
+     fhir:display [ fhir:v "Bildediagnostikk" ]
+  ] [
      fhir:code [ fhir:v "CLIN" ] ;
      fhir:display [ fhir:v "Medisinsk biokjemi" ]
   ] [
@@ -63,6 +66,12 @@
   ] [
      fhir:code [ fhir:v "MGEN" ] ;
      fhir:display [ fhir:v "Medisinsk genetikk" ]
+  ] [
+     fhir:code [ fhir:v "MORS" ] ;
+     fhir:display [ fhir:v "Mors" ]
+  ] [
+     fhir:code [ fhir:v "MPAT" ] ;
+     fhir:display [ fhir:v "Molekylærpatologi" ]
   ] [
      fhir:code [ fhir:v "MR" ] ;
      fhir:display [ fhir:v "Magnettomografi" ]
