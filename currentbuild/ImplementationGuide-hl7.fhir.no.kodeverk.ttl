@@ -13,10 +13,10 @@
      fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>NoKodeverk</h2><p>The official URL for this implementation guide is: </p><pre>http://hl7.no/fhir/ImplementationGuide/hl7.fhir.no.kodeverk</pre></div>"
   ] ; # 
   fhir:url [ fhir:v "http://hl7.no/fhir/ImplementationGuide/hl7.fhir.no.kodeverk"^^xsd:anyURI] ; # 
-  fhir:version [ fhir:v "0.4.3"] ; # 
+  fhir:version [ fhir:v "0.4.4"] ; # 
   fhir:name [ fhir:v "NoKodeverk"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2023-08-17T10:02:16+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2023-08-17T10:17:13+00:00"^^xsd:dateTime] ; # 
   fhir:jurisdiction ( [
      fhir:coding ( [
        fhir:system [ fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ] ;
@@ -507,6 +507,41 @@
          fhir:value [ fhir:v "CodeSystem" ]
        ] ) ;
        fhir:reference [
+         fhir:link <http://hl7.no/fhir/CodeSystem/no-kodeverk-3108.codesystem> ;
+         fhir:reference [ fhir:v "CodeSystem/no-kodeverk-3108.codesystem" ]
+       ] ;
+       fhir:name [ fhir:v "3108 Reservasjon mot registrering" ] ;
+       fhir:description [ fhir:v "Opplysning om pasienten holdning til registrering av informasjon i register" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "CodeSystem" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.no/fhir/CodeSystem/no-kodeverk-4101.codesystem> ;
+         fhir:reference [ fhir:v "CodeSystem/no-kodeverk-4101.codesystem" ]
+       ] ;
+       fhir:name [ fhir:v "4101 Betalingskategori" ] ;
+       fhir:description [ fhir:v "Dette kodeverket inneholder koder som benyttes for å angi hvem som er betalingsansvarlig." ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "CodeSystem" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.no/fhir/CodeSystem/no-kodeverk-7303.codesystem> ;
+         fhir:reference [ fhir:v "CodeSystem/no-kodeverk-7303.codesystem" ]
+       ] ;
+       fhir:name [ fhir:v "7303 Svarrapporteringsprioritet" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "CodeSystem" ]
+       ] ) ;
+       fhir:reference [
          fhir:link <http://hl7.no/fhir/CodeSystem/no-kodeverk-7305.codesystem> ;
          fhir:reference [ fhir:v "CodeSystem/no-kodeverk-7305.codesystem" ]
        ] ;
@@ -596,6 +631,17 @@
        ] ;
        fhir:name [ fhir:v "8232 Forbehandling" ] ;
        fhir:description [ fhir:v "Forberedelse før undersøkelse" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "CodeSystem" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.no/fhir/CodeSystem/no-kodeverk-8234.codesystem> ;
+         fhir:reference [ fhir:v "CodeSystem/no-kodeverk-8234.codesystem" ]
+       ] ;
+       fhir:name [ fhir:v "8234 Type tekstsvar i kommentar til rekvisisjon og henvisning" ] ;
        fhir:example [ fhir:v "false"^^xsd:boolean ]
      ] [
        fhir:extension ( [
@@ -715,6 +761,18 @@
        ] ;
        fhir:name [ fhir:v "8273 Hastegrad" ] ;
        fhir:description [ fhir:v "Anbefalt tidsperspektiv for tiltak." ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "CodeSystem" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.no/fhir/CodeSystem/no-kodeverk-8274.codesystem> ;
+         fhir:reference [ fhir:v "CodeSystem/no-kodeverk-8274.codesystem" ]
+       ] ;
+       fhir:name [ fhir:v "8274 Anbefaling om supplerende undersøkelser" ] ;
+       fhir:description [ fhir:v "Om rekvirenten gir tjenesteyter tillatelse til å utføre ytterligere undersøkelser eller andre tiltak basert på resultater og medisinskfaglig skjønn." ] ;
        fhir:example [ fhir:v "false"^^xsd:boolean ]
      ] [
        fhir:extension ( [

@@ -10,11 +10,11 @@
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:2.16.578.1.12.4.1.1.8239"
   }],
-  "version" : "0.4.3",
+  "version" : "0.4.4",
   "name" : "NoKodeverk8239",
   "title" : "8239 Forholdsoperatorer i svarrapportering av medisinske tjenester",
   "status" : "active",
-  "date" : "2023-08-17T10:02:16+00:00",
+  "date" : "2023-08-17T10:17:13+00:00",
   "publisher" : "Direktoratet for e-helse",
   "description" : "Forholdsoperatorer i svarrapportering av medisinske tjeneste",
   "jurisdiction" : [{

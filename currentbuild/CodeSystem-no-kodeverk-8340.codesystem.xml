@@ -10,7 +10,7 @@
     <system value="urn:ietf:rfc:3986"/>
     <value value="urn:oid:2.16.578.1.12.4.1.1.8340"/>
   </identifier>
-  <version value="0.4.3"/>
+  <version value="0.4.4"/>
   <name value="NoKodeverk8340"/>
   <title value="8340 Tekstlige resultatverdier for mikrobiologiske svar"/>
   <status value="active"/>

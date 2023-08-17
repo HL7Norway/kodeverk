@@ -6,10 +6,10 @@
     <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>NoKodeverk</h2><p>The official URL for this implementation guide is: </p><pre>http://hl7.no/fhir/ImplementationGuide/hl7.fhir.no.kodeverk</pre></div>
   </text>
   <url value="http://hl7.no/fhir/ImplementationGuide/hl7.fhir.no.kodeverk"/>
-  <version value="0.4.3"/>
+  <version value="0.4.4"/>
   <name value="NoKodeverk"/>
   <status value="draft"/>
-  <date value="2023-08-17T10:02:16+00:00"/>
+  <date value="2023-08-17T10:17:13+00:00"/>
   <jurisdiction>
     <coding>
       <system value="urn:iso:std:iso:3166"/>
@@ -440,6 +440,38 @@
         <valueString value="CodeSystem"/>
       </extension>
       <reference>
+        <reference value="CodeSystem/no-kodeverk-3108.codesystem"/>
+      </reference>
+      <name value="3108 Reservasjon mot registrering"/>
+      <description value="Opplysning om pasienten holdning til registrering av informasjon i register"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/no-kodeverk-4101.codesystem"/>
+      </reference>
+      <name value="4101 Betalingskategori"/>
+      <description value="Dette kodeverket inneholder koder som benyttes for å angi hvem som er betalingsansvarlig."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/no-kodeverk-7303.codesystem"/>
+      </reference>
+      <name value="7303 Svarrapporteringsprioritet"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
         <reference value="CodeSystem/no-kodeverk-7305.codesystem"/>
       </reference>
       <name value="7305 Moderator"/>
@@ -521,6 +553,16 @@
       </reference>
       <name value="8232 Forbehandling"/>
       <description value="Forberedelse før undersøkelse"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/no-kodeverk-8234.codesystem"/>
+      </reference>
+      <name value="8234 Type tekstsvar i kommentar til rekvisisjon og henvisning"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -630,6 +672,17 @@
       </reference>
       <name value="8273 Hastegrad"/>
       <description value="Anbefalt tidsperspektiv for tiltak."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/no-kodeverk-8274.codesystem"/>
+      </reference>
+      <name value="8274 Anbefaling om supplerende undersøkelser"/>
+      <description value="Om rekvirenten gir tjenesteyter tillatelse til å utføre ytterligere undersøkelser eller andre tiltak basert på resultater og medisinskfaglig skjønn."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>

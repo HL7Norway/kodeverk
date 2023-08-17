@@ -17,11 +17,11 @@
      fhir:system [ fhir:v "urn:ietf:rfc:3986"^^xsd:anyURI ] ;
      fhir:value [ fhir:v "urn:oid:2.16.578.1.12.4.1.1.8216" ]
   ] ) ; # 
-  fhir:version [ fhir:v "0.4.3"] ; # 
+  fhir:version [ fhir:v "0.4.4"] ; # 
   fhir:name [ fhir:v "NoKodeverk8216"] ; # 
   fhir:title [ fhir:v "8216 Kodeverk for cytologisk materiale"] ; # 
   fhir:status [ fhir:v "active"] ; # 
-  fhir:date [ fhir:v "2023-08-17T10:02:16+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2023-08-17T10:17:13+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Direktoratet for e-helse"] ; # 
   fhir:description [ fhir:v "Gynekologisk materiale eller annet cytologisk materiale som er tatt for cytologiske undersøkelser. Kodene dekker opp valgmuligheter fra standard rekvisisjonsskjema for cytologiske undersøkelser."] ; # 
   fhir:jurisdiction ( [

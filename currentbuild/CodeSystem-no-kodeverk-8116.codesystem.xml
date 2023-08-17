@@ -10,11 +10,11 @@
     <system value="urn:ietf:rfc:3986"/>
     <value value="urn:oid:2.16.578.1.12.4.1.1.8116"/>
   </identifier>
-  <version value="0.4.3"/>
+  <version value="0.4.4"/>
   <name value="NoKodeverk8116"/>
   <title value="8116 ID-type for personer"/>
   <status value="active"/>
-  <date value="2023-08-17T10:02:16+00:00"/>
+  <date value="2023-08-17T10:17:13+00:00"/>
   <publisher value="Direktoratet for e-helse"/>
   <description value="Angir type identifikator for personer."/>
   <jurisdiction>

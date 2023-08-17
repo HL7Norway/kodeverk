@@ -1,14 +1,17 @@
 ﻿NoKodeverk : Validation Results
 =========================================
 
-err = 61, warn = 65, info = 28
+err = 71, warn = 79, info = 33
 IG Publisher Version: 1.3.28
-Generated Thu Aug 17 10:04:58 UTC 2023. FHIR version 4.0.1 for hl7.fhir.no.kodeverk#0.4.3 (canonical = http://hl7.no/fhir)
- Build Errors : 1 / 6 / 0
+Generated Thu Aug 17 10:19:54 UTC 2023. FHIR version 4.0.1 for hl7.fhir.no.kodeverk#0.4.4 (canonical = http://hl7.no/fhir)
+ Build Errors : 1 / 8 / 0
  /github/workspace/fsh-generated/resources/CodeSystem-no-kodeverk-1101.codesystem : 2 / 2 / 2
+ /github/workspace/fsh-generated/resources/CodeSystem-no-kodeverk-3108.codesystem : 2 / 2 / 2
+ /github/workspace/fsh-generated/resources/CodeSystem-no-kodeverk-4101.codesystem : 2 / 2 / 2
  /github/workspace/fsh-generated/resources/CodeSystem-no-kodeverk-7010-norpat.codesystem : 2 / 2 / 2
  /github/workspace/fsh-generated/resources/CodeSystem-no-kodeverk-7270-ncrp.codesystem : 2 / 2 / 2
  /github/workspace/fsh-generated/resources/CodeSystem-no-kodeverk-7280-nlk.codesystem : 2 / 2 / 2
+ /github/workspace/fsh-generated/resources/CodeSystem-no-kodeverk-7303.codesystem : 2 / 3 / 2
  /github/workspace/fsh-generated/resources/CodeSystem-no-kodeverk-7305.codesystem : 2 / 2 / 2
  /github/workspace/fsh-generated/resources/CodeSystem-no-kodeverk-8116.codesystem : 2 / 2 / 2
  /github/workspace/fsh-generated/resources/CodeSystem-no-kodeverk-8202.codesystem : 2 / 2 / 2
@@ -17,6 +20,7 @@ Generated Thu Aug 17 10:04:58 UTC 2023. FHIR version 4.0.1 for hl7.fhir.no.kodev
  /github/workspace/fsh-generated/resources/CodeSystem-no-kodeverk-8219.codesystem : 2 / 2 / 2
  /github/workspace/fsh-generated/resources/CodeSystem-no-kodeverk-8231.codesystem : 2 / 2 / 2
  /github/workspace/fsh-generated/resources/CodeSystem-no-kodeverk-8232.codesystem : 2 / 2 / 2
+ /github/workspace/fsh-generated/resources/CodeSystem-no-kodeverk-8234.codesystem : 2 / 3 / 2
  /github/workspace/fsh-generated/resources/CodeSystem-no-kodeverk-8239.codesystem : 2 / 2 / 2
  /github/workspace/fsh-generated/resources/CodeSystem-no-kodeverk-8243.codesystem : 2 / 2 / 2
  /github/workspace/fsh-generated/resources/CodeSystem-no-kodeverk-8244.codesystem : 2 / 2 / 2
@@ -27,6 +31,7 @@ Generated Thu Aug 17 10:04:58 UTC 2023. FHIR version 4.0.1 for hl7.fhir.no.kodev
  /github/workspace/fsh-generated/resources/CodeSystem-no-kodeverk-8271.codesystem : 2 / 2 / 2
  /github/workspace/fsh-generated/resources/CodeSystem-no-kodeverk-8272.codesystem : 2 / 3 / 2
  /github/workspace/fsh-generated/resources/CodeSystem-no-kodeverk-8273.codesystem : 2 / 2 / 2
+ /github/workspace/fsh-generated/resources/CodeSystem-no-kodeverk-8274.codesystem : 2 / 2 / 2
  /github/workspace/fsh-generated/resources/CodeSystem-no-kodeverk-8275.codesystem : 2 / 3 / 2
  /github/workspace/fsh-generated/resources/CodeSystem-no-kodeverk-8327.codesystem : 2 / 2 / 2
  /github/workspace/fsh-generated/resources/CodeSystem-no-kodeverk-8340.codesystem : 2 / 2 / 2
@@ -42,6 +47,8 @@ Generated Thu Aug 17 10:04:58 UTC 2023. FHIR version 4.0.1 for hl7.fhir.no.kodev
 </table>
 == n/a ==
 ERROR: ImplementationGuide.definition.parameter[23].value: Supressed messages file not found
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource CodeSystem/no-kodeverk-7303.codesystem.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource CodeSystem/no-kodeverk-8234.codesystem.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource CodeSystem/no-kodeverk-8272.codesystem.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource CodeSystem/no-kodeverk-8275.codesystem.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: 1: The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide
@@ -54,6 +61,18 @@ INFORMATION: CodeSystem/no-kodeverk-1101.codesystem: CodeSystem: CodeSystems SHO
 WARNING: CodeSystem/no-kodeverk-1101.codesystem: CodeSystem: The ShareableCodeSystem profile says that the experimental element is mandatory, but it is not present. Published code systems SHOULD conform to the ShareableCodeSystem profile
 WARNING: CodeSystem/no-kodeverk-1101.codesystem: CodeSystem: The ShareableCodeSystem profile says that the caseSensitive element is mandatory, but it is not present. Published code systems SHOULD conform to the ShareableCodeSystem profile
 ERROR: /github/workspace/fsh-generated/resources/CodeSystem-no-kodeverk-1101.codesystem: URL Mismatch http://hl7.no/fhir/CodeSystem/no-kodeverk-1101.codesystem vs http://ehelse.no/fhir/CodeSystem/no-kodeverk-1101
+== fsh-generated/resources/CodeSystem-no-kodeverk-3108.codesystem.json ==
+ERROR: CodeSystem.where(url = 'http://ehelse.no/fhir/CodeSystem/no-kodeverk-3108'): Conformance resource /github/workspace/fsh-generated/resources/CodeSystem-no-kodeverk-3108.codesystem.json - the canonical URL (http://hl7.no/fhir/CodeSystem/no-kodeverk-3108.codesystem) does not match the URL (http://ehelse.no/fhir/CodeSystem/no-kodeverk-3108)
+INFORMATION: CodeSystem/no-kodeverk-3108.codesystem: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+WARNING: CodeSystem/no-kodeverk-3108.codesystem: CodeSystem: The ShareableCodeSystem profile says that the experimental element is mandatory, but it is not present. Published code systems SHOULD conform to the ShareableCodeSystem profile
+WARNING: CodeSystem/no-kodeverk-3108.codesystem: CodeSystem: The ShareableCodeSystem profile says that the caseSensitive element is mandatory, but it is not present. Published code systems SHOULD conform to the ShareableCodeSystem profile
+ERROR: /github/workspace/fsh-generated/resources/CodeSystem-no-kodeverk-3108.codesystem: URL Mismatch http://hl7.no/fhir/CodeSystem/no-kodeverk-3108.codesystem vs http://ehelse.no/fhir/CodeSystem/no-kodeverk-3108
+== fsh-generated/resources/CodeSystem-no-kodeverk-4101.codesystem.json ==
+ERROR: CodeSystem.where(url = 'http://ehelse.no/fhir/CodeSystem/no-kodeverk-4101'): Conformance resource /github/workspace/fsh-generated/resources/CodeSystem-no-kodeverk-4101.codesystem.json - the canonical URL (http://hl7.no/fhir/CodeSystem/no-kodeverk-4101.codesystem) does not match the URL (http://ehelse.no/fhir/CodeSystem/no-kodeverk-4101)
+INFORMATION: CodeSystem/no-kodeverk-4101.codesystem: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+WARNING: CodeSystem/no-kodeverk-4101.codesystem: CodeSystem: The ShareableCodeSystem profile says that the experimental element is mandatory, but it is not present. Published code systems SHOULD conform to the ShareableCodeSystem profile
+WARNING: CodeSystem/no-kodeverk-4101.codesystem: CodeSystem: The ShareableCodeSystem profile says that the caseSensitive element is mandatory, but it is not present. Published code systems SHOULD conform to the ShareableCodeSystem profile
+ERROR: /github/workspace/fsh-generated/resources/CodeSystem-no-kodeverk-4101.codesystem: URL Mismatch http://hl7.no/fhir/CodeSystem/no-kodeverk-4101.codesystem vs http://ehelse.no/fhir/CodeSystem/no-kodeverk-4101
 == fsh-generated/resources/CodeSystem-no-kodeverk-7010-norpat.codesystem.json ==
 ERROR: CodeSystem.where(url = 'http://ehelse.no/fhir/CodeSystem/no-kodeverk-7010-norpat'): Conformance resource /github/workspace/fsh-generated/resources/CodeSystem-no-kodeverk-7010-norpat.codesystem.json - the canonical URL (http://hl7.no/fhir/CodeSystem/no-kodeverk-7010-norpat.codesystem) does not match the URL (http://ehelse.no/fhir/CodeSystem/no-kodeverk-7010-norpat)
 INFORMATION: CodeSystem/no-kodeverk-7010-norpat.codesystem: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
@@ -72,6 +91,13 @@ INFORMATION: CodeSystem/no-kodeverk-7280-nlk.codesystem: CodeSystem: CodeSystems
 WARNING: CodeSystem/no-kodeverk-7280-nlk.codesystem: CodeSystem: The ShareableCodeSystem profile says that the experimental element is mandatory, but it is not present. Published code systems SHOULD conform to the ShareableCodeSystem profile
 WARNING: CodeSystem/no-kodeverk-7280-nlk.codesystem: CodeSystem: The ShareableCodeSystem profile says that the caseSensitive element is mandatory, but it is not present. Published code systems SHOULD conform to the ShareableCodeSystem profile
 ERROR: /github/workspace/fsh-generated/resources/CodeSystem-no-kodeverk-7280-nlk.codesystem: URL Mismatch http://hl7.no/fhir/CodeSystem/no-kodeverk-7280-nlk.codesystem vs http://ehelse.no/fhir/CodeSystem/no-kodeverk-7280-nlk
+== fsh-generated/resources/CodeSystem-no-kodeverk-7303.codesystem.json ==
+ERROR: CodeSystem.where(url = 'http://ehelse.no/fhir/CodeSystem/no-kodeverk-7303'): Conformance resource /github/workspace/fsh-generated/resources/CodeSystem-no-kodeverk-7303.codesystem.json - the canonical URL (http://hl7.no/fhir/CodeSystem/no-kodeverk-7303.codesystem) does not match the URL (http://ehelse.no/fhir/CodeSystem/no-kodeverk-7303)
+INFORMATION: CodeSystem/no-kodeverk-7303.codesystem: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+WARNING: CodeSystem/no-kodeverk-7303.codesystem: CodeSystem: The ShareableCodeSystem profile says that the experimental element is mandatory, but it is not present. Published code systems SHOULD conform to the ShareableCodeSystem profile
+WARNING: CodeSystem/no-kodeverk-7303.codesystem: CodeSystem: The ShareableCodeSystem profile says that the description element is mandatory, but it is not present. Published code systems SHOULD conform to the ShareableCodeSystem profile
+WARNING: CodeSystem/no-kodeverk-7303.codesystem: CodeSystem: The ShareableCodeSystem profile says that the caseSensitive element is mandatory, but it is not present. Published code systems SHOULD conform to the ShareableCodeSystem profile
+ERROR: /github/workspace/fsh-generated/resources/CodeSystem-no-kodeverk-7303.codesystem: URL Mismatch http://hl7.no/fhir/CodeSystem/no-kodeverk-7303.codesystem vs http://ehelse.no/fhir/CodeSystem/no-kodeverk-7303
 == fsh-generated/resources/CodeSystem-no-kodeverk-7305.codesystem.json ==
 ERROR: CodeSystem.where(url = 'http://ehelse.no/fhir/CodeSystem/no-kodeverk-7305'): Conformance resource /github/workspace/fsh-generated/resources/CodeSystem-no-kodeverk-7305.codesystem.json - the canonical URL (http://hl7.no/fhir/CodeSystem/no-kodeverk-7305.codesystem) does not match the URL (http://ehelse.no/fhir/CodeSystem/no-kodeverk-7305)
 INFORMATION: CodeSystem/no-kodeverk-7305.codesystem: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
@@ -120,6 +146,13 @@ INFORMATION: CodeSystem/no-kodeverk-8232.codesystem: CodeSystem: CodeSystems SHO
 WARNING: CodeSystem/no-kodeverk-8232.codesystem: CodeSystem: The ShareableCodeSystem profile says that the experimental element is mandatory, but it is not present. Published code systems SHOULD conform to the ShareableCodeSystem profile
 WARNING: CodeSystem/no-kodeverk-8232.codesystem: CodeSystem: The ShareableCodeSystem profile says that the caseSensitive element is mandatory, but it is not present. Published code systems SHOULD conform to the ShareableCodeSystem profile
 ERROR: /github/workspace/fsh-generated/resources/CodeSystem-no-kodeverk-8232.codesystem: URL Mismatch http://hl7.no/fhir/CodeSystem/no-kodeverk-8232.codesystem vs http://ehelse.no/fhir/CodeSystem/no-kodeverk-8232
+== fsh-generated/resources/CodeSystem-no-kodeverk-8234.codesystem.json ==
+ERROR: CodeSystem.where(url = 'http://ehelse.no/fhir/CodeSystem/no-kodeverk-8234'): Conformance resource /github/workspace/fsh-generated/resources/CodeSystem-no-kodeverk-8234.codesystem.json - the canonical URL (http://hl7.no/fhir/CodeSystem/no-kodeverk-8234.codesystem) does not match the URL (http://ehelse.no/fhir/CodeSystem/no-kodeverk-8234)
+INFORMATION: CodeSystem/no-kodeverk-8234.codesystem: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+WARNING: CodeSystem/no-kodeverk-8234.codesystem: CodeSystem: The ShareableCodeSystem profile says that the experimental element is mandatory, but it is not present. Published code systems SHOULD conform to the ShareableCodeSystem profile
+WARNING: CodeSystem/no-kodeverk-8234.codesystem: CodeSystem: The ShareableCodeSystem profile says that the description element is mandatory, but it is not present. Published code systems SHOULD conform to the ShareableCodeSystem profile
+WARNING: CodeSystem/no-kodeverk-8234.codesystem: CodeSystem: The ShareableCodeSystem profile says that the caseSensitive element is mandatory, but it is not present. Published code systems SHOULD conform to the ShareableCodeSystem profile
+ERROR: /github/workspace/fsh-generated/resources/CodeSystem-no-kodeverk-8234.codesystem: URL Mismatch http://hl7.no/fhir/CodeSystem/no-kodeverk-8234.codesystem vs http://ehelse.no/fhir/CodeSystem/no-kodeverk-8234
 == fsh-generated/resources/CodeSystem-no-kodeverk-8239.codesystem.json ==
 ERROR: CodeSystem.where(url = 'http://ehelse.no/fhir/CodeSystem/no-kodeverk-8239'): Conformance resource /github/workspace/fsh-generated/resources/CodeSystem-no-kodeverk-8239.codesystem.json - the canonical URL (http://hl7.no/fhir/CodeSystem/no-kodeverk-8239.codesystem) does not match the URL (http://ehelse.no/fhir/CodeSystem/no-kodeverk-8239)
 INFORMATION: CodeSystem/no-kodeverk-8239.codesystem: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
@@ -181,6 +214,12 @@ INFORMATION: CodeSystem/no-kodeverk-8273.codesystem: CodeSystem: CodeSystems SHO
 WARNING: CodeSystem/no-kodeverk-8273.codesystem: CodeSystem: The ShareableCodeSystem profile says that the experimental element is mandatory, but it is not present. Published code systems SHOULD conform to the ShareableCodeSystem profile
 WARNING: CodeSystem/no-kodeverk-8273.codesystem: CodeSystem: The ShareableCodeSystem profile says that the caseSensitive element is mandatory, but it is not present. Published code systems SHOULD conform to the ShareableCodeSystem profile
 ERROR: /github/workspace/fsh-generated/resources/CodeSystem-no-kodeverk-8273.codesystem: URL Mismatch http://hl7.no/fhir/CodeSystem/no-kodeverk-8273.codesystem vs http://ehelse.no/fhir/CodeSystem/no-kodeverk-8273
+== fsh-generated/resources/CodeSystem-no-kodeverk-8274.codesystem.json ==
+ERROR: CodeSystem.where(url = 'http://ehelse.no/fhir/CodeSystem/no-kodeverk-8274'): Conformance resource /github/workspace/fsh-generated/resources/CodeSystem-no-kodeverk-8274.codesystem.json - the canonical URL (http://hl7.no/fhir/CodeSystem/no-kodeverk-8274.codesystem) does not match the URL (http://ehelse.no/fhir/CodeSystem/no-kodeverk-8274)
+INFORMATION: CodeSystem/no-kodeverk-8274.codesystem: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+WARNING: CodeSystem/no-kodeverk-8274.codesystem: CodeSystem: The ShareableCodeSystem profile says that the experimental element is mandatory, but it is not present. Published code systems SHOULD conform to the ShareableCodeSystem profile
+WARNING: CodeSystem/no-kodeverk-8274.codesystem: CodeSystem: The ShareableCodeSystem profile says that the caseSensitive element is mandatory, but it is not present. Published code systems SHOULD conform to the ShareableCodeSystem profile
+ERROR: /github/workspace/fsh-generated/resources/CodeSystem-no-kodeverk-8274.codesystem: URL Mismatch http://hl7.no/fhir/CodeSystem/no-kodeverk-8274.codesystem vs http://ehelse.no/fhir/CodeSystem/no-kodeverk-8274
 == fsh-generated/resources/CodeSystem-no-kodeverk-8275.codesystem.json ==
 ERROR: CodeSystem.where(url = 'http://ehelse.no/fhir/CodeSystem/no-kodeverk-8275'): Conformance resource /github/workspace/fsh-generated/resources/CodeSystem-no-kodeverk-8275.codesystem.json - the canonical URL (http://hl7.no/fhir/CodeSystem/no-kodeverk-8275.codesystem) does not match the URL (http://ehelse.no/fhir/CodeSystem/no-kodeverk-8275)
 INFORMATION: CodeSystem/no-kodeverk-8275.codesystem: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly

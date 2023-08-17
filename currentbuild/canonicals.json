@@ -3,15 +3,31 @@
     "id" : "no-kodeverk-1101.codesystem",
     "type" : "CodeSystem",
     "url" : "http://ehelse.no/fhir/CodeSystem/no-kodeverk-1101",
-    "version" : "0.4.3",
+    "version" : "0.4.4",
     "name" : "NoKodeverk1101",
     "oids" : ["2.16.578.1.12.4.1.1.1101"]
+  },
+  {
+    "id" : "no-kodeverk-3108.codesystem",
+    "type" : "CodeSystem",
+    "url" : "http://ehelse.no/fhir/CodeSystem/no-kodeverk-3108",
+    "version" : "0.4.4",
+    "name" : "NoKodeverk3108",
+    "oids" : ["2.16.578.1.12.4.1.1.3108"]
+  },
+  {
+    "id" : "no-kodeverk-4101.codesystem",
+    "type" : "CodeSystem",
+    "url" : "http://ehelse.no/fhir/CodeSystem/no-kodeverk-4101",
+    "version" : "0.4.4",
+    "name" : "NoKodeverk4101",
+    "oids" : ["2.16.578.1.12.4.1.1.4101"]
   },
   {
     "id" : "no-kodeverk-7010-norpat.codesystem",
     "type" : "CodeSystem",
     "url" : "http://ehelse.no/fhir/CodeSystem/no-kodeverk-7010-norpat",
-    "version" : "0.4.3",
+    "version" : "0.4.4",
     "name" : "NoKodeverk7010NORPAT",
     "oids" : ["2.16.578.1.12.4.1.1.7010"]
   },
@@ -19,7 +35,7 @@
     "id" : "no-kodeverk-7270-ncrp.codesystem",
     "type" : "CodeSystem",
     "url" : "http://ehelse.no/fhir/CodeSystem/no-kodeverk-7270-ncrp",
-    "version" : "0.4.3",
+    "version" : "0.4.4",
     "name" : "NoKodeverk7270NCRP",
     "oids" : ["2.16.578.1.12.4.1.1.7270"]
   },
@@ -27,15 +43,23 @@
     "id" : "no-kodeverk-7280-nlk.codesystem",
     "type" : "CodeSystem",
     "url" : "http://ehelse.no/fhir/CodeSystem/no-kodeverk-7280-nlk",
-    "version" : "0.4.3",
+    "version" : "0.4.4",
     "name" : "NoKodeverk7280NLK",
     "oids" : ["2.16.578.1.12.4.1.1.7280"]
+  },
+  {
+    "id" : "no-kodeverk-7303.codesystem",
+    "type" : "CodeSystem",
+    "url" : "http://ehelse.no/fhir/CodeSystem/no-kodeverk-7303",
+    "version" : "0.4.4",
+    "name" : "NoKodeverk7303",
+    "oids" : ["2.16.578.1.12.4.1.1.7303"]
   },
   {
     "id" : "no-kodeverk-7305.codesystem",
     "type" : "CodeSystem",
     "url" : "http://ehelse.no/fhir/CodeSystem/no-kodeverk-7305",
-    "version" : "0.4.3",
+    "version" : "0.4.4",
     "name" : "NoKodeverk7305",
     "oids" : ["2.16.578.1.12.4.1.1.7305"]
   },
@@ -43,7 +67,7 @@
     "id" : "no-kodeverk-8116.codesystem",
     "type" : "CodeSystem",
     "url" : "http://ehelse.no/fhir/CodeSystem/no-kodeverk-8116",
-    "version" : "0.4.3",
+    "version" : "0.4.4",
     "name" : "NoKodeverk8116",
     "oids" : ["2.16.578.1.12.4.1.1.8116"]
   },
@@ -51,7 +75,7 @@
     "id" : "no-kodeverk-8202.codesystem",
     "type" : "CodeSystem",
     "url" : "http://ehelse.no/fhir/CodeSystem/no-kodeverk-8202",
-    "version" : "0.4.3",
+    "version" : "0.4.4",
     "name" : "NoKodeverk8202",
     "oids" : ["2.16.578.1.12.4.1.1.8202"]
   },
@@ -59,7 +83,7 @@
     "id" : "no-kodeverk-8212.codesystem",
     "type" : "CodeSystem",
     "url" : "http://ehelse.no/fhir/CodeSystem/no-kodeverk-8212",
-    "version" : "0.4.3",
+    "version" : "0.4.4",
     "name" : "NoKodeverk8212",
     "oids" : ["2.16.578.1.12.4.1.1.8212"]
   },
@@ -67,7 +91,7 @@
     "id" : "no-kodeverk-8216.codesystem",
     "type" : "CodeSystem",
     "url" : "http://ehelse.no/fhir/CodeSystem/no-kodeverk-8216",
-    "version" : "0.4.3",
+    "version" : "0.4.4",
     "name" : "NoKodeverk8216",
     "oids" : ["2.16.578.1.12.4.1.1.8216"]
   },
@@ -75,7 +99,7 @@
     "id" : "no-kodeverk-8219.codesystem",
     "type" : "CodeSystem",
     "url" : "http://ehelse.no/fhir/CodeSystem/no-kodeverk-8219",
-    "version" : "0.4.3",
+    "version" : "0.4.4",
     "name" : "NoKodeverk8219",
     "oids" : ["2.16.578.1.12.4.1.1.8219"]
   },
@@ -83,7 +107,7 @@
     "id" : "no-kodeverk-8231.codesystem",
     "type" : "CodeSystem",
     "url" : "http://ehelse.no/fhir/CodeSystem/no-kodeverk-8231",
-    "version" : "0.4.3",
+    "version" : "0.4.4",
     "name" : "NoKodeverk8231",
     "oids" : ["2.16.578.1.12.4.1.1.8231"]
   },
@@ -91,15 +115,23 @@
     "id" : "no-kodeverk-8232.codesystem",
     "type" : "CodeSystem",
     "url" : "http://ehelse.no/fhir/CodeSystem/no-kodeverk-8232",
-    "version" : "0.4.3",
+    "version" : "0.4.4",
     "name" : "NoKodeverk8232",
     "oids" : ["2.16.578.1.12.4.1.1.8232"]
+  },
+  {
+    "id" : "no-kodeverk-8234.codesystem",
+    "type" : "CodeSystem",
+    "url" : "http://ehelse.no/fhir/CodeSystem/no-kodeverk-8234",
+    "version" : "0.4.4",
+    "name" : "NoKodeverk8234",
+    "oids" : ["2.16.578.1.12.4.1.1.8234"]
   },
   {
     "id" : "no-kodeverk-8239.codesystem",
     "type" : "CodeSystem",
     "url" : "http://ehelse.no/fhir/CodeSystem/no-kodeverk-8239",
-    "version" : "0.4.3",
+    "version" : "0.4.4",
     "name" : "NoKodeverk8239",
     "oids" : ["2.16.578.1.12.4.1.1.8239"]
   },
@@ -107,7 +139,7 @@
     "id" : "no-kodeverk-8243.codesystem",
     "type" : "CodeSystem",
     "url" : "http://ehelse.no/fhir/CodeSystem/no-kodeverk-8243",
-    "version" : "0.4.3",
+    "version" : "0.4.4",
     "name" : "NoKodeverk8243",
     "oids" : ["2.16.578.1.12.4.1.1.8243"]
   },
@@ -115,7 +147,7 @@
     "id" : "no-kodeverk-8244.codesystem",
     "type" : "CodeSystem",
     "url" : "http://ehelse.no/fhir/CodeSystem/no-kodeverk-8244",
-    "version" : "0.4.3",
+    "version" : "0.4.4",
     "name" : "NoKodeverk8244",
     "oids" : ["2.16.578.1.12.4.1.1.8244"]
   },
@@ -123,7 +155,7 @@
     "id" : "no-kodeverk-8245.codesystem",
     "type" : "CodeSystem",
     "url" : "http://ehelse.no/fhir/CodeSystem/no-kodeverk-8245",
-    "version" : "0.4.3",
+    "version" : "0.4.4",
     "name" : "NoKodeverk8245",
     "oids" : ["2.16.578.1.12.4.1.1.8245"]
   },
@@ -131,7 +163,7 @@
     "id" : "no-kodeverk-8264.codesystem",
     "type" : "CodeSystem",
     "url" : "http://ehelse.no/fhir/CodeSystem/no-kodeverk-8264",
-    "version" : "0.4.3",
+    "version" : "0.4.4",
     "name" : "NoKodeverk8264",
     "oids" : ["2.16.578.1.12.4.1.1.8264"]
   },
@@ -139,7 +171,7 @@
     "id" : "no-kodeverk-8268.codesystem",
     "type" : "CodeSystem",
     "url" : "http://ehelse.no/fhir/CodeSystem/no-kodeverk-8268",
-    "version" : "0.4.3",
+    "version" : "0.4.4",
     "name" : "NoKodeverk8268",
     "oids" : ["2.16.578.1.12.4.1.1.8268"]
   },
@@ -147,7 +179,7 @@
     "id" : "no-kodeverk-8269.codesystem",
     "type" : "CodeSystem",
     "url" : "http://ehelse.no/fhir/CodeSystem/no-kodeverk-8269",
-    "version" : "0.4.3",
+    "version" : "0.4.4",
     "name" : "NoKodeverk8269",
     "oids" : ["2.16.578.1.12.4.1.1.8269"]
   },
@@ -155,7 +187,7 @@
     "id" : "no-kodeverk-8271.codesystem",
     "type" : "CodeSystem",
     "url" : "http://ehelse.no/fhir/CodeSystem/no-kodeverk-8271",
-    "version" : "0.4.3",
+    "version" : "0.4.4",
     "name" : "NoKodeverk8271",
     "oids" : ["2.16.578.1.12.4.1.1.8271"]
   },
@@ -163,7 +195,7 @@
     "id" : "no-kodeverk-8272.codesystem",
     "type" : "CodeSystem",
     "url" : "http://ehelse.no/fhir/CodeSystem/no-kodeverk-8272",
-    "version" : "0.4.3",
+    "version" : "0.4.4",
     "name" : "NoKodeverk8272",
     "oids" : ["2.16.578.1.12.4.1.1.8272"]
   },
@@ -171,15 +203,23 @@
     "id" : "no-kodeverk-8273.codesystem",
     "type" : "CodeSystem",
     "url" : "http://ehelse.no/fhir/CodeSystem/no-kodeverk-8273",
-    "version" : "0.4.3",
+    "version" : "0.4.4",
     "name" : "NoKodeverk8273",
     "oids" : ["2.16.578.1.12.4.1.1.8273"]
+  },
+  {
+    "id" : "no-kodeverk-8274.codesystem",
+    "type" : "CodeSystem",
+    "url" : "http://ehelse.no/fhir/CodeSystem/no-kodeverk-8274",
+    "version" : "0.4.4",
+    "name" : "NoKodeverk8274",
+    "oids" : ["2.16.578.1.12.4.1.1.8274"]
   },
   {
     "id" : "no-kodeverk-8275.codesystem",
     "type" : "CodeSystem",
     "url" : "http://ehelse.no/fhir/CodeSystem/no-kodeverk-8275",
-    "version" : "0.4.3",
+    "version" : "0.4.4",
     "name" : "NoKodeverk8275",
     "oids" : ["2.16.578.1.12.4.1.1.8275"]
   },
@@ -187,7 +227,7 @@
     "id" : "no-kodeverk-8327.codesystem",
     "type" : "CodeSystem",
     "url" : "http://ehelse.no/fhir/CodeSystem/no-kodeverk-8327",
-    "version" : "0.4.3",
+    "version" : "0.4.4",
     "name" : "NoKodeverk8327",
     "oids" : ["2.16.578.1.12.4.1.1.8327"]
   },
@@ -195,7 +235,7 @@
     "id" : "no-kodeverk-8340.codesystem",
     "type" : "CodeSystem",
     "url" : "http://ehelse.no/fhir/CodeSystem/no-kodeverk-8340",
-    "version" : "0.4.3",
+    "version" : "0.4.4",
     "name" : "NoKodeverk8340",
     "oids" : ["2.16.578.1.12.4.1.1.8340"]
   },
@@ -203,7 +243,7 @@
     "id" : "no-kodeverk-8351.codesystem",
     "type" : "CodeSystem",
     "url" : "http://ehelse.no/fhir/CodeSystem/no-kodeverk-8351",
-    "version" : "0.4.3",
+    "version" : "0.4.4",
     "name" : "NoKodeverk8351",
     "oids" : ["2.16.578.1.12.4.1.1.8351"]
   },
@@ -211,7 +251,7 @@
     "id" : "no-kodeverk-9060.codesystem",
     "type" : "CodeSystem",
     "url" : "http://ehelse.no/fhir/CodeSystem/no-kodeverk-9060",
-    "version" : "0.4.3",
+    "version" : "0.4.4",
     "name" : "NoKodeverk9060",
     "oids" : ["2.16.578.1.12.4.1.1.9060"]
   },
@@ -219,7 +259,7 @@
     "id" : "no-kodeverk-9603.codesystem",
     "type" : "CodeSystem",
     "url" : "http://ehelse.no/fhir/CodeSystem/no-kodeverk-9603",
-    "version" : "0.4.3",
+    "version" : "0.4.4",
     "name" : "NoKodeverk9603",
     "oids" : ["2.16.578.1.12.4.1.1.9603"]
   },
@@ -227,42 +267,42 @@
     "id" : "hl7.fhir.no.kodeverk",
     "type" : "ImplementationGuide",
     "url" : "http://hl7.no/fhir/ImplementationGuide/hl7.fhir.no.kodeverk",
-    "version" : "0.4.3",
+    "version" : "0.4.4",
     "name" : "NoKodeverk"
   },
   {
     "id" : "no-basis-apotekenes-konsesjonsnr",
     "type" : "NamingSystem",
     "url" : "http://hl7.no/fhir/NamingSystem/no-basis-apotekenes-konsesjonsnr",
-    "version" : "0.4.3",
+    "version" : "0.4.4",
     "name" : "ApotekenesKonsesjonsnr"
   },
   {
     "id" : "no-basis-her-id",
     "type" : "NamingSystem",
     "url" : "http://hl7.no/fhir/NamingSystem/no-basis-her-id",
-    "version" : "0.4.3",
+    "version" : "0.4.4",
     "name" : "HERId"
   },
   {
     "id" : "no-basis-orgnr",
     "type" : "NamingSystem",
     "url" : "http://hl7.no/fhir/NamingSystem/no-basis-orgnr",
-    "version" : "0.4.3",
+    "version" : "0.4.4",
     "name" : "Organisasjonsnummer"
   },
   {
     "id" : "no-basis-resh-id",
     "type" : "NamingSystem",
     "url" : "http://hl7.no/fhir/NamingSystem/no-basis-resh-id",
-    "version" : "0.4.3",
+    "version" : "0.4.4",
     "name" : "RESHid"
   },
   {
     "id" : "no-kodeverk-ICD-10.codesystem",
     "type" : "CodeSystem",
     "url" : "http://hl7.org/fhir/sid/icd-10-no",
-    "version" : "0.4.3",
+    "version" : "0.4.4",
     "name" : "NoKodeverkICD10",
     "oids" : ["2.16.578.1.12.4.1.1.7110"]
   }

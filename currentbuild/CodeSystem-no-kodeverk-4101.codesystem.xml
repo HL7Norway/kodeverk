@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="no-kodeverk-4101.codesystem"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This code system <code>http://ehelse.no/fhir/CodeSystem/no-kodeverk-4101</code> defines codes, but no codes are represented here</p></div>
+  </text>
+  <url value="http://ehelse.no/fhir/CodeSystem/no-kodeverk-4101"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:oid:2.16.578.1.12.4.1.1.4101"/>
+  </identifier>
+  <version value="0.4.4"/>
+  <name value="NoKodeverk4101"/>
+  <title value="4101 Betalingskategori"/>
+  <status value="active"/>
+  <date value="2023-08-17T10:17:13+00:00"/>
+  <publisher value="Direktoratet for e-helse"/>
+  <description value="Dette kodeverket inneholder koder som benyttes for å angi hvem som er betalingsansvarlig."/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="NO"/>
+      <display value="Norway"/>
+    </coding>
+  </jurisdiction>
+  <content value="not-present"/>
+</CodeSystem>
