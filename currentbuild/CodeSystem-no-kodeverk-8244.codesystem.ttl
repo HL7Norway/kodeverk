@@ -10,7 +10,7 @@
   fhir:id [ fhir:v "no-kodeverk-8244.codesystem"] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system <code>http://ehelse.no/fhir/CodeSystem/no-kodeverk-8244</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">1<a name=\"no-kodeverk-8244.codesystem-1\"> </a></td><td>Over øvre referansegrense</td></tr><tr><td style=\"white-space:nowrap\">2<a name=\"no-kodeverk-8244.codesystem-2\"> </a></td><td>Under nedre referansegrense</td></tr><tr><td style=\"white-space:nowrap\">3<a name=\"no-kodeverk-8244.codesystem-3\"> </a></td><td>Utenfor referansegrensene</td></tr></table></div>"
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">Placeholder</div>"
   ] ; # 
   fhir:url [ fhir:v "http://ehelse.no/fhir/CodeSystem/no-kodeverk-8244"^^xsd:anyURI] ; # 
   fhir:identifier ( [
@@ -21,7 +21,7 @@
   fhir:name [ fhir:v "NoKodeverk8244"] ; # 
   fhir:title [ fhir:v "8244 Avviksmarkør i svarrapportering av medisinske tjenester"] ; # 
   fhir:status [ fhir:v "active"] ; # 
-  fhir:date [ fhir:v "2023-08-17T10:25:54+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2023-09-12T18:30:30+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Direktoratet for e-helse"] ; # 
   fhir:description [ fhir:v "Angir svarverdi i forhold til referansegrense"] ; # 
   fhir:jurisdiction ( [

@@ -10,7 +10,7 @@
   fhir:id [ fhir:v "no-basis-apotekenes-konsesjonsnr"] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h3>Summary</h3><table class=\"grid\"><tr><td>Defining URL</td><td>http://hl7.no/fhir/NamingSystem/no-basis-apotekenes-konsesjonsnr</td></tr><tr><td>Version</td><td>0.4.4</td></tr><tr><td>Name</td><td>ApotekenesKonsesjonsnr</td></tr><tr><td>Status</td><td>active</td></tr><tr><td>Definition</td><td><div><p>Ved utstedelse av apotekkonsesjon for et nytt apotek tildeles et apotekkonsesjonsnummer. Konsesjonsnummeret er et firesifret nummer, i en nummerserie som starter på 1001, som er unikt for hvert apotek. Tildeles av Statens legemiddelverk.</p>\n</div></td></tr><tr><td>Publisher</td><td>Direktoratet for e-helse</td></tr></table><h3>Identifiers</h3><table class=\"grid\"><tr><td><b>Type</b></td><td><b>Value</b></td><td><b>Preferred</b></td></tr><tr><td>URI</td><td>http://hl7.no/fhir/NamingSystem/AKO</td><td>false</td></tr><tr><td>OID</td><td>2.16.578.1.12.4.1.4.107</td><td>true</td></tr></table></div>"
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">Placeholder</div>"
   ] ; # 
   fhir:extension ( [
      fhir:url [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-NamingSystem.url"^^xsd:anyURI ] ;

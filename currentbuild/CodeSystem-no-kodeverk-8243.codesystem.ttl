@@ -10,7 +10,7 @@
   fhir:id [ fhir:v "no-kodeverk-8243.codesystem"] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system <code>http://ehelse.no/fhir/CodeSystem/no-kodeverk-8243</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">AN<a name=\"no-kodeverk-8243.codesystem-AN\"> </a></td><td>Analyse</td></tr><tr><td style=\"white-space:nowrap\">DIAG<a name=\"no-kodeverk-8243.codesystem-DIAG\"> </a></td><td>Diagnose</td></tr><tr><td style=\"white-space:nowrap\">FU<a name=\"no-kodeverk-8243.codesystem-FU\"> </a></td><td>Funn og undersøkelsesresultater</td></tr><tr><td style=\"white-space:nowrap\">GR<a name=\"no-kodeverk-8243.codesystem-GR\"> </a></td><td>Gruppe</td></tr><tr><td style=\"white-space:nowrap\">LR<a name=\"no-kodeverk-8243.codesystem-LR\"> </a></td><td>Laboratorieresultat</td></tr><tr><td style=\"white-space:nowrap\">RSB<a name=\"no-kodeverk-8243.codesystem-RSB\"> </a></td><td>Resistensbestemmelse</td></tr><tr><td style=\"white-space:nowrap\">SY<a name=\"no-kodeverk-8243.codesystem-SY\"> </a></td><td>Sykmelding</td></tr><tr><td style=\"white-space:nowrap\">UP<a name=\"no-kodeverk-8243.codesystem-UP\"> </a></td><td>Ubesvarte prøver</td></tr><tr><td style=\"white-space:nowrap\">VU<a name=\"no-kodeverk-8243.codesystem-VU\"> </a></td><td>Vurdering</td></tr><tr><td style=\"white-space:nowrap\">XX<a name=\"no-kodeverk-8243.codesystem-XX\"> </a></td><td>Uspesifisert</td></tr></table></div>"
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">Placeholder</div>"
   ] ; # 
   fhir:url [ fhir:v "http://ehelse.no/fhir/CodeSystem/no-kodeverk-8243"^^xsd:anyURI] ; # 
   fhir:identifier ( [
@@ -21,7 +21,7 @@
   fhir:name [ fhir:v "NoKodeverk8243"] ; # 
   fhir:title [ fhir:v "8243 Type tekstsvar i tekstlig resultat i svarrapportering av medisinske tjenester"] ; # 
   fhir:status [ fhir:v "active"] ; # 
-  fhir:date [ fhir:v "2023-08-17T10:25:54+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2023-09-12T18:30:30+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Direktoratet for e-helse"] ; # 
   fhir:description [ fhir:v "Type tekstsvar i tekstlig resultat i svarrapportering av medisinske tjenester"] ; # 
   fhir:jurisdiction ( [

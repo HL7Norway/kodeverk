@@ -3,7 +3,7 @@
   "id" : "no-kodeverk-4101.codesystem",
   "text" : {
     "status" : "generated",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system <code>http://ehelse.no/fhir/CodeSystem/no-kodeverk-4101</code> defines codes, but no codes are represented here</p></div>"
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\">Placeholder</div>"
   },
   "url" : "http://ehelse.no/fhir/CodeSystem/no-kodeverk-4101",
   "identifier" : [{
@@ -14,7 +14,7 @@
   "name" : "NoKodeverk4101",
   "title" : "4101 Betalingskategori",
   "status" : "active",
-  "date" : "2023-08-17T10:25:54+00:00",
+  "date" : "2023-09-12T18:30:30+00:00",
   "publisher" : "Direktoratet for e-helse",
   "description" : "Dette kodeverket inneholder koder som benyttes for å angi hvem som er betalingsansvarlig.",
   "jurisdiction" : [{

@@ -3,7 +3,7 @@
   "name" : "NoKodeverk",
   "package-id" : "hl7.fhir.no.kodeverk",
   "ig-ver" : "0.4.4",
-  "date" : "Thu, 17 Aug, 2023 10:25:54 +0000",
+  "date" : "Tue, 12 Sep, 2023 18:30:30 +0000",
   "errs" : 71,
   "warnings" : 79,
   "hints" : 33,

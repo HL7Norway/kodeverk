@@ -10,7 +10,7 @@
   fhir:id [ fhir:v "no-kodeverk-7280-nlk.codesystem"] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system <code>http://ehelse.no/fhir/CodeSystem/no-kodeverk-7280-nlk</code> defines codes, but no codes are represented here</p></div>"
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">Placeholder</div>"
   ] ; # 
   fhir:url [ fhir:v "http://ehelse.no/fhir/CodeSystem/no-kodeverk-7280-nlk"^^xsd:anyURI] ; # 
   fhir:identifier ( [
@@ -21,7 +21,7 @@
   fhir:name [ fhir:v "NoKodeverk7280NLK"] ; # 
   fhir:title [ fhir:v "Norsk laboratoriekodeverk"] ; # 
   fhir:status [ fhir:v "active"] ; # 
-  fhir:date [ fhir:v "2023-08-17T10:25:54+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2023-09-12T18:30:30+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Direktoratet for e-helse"] ; # 
   fhir:description [ fhir:v "Norsk laboratoriekodverk er et felles kodeverk for laboratorieanalyser utarbeidet i samarbeid med de laboratoriefaglige miljøene fordelt på 6 spesialiteter: Immunologi og transfusjonsmedisin, Klinisk farmakologi, Medisinsk biokjemi, Medisinsk genetikk, Medisinsk mikrobiologi og Patologi."] ; # 
   fhir:jurisdiction ( [

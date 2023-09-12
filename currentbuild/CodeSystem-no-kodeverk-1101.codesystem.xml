@@ -3,7 +3,7 @@
 <CodeSystem xmlns="http://hl7.org/fhir">
   <id value="no-kodeverk-1101.codesystem"/>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This code system <code>http://ehelse.no/fhir/CodeSystem/no-kodeverk-1101</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">1<a name="no-kodeverk-1101.codesystem-1"> </a></td><td>Ja</td></tr><tr><td style="white-space:nowrap">2<a name="no-kodeverk-1101.codesystem-2"> </a></td><td>Nei</td></tr></table></div>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml">Placeholder</div>
   </text>
   <url value="http://ehelse.no/fhir/CodeSystem/no-kodeverk-1101"/>
   <identifier>

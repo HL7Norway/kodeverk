@@ -10,7 +10,7 @@
   fhir:id [ fhir:v "no-kodeverk-8269.codesystem"] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system <code>http://ehelse.no/fhir/CodeSystem/no-kodeverk-8269</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">TA<a name=\"no-kodeverk-8269.codesystem-TA\"> </a></td><td>Telefonsvar avgitt</td><td/></tr><tr><td style=\"white-space:nowrap\">MSIS-N<a name=\"no-kodeverk-8269.codesystem-MSIS-N\"> </a></td><td>Nominativ MSIS-melding</td><td>Dette svaret krever at nominativ rapport sendes til MSIS</td></tr><tr><td style=\"white-space:nowrap\">MSIS-A<a name=\"no-kodeverk-8269.codesystem-MSIS-A\"> </a></td><td>Anonym MSIS-melding</td><td>Dette svaret krever innrapportering til MSIS, men svaret skal sendes anonymt</td></tr><tr><td style=\"white-space:nowrap\">VA<a name=\"no-kodeverk-8269.codesystem-VA\"> </a></td><td>Vesentlig avvik fra tidligere svar</td><td>F.eks. ved vesentlig avvik fra preliminært svar til endelig svar</td></tr></table></div>"
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">Placeholder</div>"
   ] ; # 
   fhir:url [ fhir:v "http://ehelse.no/fhir/CodeSystem/no-kodeverk-8269"^^xsd:anyURI] ; # 
   fhir:identifier ( [
@@ -21,7 +21,7 @@
   fhir:name [ fhir:v "NoKodeverk8269"] ; # 
   fhir:title [ fhir:v "8269 Kommentar til svarrapport"] ; # 
   fhir:status [ fhir:v "active"] ; # 
-  fhir:date [ fhir:v "2023-08-17T10:25:54+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2023-09-12T18:30:30+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Direktoratet for e-helse"] ; # 
   fhir:description [ fhir:v "Kodet kommentar til svarrapport"] ; # 
   fhir:jurisdiction ( [

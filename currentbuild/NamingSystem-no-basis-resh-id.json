@@ -3,7 +3,7 @@
   "id" : "no-basis-resh-id",
   "text" : {
     "status" : "generated",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h3>Summary</h3><table class=\"grid\"><tr><td>Defining URL</td><td>http://hl7.no/fhir/NamingSystem/no-basis-resh-id</td></tr><tr><td>Version</td><td>0.4.4</td></tr><tr><td>Name</td><td>RESHid</td></tr><tr><td>Status</td><td>active</td></tr><tr><td>Definition</td><td><div><p>Identifikator for enheter i spesialisthelsetjenesten.</p>\n</div></td></tr><tr><td>Publisher</td><td>Direktoratet for e-helse</td></tr></table><h3>Identifiers</h3><table class=\"grid\"><tr><td><b>Type</b></td><td><b>Value</b></td><td><b>Preferred</b></td></tr><tr><td>URI</td><td>http://hl7.no/fhir/NamingSystem/RESHid</td><td>false</td></tr><tr><td>OID</td><td>2.16.578.1.12.4.1.4.102</td><td>true</td></tr></table></div>"
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\">Placeholder</div>"
   },
   "extension" : [{
     "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-NamingSystem.url",

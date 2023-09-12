@@ -1,5 +1,5 @@
 {
-  "date" : "Thu, 17 Aug, 2023 10:25:54 +0000",
+  "date" : "Tue, 12 Sep, 2023 18:30:30 +0000",
   "doco" : "For each file: start is seconds after start activity occurred. Length = milliseconds activity took",
   "files" : [
     {
@@ -9,1072 +9,98 @@
         {
           "activity" : "load",
           "start" : 51,
-          "length" : 664
+          "length" : 1482
         },
         {
           "activity" : "checkR4R4B",
           "start" : 52,
-          "length" : 8
+          "length" : 9
         },
         {
           "activity" : "generateNarratives",
           "start" : 52,
-          "length" : 683
+          "length" : 1526
         },
         {
           "activity" : "validate",
-          "start" : 54,
-          "length" : 1328
-        },
-        {
-          "activity" : "checkConformanceResources",
           "start" : 56,
-          "length" : 1
+          "length" : 2051
         },
         {
           "activity" : "scanForUsageStats",
-          "start" : 56,
+          "start" : 58,
           "length" : 3
         },
         {
           "activity" : "generate1",
-          "start" : 57,
-          "length" : 213
+          "start" : 60,
+          "length" : 287
         },
         {
           "activity" : "generate2",
-          "start" : 59,
-          "length" : 268
+          "start" : 63,
+          "length" : 367
         },
         {
           "activity" : "generateValidationPack",
-          "start" : 205,
-          "length" : 5
+          "start" : 212,
+          "length" : 4
         },
         {
           "activity" : "scanExamplesForR5",
-          "start" : 211,
+          "start" : 223,
           "length" : 1
         }
       ]
     },
     {
-      "name" : "fsh-generated/resources/CodeSystem-no-kodeverk-9603.codesystem.json",
-      "size" : 656,
+      "name" : "fsh-generated/resources/CodeSystem-no-kodeverk-9060.codesystem.json",
+      "size" : 3055,
       "processes" : [
         {
           "activity" : "loadResources",
-          "start" : 51,
-          "length" : 4
-        },
-        {
-          "activity" : "load",
-          "start" : 51,
-          "length" : 11
-        },
-        {
-          "activity" : "generateNarratives",
-          "start" : 53,
-          "length" : 6
-        },
-        {
-          "activity" : "validate",
-          "start" : 54,
+          "start" : 50,
           "length" : 24
         },
         {
-          "activity" : "generate1",
-          "start" : 57,
-          "length" : 7
-        },
-        {
-          "activity" : "generate2",
-          "start" : 59,
-          "length" : 2463
-        }
-      ]
-    },
-    {
-      "name" : "fsh-generated/resources/CodeSystem-no-kodeverk-8239.codesystem.json",
-      "size" : 1089,
-      "processes" : [
-        {
-          "activity" : "loadResources",
-          "start" : 51,
-          "length" : 3
-        },
-        {
           "activity" : "load",
-          "start" : 51,
-          "length" : 5
+          "start" : 50,
+          "length" : 27
+        },
+        {
+          "activity" : "checkR4R4B",
+          "start" : 52,
+          "length" : 1
         },
         {
           "activity" : "generateNarratives",
-          "start" : 53,
-          "length" : 7
+          "start" : 54,
+          "length" : 30
         },
         {
           "activity" : "validate",
-          "start" : 54,
-          "length" : 28
+          "start" : 55,
+          "length" : 80
         },
         {
           "activity" : "checkConformanceResources",
-          "start" : 56,
+          "start" : 58,
           "length" : 1
         },
         {
           "activity" : "generate1",
-          "start" : 57,
-          "length" : 10
-        },
-        {
-          "activity" : "generate2",
-          "start" : 62,
-          "length" : 73
-        }
-      ]
-    },
-    {
-      "name" : "fsh-generated/resources/CodeSystem-no-kodeverk-8340.codesystem.json",
-      "size" : 1268,
-      "processes" : [
-        {
-          "activity" : "loadResources",
-          "start" : 51,
-          "length" : 4
-        },
-        {
-          "activity" : "load",
-          "start" : 51,
-          "length" : 7
-        },
-        {
-          "activity" : "generateNarratives",
-          "start" : 53,
-          "length" : 7
-        },
-        {
-          "activity" : "validate",
-          "start" : 54,
-          "length" : 21
-        },
-        {
-          "activity" : "generate1",
-          "start" : 57,
-          "length" : 12
-        },
-        {
-          "activity" : "generate2",
-          "start" : 62,
-          "length" : 60
-        },
-        {
-          "activity" : "generateValidationPack",
-          "start" : 205,
-          "length" : 1
-        }
-      ]
-    },
-    {
-      "name" : "fsh-generated/resources/CodeSystem-no-kodeverk-8216.codesystem.json",
-      "size" : 1973,
-      "processes" : [
-        {
-          "activity" : "loadResources",
-          "start" : 51,
-          "length" : 6
-        },
-        {
-          "activity" : "load-configure",
-          "start" : 51,
-          "length" : 1
-        },
-        {
-          "activity" : "load",
-          "start" : 51,
-          "length" : 13
-        },
-        {
-          "activity" : "checkR4R4B",
-          "start" : 52,
-          "length" : 1
-        },
-        {
-          "activity" : "generateNarratives",
-          "start" : 53,
-          "length" : 9
-        },
-        {
-          "activity" : "validate",
-          "start" : 54,
+          "start" : 60,
           "length" : 31
         },
         {
-          "activity" : "generate1",
-          "start" : 57,
-          "length" : 17
-        },
-        {
           "activity" : "generate2",
-          "start" : 62,
-          "length" : 81
-        }
-      ]
-    },
-    {
-      "name" : "fsh-generated/resources/CodeSystem-no-kodeverk-8212.codesystem.json",
-      "size" : 598,
-      "processes" : [
-        {
-          "activity" : "loadResources",
-          "start" : 51,
-          "length" : 1
-        },
-        {
-          "activity" : "load",
-          "start" : 51,
-          "length" : 3
-        },
-        {
-          "activity" : "generateNarratives",
-          "start" : 53,
-          "length" : 3
-        },
-        {
-          "activity" : "validate",
-          "start" : 54,
-          "length" : 11
-        },
-        {
-          "activity" : "generate1",
-          "start" : 57,
-          "length" : 5
-        },
-        {
-          "activity" : "generate2",
-          "start" : 62,
-          "length" : 60
+          "start" : 63,
+          "length" : 2913
         },
         {
           "activity" : "generateValidationPack",
-          "start" : 205,
+          "start" : 212,
           "length" : 1
-        }
-      ]
-    },
-    {
-      "name" : "fsh-generated/resources/CodeSystem-no-kodeverk-8245.codesystem.json",
-      "size" : 1686,
-      "processes" : [
-        {
-          "activity" : "loadResources",
-          "start" : 51,
-          "length" : 6
-        },
-        {
-          "activity" : "load",
-          "start" : 51,
-          "length" : 6
-        },
-        {
-          "activity" : "generateNarratives",
-          "start" : 53,
-          "length" : 8
-        },
-        {
-          "activity" : "validate",
-          "start" : 54,
-          "length" : 25
-        },
-        {
-          "activity" : "generate1",
-          "start" : 57,
-          "length" : 14
-        },
-        {
-          "activity" : "generate2",
-          "start" : 62,
-          "length" : 84
-        },
-        {
-          "activity" : "generateValidationPack",
-          "start" : 205,
-          "length" : 9
-        }
-      ]
-    },
-    {
-      "name" : "fsh-generated/resources/CodeSystem-no-kodeverk-7270-ncrp.codesystem.json",
-      "size" : 805,
-      "processes" : [
-        {
-          "activity" : "loadResources",
-          "start" : 51,
-          "length" : 1
-        },
-        {
-          "activity" : "load",
-          "start" : 51,
-          "length" : 2
-        },
-        {
-          "activity" : "generateNarratives",
-          "start" : 53,
-          "length" : 3
-        },
-        {
-          "activity" : "validate",
-          "start" : 54,
-          "length" : 11
-        },
-        {
-          "activity" : "generate1",
-          "start" : 57,
-          "length" : 5
-        },
-        {
-          "activity" : "generate2",
-          "start" : 62,
-          "length" : 34
-        }
-      ]
-    },
-    {
-      "name" : "fsh-generated/resources/CodeSystem-no-kodeverk-8202.codesystem.json",
-      "size" : 2057,
-      "processes" : [
-        {
-          "activity" : "loadResources",
-          "start" : 51,
-          "length" : 7
-        },
-        {
-          "activity" : "load",
-          "start" : 51,
-          "length" : 9
-        },
-        {
-          "activity" : "generateNarratives",
-          "start" : 53,
-          "length" : 9
-        },
-        {
-          "activity" : "validate",
-          "start" : 54,
-          "length" : 39
-        },
-        {
-          "activity" : "generate1",
-          "start" : 57,
-          "length" : 18
-        },
-        {
-          "activity" : "generate2",
-          "start" : 62,
-          "length" : 45
-        },
-        {
-          "activity" : "generateValidationPack",
-          "start" : 205,
-          "length" : 1
-        }
-      ]
-    },
-    {
-      "name" : "fsh-generated/resources/CodeSystem-no-kodeverk-8272.codesystem.json",
-      "size" : 814,
-      "processes" : [
-        {
-          "activity" : "loadResources",
-          "start" : 51,
-          "length" : 2
-        },
-        {
-          "activity" : "load",
-          "start" : 51,
-          "length" : 3
-        },
-        {
-          "activity" : "checkR4R4B",
-          "start" : 52,
-          "length" : 1
-        },
-        {
-          "activity" : "generateNarratives",
-          "start" : 53,
-          "length" : 4
-        },
-        {
-          "activity" : "validate",
-          "start" : 54,
-          "length" : 28
-        },
-        {
-          "activity" : "generate1",
-          "start" : 57,
-          "length" : 7
-        },
-        {
-          "activity" : "generate2",
-          "start" : 62,
-          "length" : 35
-        }
-      ]
-    },
-    {
-      "name" : "fsh-generated/resources/NamingSystem-no-basis-orgnr.json",
-      "size" : 947,
-      "processes" : [
-        {
-          "activity" : "loadResources",
-          "start" : 51,
-          "length" : 3
-        },
-        {
-          "activity" : "load",
-          "start" : 51,
-          "length" : 26
-        },
-        {
-          "activity" : "generateNarratives",
-          "start" : 53,
-          "length" : 34
-        },
-        {
-          "activity" : "validate",
-          "start" : 53,
-          "length" : 810
-        },
-        {
-          "activity" : "generate1",
-          "start" : 57,
-          "length" : 8
-        },
-        {
-          "activity" : "generate2",
-          "start" : 62,
-          "length" : 19
-        },
-        {
-          "activity" : "makeDependencies",
-          "start" : 68,
-          "length" : 1
-        }
-      ]
-    },
-    {
-      "name" : "fsh-generated/resources/CodeSystem-no-kodeverk-8234.codesystem.json",
-      "size" : 477,
-      "processes" : [
-        {
-          "activity" : "loadResources",
-          "start" : 51,
-          "length" : 1
-        },
-        {
-          "activity" : "load",
-          "start" : 51,
-          "length" : 3
-        },
-        {
-          "activity" : "generateNarratives",
-          "start" : 53,
-          "length" : 4
-        },
-        {
-          "activity" : "validate",
-          "start" : 54,
-          "length" : 28
-        },
-        {
-          "activity" : "validate",
-          "start" : 54,
-          "length" : 1
-        },
-        {
-          "activity" : "generate1",
-          "start" : 57,
-          "length" : 5
-        },
-        {
-          "activity" : "generate2",
-          "start" : 62,
-          "length" : 41
-        },
-        {
-          "activity" : "generateValidationPack",
-          "start" : 205,
-          "length" : 1
-        }
-      ]
-    },
-    {
-      "name" : "fsh-generated/resources/CodeSystem-no-kodeverk-3108.codesystem.json",
-      "size" : 523,
-      "processes" : [
-        {
-          "activity" : "loadResources",
-          "start" : 51,
-          "length" : 52
-        },
-        {
-          "activity" : "load",
-          "start" : 51,
-          "length" : 3
-        },
-        {
-          "activity" : "generateNarratives",
-          "start" : 53,
-          "length" : 3
-        },
-        {
-          "activity" : "validate",
-          "start" : 54,
-          "length" : 24
-        },
-        {
-          "activity" : "generate1",
-          "start" : 57,
-          "length" : 5
-        },
-        {
-          "activity" : "generate2",
-          "start" : 62,
-          "length" : 31
-        }
-      ]
-    },
-    {
-      "name" : "fsh-generated/resources/CodeSystem-no-kodeverk-4101.codesystem.json",
-      "size" : 527,
-      "processes" : [
-        {
-          "activity" : "loadResources",
-          "start" : 51,
-          "length" : 2
-        },
-        {
-          "activity" : "load",
-          "start" : 51,
-          "length" : 3
-        },
-        {
-          "activity" : "generateNarratives",
-          "start" : 53,
-          "length" : 3
-        },
-        {
-          "activity" : "validate",
-          "start" : 54,
-          "length" : 22
-        },
-        {
-          "activity" : "generate1",
-          "start" : 57,
-          "length" : 5
-        },
-        {
-          "activity" : "generate2",
-          "start" : 62,
-          "length" : 29
-        }
-      ]
-    },
-    {
-      "name" : "fsh-generated/resources/CodeSystem-no-kodeverk-8231.codesystem.json",
-      "size" : 2201,
-      "processes" : [
-        {
-          "activity" : "loadResources",
-          "start" : 51,
-          "length" : 6
-        },
-        {
-          "activity" : "load",
-          "start" : 51,
-          "length" : 7
-        },
-        {
-          "activity" : "generateNarratives",
-          "start" : 53,
-          "length" : 9
-        },
-        {
-          "activity" : "validate",
-          "start" : 54,
-          "length" : 43
-        },
-        {
-          "activity" : "generate1",
-          "start" : 57,
-          "length" : 23
-        },
-        {
-          "activity" : "generate2",
-          "start" : 62,
-          "length" : 40
-        },
-        {
-          "activity" : "generateExampleZip",
-          "start" : 204,
-          "length" : 1
-        },
-        {
-          "activity" : "generateValidationPack",
-          "start" : 205,
-          "length" : 1
-        }
-      ]
-    },
-    {
-      "name" : "fsh-generated/resources/CodeSystem-no-kodeverk-7305.codesystem.json",
-      "size" : 930,
-      "processes" : [
-        {
-          "activity" : "loadResources",
-          "start" : 51,
-          "length" : 3
-        },
-        {
-          "activity" : "load",
-          "start" : 51,
-          "length" : 4
-        },
-        {
-          "activity" : "load",
-          "start" : 51,
-          "length" : 1
-        },
-        {
-          "activity" : "generateNarratives",
-          "start" : 53,
-          "length" : 5
-        },
-        {
-          "activity" : "validate",
-          "start" : 54,
-          "length" : 17
-        },
-        {
-          "activity" : "generate1",
-          "start" : 57,
-          "length" : 8
-        },
-        {
-          "activity" : "generate2",
-          "start" : 63,
-          "length" : 35
-        },
-        {
-          "activity" : "generateValidationPack",
-          "start" : 205,
-          "length" : 2
-        }
-      ]
-    },
-    {
-      "name" : "fsh-generated/resources/CodeSystem-no-kodeverk-8269.codesystem.json",
-      "size" : 1088,
-      "processes" : [
-        {
-          "activity" : "loadResources",
-          "start" : 51,
-          "length" : 4
-        },
-        {
-          "activity" : "load-configure",
-          "start" : 51,
-          "length" : 1
-        },
-        {
-          "activity" : "load",
-          "start" : 51,
-          "length" : 4
-        },
-        {
-          "activity" : "checkR4R4B",
-          "start" : 52,
-          "length" : 1
-        },
-        {
-          "activity" : "generateNarratives",
-          "start" : 53,
-          "length" : 5
-        },
-        {
-          "activity" : "validate",
-          "start" : 54,
-          "length" : 17
-        },
-        {
-          "activity" : "generate1",
-          "start" : 57,
-          "length" : 9
-        },
-        {
-          "activity" : "generate2",
-          "start" : 63,
-          "length" : 32
-        }
-      ]
-    },
-    {
-      "name" : "fsh-generated/resources/CodeSystem-no-kodeverk-7303.codesystem.json",
-      "size" : 447,
-      "processes" : [
-        {
-          "activity" : "loadResources",
-          "start" : 51,
-          "length" : 1
-        },
-        {
-          "activity" : "load",
-          "start" : 51,
-          "length" : 3
-        },
-        {
-          "activity" : "generateNarratives",
-          "start" : 53,
-          "length" : 3
-        },
-        {
-          "activity" : "validate",
-          "start" : 54,
-          "length" : 9
-        },
-        {
-          "activity" : "generate1",
-          "start" : 57,
-          "length" : 5
-        },
-        {
-          "activity" : "generate2",
-          "start" : 63,
-          "length" : 24
-        },
-        {
-          "activity" : "generateValidationPack",
-          "start" : 205,
-          "length" : 1
-        },
-        {
-          "activity" : "scanExamplesForR5",
-          "start" : 211,
-          "length" : 1
-        }
-      ]
-    },
-    {
-      "name" : "fsh-generated/resources/CodeSystem-no-kodeverk-8219.codesystem.json",
-      "size" : 3050,
-      "processes" : [
-        {
-          "activity" : "loadResources",
-          "start" : 51,
-          "length" : 9
-        },
-        {
-          "activity" : "scan",
-          "start" : 51,
-          "length" : 1
-        },
-        {
-          "activity" : "load",
-          "start" : 51,
-          "length" : 11
-        },
-        {
-          "activity" : "generateNarratives",
-          "start" : 53,
-          "length" : 17
-        },
-        {
-          "activity" : "validate",
-          "start" : 54,
-          "length" : 68
-        },
-        {
-          "activity" : "generate1",
-          "start" : 57,
-          "length" : 24
-        },
-        {
-          "activity" : "generate2",
-          "start" : 63,
-          "length" : 87
-        }
-      ]
-    },
-    {
-      "name" : "fsh-generated/resources/CodeSystem-no-kodeverk-8351.codesystem.json",
-      "size" : 524,
-      "processes" : [
-        {
-          "activity" : "loadResources",
-          "start" : 51,
-          "length" : 2
-        },
-        {
-          "activity" : "load",
-          "start" : 51,
-          "length" : 4
-        },
-        {
-          "activity" : "generateNarratives",
-          "start" : 53,
-          "length" : 4
-        },
-        {
-          "activity" : "validate",
-          "start" : 54,
-          "length" : 10
-        },
-        {
-          "activity" : "generate1",
-          "start" : 57,
-          "length" : 5
-        },
-        {
-          "activity" : "generate2",
-          "start" : 63,
-          "length" : 36
-        },
-        {
-          "activity" : "generateValidationPack",
-          "start" : 205,
-          "length" : 1
-        }
-      ]
-    },
-    {
-      "name" : "fsh-generated/resources/CodeSystem-no-kodeverk-8244.codesystem.json",
-      "size" : 785,
-      "processes" : [
-        {
-          "activity" : "loadResources",
-          "start" : 51,
-          "length" : 3
-        },
-        {
-          "activity" : "load",
-          "start" : 51,
-          "length" : 5
-        },
-        {
-          "activity" : "generateNarratives",
-          "start" : 53,
-          "length" : 4
-        },
-        {
-          "activity" : "validate",
-          "start" : 54,
-          "length" : 13
-        },
-        {
-          "activity" : "generate1",
-          "start" : 57,
-          "length" : 6
-        },
-        {
-          "activity" : "generate2",
-          "start" : 63,
-          "length" : 50
-        }
-      ]
-    },
-    {
-      "name" : "fsh-generated/resources/CodeSystem-no-kodeverk-ICD-10.codesystem.json",
-      "size" : 490,
-      "processes" : [
-        {
-          "activity" : "loadResources",
-          "start" : 51,
-          "length" : 2
-        },
-        {
-          "activity" : "load",
-          "start" : 51,
-          "length" : 4
-        },
-        {
-          "activity" : "generateNarratives",
-          "start" : 53,
-          "length" : 3
-        },
-        {
-          "activity" : "validate",
-          "start" : 54,
-          "length" : 11
-        },
-        {
-          "activity" : "generate1",
-          "start" : 57,
-          "length" : 5
-        },
-        {
-          "activity" : "generate2",
-          "start" : 63,
-          "length" : 36
-        }
-      ]
-    },
-    {
-      "name" : "fsh-generated/resources/CodeSystem-no-kodeverk-8116.codesystem.json",
-      "size" : 1945,
-      "processes" : [
-        {
-          "activity" : "loadResources",
-          "start" : 51,
-          "length" : 5
-        },
-        {
-          "activity" : "load",
-          "start" : 51,
-          "length" : 6
-        },
-        {
-          "activity" : "checkR4R4B",
-          "start" : 52,
-          "length" : 1
-        },
-        {
-          "activity" : "generateNarratives",
-          "start" : 53,
-          "length" : 8
-        },
-        {
-          "activity" : "validate",
-          "start" : 54,
-          "length" : 25
-        },
-        {
-          "activity" : "checkConformanceResources",
-          "start" : 56,
-          "length" : 1
-        },
-        {
-          "activity" : "generate1",
-          "start" : 57,
-          "length" : 14
-        },
-        {
-          "activity" : "generate2",
-          "start" : 63,
-          "length" : 55
-        },
-        {
-          "activity" : "generateValidationPack",
-          "start" : 205,
-          "length" : 1
-        }
-      ]
-    },
-    {
-      "name" : "fsh-generated/resources/CodeSystem-no-kodeverk-7010-norpat.codesystem.json",
-      "size" : 808,
-      "processes" : [
-        {
-          "activity" : "loadResources",
-          "start" : 51,
-          "length" : 2
-        },
-        {
-          "activity" : "load",
-          "start" : 51,
-          "length" : 3
-        },
-        {
-          "activity" : "generateNarratives",
-          "start" : 53,
-          "length" : 3
-        },
-        {
-          "activity" : "validate",
-          "start" : 54,
-          "length" : 9
-        },
-        {
-          "activity" : "generate1",
-          "start" : 57,
-          "length" : 5
-        },
-        {
-          "activity" : "generate2",
-          "start" : 63,
-          "length" : 48
-        }
-      ]
-    },
-    {
-      "name" : "fsh-generated/resources/NamingSystem-no-basis-resh-id.json",
-      "size" : 725,
-      "processes" : [
-        {
-          "activity" : "loadResources",
-          "start" : 51,
-          "length" : 3
-        },
-        {
-          "activity" : "load",
-          "start" : 51,
-          "length" : 13
-        },
-        {
-          "activity" : "generateNarratives",
-          "start" : 53,
-          "length" : 9
-        },
-        {
-          "activity" : "validate",
-          "start" : 54,
-          "length" : 19
-        },
-        {
-          "activity" : "generate1",
-          "start" : 57,
-          "length" : 7
-        },
-        {
-          "activity" : "generate2",
-          "start" : 63,
-          "length" : 14
-        }
-      ]
-    },
-    {
-      "name" : "fsh-generated/resources/CodeSystem-no-kodeverk-8264.codesystem.json",
-      "size" : 539,
-      "processes" : [
-        {
-          "activity" : "loadResources",
-          "start" : 51,
-          "length" : 2
-        },
-        {
-          "activity" : "load",
-          "start" : 51,
-          "length" : 3
-        },
-        {
-          "activity" : "generateNarratives",
-          "start" : 53,
-          "length" : 3
-        },
-        {
-          "activity" : "validate",
-          "start" : 54,
-          "length" : 10
-        },
-        {
-          "activity" : "generate1",
-          "start" : 57,
-          "length" : 5
-        },
-        {
-          "activity" : "generate2",
-          "start" : 63,
-          "length" : 37
         }
       ]
     },
@@ -1084,155 +110,124 @@
       "processes" : [
         {
           "activity" : "loadResources",
-          "start" : 51,
-          "length" : 2
+          "start" : 50,
+          "length" : 7
         },
         {
           "activity" : "load",
-          "start" : 51,
-          "length" : 8
+          "start" : 50,
+          "length" : 30
         },
         {
           "activity" : "generateNarratives",
-          "start" : 53,
-          "length" : 8
+          "start" : 54,
+          "length" : 40
         },
         {
           "activity" : "validate",
           "start" : 54,
-          "length" : 29
+          "length" : 682
         },
         {
           "activity" : "generate1",
-          "start" : 57,
-          "length" : 7
+          "start" : 60,
+          "length" : 13
         },
         {
           "activity" : "generate2",
-          "start" : 63,
-          "length" : 14
+          "start" : 66,
+          "length" : 33
         },
         {
           "activity" : "generateValidationPack",
-          "start" : 205,
-          "length" : 1
-        }
-      ]
-    },
-    {
-      "name" : "fsh-generated/resources/CodeSystem-no-kodeverk-8327.codesystem.json",
-      "size" : 815,
-      "processes" : [
-        {
-          "activity" : "loadResources",
-          "start" : 51,
-          "length" : 3
-        },
-        {
-          "activity" : "load-configure",
-          "start" : 51,
-          "length" : 1
-        },
-        {
-          "activity" : "load",
-          "start" : 51,
-          "length" : 3
-        },
-        {
-          "activity" : "generateNarratives",
-          "start" : 53,
-          "length" : 5
-        },
-        {
-          "activity" : "validate",
-          "start" : 54,
-          "length" : 12
-        },
-        {
-          "activity" : "generate1",
-          "start" : 57,
-          "length" : 7
-        },
-        {
-          "activity" : "generate2",
-          "start" : 63,
-          "length" : 37
-        }
-      ]
-    },
-    {
-      "name" : "fsh-generated/resources/CodeSystem-no-kodeverk-7280-nlk.codesystem.json",
-      "size" : 741,
-      "processes" : [
-        {
-          "activity" : "loadResources",
-          "start" : 51,
+          "start" : 212,
           "length" : 2
-        },
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/CodeSystem-no-kodeverk-8232.codesystem.json",
+      "size" : 765,
+      "processes" : [
         {
-          "activity" : "load",
-          "start" : 51,
-          "length" : 4
-        },
-        {
-          "activity" : "generateNarratives",
-          "start" : 53,
-          "length" : 3
-        },
-        {
-          "activity" : "validate",
-          "start" : 54,
+          "activity" : "loadResources",
+          "start" : 50,
           "length" : 9
         },
         {
+          "activity" : "load",
+          "start" : 50,
+          "length" : 11
+        },
+        {
+          "activity" : "checkR4R4B",
+          "start" : 52,
+          "length" : 1
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 54,
+          "length" : 8
+        },
+        {
+          "activity" : "validate",
+          "start" : 55,
+          "length" : 24
+        },
+        {
           "activity" : "generate1",
-          "start" : 57,
-          "length" : 5
+          "start" : 60,
+          "length" : 11
         },
         {
           "activity" : "generate2",
-          "start" : 63,
-          "length" : 29
+          "start" : 66,
+          "length" : 103
         }
       ]
     },
     {
-      "name" : "fsh-generated/resources/CodeSystem-no-kodeverk-8271.codesystem.json",
-      "size" : 715,
+      "name" : "fsh-generated/resources/CodeSystem-no-kodeverk-8212.codesystem.json",
+      "size" : 598,
       "processes" : [
         {
           "activity" : "loadResources",
-          "start" : 51,
-          "length" : 2
-        },
-        {
-          "activity" : "load",
-          "start" : 51,
-          "length" : 3
-        },
-        {
-          "activity" : "generateNarratives",
-          "start" : 53,
+          "start" : 50,
           "length" : 4
         },
         {
-          "activity" : "validate",
+          "activity" : "load-configure",
+          "start" : 50,
+          "length" : 1
+        },
+        {
+          "activity" : "load",
+          "start" : 50,
+          "length" : 4
+        },
+        {
+          "activity" : "generateNarratives",
           "start" : 54,
-          "length" : 12
+          "length" : 6
+        },
+        {
+          "activity" : "validate",
+          "start" : 55,
+          "length" : 15
         },
         {
           "activity" : "generate1",
-          "start" : 57,
-          "length" : 7
+          "start" : 60,
+          "length" : 10
         },
         {
           "activity" : "generate2",
-          "start" : 63,
-          "length" : 38
+          "start" : 66,
+          "length" : 69
         },
         {
           "activity" : "generateValidationPack",
-          "start" : 205,
+          "start" : 212,
           "length" : 1
         }
       ]
@@ -1243,248 +238,105 @@
       "processes" : [
         {
           "activity" : "loadResources",
-          "start" : 51,
-          "length" : 2
+          "start" : 50,
+          "length" : 4
         },
         {
           "activity" : "load",
-          "start" : 51,
-          "length" : 7
+          "start" : 50,
+          "length" : 14
         },
         {
           "activity" : "generateNarratives",
-          "start" : 53,
-          "length" : 4
+          "start" : 54,
+          "length" : 6
         },
         {
           "activity" : "validate",
-          "start" : 54,
-          "length" : 9
+          "start" : 55,
+          "length" : 34
         },
         {
           "activity" : "generate1",
-          "start" : 57,
-          "length" : 4
+          "start" : 60,
+          "length" : 10
         },
         {
           "activity" : "generate2",
-          "start" : 63,
-          "length" : 36
+          "start" : 66,
+          "length" : 78
         }
       ]
     },
     {
-      "name" : "fsh-generated/resources/CodeSystem-no-kodeverk-8232.codesystem.json",
-      "size" : 765,
+      "name" : "fsh-generated/resources/CodeSystem-no-kodeverk-9603.codesystem.json",
+      "size" : 656,
       "processes" : [
         {
           "activity" : "loadResources",
-          "start" : 51,
+          "start" : 50,
           "length" : 3
         },
         {
           "activity" : "load",
-          "start" : 51,
+          "start" : 50,
+          "length" : 6
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 54,
+          "length" : 6
+        },
+        {
+          "activity" : "validate",
+          "start" : 55,
+          "length" : 23
+        },
+        {
+          "activity" : "generate1",
+          "start" : 60,
+          "length" : 10
+        },
+        {
+          "activity" : "generate2",
+          "start" : 67,
+          "length" : 93
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/CodeSystem-no-kodeverk-7010-norpat.codesystem.json",
+      "size" : 808,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 50,
+          "length" : 4
+        },
+        {
+          "activity" : "load",
+          "start" : 50,
+          "length" : 16
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 54,
           "length" : 5
         },
         {
-          "activity" : "checkR4R4B",
-          "start" : 52,
-          "length" : 1
-        },
-        {
-          "activity" : "generateNarratives",
-          "start" : 53,
-          "length" : 4
-        },
-        {
           "activity" : "validate",
-          "start" : 54,
-          "length" : 13
-        },
-        {
-          "activity" : "generate1",
-          "start" : 57,
-          "length" : 7
-        },
-        {
-          "activity" : "generate2",
-          "start" : 63,
-          "length" : 37
-        }
-      ]
-    },
-    {
-      "name" : "fsh-generated/resources/CodeSystem-no-kodeverk-1101.codesystem.json",
-      "size" : 654,
-      "processes" : [
-        {
-          "activity" : "loadResources",
-          "start" : 51,
-          "length" : 2
-        },
-        {
-          "activity" : "load",
-          "start" : 51,
-          "length" : 3
-        },
-        {
-          "activity" : "generateNarratives",
-          "start" : 53,
-          "length" : 4
-        },
-        {
-          "activity" : "validate",
-          "start" : 54,
-          "length" : 11
-        },
-        {
-          "activity" : "generate1",
-          "start" : 57,
-          "length" : 6
-        },
-        {
-          "activity" : "generate2",
-          "start" : 63,
-          "length" : 33
-        }
-      ]
-    },
-    {
-      "name" : "fsh-generated/resources/CodeSystem-no-kodeverk-8268.codesystem.json",
-      "size" : 3013,
-      "processes" : [
-        {
-          "activity" : "loadResources",
-          "start" : 51,
-          "length" : 8
-        },
-        {
-          "activity" : "load",
-          "start" : 51,
-          "length" : 10
-        },
-        {
-          "activity" : "generateNarratives",
-          "start" : 53,
-          "length" : 10
-        },
-        {
-          "activity" : "validate",
-          "start" : 54,
-          "length" : 32
-        },
-        {
-          "activity" : "generate1",
-          "start" : 57,
-          "length" : 21
-        },
-        {
-          "activity" : "generate2",
-          "start" : 63,
-          "length" : 50
-        },
-        {
-          "activity" : "generateValidationPack",
-          "start" : 205,
-          "length" : 4
-        }
-      ]
-    },
-    {
-      "name" : "fsh-generated/resources/CodeSystem-no-kodeverk-8243.codesystem.json",
-      "size" : 1278,
-      "processes" : [
-        {
-          "activity" : "loadResources",
-          "start" : 51,
-          "length" : 4
-        },
-        {
-          "activity" : "load",
-          "start" : 51,
-          "length" : 9
-        },
-        {
-          "activity" : "generateNarratives",
-          "start" : 53,
-          "length" : 6
-        },
-        {
-          "activity" : "validate",
-          "start" : 54,
-          "length" : 21
-        },
-        {
-          "activity" : "generate1",
-          "start" : 57,
-          "length" : 11
-        },
-        {
-          "activity" : "generate2",
-          "start" : 63,
-          "length" : 47
-        },
-        {
-          "activity" : "generateValidationPack",
-          "start" : 205,
-          "length" : 3
-        }
-      ]
-    },
-    {
-      "name" : "fsh-generated/resources/CodeSystem-no-kodeverk-9060.codesystem.json",
-      "size" : 3055,
-      "processes" : [
-        {
-          "activity" : "loadResources",
-          "start" : 51,
-          "length" : 9
-        },
-        {
-          "activity" : "load-configure",
-          "start" : 51,
-          "length" : 1
-        },
-        {
-          "activity" : "load",
-          "start" : 51,
-          "length" : 17
-        },
-        {
-          "activity" : "checkR4R4B",
-          "start" : 52,
-          "length" : 1
-        },
-        {
-          "activity" : "generateNarratives",
-          "start" : 53,
-          "length" : 13
-        },
-        {
-          "activity" : "validate",
-          "start" : 54,
-          "length" : 42
-        },
-        {
-          "activity" : "checkConformanceResources",
-          "start" : 56,
-          "length" : 1
-        },
-        {
-          "activity" : "generate1",
-          "start" : 57,
+          "start" : 55,
           "length" : 25
         },
         {
-          "activity" : "generate2",
-          "start" : 63,
-          "length" : 60
+          "activity" : "generate1",
+          "start" : 60,
+          "length" : 9
         },
         {
-          "activity" : "generateValidationPack",
-          "start" : 205,
-          "length" : 3
+          "activity" : "generate2",
+          "start" : 67,
+          "length" : 68
         }
       ]
     },
@@ -1494,42 +346,611 @@
       "processes" : [
         {
           "activity" : "loadResources",
-          "start" : 51,
+          "start" : 50,
+          "length" : 4
+        },
+        {
+          "activity" : "load",
+          "start" : 50,
+          "length" : 6
+        },
+        {
+          "activity" : "checkR4R4B",
+          "start" : 52,
+          "length" : 1
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 54,
+          "length" : 8
+        },
+        {
+          "activity" : "validate",
+          "start" : 55,
+          "length" : 41
+        },
+        {
+          "activity" : "generate1",
+          "start" : 60,
+          "length" : 11
+        },
+        {
+          "activity" : "generate2",
+          "start" : 67,
+          "length" : 73
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 212,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/CodeSystem-no-kodeverk-8116.codesystem.json",
+      "size" : 1945,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 50,
+          "length" : 11
+        },
+        {
+          "activity" : "load",
+          "start" : 50,
+          "length" : 15
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 54,
+          "length" : 14
+        },
+        {
+          "activity" : "validate",
+          "start" : 55,
+          "length" : 60
+        },
+        {
+          "activity" : "generate1",
+          "start" : 60,
+          "length" : 19
+        },
+        {
+          "activity" : "generate2",
+          "start" : 67,
+          "length" : 88
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/CodeSystem-no-kodeverk-3108.codesystem.json",
+      "size" : 523,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 50,
           "length" : 3
         },
         {
           "activity" : "load",
-          "start" : 51,
-          "length" : 3
+          "start" : 50,
+          "length" : 6
         },
         {
           "activity" : "generateNarratives",
-          "start" : 53,
-          "length" : 3
+          "start" : 54,
+          "length" : 6
         },
         {
           "activity" : "validate",
+          "start" : 55,
+          "length" : 14
+        },
+        {
+          "activity" : "generate1",
+          "start" : 60,
+          "length" : 9
+        },
+        {
+          "activity" : "generate2",
+          "start" : 67,
+          "length" : 136
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 212,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/CodeSystem-no-kodeverk-8272.codesystem.json",
+      "size" : 814,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 50,
+          "length" : 6
+        },
+        {
+          "activity" : "scan",
+          "start" : 50,
+          "length" : 1
+        },
+        {
+          "activity" : "load",
+          "start" : 50,
+          "length" : 7
+        },
+        {
+          "activity" : "checkR4R4B",
+          "start" : 52,
+          "length" : 1
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 54,
+          "length" : 8
+        },
+        {
+          "activity" : "validate",
+          "start" : 55,
+          "length" : 21
+        },
+        {
+          "activity" : "generate1",
+          "start" : 60,
+          "length" : 11
+        },
+        {
+          "activity" : "generate2",
+          "start" : 67,
+          "length" : 63
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/CodeSystem-no-kodeverk-8273.codesystem.json",
+      "size" : 900,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 50,
+          "length" : 9
+        },
+        {
+          "activity" : "load-configure",
+          "start" : 50,
+          "length" : 1
+        },
+        {
+          "activity" : "load",
+          "start" : 50,
+          "length" : 9
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 54,
+          "length" : 9
+        },
+        {
+          "activity" : "validate",
+          "start" : 55,
+          "length" : 32
+        },
+        {
+          "activity" : "generate1",
+          "start" : 60,
+          "length" : 12
+        },
+        {
+          "activity" : "generate2",
+          "start" : 67,
+          "length" : 67
+        },
+        {
+          "activity" : "generateExampleZip",
+          "start" : 212,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/CodeSystem-no-kodeverk-7303.codesystem.json",
+      "size" : 447,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 50,
+          "length" : 3
+        },
+        {
+          "activity" : "load",
+          "start" : 50,
+          "length" : 5
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 54,
+          "length" : 5
+        },
+        {
+          "activity" : "validate",
+          "start" : 55,
+          "length" : 15
+        },
+        {
+          "activity" : "generate1",
+          "start" : 60,
+          "length" : 9
+        },
+        {
+          "activity" : "generate2",
+          "start" : 67,
+          "length" : 44
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/NamingSystem-no-basis-resh-id.json",
+      "size" : 725,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 50,
+          "length" : 5
+        },
+        {
+          "activity" : "load",
+          "start" : 50,
+          "length" : 16
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 54,
+          "length" : 18
+        },
+        {
+          "activity" : "validate",
+          "start" : 55,
+          "length" : 25
+        },
+        {
+          "activity" : "generate1",
+          "start" : 60,
+          "length" : 11
+        },
+        {
+          "activity" : "generate2",
+          "start" : 67,
+          "length" : 16
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 212,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/CodeSystem-no-kodeverk-8202.codesystem.json",
+      "size" : 2057,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 50,
+          "length" : 14
+        },
+        {
+          "activity" : "load",
+          "start" : 50,
+          "length" : 16
+        },
+        {
+          "activity" : "checkR4R4B",
+          "start" : 52,
+          "length" : 1
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 54,
+          "length" : 16
+        },
+        {
+          "activity" : "validate",
+          "start" : 55,
+          "length" : 54
+        },
+        {
+          "activity" : "generate1",
+          "start" : 60,
+          "length" : 21
+        },
+        {
+          "activity" : "generate2",
+          "start" : 67,
+          "length" : 60
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/CodeSystem-no-kodeverk-8239.codesystem.json",
+      "size" : 1089,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 50,
+          "length" : 7
+        },
+        {
+          "activity" : "load",
+          "start" : 50,
+          "length" : 9
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 54,
+          "length" : 10
+        },
+        {
+          "activity" : "validate",
+          "start" : 55,
+          "length" : 46
+        },
+        {
+          "activity" : "generate1",
+          "start" : 60,
+          "length" : 12
+        },
+        {
+          "activity" : "generate2",
+          "start" : 67,
+          "length" : 63
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 212,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/CodeSystem-no-kodeverk-7305.codesystem.json",
+      "size" : 930,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 50,
+          "length" : 7
+        },
+        {
+          "activity" : "load",
+          "start" : 50,
+          "length" : 10
+        },
+        {
+          "activity" : "checkR4R4B",
+          "start" : 52,
+          "length" : 1
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 54,
+          "length" : 10
+        },
+        {
+          "activity" : "validate",
+          "start" : 55,
+          "length" : 25
+        },
+        {
+          "activity" : "generate1",
+          "start" : 60,
+          "length" : 12
+        },
+        {
+          "activity" : "generate2",
+          "start" : 67,
+          "length" : 53
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/CodeSystem-no-kodeverk-1101.codesystem.json",
+      "size" : 654,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 50,
+          "length" : 5
+        },
+        {
+          "activity" : "load-configure",
+          "start" : 50,
+          "length" : 1
+        },
+        {
+          "activity" : "load",
+          "start" : 50,
+          "length" : 7
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 54,
+          "length" : 7
+        },
+        {
+          "activity" : "validate",
+          "start" : 55,
+          "length" : 29
+        },
+        {
+          "activity" : "generate1",
+          "start" : 60,
+          "length" : 9
+        },
+        {
+          "activity" : "generate2",
+          "start" : 67,
+          "length" : 56
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/CodeSystem-no-kodeverk-8271.codesystem.json",
+      "size" : 715,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 50,
+          "length" : 4
+        },
+        {
+          "activity" : "load",
+          "start" : 50,
+          "length" : 9
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 54,
+          "length" : 8
+        },
+        {
+          "activity" : "validate",
+          "start" : 55,
+          "length" : 21
+        },
+        {
+          "activity" : "generate1",
+          "start" : 60,
+          "length" : 11
+        },
+        {
+          "activity" : "generate2",
+          "start" : 67,
+          "length" : 59
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 212,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/NamingSystem-no-basis-orgnr.json",
+      "size" : 947,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 50,
+          "length" : 4
+        },
+        {
+          "activity" : "load",
+          "start" : 50,
+          "length" : 15
+        },
+        {
+          "activity" : "generateNarratives",
           "start" : 54,
           "length" : 17
         },
         {
-          "activity" : "checkConformanceResources",
-          "start" : 56,
+          "activity" : "validate",
+          "start" : 55,
+          "length" : 26
+        },
+        {
+          "activity" : "validate",
+          "start" : 58,
           "length" : 1
         },
         {
           "activity" : "generate1",
-          "start" : 57,
-          "length" : 6
+          "start" : 60,
+          "length" : 11
         },
         {
           "activity" : "generate2",
-          "start" : 63,
-          "length" : 29
+          "start" : 67,
+          "length" : 18
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/CodeSystem-no-kodeverk-7280-nlk.codesystem.json",
+      "size" : 741,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 50,
+          "length" : 4
+        },
+        {
+          "activity" : "load",
+          "start" : 50,
+          "length" : 5
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 54,
+          "length" : 6
+        },
+        {
+          "activity" : "validate",
+          "start" : 55,
+          "length" : 17
+        },
+        {
+          "activity" : "generate1",
+          "start" : 60,
+          "length" : 9
+        },
+        {
+          "activity" : "generate2",
+          "start" : 67,
+          "length" : 38
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/CodeSystem-no-kodeverk-7270-ncrp.codesystem.json",
+      "size" : 805,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 50,
+          "length" : 3
+        },
+        {
+          "activity" : "load",
+          "start" : 50,
+          "length" : 5
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 54,
+          "length" : 6
+        },
+        {
+          "activity" : "validate",
+          "start" : 55,
+          "length" : 14
+        },
+        {
+          "activity" : "generate1",
+          "start" : 60,
+          "length" : 9
+        },
+        {
+          "activity" : "generate2",
+          "start" : 68,
+          "length" : 51
         },
         {
           "activity" : "generateValidationPack",
-          "start" : 205,
+          "start" : 212,
           "length" : 1
         }
       ]
@@ -1540,79 +961,663 @@
       "processes" : [
         {
           "activity" : "loadResources",
-          "start" : 51,
-          "length" : 2
+          "start" : 50,
+          "length" : 5
+        },
+        {
+          "activity" : "load",
+          "start" : 50,
+          "length" : 15
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 54,
+          "length" : 16
+        },
+        {
+          "activity" : "validate",
+          "start" : 55,
+          "length" : 25
+        },
+        {
+          "activity" : "generate1",
+          "start" : 60,
+          "length" : 11
+        },
+        {
+          "activity" : "generate2",
+          "start" : 68,
+          "length" : 16
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/CodeSystem-no-kodeverk-8264.codesystem.json",
+      "size" : 539,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 50,
+          "length" : 3
         },
         {
           "activity" : "load-configure",
+          "start" : 50,
+          "length" : 1
+        },
+        {
+          "activity" : "load",
+          "start" : 50,
+          "length" : 5
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 54,
+          "length" : 6
+        },
+        {
+          "activity" : "validate",
+          "start" : 55,
+          "length" : 19
+        },
+        {
+          "activity" : "generate1",
+          "start" : 60,
+          "length" : 8
+        },
+        {
+          "activity" : "generate2",
+          "start" : 68,
+          "length" : 39
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/CodeSystem-no-kodeverk-8327.codesystem.json",
+      "size" : 815,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 50,
+          "length" : 6
+        },
+        {
+          "activity" : "load",
+          "start" : 50,
+          "length" : 9
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 54,
+          "length" : 8
+        },
+        {
+          "activity" : "validate",
+          "start" : 55,
+          "length" : 22
+        },
+        {
+          "activity" : "generate1",
+          "start" : 60,
+          "length" : 11
+        },
+        {
+          "activity" : "generate2",
+          "start" : 68,
+          "length" : 53
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 212,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/CodeSystem-no-kodeverk-8351.codesystem.json",
+      "size" : 524,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 50,
+          "length" : 3
+        },
+        {
+          "activity" : "load",
+          "start" : 50,
+          "length" : 10
+        },
+        {
+          "activity" : "checkR4R4B",
+          "start" : 52,
+          "length" : 1
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 54,
+          "length" : 6
+        },
+        {
+          "activity" : "validate",
+          "start" : 55,
+          "length" : 14
+        },
+        {
+          "activity" : "checkConformanceResources",
+          "start" : 58,
+          "length" : 1
+        },
+        {
+          "activity" : "generate1",
+          "start" : 60,
+          "length" : 7
+        },
+        {
+          "activity" : "generate2",
+          "start" : 68,
+          "length" : 42
+        },
+        {
+          "activity" : "generateExampleZip",
+          "start" : 212,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/CodeSystem-no-kodeverk-8243.codesystem.json",
+      "size" : 1278,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 50,
+          "length" : 8
+        },
+        {
+          "activity" : "scan",
+          "start" : 50,
+          "length" : 1
+        },
+        {
+          "activity" : "load",
+          "start" : 50,
+          "length" : 12
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 54,
+          "length" : 11
+        },
+        {
+          "activity" : "validate",
+          "start" : 56,
+          "length" : 31
+        },
+        {
+          "activity" : "generate1",
+          "start" : 60,
+          "length" : 14
+        },
+        {
+          "activity" : "generate2",
+          "start" : 68,
+          "length" : 47
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/CodeSystem-no-kodeverk-8268.codesystem.json",
+      "size" : 3013,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 50,
+          "length" : 15
+        },
+        {
+          "activity" : "load",
+          "start" : 50,
+          "length" : 20
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 54,
+          "length" : 20
+        },
+        {
+          "activity" : "validate",
+          "start" : 56,
+          "length" : 55
+        },
+        {
+          "activity" : "generate1",
+          "start" : 60,
+          "length" : 24
+        },
+        {
+          "activity" : "generate2",
+          "start" : 68,
+          "length" : 91
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 212,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/CodeSystem-no-kodeverk-8245.codesystem.json",
+      "size" : 1686,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 50,
+          "length" : 11
+        },
+        {
+          "activity" : "load",
           "start" : 51,
+          "length" : 21
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 54,
+          "length" : 14
+        },
+        {
+          "activity" : "validate",
+          "start" : 56,
+          "length" : 36
+        },
+        {
+          "activity" : "generate1",
+          "start" : 60,
+          "length" : 19
+        },
+        {
+          "activity" : "generate2",
+          "start" : 68,
+          "length" : 50
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/CodeSystem-no-kodeverk-8216.codesystem.json",
+      "size" : 1973,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 50,
+          "length" : 12
+        },
+        {
+          "activity" : "load-configure",
+          "start" : 50,
+          "length" : 1
+        },
+        {
+          "activity" : "load",
+          "start" : 51,
+          "length" : 15
+        },
+        {
+          "activity" : "checkR4R4B",
+          "start" : 52,
+          "length" : 1
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 54,
+          "length" : 15
+        },
+        {
+          "activity" : "validate",
+          "start" : 56,
+          "length" : 40
+        },
+        {
+          "activity" : "generate1",
+          "start" : 60,
+          "length" : 21
+        },
+        {
+          "activity" : "generate2",
+          "start" : 68,
+          "length" : 62
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 212,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/CodeSystem-no-kodeverk-8269.codesystem.json",
+      "size" : 1088,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 50,
+          "length" : 5
+        },
+        {
+          "activity" : "load",
+          "start" : 51,
+          "length" : 10
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 54,
+          "length" : 9
+        },
+        {
+          "activity" : "validate",
+          "start" : 56,
+          "length" : 21
+        },
+        {
+          "activity" : "generate1",
+          "start" : 60,
+          "length" : 12
+        },
+        {
+          "activity" : "generate2",
+          "start" : 68,
+          "length" : 44
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/CodeSystem-no-kodeverk-4101.codesystem.json",
+      "size" : 527,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 50,
+          "length" : 4
+        },
+        {
+          "activity" : "load",
+          "start" : 51,
+          "length" : 6
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 54,
+          "length" : 6
+        },
+        {
+          "activity" : "validate",
+          "start" : 56,
+          "length" : 14
+        },
+        {
+          "activity" : "generate1",
+          "start" : 60,
+          "length" : 8
+        },
+        {
+          "activity" : "generate2",
+          "start" : 68,
+          "length" : 40
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 212,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/CodeSystem-no-kodeverk-8231.codesystem.json",
+      "size" : 2201,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 50,
+          "length" : 12
+        },
+        {
+          "activity" : "load",
+          "start" : 51,
+          "length" : 17
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 54,
+          "length" : 15
+        },
+        {
+          "activity" : "validate",
+          "start" : 56,
+          "length" : 40
+        },
+        {
+          "activity" : "generate1",
+          "start" : 60,
+          "length" : 20
+        },
+        {
+          "activity" : "generate2",
+          "start" : 68,
+          "length" : 62
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/CodeSystem-no-kodeverk-8340.codesystem.json",
+      "size" : 1268,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 50,
           "length" : 8
         },
         {
           "activity" : "load",
           "start" : 51,
-          "length" : 9
+          "length" : 11
         },
         {
           "activity" : "generateNarratives",
-          "start" : 53,
-          "length" : 9
+          "start" : 54,
+          "length" : 11
         },
         {
           "activity" : "validate",
-          "start" : 54,
-          "length" : 44
+          "start" : 56,
+          "length" : 27
+        },
+        {
+          "activity" : "validate",
+          "start" : 56,
+          "length" : 1
         },
         {
           "activity" : "generate1",
-          "start" : 57,
-          "length" : 8
+          "start" : 60,
+          "length" : 14
         },
         {
           "activity" : "generate2",
-          "start" : 63,
-          "length" : 14
+          "start" : 68,
+          "length" : 51
         }
       ]
     },
     {
-      "name" : "fsh-generated/resources/CodeSystem-no-kodeverk-8273.codesystem.json",
-      "size" : 900,
+      "name" : "fsh-generated/resources/CodeSystem-no-kodeverk-8244.codesystem.json",
+      "size" : 785,
       "processes" : [
         {
           "activity" : "loadResources",
+          "start" : 50,
+          "length" : 5
+        },
+        {
+          "activity" : "load",
           "start" : 51,
+          "length" : 7
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 54,
+          "length" : 7
+        },
+        {
+          "activity" : "validate",
+          "start" : 56,
+          "length" : 19
+        },
+        {
+          "activity" : "generate1",
+          "start" : 60,
+          "length" : 10
+        },
+        {
+          "activity" : "generate2",
+          "start" : 68,
+          "length" : 37
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 212,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/CodeSystem-no-kodeverk-ICD-10.codesystem.json",
+      "size" : 490,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 50,
           "length" : 3
         },
         {
           "activity" : "load",
           "start" : 51,
-          "length" : 4
+          "length" : 7
         },
         {
           "activity" : "generateNarratives",
-          "start" : 53,
-          "length" : 5
+          "start" : 54,
+          "length" : 6
         },
         {
           "activity" : "validate",
-          "start" : 54,
+          "start" : 56,
           "length" : 15
         },
         {
           "activity" : "generate1",
-          "start" : 57,
+          "start" : 60,
           "length" : 8
         },
         {
           "activity" : "generate2",
-          "start" : 63,
-          "length" : 35
+          "start" : 68,
+          "length" : 47
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/CodeSystem-no-kodeverk-8219.codesystem.json",
+      "size" : 3050,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 50,
+          "length" : 19
+        },
+        {
+          "activity" : "load-configure",
+          "start" : 50,
+          "length" : 1
+        },
+        {
+          "activity" : "load",
+          "start" : 51,
+          "length" : 25
+        },
+        {
+          "activity" : "checkR4R4B",
+          "start" : 52,
+          "length" : 1
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 54,
+          "length" : 23
+        },
+        {
+          "activity" : "validate",
+          "start" : 56,
+          "length" : 57
+        },
+        {
+          "activity" : "checkConformanceResources",
+          "start" : 58,
+          "length" : 1
+        },
+        {
+          "activity" : "generate1",
+          "start" : 60,
+          "length" : 33
+        },
+        {
+          "activity" : "generate2",
+          "start" : 68,
+          "length" : 65
         },
         {
           "activity" : "generateValidationPack",
-          "start" : 205,
+          "start" : 212,
           "length" : 1
+        },
+        {
+          "activity" : "scanExamplesForR5",
+          "start" : 223,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/CodeSystem-no-kodeverk-8234.codesystem.json",
+      "size" : 477,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 50,
+          "length" : 4
+        },
+        {
+          "activity" : "load",
+          "start" : 51,
+          "length" : 6
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 54,
+          "length" : 6
+        },
+        {
+          "activity" : "validate",
+          "start" : 56,
+          "length" : 13
+        },
+        {
+          "activity" : "generate1",
+          "start" : 60,
+          "length" : 8
+        },
+        {
+          "activity" : "generate2",
+          "start" : 68,
+          "length" : 32
         }
       ]
     }

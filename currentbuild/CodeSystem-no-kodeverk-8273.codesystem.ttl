@@ -10,7 +10,7 @@
   fhir:id [ fhir:v "no-kodeverk-8273.codesystem"] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system <code>http://ehelse.no/fhir/CodeSystem/no-kodeverk-8273</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">S<a name=\"no-kodeverk-8273.codesystem-S\"> </a></td><td>Snarest</td></tr><tr><td style=\"white-space:nowrap\">B<a name=\"no-kodeverk-8273.codesystem-B\"> </a></td><td>Etter behandling</td></tr><tr><td style=\"white-space:nowrap\">M01<a name=\"no-kodeverk-8273.codesystem-M01\"> </a></td><td>Etter 1 måned</td></tr><tr><td style=\"white-space:nowrap\">M03<a name=\"no-kodeverk-8273.codesystem-M03\"> </a></td><td>Etter 3 måneder</td></tr><tr><td style=\"white-space:nowrap\">M06<a name=\"no-kodeverk-8273.codesystem-M06\"> </a></td><td>Etter 6 måneder</td></tr><tr><td style=\"white-space:nowrap\">M12<a name=\"no-kodeverk-8273.codesystem-M12\"> </a></td><td>Etter 12 måneder</td></tr></table></div>"
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">Placeholder</div>"
   ] ; # 
   fhir:url [ fhir:v "http://ehelse.no/fhir/CodeSystem/no-kodeverk-8273"^^xsd:anyURI] ; # 
   fhir:identifier ( [
@@ -21,7 +21,7 @@
   fhir:name [ fhir:v "NoKodeverk8273"] ; # 
   fhir:title [ fhir:v "8273 Hastegrad"] ; # 
   fhir:status [ fhir:v "active"] ; # 
-  fhir:date [ fhir:v "2023-08-17T10:25:54+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2023-09-12T18:30:30+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Direktoratet for e-helse"] ; # 
   fhir:description [ fhir:v "Anbefalt tidsperspektiv for tiltak."] ; # 
   fhir:jurisdiction ( [
