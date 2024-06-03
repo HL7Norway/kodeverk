@@ -8,24 +8,4 @@ Description: "Kodeverk for tekstlig resultatverdier til bruk i svar av mikrobiol
 * ^status = #active 
 * ^date = "2021-06-02" //sist endret dato
 * ^publisher = "Helsedirektoratet"
-* ^content = #complete
-* #T001 "Påvist"
-* #260373001 "Påvist"
-* #T002 "Positiv"
-* #10828004 "Positiv"
-* #T003 "Svakt postiv"
-* #260408008 "Svakt postiv"
-* #T004 "Grenseverdi"
-* #7501000202105 "Grenseverdi"
-* #T005 "Gråsone"
-* #7491000202102 "Gråsone"
-* #T006 "Reaktiv"
-* #11214006 "Reaktiv"
-* #T007 "Ikke påvist"
-* #260415000 "Ikke påvist"
-* #T008 "Negativ"
-* #260385009T008 "Negativ"
-* #T009 "Inkonklusiv"
-* #419984006 "Inkonklusiv"
-* #T010 "Se kommentar"
-* #281296001 "Se kommentar"
+* ^content = #not-present

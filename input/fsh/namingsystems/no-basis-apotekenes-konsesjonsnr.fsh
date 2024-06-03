@@ -5,7 +5,7 @@ Usage: #definition
 * status = #active
 * kind = #identifier
 * date = "2022-02-10"
-* publisher = "Direktoratet for e-helse"
+* publisher = "Helsedirektoratet"
 * responsible = "Statens legemiddelverk"
 * description = "Ved utstedelse av apotekkonsesjon for et nytt apotek tildeles et apotekkonsesjonsnummer. Konsesjonsnummeret er et firesifret nummer, i en nummerserie som starter på 1001, som er unikt for hvert apotek. Tildeles av Statens legemiddelverk."
 * jurisdiction = urn:iso:std:iso:3166#NO "Norway"

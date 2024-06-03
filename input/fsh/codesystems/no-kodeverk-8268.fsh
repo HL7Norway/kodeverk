@@ -2,11 +2,11 @@ CodeSystem: NoKodeverk8268
 Id: no-kodeverk-8268.codesystem
 Title: "8268 Type identifikator"
 Description: "Angir type identifikator for person og virksomhet."
-* ^url = "http://ehelse.no/fhir/CodeSystem/no-kodeverk-8268"
+* ^url = "http://helsedir.no/fhir/CodeSystem/no-kodeverk-8268"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:2.16.578.1.12.4.1.1.8268"
 * ^status = #active
-* ^publisher = "Direktoratet for e-helse"
+* ^publisher = "Helsedirektoratet"
 * ^content = #complete
 * #ENH "Organisasjonsnummeret i Enhetsregister" "Brønnøysund"
 * #RSH "Nasjonalt register over enheter i spesialisthelsetjenesten (RESH-ID)" "Innføres fra og med 2007 for spesialisthelsetjenesten"

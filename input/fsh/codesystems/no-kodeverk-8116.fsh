@@ -2,11 +2,11 @@ CodeSystem: NoKodeverk8116
 Id: no-kodeverk-8116.codesystem
 Title: "8116 ID-type for personer"
 Description: "Angir type identifikator for personer."
-* ^url = "http://ehelse.no/fhir/CodeSystem/no-kodeverk-8116"
+* ^url = "http://helsedir.no/fhir/CodeSystem/no-kodeverk-8116"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:2.16.578.1.12.4.1.1.8116"
 * ^status = #active
-* ^publisher = "Direktoratet for e-helse"
+* ^publisher = "Helsedirektoratet"
 * ^content = #complete
 * #FNR "Fødselsnummer" "Norsk fødselsnummer"
 * #DNR "D-nummer" "Nummer som kan tildeles personer uten norsk fødselsnummer"

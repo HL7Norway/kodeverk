@@ -7,5 +7,5 @@ Description: "Klassifikasjon av sykdommer og beslektede helseproblemer."
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:2.16.578.1.12.4.1.1.7110"
 * ^status = #active
-* ^publisher = "Direktoratet for e-helse"
+* ^publisher = "Helsedirektoratet"
 * ^content = #not-present
