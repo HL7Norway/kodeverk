@@ -3,9 +3,9 @@
   "id" : "no-kodeverk-8275.codesystem",
   "text" : {
     "status" : "generated",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\">Placeholder</div>"
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This  code system <code>http://helsedir.no/fhir/CodeSystem/no-kodeverk-8275</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">BS<a name=\"no-kodeverk-8275.codesystem-BS\"> </a></td><td>Børste og spatel</td></tr><tr><td style=\"white-space:nowrap\">S<a name=\"no-kodeverk-8275.codesystem-S\"> </a></td><td>Spatel</td></tr><tr><td style=\"white-space:nowrap\">A<a name=\"no-kodeverk-8275.codesystem-A\"> </a></td><td>Annet</td></tr></table></div>"
   },
-  "url" : "http://ehelse.no/fhir/CodeSystem/no-kodeverk-8275",
+  "url" : "http://helsedir.no/fhir/CodeSystem/no-kodeverk-8275",
   "identifier" : [{
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:2.16.578.1.12.4.1.1.8275"
@@ -14,8 +14,7 @@
   "name" : "NoKodeverk8275",
   "title" : "8275 Cytologisk materiale tatt med",
   "status" : "active",
-  "date" : "2023-09-12T18:30:30+00:00",
-  "publisher" : "Direktoratet for e-helse",
+  "date" : "2024-06-03T09:03:40+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",

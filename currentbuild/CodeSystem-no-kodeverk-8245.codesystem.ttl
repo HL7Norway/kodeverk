@@ -10,9 +10,9 @@
   fhir:id [ fhir:v "no-kodeverk-8245.codesystem"] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">Placeholder</div>"
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This  code system <code>http://helsedir.no/fhir/CodeSystem/no-kodeverk-8245</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">1<a name=\"no-kodeverk-8245.codesystem-1\"> </a></td><td>Revidert</td></tr><tr><td style=\"white-space:nowrap\">2<a name=\"no-kodeverk-8245.codesystem-2\"> </a></td><td>Foreløpig</td></tr><tr><td style=\"white-space:nowrap\">3<a name=\"no-kodeverk-8245.codesystem-3\"> </a></td><td>Endelig</td></tr><tr><td style=\"white-space:nowrap\">4<a name=\"no-kodeverk-8245.codesystem-4\"> </a></td><td>Tillegg</td></tr><tr><td style=\"white-space:nowrap\">5<a name=\"no-kodeverk-8245.codesystem-5\"> </a></td><td>Henvisning registrert</td></tr><tr><td style=\"white-space:nowrap\">6<a name=\"no-kodeverk-8245.codesystem-6\"> </a></td><td>Prosedyrer registrert/planlagt</td></tr><tr><td style=\"white-space:nowrap\">7<a name=\"no-kodeverk-8245.codesystem-7\"> </a></td><td>Tildelt time</td></tr><tr><td style=\"white-space:nowrap\">8<a name=\"no-kodeverk-8245.codesystem-8\"> </a></td><td>Undersøkelse gjennomført</td></tr><tr><td style=\"white-space:nowrap\">9<a name=\"no-kodeverk-8245.codesystem-9\"> </a></td><td>Diktert</td></tr><tr><td style=\"white-space:nowrap\">10<a name=\"no-kodeverk-8245.codesystem-10\"> </a></td><td>Skrevet (usignert svar foreligger)</td></tr><tr><td style=\"white-space:nowrap\">11<a name=\"no-kodeverk-8245.codesystem-11\"> </a></td><td>Signert</td></tr><tr><td style=\"white-space:nowrap\">12<a name=\"no-kodeverk-8245.codesystem-12\"> </a></td><td>Korrigert (usignert tilleggsbeskrivelse foreligger)</td></tr><tr><td style=\"white-space:nowrap\">13<a name=\"no-kodeverk-8245.codesystem-13\"> </a></td><td>Signert korrigert/tilleggsbeskrivelse foreligger</td></tr><tr><td style=\"white-space:nowrap\">14<a name=\"no-kodeverk-8245.codesystem-14\"> </a></td><td>Undersøkelse slettet</td></tr><tr><td style=\"white-space:nowrap\">15<a name=\"no-kodeverk-8245.codesystem-15\"> </a></td><td>I prosess</td></tr></table></div>"
   ] ; # 
-  fhir:url [ fhir:v "http://ehelse.no/fhir/CodeSystem/no-kodeverk-8245"^^xsd:anyURI] ; # 
+  fhir:url [ fhir:v "http://helsedir.no/fhir/CodeSystem/no-kodeverk-8245"^^xsd:anyURI] ; # 
   fhir:identifier ( [
      fhir:system [ fhir:v "urn:ietf:rfc:3986"^^xsd:anyURI ] ;
      fhir:value [ fhir:v "urn:oid:2.16.578.1.12.4.1.1.8245" ]
@@ -21,8 +21,7 @@
   fhir:name [ fhir:v "NoKodeverk8245"] ; # 
   fhir:title [ fhir:v "8245 Status for resultat i svarrapportering av medisinske tjenester"] ; # 
   fhir:status [ fhir:v "active"] ; # 
-  fhir:date [ fhir:v "2023-09-12T18:30:30+00:00"^^xsd:dateTime] ; # 
-  fhir:publisher [ fhir:v "Direktoratet for e-helse"] ; # 
+  fhir:date [ fhir:v "2024-06-03T09:03:40+00:00"^^xsd:dateTime] ; # 
   fhir:description [ fhir:v "Benyttes for å angi status/steg i arbeidsflyt for en enkelt lab- /røntgenundersøkelse."] ; # 
   fhir:jurisdiction ( [
      fhir:coding ( [

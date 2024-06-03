@@ -3,9 +3,9 @@
 <CodeSystem xmlns="http://hl7.org/fhir">
   <id value="no-kodeverk-7303.codesystem"/>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml">Placeholder</div>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This  code system <code>http://helsedir.no/fhir/CodeSystem/no-kodeverk-7303</code> defines codes, but no codes are represented here</p></div>
   </text>
-  <url value="http://ehelse.no/fhir/CodeSystem/no-kodeverk-7303"/>
+  <url value="http://helsedir.no/fhir/CodeSystem/no-kodeverk-7303"/>
   <identifier>
     <system value="urn:ietf:rfc:3986"/>
     <value value="urn:oid:2.16.578.1.12.4.1.1.7303"/>
@@ -14,8 +14,7 @@
   <name value="NoKodeverk7303"/>
   <title value="7303 Svarrapporteringsprioritet"/>
   <status value="active"/>
-  <date value="2023-09-12T18:30:30+00:00"/>
-  <publisher value="Direktoratet for e-helse"/>
+  <date value="2024-06-03T09:03:40+00:00"/>
   <jurisdiction>
     <coding>
       <system value="urn:iso:std:iso:3166"/>

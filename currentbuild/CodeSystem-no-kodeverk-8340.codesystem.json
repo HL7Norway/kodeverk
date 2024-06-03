@@ -3,9 +3,9 @@
   "id" : "no-kodeverk-8340.codesystem",
   "text" : {
     "status" : "generated",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\">Placeholder</div>"
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This  code system <code>http://helsedir.no/fhir/CodeSystem/no-kodeverk-8340</code> defines codes, but no codes are represented here</p></div>"
   },
-  "url" : "http://ehelse.no/fhir/CodeSystem/no-kodeverk-8340",
+  "url" : "http://helsedir.no/fhir/CodeSystem/no-kodeverk-8340",
   "identifier" : [{
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:2.16.578.1.12.4.1.1.8340"
@@ -15,7 +15,6 @@
   "title" : "8340 Tekstlige resultatverdier for mikrobiologiske svar",
   "status" : "active",
   "date" : "2021-06-02",
-  "publisher" : "Direktoratet for e-helse",
   "description" : "Kodeverk for tekstlig resultatverdier til bruk i svar av mikrobiologiske laboratorieundersøkelser.",
   "jurisdiction" : [{
     "coding" : [{
@@ -24,46 +23,5 @@
       "display" : "Norway"
     }]
   }],
-  "content" : "complete",
-  "count" : 10,
-  "concept" : [{
-    "code" : "T001",
-    "display" : "Påvist"
-  },
-  {
-    "code" : "T002",
-    "display" : "Positiv"
-  },
-  {
-    "code" : "T003",
-    "display" : "Svakt postiv"
-  },
-  {
-    "code" : "T004",
-    "display" : "Grenseverdi"
-  },
-  {
-    "code" : "T005",
-    "display" : "Gråsone"
-  },
-  {
-    "code" : "T006",
-    "display" : "Reaktiv"
-  },
-  {
-    "code" : "T007",
-    "display" : "Ikke påvist"
-  },
-  {
-    "code" : "T008",
-    "display" : "Negativ"
-  },
-  {
-    "code" : "T009",
-    "display" : "Inkonklusiv"
-  },
-  {
-    "code" : "T010",
-    "display" : "Se kommentar"
-  }]
+  "content" : "not-present"
 }

@@ -3,9 +3,9 @@
   "id" : "no-kodeverk-1101.codesystem",
   "text" : {
     "status" : "generated",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\">Placeholder</div>"
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This  code system <code>http://helsedir.no/fhir/CodeSystem/no-kodeverk-1101</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">1<a name=\"no-kodeverk-1101.codesystem-1\"> </a></td><td>Ja</td></tr><tr><td style=\"white-space:nowrap\">2<a name=\"no-kodeverk-1101.codesystem-2\"> </a></td><td>Nei</td></tr></table></div>"
   },
-  "url" : "http://ehelse.no/fhir/CodeSystem/no-kodeverk-1101",
+  "url" : "http://helsedir.no/fhir/CodeSystem/no-kodeverk-1101",
   "identifier" : [{
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:2.16.578.1.12.4.1.1.1101"
@@ -15,7 +15,6 @@
   "title" : "1101 Ja, nei",
   "status" : "active",
   "date" : "2020-12-04",
-  "publisher" : "Direktoratet for e-helse",
   "description" : "Dette kodeverket inneholder koder for å angi svar Ja eller Nei.",
   "jurisdiction" : [{
     "coding" : [{

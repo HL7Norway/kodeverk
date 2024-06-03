@@ -10,9 +10,9 @@
   fhir:id [ fhir:v "no-kodeverk-1101.codesystem"] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">Placeholder</div>"
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This  code system <code>http://helsedir.no/fhir/CodeSystem/no-kodeverk-1101</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">1<a name=\"no-kodeverk-1101.codesystem-1\"> </a></td><td>Ja</td></tr><tr><td style=\"white-space:nowrap\">2<a name=\"no-kodeverk-1101.codesystem-2\"> </a></td><td>Nei</td></tr></table></div>"
   ] ; # 
-  fhir:url [ fhir:v "http://ehelse.no/fhir/CodeSystem/no-kodeverk-1101"^^xsd:anyURI] ; # 
+  fhir:url [ fhir:v "http://helsedir.no/fhir/CodeSystem/no-kodeverk-1101"^^xsd:anyURI] ; # 
   fhir:identifier ( [
      fhir:system [ fhir:v "urn:ietf:rfc:3986"^^xsd:anyURI ] ;
      fhir:value [ fhir:v "urn:oid:2.16.578.1.12.4.1.1.1101" ]
@@ -22,7 +22,6 @@
   fhir:title [ fhir:v "1101 Ja, nei"] ; # 
   fhir:status [ fhir:v "active"] ; # 
   fhir:date [ fhir:v "2020-12-04"^^xsd:date] ; # 
-  fhir:publisher [ fhir:v "Direktoratet for e-helse"] ; # 
   fhir:description [ fhir:v "Dette kodeverket inneholder koder for å angi svar Ja eller Nei."] ; # 
   fhir:jurisdiction ( [
      fhir:coding ( [

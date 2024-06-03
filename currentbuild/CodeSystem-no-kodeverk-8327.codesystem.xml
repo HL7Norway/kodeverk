@@ -3,9 +3,9 @@
 <CodeSystem xmlns="http://hl7.org/fhir">
   <id value="no-kodeverk-8327.codesystem"/>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml">Placeholder</div>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This  code system <code>http://helsedir.no/fhir/CodeSystem/no-kodeverk-8327</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">DNR<a name="no-kodeverk-8327.codesystem-DNR"> </a></td><td>D-nummer</td></tr><tr><td style="white-space:nowrap">FHN<a name="no-kodeverk-8327.codesystem-FHN"> </a></td><td>Felles hjelpenummer (FH-nummer)</td></tr><tr><td style="white-space:nowrap">FNR<a name="no-kodeverk-8327.codesystem-FNR"> </a></td><td>Fødselsnummer</td></tr><tr><td style="white-space:nowrap">HNR<a name="no-kodeverk-8327.codesystem-HNR"> </a></td><td>Virksomhetsinternt hjelpenummer</td></tr></table></div>
   </text>
-  <url value="http://ehelse.no/fhir/CodeSystem/no-kodeverk-8327"/>
+  <url value="http://helsedir.no/fhir/CodeSystem/no-kodeverk-8327"/>
   <identifier>
     <system value="urn:ietf:rfc:3986"/>
     <value value="urn:oid:2.16.578.1.12.4.1.1.8327"/>
@@ -14,8 +14,7 @@
   <name value="NoKodeverk8327"/>
   <title value="8327 Offisiell personidentifikasjon"/>
   <status value="active"/>
-  <date value="2023-09-12T18:30:30+00:00"/>
-  <publisher value="Direktoratet for e-helse"/>
+  <date value="2024-06-03T09:03:40+00:00"/>
   <description value="Angir type identifikator for person"/>
   <jurisdiction>
     <coding>

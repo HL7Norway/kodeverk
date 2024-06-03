@@ -10,9 +10,9 @@
   fhir:id [ fhir:v "no-kodeverk-8340.codesystem"] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">Placeholder</div>"
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This  code system <code>http://helsedir.no/fhir/CodeSystem/no-kodeverk-8340</code> defines codes, but no codes are represented here</p></div>"
   ] ; # 
-  fhir:url [ fhir:v "http://ehelse.no/fhir/CodeSystem/no-kodeverk-8340"^^xsd:anyURI] ; # 
+  fhir:url [ fhir:v "http://helsedir.no/fhir/CodeSystem/no-kodeverk-8340"^^xsd:anyURI] ; # 
   fhir:identifier ( [
      fhir:system [ fhir:v "urn:ietf:rfc:3986"^^xsd:anyURI ] ;
      fhir:value [ fhir:v "urn:oid:2.16.578.1.12.4.1.1.8340" ]
@@ -22,7 +22,6 @@
   fhir:title [ fhir:v "8340 Tekstlige resultatverdier for mikrobiologiske svar"] ; # 
   fhir:status [ fhir:v "active"] ; # 
   fhir:date [ fhir:v "2021-06-02"^^xsd:date] ; # 
-  fhir:publisher [ fhir:v "Direktoratet for e-helse"] ; # 
   fhir:description [ fhir:v "Kodeverk for tekstlig resultatverdier til bruk i svar av mikrobiologiske laboratorieundersøkelser."] ; # 
   fhir:jurisdiction ( [
      fhir:coding ( [
@@ -31,39 +30,7 @@
        fhir:display [ fhir:v "Norway" ]
      ] )
   ] ) ; # 
-  fhir:content [ fhir:v "complete"] ; # 
-  fhir:count [ fhir:v "10"^^xsd:nonNegativeInteger] ; # 
-  fhir:concept ( [
-     fhir:code [ fhir:v "T001" ] ;
-     fhir:display [ fhir:v "Påvist" ]
-  ] [
-     fhir:code [ fhir:v "T002" ] ;
-     fhir:display [ fhir:v "Positiv" ]
-  ] [
-     fhir:code [ fhir:v "T003" ] ;
-     fhir:display [ fhir:v "Svakt postiv" ]
-  ] [
-     fhir:code [ fhir:v "T004" ] ;
-     fhir:display [ fhir:v "Grenseverdi" ]
-  ] [
-     fhir:code [ fhir:v "T005" ] ;
-     fhir:display [ fhir:v "Gråsone" ]
-  ] [
-     fhir:code [ fhir:v "T006" ] ;
-     fhir:display [ fhir:v "Reaktiv" ]
-  ] [
-     fhir:code [ fhir:v "T007" ] ;
-     fhir:display [ fhir:v "Ikke påvist" ]
-  ] [
-     fhir:code [ fhir:v "T008" ] ;
-     fhir:display [ fhir:v "Negativ" ]
-  ] [
-     fhir:code [ fhir:v "T009" ] ;
-     fhir:display [ fhir:v "Inkonklusiv" ]
-  ] [
-     fhir:code [ fhir:v "T010" ] ;
-     fhir:display [ fhir:v "Se kommentar" ]
-  ] ) . # 
+  fhir:content [ fhir:v "not-present"] . # 
 
 # -------------------------------------------------------------------------------------
 

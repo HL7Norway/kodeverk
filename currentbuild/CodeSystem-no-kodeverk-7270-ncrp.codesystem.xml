@@ -3,9 +3,9 @@
 <CodeSystem xmlns="http://hl7.org/fhir">
   <id value="no-kodeverk-7270-ncrp.codesystem"/>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml">Placeholder</div>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This  code system <code>http://helsedir.no/fhir/CodeSystem/no-kodeverk-7270-ncrp</code> defines codes, but no codes are represented here</p></div>
   </text>
-  <url value="http://ehelse.no/fhir/CodeSystem/no-kodeverk-7270-ncrp"/>
+  <url value="http://helsedir.no/fhir/CodeSystem/no-kodeverk-7270-ncrp"/>
   <identifier>
     <system value="urn:ietf:rfc:3986"/>
     <value value="urn:oid:2.16.578.1.12.4.1.1.7270"/>
@@ -14,8 +14,7 @@
   <name value="NoKodeverk7270NCRP"/>
   <title value="NCRP"/>
   <status value="active"/>
-  <date value="2023-09-12T18:30:30+00:00"/>
-  <publisher value="Helsedirektoratet"/>
+  <date value="2024-06-03T09:03:40+00:00"/>
   <description value="Kodeverk for radiologi og nukleærmedisin. Kodeverket skal brukes for å dokumentere og skal kunne brukes for å bestille radiologiske tjenester. Det skal benyttes for både polikliniske og innlagte pasienter. Fra 1. januar 2012 har det vært obligatorisk å bruke dette kodeverket for å rapportere poliklinisk radiologisk aktivitet både for offentlige og private virksomheter."/>
   <jurisdiction>
     <coding>

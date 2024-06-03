@@ -5,7 +5,7 @@
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
-    <title>HL7.FHIR.NO.KODEVERK\9603 Sperring og nekting av dokumenter - XML Representation - FHIR v4.0.1</title>
+    <title>9603 Sperring og nekting av dokumenter - XML Representation -  v0.4.4</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
@@ -33,10 +33,10 @@
     <![endif]-->
 
     <!-- Favicons -->
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/apple-touch-icon-144-precomposed.png"/>
-    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/apple-touch-icon-114-precomposed.png"/>
-    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/apple-touch-icon-72-precomposed.png"/>
-    <link rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-57-precomposed.png"/>
+    <link rel="fhir-logo" sizes="144x144" href="assets/ico/icon-fhir-144.png"/>
+    <link rel="fhir-logo" sizes="114x114" href="assets/ico/icon-fhir-114.png"/>
+    <link rel="fhir-logo" sizes="72x72" href="assets/ico/icon-fhir-72.png"/>
+    <link rel="fhir-logo" href="assets/ico/icon-fhir-57.png"/>
     <link rel="shortcut icon" href="assets/ico/favicon.png"/>
   </head>
   <body onload="document.body.style.opacity='1'">
@@ -153,7 +153,7 @@
           <div class="inner-wrapper">
 
 <div style="counter-reset: section 7" class="col-12">
-<!--ReleaseHeader--><p id="publish-box">NoKodeverk - Local Development build (v0.4.4). See the <a href="http://hl7.no/fhir/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
+<!--ReleaseHeader--><p id="publish-box">NoKodeverk - Local Development build (v0.4.4) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href="http://hl7.no/fhir/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
 
 
 
@@ -200,6 +200,7 @@
 
 
 <h2 id="root">: 9603 Sperring og nekting av dokumenter - XML Representation</h2>
+
   <table class="colsi">
     <tr>
 
@@ -207,7 +208,7 @@
         
           Active
           
-            as of 2023-09-12
+            as of 2024-06-03
           
         
       </td>
@@ -223,15 +224,33 @@
 
 
 
-  <pre class="xml" style="white-space: pre; overflow: hidden"><code class="language-xml">
+  <pre class="xml" style="white-space: pre; text-wrap: nowrap;"><code class="language-xml" style="white-space: pre; text-wrap: nowrap;">
 
 &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem">CodeSystem</a> xmlns=&quot;http://hl7.org/fhir&quot;&gt;
   &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.id">id</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;no-kodeverk-9603.codesystem&quot;/&gt;
   &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.text">text</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.status">status</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;generated&quot;/&gt;
-    &lt;div xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;Placeholder&lt;/div&gt;<a name="end-xhtml"></a>
+    &lt;div xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;&lt;p&gt;This  code system &lt;code&gt;http://helsedir.no/fhir/CodeSystem/no-kodeverk-9603&lt;/code&gt; defines the following codes:&lt;/p&gt;&lt;table class=&quot;codes&quot;&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;&lt;b&gt;Code&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Display&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Definition&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;N&lt;a name=&quot;no-kodeverk-9603.codesystem-N&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Normal&lt;/td&gt;&lt;td&gt;&lt;div&gt;&lt;p&gt;Ingen spesielle tilgangsbegrensninger er satt&lt;/p&gt;
+&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;NORN_FFL&lt;a name=&quot;no-kodeverk-9603.codesystem-NORN_FFL&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Nektet, fare for liv&lt;/td&gt;&lt;td&gt;&lt;div&gt;&lt;p&gt;Nektet pasientinnsyn av enkeltdokument. Fare for liv eller alvorlig helseskade, jf. pasbrl §5-1, 2. ledd 1. alternativ.&lt;/p&gt;
+&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;NORN_KUT&lt;a name=&quot;no-kodeverk-9603.codesystem-NORN_KUT&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Nektet, klart utilrådelig&lt;/td&gt;&lt;td&gt;&lt;div&gt;&lt;p&gt;Nektet pasientinnsyn av enkeltdokument. Klart utilrådelig av hensyn til nærstående, jf. pasbrl §5-1, 2. ledd 2. alternativ.&lt;/p&gt;
+&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;NORN_EPO&lt;a name=&quot;no-kodeverk-9603.codesystem-NORN_EPO&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Nektet, eget ønske&lt;/td&gt;&lt;td&gt;&lt;div&gt;&lt;p&gt;Nektet pasientinnsyn av enkeltdokument. Vises ikke elektronisk etter pasientens eget ønske.&lt;/p&gt;
+&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;NORN_ALL&lt;a name=&quot;no-kodeverk-9603.codesystem-NORN_ALL&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Nektet, alle&lt;/td&gt;&lt;td&gt;&lt;div&gt;&lt;p&gt;Nektet pasientinnsyn i alle pasientens dokumenter. Registrert i kritisk info begrunnet i risiko for helsepersonell.&lt;/p&gt;
+&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;NORN_FOR&lt;a name=&quot;no-kodeverk-9603.codesystem-NORN_FOR&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Nektet, foreldet&lt;/td&gt;&lt;td&gt;&lt;div&gt;&lt;p&gt;Virksomheten har markert dokumentet som eldre enn datoen for når pasienter fikk automatisk elektronisk innsyn i journal.&lt;/p&gt;
+&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;NORN_FORANS&lt;a name=&quot;no-kodeverk-9603.codesystem-NORN_FORANS&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Nektet, foreldreansvarlig&lt;/td&gt;&lt;td&gt;&lt;div&gt;&lt;p&gt;Nektet innsyn for foreldre eller andre som har foreldreansvar, dersom tungtveiende hensyn til pasienten eller brukeren taler mot det, jf. Pasient- og brukerrettighetsloven § 3-4 tredje ledd.
+Settes av helsepersonell.
+Dette gjelder også for barn under 12 år og uavhengig av om barnet selv har gitt uttrykk for ønsker om at informasjon skal holdes tilbake&lt;/p&gt;
+&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;NORN_UNGDOM&lt;a name=&quot;no-kodeverk-9603.codesystem-NORN_UNGDOM&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Nektet, ungdom&lt;/td&gt;&lt;td&gt;&lt;div&gt;&lt;p&gt;Nektet innsyn for ungdom 12-16, dersom det er påtrengende nødvendig for å hindre fare for liv eller alvorlig helseskade for pasienten selv.
+Foreldre eller andre som har foreldreansvar får tilgang til informasjon.
+Settes av helsepersonell.&lt;/p&gt;
+&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;NORN_FFH&lt;a name=&quot;no-kodeverk-9603.codesystem-NORN_FFH&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Nektet, fare for helsepersonell&lt;/td&gt;&lt;td&gt;&lt;div&gt;&lt;p&gt;Nektet pasientinnsyn - vises ikke elektronisk fordi pasient har fremsatt alvorlige trusler og fremstår aktivt med agitasjon overfor behandler. Åpner for at helsepersonell, i helt spesielle unntakssituasjoner der de føler seg truet, skal kunne beskytte seg selv ved å nekte elektronisk pasientinnsyn på enkeltdokumenter i pasientjournalen. Dermed blir ikke helsepersonellets navn like lett tilgjengelig for pasienten.&lt;/p&gt;
+&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;NORN_FPB&lt;a name=&quot;no-kodeverk-9603.codesystem-NORN_FPB&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Nektet, forsvarlig pasientbehandling&lt;/td&gt;&lt;td&gt;&lt;div&gt;&lt;p&gt;Nektet pasientinnsyn - vises ikke elektronisk av hensyn til forsvarlig pasientbehandling. Dette brukes i tilfeller dokumenter inkluderer informasjon som pasienten av ulike grunner, ikke bør få digitalt innsyn i. Blant annet kreftdiagnoser der pasienten ikke er informert ennå eller informasjon som påvirker pågående behandling på en negativ måte.&lt;/p&gt;
+&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;NORN_DUP&lt;a name=&quot;no-kodeverk-9603.codesystem-NORN_DUP&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Nektet, duplikat&lt;/td&gt;&lt;td&gt;&lt;div&gt;&lt;p&gt;Nektet pasientinnsyn, Duplikat. Brukes for å flagge duplikat dokumenter, for eksempel dokumenter som blir kopiert til et HF ved virksomehetsoverdragelse.&lt;/p&gt;
+&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;NORN_ANG&lt;a name=&quot;no-kodeverk-9603.codesystem-NORN_ANG&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Nektet, andre grunner&lt;/td&gt;&lt;td&gt;&lt;div&gt;&lt;p&gt;Nektet pasientinnsyn - kodeverket OID 9603 dekker ikke nektningsgrunnlaget - kontakte evt. Sykehuset. Kodeverket er relativt nytt og innsynsløsninger er under utvikling - Kodeverket må da derfor være under utvikling&lt;/p&gt;
+&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;NORU&lt;a name=&quot;no-kodeverk-9603.codesystem-NORU&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Utsatt innsyn for innbygger&lt;/td&gt;&lt;td&gt;&lt;div&gt;&lt;p&gt;Tilgangsbegrensning som gjør at utvalgte helseopplysninger gjøres tilgjengelig for innbyggeren etter fastsatt tid. Tilgangsbegrensningen kan være satt av helsepersonell, eller satt automatisk i henhold til forhåndsdefinerte regler&lt;/p&gt;
+&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;NORS&lt;a name=&quot;no-kodeverk-9603.codesystem-NORS&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Sperret&lt;/td&gt;&lt;td&gt;&lt;div&gt;&lt;p&gt;Tilgangsbegrensning som innebærer at innbyggeren sperrer hele eller deler av opplysningene som ligger i et behandlingsrettet helseregister slik at opplysningene ikke blir tilgjengelige for enkeltpersonell eller grupper av helsepersonell&lt;/p&gt;
+&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;<a name="end-xhtml"></a>
   &lt;/text&gt;
-  &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.url">url</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;http://ehelse.no/fhir/CodeSystem/no-kodeverk-9603&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.url">url</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;http://helsedir.no/fhir/CodeSystem/no-kodeverk-9603&quot;/&gt;
   &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.identifier">identifier</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;urn:ietf:rfc:3986&quot;/&gt;
     &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.value">value</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;urn:oid:2.16.578.1.12.4.1.1.9603&quot;/&gt;
@@ -240,8 +259,7 @@
   &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.name">name</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;NoKodeverk9603&quot;/&gt;
   &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.title">title</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;9603 Sperring og nekting av dokumenter&quot;/&gt;
   &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.status">status</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;active&quot;/&gt;
-  &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.date">date</a> <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">value</a>=&quot;2023-09-12T18:30:30+00:00&quot;/&gt;
-  &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.publisher">publisher</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Direktoratet for e-helse&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.date">date</a> <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">value</a>=&quot;2024-06-03T09:03:40+00:00&quot;/&gt;
   &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.description">description</a>
                <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;Kodeverket benyttes for å angi sperring og nekting av dokumenter. Opprettet for bruk i HIS 1169:2016 IHE XDS metadata inntil en nasjonal løsning for tilgangsstyring/håndtering av sperring er etablert.&quot;/&gt;
   &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.jurisdiction">jurisdiction</a>&gt;
@@ -251,7 +269,95 @@
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Norway&quot;/&gt;
     &lt;/coding&gt;
   &lt;/jurisdiction&gt;
-  &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.content">content</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;not-present&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.content">content</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;complete&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.count">count</a> <a href="http://hl7.org/fhir/R4/datatypes.html#unsignedInt">value</a>=&quot;14&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;N&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Normal&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">definition</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Ingen spesielle tilgangsbegrensninger er satt&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;NORN_FFL&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Nektet, fare for liv&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">definition</a>
+                <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Nektet pasientinnsyn av enkeltdokument. Fare for liv eller alvorlig helseskade, jf. pasbrl §5-1, 2. ledd 1. alternativ.&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;NORN_KUT&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Nektet, klart utilrådelig&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">definition</a>
+                <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Nektet pasientinnsyn av enkeltdokument. Klart utilrådelig av hensyn til nærstående, jf. pasbrl §5-1, 2. ledd 2. alternativ.&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;NORN_EPO&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Nektet, eget ønske&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">definition</a>
+                <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Nektet pasientinnsyn av enkeltdokument. Vises ikke elektronisk etter pasientens eget ønske.&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;NORN_ALL&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Nektet, alle&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">definition</a>
+                <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Nektet pasientinnsyn i alle pasientens dokumenter. Registrert i kritisk info begrunnet i risiko for helsepersonell.&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;NORN_FOR&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Nektet, foreldet&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">definition</a>
+                <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Virksomheten har markert dokumentet som eldre enn datoen for når pasienter fikk automatisk elektronisk innsyn i journal.&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;NORN_FORANS&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Nektet, foreldreansvarlig&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">definition</a>
+                <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Nektet innsyn for foreldre eller andre som har foreldreansvar, dersom tungtveiende hensyn til pasienten eller brukeren taler mot det, jf. Pasient- og brukerrettighetsloven § 3-4 tredje ledd.
+Settes av helsepersonell. 
+Dette gjelder også for barn under 12 år og uavhengig av om barnet selv har gitt uttrykk for ønsker om at informasjon skal holdes tilbake&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;NORN_UNGDOM&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Nektet, ungdom&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">definition</a>
+                <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Nektet innsyn for ungdom 12-16, dersom det er påtrengende nødvendig for å hindre fare for liv eller alvorlig helseskade for pasienten selv.
+Foreldre eller andre som har foreldreansvar får tilgang til informasjon.
+Settes av helsepersonell.&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;NORN_FFH&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Nektet, fare for helsepersonell&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">definition</a>
+                <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Nektet pasientinnsyn - vises ikke elektronisk fordi pasient har fremsatt alvorlige trusler og fremstår aktivt med agitasjon overfor behandler. Åpner for at helsepersonell, i helt spesielle unntakssituasjoner der de føler seg truet, skal kunne beskytte seg selv ved å nekte elektronisk pasientinnsyn på enkeltdokumenter i pasientjournalen. Dermed blir ikke helsepersonellets navn like lett tilgjengelig for pasienten.&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;NORN_FPB&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Nektet, forsvarlig pasientbehandling&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">definition</a>
+                <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Nektet pasientinnsyn - vises ikke elektronisk av hensyn til forsvarlig pasientbehandling. Dette brukes i tilfeller dokumenter inkluderer informasjon som pasienten av ulike grunner, ikke bør få digitalt innsyn i. Blant annet kreftdiagnoser der pasienten ikke er informert ennå eller informasjon som påvirker pågående behandling på en negativ måte.&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;NORN_DUP&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Nektet, duplikat&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">definition</a>
+                <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Nektet pasientinnsyn, Duplikat. Brukes for å flagge duplikat dokumenter, for eksempel dokumenter som blir kopiert til et HF ved virksomehetsoverdragelse.&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;NORN_ANG&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Nektet, andre grunner&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">definition</a>
+                <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Nektet pasientinnsyn - kodeverket OID 9603 dekker ikke nektningsgrunnlaget - kontakte evt. Sykehuset. Kodeverket er relativt nytt og innsynsløsninger er under utvikling - Kodeverket må da derfor være under utvikling&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;NORU&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Utsatt innsyn for innbygger&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">definition</a>
+                <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Tilgangsbegrensning som gjør at utvalgte helseopplysninger gjøres tilgjengelig for innbyggeren etter fastsatt tid. Tilgangsbegrensningen kan være satt av helsepersonell, eller satt automatisk i henhold til forhåndsdefinerte regler&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;NORS&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Sperret&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">definition</a>
+                <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Tilgangsbegrensning som innebærer at innbyggeren sperrer hele eller deler av opplysningene som ligger i et behandlingsrettet helseregister slik at opplysningene ikke blir tilgjengelige for enkeltpersonell eller grupper av helsepersonell&quot;/&gt;
+  &lt;/concept&gt;
 &lt;/CodeSystem&gt;</code></pre>
 
 
@@ -282,7 +388,7 @@
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2022+ <a style="color:var(--footer-hyperlink-text-color)" href=""></a>.  Package hl7.fhir.no.kodeverk#0.4.4 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Tue, Sep 12, 2023 18:30+0000">2023-09-12</span>
+          IG &#169; 2022+ <a style="color:var(--footer-hyperlink-text-color)" href=""></a>.  Package hl7.fhir.no.kodeverk#0.4.4 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Mon, Jun 3, 2024 09:03+0000">2024-06-03</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |

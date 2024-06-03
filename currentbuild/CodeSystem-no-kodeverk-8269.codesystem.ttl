@@ -10,9 +10,9 @@
   fhir:id [ fhir:v "no-kodeverk-8269.codesystem"] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">Placeholder</div>"
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This  code system <code>http://helsedir.no/fhir/CodeSystem/no-kodeverk-8269</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">TA<a name=\"no-kodeverk-8269.codesystem-TA\"> </a></td><td>Telefonsvar avgitt</td><td/></tr><tr><td style=\"white-space:nowrap\">VA<a name=\"no-kodeverk-8269.codesystem-VA\"> </a></td><td>Vesentlig avvik fra tidligere svar</td><td>F.eks. ved vesentlig avvik fra preliminært svar til endelig svar</td></tr><tr><td style=\"white-space:nowrap\">MSIS-M<a name=\"no-kodeverk-8269.codesystem-MSIS-M\"> </a></td><td>MSIS-melding - klinikermelding skal sendes</td><td>Svaret er meldepliktig til MSIS og svaret krever at klinikermelding sendes til MSIS</td></tr><tr><td style=\"white-space:nowrap\">MSIS-UM<a name=\"no-kodeverk-8269.codesystem-MSIS-UM\"> </a></td><td>MSIS-melding - klinikermelding skal ikke sendes</td><td>Svaret er meldepliktig til MSIS, og svaret krever IKKE at det sendes klinikermelding til MSIS</td></tr><tr><td style=\"white-space:nowrap\">MSIS-AV<a name=\"no-kodeverk-8269.codesystem-MSIS-AV\"> </a></td><td>MSIS-Ikke meldepliktig</td><td>Funnet kan ha vært meldt MSIS tidligere, men supplerende undersøkelser taler for at dette ikke er meldepliktig</td></tr></table></div>"
   ] ; # 
-  fhir:url [ fhir:v "http://ehelse.no/fhir/CodeSystem/no-kodeverk-8269"^^xsd:anyURI] ; # 
+  fhir:url [ fhir:v "http://helsedir.no/fhir/CodeSystem/no-kodeverk-8269"^^xsd:anyURI] ; # 
   fhir:identifier ( [
      fhir:system [ fhir:v "urn:ietf:rfc:3986"^^xsd:anyURI ] ;
      fhir:value [ fhir:v "urn:oid:2.16.578.1.12.4.1.1.8269" ]
@@ -21,8 +21,7 @@
   fhir:name [ fhir:v "NoKodeverk8269"] ; # 
   fhir:title [ fhir:v "8269 Kommentar til svarrapport"] ; # 
   fhir:status [ fhir:v "active"] ; # 
-  fhir:date [ fhir:v "2023-09-12T18:30:30+00:00"^^xsd:dateTime] ; # 
-  fhir:publisher [ fhir:v "Direktoratet for e-helse"] ; # 
+  fhir:date [ fhir:v "2024-06-03T09:03:40+00:00"^^xsd:dateTime] ; # 
   fhir:description [ fhir:v "Kodet kommentar til svarrapport"] ; # 
   fhir:jurisdiction ( [
      fhir:coding ( [
@@ -32,22 +31,26 @@
      ] )
   ] ) ; # 
   fhir:content [ fhir:v "complete"] ; # 
-  fhir:count [ fhir:v "4"^^xsd:nonNegativeInteger] ; # 
+  fhir:count [ fhir:v "5"^^xsd:nonNegativeInteger] ; # 
   fhir:concept ( [
      fhir:code [ fhir:v "TA" ] ;
      fhir:display [ fhir:v "Telefonsvar avgitt" ]
   ] [
-     fhir:code [ fhir:v "MSIS-N" ] ;
-     fhir:display [ fhir:v "Nominativ MSIS-melding" ] ;
-     fhir:definition [ fhir:v "Dette svaret krever at nominativ rapport sendes til MSIS" ]
-  ] [
-     fhir:code [ fhir:v "MSIS-A" ] ;
-     fhir:display [ fhir:v "Anonym MSIS-melding" ] ;
-     fhir:definition [ fhir:v "Dette svaret krever innrapportering til MSIS, men svaret skal sendes anonymt" ]
-  ] [
      fhir:code [ fhir:v "VA" ] ;
      fhir:display [ fhir:v "Vesentlig avvik fra tidligere svar" ] ;
      fhir:definition [ fhir:v "F.eks. ved vesentlig avvik fra preliminært svar til endelig svar" ]
+  ] [
+     fhir:code [ fhir:v "MSIS-M" ] ;
+     fhir:display [ fhir:v "MSIS-melding - klinikermelding skal sendes" ] ;
+     fhir:definition [ fhir:v "Svaret er meldepliktig til MSIS og svaret krever at klinikermelding sendes til MSIS" ]
+  ] [
+     fhir:code [ fhir:v "MSIS-UM" ] ;
+     fhir:display [ fhir:v "MSIS-melding - klinikermelding skal ikke sendes" ] ;
+     fhir:definition [ fhir:v "Svaret er meldepliktig til MSIS, og svaret krever IKKE at det sendes klinikermelding til MSIS" ]
+  ] [
+     fhir:code [ fhir:v "MSIS-AV" ] ;
+     fhir:display [ fhir:v "MSIS-Ikke meldepliktig" ] ;
+     fhir:definition [ fhir:v "Funnet kan ha vært meldt MSIS tidligere, men supplerende undersøkelser taler for at dette ikke er meldepliktig" ]
   ] ) . # 
 
 # -------------------------------------------------------------------------------------

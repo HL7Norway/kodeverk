@@ -3,9 +3,9 @@
 <CodeSystem xmlns="http://hl7.org/fhir">
   <id value="no-kodeverk-8244.codesystem"/>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml">Placeholder</div>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This  code system <code>http://helsedir.no/fhir/CodeSystem/no-kodeverk-8244</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">1<a name="no-kodeverk-8244.codesystem-1"> </a></td><td>Over øvre referansegrense</td></tr><tr><td style="white-space:nowrap">2<a name="no-kodeverk-8244.codesystem-2"> </a></td><td>Under nedre referansegrense</td></tr><tr><td style="white-space:nowrap">3<a name="no-kodeverk-8244.codesystem-3"> </a></td><td>Utenfor referansegrensene</td></tr></table></div>
   </text>
-  <url value="http://ehelse.no/fhir/CodeSystem/no-kodeverk-8244"/>
+  <url value="http://helsedir.no/fhir/CodeSystem/no-kodeverk-8244"/>
   <identifier>
     <system value="urn:ietf:rfc:3986"/>
     <value value="urn:oid:2.16.578.1.12.4.1.1.8244"/>
@@ -14,8 +14,7 @@
   <name value="NoKodeverk8244"/>
   <title value="8244 Avviksmarkør i svarrapportering av medisinske tjenester"/>
   <status value="active"/>
-  <date value="2023-09-12T18:30:30+00:00"/>
-  <publisher value="Direktoratet for e-helse"/>
+  <date value="2024-06-03T09:03:40+00:00"/>
   <description value="Angir svarverdi i forhold til referansegrense"/>
   <jurisdiction>
     <coding>

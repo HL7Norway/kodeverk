@@ -3,9 +3,9 @@
   "id" : "no-kodeverk-8202.codesystem",
   "text" : {
     "status" : "generated",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\">Placeholder</div>"
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This  code system <code>http://helsedir.no/fhir/CodeSystem/no-kodeverk-8202</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">BLD<a name=\"no-kodeverk-8202.codesystem-BLD\"> </a></td><td>Bildediagnostikk</td></tr><tr><td style=\"white-space:nowrap\">CLIN<a name=\"no-kodeverk-8202.codesystem-CLIN\"> </a></td><td>Medisinsk biokjemi</td></tr><tr><td style=\"white-space:nowrap\">CT<a name=\"no-kodeverk-8202.codesystem-CT\"> </a></td><td>Computertomografi</td></tr><tr><td style=\"white-space:nowrap\">CYTO<a name=\"no-kodeverk-8202.codesystem-CYTO\"> </a></td><td>Cytologi</td></tr><tr><td style=\"white-space:nowrap\">FARM<a name=\"no-kodeverk-8202.codesystem-FARM\"> </a></td><td>Klinisk farmakologi</td></tr><tr><td style=\"white-space:nowrap\">HIST<a name=\"no-kodeverk-8202.codesystem-HIST\"> </a></td><td>Histologi</td></tr><tr><td style=\"white-space:nowrap\">IMTR<a name=\"no-kodeverk-8202.codesystem-IMTR\"> </a></td><td>Immunologi og transfusjonsmedisin</td></tr><tr><td style=\"white-space:nowrap\">LAB<a name=\"no-kodeverk-8202.codesystem-LAB\"> </a></td><td>Laboratoriemedisin</td></tr><tr><td style=\"white-space:nowrap\">MA<a name=\"no-kodeverk-8202.codesystem-MA\"> </a></td><td>Mammografi</td></tr><tr><td style=\"white-space:nowrap\">MBIO<a name=\"no-kodeverk-8202.codesystem-MBIO\"> </a></td><td>Medisinsk mikrobiologi</td></tr><tr><td style=\"white-space:nowrap\">MGEN<a name=\"no-kodeverk-8202.codesystem-MGEN\"> </a></td><td>Medisinsk genetikk</td></tr><tr><td style=\"white-space:nowrap\">MORS<a name=\"no-kodeverk-8202.codesystem-MORS\"> </a></td><td>Mors</td></tr><tr><td style=\"white-space:nowrap\">MPAT<a name=\"no-kodeverk-8202.codesystem-MPAT\"> </a></td><td>Molekylærpatologi</td></tr><tr><td style=\"white-space:nowrap\">MR<a name=\"no-kodeverk-8202.codesystem-MR\"> </a></td><td>Magnettomografi</td></tr><tr><td style=\"white-space:nowrap\">NUK<a name=\"no-kodeverk-8202.codesystem-NUK\"> </a></td><td>Nukleærmedisin</td></tr><tr><td style=\"white-space:nowrap\">OBD<a name=\"no-kodeverk-8202.codesystem-OBD\"> </a></td><td>Obduksjon</td></tr><tr><td style=\"white-space:nowrap\">PAT<a name=\"no-kodeverk-8202.codesystem-PAT\"> </a></td><td>Patologi</td></tr><tr><td style=\"white-space:nowrap\">RAD<a name=\"no-kodeverk-8202.codesystem-RAD\"> </a></td><td>Radiologi</td></tr><tr><td style=\"white-space:nowrap\">RTG<a name=\"no-kodeverk-8202.codesystem-RTG\"> </a></td><td>Røntgen</td></tr><tr><td style=\"white-space:nowrap\">SCI<a name=\"no-kodeverk-8202.codesystem-SCI\"> </a></td><td>Scintigrafi</td></tr><tr><td style=\"white-space:nowrap\">UL<a name=\"no-kodeverk-8202.codesystem-UL\"> </a></td><td>Ultralyd</td></tr><tr><td style=\"white-space:nowrap\">AN<a name=\"no-kodeverk-8202.codesystem-AN\"> </a></td><td>Annet</td></tr></table></div>"
   },
-  "url" : "http://ehelse.no/fhir/CodeSystem/no-kodeverk-8202",
+  "url" : "http://helsedir.no/fhir/CodeSystem/no-kodeverk-8202",
   "identifier" : [{
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:2.16.578.1.12.4.1.1.8202"
@@ -14,8 +14,7 @@
   "name" : "NoKodeverk8202",
   "title" : "8202 Type laboratoriemelding",
   "status" : "active",
-  "date" : "2023-09-12T18:30:30+00:00",
-  "publisher" : "Direktoratet for e-helse",
+  "date" : "2024-06-03T09:03:40+00:00",
   "description" : "Fagområde innen laboratoriemedisin og bildediagnstikk. Benyttes for å angi type svarrapport",
   "jurisdiction" : [{
     "coding" : [{

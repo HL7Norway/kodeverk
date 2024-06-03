@@ -3,9 +3,9 @@
   "id" : "no-kodeverk-8234.codesystem",
   "text" : {
     "status" : "generated",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\">Placeholder</div>"
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This  code system <code>http://helsedir.no/fhir/CodeSystem/no-kodeverk-8234</code> defines codes, but no codes are represented here</p></div>"
   },
-  "url" : "http://ehelse.no/fhir/CodeSystem/no-kodeverk-8234",
+  "url" : "http://helsedir.no/fhir/CodeSystem/no-kodeverk-8234",
   "identifier" : [{
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:2.16.578.1.12.4.1.1.8234"
@@ -14,8 +14,7 @@
   "name" : "NoKodeverk8234",
   "title" : "8234 Type tekstsvar i kommentar til rekvisisjon og henvisning",
   "status" : "active",
-  "date" : "2023-09-12T18:30:30+00:00",
-  "publisher" : "Direktoratet for e-helse",
+  "date" : "2024-06-03T09:03:40+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",

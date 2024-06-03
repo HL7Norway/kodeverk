@@ -1,0 +1,310 @@
+{
+  "codeSystems" : [
+    {
+      "url" : "http://helsedir.no/fhir/CodeSystem/no-kodeverk-1101",
+      "version" : "0.4.4",
+      "status" : "active",
+      "name" : "NoKodeverk1101",
+      "title" : "1101 Ja, nei",
+      "description" : "Dette kodeverket inneholder koder for å angi svar Ja eller Nei.",
+      "oids" : ["2.16.578.1.12.4.1.1.1101"]
+    },
+    {
+      "url" : "http://helsedir.no/fhir/CodeSystem/no-kodeverk-3108",
+      "version" : "0.4.4",
+      "status" : "active",
+      "name" : "NoKodeverk3108",
+      "title" : "3108 Reservasjon mot registrering",
+      "description" : "Opplysning om pasienten holdning til registrering av informasjon i register",
+      "oids" : ["2.16.578.1.12.4.1.1.3108"]
+    },
+    {
+      "url" : "http://helsedir.no/fhir/CodeSystem/no-kodeverk-4101",
+      "version" : "0.4.4",
+      "status" : "active",
+      "name" : "NoKodeverk4101",
+      "title" : "4101 Betalingskategori",
+      "description" : "Dette kodeverket inneholder koder som benyttes for å angi hvem som er betalingsansvarlig.",
+      "oids" : ["2.16.578.1.12.4.1.1.4101"]
+    },
+    {
+      "url" : "http://helsedir.no/fhir/CodeSystem/no-kodeverk-7010-norpat",
+      "version" : "0.4.4",
+      "status" : "active",
+      "name" : "NoKodeverk7010NORPAT",
+      "title" : "Norsk patologikodeverk (NORPAT)",
+      "description" : "Norsk patologikodeverk er et kodeverk som benyttes ved norske patologiavdelinger. Kodeverket ble utarbeidet av Den norske patologforenings kode- og nomenklaturutvalg i samarbeid med KITH på grunnlag av The Systematized Nomenclature of Medicine (SNOMED, 1984). Endret navn fra Den norske SNOMED til Norsk patologikodeverk 3. november 2015.",
+      "oids" : ["2.16.578.1.12.4.1.1.7010"]
+    },
+    {
+      "url" : "http://helsedir.no/fhir/CodeSystem/no-kodeverk-7270-ncrp",
+      "version" : "0.4.4",
+      "status" : "active",
+      "name" : "NoKodeverk7270NCRP",
+      "title" : "NCRP",
+      "description" : "Kodeverk for radiologi og nukleærmedisin. Kodeverket skal brukes for å dokumentere og skal kunne brukes for å bestille radiologiske tjenester. Det skal benyttes for både polikliniske og innlagte pasienter. Fra 1. januar 2012 har det vært obligatorisk å bruke dette kodeverket for å rapportere poliklinisk radiologisk aktivitet både for offentlige og private virksomheter.",
+      "oids" : ["2.16.578.1.12.4.1.1.7270"]
+    },
+    {
+      "url" : "http://helsedir.no/fhir/CodeSystem/no-kodeverk-7280-nlk",
+      "version" : "0.4.4",
+      "status" : "active",
+      "name" : "NoKodeverk7280NLK",
+      "title" : "Norsk laboratoriekodeverk",
+      "description" : "Norsk laboratoriekodverk er et felles kodeverk for laboratorieanalyser utarbeidet i samarbeid med de laboratoriefaglige miljøene fordelt på 6 spesialiteter: Immunologi og transfusjonsmedisin, Klinisk farmakologi, Medisinsk biokjemi, Medisinsk genetikk, Medisinsk mikrobiologi og Patologi.",
+      "oids" : ["2.16.578.1.12.4.1.1.7280"]
+    },
+    {
+      "url" : "http://helsedir.no/fhir/CodeSystem/no-kodeverk-7303",
+      "version" : "0.4.4",
+      "status" : "active",
+      "name" : "NoKodeverk7303",
+      "title" : "7303 Svarrapporteringsprioritet",
+      "description" : null,
+      "oids" : ["2.16.578.1.12.4.1.1.7303"]
+    },
+    {
+      "url" : "http://helsedir.no/fhir/CodeSystem/no-kodeverk-7305",
+      "version" : "0.4.4",
+      "status" : "active",
+      "name" : "NoKodeverk7305",
+      "title" : "7305 Moderator",
+      "description" : "Tilleggsopplysning til diagnose.",
+      "oids" : ["2.16.578.1.12.4.1.1.7305"]
+    },
+    {
+      "url" : "http://helsedir.no/fhir/CodeSystem/no-kodeverk-8116",
+      "version" : "0.4.4",
+      "status" : "active",
+      "name" : "NoKodeverk8116",
+      "title" : "8116 ID-type for personer",
+      "description" : "Angir type identifikator for personer.",
+      "oids" : ["2.16.578.1.12.4.1.1.8116"]
+    },
+    {
+      "url" : "http://helsedir.no/fhir/CodeSystem/no-kodeverk-8202",
+      "version" : "0.4.4",
+      "status" : "active",
+      "name" : "NoKodeverk8202",
+      "title" : "8202 Type laboratoriemelding",
+      "description" : "Fagområde innen laboratoriemedisin og bildediagnstikk. Benyttes for å angi type svarrapport",
+      "oids" : ["2.16.578.1.12.4.1.1.8202"]
+    },
+    {
+      "url" : "http://helsedir.no/fhir/CodeSystem/no-kodeverk-8212",
+      "version" : "0.4.4",
+      "status" : "active",
+      "name" : "NoKodeverk8212",
+      "title" : "8212 Uspesifisert laboratoriekodeverk",
+      "description" : "Dette kodeverk skal benyttes i tilfeller der det er uavklart hvilket type koder som skal være med i en melding. Kodeverket inneholder ingen koder",
+      "oids" : ["2.16.578.1.12.4.1.1.8212"]
+    },
+    {
+      "url" : "http://helsedir.no/fhir/CodeSystem/no-kodeverk-8216",
+      "version" : "0.4.4",
+      "status" : "active",
+      "name" : "NoKodeverk8216",
+      "title" : "8216 Kodeverk for cytologisk materiale",
+      "description" : "Gynekologisk materiale eller annet cytologisk materiale som er tatt for cytologiske undersøkelser. Kodene dekker opp valgmuligheter fra standard rekvisisjonsskjema for cytologiske undersøkelser.",
+      "oids" : ["2.16.578.1.12.4.1.1.8216"]
+    },
+    {
+      "url" : "http://helsedir.no/fhir/CodeSystem/no-kodeverk-8219",
+      "version" : "0.4.4",
+      "status" : "active",
+      "name" : "NoKodeverk8219",
+      "title" : "8219 Kodeverk for patologisk-anatomiske undersøkelser",
+      "description" : "Kodene beskriver ulike typer patologi-undersøkelser.",
+      "oids" : ["2.16.578.1.12.4.1.1.8219"]
+    },
+    {
+      "url" : "http://helsedir.no/fhir/CodeSystem/no-kodeverk-8231",
+      "version" : "0.4.4",
+      "status" : "active",
+      "name" : "NoKodeverk8231",
+      "title" : "8231 Type tekstsvar",
+      "description" : "Begrunnelse for rekvisisjon/henvisning",
+      "oids" : ["2.16.578.1.12.4.1.1.8231"]
+    },
+    {
+      "url" : "http://helsedir.no/fhir/CodeSystem/no-kodeverk-8232",
+      "version" : "0.4.4",
+      "status" : "active",
+      "name" : "NoKodeverk8232",
+      "title" : "8232 Forbehandling",
+      "description" : "Forberedelse før undersøkelse",
+      "oids" : ["2.16.578.1.12.4.1.1.8232"]
+    },
+    {
+      "url" : "http://helsedir.no/fhir/CodeSystem/no-kodeverk-8234",
+      "version" : "0.4.4",
+      "status" : "active",
+      "name" : "NoKodeverk8234",
+      "title" : "8234 Type tekstsvar i kommentar til rekvisisjon og henvisning",
+      "description" : null,
+      "oids" : ["2.16.578.1.12.4.1.1.8234"]
+    },
+    {
+      "url" : "http://helsedir.no/fhir/CodeSystem/no-kodeverk-8239",
+      "version" : "0.4.4",
+      "status" : "active",
+      "name" : "NoKodeverk8239",
+      "title" : "8239 Forholdsoperatorer i svarrapportering av medisinske tjenester",
+      "description" : "Forholdsoperatorer i svarrapportering av medisinske tjeneste",
+      "oids" : ["2.16.578.1.12.4.1.1.8239"]
+    },
+    {
+      "url" : "http://helsedir.no/fhir/CodeSystem/no-kodeverk-8243",
+      "version" : "0.4.4",
+      "status" : "active",
+      "name" : "NoKodeverk8243",
+      "title" : "8243 Type tekstsvar i tekstlig resultat i svarrapportering av medisinske tjenester",
+      "description" : "Type tekstsvar i tekstlig resultat i svarrapportering av medisinske tjenester",
+      "oids" : ["2.16.578.1.12.4.1.1.8243"]
+    },
+    {
+      "url" : "http://helsedir.no/fhir/CodeSystem/no-kodeverk-8244",
+      "version" : "0.4.4",
+      "status" : "active",
+      "name" : "NoKodeverk8244",
+      "title" : "8244 Avviksmarkør i svarrapportering av medisinske tjenester",
+      "description" : "Angir svarverdi i forhold til referansegrense",
+      "oids" : ["2.16.578.1.12.4.1.1.8244"]
+    },
+    {
+      "url" : "http://helsedir.no/fhir/CodeSystem/no-kodeverk-8245",
+      "version" : "0.4.4",
+      "status" : "active",
+      "name" : "NoKodeverk8245",
+      "title" : "8245 Status for resultat i svarrapportering av medisinske tjenester",
+      "description" : "Benyttes for å angi status/steg i arbeidsflyt for en enkelt lab- /røntgenundersøkelse.",
+      "oids" : ["2.16.578.1.12.4.1.1.8245"]
+    },
+    {
+      "url" : "http://helsedir.no/fhir/CodeSystem/no-kodeverk-8264",
+      "version" : "0.4.4",
+      "status" : "retired",
+      "name" : "NoKodeverk8264",
+      "title" : "8264 Tjenestekoder for timereservasjon",
+      "description" : "Foreløpig kodeverk basert på tilgjengelige tjenester. Anvendes til booking av time.",
+      "oids" : ["2.16.578.1.12.4.1.1.8264"]
+    },
+    {
+      "url" : "http://helsedir.no/fhir/CodeSystem/no-kodeverk-8268",
+      "version" : "0.4.4",
+      "status" : "active",
+      "name" : "NoKodeverk8268",
+      "title" : "8268 Type identifikator",
+      "description" : "Angir type identifikator for person og virksomhet.",
+      "oids" : ["2.16.578.1.12.4.1.1.8268"]
+    },
+    {
+      "url" : "http://helsedir.no/fhir/CodeSystem/no-kodeverk-8269",
+      "version" : "0.4.4",
+      "status" : "active",
+      "name" : "NoKodeverk8269",
+      "title" : "8269 Kommentar til svarrapport",
+      "description" : "Kodet kommentar til svarrapport",
+      "oids" : ["2.16.578.1.12.4.1.1.8269"]
+    },
+    {
+      "url" : "http://helsedir.no/fhir/CodeSystem/no-kodeverk-8271",
+      "version" : "0.4.4",
+      "status" : "active",
+      "name" : "NoKodeverk8271",
+      "title" : "8271 Resistens",
+      "description" : "Svarverdier til bruk i resistensbestemmelser (SIR)",
+      "oids" : ["2.16.578.1.12.4.1.1.8271"]
+    },
+    {
+      "url" : "http://helsedir.no/fhir/CodeSystem/no-kodeverk-8272",
+      "version" : "0.4.4",
+      "status" : "active",
+      "name" : "NoKodeverk8272",
+      "title" : "8272 Anbefaling om ny undersøkelse",
+      "description" : null,
+      "oids" : ["2.16.578.1.12.4.1.1.8272"]
+    },
+    {
+      "url" : "http://helsedir.no/fhir/CodeSystem/no-kodeverk-8273",
+      "version" : "0.4.4",
+      "status" : "active",
+      "name" : "NoKodeverk8273",
+      "title" : "8273 Hastegrad",
+      "description" : "Anbefalt tidsperspektiv for tiltak.",
+      "oids" : ["2.16.578.1.12.4.1.1.8273"]
+    },
+    {
+      "url" : "http://helsedir.no/fhir/CodeSystem/no-kodeverk-8274",
+      "version" : "0.4.4",
+      "status" : "draft",
+      "name" : "NoKodeverk8274",
+      "title" : "8274 Anbefaling om supplerende undersøkelser",
+      "description" : "Om rekvirenten gir tjenesteyter tillatelse til å utføre ytterligere undersøkelser eller andre tiltak basert på resultater og medisinskfaglig skjønn.",
+      "oids" : ["2.16.578.1.12.4.1.1.8274"]
+    },
+    {
+      "url" : "http://helsedir.no/fhir/CodeSystem/no-kodeverk-8275",
+      "version" : "0.4.4",
+      "status" : "active",
+      "name" : "NoKodeverk8275",
+      "title" : "8275 Cytologisk materiale tatt med",
+      "description" : null,
+      "oids" : ["2.16.578.1.12.4.1.1.8275"]
+    },
+    {
+      "url" : "http://helsedir.no/fhir/CodeSystem/no-kodeverk-8327",
+      "version" : "0.4.4",
+      "status" : "active",
+      "name" : "NoKodeverk8327",
+      "title" : "8327 Offisiell personidentifikasjon",
+      "description" : "Angir type identifikator for person",
+      "oids" : ["2.16.578.1.12.4.1.1.8327"]
+    },
+    {
+      "url" : "http://helsedir.no/fhir/CodeSystem/no-kodeverk-8340",
+      "version" : "0.4.4",
+      "status" : "active",
+      "name" : "NoKodeverk8340",
+      "title" : "8340 Tekstlige resultatverdier for mikrobiologiske svar",
+      "description" : "Kodeverk for tekstlig resultatverdier til bruk i svar av mikrobiologiske laboratorieundersøkelser.",
+      "oids" : ["2.16.578.1.12.4.1.1.8340"]
+    },
+    {
+      "url" : "http://helsedir.no/fhir/CodeSystem/no-kodeverk-8351",
+      "version" : "0.4.4",
+      "status" : "active",
+      "name" : "NoKodeverk8351",
+      "title" : "8351 Prøvemateriale",
+      "description" : "Kodeverk for prøvemateriale til bruk i rekvisisjon og svar av laboratorieundersøkelser.",
+      "oids" : ["2.16.578.1.12.4.1.1.8351"]
+    },
+    {
+      "url" : "http://helsedir.no/fhir/CodeSystem/no-kodeverk-9060",
+      "version" : "0.4.4",
+      "status" : "active",
+      "name" : "NoKodeverk9060",
+      "title" : "9060 Kategori helsepersonell",
+      "description" : "Kodeverket inneholder koder som benyttes for å kategorisere helsepersonell med autorisasjon etter Helsepersonelloven § 48, og dyrehelsepersonell med autorisasjon etter Dyrehelsepersonelloven § 4.",
+      "oids" : ["2.16.578.1.12.4.1.1.9060"]
+    },
+    {
+      "url" : "http://helsedir.no/fhir/CodeSystem/no-kodeverk-9603",
+      "version" : "0.4.4",
+      "status" : "active",
+      "name" : "NoKodeverk9603",
+      "title" : "9603 Sperring og nekting av dokumenter",
+      "description" : "Kodeverket benyttes for å angi sperring og nekting av dokumenter. Opprettet for bruk i HIS 1169:2016 IHE XDS metadata inntil en nasjonal løsning for tilgangsstyring/håndtering av sperring er etablert.",
+      "oids" : ["2.16.578.1.12.4.1.1.9603"]
+    },
+    {
+      "url" : "http://hl7.org/fhir/sid/icd-10-no",
+      "version" : "0.4.4",
+      "status" : "active",
+      "name" : "NoKodeverkICD10",
+      "title" : "ICD-10",
+      "description" : "Klassifikasjon av sykdommer og beslektede helseproblemer.",
+      "oids" : ["2.16.578.1.12.4.1.1.7110"]
+    }
+  ]
+}

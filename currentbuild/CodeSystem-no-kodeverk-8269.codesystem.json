@@ -3,9 +3,9 @@
   "id" : "no-kodeverk-8269.codesystem",
   "text" : {
     "status" : "generated",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\">Placeholder</div>"
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This  code system <code>http://helsedir.no/fhir/CodeSystem/no-kodeverk-8269</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">TA<a name=\"no-kodeverk-8269.codesystem-TA\"> </a></td><td>Telefonsvar avgitt</td><td/></tr><tr><td style=\"white-space:nowrap\">VA<a name=\"no-kodeverk-8269.codesystem-VA\"> </a></td><td>Vesentlig avvik fra tidligere svar</td><td>F.eks. ved vesentlig avvik fra preliminært svar til endelig svar</td></tr><tr><td style=\"white-space:nowrap\">MSIS-M<a name=\"no-kodeverk-8269.codesystem-MSIS-M\"> </a></td><td>MSIS-melding - klinikermelding skal sendes</td><td>Svaret er meldepliktig til MSIS og svaret krever at klinikermelding sendes til MSIS</td></tr><tr><td style=\"white-space:nowrap\">MSIS-UM<a name=\"no-kodeverk-8269.codesystem-MSIS-UM\"> </a></td><td>MSIS-melding - klinikermelding skal ikke sendes</td><td>Svaret er meldepliktig til MSIS, og svaret krever IKKE at det sendes klinikermelding til MSIS</td></tr><tr><td style=\"white-space:nowrap\">MSIS-AV<a name=\"no-kodeverk-8269.codesystem-MSIS-AV\"> </a></td><td>MSIS-Ikke meldepliktig</td><td>Funnet kan ha vært meldt MSIS tidligere, men supplerende undersøkelser taler for at dette ikke er meldepliktig</td></tr></table></div>"
   },
-  "url" : "http://ehelse.no/fhir/CodeSystem/no-kodeverk-8269",
+  "url" : "http://helsedir.no/fhir/CodeSystem/no-kodeverk-8269",
   "identifier" : [{
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:2.16.578.1.12.4.1.1.8269"
@@ -14,8 +14,7 @@
   "name" : "NoKodeverk8269",
   "title" : "8269 Kommentar til svarrapport",
   "status" : "active",
-  "date" : "2023-09-12T18:30:30+00:00",
-  "publisher" : "Direktoratet for e-helse",
+  "date" : "2024-06-03T09:03:40+00:00",
   "description" : "Kodet kommentar til svarrapport",
   "jurisdiction" : [{
     "coding" : [{
@@ -25,24 +24,29 @@
     }]
   }],
   "content" : "complete",
-  "count" : 4,
+  "count" : 5,
   "concept" : [{
     "code" : "TA",
     "display" : "Telefonsvar avgitt"
   },
   {
-    "code" : "MSIS-N",
-    "display" : "Nominativ MSIS-melding",
-    "definition" : "Dette svaret krever at nominativ rapport sendes til MSIS"
-  },
-  {
-    "code" : "MSIS-A",
-    "display" : "Anonym MSIS-melding",
-    "definition" : "Dette svaret krever innrapportering til MSIS, men svaret skal sendes anonymt"
-  },
-  {
     "code" : "VA",
     "display" : "Vesentlig avvik fra tidligere svar",
     "definition" : "F.eks. ved vesentlig avvik fra preliminært svar til endelig svar"
+  },
+  {
+    "code" : "MSIS-M",
+    "display" : "MSIS-melding - klinikermelding skal sendes",
+    "definition" : "Svaret er meldepliktig til MSIS og svaret krever at klinikermelding sendes til MSIS"
+  },
+  {
+    "code" : "MSIS-UM",
+    "display" : "MSIS-melding - klinikermelding skal ikke sendes",
+    "definition" : "Svaret er meldepliktig til MSIS, og svaret krever IKKE at det sendes klinikermelding til MSIS"
+  },
+  {
+    "code" : "MSIS-AV",
+    "display" : "MSIS-Ikke meldepliktig",
+    "definition" : "Funnet kan ha vært meldt MSIS tidligere, men supplerende undersøkelser taler for at dette ikke er meldepliktig"
   }]
 }

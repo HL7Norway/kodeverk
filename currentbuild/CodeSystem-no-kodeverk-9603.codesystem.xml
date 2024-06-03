@@ -3,9 +3,27 @@
 <CodeSystem xmlns="http://hl7.org/fhir">
   <id value="no-kodeverk-9603.codesystem"/>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml">Placeholder</div>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This  code system <code>http://helsedir.no/fhir/CodeSystem/no-kodeverk-9603</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style="white-space:nowrap">N<a name="no-kodeverk-9603.codesystem-N"> </a></td><td>Normal</td><td><div><p>Ingen spesielle tilgangsbegrensninger er satt</p>
+</div></td></tr><tr><td style="white-space:nowrap">NORN_FFL<a name="no-kodeverk-9603.codesystem-NORN_FFL"> </a></td><td>Nektet, fare for liv</td><td><div><p>Nektet pasientinnsyn av enkeltdokument. Fare for liv eller alvorlig helseskade, jf. pasbrl §5-1, 2. ledd 1. alternativ.</p>
+</div></td></tr><tr><td style="white-space:nowrap">NORN_KUT<a name="no-kodeverk-9603.codesystem-NORN_KUT"> </a></td><td>Nektet, klart utilrådelig</td><td><div><p>Nektet pasientinnsyn av enkeltdokument. Klart utilrådelig av hensyn til nærstående, jf. pasbrl §5-1, 2. ledd 2. alternativ.</p>
+</div></td></tr><tr><td style="white-space:nowrap">NORN_EPO<a name="no-kodeverk-9603.codesystem-NORN_EPO"> </a></td><td>Nektet, eget ønske</td><td><div><p>Nektet pasientinnsyn av enkeltdokument. Vises ikke elektronisk etter pasientens eget ønske.</p>
+</div></td></tr><tr><td style="white-space:nowrap">NORN_ALL<a name="no-kodeverk-9603.codesystem-NORN_ALL"> </a></td><td>Nektet, alle</td><td><div><p>Nektet pasientinnsyn i alle pasientens dokumenter. Registrert i kritisk info begrunnet i risiko for helsepersonell.</p>
+</div></td></tr><tr><td style="white-space:nowrap">NORN_FOR<a name="no-kodeverk-9603.codesystem-NORN_FOR"> </a></td><td>Nektet, foreldet</td><td><div><p>Virksomheten har markert dokumentet som eldre enn datoen for når pasienter fikk automatisk elektronisk innsyn i journal.</p>
+</div></td></tr><tr><td style="white-space:nowrap">NORN_FORANS<a name="no-kodeverk-9603.codesystem-NORN_FORANS"> </a></td><td>Nektet, foreldreansvarlig</td><td><div><p>Nektet innsyn for foreldre eller andre som har foreldreansvar, dersom tungtveiende hensyn til pasienten eller brukeren taler mot det, jf. Pasient- og brukerrettighetsloven § 3-4 tredje ledd.
+Settes av helsepersonell.
+Dette gjelder også for barn under 12 år og uavhengig av om barnet selv har gitt uttrykk for ønsker om at informasjon skal holdes tilbake</p>
+</div></td></tr><tr><td style="white-space:nowrap">NORN_UNGDOM<a name="no-kodeverk-9603.codesystem-NORN_UNGDOM"> </a></td><td>Nektet, ungdom</td><td><div><p>Nektet innsyn for ungdom 12-16, dersom det er påtrengende nødvendig for å hindre fare for liv eller alvorlig helseskade for pasienten selv.
+Foreldre eller andre som har foreldreansvar får tilgang til informasjon.
+Settes av helsepersonell.</p>
+</div></td></tr><tr><td style="white-space:nowrap">NORN_FFH<a name="no-kodeverk-9603.codesystem-NORN_FFH"> </a></td><td>Nektet, fare for helsepersonell</td><td><div><p>Nektet pasientinnsyn - vises ikke elektronisk fordi pasient har fremsatt alvorlige trusler og fremstår aktivt med agitasjon overfor behandler. Åpner for at helsepersonell, i helt spesielle unntakssituasjoner der de føler seg truet, skal kunne beskytte seg selv ved å nekte elektronisk pasientinnsyn på enkeltdokumenter i pasientjournalen. Dermed blir ikke helsepersonellets navn like lett tilgjengelig for pasienten.</p>
+</div></td></tr><tr><td style="white-space:nowrap">NORN_FPB<a name="no-kodeverk-9603.codesystem-NORN_FPB"> </a></td><td>Nektet, forsvarlig pasientbehandling</td><td><div><p>Nektet pasientinnsyn - vises ikke elektronisk av hensyn til forsvarlig pasientbehandling. Dette brukes i tilfeller dokumenter inkluderer informasjon som pasienten av ulike grunner, ikke bør få digitalt innsyn i. Blant annet kreftdiagnoser der pasienten ikke er informert ennå eller informasjon som påvirker pågående behandling på en negativ måte.</p>
+</div></td></tr><tr><td style="white-space:nowrap">NORN_DUP<a name="no-kodeverk-9603.codesystem-NORN_DUP"> </a></td><td>Nektet, duplikat</td><td><div><p>Nektet pasientinnsyn, Duplikat. Brukes for å flagge duplikat dokumenter, for eksempel dokumenter som blir kopiert til et HF ved virksomehetsoverdragelse.</p>
+</div></td></tr><tr><td style="white-space:nowrap">NORN_ANG<a name="no-kodeverk-9603.codesystem-NORN_ANG"> </a></td><td>Nektet, andre grunner</td><td><div><p>Nektet pasientinnsyn - kodeverket OID 9603 dekker ikke nektningsgrunnlaget - kontakte evt. Sykehuset. Kodeverket er relativt nytt og innsynsløsninger er under utvikling - Kodeverket må da derfor være under utvikling</p>
+</div></td></tr><tr><td style="white-space:nowrap">NORU<a name="no-kodeverk-9603.codesystem-NORU"> </a></td><td>Utsatt innsyn for innbygger</td><td><div><p>Tilgangsbegrensning som gjør at utvalgte helseopplysninger gjøres tilgjengelig for innbyggeren etter fastsatt tid. Tilgangsbegrensningen kan være satt av helsepersonell, eller satt automatisk i henhold til forhåndsdefinerte regler</p>
+</div></td></tr><tr><td style="white-space:nowrap">NORS<a name="no-kodeverk-9603.codesystem-NORS"> </a></td><td>Sperret</td><td><div><p>Tilgangsbegrensning som innebærer at innbyggeren sperrer hele eller deler av opplysningene som ligger i et behandlingsrettet helseregister slik at opplysningene ikke blir tilgjengelige for enkeltpersonell eller grupper av helsepersonell</p>
+</div></td></tr></table></div>
   </text>
-  <url value="http://ehelse.no/fhir/CodeSystem/no-kodeverk-9603"/>
+  <url value="http://helsedir.no/fhir/CodeSystem/no-kodeverk-9603"/>
   <identifier>
     <system value="urn:ietf:rfc:3986"/>
     <value value="urn:oid:2.16.578.1.12.4.1.1.9603"/>
@@ -14,8 +32,7 @@
   <name value="NoKodeverk9603"/>
   <title value="9603 Sperring og nekting av dokumenter"/>
   <status value="active"/>
-  <date value="2023-09-12T18:30:30+00:00"/>
-  <publisher value="Direktoratet for e-helse"/>
+  <date value="2024-06-03T09:03:40+00:00"/>
   <description value="Kodeverket benyttes for å angi sperring og nekting av dokumenter. Opprettet for bruk i HIS 1169:2016 IHE XDS metadata inntil en nasjonal løsning for tilgangsstyring/håndtering av sperring er etablert."/>
   <jurisdiction>
     <coding>
@@ -24,5 +41,76 @@
       <display value="Norway"/>
     </coding>
   </jurisdiction>
-  <content value="not-present"/>
+  <content value="complete"/>
+  <count value="14"/>
+  <concept>
+    <code value="N"/>
+    <display value="Normal"/>
+    <definition value="Ingen spesielle tilgangsbegrensninger er satt"/>
+  </concept>
+  <concept>
+    <code value="NORN_FFL"/>
+    <display value="Nektet, fare for liv"/>
+    <definition value="Nektet pasientinnsyn av enkeltdokument. Fare for liv eller alvorlig helseskade, jf. pasbrl §5-1, 2. ledd 1. alternativ."/>
+  </concept>
+  <concept>
+    <code value="NORN_KUT"/>
+    <display value="Nektet, klart utilrådelig"/>
+    <definition value="Nektet pasientinnsyn av enkeltdokument. Klart utilrådelig av hensyn til nærstående, jf. pasbrl §5-1, 2. ledd 2. alternativ."/>
+  </concept>
+  <concept>
+    <code value="NORN_EPO"/>
+    <display value="Nektet, eget ønske"/>
+    <definition value="Nektet pasientinnsyn av enkeltdokument. Vises ikke elektronisk etter pasientens eget ønske."/>
+  </concept>
+  <concept>
+    <code value="NORN_ALL"/>
+    <display value="Nektet, alle"/>
+    <definition value="Nektet pasientinnsyn i alle pasientens dokumenter. Registrert i kritisk info begrunnet i risiko for helsepersonell."/>
+  </concept>
+  <concept>
+    <code value="NORN_FOR"/>
+    <display value="Nektet, foreldet"/>
+    <definition value="Virksomheten har markert dokumentet som eldre enn datoen for når pasienter fikk automatisk elektronisk innsyn i journal."/>
+  </concept>
+  <concept>
+    <code value="NORN_FORANS"/>
+    <display value="Nektet, foreldreansvarlig"/>
+    <definition value="Nektet innsyn for foreldre eller andre som har foreldreansvar, dersom tungtveiende hensyn til pasienten eller brukeren taler mot det, jf. Pasient- og brukerrettighetsloven § 3-4 tredje ledd.&#xD;&#xA;Settes av helsepersonell. &#xD;&#xA;Dette gjelder også for barn under 12 år og uavhengig av om barnet selv har gitt uttrykk for ønsker om at informasjon skal holdes tilbake"/>
+  </concept>
+  <concept>
+    <code value="NORN_UNGDOM"/>
+    <display value="Nektet, ungdom"/>
+    <definition value="Nektet innsyn for ungdom 12-16, dersom det er påtrengende nødvendig for å hindre fare for liv eller alvorlig helseskade for pasienten selv.&#xD;&#xA;Foreldre eller andre som har foreldreansvar får tilgang til informasjon.&#xD;&#xA;Settes av helsepersonell."/>
+  </concept>
+  <concept>
+    <code value="NORN_FFH"/>
+    <display value="Nektet, fare for helsepersonell"/>
+    <definition value="Nektet pasientinnsyn - vises ikke elektronisk fordi pasient har fremsatt alvorlige trusler og fremstår aktivt med agitasjon overfor behandler. Åpner for at helsepersonell, i helt spesielle unntakssituasjoner der de føler seg truet, skal kunne beskytte seg selv ved å nekte elektronisk pasientinnsyn på enkeltdokumenter i pasientjournalen. Dermed blir ikke helsepersonellets navn like lett tilgjengelig for pasienten."/>
+  </concept>
+  <concept>
+    <code value="NORN_FPB"/>
+    <display value="Nektet, forsvarlig pasientbehandling"/>
+    <definition value="Nektet pasientinnsyn - vises ikke elektronisk av hensyn til forsvarlig pasientbehandling. Dette brukes i tilfeller dokumenter inkluderer informasjon som pasienten av ulike grunner, ikke bør få digitalt innsyn i. Blant annet kreftdiagnoser der pasienten ikke er informert ennå eller informasjon som påvirker pågående behandling på en negativ måte."/>
+  </concept>
+  <concept>
+    <code value="NORN_DUP"/>
+    <display value="Nektet, duplikat"/>
+    <definition value="Nektet pasientinnsyn, Duplikat. Brukes for å flagge duplikat dokumenter, for eksempel dokumenter som blir kopiert til et HF ved virksomehetsoverdragelse."/>
+  </concept>
+  <concept>
+    <code value="NORN_ANG"/>
+    <display value="Nektet, andre grunner"/>
+    <definition value="Nektet pasientinnsyn - kodeverket OID 9603 dekker ikke nektningsgrunnlaget - kontakte evt. Sykehuset. Kodeverket er relativt nytt og innsynsløsninger er under utvikling - Kodeverket må da derfor være under utvikling"/>
+  </concept>
+  <concept>
+    <code value="NORU"/>
+    <display value="Utsatt innsyn for innbygger"/>
+    <definition value="Tilgangsbegrensning som gjør at utvalgte helseopplysninger gjøres tilgjengelig for innbyggeren etter fastsatt tid. Tilgangsbegrensningen kan være satt av helsepersonell, eller satt automatisk i henhold til forhåndsdefinerte regler"/>
+  </concept>
+  <concept>
+    <code value="NORS"/>
+    <display value="Sperret"/>
+    <definition value="Tilgangsbegrensning som innebærer at innbyggeren sperrer hele eller deler av opplysningene som ligger i et behandlingsrettet helseregister slik at opplysningene ikke blir tilgjengelige for enkeltpersonell eller grupper av helsepersonell"/>
+  </concept>
 </CodeSystem>

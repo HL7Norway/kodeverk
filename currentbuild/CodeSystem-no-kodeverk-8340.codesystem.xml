@@ -3,9 +3,9 @@
 <CodeSystem xmlns="http://hl7.org/fhir">
   <id value="no-kodeverk-8340.codesystem"/>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml">Placeholder</div>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This  code system <code>http://helsedir.no/fhir/CodeSystem/no-kodeverk-8340</code> defines codes, but no codes are represented here</p></div>
   </text>
-  <url value="http://ehelse.no/fhir/CodeSystem/no-kodeverk-8340"/>
+  <url value="http://helsedir.no/fhir/CodeSystem/no-kodeverk-8340"/>
   <identifier>
     <system value="urn:ietf:rfc:3986"/>
     <value value="urn:oid:2.16.578.1.12.4.1.1.8340"/>
@@ -15,7 +15,6 @@
   <title value="8340 Tekstlige resultatverdier for mikrobiologiske svar"/>
   <status value="active"/>
   <date value="2021-06-02"/>
-  <publisher value="Direktoratet for e-helse"/>
   <description value="Kodeverk for tekstlig resultatverdier til bruk i svar av mikrobiologiske laboratorieundersøkelser."/>
   <jurisdiction>
     <coding>
@@ -24,46 +23,5 @@
       <display value="Norway"/>
     </coding>
   </jurisdiction>
-  <content value="complete"/>
-  <count value="10"/>
-  <concept>
-    <code value="T001"/>
-    <display value="Påvist"/>
-  </concept>
-  <concept>
-    <code value="T002"/>
-    <display value="Positiv"/>
-  </concept>
-  <concept>
-    <code value="T003"/>
-    <display value="Svakt postiv"/>
-  </concept>
-  <concept>
-    <code value="T004"/>
-    <display value="Grenseverdi"/>
-  </concept>
-  <concept>
-    <code value="T005"/>
-    <display value="Gråsone"/>
-  </concept>
-  <concept>
-    <code value="T006"/>
-    <display value="Reaktiv"/>
-  </concept>
-  <concept>
-    <code value="T007"/>
-    <display value="Ikke påvist"/>
-  </concept>
-  <concept>
-    <code value="T008"/>
-    <display value="Negativ"/>
-  </concept>
-  <concept>
-    <code value="T009"/>
-    <display value="Inkonklusiv"/>
-  </concept>
-  <concept>
-    <code value="T010"/>
-    <display value="Se kommentar"/>
-  </concept>
+  <content value="not-present"/>
 </CodeSystem>

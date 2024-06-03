@@ -3,9 +3,9 @@
 <CodeSystem xmlns="http://hl7.org/fhir">
   <id value="no-kodeverk-7305.codesystem"/>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml">Placeholder</div>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This  code system <code>http://helsedir.no/fhir/CodeSystem/no-kodeverk-7305</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style="white-space:nowrap">S<a name="no-kodeverk-7305.codesystem-S"> </a></td><td>ICD10 stjernekode</td><td/></tr><tr><td style="white-space:nowrap">A<a name="no-kodeverk-7305.codesystem-A"> </a></td><td>ATC-kode</td><td>(til bruk ved ICD10)</td></tr><tr><td style="white-space:nowrap">AN<a name="no-kodeverk-7305.codesystem-AN"> </a></td><td>Anatomisk lokalisasjon</td><td/></tr><tr><td style="white-space:nowrap">DI<a name="no-kodeverk-7305.codesystem-DI"> </a></td><td>Diagnosestatus</td><td/></tr><tr><td style="white-space:nowrap">FO<a name="no-kodeverk-7305.codesystem-FO"> </a></td><td>Forløp</td><td/></tr><tr><td style="white-space:nowrap">LA<a name="no-kodeverk-7305.codesystem-LA"> </a></td><td>Lateralitet</td><td/></tr></table></div>
   </text>
-  <url value="http://ehelse.no/fhir/CodeSystem/no-kodeverk-7305"/>
+  <url value="http://helsedir.no/fhir/CodeSystem/no-kodeverk-7305"/>
   <identifier>
     <system value="urn:ietf:rfc:3986"/>
     <value value="urn:oid:2.16.578.1.12.4.1.1.7305"/>
@@ -14,8 +14,7 @@
   <name value="NoKodeverk7305"/>
   <title value="7305 Moderator"/>
   <status value="active"/>
-  <date value="2023-09-12T18:30:30+00:00"/>
-  <publisher value="Direktoratet for e-helse"/>
+  <date value="2024-06-03T09:03:40+00:00"/>
   <description value="Tilleggsopplysning til diagnose."/>
   <jurisdiction>
     <coding>
