@@ -10,11 +10,11 @@
     <system value="urn:ietf:rfc:3986"/>
     <value value="urn:oid:2.16.578.1.12.4.1.1.8264"/>
   </identifier>
-  <version value="0.4.4"/>
+  <version value="0.5.0"/>
   <name value="NoKodeverk8264"/>
   <title value="8264 Tjenestekoder for timereservasjon"/>
   <status value="retired"/>
-  <date value="2024-06-03T09:03:40+00:00"/>
+  <date value="2024-06-04T05:31:20+00:00"/>
   <description value="Foreløpig kodeverk basert på tilgjengelige tjenester. Anvendes til booking av time."/>
   <jurisdiction>
     <coding>

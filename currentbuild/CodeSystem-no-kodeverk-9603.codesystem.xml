@@ -28,11 +28,11 @@ Settes av helsepersonell.</p>
     <system value="urn:ietf:rfc:3986"/>
     <value value="urn:oid:2.16.578.1.12.4.1.1.9603"/>
   </identifier>
-  <version value="0.4.4"/>
+  <version value="0.5.0"/>
   <name value="NoKodeverk9603"/>
   <title value="9603 Sperring og nekting av dokumenter"/>
   <status value="active"/>
-  <date value="2024-06-03T09:03:40+00:00"/>
+  <date value="2024-06-04T05:31:20+00:00"/>
   <description value="Kodeverket benyttes for å angi sperring og nekting av dokumenter. Opprettet for bruk i HIS 1169:2016 IHE XDS metadata inntil en nasjonal løsning for tilgangsstyring/håndtering av sperring er etablert."/>
   <jurisdiction>
     <coding>

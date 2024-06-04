@@ -10,11 +10,11 @@
     <system value="urn:ietf:rfc:3986"/>
     <value value="urn:oid:2.16.578.1.12.4.1.1.7270"/>
   </identifier>
-  <version value="0.4.4"/>
+  <version value="0.5.0"/>
   <name value="NoKodeverk7270NCRP"/>
   <title value="NCRP"/>
   <status value="active"/>
-  <date value="2024-06-03T09:03:40+00:00"/>
+  <date value="2024-06-04T05:31:20+00:00"/>
   <description value="Kodeverk for radiologi og nukleærmedisin. Kodeverket skal brukes for å dokumentere og skal kunne brukes for å bestille radiologiske tjenester. Det skal benyttes for både polikliniske og innlagte pasienter. Fra 1. januar 2012 har det vært obligatorisk å bruke dette kodeverket for å rapportere poliklinisk radiologisk aktivitet både for offentlige og private virksomheter."/>
   <jurisdiction>
     <coding>
