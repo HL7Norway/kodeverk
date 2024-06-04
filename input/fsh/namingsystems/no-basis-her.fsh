@@ -5,7 +5,7 @@ Usage: #definition
 * status = #active
 * kind = #identifier
 * date = "2022-02-10"
-* publisher = "Direktoratet for e-helse"
+* publisher = "Helsedirektoratet"
 * responsible = "Norsk helsenett"
 * description = "Identifikator for kommunikasjonsparter i Helsenettet.."
 * jurisdiction = urn:iso:std:iso:3166#NO "Norway"

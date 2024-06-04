@@ -9,6 +9,6 @@ Utvikling av denne dokumentasjonen skjer på [github.com/HL7Norway/kodeverk](htt
 ### Kontakt
 Tilbakemeldinger om denne implementasjonsguiden [legges inn som issues på GitHub](https://github.com/HL7Norway/kodeverk/issues). 
 
-For spørsmål om koding og det faglige inneholdet i kodeverkene, kontakt [Direktoratet for e-helse](https://www.ehelse.no/kodeverk/kontaktinformasjon)
+For spørsmål om koding og det faglige inneholdet i kodeverkene, kontakt [Helsedirektoratet](https://www.ehelse.no/kodeverk/kontaktinformasjon)
 
-Ansvarlig forvalter: [Direktoratet for e-helse](https://www.ehelse.no)
+Ansvarlig forvalter: [Helsedirektoratet](https://www.ehelse.no)

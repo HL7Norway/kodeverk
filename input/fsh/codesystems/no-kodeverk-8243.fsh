@@ -2,11 +2,11 @@ CodeSystem: NoKodeverk8243
 Id: no-kodeverk-8243.codesystem
 Title: "8243 Type tekstsvar i tekstlig resultat i svarrapportering av medisinske tjenester"
 Description: "Type tekstsvar i tekstlig resultat i svarrapportering av medisinske tjenester"
-* ^url = "http://ehelse.no/fhir/CodeSystem/no-kodeverk-8243"
+* ^url = "http://helsedir.no/fhir/CodeSystem/no-kodeverk-8243"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:2.16.578.1.12.4.1.1.8243"
 * ^status = #active
-* ^publisher = "Direktoratet for e-helse"
+* ^publisher = "Helsedirektoratet"
 * ^content = #complete
 * #AN "Analyse"
 * #DIAG "Diagnose"

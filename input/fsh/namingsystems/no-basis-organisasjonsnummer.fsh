@@ -5,7 +5,7 @@ Usage: #definition
 * status = #active
 * kind = #identifier
 * date = "2022-02-10"
-* publisher = "Direktoratet for e-helse"
+* publisher = "Helsedirektoratet"
 * responsible = "Brønnøysundregistrene"
 * description = "Nisifret, informasjonsløst nummer som entydig identifiserer virksomheter i Enhetsregisteret"
 * jurisdiction = urn:iso:std:iso:3166#NO "Norway"
