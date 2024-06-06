@@ -2,7 +2,7 @@
   "codeSystems" : [
     {
       "url" : "http://helsedir.no/fhir/CodeSystem/no-kodeverk-1101",
-      "version" : "0.5.0",
+      "version" : "0.5.1",
       "status" : "active",
       "name" : "NoKodeverk1101",
       "title" : "1101 Ja, nei",
@@ -11,7 +11,7 @@
     },
     {
       "url" : "http://helsedir.no/fhir/CodeSystem/no-kodeverk-3108",
-      "version" : "0.5.0",
+      "version" : "0.5.1",
       "status" : "active",
       "name" : "NoKodeverk3108",
       "title" : "3108 Reservasjon mot registrering",
@@ -20,7 +20,7 @@
     },
     {
       "url" : "http://helsedir.no/fhir/CodeSystem/no-kodeverk-4101",
-      "version" : "0.5.0",
+      "version" : "0.5.1",
       "status" : "active",
       "name" : "NoKodeverk4101",
       "title" : "4101 Betalingskategori",
@@ -29,7 +29,7 @@
     },
     {
       "url" : "http://helsedir.no/fhir/CodeSystem/no-kodeverk-7010-norpat",
-      "version" : "0.5.0",
+      "version" : "0.5.1",
       "status" : "active",
       "name" : "NoKodeverk7010NORPAT",
       "title" : "Norsk patologikodeverk (NORPAT)",
@@ -38,7 +38,7 @@
     },
     {
       "url" : "http://helsedir.no/fhir/CodeSystem/no-kodeverk-7270-ncrp",
-      "version" : "0.5.0",
+      "version" : "0.5.1",
       "status" : "active",
       "name" : "NoKodeverk7270NCRP",
       "title" : "NCRP",
@@ -47,7 +47,7 @@
     },
     {
       "url" : "http://helsedir.no/fhir/CodeSystem/no-kodeverk-7280-nlk",
-      "version" : "0.5.0",
+      "version" : "0.5.1",
       "status" : "active",
       "name" : "NoKodeverk7280NLK",
       "title" : "Norsk laboratoriekodeverk",
@@ -56,7 +56,7 @@
     },
     {
       "url" : "http://helsedir.no/fhir/CodeSystem/no-kodeverk-7303",
-      "version" : "0.5.0",
+      "version" : "0.5.1",
       "status" : "active",
       "name" : "NoKodeverk7303",
       "title" : "7303 Svarrapporteringsprioritet",
@@ -65,7 +65,7 @@
     },
     {
       "url" : "http://helsedir.no/fhir/CodeSystem/no-kodeverk-7305",
-      "version" : "0.5.0",
+      "version" : "0.5.1",
       "status" : "active",
       "name" : "NoKodeverk7305",
       "title" : "7305 Moderator",
@@ -74,7 +74,7 @@
     },
     {
       "url" : "http://helsedir.no/fhir/CodeSystem/no-kodeverk-8116",
-      "version" : "0.5.0",
+      "version" : "0.5.1",
       "status" : "active",
       "name" : "NoKodeverk8116",
       "title" : "8116 ID-type for personer",
@@ -83,7 +83,7 @@
     },
     {
       "url" : "http://helsedir.no/fhir/CodeSystem/no-kodeverk-8202",
-      "version" : "0.5.0",
+      "version" : "0.5.1",
       "status" : "active",
       "name" : "NoKodeverk8202",
       "title" : "8202 Type laboratoriemelding",
@@ -92,7 +92,7 @@
     },
     {
       "url" : "http://helsedir.no/fhir/CodeSystem/no-kodeverk-8212",
-      "version" : "0.5.0",
+      "version" : "0.5.1",
       "status" : "active",
       "name" : "NoKodeverk8212",
       "title" : "8212 Uspesifisert laboratoriekodeverk",
@@ -101,7 +101,7 @@
     },
     {
       "url" : "http://helsedir.no/fhir/CodeSystem/no-kodeverk-8216",
-      "version" : "0.5.0",
+      "version" : "0.5.1",
       "status" : "active",
       "name" : "NoKodeverk8216",
       "title" : "8216 Kodeverk for cytologisk materiale",
@@ -110,7 +110,7 @@
     },
     {
       "url" : "http://helsedir.no/fhir/CodeSystem/no-kodeverk-8219",
-      "version" : "0.5.0",
+      "version" : "0.5.1",
       "status" : "active",
       "name" : "NoKodeverk8219",
       "title" : "8219 Kodeverk for patologisk-anatomiske undersøkelser",
@@ -119,7 +119,7 @@
     },
     {
       "url" : "http://helsedir.no/fhir/CodeSystem/no-kodeverk-8231",
-      "version" : "0.5.0",
+      "version" : "0.5.1",
       "status" : "active",
       "name" : "NoKodeverk8231",
       "title" : "8231 Type tekstsvar",
@@ -128,7 +128,7 @@
     },
     {
       "url" : "http://helsedir.no/fhir/CodeSystem/no-kodeverk-8232",
-      "version" : "0.5.0",
+      "version" : "0.5.1",
       "status" : "active",
       "name" : "NoKodeverk8232",
       "title" : "8232 Forbehandling",
@@ -137,7 +137,7 @@
     },
     {
       "url" : "http://helsedir.no/fhir/CodeSystem/no-kodeverk-8234",
-      "version" : "0.5.0",
+      "version" : "0.5.1",
       "status" : "active",
       "name" : "NoKodeverk8234",
       "title" : "8234 Type tekstsvar i kommentar til rekvisisjon og henvisning",
@@ -146,7 +146,7 @@
     },
     {
       "url" : "http://helsedir.no/fhir/CodeSystem/no-kodeverk-8239",
-      "version" : "0.5.0",
+      "version" : "0.5.1",
       "status" : "active",
       "name" : "NoKodeverk8239",
       "title" : "8239 Forholdsoperatorer i svarrapportering av medisinske tjenester",
@@ -155,7 +155,7 @@
     },
     {
       "url" : "http://helsedir.no/fhir/CodeSystem/no-kodeverk-8243",
-      "version" : "0.5.0",
+      "version" : "0.5.1",
       "status" : "active",
       "name" : "NoKodeverk8243",
       "title" : "8243 Type tekstsvar i tekstlig resultat i svarrapportering av medisinske tjenester",
@@ -164,7 +164,7 @@
     },
     {
       "url" : "http://helsedir.no/fhir/CodeSystem/no-kodeverk-8244",
-      "version" : "0.5.0",
+      "version" : "0.5.1",
       "status" : "active",
       "name" : "NoKodeverk8244",
       "title" : "8244 Avviksmarkør i svarrapportering av medisinske tjenester",
@@ -173,7 +173,7 @@
     },
     {
       "url" : "http://helsedir.no/fhir/CodeSystem/no-kodeverk-8245",
-      "version" : "0.5.0",
+      "version" : "0.5.1",
       "status" : "active",
       "name" : "NoKodeverk8245",
       "title" : "8245 Status for resultat i svarrapportering av medisinske tjenester",
@@ -182,7 +182,7 @@
     },
     {
       "url" : "http://helsedir.no/fhir/CodeSystem/no-kodeverk-8264",
-      "version" : "0.5.0",
+      "version" : "0.5.1",
       "status" : "retired",
       "name" : "NoKodeverk8264",
       "title" : "8264 Tjenestekoder for timereservasjon",
@@ -191,7 +191,7 @@
     },
     {
       "url" : "http://helsedir.no/fhir/CodeSystem/no-kodeverk-8268",
-      "version" : "0.5.0",
+      "version" : "0.5.1",
       "status" : "active",
       "name" : "NoKodeverk8268",
       "title" : "8268 Type identifikator",
@@ -200,7 +200,7 @@
     },
     {
       "url" : "http://helsedir.no/fhir/CodeSystem/no-kodeverk-8269",
-      "version" : "0.5.0",
+      "version" : "0.5.1",
       "status" : "active",
       "name" : "NoKodeverk8269",
       "title" : "8269 Kommentar til svarrapport",
@@ -209,7 +209,7 @@
     },
     {
       "url" : "http://helsedir.no/fhir/CodeSystem/no-kodeverk-8271",
-      "version" : "0.5.0",
+      "version" : "0.5.1",
       "status" : "active",
       "name" : "NoKodeverk8271",
       "title" : "8271 Resistens",
@@ -218,7 +218,7 @@
     },
     {
       "url" : "http://helsedir.no/fhir/CodeSystem/no-kodeverk-8272",
-      "version" : "0.5.0",
+      "version" : "0.5.1",
       "status" : "active",
       "name" : "NoKodeverk8272",
       "title" : "8272 Anbefaling om ny undersøkelse",
@@ -227,7 +227,7 @@
     },
     {
       "url" : "http://helsedir.no/fhir/CodeSystem/no-kodeverk-8273",
-      "version" : "0.5.0",
+      "version" : "0.5.1",
       "status" : "active",
       "name" : "NoKodeverk8273",
       "title" : "8273 Hastegrad",
@@ -236,7 +236,7 @@
     },
     {
       "url" : "http://helsedir.no/fhir/CodeSystem/no-kodeverk-8274",
-      "version" : "0.5.0",
+      "version" : "0.5.1",
       "status" : "draft",
       "name" : "NoKodeverk8274",
       "title" : "8274 Anbefaling om supplerende undersøkelser",
@@ -245,7 +245,7 @@
     },
     {
       "url" : "http://helsedir.no/fhir/CodeSystem/no-kodeverk-8275",
-      "version" : "0.5.0",
+      "version" : "0.5.1",
       "status" : "active",
       "name" : "NoKodeverk8275",
       "title" : "8275 Cytologisk materiale tatt med",
@@ -254,7 +254,7 @@
     },
     {
       "url" : "http://helsedir.no/fhir/CodeSystem/no-kodeverk-8327",
-      "version" : "0.5.0",
+      "version" : "0.5.1",
       "status" : "active",
       "name" : "NoKodeverk8327",
       "title" : "8327 Offisiell personidentifikasjon",
@@ -263,7 +263,7 @@
     },
     {
       "url" : "http://helsedir.no/fhir/CodeSystem/no-kodeverk-8340",
-      "version" : "0.5.0",
+      "version" : "0.5.1",
       "status" : "active",
       "name" : "NoKodeverk8340",
       "title" : "8340 Tekstlige resultatverdier for mikrobiologiske svar",
@@ -272,7 +272,7 @@
     },
     {
       "url" : "http://helsedir.no/fhir/CodeSystem/no-kodeverk-8351",
-      "version" : "0.5.0",
+      "version" : "0.5.1",
       "status" : "active",
       "name" : "NoKodeverk8351",
       "title" : "8351 Prøvemateriale",
@@ -281,7 +281,7 @@
     },
     {
       "url" : "http://helsedir.no/fhir/CodeSystem/no-kodeverk-9060",
-      "version" : "0.5.0",
+      "version" : "0.5.1",
       "status" : "active",
       "name" : "NoKodeverk9060",
       "title" : "9060 Kategori helsepersonell",
@@ -290,7 +290,7 @@
     },
     {
       "url" : "http://helsedir.no/fhir/CodeSystem/no-kodeverk-9603",
-      "version" : "0.5.0",
+      "version" : "0.5.1",
       "status" : "active",
       "name" : "NoKodeverk9603",
       "title" : "9603 Sperring og nekting av dokumenter",
@@ -299,7 +299,7 @@
     },
     {
       "url" : "http://hl7.org/fhir/sid/icd-10-no",
-      "version" : "0.5.0",
+      "version" : "0.5.1",
       "status" : "active",
       "name" : "NoKodeverkICD10",
       "title" : "ICD-10",

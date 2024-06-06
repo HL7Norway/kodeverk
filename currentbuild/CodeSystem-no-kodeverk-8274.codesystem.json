@@ -10,11 +10,11 @@
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:2.16.578.1.12.4.1.1.8274"
   }],
-  "version" : "0.5.0",
+  "version" : "0.5.1",
   "name" : "NoKodeverk8274",
   "title" : "8274 Anbefaling om supplerende undersøkelser",
   "status" : "draft",
-  "date" : "2024-06-04T05:31:20+00:00",
+  "date" : "2024-06-06T07:46:07+00:00",
   "description" : "Om rekvirenten gir tjenesteyter tillatelse til å utføre ytterligere undersøkelser eller andre tiltak basert på resultater og medisinskfaglig skjønn.",
   "jurisdiction" : [{
     "coding" : [{

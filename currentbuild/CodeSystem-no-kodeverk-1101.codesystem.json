@@ -10,7 +10,7 @@
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:2.16.578.1.12.4.1.1.1101"
   }],
-  "version" : "0.5.0",
+  "version" : "0.5.1",
   "name" : "NoKodeverk1101",
   "title" : "1101 Ja, nei",
   "status" : "active",

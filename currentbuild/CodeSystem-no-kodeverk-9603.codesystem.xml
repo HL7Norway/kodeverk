@@ -18,7 +18,7 @@ Settes av helsepersonell.</p>
 </div></td></tr><tr><td style="white-space:nowrap">NORN_FFH<a name="no-kodeverk-9603.codesystem-NORN_FFH"> </a></td><td>Nektet, fare for helsepersonell</td><td><div><p>Nektet pasientinnsyn - vises ikke elektronisk fordi pasient har fremsatt alvorlige trusler og fremstår aktivt med agitasjon overfor behandler. Åpner for at helsepersonell, i helt spesielle unntakssituasjoner der de føler seg truet, skal kunne beskytte seg selv ved å nekte elektronisk pasientinnsyn på enkeltdokumenter i pasientjournalen. Dermed blir ikke helsepersonellets navn like lett tilgjengelig for pasienten.</p>
 </div></td></tr><tr><td style="white-space:nowrap">NORN_FPB<a name="no-kodeverk-9603.codesystem-NORN_FPB"> </a></td><td>Nektet, forsvarlig pasientbehandling</td><td><div><p>Nektet pasientinnsyn - vises ikke elektronisk av hensyn til forsvarlig pasientbehandling. Dette brukes i tilfeller dokumenter inkluderer informasjon som pasienten av ulike grunner, ikke bør få digitalt innsyn i. Blant annet kreftdiagnoser der pasienten ikke er informert ennå eller informasjon som påvirker pågående behandling på en negativ måte.</p>
 </div></td></tr><tr><td style="white-space:nowrap">NORN_DUP<a name="no-kodeverk-9603.codesystem-NORN_DUP"> </a></td><td>Nektet, duplikat</td><td><div><p>Nektet pasientinnsyn, Duplikat. Brukes for å flagge duplikat dokumenter, for eksempel dokumenter som blir kopiert til et HF ved virksomehetsoverdragelse.</p>
-</div></td></tr><tr><td style="white-space:nowrap">NORN_ANG<a name="no-kodeverk-9603.codesystem-NORN_ANG"> </a></td><td>Nektet, andre grunner</td><td><div><p>Nektet pasientinnsyn - kodeverket OID 9603 dekker ikke nektningsgrunnlaget - kontakte evt. Sykehuset. Kodeverket er relativt nytt og innsynsløsninger er under utvikling - Kodeverket må da derfor være under utvikling</p>
+</div></td></tr><tr><td style="white-space:nowrap">NORN_ANG<a name="no-kodeverk-9603.codesystem-NORN_ANG"> </a></td><td>Nektet – andre grunner</td><td><div><p>Nektet pasientinnsyn - kodeverket OID 9603 dekker ikke nektningsgrunnlaget - kontakte evt. Sykehuset. Kodeverket er relativt nytt og innsynsløsninger er under utvikling - Kodeverket må da derfor være under utvikling</p>
 </div></td></tr><tr><td style="white-space:nowrap">NORU<a name="no-kodeverk-9603.codesystem-NORU"> </a></td><td>Utsatt innsyn for innbygger</td><td><div><p>Tilgangsbegrensning som gjør at utvalgte helseopplysninger gjøres tilgjengelig for innbyggeren etter fastsatt tid. Tilgangsbegrensningen kan være satt av helsepersonell, eller satt automatisk i henhold til forhåndsdefinerte regler</p>
 </div></td></tr><tr><td style="white-space:nowrap">NORS<a name="no-kodeverk-9603.codesystem-NORS"> </a></td><td>Sperret</td><td><div><p>Tilgangsbegrensning som innebærer at innbyggeren sperrer hele eller deler av opplysningene som ligger i et behandlingsrettet helseregister slik at opplysningene ikke blir tilgjengelige for enkeltpersonell eller grupper av helsepersonell</p>
 </div></td></tr></table></div>
@@ -28,11 +28,11 @@ Settes av helsepersonell.</p>
     <system value="urn:ietf:rfc:3986"/>
     <value value="urn:oid:2.16.578.1.12.4.1.1.9603"/>
   </identifier>
-  <version value="0.5.0"/>
+  <version value="0.5.1"/>
   <name value="NoKodeverk9603"/>
   <title value="9603 Sperring og nekting av dokumenter"/>
   <status value="active"/>
-  <date value="2024-06-04T05:31:20+00:00"/>
+  <date value="2024-06-06T07:46:07+00:00"/>
   <description value="Kodeverket benyttes for å angi sperring og nekting av dokumenter. Opprettet for bruk i HIS 1169:2016 IHE XDS metadata inntil en nasjonal løsning for tilgangsstyring/håndtering av sperring er etablert."/>
   <jurisdiction>
     <coding>
@@ -100,7 +100,7 @@ Settes av helsepersonell.</p>
   </concept>
   <concept>
     <code value="NORN_ANG"/>
-    <display value="Nektet, andre grunner"/>
+    <display value="Nektet – andre grunner"/>
     <definition value="Nektet pasientinnsyn - kodeverket OID 9603 dekker ikke nektningsgrunnlaget - kontakte evt. Sykehuset. Kodeverket er relativt nytt og innsynsløsninger er under utvikling - Kodeverket må da derfor være under utvikling"/>
   </concept>
   <concept>

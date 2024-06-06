@@ -1,7 +1,7 @@
 {
-  "version" : "0.5.0",
+  "version" : "0.5.1",
   "fhirVersion" : ["4.0.1"],
-  "date" : "20240604053043",
+  "date" : "20240606074529",
   "name" : "hl7.fhir.no.kodeverk",
   "jurisdiction" : "urn:iso:std:iso:3166#NO"
 }

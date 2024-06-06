@@ -10,11 +10,11 @@
     <system value="urn:ietf:rfc:3986"/>
     <value value="urn:oid:2.16.578.1.12.4.1.1.8243"/>
   </identifier>
-  <version value="0.5.0"/>
+  <version value="0.5.1"/>
   <name value="NoKodeverk8243"/>
   <title value="8243 Type tekstsvar i tekstlig resultat i svarrapportering av medisinske tjenester"/>
   <status value="active"/>
-  <date value="2024-06-04T05:31:20+00:00"/>
+  <date value="2024-06-06T07:46:07+00:00"/>
   <description value="Type tekstsvar i tekstlig resultat i svarrapportering av medisinske tjenester"/>
   <jurisdiction>
     <coding>

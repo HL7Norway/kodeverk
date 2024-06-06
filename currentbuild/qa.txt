@@ -3,7 +3,7 @@ NoKodeverk : Validation Results
 
 err = 71, warn = 82, info = 34
 IG Publisher Version: 1.6.10
-Generated Tue Jun 04 05:34:00 UTC 2024. FHIR version 4.0.1 for hl7.fhir.no.kodeverk#0.5.0 (canonical = http://hl7.no/fhir)
+Generated Thu Jun 06 07:48:50 UTC 2024. FHIR version 4.0.1 for hl7.fhir.no.kodeverk#0.5.1 (canonical = http://hl7.no/fhir)
  Build Errors : 1 / 11 / 0
  /github/workspace/fsh-generated/resources/CodeSystem-no-kodeverk-1101.codesystem : 2 / 2 / 2
  /github/workspace/fsh-generated/resources/CodeSystem-no-kodeverk-3108.codesystem : 2 / 2 / 2
