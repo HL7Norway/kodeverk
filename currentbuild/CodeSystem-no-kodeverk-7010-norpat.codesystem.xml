@@ -14,7 +14,7 @@
   <name value="NoKodeverk7010NORPAT"/>
   <title value="Norsk patologikodeverk (NORPAT)"/>
   <status value="active"/>
-  <date value="2024-12-17T09:50:02+00:00"/>
+  <date value="2024-12-17T09:56:26+00:00"/>
   <description value="Norsk patologikodeverk er et kodeverk som benyttes ved norske patologiavdelinger. Kodeverket ble utarbeidet av Den norske patologforenings kode- og nomenklaturutvalg i samarbeid med KITH på grunnlag av The Systematized Nomenclature of Medicine (SNOMED, 1984). Endret navn fra Den norske SNOMED til Norsk patologikodeverk 3. november 2015."/>
   <jurisdiction>
     <coding>

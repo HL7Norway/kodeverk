@@ -21,7 +21,7 @@
   fhir:name [ fhir:v "NoKodeverk8202"] ; # 
   fhir:title [ fhir:v "8202 Type laboratoriemelding"] ; # 
   fhir:status [ fhir:v "active"] ; # 
-  fhir:date [ fhir:v "2024-12-17T09:50:02+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2024-12-17T09:56:26+00:00"^^xsd:dateTime] ; # 
   fhir:description [ fhir:v "Fagområde innen laboratoriemedisin og bildediagnstikk. Benyttes for å angi type svarrapport"] ; # 
   fhir:jurisdiction ( [
      fhir:coding ( [

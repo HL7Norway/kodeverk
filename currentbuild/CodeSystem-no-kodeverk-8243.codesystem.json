@@ -3,7 +3,7 @@
   "id" : "no-kodeverk-8243.codesystem",
   "text" : {
     "status" : "generated",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem no-kodeverk-8243.codesystem</b></p><a name=\"no-kodeverk-8243.codesystem\"> </a><a name=\"hcno-kodeverk-8243.codesystem\"> </a><a name=\"no-kodeverk-8243.codesystem-no-NO\"> </a><p>This  code system <code>http://helsedir.no/fhir/CodeSystem/no-kodeverk-8243</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">AN<a name=\"no-kodeverk-8243.codesystem-AN\"> </a></td><td>Analyse</td></tr><tr><td style=\"white-space:nowrap\">DIAG<a name=\"no-kodeverk-8243.codesystem-DIAG\"> </a></td><td>Diagnose</td></tr><tr><td style=\"white-space:nowrap\">FU<a name=\"no-kodeverk-8243.codesystem-FU\"> </a></td><td>Funn og undersøkelsesresultater</td></tr><tr><td style=\"white-space:nowrap\">GR<a name=\"no-kodeverk-8243.codesystem-GR\"> </a></td><td>Gruppe</td></tr><tr><td style=\"white-space:nowrap\">LR<a name=\"no-kodeverk-8243.codesystem-LR\"> </a></td><td>Laboratorieresultat</td></tr><tr><td style=\"white-space:nowrap\">MET<a name=\"no-kodeverk-8243.codesystem-MET\"> </a></td><td>Metode/utførte tester, medisinsk genetikk</td></tr><tr><td style=\"white-space:nowrap\">RSB<a name=\"no-kodeverk-8243.codesystem-RSB\"> </a></td><td>Resistensbestemmelse</td></tr><tr><td style=\"white-space:nowrap\">SY<a name=\"no-kodeverk-8243.codesystem-SY\"> </a></td><td>Sykmelding</td></tr><tr><td style=\"white-space:nowrap\">TFU<a name=\"no-kodeverk-8243.codesystem-TFU\"> </a></td><td>Metode/utførte tester, medisinsk genetikk</td></tr><tr><td style=\"white-space:nowrap\">UP<a name=\"no-kodeverk-8243.codesystem-UP\"> </a></td><td>Ubesvarte prøver</td></tr><tr><td style=\"white-space:nowrap\">VU<a name=\"no-kodeverk-8243.codesystem-VU\"> </a></td><td>Vurdering</td></tr><tr><td style=\"white-space:nowrap\">XX<a name=\"no-kodeverk-8243.codesystem-XX\"> </a></td><td>Uspesifisert</td></tr></table></div>"
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem no-kodeverk-8243.codesystem</b></p><a name=\"no-kodeverk-8243.codesystem\"> </a><a name=\"hcno-kodeverk-8243.codesystem\"> </a><a name=\"no-kodeverk-8243.codesystem-no-NO\"> </a><p>This  code system <code>http://helsedir.no/fhir/CodeSystem/no-kodeverk-8243</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">AN<a name=\"no-kodeverk-8243.codesystem-AN\"> </a></td><td>Analyse</td></tr><tr><td style=\"white-space:nowrap\">DIAG<a name=\"no-kodeverk-8243.codesystem-DIAG\"> </a></td><td>Diagnose</td></tr><tr><td style=\"white-space:nowrap\">FU<a name=\"no-kodeverk-8243.codesystem-FU\"> </a></td><td>Funn og undersøkelsesresultater</td></tr><tr><td style=\"white-space:nowrap\">GR<a name=\"no-kodeverk-8243.codesystem-GR\"> </a></td><td>Gruppe</td></tr><tr><td style=\"white-space:nowrap\">LR<a name=\"no-kodeverk-8243.codesystem-LR\"> </a></td><td>Laboratorieresultat</td></tr><tr><td style=\"white-space:nowrap\">MET<a name=\"no-kodeverk-8243.codesystem-MET\"> </a></td><td>Metode/utførte tester, medisinsk genetikk</td></tr><tr><td style=\"white-space:nowrap\">RSB<a name=\"no-kodeverk-8243.codesystem-RSB\"> </a></td><td>Resistensbestemmelse</td></tr><tr><td style=\"white-space:nowrap\">SY<a name=\"no-kodeverk-8243.codesystem-SY\"> </a></td><td>Sykmelding</td></tr><tr><td style=\"white-space:nowrap\">TFU<a name=\"no-kodeverk-8243.codesystem-TFU\"> </a></td><td>Tilleggsfunn</td></tr><tr><td style=\"white-space:nowrap\">UP<a name=\"no-kodeverk-8243.codesystem-UP\"> </a></td><td>Ubesvarte prøver</td></tr><tr><td style=\"white-space:nowrap\">VU<a name=\"no-kodeverk-8243.codesystem-VU\"> </a></td><td>Vurdering</td></tr><tr><td style=\"white-space:nowrap\">XX<a name=\"no-kodeverk-8243.codesystem-XX\"> </a></td><td>Uspesifisert</td></tr></table></div>"
   },
   "url" : "http://helsedir.no/fhir/CodeSystem/no-kodeverk-8243",
   "identifier" : [{
@@ -14,7 +14,7 @@
   "name" : "NoKodeverk8243",
   "title" : "8243 Type tekstsvar i tekstlig resultat i svarrapportering av medisinske tjenester",
   "status" : "active",
-  "date" : "2024-12-17T09:50:02+00:00",
+  "date" : "2024-12-17T09:56:26+00:00",
   "description" : "Type tekstsvar i tekstlig resultat i svarrapportering av medisinske tjenester",
   "jurisdiction" : [{
     "coding" : [{
@@ -59,7 +59,7 @@
   },
   {
     "code" : "TFU",
-    "display" : "Metode/utførte tester, medisinsk genetikk"
+    "display" : "Tilleggsfunn"
   },
   {
     "code" : "UP",

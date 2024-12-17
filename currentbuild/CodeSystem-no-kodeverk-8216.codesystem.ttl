@@ -21,7 +21,7 @@
   fhir:name [ fhir:v "NoKodeverk8216"] ; # 
   fhir:title [ fhir:v "8216 Kodeverk for cytologisk materiale"] ; # 
   fhir:status [ fhir:v "active"] ; # 
-  fhir:date [ fhir:v "2024-12-17T09:50:02+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2024-12-17T09:56:26+00:00"^^xsd:dateTime] ; # 
   fhir:description [ fhir:v "Gynekologisk materiale eller annet cytologisk materiale som er tatt for cytologiske undersøkelser. Kodene dekker opp valgmuligheter fra standard rekvisisjonsskjema for cytologiske undersøkelser."] ; # 
   fhir:jurisdiction ( [
      fhir:coding ( [
