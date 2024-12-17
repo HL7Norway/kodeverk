@@ -16,7 +16,7 @@ Description: "Type tekstsvar i tekstlig resultat i svarrapportering av medisinsk
 * #MET "Metode/utførte tester, medisinsk genetikk"
 * #RSB "Resistensbestemmelse"
 * #SY "Sykmelding"
-* #TFU "Metode/utførte tester, medisinsk genetikk"
+* #TFU "Tilleggsfunn"
 * #UP "Ubesvarte prøver"
 * #VU "Vurdering"
 * #XX "Uspesifisert"
