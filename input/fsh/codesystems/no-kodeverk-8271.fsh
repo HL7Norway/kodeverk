@@ -10,4 +10,5 @@ Description: "Svarverdier til bruk i resistensbestemmelser (SIR)"
 * ^content = #complete
 * #S "Sensitiv, standarddose"
 * #I "Sensitiv, økt eksponering"
+* #K "Se kommentar"
 * #R "Resistent"
