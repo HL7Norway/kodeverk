@@ -3,7 +3,7 @@
 <CodeSystem xmlns="http://hl7.org/fhir">
   <id value="no-kodeverk-9603.codesystem"/>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This  code system <code>http://helsedir.no/fhir/CodeSystem/no-kodeverk-9603</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style="white-space:nowrap">N<a name="no-kodeverk-9603.codesystem-N"> </a></td><td>Normal</td><td><div><p>Ingen spesielle tilgangsbegrensninger er satt</p>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem no-kodeverk-9603.codesystem</b></p><a name="no-kodeverk-9603.codesystem"> </a><a name="hcno-kodeverk-9603.codesystem"> </a><a name="no-kodeverk-9603.codesystem-no-NO"> </a><p>This  code system <code>http://helsedir.no/fhir/CodeSystem/no-kodeverk-9603</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style="white-space:nowrap">N<a name="no-kodeverk-9603.codesystem-N"> </a></td><td>Normal</td><td><div><p>Ingen spesielle tilgangsbegrensninger er satt</p>
 </div></td></tr><tr><td style="white-space:nowrap">NORN_FFL<a name="no-kodeverk-9603.codesystem-NORN_FFL"> </a></td><td>Nektet, fare for liv</td><td><div><p>Nektet pasientinnsyn av enkeltdokument. Fare for liv eller alvorlig helseskade, jf. pasbrl §5-1, 2. ledd 1. alternativ.</p>
 </div></td></tr><tr><td style="white-space:nowrap">NORN_KUT<a name="no-kodeverk-9603.codesystem-NORN_KUT"> </a></td><td>Nektet, klart utilrådelig</td><td><div><p>Nektet pasientinnsyn av enkeltdokument. Klart utilrådelig av hensyn til nærstående, jf. pasbrl §5-1, 2. ledd 2. alternativ.</p>
 </div></td></tr><tr><td style="white-space:nowrap">NORN_EPO<a name="no-kodeverk-9603.codesystem-NORN_EPO"> </a></td><td>Nektet, eget ønske</td><td><div><p>Nektet pasientinnsyn av enkeltdokument. Vises ikke elektronisk etter pasientens eget ønske.</p>
@@ -28,11 +28,11 @@ Settes av helsepersonell.</p>
     <system value="urn:ietf:rfc:3986"/>
     <value value="urn:oid:2.16.578.1.12.4.1.1.9603"/>
   </identifier>
-  <version value="0.5.1"/>
+  <version value="0.6.0"/>
   <name value="NoKodeverk9603"/>
   <title value="9603 Sperring og nekting av dokumenter"/>
   <status value="active"/>
-  <date value="2024-06-06T07:46:07+00:00"/>
+  <date value="2024-12-17T09:50:02+00:00"/>
   <description value="Kodeverket benyttes for å angi sperring og nekting av dokumenter. Opprettet for bruk i HIS 1169:2016 IHE XDS metadata inntil en nasjonal løsning for tilgangsstyring/håndtering av sperring er etablert."/>
   <jurisdiction>
     <coding>

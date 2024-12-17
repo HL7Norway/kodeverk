@@ -3,18 +3,18 @@
   "id" : "no-kodeverk-8273.codesystem",
   "text" : {
     "status" : "generated",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This  code system <code>http://helsedir.no/fhir/CodeSystem/no-kodeverk-8273</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">S<a name=\"no-kodeverk-8273.codesystem-S\"> </a></td><td>Snarest</td></tr><tr><td style=\"white-space:nowrap\">B<a name=\"no-kodeverk-8273.codesystem-B\"> </a></td><td>Etter behandling</td></tr><tr><td style=\"white-space:nowrap\">M01<a name=\"no-kodeverk-8273.codesystem-M01\"> </a></td><td>Etter 1 måned</td></tr><tr><td style=\"white-space:nowrap\">M03<a name=\"no-kodeverk-8273.codesystem-M03\"> </a></td><td>Etter 3 måneder</td></tr><tr><td style=\"white-space:nowrap\">M06<a name=\"no-kodeverk-8273.codesystem-M06\"> </a></td><td>Etter 6 måneder</td></tr><tr><td style=\"white-space:nowrap\">M12<a name=\"no-kodeverk-8273.codesystem-M12\"> </a></td><td>Etter 12 måneder</td></tr></table></div>"
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem no-kodeverk-8273.codesystem</b></p><a name=\"no-kodeverk-8273.codesystem\"> </a><a name=\"hcno-kodeverk-8273.codesystem\"> </a><a name=\"no-kodeverk-8273.codesystem-no-NO\"> </a><p>This  code system <code>http://helsedir.no/fhir/CodeSystem/no-kodeverk-8273</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">S<a name=\"no-kodeverk-8273.codesystem-S\"> </a></td><td>Snarest</td></tr><tr><td style=\"white-space:nowrap\">B<a name=\"no-kodeverk-8273.codesystem-B\"> </a></td><td>Etter behandling</td></tr><tr><td style=\"white-space:nowrap\">M01<a name=\"no-kodeverk-8273.codesystem-M01\"> </a></td><td>Etter 1 måned</td></tr><tr><td style=\"white-space:nowrap\">M03<a name=\"no-kodeverk-8273.codesystem-M03\"> </a></td><td>Etter 3 måneder</td></tr><tr><td style=\"white-space:nowrap\">M06<a name=\"no-kodeverk-8273.codesystem-M06\"> </a></td><td>Etter 6 måneder</td></tr><tr><td style=\"white-space:nowrap\">M12<a name=\"no-kodeverk-8273.codesystem-M12\"> </a></td><td>Etter 12 måneder</td></tr></table></div>"
   },
   "url" : "http://helsedir.no/fhir/CodeSystem/no-kodeverk-8273",
   "identifier" : [{
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:2.16.578.1.12.4.1.1.8273"
   }],
-  "version" : "0.5.1",
+  "version" : "0.6.0",
   "name" : "NoKodeverk8273",
   "title" : "8273 Hastegrad",
   "status" : "active",
-  "date" : "2024-06-06T07:46:07+00:00",
+  "date" : "2024-12-17T09:50:02+00:00",
   "description" : "Anbefalt tidsperspektiv for tiltak.",
   "jurisdiction" : [{
     "coding" : [{

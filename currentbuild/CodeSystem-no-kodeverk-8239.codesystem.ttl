@@ -10,18 +10,18 @@
   fhir:id [ fhir:v "no-kodeverk-8239.codesystem"] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This  code system <code>http://helsedir.no/fhir/CodeSystem/no-kodeverk-8239</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">EQ<a name=\"no-kodeverk-8239.codesystem-EQ\"> </a></td><td>Lik</td></tr><tr><td style=\"white-space:nowrap\">GE<a name=\"no-kodeverk-8239.codesystem-GE\"> </a></td><td>Større eller lik</td></tr><tr><td style=\"white-space:nowrap\">GT<a name=\"no-kodeverk-8239.codesystem-GT\"> </a></td><td>Større enn</td></tr><tr><td style=\"white-space:nowrap\">LE<a name=\"no-kodeverk-8239.codesystem-LE\"> </a></td><td>Mindre eller lik</td></tr><tr><td style=\"white-space:nowrap\">LT<a name=\"no-kodeverk-8239.codesystem-LT\"> </a></td><td>Mindre enn</td></tr><tr><td style=\"white-space:nowrap\">MG<a name=\"no-kodeverk-8239.codesystem-MG\"> </a></td><td>Mye større enn</td></tr><tr><td style=\"white-space:nowrap\">ML<a name=\"no-kodeverk-8239.codesystem-ML\"> </a></td><td>Mye mindre enn</td></tr><tr><td style=\"white-space:nowrap\">NE<a name=\"no-kodeverk-8239.codesystem-NE\"> </a></td><td>Ikke lik</td></tr></table></div>"
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem no-kodeverk-8239.codesystem</b></p><a name=\"no-kodeverk-8239.codesystem\"> </a><a name=\"hcno-kodeverk-8239.codesystem\"> </a><a name=\"no-kodeverk-8239.codesystem-no-NO\"> </a><p>This  code system <code>http://helsedir.no/fhir/CodeSystem/no-kodeverk-8239</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">EQ<a name=\"no-kodeverk-8239.codesystem-EQ\"> </a></td><td>Lik</td></tr><tr><td style=\"white-space:nowrap\">GE<a name=\"no-kodeverk-8239.codesystem-GE\"> </a></td><td>Større eller lik</td></tr><tr><td style=\"white-space:nowrap\">GT<a name=\"no-kodeverk-8239.codesystem-GT\"> </a></td><td>Større enn</td></tr><tr><td style=\"white-space:nowrap\">LE<a name=\"no-kodeverk-8239.codesystem-LE\"> </a></td><td>Mindre eller lik</td></tr><tr><td style=\"white-space:nowrap\">LT<a name=\"no-kodeverk-8239.codesystem-LT\"> </a></td><td>Mindre enn</td></tr><tr><td style=\"white-space:nowrap\">MG<a name=\"no-kodeverk-8239.codesystem-MG\"> </a></td><td>Mye større enn</td></tr><tr><td style=\"white-space:nowrap\">ML<a name=\"no-kodeverk-8239.codesystem-ML\"> </a></td><td>Mye mindre enn</td></tr><tr><td style=\"white-space:nowrap\">NE<a name=\"no-kodeverk-8239.codesystem-NE\"> </a></td><td>Ikke lik</td></tr></table></div>"
   ] ; # 
   fhir:url [ fhir:v "http://helsedir.no/fhir/CodeSystem/no-kodeverk-8239"^^xsd:anyURI] ; # 
   fhir:identifier ( [
      fhir:system [ fhir:v "urn:ietf:rfc:3986"^^xsd:anyURI ] ;
      fhir:value [ fhir:v "urn:oid:2.16.578.1.12.4.1.1.8239" ]
   ] ) ; # 
-  fhir:version [ fhir:v "0.5.1"] ; # 
+  fhir:version [ fhir:v "0.6.0"] ; # 
   fhir:name [ fhir:v "NoKodeverk8239"] ; # 
   fhir:title [ fhir:v "8239 Forholdsoperatorer i svarrapportering av medisinske tjenester"] ; # 
   fhir:status [ fhir:v "active"] ; # 
-  fhir:date [ fhir:v "2024-06-06T07:46:07+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2024-12-17T09:50:02+00:00"^^xsd:dateTime] ; # 
   fhir:description [ fhir:v "Forholdsoperatorer i svarrapportering av medisinske tjeneste"] ; # 
   fhir:jurisdiction ( [
      fhir:coding ( [

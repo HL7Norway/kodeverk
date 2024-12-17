@@ -3,18 +3,18 @@
 <CodeSystem xmlns="http://hl7.org/fhir">
   <id value="no-kodeverk-8232.codesystem"/>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This  code system <code>http://helsedir.no/fhir/CodeSystem/no-kodeverk-8232</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">PFP<a name="no-kodeverk-8232.codesystem-PFP"> </a></td><td>Profylaktisk prosedyre</td></tr><tr><td style="white-space:nowrap">DI<a name="no-kodeverk-8232.codesystem-DI"> </a></td><td>Diett</td></tr><tr><td style="white-space:nowrap">FA<a name="no-kodeverk-8232.codesystem-FA"> </a></td><td>Faste</td></tr><tr><td style="white-space:nowrap">MEDB<a name="no-kodeverk-8232.codesystem-MEDB"> </a></td><td>Medikamentell behandling</td></tr></table></div>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem no-kodeverk-8232.codesystem</b></p><a name="no-kodeverk-8232.codesystem"> </a><a name="hcno-kodeverk-8232.codesystem"> </a><a name="no-kodeverk-8232.codesystem-no-NO"> </a><p>This  code system <code>http://helsedir.no/fhir/CodeSystem/no-kodeverk-8232</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">PFP<a name="no-kodeverk-8232.codesystem-PFP"> </a></td><td>Profylaktisk prosedyre</td></tr><tr><td style="white-space:nowrap">DI<a name="no-kodeverk-8232.codesystem-DI"> </a></td><td>Diett</td></tr><tr><td style="white-space:nowrap">FA<a name="no-kodeverk-8232.codesystem-FA"> </a></td><td>Faste</td></tr><tr><td style="white-space:nowrap">MEDB<a name="no-kodeverk-8232.codesystem-MEDB"> </a></td><td>Medikamentell behandling</td></tr></table></div>
   </text>
   <url value="http://helsedir.no/fhir/CodeSystem/no-kodeverk-8232"/>
   <identifier>
     <system value="urn:ietf:rfc:3986"/>
     <value value="urn:oid:2.16.578.1.12.4.1.1.8232"/>
   </identifier>
-  <version value="0.5.1"/>
+  <version value="0.6.0"/>
   <name value="NoKodeverk8232"/>
   <title value="8232 Forbehandling"/>
   <status value="active"/>
-  <date value="2024-06-06T07:46:07+00:00"/>
+  <date value="2024-12-17T09:50:02+00:00"/>
   <description value="Forberedelse før undersøkelse"/>
   <jurisdiction>
     <coding>

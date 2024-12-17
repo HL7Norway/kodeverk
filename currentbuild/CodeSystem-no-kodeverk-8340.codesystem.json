@@ -3,14 +3,14 @@
   "id" : "no-kodeverk-8340.codesystem",
   "text" : {
     "status" : "generated",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This  code system <code>http://helsedir.no/fhir/CodeSystem/no-kodeverk-8340</code> defines codes, but no codes are represented here</p></div>"
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem no-kodeverk-8340.codesystem</b></p><a name=\"no-kodeverk-8340.codesystem\"> </a><a name=\"hcno-kodeverk-8340.codesystem\"> </a><a name=\"no-kodeverk-8340.codesystem-no-NO\"> </a><p>This  code system <code>http://helsedir.no/fhir/CodeSystem/no-kodeverk-8340</code> defines codes, but no codes are represented here</p></div>"
   },
   "url" : "http://helsedir.no/fhir/CodeSystem/no-kodeverk-8340",
   "identifier" : [{
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:2.16.578.1.12.4.1.1.8340"
   }],
-  "version" : "0.5.1",
+  "version" : "0.6.0",
   "name" : "NoKodeverk8340",
   "title" : "8340 Tekstlige resultatverdier for mikrobiologiske svar",
   "status" : "active",

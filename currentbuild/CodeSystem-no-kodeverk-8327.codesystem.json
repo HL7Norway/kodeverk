@@ -3,18 +3,18 @@
   "id" : "no-kodeverk-8327.codesystem",
   "text" : {
     "status" : "generated",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This  code system <code>http://helsedir.no/fhir/CodeSystem/no-kodeverk-8327</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">DNR<a name=\"no-kodeverk-8327.codesystem-DNR\"> </a></td><td>D-nummer</td></tr><tr><td style=\"white-space:nowrap\">FHN<a name=\"no-kodeverk-8327.codesystem-FHN\"> </a></td><td>Felles hjelpenummer (FH-nummer)</td></tr><tr><td style=\"white-space:nowrap\">FNR<a name=\"no-kodeverk-8327.codesystem-FNR\"> </a></td><td>Fødselsnummer</td></tr><tr><td style=\"white-space:nowrap\">HNR<a name=\"no-kodeverk-8327.codesystem-HNR\"> </a></td><td>Virksomhetsinternt hjelpenummer</td></tr></table></div>"
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem no-kodeverk-8327.codesystem</b></p><a name=\"no-kodeverk-8327.codesystem\"> </a><a name=\"hcno-kodeverk-8327.codesystem\"> </a><a name=\"no-kodeverk-8327.codesystem-no-NO\"> </a><p>This  code system <code>http://helsedir.no/fhir/CodeSystem/no-kodeverk-8327</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">DNR<a name=\"no-kodeverk-8327.codesystem-DNR\"> </a></td><td>D-nummer</td></tr><tr><td style=\"white-space:nowrap\">FHN<a name=\"no-kodeverk-8327.codesystem-FHN\"> </a></td><td>Felles hjelpenummer (FH-nummer)</td></tr><tr><td style=\"white-space:nowrap\">FNR<a name=\"no-kodeverk-8327.codesystem-FNR\"> </a></td><td>Fødselsnummer</td></tr><tr><td style=\"white-space:nowrap\">HNR<a name=\"no-kodeverk-8327.codesystem-HNR\"> </a></td><td>Virksomhetsinternt hjelpenummer</td></tr></table></div>"
   },
   "url" : "http://helsedir.no/fhir/CodeSystem/no-kodeverk-8327",
   "identifier" : [{
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:2.16.578.1.12.4.1.1.8327"
   }],
-  "version" : "0.5.1",
+  "version" : "0.6.0",
   "name" : "NoKodeverk8327",
   "title" : "8327 Offisiell personidentifikasjon",
   "status" : "active",
-  "date" : "2024-06-06T07:46:07+00:00",
+  "date" : "2024-12-17T09:50:02+00:00",
   "description" : "Angir type identifikator for person",
   "jurisdiction" : [{
     "coding" : [{

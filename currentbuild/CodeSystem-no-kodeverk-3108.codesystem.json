@@ -3,18 +3,18 @@
   "id" : "no-kodeverk-3108.codesystem",
   "text" : {
     "status" : "generated",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This  code system <code>http://helsedir.no/fhir/CodeSystem/no-kodeverk-3108</code> defines codes, but no codes are represented here</p></div>"
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem no-kodeverk-3108.codesystem</b></p><a name=\"no-kodeverk-3108.codesystem\"> </a><a name=\"hcno-kodeverk-3108.codesystem\"> </a><a name=\"no-kodeverk-3108.codesystem-no-NO\"> </a><p>This  code system <code>http://helsedir.no/fhir/CodeSystem/no-kodeverk-3108</code> defines codes, but no codes are represented here</p></div>"
   },
   "url" : "http://helsedir.no/fhir/CodeSystem/no-kodeverk-3108",
   "identifier" : [{
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:2.16.578.1.12.4.1.1.3108"
   }],
-  "version" : "0.5.1",
+  "version" : "0.6.0",
   "name" : "NoKodeverk3108",
   "title" : "3108 Reservasjon mot registrering",
   "status" : "active",
-  "date" : "2024-06-06T07:46:07+00:00",
+  "date" : "2024-12-17T09:50:02+00:00",
   "description" : "Opplysning om pasienten holdning til registrering av informasjon i register",
   "jurisdiction" : [{
     "coding" : [{

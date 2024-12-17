@@ -56,7 +56,7 @@ WARNING: /github/workspace/output/CodeSystem-no-kodeverk-1101.codesystem-testing
 WARNING: /github/workspace/output/CodeSystem-no-kodeverk-1101.codesystem.change.history.html#/html/body/script at Line 218, column 4: The <script> containing the javascript 'try {       var curr'... is illegal and not allowed on the HL7 cibuild - need to put the script in a  .js file in a trusted template if this IG is to build on the HL7 cibuild (also in 37 other files)
 WARNING: 1: The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide
 WARNING: 2: An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide
-WARNING: 3: An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xhtml] is not included anywhere in the produced implementation guide
+WARNING: 3: An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xhtml, dependency-table-nontech.xhtml] is not included anywhere in the produced implementation guide
 WARNING: 4: The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced implementation guide
 == fsh-generated/resources/CodeSystem-no-kodeverk-1101.codesystem.json ==
 ERROR: CodeSystem.where(url = 'http://helsedir.no/fhir/CodeSystem/no-kodeverk-1101'): Conformance resource /github/workspace/fsh-generated/resources/CodeSystem-no-kodeverk-1101.codesystem.json - the canonical URL (http://hl7.no/fhir/CodeSystem/no-kodeverk-1101.codesystem) does not match the URL (http://helsedir.no/fhir/CodeSystem/no-kodeverk-1101)
@@ -264,8 +264,8 @@ ERROR: /github/workspace/fsh-generated/resources/CodeSystem-no-kodeverk-9603.cod
 ERROR: CodeSystem.where(url = 'http://hl7.org/fhir/sid/icd-10-no'): Conformance resource /github/workspace/fsh-generated/resources/CodeSystem-no-kodeverk-ICD-10.codesystem.json - the canonical URL (http://hl7.no/fhir/CodeSystem/no-kodeverk-ICD-10.codesystem) does not match the URL (http://hl7.org/fhir/sid/icd-10-no)
 INFORMATION: CodeSystem/no-kodeverk-ICD-10.codesystem: CodeSystem: Most code systems defined in HL7 IGs will need to move to THO later during the process. Consider giving this code system a THO URL now (See https://confluence.hl7.org/display/TSMG/Terminology+Play+Book, and/or talk to TSMG)
 WARNING: CodeSystem/no-kodeverk-ICD-10.codesystem: CodeSystem: HL7 Defined CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
-ERROR: CodeSystem/no-kodeverk-ICD-10.codesystem: CodeSystem: Published code systems SHALL conform to the ShareableCodeSystem profile, which says that the element CodeSystem.experimental is mandatory, but it is not present
-ERROR: CodeSystem/no-kodeverk-ICD-10.codesystem: CodeSystem: Published code systems SHALL conform to the ShareableCodeSystem profile, which says that the element CodeSystem.caseSensitive is mandatory, but it is not present
+ERROR: CodeSystem/no-kodeverk-ICD-10.codesystem: CodeSystem: Code systems published by HL7 SHALL conform to the ShareableCodeSystem profile, which says that the element CodeSystem.experimental is mandatory, but it is not present
+ERROR: CodeSystem/no-kodeverk-ICD-10.codesystem: CodeSystem: Code systems published by HL7 SHALL conform to the ShareableCodeSystem profile, which says that the element CodeSystem.caseSensitive is mandatory, but it is not present
 ERROR: /github/workspace/fsh-generated/resources/CodeSystem-no-kodeverk-ICD-10.codesystem: URL Mismatch http://hl7.no/fhir/CodeSystem/no-kodeverk-ICD-10.codesystem vs http://hl7.org/fhir/sid/icd-10-no
 == fsh-generated/resources/ImplementationGuide-hl7.fhir.no.kodeverk.json ==
 == fsh-generated/resources/NamingSystem-no-basis-apotekenes-konsesjonsnr.json ==

@@ -1,6 +1,6 @@
 {
-  "version" : "0.5.1",
-  "date" : "20240606074529",
+  "version" : "0.6.0",
+  "date" : "20241217094926",
   "notForPublication" : true,
   "name" : "hl7.fhir.no.kodeverk.r4b"
 }

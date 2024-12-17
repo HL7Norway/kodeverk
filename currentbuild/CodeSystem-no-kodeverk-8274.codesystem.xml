@@ -3,18 +3,18 @@
 <CodeSystem xmlns="http://hl7.org/fhir">
   <id value="no-kodeverk-8274.codesystem"/>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This  code system <code>http://helsedir.no/fhir/CodeSystem/no-kodeverk-8274</code> defines codes, but no codes are represented here</p></div>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem no-kodeverk-8274.codesystem</b></p><a name="no-kodeverk-8274.codesystem"> </a><a name="hcno-kodeverk-8274.codesystem"> </a><a name="no-kodeverk-8274.codesystem-no-NO"> </a><p>This  code system <code>http://helsedir.no/fhir/CodeSystem/no-kodeverk-8274</code> defines codes, but no codes are represented here</p></div>
   </text>
   <url value="http://helsedir.no/fhir/CodeSystem/no-kodeverk-8274"/>
   <identifier>
     <system value="urn:ietf:rfc:3986"/>
     <value value="urn:oid:2.16.578.1.12.4.1.1.8274"/>
   </identifier>
-  <version value="0.5.1"/>
+  <version value="0.6.0"/>
   <name value="NoKodeverk8274"/>
   <title value="8274 Anbefaling om supplerende undersøkelser"/>
   <status value="draft"/>
-  <date value="2024-06-06T07:46:07+00:00"/>
+  <date value="2024-12-17T09:50:02+00:00"/>
   <description value="Om rekvirenten gir tjenesteyter tillatelse til å utføre ytterligere undersøkelser eller andre tiltak basert på resultater og medisinskfaglig skjønn."/>
   <jurisdiction>
     <coding>

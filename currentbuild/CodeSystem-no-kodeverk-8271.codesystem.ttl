@@ -10,18 +10,18 @@
   fhir:id [ fhir:v "no-kodeverk-8271.codesystem"] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This  code system <code>http://helsedir.no/fhir/CodeSystem/no-kodeverk-8271</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">S<a name=\"no-kodeverk-8271.codesystem-S\"> </a></td><td>Sensitiv, standarddose</td></tr><tr><td style=\"white-space:nowrap\">I<a name=\"no-kodeverk-8271.codesystem-I\"> </a></td><td>Sensitiv, økt eksponering</td></tr><tr><td style=\"white-space:nowrap\">R<a name=\"no-kodeverk-8271.codesystem-R\"> </a></td><td>Resistent</td></tr></table></div>"
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem no-kodeverk-8271.codesystem</b></p><a name=\"no-kodeverk-8271.codesystem\"> </a><a name=\"hcno-kodeverk-8271.codesystem\"> </a><a name=\"no-kodeverk-8271.codesystem-no-NO\"> </a><p>This  code system <code>http://helsedir.no/fhir/CodeSystem/no-kodeverk-8271</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">S<a name=\"no-kodeverk-8271.codesystem-S\"> </a></td><td>Sensitiv, standarddose</td></tr><tr><td style=\"white-space:nowrap\">I<a name=\"no-kodeverk-8271.codesystem-I\"> </a></td><td>Sensitiv, økt eksponering</td></tr><tr><td style=\"white-space:nowrap\">K<a name=\"no-kodeverk-8271.codesystem-K\"> </a></td><td>Se kommentar</td></tr><tr><td style=\"white-space:nowrap\">R<a name=\"no-kodeverk-8271.codesystem-R\"> </a></td><td>Resistent</td></tr></table></div>"
   ] ; # 
   fhir:url [ fhir:v "http://helsedir.no/fhir/CodeSystem/no-kodeverk-8271"^^xsd:anyURI] ; # 
   fhir:identifier ( [
      fhir:system [ fhir:v "urn:ietf:rfc:3986"^^xsd:anyURI ] ;
      fhir:value [ fhir:v "urn:oid:2.16.578.1.12.4.1.1.8271" ]
   ] ) ; # 
-  fhir:version [ fhir:v "0.5.1"] ; # 
+  fhir:version [ fhir:v "0.6.0"] ; # 
   fhir:name [ fhir:v "NoKodeverk8271"] ; # 
   fhir:title [ fhir:v "8271 Resistens"] ; # 
   fhir:status [ fhir:v "active"] ; # 
-  fhir:date [ fhir:v "2024-06-06T07:46:07+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2024-12-17T09:50:02+00:00"^^xsd:dateTime] ; # 
   fhir:description [ fhir:v "Svarverdier til bruk i resistensbestemmelser (SIR)"] ; # 
   fhir:jurisdiction ( [
      fhir:coding ( [
@@ -31,13 +31,16 @@
      ] )
   ] ) ; # 
   fhir:content [ fhir:v "complete"] ; # 
-  fhir:count [ fhir:v "3"^^xsd:nonNegativeInteger] ; # 
+  fhir:count [ fhir:v "4"^^xsd:nonNegativeInteger] ; # 
   fhir:concept ( [
      fhir:code [ fhir:v "S" ] ;
      fhir:display [ fhir:v "Sensitiv, standarddose" ]
   ] [
      fhir:code [ fhir:v "I" ] ;
      fhir:display [ fhir:v "Sensitiv, økt eksponering" ]
+  ] [
+     fhir:code [ fhir:v "K" ] ;
+     fhir:display [ fhir:v "Se kommentar" ]
   ] [
      fhir:code [ fhir:v "R" ] ;
      fhir:display [ fhir:v "Resistent" ]
