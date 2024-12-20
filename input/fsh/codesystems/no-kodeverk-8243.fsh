@@ -7,16 +7,4 @@ Description: "Type tekstsvar i tekstlig resultat i svarrapportering av medisinsk
 * ^identifier.value = "urn:oid:2.16.578.1.12.4.1.1.8243"
 * ^status = #active
 * ^publisher = "Helsedirektoratet"
-* ^content = #complete
-* #AN "Analyse"
-* #DIAG "Diagnose"
-* #FU "Funn og undersøkelsesresultater"
-* #GR "Gruppe"
-* #LR "Laboratorieresultat"
-* #MET "Metode/utførte tester, medisinsk genetikk"
-* #RSB "Resistensbestemmelse"
-* #SY "Sykmelding"
-* #TFU "Tilleggsfunn"
-* #UP "Ubesvarte prøver"
-* #VU "Vurdering"
-* #XX "Uspesifisert"
+* ^content = #not-present
