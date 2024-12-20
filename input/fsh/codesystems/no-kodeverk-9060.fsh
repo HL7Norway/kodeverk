@@ -8,4 +8,3 @@ Description: "Kodeverket inneholder koder som benyttes for å kategorisere helse
 * ^status = #active
 * ^publisher = "Helsedirektoratet"
 * ^content = #not-present
-// Fjerne?
