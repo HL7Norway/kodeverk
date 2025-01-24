@@ -12,12 +12,12 @@ jobs:
   publish:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v4
 
       # Persist the FHIR Package Cache between runners.
       # Doc: https://confluence.hl7.org/display/FHIR/FHIR+Package+Cache
       - name: 🗂️ Cache FHIR Packages
-        uses: actions/cache@v2
+        uses: actions/cache@v4
         with:
           path: |
             ~/.fhir/packages
@@ -26,7 +26,7 @@ jobs:
       # Persist the IG Publisher input-cache between runners.
       # Doc: https://build.fhir.org/ig/FHIR/ig-guidance/using-templates.html#igroot-input-cache
       - name: 🗂️ Cache IG Publisher input-cache
-        uses: actions/cache@v2
+        uses: actions/cache@v4
         with:
           path: |
             ${{ env.IG }}/input-cache
@@ -45,7 +45,7 @@ jobs:
       # Publishes the HTML page to a seperate branch in order to host it using GitHub-Pages.
       # This will overwrite the currently published HTML page.
       - name: 🚀 Deploy to GitHub-Pages
-        uses: peaceiris/actions-gh-pages@v3
+        uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./output
