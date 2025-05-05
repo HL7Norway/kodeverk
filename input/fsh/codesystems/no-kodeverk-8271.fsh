@@ -7,8 +7,4 @@ Description: "Svarverdier til bruk i resistensbestemmelser (SIR)"
 * ^identifier.value = "urn:oid:2.16.578.1.12.4.1.1.8271"
 * ^status = #active
 * ^publisher = "Helsedirektoratet"
-* ^content = #complete
-* #S "Sensitiv, standarddose"
-* #I "Sensitiv, økt eksponering"
-* #K "Se kommentar"
-* #R "Resistent"
+* ^content = #not-present

@@ -7,8 +7,4 @@ Description: "Forberedelse før undersøkelse"
 * ^identifier.value = "urn:oid:2.16.578.1.12.4.1.1.8232"
 * ^status = #active
 * ^publisher = "Helsedirektoratet"
-* ^content = #complete
-* #PFP "Profylaktisk prosedyre"
-* #DI "Diett"
-* #FA "Faste"
-* #MEDB "Medikamentell behandling"
+* ^content = #not-present

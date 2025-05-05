@@ -8,6 +8,4 @@ Description: "Dette kodeverket inneholder koder for å angi svar Ja eller Nei."
 * ^status = #active
 * ^date = "2020-12-04"
 * ^publisher = "Helsedirektoratet"
-* ^content = #complete
-* #1 "Ja"
-* #2 "Nei"
+* ^content = #not-present

@@ -7,10 +7,4 @@ Description: "Tilleggsopplysning til diagnose."
 * ^identifier.value = "urn:oid:2.16.578.1.12.4.1.1.7305"
 * ^status = #active
 * ^publisher = "Helsedirektoratet"
-* ^content = #complete
-* #S "ICD10 stjernekode"
-* #A "ATC-kode" "(til bruk ved ICD10)"
-* #AN "Anatomisk lokalisasjon"
-* #DI "Diagnosestatus"
-* #FO "Forløp"
-* #LA "Lateralitet"
+* ^content = #not-present

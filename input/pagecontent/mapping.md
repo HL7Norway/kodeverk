@@ -39,16 +39,14 @@ Eksterne kodeverk som ikke har sine koder på Volven (som ICD-10, NLK etc.) kan 
 
 #### Syntaks for FSH
 
-<pre>* #{code} #{child code} "{display string}" "{definition}"</pre>
+<pre>
 
 *{definition}* er frivillig. *{child code}* benyttes ikke. 
 
 #### Eksempler på enkeltkoder
 
 <pre>
-* #2B "Brusetablett, sitron"
-* #226528004 "Whiskey (substance)"
-* #21 "Originaldokument" "Spesifikk (EPJ) dokumenttype er angitt. Alle dokumenter av denne type skal automatisk inkluderes som "Originaldokument""
+
 </pre>
 
 ### Anbefalt filnavn

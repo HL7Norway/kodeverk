@@ -7,7 +7,4 @@ Title: "8275 Cytologisk materiale tatt med"
 * ^identifier.value = "urn:oid:2.16.578.1.12.4.1.1.8275"
 * ^status = #active
 * ^publisher = "Helsedirektoratet"
-* ^content = #complete
-* #BS "Børste og spatel"
-* #S "Spatel"
-* #A "Annet"
+* ^content = #not-present

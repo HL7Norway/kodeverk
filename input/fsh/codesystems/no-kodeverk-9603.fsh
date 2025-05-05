@@ -7,18 +7,4 @@ Description: "Kodeverket benyttes for å angi sperring og nekting av dokumenter.
 * ^identifier.value = "urn:oid:2.16.578.1.12.4.1.1.9603"
 * ^status = #active
 * ^publisher = "Helsedirektoratet"
-* ^content = #complete
-* #N "Normal" "Ingen spesielle tilgangsbegrensninger er satt"
-* #NORN_FFL "Nektet, fare for liv" "Nektet pasientinnsyn av enkeltdokument. Fare for liv eller alvorlig helseskade, jf. pasbrl §5-1, 2. ledd 1. alternativ."
-* #NORN_KUT "Nektet, klart utilrådelig" "Nektet pasientinnsyn av enkeltdokument. Klart utilrådelig av hensyn til nærstående, jf. pasbrl §5-1, 2. ledd 2. alternativ."
-* #NORN_EPO "Nektet, eget ønske" "Nektet pasientinnsyn av enkeltdokument. Vises ikke elektronisk etter pasientens eget ønske."
-* #NORN_ALL "Nektet, alle" "Nektet pasientinnsyn i alle pasientens dokumenter. Registrert i kritisk info begrunnet i risiko for helsepersonell."
-* #NORN_FOR "Nektet, foreldet" "Virksomheten har markert dokumentet som eldre enn datoen for når pasienter fikk automatisk elektronisk innsyn i journal."
-* #NORN_FORANS "Nektet, foreldreansvarlig" "Nektet innsyn for foreldre eller andre som har foreldreansvar, dersom tungtveiende hensyn til pasienten eller brukeren taler mot det, jf. Pasient- og brukerrettighetsloven § 3-4 tredje ledd.\r\nSettes av helsepersonell. \r\nDette gjelder også for barn under 12 år og uavhengig av om barnet selv har gitt uttrykk for ønsker om at informasjon skal holdes tilbake"
-* #NORN_UNGDOM "Nektet, ungdom" "Nektet innsyn for ungdom 12-16, dersom det er påtrengende nødvendig for å hindre fare for liv eller alvorlig helseskade for pasienten selv.\r\nForeldre eller andre som har foreldreansvar får tilgang til informasjon.\r\nSettes av helsepersonell."
-* #NORN_FFH "Nektet, fare for helsepersonell" "Nektet pasientinnsyn - vises ikke elektronisk fordi pasient har fremsatt alvorlige trusler og fremstår aktivt med agitasjon overfor behandler. Åpner for at helsepersonell, i helt spesielle unntakssituasjoner der de føler seg truet, skal kunne beskytte seg selv ved å nekte elektronisk pasientinnsyn på enkeltdokumenter i pasientjournalen. Dermed blir ikke helsepersonellets navn like lett tilgjengelig for pasienten."
-* #NORN_FPB "Nektet, forsvarlig pasientbehandling" "Nektet pasientinnsyn - vises ikke elektronisk av hensyn til forsvarlig pasientbehandling. Dette brukes i tilfeller dokumenter inkluderer informasjon som pasienten av ulike grunner, ikke bør få digitalt innsyn i. Blant annet kreftdiagnoser der pasienten ikke er informert ennå eller informasjon som påvirker pågående behandling på en negativ måte."
-* #NORN_DUP "Nektet, duplikat" "Nektet pasientinnsyn, Duplikat. Brukes for å flagge duplikat dokumenter, for eksempel dokumenter som blir kopiert til et HF ved virksomehetsoverdragelse."
-* #NORN_ANG "Nektet – andre grunner" "Nektet pasientinnsyn - kodeverket OID 9603 dekker ikke nektningsgrunnlaget - kontakte evt. Sykehuset. Kodeverket er relativt nytt og innsynsløsninger er under utvikling - Kodeverket må da derfor være under utvikling"
-* #NORU "Utsatt innsyn for innbygger" "Tilgangsbegrensning som gjør at utvalgte helseopplysninger gjøres tilgjengelig for innbyggeren etter fastsatt tid. Tilgangsbegrensningen kan være satt av helsepersonell, eller satt automatisk i henhold til forhåndsdefinerte regler"
-* #NORS "Sperret" "Tilgangsbegrensning som innebærer at innbyggeren sperrer hele eller deler av opplysningene som ligger i et behandlingsrettet helseregister slik at opplysningene ikke blir tilgjengelige for enkeltpersonell eller grupper av helsepersonell"
+* ^content = #not-present
