@@ -20,6 +20,7 @@
     <link href="assets/css/pygments-manni.css" rel="stylesheet"/>
     <link href="assets/css/jquery-ui.css" rel="stylesheet"/>
   	<link href="assets/css/prism.css" rel="stylesheet" />
+  	<link href="assets/css/cqf.css" rel="stylesheet" />
     <!-- Placeholder for child template CSS declarations -->
     <link href="assets/css/hl7.css" rel="stylesheet"/>
     <link href="assets/css/fhir.css" rel="stylesheet"/>
@@ -33,20 +34,22 @@
     <![endif]-->
 
     <!-- Favicons -->
-    <link rel="fhir-logo" sizes="144x144" href="assets/ico/icon-fhir-144.png"/>
-    <link rel="fhir-logo" sizes="114x114" href="assets/ico/icon-fhir-114.png"/>
-    <link rel="fhir-logo" sizes="72x72" href="assets/ico/icon-fhir-72.png"/>
-    <link rel="fhir-logo" href="assets/ico/icon-fhir-57.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/icon-fhir-144.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/icon-fhir-114.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/icon-fhir-72.png"/>
+    <link rel="apple-touch-icon-precomposed" href="assets/ico/icon-fhir-57.png"/>
     <link rel="shortcut icon" href="assets/ico/favicon.png"/>
   </head>
   <body onload="document.body.style.opacity='1'">
 
 	  <script src="assets/js/prism.js"></script>
-
+    <script type="text/javascript" src="assets/js/mermaid.js"></script>
+    <script type="text/javascript" src="assets/js/mermaid-init.js"></script>
     <style type="text/css">h2{--heading-prefix:"5.36"}
     h3,h4,h5,h6{--heading-prefix:"5.36"}</style>
     <div id="segment-header" class="segment">  <!-- segment-header -->
       <div class="container">  <!-- container -->
+
         <!-- Placeholder for child template header declarations -->
 
             
@@ -153,7 +156,7 @@
           <div class="inner-wrapper">
 
 <div style="counter-reset: section 7" class="col-12">
-<!--ReleaseHeader--><p id="publish-box">NoKodeverk - Local Development build (v0.6.0) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href="http://hl7.no/fhir/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
+<!--ReleaseHeader--><p id="publish-box">NoKodeverk - Local Development build (v0.6.0) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href='http://hl7.no/fhir/history.html'>Directory of published versions</a></p><!--EndReleaseHeader-->
 
 
 
@@ -224,22 +227,22 @@
 
 
 
-  <pre class="xml" style="white-space: pre; text-wrap: nowrap; width: auto;"><code class="language-xml" style="white-space: pre; text-wrap: nowrap;">
+  <pre class="xml" data-fhir="generated" style="white-space: pre; text-wrap: nowrap; width: auto;"><code class="language-xml" style="white-space: pre; text-wrap: nowrap;">
 &lt;<a href="http://hl7.org/fhir/R4/namingsystem.html#NamingSystem">NamingSystem</a> xmlns=&quot;http://hl7.org/fhir&quot;&gt;
   &lt;<a href="http://hl7.org/fhir/R4/namingsystem.html#NamingSystem.id">id</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;no-basis-her-id&quot;/&gt;
   &lt;<a href="http://hl7.org/fhir/R4/namingsystem.html#NamingSystem.text">text</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.status">status</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;generated&quot;/&gt;
-    &lt;div xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;&lt;p class=&quot;res-header-id&quot;&gt;&lt;b&gt;Generated Narrative: NamingSystem no-basis-her-id&lt;/b&gt;&lt;/p&gt;&lt;a name=&quot;no-basis-her-id&quot;&gt; &lt;/a&gt;&lt;a name=&quot;hcno-basis-her-id&quot;&gt; &lt;/a&gt;&lt;a name=&quot;no-basis-her-id-no-NO&quot;&gt; &lt;/a&gt;&lt;h3&gt;Summary&lt;/h3&gt;&lt;table class=&quot;grid&quot;&gt;&lt;tr&gt;&lt;td&gt;Defining URL&lt;/td&gt;&lt;td&gt;http://hl7.no/fhir/NamingSystem/no-basis-her-id&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Version&lt;/td&gt;&lt;td&gt;0.6.0&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Name&lt;/td&gt;&lt;td&gt;HERId&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Status&lt;/td&gt;&lt;td&gt;active&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Definition&lt;/td&gt;&lt;td&gt;&lt;div&gt;&lt;p&gt;Identifikator for kommunikasjonsparter i Helsenettet..&lt;/p&gt;
+    &lt;div xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;&lt;p class=&quot;res-header-id&quot;&gt;&lt;b&gt;Generated Narrative: NamingSystem no-basis-her-id&lt;/b&gt;&lt;/p&gt;&lt;a name=&quot;no-basis-her-id&quot;&gt; &lt;/a&gt;&lt;a name=&quot;hcno-basis-her-id&quot;&gt; &lt;/a&gt;&lt;h3&gt;Summary&lt;/h3&gt;&lt;table class=&quot;grid&quot;&gt;&lt;tr&gt;&lt;td&gt;Defining URL&lt;/td&gt;&lt;td&gt;http://hl7.no/fhir/NamingSystem/no-basis-her-id&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Version&lt;/td&gt;&lt;td&gt;0.6.0&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Name&lt;/td&gt;&lt;td&gt;HERId&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Status&lt;/td&gt;&lt;td&gt;active&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Definition&lt;/td&gt;&lt;td&gt;&lt;div&gt;&lt;p&gt;Identifikator for kommunikasjonsparter i Helsenettet..&lt;/p&gt;
 &lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;h3&gt;Identifiers&lt;/h3&gt;&lt;table class=&quot;grid&quot;&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;Type&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Value&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Preferred&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;URI&lt;/td&gt;&lt;td&gt;http://hl7.no/fhir/NamingSystem/HERid&lt;/td&gt;&lt;td&gt;false&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;OID&lt;/td&gt;&lt;td&gt;2.16.578.1.12.4.1.2&lt;/td&gt;&lt;td&gt;true&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;<a name="end-xhtml"></a>
-  &lt;/text&gt;
+  &lt;/<a href="http://hl7.org/fhir/R4/namingsystem.html#NamingSystem.text">text</a>&gt;
   &lt;<a href="http://hl7.org/fhir/R4/namingsystem.html#NamingSystem.extension">extension</a>
              <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;http://hl7.org/fhir/5.0/StructureDefinition/extension-NamingSystem.url&quot;&gt;
     &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value[x]">valueUri</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;http://hl7.no/fhir/NamingSystem/no-basis-her-id&quot;/&gt;
-  &lt;/extension&gt;
+  &lt;/<a href="http://hl7.org/fhir/R4/namingsystem.html#NamingSystem.extension">extension</a>&gt;
   &lt;<a href="http://hl7.org/fhir/R4/namingsystem.html#NamingSystem.extension">extension</a>
              <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;http://hl7.org/fhir/5.0/StructureDefinition/extension-NamingSystem.version&quot;&gt;
     &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value[x]">valueString</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;0.6.0&quot;/&gt;
-  &lt;/extension&gt;
+  &lt;/<a href="http://hl7.org/fhir/R4/namingsystem.html#NamingSystem.extension">extension</a>&gt;
   &lt;<a href="http://hl7.org/fhir/R4/namingsystem.html#NamingSystem.name">name</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;HERId&quot;/&gt;
   &lt;<a href="http://hl7.org/fhir/R4/namingsystem.html#NamingSystem.status">status</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;active&quot;/&gt;
   &lt;<a href="http://hl7.org/fhir/R4/namingsystem.html#NamingSystem.kind">kind</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;identifier&quot;/&gt;
@@ -252,19 +255,19 @@
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;urn:iso:std:iso:3166&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;NO&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Norway&quot;/&gt;
-    &lt;/coding&gt;
-  &lt;/jurisdiction&gt;
+    &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>&gt;
+  &lt;/<a href="http://hl7.org/fhir/R4/namingsystem.html#NamingSystem.jurisdiction">jurisdiction</a>&gt;
   &lt;<a href="http://hl7.org/fhir/R4/namingsystem.html#NamingSystem.uniqueId">uniqueId</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R4/namingsystem.html#NamingSystem.uniqueId.type">type</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;uri&quot;/&gt;
     &lt;<a href="http://hl7.org/fhir/R4/namingsystem.html#NamingSystem.uniqueId.value">value</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;http://hl7.no/fhir/NamingSystem/HERid&quot;/&gt;
     &lt;<a href="http://hl7.org/fhir/R4/namingsystem.html#NamingSystem.uniqueId.preferred">preferred</a> <a href="http://hl7.org/fhir/R4/datatypes.html#boolean">value</a>=&quot;false&quot;/&gt;
-  &lt;/uniqueId&gt;
+  &lt;/<a href="http://hl7.org/fhir/R4/namingsystem.html#NamingSystem.uniqueId">uniqueId</a>&gt;
   &lt;<a href="http://hl7.org/fhir/R4/namingsystem.html#NamingSystem.uniqueId">uniqueId</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R4/namingsystem.html#NamingSystem.uniqueId.type">type</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;oid&quot;/&gt;
     &lt;<a href="http://hl7.org/fhir/R4/namingsystem.html#NamingSystem.uniqueId.value">value</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;2.16.578.1.12.4.1.2&quot;/&gt;
     &lt;<a href="http://hl7.org/fhir/R4/namingsystem.html#NamingSystem.uniqueId.preferred">preferred</a> <a href="http://hl7.org/fhir/R4/datatypes.html#boolean">value</a>=&quot;true&quot;/&gt;
-  &lt;/uniqueId&gt;
-&lt;/NamingSystem&gt;</code></pre>
+  &lt;/<a href="http://hl7.org/fhir/R4/namingsystem.html#NamingSystem.uniqueId">uniqueId</a>&gt;
+&lt;/<a href="http://hl7.org/fhir/R4/namingsystem.html#NamingSystem">NamingSystem</a>&gt;</code></pre>
 
 
   <!-- insert notes if present -->
@@ -281,20 +284,14 @@
   <script type="text/javascript" src="assets/js/jquery.js"> </script>     <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
   <script type="text/javascript" src="assets/js/jquery-ui.min.js"> </script>
 
-  <script type="text/javascript">
-    $(document).ready(function(){
-      if(window.location.hash != "") {
-          $('a[href="' + window.location.hash + '"]').click()
-      }
-    });
-  </script>
+  <script type="text/javascript" src="assets/js/window-hash.js"> </script>
   <a name="bottom"> </a>
   <div id="segment-footer" igtool="footer" class="segment">  <!-- segment-footer -->
     <div class="container">  <!-- container -->
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2022+ <a style="color:var(--footer-hyperlink-text-color)" href=""></a>.  Package hl7.fhir.no.kodeverk#0.6.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Tue, Dec 17, 2024 09:56+0000">2024-12-17</span>
+          IG &#169; 2022+ <a style="color:var(--footer-hyperlink-text-color)" href=""></a>.  Package hl7.fhir.no.kodeverk#0.6.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Sun, Nov 9, 2025 13:44+0000">2025-11-09</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
@@ -312,7 +309,7 @@
     <div class="container">  <!-- container -->
     </div>  <!-- /container -->
   </div>  <!-- /segment-post-footer -->
-  
+
   <!-- JS and analytics only. -->
   <!-- Bootstrap core JavaScript
   ================================================== -->
@@ -322,16 +319,7 @@
   <script type="text/javascript" src="assets/js/anchor.min.js"> </script>
   <script type="text/javascript" src="assets/js/clipboard.min.js"> </script>
   <script type="text/javascript" src="assets/js/clipboard-btn.js"> </script>
-  <script>anchors.options.visible = 'hover'
-anchors.add()</script>
-  
-<!-- feedback form - Google forms -->
-<!-- v0.1, 2021-01-09 -->
-
-
-
-<!-- / feedback form  -->
-
+  <script type="text/javascript" src="assets/js/anchor-hover.js"> </script>
   <!-- Analytics Below
   ================================================== -->
   </body>

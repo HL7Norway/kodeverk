@@ -1,5 +1,6 @@
 @prefix fhir: <http://hl7.org/fhir/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
@@ -10,22 +11,31 @@
   fhir:id [ fhir:v "no-kodeverk-4101.codesystem"] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem no-kodeverk-4101.codesystem</b></p><a name=\"no-kodeverk-4101.codesystem\"> </a><a name=\"hcno-kodeverk-4101.codesystem\"> </a><a name=\"no-kodeverk-4101.codesystem-no-NO\"> </a><p>This  code system <code>http://helsedir.no/fhir/CodeSystem/no-kodeverk-4101</code> defines codes, but no codes are represented here</p></div>"
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem no-kodeverk-4101.codesystem</b></p><a name=\"no-kodeverk-4101.codesystem\"> </a><a name=\"hcno-kodeverk-4101.codesystem\"> </a><p>This  code system <code>http://helsedir.no/fhir/CodeSystem/no-kodeverk-4101</code> defines codes, but no codes are represented here</p></div>"^^rdf:XMLLiteral ]
   ] ; # 
-  fhir:url [ fhir:v "http://helsedir.no/fhir/CodeSystem/no-kodeverk-4101"^^xsd:anyURI] ; # 
+  fhir:url [
+     fhir:v "http://helsedir.no/fhir/CodeSystem/no-kodeverk-4101"^^xsd:anyURI ;
+     fhir:l <http://helsedir.no/fhir/CodeSystem/no-kodeverk-4101>
+  ] ; # 
   fhir:identifier ( [
-     fhir:system [ fhir:v "urn:ietf:rfc:3986"^^xsd:anyURI ] ;
+     fhir:system [
+       fhir:v "urn:ietf:rfc:3986"^^xsd:anyURI ;
+       fhir:l <urn:ietf:rfc:3986>
+     ] ;
      fhir:value [ fhir:v "urn:oid:2.16.578.1.12.4.1.1.4101" ]
   ] ) ; # 
   fhir:version [ fhir:v "0.6.0"] ; # 
   fhir:name [ fhir:v "NoKodeverk4101"] ; # 
   fhir:title [ fhir:v "4101 Betalingskategori"] ; # 
   fhir:status [ fhir:v "active"] ; # 
-  fhir:date [ fhir:v "2024-12-17T09:56:26+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-11-09T13:44:50+00:00"^^xsd:dateTime] ; # 
   fhir:description [ fhir:v "Dette kodeverket inneholder koder som benyttes for å angi hvem som er betalingsansvarlig."] ; # 
   fhir:jurisdiction ( [
      fhir:coding ( [
-       fhir:system [ fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ] ;
+       fhir:system [
+         fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ;
+         fhir:l <urn:iso:std:iso:3166>
+       ] ;
        fhir:code [ fhir:v "NO" ] ;
        fhir:display [ fhir:v "Norway" ]
      ] )

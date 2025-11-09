@@ -60,7 +60,7 @@
       "status" : "active",
       "name" : "NoKodeverk7303",
       "title" : "7303 Svarrapporteringsprioritet",
-      "description" : null,
+      "description" : "",
       "oids" : ["2.16.578.1.12.4.1.1.7303"]
     },
     {
@@ -141,7 +141,7 @@
       "status" : "active",
       "name" : "NoKodeverk8234",
       "title" : "8234 Type tekstsvar i kommentar til rekvisisjon og henvisning",
-      "description" : null,
+      "description" : "",
       "oids" : ["2.16.578.1.12.4.1.1.8234"]
     },
     {
@@ -222,7 +222,7 @@
       "status" : "active",
       "name" : "NoKodeverk8272",
       "title" : "8272 Anbefaling om ny undersøkelse",
-      "description" : null,
+      "description" : "",
       "oids" : ["2.16.578.1.12.4.1.1.8272"]
     },
     {
@@ -249,7 +249,7 @@
       "status" : "active",
       "name" : "NoKodeverk8275",
       "title" : "8275 Cytologisk materiale tatt med",
-      "description" : null,
+      "description" : "",
       "oids" : ["2.16.578.1.12.4.1.1.8275"]
     },
     {

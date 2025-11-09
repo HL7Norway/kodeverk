@@ -3,7 +3,7 @@
   "id" : "no-kodeverk-7270-ncrp.codesystem",
   "text" : {
     "status" : "generated",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem no-kodeverk-7270-ncrp.codesystem</b></p><a name=\"no-kodeverk-7270-ncrp.codesystem\"> </a><a name=\"hcno-kodeverk-7270-ncrp.codesystem\"> </a><a name=\"no-kodeverk-7270-ncrp.codesystem-no-NO\"> </a><p>This  code system <code>http://helsedir.no/fhir/CodeSystem/no-kodeverk-7270-ncrp</code> defines codes, but no codes are represented here</p></div>"
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem no-kodeverk-7270-ncrp.codesystem</b></p><a name=\"no-kodeverk-7270-ncrp.codesystem\"> </a><a name=\"hcno-kodeverk-7270-ncrp.codesystem\"> </a><p>This  code system <code>http://helsedir.no/fhir/CodeSystem/no-kodeverk-7270-ncrp</code> defines codes, but no codes are represented here</p></div>"
   },
   "url" : "http://helsedir.no/fhir/CodeSystem/no-kodeverk-7270-ncrp",
   "identifier" : [{
@@ -14,7 +14,7 @@
   "name" : "NoKodeverk7270NCRP",
   "title" : "NCRP",
   "status" : "active",
-  "date" : "2024-12-17T09:56:26+00:00",
+  "date" : "2025-11-09T13:44:50+00:00",
   "description" : "Kodeverk for radiologi og nukleærmedisin. Kodeverket skal brukes for å dokumentere og skal kunne brukes for å bestille radiologiske tjenester. Det skal benyttes for både polikliniske og innlagte pasienter. Fra 1. januar 2012 har det vært obligatorisk å bruke dette kodeverket for å rapportere poliklinisk radiologisk aktivitet både for offentlige og private virksomheter.",
   "jurisdiction" : [{
     "coding" : [{

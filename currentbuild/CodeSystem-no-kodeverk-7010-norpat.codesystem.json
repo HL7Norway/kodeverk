@@ -3,7 +3,7 @@
   "id" : "no-kodeverk-7010-norpat.codesystem",
   "text" : {
     "status" : "generated",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem no-kodeverk-7010-norpat.codesystem</b></p><a name=\"no-kodeverk-7010-norpat.codesystem\"> </a><a name=\"hcno-kodeverk-7010-norpat.codesystem\"> </a><a name=\"no-kodeverk-7010-norpat.codesystem-no-NO\"> </a><p>This  code system <code>http://helsedir.no/fhir/CodeSystem/no-kodeverk-7010-norpat</code> defines codes, but no codes are represented here</p></div>"
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem no-kodeverk-7010-norpat.codesystem</b></p><a name=\"no-kodeverk-7010-norpat.codesystem\"> </a><a name=\"hcno-kodeverk-7010-norpat.codesystem\"> </a><p>This  code system <code>http://helsedir.no/fhir/CodeSystem/no-kodeverk-7010-norpat</code> defines codes, but no codes are represented here</p></div>"
   },
   "url" : "http://helsedir.no/fhir/CodeSystem/no-kodeverk-7010-norpat",
   "identifier" : [{
@@ -14,7 +14,7 @@
   "name" : "NoKodeverk7010NORPAT",
   "title" : "Norsk patologikodeverk (NORPAT)",
   "status" : "active",
-  "date" : "2024-12-17T09:56:26+00:00",
+  "date" : "2025-11-09T13:44:50+00:00",
   "description" : "Norsk patologikodeverk er et kodeverk som benyttes ved norske patologiavdelinger. Kodeverket ble utarbeidet av Den norske patologforenings kode- og nomenklaturutvalg i samarbeid med KITH på grunnlag av The Systematized Nomenclature of Medicine (SNOMED, 1984). Endret navn fra Den norske SNOMED til Norsk patologikodeverk 3. november 2015.",
   "jurisdiction" : [{
     "coding" : [{

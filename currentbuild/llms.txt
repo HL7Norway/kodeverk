@@ -1,0 +1,59 @@
+# hl7.fhir.no.kodeverk#0.6.0: null
+
+## Pages
+
+* [Home](index.md)
+* [Mapping](mapping.md)
+* [Download](download.md)
+* [Artifacts Summary](artifacts.md)
+* [Nilar](nilar.md)
+
+## Resources
+
+### CodeSystems
+
+* [1101 Ja, nei](CodeSystem-no-kodeverk-1101.codesystem.md)
+* [3108 Reservasjon mot registrering](CodeSystem-no-kodeverk-3108.codesystem.md)
+* [4101 Betalingskategori](CodeSystem-no-kodeverk-4101.codesystem.md)
+* [Norsk patologikodeverk (NORPAT)](CodeSystem-no-kodeverk-7010-norpat.codesystem.md)
+* [NCRP](CodeSystem-no-kodeverk-7270-ncrp.codesystem.md)
+* [Norsk laboratoriekodeverk](CodeSystem-no-kodeverk-7280-nlk.codesystem.md)
+* [7303 Svarrapporteringsprioritet](CodeSystem-no-kodeverk-7303.codesystem.md)
+* [7305 Moderator](CodeSystem-no-kodeverk-7305.codesystem.md)
+* [8116 ID-type for personer](CodeSystem-no-kodeverk-8116.codesystem.md)
+* [8202 Type laboratoriemelding](CodeSystem-no-kodeverk-8202.codesystem.md)
+* [8212 Uspesifisert laboratoriekodeverk](CodeSystem-no-kodeverk-8212.codesystem.md)
+* [8216 Kodeverk for cytologisk materiale](CodeSystem-no-kodeverk-8216.codesystem.md)
+* [8219 Kodeverk for patologisk-anatomiske undersøkelser](CodeSystem-no-kodeverk-8219.codesystem.md)
+* [8231 Type tekstsvar](CodeSystem-no-kodeverk-8231.codesystem.md)
+* [8232 Forbehandling](CodeSystem-no-kodeverk-8232.codesystem.md)
+* [8234 Type tekstsvar i kommentar til rekvisisjon og henvisning](CodeSystem-no-kodeverk-8234.codesystem.md)
+* [8239 Forholdsoperatorer i svarrapportering av medisinske tjenester](CodeSystem-no-kodeverk-8239.codesystem.md)
+* [8243 Type tekstsvar i tekstlig resultat i svarrapportering av medisinske tjenester](CodeSystem-no-kodeverk-8243.codesystem.md)
+* [8244 Avviksmarkør i svarrapportering av medisinske tjenester](CodeSystem-no-kodeverk-8244.codesystem.md)
+* [8245 Status for resultat i svarrapportering av medisinske tjenester](CodeSystem-no-kodeverk-8245.codesystem.md)
+* [8264 Tjenestekoder for timereservasjon](CodeSystem-no-kodeverk-8264.codesystem.md)
+* [8268 Type identifikator](CodeSystem-no-kodeverk-8268.codesystem.md)
+* [8269 Kommentar til svarrapport](CodeSystem-no-kodeverk-8269.codesystem.md)
+* [8271 Resistens](CodeSystem-no-kodeverk-8271.codesystem.md)
+* [8272 Anbefaling om ny undersøkelse](CodeSystem-no-kodeverk-8272.codesystem.md)
+* [8273 Hastegrad](CodeSystem-no-kodeverk-8273.codesystem.md)
+* [8274 Anbefaling om supplerende undersøkelser](CodeSystem-no-kodeverk-8274.codesystem.md)
+* [8275 Cytologisk materiale tatt med](CodeSystem-no-kodeverk-8275.codesystem.md)
+* [8327 Offisiell personidentifikasjon](CodeSystem-no-kodeverk-8327.codesystem.md)
+* [8340 Tekstlige resultatverdier for mikrobiologiske svar](CodeSystem-no-kodeverk-8340.codesystem.md)
+* [8351 Prøvemateriale](CodeSystem-no-kodeverk-8351.codesystem.md)
+* [9060 Kategori helsepersonell](CodeSystem-no-kodeverk-9060.codesystem.md)
+* [9603 Sperring og nekting av dokumenter](CodeSystem-no-kodeverk-9603.codesystem.md)
+* [ICD-10](CodeSystem-no-kodeverk-ICD-10.codesystem.md)
+
+### ImplementationGuides
+
+* [NoKodeverk](index.md)
+
+### NamingSystems
+
+* [ApotekenesKonsesjonsnr](NamingSystem-no-basis-apotekenes-konsesjonsnr.md)
+* [HERId](NamingSystem-no-basis-her-id.md)
+* [Organisasjonsnummer](NamingSystem-no-basis-orgnr.md)
+* [RESHid](NamingSystem-no-basis-resh-id.md)

@@ -1,5 +1,6 @@
 @prefix fhir: <http://hl7.org/fhir/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
@@ -10,22 +11,31 @@
   fhir:id [ fhir:v "no-kodeverk-8232.codesystem"] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem no-kodeverk-8232.codesystem</b></p><a name=\"no-kodeverk-8232.codesystem\"> </a><a name=\"hcno-kodeverk-8232.codesystem\"> </a><a name=\"no-kodeverk-8232.codesystem-no-NO\"> </a><p>This  code system <code>http://helsedir.no/fhir/CodeSystem/no-kodeverk-8232</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">PFP<a name=\"no-kodeverk-8232.codesystem-PFP\"> </a></td><td>Profylaktisk prosedyre</td></tr><tr><td style=\"white-space:nowrap\">DI<a name=\"no-kodeverk-8232.codesystem-DI\"> </a></td><td>Diett</td></tr><tr><td style=\"white-space:nowrap\">FA<a name=\"no-kodeverk-8232.codesystem-FA\"> </a></td><td>Faste</td></tr><tr><td style=\"white-space:nowrap\">MEDB<a name=\"no-kodeverk-8232.codesystem-MEDB\"> </a></td><td>Medikamentell behandling</td></tr></table></div>"
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem no-kodeverk-8232.codesystem</b></p><a name=\"no-kodeverk-8232.codesystem\"> </a><a name=\"hcno-kodeverk-8232.codesystem\"> </a><p>This  code system <code>http://helsedir.no/fhir/CodeSystem/no-kodeverk-8232</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">PFP<a name=\"no-kodeverk-8232.codesystem-PFP\"> </a></td><td>Profylaktisk prosedyre</td></tr><tr><td style=\"white-space:nowrap\">DI<a name=\"no-kodeverk-8232.codesystem-DI\"> </a></td><td>Diett</td></tr><tr><td style=\"white-space:nowrap\">FA<a name=\"no-kodeverk-8232.codesystem-FA\"> </a></td><td>Faste</td></tr><tr><td style=\"white-space:nowrap\">MEDB<a name=\"no-kodeverk-8232.codesystem-MEDB\"> </a></td><td>Medikamentell behandling</td></tr></table></div>"^^rdf:XMLLiteral ]
   ] ; # 
-  fhir:url [ fhir:v "http://helsedir.no/fhir/CodeSystem/no-kodeverk-8232"^^xsd:anyURI] ; # 
+  fhir:url [
+     fhir:v "http://helsedir.no/fhir/CodeSystem/no-kodeverk-8232"^^xsd:anyURI ;
+     fhir:l <http://helsedir.no/fhir/CodeSystem/no-kodeverk-8232>
+  ] ; # 
   fhir:identifier ( [
-     fhir:system [ fhir:v "urn:ietf:rfc:3986"^^xsd:anyURI ] ;
+     fhir:system [
+       fhir:v "urn:ietf:rfc:3986"^^xsd:anyURI ;
+       fhir:l <urn:ietf:rfc:3986>
+     ] ;
      fhir:value [ fhir:v "urn:oid:2.16.578.1.12.4.1.1.8232" ]
   ] ) ; # 
   fhir:version [ fhir:v "0.6.0"] ; # 
   fhir:name [ fhir:v "NoKodeverk8232"] ; # 
   fhir:title [ fhir:v "8232 Forbehandling"] ; # 
   fhir:status [ fhir:v "active"] ; # 
-  fhir:date [ fhir:v "2024-12-17T09:56:26+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-11-09T13:44:50+00:00"^^xsd:dateTime] ; # 
   fhir:description [ fhir:v "Forberedelse før undersøkelse"] ; # 
   fhir:jurisdiction ( [
      fhir:coding ( [
-       fhir:system [ fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ] ;
+       fhir:system [
+         fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ;
+         fhir:l <urn:iso:std:iso:3166>
+       ] ;
        fhir:code [ fhir:v "NO" ] ;
        fhir:display [ fhir:v "Norway" ]
      ] )

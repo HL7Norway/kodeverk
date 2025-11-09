@@ -1,5 +1,6 @@
 @prefix fhir: <http://hl7.org/fhir/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
@@ -10,22 +11,31 @@
   fhir:id [ fhir:v "no-kodeverk-7280-nlk.codesystem"] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem no-kodeverk-7280-nlk.codesystem</b></p><a name=\"no-kodeverk-7280-nlk.codesystem\"> </a><a name=\"hcno-kodeverk-7280-nlk.codesystem\"> </a><a name=\"no-kodeverk-7280-nlk.codesystem-no-NO\"> </a><p>This  code system <code>http://helsedir.no/fhir/CodeSystem/no-kodeverk-7280-nlk</code> defines codes, but no codes are represented here</p></div>"
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem no-kodeverk-7280-nlk.codesystem</b></p><a name=\"no-kodeverk-7280-nlk.codesystem\"> </a><a name=\"hcno-kodeverk-7280-nlk.codesystem\"> </a><p>This  code system <code>http://helsedir.no/fhir/CodeSystem/no-kodeverk-7280-nlk</code> defines codes, but no codes are represented here</p></div>"^^rdf:XMLLiteral ]
   ] ; # 
-  fhir:url [ fhir:v "http://helsedir.no/fhir/CodeSystem/no-kodeverk-7280-nlk"^^xsd:anyURI] ; # 
+  fhir:url [
+     fhir:v "http://helsedir.no/fhir/CodeSystem/no-kodeverk-7280-nlk"^^xsd:anyURI ;
+     fhir:l <http://helsedir.no/fhir/CodeSystem/no-kodeverk-7280-nlk>
+  ] ; # 
   fhir:identifier ( [
-     fhir:system [ fhir:v "urn:ietf:rfc:3986"^^xsd:anyURI ] ;
+     fhir:system [
+       fhir:v "urn:ietf:rfc:3986"^^xsd:anyURI ;
+       fhir:l <urn:ietf:rfc:3986>
+     ] ;
      fhir:value [ fhir:v "urn:oid:2.16.578.1.12.4.1.1.7280" ]
   ] ) ; # 
   fhir:version [ fhir:v "0.6.0"] ; # 
   fhir:name [ fhir:v "NoKodeverk7280NLK"] ; # 
   fhir:title [ fhir:v "Norsk laboratoriekodeverk"] ; # 
   fhir:status [ fhir:v "active"] ; # 
-  fhir:date [ fhir:v "2024-12-17T09:56:26+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-11-09T13:44:50+00:00"^^xsd:dateTime] ; # 
   fhir:description [ fhir:v "Norsk laboratoriekodverk er et felles kodeverk for laboratorieanalyser utarbeidet i samarbeid med de laboratoriefaglige miljøene fordelt på 6 spesialiteter: Immunologi og transfusjonsmedisin, Klinisk farmakologi, Medisinsk biokjemi, Medisinsk genetikk, Medisinsk mikrobiologi og Patologi."] ; # 
   fhir:jurisdiction ( [
      fhir:coding ( [
-       fhir:system [ fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ] ;
+       fhir:system [
+         fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ;
+         fhir:l <urn:iso:std:iso:3166>
+       ] ;
        fhir:code [ fhir:v "NO" ] ;
        fhir:display [ fhir:v "Norway" ]
      ] )

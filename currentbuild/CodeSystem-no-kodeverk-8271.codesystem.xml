@@ -3,7 +3,7 @@
 <CodeSystem xmlns="http://hl7.org/fhir">
   <id value="no-kodeverk-8271.codesystem"/>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem no-kodeverk-8271.codesystem</b></p><a name="no-kodeverk-8271.codesystem"> </a><a name="hcno-kodeverk-8271.codesystem"> </a><a name="no-kodeverk-8271.codesystem-no-NO"> </a><p>This  code system <code>http://helsedir.no/fhir/CodeSystem/no-kodeverk-8271</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">S<a name="no-kodeverk-8271.codesystem-S"> </a></td><td>Sensitiv, standarddose</td></tr><tr><td style="white-space:nowrap">I<a name="no-kodeverk-8271.codesystem-I"> </a></td><td>Sensitiv, økt eksponering</td></tr><tr><td style="white-space:nowrap">K<a name="no-kodeverk-8271.codesystem-K"> </a></td><td>Se kommentar</td></tr><tr><td style="white-space:nowrap">R<a name="no-kodeverk-8271.codesystem-R"> </a></td><td>Resistent</td></tr></table></div>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem no-kodeverk-8271.codesystem</b></p><a name="no-kodeverk-8271.codesystem"> </a><a name="hcno-kodeverk-8271.codesystem"> </a><p>This  code system <code>http://helsedir.no/fhir/CodeSystem/no-kodeverk-8271</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">S<a name="no-kodeverk-8271.codesystem-S"> </a></td><td>Sensitiv, standarddose</td></tr><tr><td style="white-space:nowrap">I<a name="no-kodeverk-8271.codesystem-I"> </a></td><td>Sensitiv, økt eksponering</td></tr><tr><td style="white-space:nowrap">K<a name="no-kodeverk-8271.codesystem-K"> </a></td><td>Se kommentar</td></tr><tr><td style="white-space:nowrap">R<a name="no-kodeverk-8271.codesystem-R"> </a></td><td>Resistent</td></tr></table></div>
   </text>
   <url value="http://helsedir.no/fhir/CodeSystem/no-kodeverk-8271"/>
   <identifier>
@@ -14,7 +14,7 @@
   <name value="NoKodeverk8271"/>
   <title value="8271 Resistens"/>
   <status value="active"/>
-  <date value="2024-12-17T09:56:26+00:00"/>
+  <date value="2025-11-09T13:44:50+00:00"/>
   <description value="Svarverdier til bruk i resistensbestemmelser (SIR)"/>
   <jurisdiction>
     <coding>

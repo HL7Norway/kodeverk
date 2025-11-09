@@ -1,5 +1,6 @@
 @prefix fhir: <http://hl7.org/fhir/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
@@ -10,22 +11,31 @@
   fhir:id [ fhir:v "no-kodeverk-8239.codesystem"] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem no-kodeverk-8239.codesystem</b></p><a name=\"no-kodeverk-8239.codesystem\"> </a><a name=\"hcno-kodeverk-8239.codesystem\"> </a><a name=\"no-kodeverk-8239.codesystem-no-NO\"> </a><p>This  code system <code>http://helsedir.no/fhir/CodeSystem/no-kodeverk-8239</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">EQ<a name=\"no-kodeverk-8239.codesystem-EQ\"> </a></td><td>Lik</td></tr><tr><td style=\"white-space:nowrap\">GE<a name=\"no-kodeverk-8239.codesystem-GE\"> </a></td><td>Større eller lik</td></tr><tr><td style=\"white-space:nowrap\">GT<a name=\"no-kodeverk-8239.codesystem-GT\"> </a></td><td>Større enn</td></tr><tr><td style=\"white-space:nowrap\">LE<a name=\"no-kodeverk-8239.codesystem-LE\"> </a></td><td>Mindre eller lik</td></tr><tr><td style=\"white-space:nowrap\">LT<a name=\"no-kodeverk-8239.codesystem-LT\"> </a></td><td>Mindre enn</td></tr><tr><td style=\"white-space:nowrap\">MG<a name=\"no-kodeverk-8239.codesystem-MG\"> </a></td><td>Mye større enn</td></tr><tr><td style=\"white-space:nowrap\">ML<a name=\"no-kodeverk-8239.codesystem-ML\"> </a></td><td>Mye mindre enn</td></tr><tr><td style=\"white-space:nowrap\">NE<a name=\"no-kodeverk-8239.codesystem-NE\"> </a></td><td>Ikke lik</td></tr></table></div>"
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem no-kodeverk-8239.codesystem</b></p><a name=\"no-kodeverk-8239.codesystem\"> </a><a name=\"hcno-kodeverk-8239.codesystem\"> </a><p>This  code system <code>http://helsedir.no/fhir/CodeSystem/no-kodeverk-8239</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">EQ<a name=\"no-kodeverk-8239.codesystem-EQ\"> </a></td><td>Lik</td></tr><tr><td style=\"white-space:nowrap\">GE<a name=\"no-kodeverk-8239.codesystem-GE\"> </a></td><td>Større eller lik</td></tr><tr><td style=\"white-space:nowrap\">GT<a name=\"no-kodeverk-8239.codesystem-GT\"> </a></td><td>Større enn</td></tr><tr><td style=\"white-space:nowrap\">LE<a name=\"no-kodeverk-8239.codesystem-LE\"> </a></td><td>Mindre eller lik</td></tr><tr><td style=\"white-space:nowrap\">LT<a name=\"no-kodeverk-8239.codesystem-LT\"> </a></td><td>Mindre enn</td></tr><tr><td style=\"white-space:nowrap\">MG<a name=\"no-kodeverk-8239.codesystem-MG\"> </a></td><td>Mye større enn</td></tr><tr><td style=\"white-space:nowrap\">ML<a name=\"no-kodeverk-8239.codesystem-ML\"> </a></td><td>Mye mindre enn</td></tr><tr><td style=\"white-space:nowrap\">NE<a name=\"no-kodeverk-8239.codesystem-NE\"> </a></td><td>Ikke lik</td></tr></table></div>"^^rdf:XMLLiteral ]
   ] ; # 
-  fhir:url [ fhir:v "http://helsedir.no/fhir/CodeSystem/no-kodeverk-8239"^^xsd:anyURI] ; # 
+  fhir:url [
+     fhir:v "http://helsedir.no/fhir/CodeSystem/no-kodeverk-8239"^^xsd:anyURI ;
+     fhir:l <http://helsedir.no/fhir/CodeSystem/no-kodeverk-8239>
+  ] ; # 
   fhir:identifier ( [
-     fhir:system [ fhir:v "urn:ietf:rfc:3986"^^xsd:anyURI ] ;
+     fhir:system [
+       fhir:v "urn:ietf:rfc:3986"^^xsd:anyURI ;
+       fhir:l <urn:ietf:rfc:3986>
+     ] ;
      fhir:value [ fhir:v "urn:oid:2.16.578.1.12.4.1.1.8239" ]
   ] ) ; # 
   fhir:version [ fhir:v "0.6.0"] ; # 
   fhir:name [ fhir:v "NoKodeverk8239"] ; # 
   fhir:title [ fhir:v "8239 Forholdsoperatorer i svarrapportering av medisinske tjenester"] ; # 
   fhir:status [ fhir:v "active"] ; # 
-  fhir:date [ fhir:v "2024-12-17T09:56:26+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-11-09T13:44:50+00:00"^^xsd:dateTime] ; # 
   fhir:description [ fhir:v "Forholdsoperatorer i svarrapportering av medisinske tjeneste"] ; # 
   fhir:jurisdiction ( [
      fhir:coding ( [
-       fhir:system [ fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ] ;
+       fhir:system [
+         fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ;
+         fhir:l <urn:iso:std:iso:3166>
+       ] ;
        fhir:code [ fhir:v "NO" ] ;
        fhir:display [ fhir:v "Norway" ]
      ] )

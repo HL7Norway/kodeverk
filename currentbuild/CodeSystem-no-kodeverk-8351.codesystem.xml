@@ -3,7 +3,7 @@
 <CodeSystem xmlns="http://hl7.org/fhir">
   <id value="no-kodeverk-8351.codesystem"/>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem no-kodeverk-8351.codesystem</b></p><a name="no-kodeverk-8351.codesystem"> </a><a name="hcno-kodeverk-8351.codesystem"> </a><a name="no-kodeverk-8351.codesystem-no-NO"> </a><p>This  code system <code>http://helsedir.no/fhir/CodeSystem/no-kodeverk-8351</code> defines codes, but no codes are represented here</p></div>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem no-kodeverk-8351.codesystem</b></p><a name="no-kodeverk-8351.codesystem"> </a><a name="hcno-kodeverk-8351.codesystem"> </a><p>This  code system <code>http://helsedir.no/fhir/CodeSystem/no-kodeverk-8351</code> defines codes, but no codes are represented here</p></div>
   </text>
   <url value="http://helsedir.no/fhir/CodeSystem/no-kodeverk-8351"/>
   <identifier>
@@ -14,7 +14,7 @@
   <name value="NoKodeverk8351"/>
   <title value="8351 Prøvemateriale"/>
   <status value="active"/>
-  <date value="2024-12-17T09:56:26+00:00"/>
+  <date value="2025-11-09T13:44:50+00:00"/>
   <description value="Kodeverk for prøvemateriale til bruk i rekvisisjon og svar av laboratorieundersøkelser."/>
   <jurisdiction>
     <coding>

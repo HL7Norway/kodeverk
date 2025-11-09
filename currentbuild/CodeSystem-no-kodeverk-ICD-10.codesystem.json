@@ -3,7 +3,7 @@
   "id" : "no-kodeverk-ICD-10.codesystem",
   "text" : {
     "status" : "generated",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem no-kodeverk-ICD-10.codesystem</b></p><a name=\"no-kodeverk-ICD-10.codesystem\"> </a><a name=\"hcno-kodeverk-ICD-10.codesystem\"> </a><a name=\"no-kodeverk-ICD-10.codesystem-no-NO\"> </a><p>This  code system <code>http://hl7.org/fhir/sid/icd-10-no</code> defines codes, but no codes are represented here</p></div>"
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem no-kodeverk-ICD-10.codesystem</b></p><a name=\"no-kodeverk-ICD-10.codesystem\"> </a><a name=\"hcno-kodeverk-ICD-10.codesystem\"> </a><p>This  code system <code>http://hl7.org/fhir/sid/icd-10-no</code> defines codes, but no codes are represented here</p></div>"
   },
   "url" : "http://hl7.org/fhir/sid/icd-10-no",
   "identifier" : [{
@@ -15,7 +15,7 @@
   "name" : "NoKodeverkICD10",
   "title" : "ICD-10",
   "status" : "active",
-  "date" : "2024-12-17T09:56:26+00:00",
+  "date" : "2025-11-09T13:44:50+00:00",
   "description" : "Klassifikasjon av sykdommer og beslektede helseproblemer.",
   "jurisdiction" : [{
     "coding" : [{

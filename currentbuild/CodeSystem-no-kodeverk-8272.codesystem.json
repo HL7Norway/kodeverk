@@ -3,7 +3,7 @@
   "id" : "no-kodeverk-8272.codesystem",
   "text" : {
     "status" : "generated",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem no-kodeverk-8272.codesystem</b></p><a name=\"no-kodeverk-8272.codesystem\"> </a><a name=\"hcno-kodeverk-8272.codesystem\"> </a><a name=\"no-kodeverk-8272.codesystem-no-NO\"> </a><p>This  code system <code>http://helsedir.no/fhir/CodeSystem/no-kodeverk-8272</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">CYT<a name=\"no-kodeverk-8272.codesystem-CYT\"> </a></td><td>Cytologiprøve</td><td>Ny cytologiprøve anbefales</td></tr><tr><td style=\"white-space:nowrap\">HIST<a name=\"no-kodeverk-8272.codesystem-HIST\"> </a></td><td>Histologisk undersøkelse</td><td>Histologisk undersøkelse anbefales</td></tr><tr><td style=\"white-space:nowrap\">HPV<a name=\"no-kodeverk-8272.codesystem-HPV\"> </a></td><td>HPV-test</td><td>HPV-test anbefales</td></tr></table></div>"
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem no-kodeverk-8272.codesystem</b></p><a name=\"no-kodeverk-8272.codesystem\"> </a><a name=\"hcno-kodeverk-8272.codesystem\"> </a><p>This  code system <code>http://helsedir.no/fhir/CodeSystem/no-kodeverk-8272</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">CYT<a name=\"no-kodeverk-8272.codesystem-CYT\"> </a></td><td>Cytologiprøve</td><td>Ny cytologiprøve anbefales</td></tr><tr><td style=\"white-space:nowrap\">HIST<a name=\"no-kodeverk-8272.codesystem-HIST\"> </a></td><td>Histologisk undersøkelse</td><td>Histologisk undersøkelse anbefales</td></tr><tr><td style=\"white-space:nowrap\">HPV<a name=\"no-kodeverk-8272.codesystem-HPV\"> </a></td><td>HPV-test</td><td>HPV-test anbefales</td></tr></table></div>"
   },
   "url" : "http://helsedir.no/fhir/CodeSystem/no-kodeverk-8272",
   "identifier" : [{
@@ -14,7 +14,7 @@
   "name" : "NoKodeverk8272",
   "title" : "8272 Anbefaling om ny undersøkelse",
   "status" : "active",
-  "date" : "2024-12-17T09:56:26+00:00",
+  "date" : "2025-11-09T13:44:50+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",

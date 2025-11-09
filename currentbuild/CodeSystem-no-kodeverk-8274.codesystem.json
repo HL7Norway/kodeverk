@@ -3,7 +3,7 @@
   "id" : "no-kodeverk-8274.codesystem",
   "text" : {
     "status" : "generated",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem no-kodeverk-8274.codesystem</b></p><a name=\"no-kodeverk-8274.codesystem\"> </a><a name=\"hcno-kodeverk-8274.codesystem\"> </a><a name=\"no-kodeverk-8274.codesystem-no-NO\"> </a><p>This  code system <code>http://helsedir.no/fhir/CodeSystem/no-kodeverk-8274</code> defines codes, but no codes are represented here</p></div>"
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem no-kodeverk-8274.codesystem</b></p><a name=\"no-kodeverk-8274.codesystem\"> </a><a name=\"hcno-kodeverk-8274.codesystem\"> </a><p>This  code system <code>http://helsedir.no/fhir/CodeSystem/no-kodeverk-8274</code> defines codes, but no codes are represented here</p></div>"
   },
   "url" : "http://helsedir.no/fhir/CodeSystem/no-kodeverk-8274",
   "identifier" : [{
@@ -14,7 +14,7 @@
   "name" : "NoKodeverk8274",
   "title" : "8274 Anbefaling om supplerende undersøkelser",
   "status" : "draft",
-  "date" : "2024-12-17T09:56:26+00:00",
+  "date" : "2025-11-09T13:44:50+00:00",
   "description" : "Om rekvirenten gir tjenesteyter tillatelse til å utføre ytterligere undersøkelser eller andre tiltak basert på resultater og medisinskfaglig skjønn.",
   "jurisdiction" : [{
     "coding" : [{

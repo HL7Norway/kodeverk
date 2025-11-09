@@ -1,0 +1,135 @@
+# 8231 Type tekstsvar - v0.6.0
+
+* [**Table of Contents**](toc.md)
+* [**Artifacts Summary**](artifacts.md)
+* **8231 Type tekstsvar**
+
+## CodeSystem: 8231 Type tekstsvar 
+
+| | |
+| :--- | :--- |
+| *Official URL*:http://helsedir.no/fhir/CodeSystem/no-kodeverk-8231 | *Version*:0.6.0 |
+| Active as of 2025-11-09 | *Computable Name*:NoKodeverk8231 |
+| *Other Identifiers:*OID:2.16.578.1.12.4.1.1.8231 | |
+
+ 
+Begrunnelse for rekvisisjon/henvisning 
+
+ This Code system is referenced in the content logical definition of the following value sets: 
+
+* This CodeSystem is not used here; it may be used elsewhere (e.g. specifications and/or implementations that use this content)
+
+
+
+## Resource Content
+
+```json
+{
+  "resourceType" : "CodeSystem",
+  "id" : "no-kodeverk-8231.codesystem",
+  "url" : "http://helsedir.no/fhir/CodeSystem/no-kodeverk-8231",
+  "identifier" : [
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "value" : "urn:oid:2.16.578.1.12.4.1.1.8231"
+    }
+  ],
+  "version" : "0.6.0",
+  "name" : "NoKodeverk8231",
+  "title" : "8231 Type tekstsvar",
+  "status" : "active",
+  "date" : "2025-11-09T13:44:50+00:00",
+  "description" : "Begrunnelse for rekvisisjon/henvisning",
+  "jurisdiction" : [
+    {
+      "coding" : [
+        {
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "NO",
+          "display" : "Norway"
+        }
+      ]
+    }
+  ],
+  "content" : "complete",
+  "count" : 18,
+  "concept" : [
+    {
+      "code" : "BG",
+      "display" : "Begrunnelse",
+      "definition" : "Uspesifisert"
+    },
+    {
+      "code" : "BUP-BM",
+      "display" : "Henvisningsgrunn barnets miljø"
+    },
+    {
+      "code" : "BUP-HG",
+      "display" : "Henvisningsgrunn barnet"
+    },
+    {
+      "code" : "DIAG",
+      "display" : "Diagnose",
+      "definition" : "Når den ikke oppgis strukturert"
+    },
+    {
+      "code" : "FA",
+      "display" : "Familie/sosialt"
+    },
+    {
+      "code" : "FO",
+      "display" : "Forløp og behandling"
+    },
+    {
+      "code" : "FU",
+      "display" : "Funn og undersøkelsesresultater"
+    },
+    {
+      "code" : "HJ",
+      "display" : "Funksjonsnivå/hjelpetiltak"
+    },
+    {
+      "code" : "IP",
+      "display" : "Informasjon til pasient/pårørende"
+    },
+    {
+      "code" : "KF",
+      "display" : "Kontroll pga. tidligere funn"
+    },
+    {
+      "code" : "MAAL",
+      "display" : "Mål for oppholdet"
+    },
+    {
+      "code" : "MU",
+      "display" : "Innkalt til masseundersøkelse"
+    },
+    {
+      "code" : "PROB",
+      "display" : "Aktuell problemstilling"
+    },
+    {
+      "code" : "RU",
+      "display" : "Rutineundersøkelse utenom masseundersøkelse"
+    },
+    {
+      "code" : "SVU",
+      "display" : "Spesialistvurdering",
+      "definition" : "Dersom henvisningen har blitt vurdert av en spesialist skal det finnes en forekomst av ReasonAsText med SVU som kodeverdi. Relevant epikriseinformasjon kan legges i TectResultValue feltet."
+    },
+    {
+      "code" : "UP",
+      "display" : "Ubesvarte prøver"
+    },
+    {
+      "code" : "UTRED",
+      "display" : "Forventet utredning/behandling"
+    },
+    {
+      "code" : "VU",
+      "display" : "Vurdering"
+    }
+  ]
+}
+
+```
