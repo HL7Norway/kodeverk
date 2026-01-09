@@ -7,8 +7,4 @@ Description: "Angir type identifikator for person"
 * ^identifier.value = "urn:oid:2.16.578.1.12.4.1.1.8327"
 * ^status = #active
 * ^publisher = "Helsedirektoratet"
-* ^content = #complete
-* #DNR "D-nummer"
-* #FHN "Felles hjelpenummer (FH-nummer)"
-* #FNR "Fødselsnummer"
-* #HNR "Virksomhetsinternt hjelpenummer"
+* ^content = #not-present

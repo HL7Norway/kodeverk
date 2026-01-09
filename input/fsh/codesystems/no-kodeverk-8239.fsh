@@ -7,12 +7,4 @@ Description: "Forholdsoperatorer i svarrapportering av medisinske tjeneste"
 * ^identifier.value = "urn:oid:2.16.578.1.12.4.1.1.8239"
 * ^status = #active
 * ^publisher = "Helsedirektoratet"
-* ^content = #complete
-* #EQ "Lik"
-* #GE "Større eller lik"
-* #GT "Større enn"
-* #LE "Mindre eller lik"
-* #LT "Mindre enn"
-* #MG "Mye større enn"	
-* #ML "Mye mindre enn"
-* #NE "Ikke lik"
+* ^content = #not-present

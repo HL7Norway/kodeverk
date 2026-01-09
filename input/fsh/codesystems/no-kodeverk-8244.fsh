@@ -7,7 +7,4 @@ Description: "Angir svarverdi i forhold til referansegrense"
 * ^identifier.value = "urn:oid:2.16.578.1.12.4.1.1.8244"
 * ^status = #active
 * ^publisher = "Helsedirektoratet"
-* ^content = #complete
-* #1 "Over øvre referansegrense"
-* #2 "Under nedre referansegrense"
-* #3 "Utenfor referansegrensene"
+* ^content = #not-present
